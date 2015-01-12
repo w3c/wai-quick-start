@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~>3.3.7"
-gem "middleman-gh-pages"
+gem "middleman-deploy"
 gem "middleman-autoprefixer"
 gem "middleman-syntax"
 
