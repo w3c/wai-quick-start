@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+  <%= current_page.data.title %>
+  <% if current_page.data.order == 1 %>
+    <% if current_page.data.guide_title %>
+      <%= " &bull; " + current_page.data.guide_title %>
+    <% end %>
+  <% else %>
+    <% if current_page.parent and current_page.parent.data.guide_title %>
+      <%= " &bull; " + current_page.parent.data.guide_title %>
+    <% end %>
+  <% end %>
+  &bull; WAI Web Accessibility Quick Start Guides
+  </title>
+  <meta name="viewport" content="width=device-width">
+  <%= stylesheet_link_tag "wai-dev" %>
+  <%= javascript_include_tag "modernizr" %>
+</head>
+<body class="texts">
+  <header role="banner">
+    <div class="w3c-wai-header">
+      <a href="http://w3.org/"><%= image_tag 'w3c.png', :alt => "W3C", :width => "90" %></a>
+      <a href="http://w3.org/WAI/" class="wai"><%= image_tag 'wai.png', :alt => "Web Accessibility Initiative" %></a>
+    </div>
+    <div class="page-title">
+      <%= x_link_to('Web Accessibility Quick Start Guides <span class="subheading">Lorem ipsum</span>', '/index.html') %>
+    </div>
+  </header>
+  <div class="<% if has_menu %>with-side-menu<% end %>">
+    <a href="#nav" class="btn btn-jump" role="navigation">Jump to the navigation</a>

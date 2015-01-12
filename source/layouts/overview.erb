@@ -1,0 +1,31 @@
+<%= partial "layouts/header", :locals => { :has_menu => false } %>
+<main role="main" class="content <%= current_page.data.status %><% if current_page.data.splash_image %> has_splash" style="background-image: url(/img/<%= current_page.data.splash_image %>)<% end %>">
+  <article role="article">
+  <header class="heading">
+    <nav class="breadcrumb">
+      <p>
+        &nbsp;
+      </p>
+		</nav>
+    <h1>
+      <%= current_page.data.title %>
+    </h1>
+  </header>
+
+  <% if current_page.data.status=="draft" %>
+  <div class="status">
+    <p><strong>Status:</strong> This is an in-progress, unapproved draft.</p>
+  </div>
+  <% end %>
+  <% if current_page.data.status=="editors-draft" %>
+  <div class="status">
+    <p><strong>Status (not ready for review):</strong> This is an in-progress, unapproved editor’s draft. Content may change at any time without notice.</p>
+  </div>
+  <% end %>
+
+  <div class="inner">
+    <%= yield %>
+  </div>
+  </article>
+</main>
+<%= partial "layouts/footer" %>
