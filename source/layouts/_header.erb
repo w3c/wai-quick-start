@@ -18,6 +18,7 @@
   <meta name="viewport" content="width=device-width">
   <%= stylesheet_link_tag "wai-dev" %>
   <%= javascript_include_tag "modernizr" %>
+  <%= javascript_include_tag "velocity" %>
 </head>
 <body class="texts <%= current_page.data.layout %>">
   <header role="banner">
@@ -26,10 +27,14 @@
       <a href="http://w3.org/WAI/" class="wai"><%= image_tag 'wai.png', :alt => "Web Accessibility Initiative" %></a>
     </div>
     <div class="page-title">
+      <a class="view-menu" href="#sitenav">Show to main navigation</a>
       <%= x_link_to('Web Accessibility Quick Start Guides <span class="subheading">Lorem ipsum</span>', '/index.html') %>
     </div>
   </header>
+
+  <%= partial "layouts/sitenav" %>
+
   <div>
-    <a href="#nav" class="btn btn-jump" role="navigation">Jump to the navigation</a>
+    <a href="#nav" class="btn btn-jump" role="navigation">Jump to page navigation</a>
     
     <%= partial "layouts/status" %>
