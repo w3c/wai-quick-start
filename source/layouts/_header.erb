@@ -19,7 +19,7 @@
   <%= stylesheet_link_tag "wai-dev" %>
   <%= javascript_include_tag "modernizr" %>
 </head>
-<body class="texts">
+<body class="texts <%= current_page.data.layout %>">
   <header role="banner">
     <div class="w3c-wai-header">
       <a href="http://w3.org/"><%= image_tag 'w3c.png', :alt => "W3C", :width => "90" %></a>
@@ -29,5 +29,7 @@
       <%= x_link_to('Web Accessibility Quick Start Guides <span class="subheading">Lorem ipsum</span>', '/index.html') %>
     </div>
   </header>
-  <div class="<% if has_menu %>with-side-menu<% end %>">
+  <div>
     <a href="#nav" class="btn btn-jump" role="navigation">Jump to the navigation</a>
+    
+    <%= partial "layouts/status" %>
