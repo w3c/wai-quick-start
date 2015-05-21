@@ -115,6 +115,7 @@ configure :build do
   activate :asset_hash
 
   # Use relative URLs
+  set :relative_links, true
   activate :relative_assets
 
   # Or use a different image path
