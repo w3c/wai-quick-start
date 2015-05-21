@@ -68,10 +68,7 @@ helpers do
   
   def list_nav_link(link_text, url, options = {})
     if is_current(url)
-      '<li id="current-node" class="current-nav">'
-      + '<span class="label"><span id="current-icon">»</span>'
-      + link_text
-      + '</span></li>'
+      '<li id="current-node" class="current-nav"><span class="label"><span id="current-icon">»</span>' + link_text + '</span></li>'
     else
       '<li>' + link_to(link_text, url, options) + '</li>'
     end
