@@ -1,26 +1,24 @@
 ---
-title: "Quick start tips"
+title: "Quick Start Tips"
 status: editors-draft
 ---
 
-These guides are provided to help you start with accessibility. They are not intended to be a comprehensive list of everything you need to do, but seek to provide you with practical tips and pointers to related resources.
+These guides provide you with practical tips to get started with accessibility and pointers to detailed resources to help you learn more.
 
-The tips are grouped roughly into key website creation and maintenance activities.
-
-[Design](design.html)
-: Includes tips to help those involved with visual or interface design.
+[Design tips](design.html)
+: For visual or interface design.
  
-[Development](development.html)
-: For front end developers involved in translating designs into working code.
+[Development tips](development.html)
+: For front-end website development.
 
-[Content](content.html)
-: For those involved in creating content for a website, such as content authors, editors, or managers.
+[Content tips](content.html)
+: For writing content for the web.
 
-[Evaluation](evaluation.html)
-: Tips to help those evaluating sites to put in place a process to best support accessibility evaluations.
+[Evaluation tips](evaluation.html)
+: For website evaluation process.
 
-[Project management](project_management.html)
-: Tips to help ensure the project management processes and frameworks adequately consider accessibility. 
+[Project management tips](project_management.html)
+: For create processes supportive of accessibility. 
 
-[Advocacy](advocacy.html)
-: For those involved in championing accessibility within their organization.
+[Advocacy tips](advocacy.html)
+: For championing accessibility in organizations.
