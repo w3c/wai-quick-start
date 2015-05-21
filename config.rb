@@ -52,51 +52,45 @@ helpers do
     end
   end
 
+  def is_current(url)
+    url == current_page.path
+  end
+  
   def nav_link(link_text, url, options = {})
     options[:class] ||= ""
-    if url == '/' + current_page.path
-      options[:class] << " current"
-      '<span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>' + link_text + '</span></span>'
+    
+    if is_current(url)
+      '<span class="label"><span id="current-icon">»</span>' + link_text + '</span>'
     else
-      link_to('<span class="count"></span><span class="txt">' + link_text + '</span>', url, options)
+      link_to(link_text, url, options)
+    end
+  end
+  
+  def list_nav_link(link_text, url, options = {})
+    if is_current(url)
+      '<li id="current-node" class="current-nav">'
+      + '<span class="label"><span id="current-icon">»</span>'
+      + link_text
+      + '</span></li>'
+    else
+      '<li>' + link_to(link_text, url, options) + '</li>'
     end
   end
 
-  def topic_link(link_text, url, options = {})
-  	res = sitemap.find_resource_by_path(url)
-
-  	if (res.data.status)
-  		status = res.data.status
-  		if status == "draft" || status == "approved-draft"
-  			status = ' <span class="status">draft</span>'
-  		else
-  			status = ' <span class="status">' + status + '</span>'
-  		end
-  	else
-  		status = ""
-  	end
-
-    if current_page.data.order == 1
-      if url == current_page.path
-        '<span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>' + link_text + status + '</span></span>'
-      else
-        link_to('<span class="count"></span><span class="txt">' + link_text + status + '</span>', '/' + url, options)
-      end
-    else
-      if url == current_page.parent.path
-        '<span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>' + link_text + status + '</span></span>'
-      else
-        link_to('<span class="count"></span><span class="txt">'+ link_text + status + '</span>', '/' + url, options)
-      end
-    end
+  def learn_more_start
+    '<aside class="learn_more"><h3>Learn more</h3>'
+  end
+  
+  def learn_more_end
+    '</aside>'
   end
 
-  def notes_start(status = "")
-    '<div class="notes '+ status +'">'
+  def example_start
+    '<aside class="learn_more"><h3>Example</h3>'
   end
-
-  def notes_end
-    '</div>'
+  
+  def example_end
+    '</aside>'
   end
 end
 

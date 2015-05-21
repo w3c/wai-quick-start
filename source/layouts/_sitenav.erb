@@ -1,17 +1,56 @@
-<div id="sitenav">
-  <nav role="navigation" aria-label="Site Navigation" id="nav">
+<nav id="nav">
+  <h2>Site Navigation</h2>
+  <p id="w3cnav">
+    <a href="http://www.w3.org/">W3C Home</a>
+  </p>
+  <p id="subhomenav">
     <a href="/WAI/">Web Accessibility Initiative (WAI) Home</a>
-    <ul>
-      <li><a href="/WAI/gettingstarted/Overview.html">Getting Started</a></li>
-      <li><a href="/WAI/users/Overview.html">Designing for Inclusion</a></li>
-      <li><a href="/WAI/guid-tech.html">Guidelines & Techniques</a></li>
-      <li><a href="/WAI/managing.html">Planning & Implementing</a></li>
-      <li><a href="/WAI/eval/Overview.html">Evaluating Accessibility</a></li>
-      <li><a href="/WAI/train.html">Presentations & Tutorials</a></li>
-      <li><a href="/WAI/about-links.html">Getting Involved with WAI</a></li>
-    </ul>
+  </p>
+  <ol id="nav1">
+    <li<% if is_current('index.html') %> id="current-node"<% end %> class="current-nav"><%= nav_link('Getting Started', 'index.html') %>
+      <ul>
+        <li class="nav-head">Using the Web
+          <ol>
+            <li><a href="../users/browsing.html">Better Web Browsing Tips</a></li>
+            <li><a href="../users/inaccessible.html">Contact Inaccessible Websites</a></li>
+          </ol>
+        </li>
+        <li class="nav-head">Accessibility Basics
+          <ol>
+            <li><a href="/standards/webdesign/accessibility">Accessibility - W3C <img src="http://w3.org/Icons/tr.png" alt="W3C website"></a></li>
+            <li><a href="../intro/accessibility.php">Introduction to Accessibility</a></li>
+            <li><a href="../intro/components.php">Essential Components</a></li>
+            <li><a href="../bcase/Overview.html">Business Case</a></li>
+          </ol>
+        </li>
+        <li class="nav-head">Quick Start Tips
+          <ol>
+            <%= list_nav_link('Design', '/quickstart/design.html') %>
+            <%= list_nav_link('Development', '/quickstart/development.html') %>
+            <%= list_nav_link('Content', '/quickstart/content.html') %>
+            <%= list_nav_link('Evaluation', '/quickstart/evaluation.html') %>
+            <%= list_nav_link('Project Management', '/quickstart/project_management.html') %>
+            <%= list_nav_link('Advocacy', '/quickstart/advocacy.html') %>
+          </ol>
+        </li>
+      </ul>
+    </li>
+    <li><a href="../users/Overview.html">Designing for Inclusion</a></li>
+    <li><a href="../guid-tech.html">Guidelines &amp; Techniques</a></li>
+    <li><a href="../managing.html">Planning &amp; Implementing</a></li>
+    <li><a href="../eval/Overview.html">Evaluating Accessibility</a></li>
+    <li><a href="../train.html">Tutorials &amp; Presentations</a></li>
+    <li><a href="../about-links.html">Getting Involved with WAI</a></li>
+  </ol>
+
+  <div id="nav-static">
     <div class="nav-discover">
-       <p><a shape="rect" href="http://www.w3.org/WAI/yourWAI"><strong><u>Discover new resources</u></strong> for people with disabilities, policy makers, managers, and you!</a></p>
+      <p>
+        <a href="http://www.w3.org/WAI/yourWAI"><strong><u>Discover new resources</u></strong> for people with disabilities, policy makers, managers, and you!</a>
+      </p>
     </div>
-  </nav>
-</div>
+    <p class="translations">
+      <a href="http://www.w3.org/WAI/wai-translations"><img src="http://www.w3.org/WAI/images/translations-med-1" alt="characters from different languages"> Translations</a>
+    </p>
+  </div>
+</nav>

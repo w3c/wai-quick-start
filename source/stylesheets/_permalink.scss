@@ -1,0 +1,85 @@
+$permalink_fg: #666;
+$permalink_bg: #f5f5f5;
+
+.permalink {
+  &.h4 {
+  	margin-top: .75em;
+  }
+	display: inline;
+	position: relative;
+	font-size: .7em;
+	float: right;
+	margin: 0 0 .5em .5em;
+	> a {
+		color: $permalink_fg !important;
+    border: 1px solid transparent;
+    text-decoration: none;
+		padding: .5em;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: .5em;
+		font-weight: bold;
+		white-space: nowrap;
+		svg {
+			vertical-align: middle;
+			display: inline-block;
+      height: 1.6em;
+      width: 1.6em;
+      fill: currentcolor;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+		}
+    &:hover, &:focus {
+      border: 1px solid darken($permalink_bg, 30%);
+    }
+	}
+	.sharebox {
+		display: none;
+		&.open {
+			display: block;
+		}
+		position: absolute;
+		z-index: 999;
+		top: 120%;
+		right: 0;
+		border: 1px solid darken($permalink_bg, 40%);
+		padding: .5em;
+		min-width: 20em;
+		max-width: 100%;
+		box-shadow: 0 0 10px -5px darken($permalink_bg, 40%);
+    background-color: $permalink_bg;
+		input {
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		label span {
+			display: block;
+			text-align: right;
+		}
+		button {
+    	background: linear-gradient(to bottom, darken($permalink_bg, 20%), darken($permalink_bg, 15%));
+    	color: darken($permalink_fg, 10%);
+    	font-weight: normal;
+    	font-size: 1em;
+    	line-height: 1.75;
+    	padding: .15em .4em;
+    	border: {
+    		width: 1px;
+    		style: solid;
+    		radius: .25em;
+    	}
+			position: absolute;
+			bottom: 0.5em;
+			right: 0.5em;
+    	&:hover, &:focus {
+      	background: linear-gradient(to bottom, darken($permalink_fg, 20%), darken($permalink_fg, 15%));
+      	color: darken($permalink_bg, 10%);
+    	}
+		}
+		p:first-child {
+			margin-top: 0;
+		}
+	}
+}

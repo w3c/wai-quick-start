@@ -13,28 +13,28 @@
       <%= " &bull; " + current_page.parent.data.guide_title %>
     <% end %>
   <% end %>
-  &bull; WAI Web Accessibility Quick Start Guides
+  &bull; Quick Start Guides &bull; WAI
   </title>
   <meta name="viewport" content="width=device-width">
-  <%= stylesheet_link_tag "wai-dev" %>
+  <%= stylesheet_link_tag "main" %>
+	<!--[if IE 7]><%= stylesheet_link_tag "http://www.w3.org/WAI/ie-old.css" %><![endif]-->
   <%= javascript_include_tag "modernizr" %>
-  <%= javascript_include_tag "velocity" %>
 </head>
-<body class="texts <%= current_page.data.layout %>">
-  <header role="banner">
-    <div class="w3c-wai-header">
-      <a href="http://w3.org/"><%= image_tag 'w3c.png', :alt => "W3C", :width => "90" %></a>
-      <a href="http://w3.org/WAI/" class="wai"><%= image_tag 'wai.png', :alt => "Web Accessibility Initiative" %></a>
+<body class="<%= page_classes %> <%= current_page.data.layout %> <%= current_page.data.status %>">
+
+  <header>
+  	<ul id="controls">
+  		<li><a href="#skip"><%= image_tag 'http://www.w3.org/Icons/downinpage.png', :alt => '' %> Skip to Content</a></li>
+  		<li> | <a href="http://www.w3.org/WAI/changedesign">Change text size or colors</a></li>
+  	</ul>
+  	<div id="masthead">
+      <p id="logos">
+        <a href="http://w3.org/" title="W3C Home"><%= image_tag 'http://w3.org/Icons/w3c_home', :alt => 'W3C Logo' %></a><a href="http://w3.org/WAI/" title="WAI Home"><%= image_tag 'http://w3.org/WAI/images/wai-temp', :alt => 'Web Accessibility initiative' %></a>
+      </p>
     </div>
-    <div class="page-title">
-      <a class="view-menu" href="#sitenav">Show to main navigation</a>
-      <%= x_link_to('Web Accessibility Quick Start Guides <span class="subheading">Lorem ipsum</span>', '/index.html') %>
+  	<div id="tagline">
+      <p>WAI: Strategies, guidelines, resources to make the Web accessible to people with disabilities</p>
     </div>
   </header>
 
   <%= partial "layouts/sitenav" %>
-
-  <div>
-    <a href="#nav" class="btn btn-jump" role="navigation">Jump to page navigation</a>
-    
-    <%= partial "layouts/status" %>
