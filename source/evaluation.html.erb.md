@@ -1,5 +1,5 @@
 ---
-title: "Accessibility tips for evaluation"
+title: "Accessibility Tips for Evaluation"
 status: editors-draft
 ---
 

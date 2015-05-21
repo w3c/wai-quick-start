@@ -1,5 +1,5 @@
 ---
-title: "Accessibility tips for adocacy"
+title: "Accessibility Tips for Advocacy"
 status: editors-draft
 ---
 
