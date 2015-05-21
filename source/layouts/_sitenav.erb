@@ -7,7 +7,7 @@
     <a href="/WAI/">Web Accessibility Initiative (WAI) Home</a>
   </p>
   <ol id="nav1">
-    <li<% if is_current('index.html') %> id="current-node"<% end %> class="current-nav"><%= nav_link('Getting Started', 'index.html') %>
+    <li class="current-nav"><a href="../gettingstarted/Overview.html">Getting Started</a>
       <ul>
         <li class="nav-head">Using the Web
           <ol>
@@ -23,14 +23,14 @@
             <li><a href="../bcase/Overview.html">Business Case</a></li>
           </ol>
         </li>
-        <li class="nav-head">Quick Start Tips
+        <li <% if is_current('index.html') %> id="current-node"<% end %>class="nav-head"><%= nav_link('Quick Start Tips', 'index.html') %>
           <ol>
-            <%= list_nav_link('Design', '/quickstart/design.html') %>
-            <%= list_nav_link('Development', '/quickstart/development.html') %>
-            <%= list_nav_link('Content', '/quickstart/content.html') %>
-            <%= list_nav_link('Evaluation', '/quickstart/evaluation.html') %>
-            <%= list_nav_link('Project Management', '/quickstart/project_management.html') %>
-            <%= list_nav_link('Advocacy', '/quickstart/advocacy.html') %>
+            <%= list_nav_link('Design', 'design.html') %>
+            <%= list_nav_link('Development', 'development.html') %>
+            <%= list_nav_link('Content', 'content.html') %>
+            <%= list_nav_link('Evaluation', 'evaluation.html') %>
+            <%= list_nav_link('Project Management', 'project_management.html') %>
+            <%= list_nav_link('Advocacy', 'advocacy.html') %>
           </ol>
         </li>
       </ul>
