@@ -574,11 +574,15 @@ a {
 
 .contribute {
   border: 1px solid #666 !important;
+  background-color: darken($wai_bg, 1%);
   border-radius: .5em;
   padding: 1em;
   margin: 2em auto;
-  width: 50%;
+  width: 60%;
   .heading {
+    @extend .font-secondary;
+    color: #333333 !important;
+    border-bottom: none !important;
     font-weight: bold;
     font-size: 1em;
     margin: 0 !important;
@@ -718,7 +722,7 @@ hr {
 // Buttons
 .btn {
   background: linear-gradient(to bottom, lighten(#ccc, 10%), #ccc);
-  color: #333;
+  color: #333 !important;
   font-weight: normal;
   font-size: 1em;
   line-height: percentage(44/18);
