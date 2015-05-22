@@ -25,7 +25,7 @@ For each text foreground/background color combination, including on buttons, che
 {:.attach_permalink}
 ## Don't use color alone to signify meaning
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Ensure links and interactive elements have a hover and focus styling for mouse and keyboard interaction
@@ -35,29 +35,29 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 {:.attach_permalink}
 ## Provide navigation that allows easy access to other website pages and clear indication of location in website
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Provide visible controls for audio and video players
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Ensure form elements include clearly associated labels, with space for important instructions
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Present form errors in a block above the form and make the fields in error extremely obvious
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Structure text to include headers, not be too wide, and in a good font size
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Learn more about accessibility
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]

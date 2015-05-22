@@ -8,7 +8,7 @@ status: editors-draft
 {:.attach_permalink}
 ## Ensure good semantic mark-up; e.g. if it looks like a header, mark it up with a header element
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Associate a label with all form elements
@@ -40,34 +40,34 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 {:.attach_permalink}
 ## Include HTML5 structural elements
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Match the reading order and the code order
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Use ARIA to provide meaning to non-standard interactive elements 
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Run Easy Checks periodically to ensure basic accessibility
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Check your code validates
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Learn more about accessibility
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]

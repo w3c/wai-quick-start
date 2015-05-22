@@ -24,34 +24,34 @@ Support from management helps ensure budget and resources are available for acce
 {:.attach_permalink}
 ## Provide accessibility awareness training
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Appoint at least one accessibility specialist
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Plan for regular accessibility checks
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ##  Create an accessibility policy 
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ##  Provide a publicly available website accessibility statement 
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Involve users with disability in any usability testing
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ## Learn more about accessibility
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[ ... Tip description goes here ... ]
