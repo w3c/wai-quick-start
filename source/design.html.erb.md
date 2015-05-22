@@ -6,7 +6,7 @@ status: editors-draft
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {:.attach_permalink}
-## Provide good contrast between colors
+## Provide sufficient contrast between colors
 
 For each text foreground/background color combination, including on buttons, check that the contrast between the two colors is sufficient. For text on a background image check a sample of dominant colors or provide some way to make the text stand out. Where color is used to differentiate two or more objects, ensure that contrast is checked between the colors of adjacent objects.
 
@@ -30,7 +30,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 {:.attach_permalink}
 ## Ensure links and interactive elements have a hover and focus styling for mouse and keyboard interaction
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Note:** 'Hover' styling is not relevant for touch devices and 'active' may be more relevant. The tip refers specifically to 'keyboard interaction' but it might be appropriate to mention touch styling as well.
 
 {:.attach_permalink}
 ## Provide navigation that allows easy access to other website pages and clear indication of location in website

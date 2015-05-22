@@ -31,7 +31,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 {:.attach_permalink}
-## Incorporate WCAG-EM Reporting Tool into QA process
+## Use a standard reporting template for evaluations
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

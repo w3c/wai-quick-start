@@ -38,7 +38,7 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 {:/}
 
 {:.attach_permalink}
-## Use HTML5 structural elements
+## Include HTML5 structural elements
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -54,6 +54,11 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{:.attach_permalink}
+## Run Easy Checks periodically to ensure basic accessibility
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
