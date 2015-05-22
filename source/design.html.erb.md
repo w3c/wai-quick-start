@@ -30,6 +30,8 @@ For each text foreground/background color combination, including on buttons, che
 {:.attach_permalink}
 ## Ensure links and interactive elements have a hover and focus styling for mouse and keyboard interaction
 
+[ … Tip description goes here … ]
+
 **Note:** 'Hover' styling is not relevant for touch devices and 'active' may be more relevant. The tip refers specifically to 'keyboard interaction' but it might be appropriate to mention touch styling as well.
 
 {:.attach_permalink}
