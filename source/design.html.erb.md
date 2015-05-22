@@ -3,7 +3,7 @@ title: "Accessibility Tips for Design"
 status: editors-draft
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+[ ... Brief description goes here ... ]
 
 {:.attach_permalink}
 ## Provide sufficient contrast between colors

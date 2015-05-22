@@ -3,7 +3,7 @@ title: "Accessibility Tips for Project Management"
 status: editors-draft
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+[ ... Brief description goes here ... ]
 
 {:.attach_permalink}
 ## Secure buy-in from senior management

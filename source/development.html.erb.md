@@ -3,7 +3,7 @@ title: "Accessibility Tips for Development"
 status: editors-draft
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+[ ... Brief description goes here ... ]
 
 {:.attach_permalink}
 ## Ensure good semantic mark-up; e.g. if it looks like a header, mark it up with a header element
