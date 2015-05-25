@@ -25,41 +25,123 @@ For each text foreground/background color combination, including on buttons, che
 {:.attach_permalink}
 ## Don't use color alone to signify meaning
 
-[ ... Tip description goes here ... ]
+When differentiating elements in diagrams, such as graphs or maps, use something more than color to do so. Also, if referring to a highlighted element in text, ensure that color is not the only difference referenced.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Image of example graph ...]
+
+[... Reference to color in text example? ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Ensure links and interactive elements have a hover and focus styling for mouse and keyboard interaction
 
-[ … Tip description goes here … ]
+Provide a different style for links and interactive elements for when the element is active. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
 
-**Note:** 'Hover' styling is not relevant for touch devices and 'active' may be more relevant. The tip refers specifically to 'keyboard interaction' but it might be appropriate to mention touch styling as well.
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Example of styles for normal, hover, focus, active on link (and form element)? ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Provide navigation that allows easy access to other website pages and clear indication of location in website
 
-[ ... Tip description goes here ... ]
+Ensure page designs include clear and consistent navigation that indicate where in a site the user is, for example, breadcrumbs, and how they can access other areas of the site, for example, primary navigation in a header. Secondary navigation styles may be required for specific web content, such as products in an online store. Aim for consistency in style if secondary navigation is used in many different places.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Example of various navigation styles? ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Provide visible controls for audio and video players
 
-[ ... Tip description goes here ... ]
+For designs that include audio or video content, ensure that there is provision for controls for the player. The controls should include as a minimum start, pause, seek controls, and volume controls. Ensure their position, size, and styling make them sufficiently prominent.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Example of good and bad controls? ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Ensure form elements include clearly associated labels, with space for important instructions
 
-[ ... Tip description goes here ... ]
+When creating forms, ensure that all elements have a descriptive label adjacent to the element. Labels are usually positioned to the left or above the element, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
+
+[**Note:** What about elements where labels are not required?]
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Present form errors in a block above the form and make the fields in error extremely obvious
 
-[ ... Tip description goes here ... ]
+When something goes wrong, it should be extremely obvious where to find the problem. Ideally, provide a list of errors above the form, repeat the error beside the offending form element, and create a style that make the element really stand out. Inline validation can be extremely helpful for many users, but needs careful coding to ensure accessibility.
+
+[**Note:** Should something on this be included in the developing section?]
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Example of form errors ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
-## Structure text to include headers, not be too wide, and in a good font size
+## Design text to include headers, not be too wide, and in a good font size
 
-[ ... Tip description goes here ... ]
+Text design benefits from clear headers to chunk up content, and main content that is not too wide. Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom.
+
+[**Note:** Something about white space?]
+
+[**Note:** Suggests a separate section on creating responsive designs?]
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Learn more about accessibility
 
 [ ... Tip description goes here ... ]
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
