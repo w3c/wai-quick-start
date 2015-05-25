@@ -129,6 +129,8 @@ Text design benefits from clear headers to chunk up content, and main content th
 <%= example_start %>
 {:/}
 
+[... Example of text layout? ...]
+
 {::nomarkdown}
 <%= example_end %>
 {:/}
