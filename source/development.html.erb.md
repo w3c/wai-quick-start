@@ -6,9 +6,20 @@ status: editors-draft
 [ ... Brief description goes here ... ]
 
 {:.attach_permalink}
-## Ensure good semantic mark-up; e.g. if it looks like a header, mark it up with a header element
+## Use mark-up to convey meaning
 
-[ ... Tip description goes here ... ]
+HTML5 provides many elements that signify meaning, such as `<h1>`, `<nav>`, `<aside>`, which can be interpreted and communicated by assistive technologies. Use these elements to help structure content and convey meaning that is visually apparent. ARIA roles can be used to provide additional meaning to page elements, for example, using `role='search'` to identify search functionality. Work with designers and content authors to ensure the given meaning is agreed and consistently used.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Example of markup along side a visual design ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
+
 
 {:.attach_permalink}
 ## Associate a label with all form elements
@@ -38,34 +49,77 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 {:/}
 
 {:.attach_permalink}
-## Include HTML5 structural elements
-
-[ ... Tip description goes here ... ]
-
-{:.attach_permalink}
 ## Match the reading order and the code order
 
-[ ... Tip description goes here ... ]
+As much as possible, ensure that the order of elements in the code matches the order of the visual design. This can be checked by removing CSS styling and comparing the order of the content with the visual hierarchy of the page.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Example of code order versus visual order ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
-## Use ARIA to provide meaning to non-standard interactive elements 
+## Provide meaning to non-standard interactive elements 
 
-[ ... Tip description goes here ... ]
+When creating new interactive elements, such as accordions, or off canvas navigation, ARIA attributes use to provide meaning and state. Additional code is usually required to implement interactions, for example, opening and closing elements.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Example of hamburger menu, list of images as radio select, or collapsable accordion ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
-[ ... Tip description goes here ... ]
+This is easily checked by trying to interactive with a page using the keyboard only. If some functionality, is not reachable using just the keyboard then there is a problem. Think about keyboard access when developing new interactive elements, such as menus, collapsable accordions, or media players.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... **Note:** May be too complex to create an example for ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Run Easy Checks periodically to ensure basic accessibility
 
-[ ... Tip description goes here ... ]
+Check code regularly for accessibility barriers to prevent serious issues becoming expensive to fix.
+
+**Note that** this does not replace a comprehensive evaluation.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
 
 {:.attach_permalink}
 ## Check your code validates
 
-[ ... Tip description goes here ... ]
+Validate HTML and CSS to identify possible compatibility problems. Fix identified problems to reduce the risk of errors on different devices.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
 
 {:.attach_permalink}
 ## Learn more about accessibility
