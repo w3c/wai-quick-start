@@ -23,7 +23,7 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Run early and early quick reviews
+## Run checks regularly throughout the process
 
 [ ... Tip description goes here ... ]
 
