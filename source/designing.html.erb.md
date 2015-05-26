@@ -140,7 +140,7 @@ Text design benefits from clear headers to chunk up content, and main content th
 {:/}
 
 {:.attach_permalink}
-## Present text in a good font size and not too wide
+## Present text in a good font size and line length
 
 Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom. For all designs ensure that the line length is kept to about 80 characters maximum.
 
