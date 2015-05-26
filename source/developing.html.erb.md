@@ -22,7 +22,7 @@ HTML5 provides many elements that signify meaning, such as `<h1>`, `<nav>`, `<as
 
 
 {:.attach_permalink}
-## Associate a label with all form elements
+## Associate all form elements with labels
 
 Associate the `<label>` element with form elements using the *for* and *id* attributes. If there is not a visible label, provide a label and position it offscreen using CSS. 
 
