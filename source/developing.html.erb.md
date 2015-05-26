@@ -94,21 +94,6 @@ This is easily checked by trying to interactive with a page using the keyboard o
 {:/}
 
 {:.attach_permalink}
-## Run Easy Checks periodically to ensure basic accessibility
-
-Check code regularly for accessibility barriers to prevent serious issues becoming expensive to fix.
-
-**Note that** this does not replace a comprehensive evaluation.
-
-{::nomarkdown}
-<%= example_start %>
-{:/}
-
-{::nomarkdown}
-<%= example_end %>
-{:/}
-
-{:.attach_permalink}
 ## Check your code validates
 
 Validate HTML and CSS to identify possible compatibility problems. Fix identified problems to reduce the risk of errors on different devices.
@@ -120,6 +105,7 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 {::nomarkdown}
 <%= learn_more_end %>
 {:/}
+
 
 {:.attach_permalink}
 ## Learn more about accessibility

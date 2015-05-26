@@ -5,6 +5,8 @@ status: editors-draft
 
 [ ... Brief description goes here ... ]
 
+<!-- TODO: Consider moving buy-in and policy activities to advocacy -->
+
 {:.attach_permalink}
 ## Secure buy-in from senior management
 
@@ -22,27 +24,27 @@ Support from management helps ensure budget and resources are available for acce
 {:/}
 
 {:.attach_permalink}
-## Provide accessibility awareness training
-
-[ ... Tip description goes here ... ]
-
-{:.attach_permalink}
-## Appoint at least one accessibility specialist
-
-[ ... Tip description goes here ... ]
-
-{:.attach_permalink}
-## Plan for regular accessibility checks
-
-[ ... Tip description goes here ... ]
-
-{:.attach_permalink}
 ##  Create an accessibility policy 
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
 ##  Provide a publicly available website accessibility statement 
+
+[ ... Tip description goes here ... ]
+
+{:.attach_permalink}
+## Identify team accessibility contacts
+
+[ ... Tip description goes here ... ]
+
+{:.attach_permalink}
+## Provide accessibility awareness training
+
+[ ... Tip description goes here ... ]
+
+{:.attach_permalink}
+## Plan for regular accessibility checks
 
 [ ... Tip description goes here ... ]
 

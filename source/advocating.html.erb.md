@@ -11,18 +11,7 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Create awareness for accessibility through presentation and outreach
-
-[ ... Tip description goes here ... ]
-
-
-{:.attach_permalink}
 ## Develop accessibility business case
-
-[ ... Tip description goes here ... ]
-
-{:.attach_permalink}
-## Align accessibility rationale with general organizational policies
 
 [ ... Tip description goes here ... ]
 
@@ -32,17 +21,27 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
+## Align accessibility rationale with organizational policies
+
+[ ... Tip description goes here ... ]
+
+{:.attach_permalink}
+## Develop awareness for accessibility
+
+[ ... Tip description goes here ... ]
+
+{:.attach_permalink}
 ## Communicate accessibility wins
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Create an internal and external feedback mechanism
+## Create feedback mechanisms
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Use Easy Checks to develop a general appreciation for key website accessibility
+## Develop an understanding for key website accessibility
 
 [ ... Tip description goes here ... ]
 

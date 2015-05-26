@@ -40,9 +40,11 @@ When differentiating elements in diagrams, such as graphs or maps, use something
 {:/}
 
 {:.attach_permalink}
-## Ensure links and interactive elements have a hover and focus styling for mouse and keyboard interaction
+## Ensure interactive elements are easily identified
 
 Provide a different style for links and interactive elements for when the element is active. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
+
+<!-- TODO: Change in title requires a slight change to copy -->
 
 {::nomarkdown}
 <%= example_start %>
@@ -55,9 +57,11 @@ Provide a different style for links and interactive elements for when the elemen
 {:/}
 
 {:.attach_permalink}
-## Provide navigation that allows easy access to other website pages and clear indication of location in website
+## Provide consistent navigation and orientation information
 
 Ensure page designs include clear and consistent navigation that indicate where in a site the user is, for example, breadcrumbs, and how they can access other areas of the site, for example, primary navigation in a header. Secondary navigation styles may be required for specific web content, such as products in an online store. Aim for consistency in style if secondary navigation is used in many different places.
+
+<!-- TODO: Edit to reflect new title -->
 
 {::nomarkdown}
 <%= example_start %>
@@ -85,11 +89,13 @@ For designs that include audio or video content, ensure that there is provision 
 {:/}
 
 {:.attach_permalink}
-## Ensure form elements include clearly associated labels, with space for important instructions
+## Ensure form elements include clearly associated labels
 
 When creating forms, ensure that all elements have a descriptive label adjacent to the element. Labels are usually positioned to the left or above the element, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
 
 [**Note:** What about elements where labels are not required?]
+
+[**Note:** Should some mention be made regarding space for instructions?]
 
 {::nomarkdown}
 <%= example_start %>
@@ -100,7 +106,7 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 {:/}
 
 {:.attach_permalink}
-## Present form errors in a block above the form and make the fields in error extremely obvious
+## Provide clear presentation of errors
 
 When something goes wrong, it should be extremely obvious where to find the problem. Ideally, provide a list of errors above the form, repeat the error beside the offending form element, and create a style that make the element really stand out. Inline validation can be extremely helpful for many users, but needs careful coding to ensure accessibility.
 
@@ -117,11 +123,26 @@ When something goes wrong, it should be extremely obvious where to find the prob
 {:/}
 
 {:.attach_permalink}
-## Design text to include headers, not be too wide, and in a good font size
+## Use headers and whitespace to group content
 
 Text design benefits from clear headers to chunk up content, and main content that is not too wide. Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom.
 
-[**Note:** Something about white space?]
+<!-- TODO: Update description to reflect new title -->
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Example of text layout? ...]
+
+{::nomarkdown}
+<%= example_end %>
+{:/}
+
+{:.attach_permalink}
+## Present text in a good font size and not too wide
+
+Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom. For all designs ensure that the line length is kept to about 80 characters maximum.
 
 [**Note:** Suggests a separate section on creating responsive designs?]
 

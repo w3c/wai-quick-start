@@ -16,17 +16,17 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Make all links clear, for example, avoid using 'click here' or 'more'
+## Make the text in links clear
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Provide short, meaningful headings to break-up long text blocks
+## Provide short, meaningful headings to break-up text
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Ensure that transcripts and captions are provided for audio/visual content
+## Provide transcripts and captions for audio/visual content
 
 [ ... Tip description goes here ... ]
 
@@ -36,7 +36,7 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Use informative, unique page titles
+## Use informative and unique page titles
 
 [ ... Tip description goes here ... ]
 
