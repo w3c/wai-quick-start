@@ -11,41 +11,41 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Develop accessibility business case
+## Develop an accessibility business case
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Secure management support for accessibility activities
+## Address management to support accessibility activities
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Align accessibility rationale with organizational policies
+## Align rationale with organizational policies
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Develop awareness for accessibility
+## Promote awareness for accessibility
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Communicate accessibility wins
+## Seek alliances within the organization
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Create feedback mechanisms
+## Assess the current situation
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Develop an understanding for key website accessibility
+## Highlight and communicate existing barriers
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Actively seek input from people with disabilities
+## Involve experts and people with disabilities
 
 [ ... Tip description goes here ... ]
