@@ -16,7 +16,7 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Secure management support for accessibility activities
+## Address management to support accessibility activities
 
 [ ... Tip description goes here ... ]
 
@@ -36,12 +36,12 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Create feedback mechanisms
+## Assess the current situation
 
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Develop an understanding for key website accessibility
+## Highlight and communicate existing barriers
 
 [ ... Tip description goes here ... ]
 
