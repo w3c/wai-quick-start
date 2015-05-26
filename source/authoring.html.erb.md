@@ -11,7 +11,7 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-##  Keep it short and simple 
+##  Keep information *OR* text short and simple 
 
 [ ... Tip description goes here ... ]
 
