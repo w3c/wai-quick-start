@@ -5,7 +5,7 @@ status: editors-draft
 
 [ ... Brief description goes here ... ]
 
-{:.toc}
+{:.toc .no_toc}
 ## On this page
 
 {:.toc}
