@@ -5,6 +5,13 @@ status: editors-draft
 
 [ ... Brief description goes here ... ]
 
+{:.toc}
+## On this page
+
+{:.toc}
+* Will be replaced with the ToC
+{:toc}
+
 {:.attach_permalink}
 ## Select tools to assist in testing
 

@@ -5,6 +5,13 @@ status: editors-draft
 
 [ ... Brief description goes here ... ]
 
+{:.toc}
+## On this page
+
+{:.toc}
+* Will be replaced with the ToC
+{:toc}
+
 {:.attach_permalink}
 ## Learn more about accessibility
 
@@ -41,7 +48,7 @@ status: editors-draft
 [ ... Tip description goes here ... ]
 
 {:.attach_permalink}
-## Develop an understanding for key website accessibility
+## Assess the current situation and communicate existing barriers
 
 [ ... Tip description goes here ... ]
 

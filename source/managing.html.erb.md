@@ -5,6 +5,13 @@ status: editors-draft
 
 [ ... Brief description goes here ... ]
 
+{:.toc}
+## On this page
+
+{:.toc}
+* Will be replaced with the ToC
+{:toc}
+
 <!-- TODO: Consider moving buy-in and policy activities to advocacy -->
 
 {:.attach_permalink}

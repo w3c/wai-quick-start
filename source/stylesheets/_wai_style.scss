@@ -439,6 +439,32 @@ a {
   		background-color:#FCC;
   	}
   }
+
+  h2.toc {
+    color: $wai_fg;
+    margin-bottom: 0.25em;
+    border: 0;
+  }
+  ul.toc {
+    list-style: none;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    padding: 0em;
+    ul {
+      list-style: none;
+      margin-left: 1.5em;
+      margin: 0em;
+    }
+    a {
+      background: url(http://www.w3.org/Icons/downinpage.png) left no-repeat;
+      padding-left: 1.5em;
+      color: $wai_red;
+      text-decoration: none;
+      &:hover, &focus {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 /*
