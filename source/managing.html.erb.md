@@ -8,9 +8,8 @@ status: editors-draft
 {:.toc .no_toc}
 ## On this page
 
-{:.toc}
+{:toc .toc}
 * Will be replaced with the ToC
-{:toc}
 
 <!-- TODO: Consider moving buy-in and policy activities to advocacy -->
 

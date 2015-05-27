@@ -8,9 +8,8 @@ status: editors-draft
 {:.toc .no_toc}
 ## On this page
 
-{:.toc}
+{:toc .toc}
 * Will be replaced with the ToC
-{:toc}
 
 {:.attach_permalink}
 ## Provide sufficient contrast between colors
