@@ -53,9 +53,9 @@ When first used on a page, ensure that acronyms are fully expanded. Follow the e
 {:/}
 
 {:.attach_permalink}
-## Make the text in links clear
+## Make link text clear
 
-Avoid using link text such as 'click here', 'find out more', or 'read more'. Link text should ideally describe the content of the link target in a meaningful way. Where the link target is not HTML, indicate the document type and approximate size in the link text.
+Try to write link text so that it would make sense out of context. Link text should describe the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Where the link target is not HTML, indicate the document type and approximate size in the link text.
 
 {::nomarkdown}
 <%= example_start %>

@@ -100,7 +100,7 @@ This is easily checked by trying to interactive with a page using the keyboard o
 {:/}
 
 {:.attach_permalink}
-## Check your code validates
+## Check that your code validates
 
 Validate HTML and CSS to identify possible compatibility problems. Fix identified problems to reduce the risk of errors on different devices.
 
