@@ -14,7 +14,7 @@ status: editors-draft
 {:.attach_permalink}
 ## Provide sufficient contrast between colors
 
-For each text foreground/background color combination, including on buttons, check that the contrast between the two colors is sufficient. For text on a background image check a sample of dominant colors or provide some way to make the text stand out. Where color is used to differentiate two or more objects, ensure that contrast is checked between the colors of adjacent objects.
+Wherever text is displayed, including on buttons, check that you have chosen foreground/background color combinations that have sufficient contrast. For text on a background image check a sample of dominant colors or provide some way to make the text stand out. Where color is used to differentiate two or more objects, ensure that contrast is checked between the colors of adjacent objects.
 
 {::nomarkdown}
 <%= learn_more_start %>
@@ -31,7 +31,7 @@ For each text foreground/background color combination, including on buttons, che
 {:.attach_permalink}
 ## Don't use color alone to signify meaning
 
-When differentiating elements in diagrams, such as graphs or maps, use something more than color to do so. Also, if referring to a highlighted element in text, ensure that color is not the only difference referenced.
+Color can be a useful indicator of emphasis or meaning but can never be the only way such meaning is conveyed. Use additional notification methods that do not rely on color perception when using color to differentiate elements, for example in graphs or maps, or when highlighting information, for example required form fields or important text.
 
 {::nomarkdown}
 <%= example_start %>
@@ -48,9 +48,7 @@ When differentiating elements in diagrams, such as graphs or maps, use something
 {:.attach_permalink}
 ## Ensure interactive elements are easily identified
 
-Provide a different style for links and interactive elements for when the element is active. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
-
-<!-- TODO: Change in title requires a slight change to copy -->
+Provide distinct styles for the inactive and active states of interactive elements, including links. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
 
 {::nomarkdown}
 <%= example_start %>
@@ -146,7 +144,7 @@ Text design benefits from clear headers to chunk up content, and main content th
 {:/}
 
 {:.attach_permalink}
-## Present text in a good font size and line length
+## Present text in a flexible font size and line length
 
 Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom. For all designs ensure that the line length is kept to about 80 characters maximum.
 
