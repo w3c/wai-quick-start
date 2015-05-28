@@ -32,32 +32,80 @@ Support from management helps ensure budget and resources are available for acce
 {:.attach_permalink}
 ##  Create an accessibility policy 
 
-[ ... Tip description goes here ... ]
+An accessibility policy for your organization should define your goals and targets regarding the accessibility of web content and services. Ensure there is a clear indication of standards to be adhered to, scope of the policy, and milestones. Consider also an internal process for how accessibility will be monitored.
+  
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
 
 {:.attach_permalink}
 ##  Provide a publicly available website accessibility statement 
 
-[ ... Tip description goes here ... ]
+An external website accessibility statement should include details on conformance levels and any specific accessibility accommodations provided for users. It is also helpful to provide a contact mechanism for people who might have difficulties with the website as a result of disability.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
 
 {:.attach_permalink}
 ## Identify team accessibility contacts
 
-[ ... Tip description goes here ... ]
+Identify key project team members who will have responsibility for leading accessibility activities and to function as primary contacts for accessibility questions. Ensure there is representation from across all project areas such as design, content creation, development, and quality assurance. In smaller teams it is likely that one individual will have primary responsibility for accessibility.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
 
 {:.attach_permalink}
 ## Provide accessibility awareness training
 
-[ ... Tip description goes here ... ]
+Accessibility awareness training should be provided for all team members. This should seek to introduce accessibility and explain why it is important. Ideally it will also cover aspects of how people with disabilities use the web to cultivate a better appreciation of why certain accommodations are important.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
 
 {:.attach_permalink}
 ## Plan for regular accessibility checks
 
-[ ... Tip description goes here ... ]
+Seek to identify accessibility barriers early by undertaking regular checks throughout the project life-cycle. These checks need not be extensive but should aim to identify common barriers. Such checks can also help in developing team understanding of accessibility and reinforcing good practice. More significant delivery milestones should be preceded by a comprehensive accessibility evaluation.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
 
 {:.attach_permalink}
 ## Involve users with disability in any usability testing
 
-[ ... Tip description goes here ... ]
+Any usability testing should seek to incorporate feedback from people with disabilities. This is especially important for websites where the target audience are likely to benefit more from accessible solutions, such as older people.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
 
 {:.attach_permalink}
 ## Learn more about accessibility
