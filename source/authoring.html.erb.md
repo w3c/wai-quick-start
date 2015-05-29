@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Tips for Authoring Content"
+title: "Authoring: Tips for writing accessible content for the web"
 status: editors-draft
 ---
 

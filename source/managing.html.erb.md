@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Tips for Project Management"
+title: "Managing: Tips for planning and managing web accessibility"
 status: editors-draft
 ---
 

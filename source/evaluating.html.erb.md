@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Tips for Evaluation"
+title: "Evaluating: Tips for website accessibility evaluation process"
 status: editors-draft
 ---
 
