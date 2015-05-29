@@ -5,3 +5,25 @@
 .permalink {
   background-color: #fffaf5;
 }
+
+#main {
+  nav.in-page {
+    float: right;
+    width: 25%;
+    background: #fffaf5 none repeat scroll 0 0;
+    border: 1px dashed #930;
+    font-weight: bold;
+    padding: 1em;
+    h2 {
+      border: none;
+      color: $wai_fg;
+      margin: 0;
+      a {
+        text-decoration: none;
+      }
+    }
+    ul {
+      margin: 0.5em 0 0 0;
+    }
+  }
+}
