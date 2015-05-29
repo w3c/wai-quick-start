@@ -21,16 +21,16 @@
             <li><a href="../intro/accessibility.php">Introduction to Accessibility</a></li>
             <li><a href="../intro/components.php">Essential Components</a></li>
             <li><a href="../bcase/Overview.html">Business Case</a></li>
-          </ol>
-        </li>
-        <li <% if is_current('index.html') %> id="current-node"<% end %>class="nav-head"><%= nav_link('Quick Start Tips', 'index.html') %>
-          <ol>
-            <%= list_nav_link('Designing', 'designing.html') %>
-            <%= list_nav_link('Developing', 'developing.html') %>
-            <%= list_nav_link('Authoring', 'authoring.html') %>
-            <%= list_nav_link('Evaluating', 'evaluating.html') %>
-            <%= list_nav_link('Managing', 'managing.html') %>
-            <%= list_nav_link('Advocating', 'advocating.html') %>
+            <li <% if is_current('index.html') %> id="current-node"<% end %>class=""><%= nav_link('Quick Start Tips', 'index.html') %>
+              <ol type='i'>
+                <%= list_nav_link('Designing', 'designing.html') %>
+                <%= list_nav_link('Developing', 'developing.html') %>
+                <%= list_nav_link('Authoring', 'authoring.html') %>
+                <%= list_nav_link('Evaluating', 'evaluating.html') %>
+                <%= list_nav_link('Managing', 'managing.html') %>
+                <%= list_nav_link('Advocating', 'advocating.html') %>
+              </ol>
+            </li>
           </ol>
         </li>
       </ul>
