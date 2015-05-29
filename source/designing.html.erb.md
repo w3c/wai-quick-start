@@ -1,6 +1,7 @@
 ---
 title: "Designing: Tips for accessible visual and interface design"
 status: editors-draft
+layout: guide
 ---
 
 [ ... Brief description goes here ... ]

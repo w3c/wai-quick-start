@@ -1,6 +1,7 @@
 ---
 title: "Developing: Tips for accessible front-end coding"
 status: editors-draft
+layout: guide
 ---
 
 [ ... Brief description goes here ... ]

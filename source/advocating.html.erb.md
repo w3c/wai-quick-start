@@ -1,6 +1,7 @@
 ---
 title: "Advocating: Tips for championing accessibility in organizations"
 status: editors-draft
+layout: guide
 ---
 
 [ ... Brief description goes here ... ]

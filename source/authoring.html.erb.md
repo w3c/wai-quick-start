@@ -1,6 +1,7 @@
 ---
 title: "Authoring: Tips for writing accessible content for the web"
 status: editors-draft
+layout: guide
 ---
 
 [ ... Brief description goes here ... ]

@@ -1,6 +1,7 @@
 ---
 title: "Evaluating: Tips for website accessibility evaluation process"
 status: editors-draft
+layout: guide
 ---
 
 [ ... Brief description goes here ... ]

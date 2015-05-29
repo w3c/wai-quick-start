@@ -1,6 +1,7 @@
 ---
 title: "Managing: Tips for planning and managing web accessibility"
 status: editors-draft
+layout: guide
 ---
 
 [ ... Brief description goes here ... ]

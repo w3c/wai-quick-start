@@ -1,0 +1,10 @@
+<nav class="in-page">
+  <h2><%= nav_link('Quick Start Tips', 'index.html') %> are also available on:</h2>
+  <ul>
+    <% ['designing', 'developing', 'authoring', 'evaluating', 'managing', 'advocating'].each do |guide| %>
+      <% unless is_current(guide + '.html') %>
+        <li><a href="<%= guide %>.html"><%= guide.capitalize %></a></li>
+      <% end %>
+    <% end %>
+  </ul>
+</nav>
