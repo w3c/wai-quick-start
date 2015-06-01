@@ -4,7 +4,7 @@ status: editors-draft
 layout: guide
 ---
 
-[ ... Brief description goes here ... ]
+These are introductory tips to help you start with accessibility. While not an exhaustive list of requirements, they cover important points that will help you better incorporate accessibility into your visual and interaction designs.
 
 {:.toc .no_toc}
 ## On this page

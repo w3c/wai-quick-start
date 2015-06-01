@@ -4,7 +4,7 @@ status: editors-draft
 layout: guide
 ---
 
-[ ... Brief description goes here ... ]
+These are introductory tips to help you start with accessibility. While not an exhaustive list of requirements, they cover important points that will help you improve your accessibility evaluation process.
 
 {:.toc .no_toc}
 ## On this page
