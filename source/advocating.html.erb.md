@@ -13,11 +13,6 @@ These are introductory tips to help you start with accessibility. While not an e
 * Will be replaced with the ToC
 
 {:.attach_permalink}
-## Learn more about accessibility
-
-[ ... Tip description goes here ... ]
-
-{:.attach_permalink}
 ## Assess the current situation and communicate existing barriers
 
 Undertake a quick accessibility evaluation of key organizational websites to better understand the scale of any problems. Focus on key business activities to determine if people with disabilities are able to engage with your business. Use findings to help in subsequent communications with stakeholders and implementation teams.
@@ -111,3 +106,17 @@ Experts and people with disabilities will help build understanding of the barrie
 {::nomarkdown}
 <%= learn_more_end %>
 {:/}
+
+{:.attach_permalink}
+## Learn more about accessibility
+
+These tips are important points to consider when promoting website accessibility, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
+* [How people with disabilities use the web](/WAI/intro/people-use-web): Detailed examples of people with different disabilities using websites, applications, browsers, and authoring tools
+* [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines
+* [Developing Web Accessibility Presentations and Training](/WAI/training/Overview.html): Provides outlines and material to help you develop presentations and training on web accessibility

@@ -123,4 +123,12 @@ For all multimedia content, provide transcripts of the content. The transcript s
 {:.attach_permalink}
 ## Learn more about accessibility
 
-[ ... Tip description goes here ... ]
+These tips are important points to consider when writing accessible content, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
+* [How people with disabilities use the web](/WAI/intro/people-use-web): Detailed examples of people with different disabilities using websites, applications, browsers, and authoring tools
+* [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines

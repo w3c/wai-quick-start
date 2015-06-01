@@ -48,9 +48,9 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 <%= learn_more_start %>
 {:/}
 
-* [Labelling controls - Tutorial page](http://www.w3.org/WAI/tutorials/forms/labels/): Provides details on how to label form controls and elements
-* [Understanding SC 3.3.2 Labels or Instructions](http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): WCAG 2.0 Success Criteria 3.3.2 for labels
-* [Design solutions - navigating and finding content](http://www.w3.org/WAI/intro/people-use-web/browsing#navigation): Explores how providing labels benefits people with disabilities
+* [Labelling controls - Tutorial page](/WAI/tutorials/forms/labels/): Provides details on how to label form controls and elements
+* [Understanding SC 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): WCAG 2.0 Success Criteria 3.3.2 for labels
+* [Design solutions - navigating and finding content](/WAI/intro/people-use-web/browsing#navigation): Explores how providing labels benefits people with disabilities
 {::nomarkdown}
 <%= learn_more_end %>
 {:/}
@@ -117,4 +117,14 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 {:.attach_permalink}
 ## Learn more about accessibility
 
-[ ... Tip description goes here ... ]
+These tips are important points to consider when developing accessible websites, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
+* [How people with disabilities use the web](/WAI/intro/people-use-web): Detailed examples of people with different disabilities using websites, applications, browsers, and authoring tools
+* [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines
+* [Web Accessibility Tutorials](/WAI/tutorials/): Tutorials to help create specific parts of websites that meet Web Content Accessibility Guidelines (WCAG) 2.0
+* [Before and After Demonstration](/WAI/demos/bad/): Demonstrates an accessible and inaccessible website that share the same visual design, including annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0

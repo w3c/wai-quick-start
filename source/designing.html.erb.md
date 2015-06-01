@@ -21,9 +21,9 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 <%= learn_more_start %>
 {:/}
 
-* [List of Contrast Ratio tools](//www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head): Tools to help in exploring color contrast
-* [Understanding SC 1.4.3 Contrast (Minimum)](//www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html): WCAG 2.0 Success Criteria for color contrast
-* [Mr. Lee, Online shopper with color blindness](//www.w3.org/WAI/intro/people-use-web/stories#shopper): Describes how a user with "color blindness" experiences the Web
+* [List of Contrast Ratio tools](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head): Tools to help in exploring color contrast
+* [Understanding SC 1.4.3 Contrast (Minimum)](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html): WCAG 2.0 Success Criteria for color contrast
+* [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper): Describes how a user with "color blindness" experiences the Web
 
 {::nomarkdown}
 <%= learn_more_end %>
@@ -164,12 +164,17 @@ Ideal font size will vary for all users, so it is important to ensure that chang
 {:.attach_permalink}
 ## Learn more about accessibility
 
-[ ... Tip description goes here ... ]
+These tips are important points to consider when designing accessible websites, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
 
 {::nomarkdown}
-<%= example_start %>
+<%= learn_more_start %>
 {:/}
 
+* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
+* [How people with disabilities use the web](/WAI/intro/people-use-web): Detailed examples of people with different disabilities using websites, applications, browsers, and authoring tools
+* [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines
+* [Before and After Demonstration](/WAI/demos/bad/): Demonstrates an accessible and inaccessible website that share the same visual design, including annotations that highlight key accessibility barriers and repairs
+
 {::nomarkdown}
-<%= example_end %>
+<%= learn_more_end %>
 {:/}
