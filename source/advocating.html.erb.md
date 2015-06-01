@@ -1,5 +1,5 @@
 ---
-title: "Advocating: Tips for championing accessibility in organizations"
+title: "Quick start tips for accessibility advocacy"
 status: editors-draft
 layout: guide
 ---

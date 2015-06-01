@@ -1,5 +1,5 @@
 ---
-title: "Developing: Tips for accessible front-end coding"
+title: "Quick start tips for accessible coding"
 status: editors-draft
 layout: guide
 ---

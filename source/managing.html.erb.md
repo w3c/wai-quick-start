@@ -1,5 +1,5 @@
 ---
-title: "Managing: Tips for planning and managing web accessibility"
+title: "Quick start tips for managing accessibility"
 status: editors-draft
 layout: guide
 ---

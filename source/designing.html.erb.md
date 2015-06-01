@@ -1,5 +1,5 @@
 ---
-title: "Designing: Tips for accessible visual and interface design"
+title: "Quick start tips for accessible design"
 status: editors-draft
 layout: guide
 ---
