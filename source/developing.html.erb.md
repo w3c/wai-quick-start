@@ -128,3 +128,7 @@ These tips are important points to consider when developing accessible websites,
 * [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines
 * [Web Accessibility Tutorials](/WAI/tutorials/): Tutorials to help create specific parts of websites that meet Web Content Accessibility Guidelines (WCAG) 2.0
 * [Before and After Demonstration](/WAI/demos/bad/): Demonstrates an accessible and inaccessible website that share the same visual design, including annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}

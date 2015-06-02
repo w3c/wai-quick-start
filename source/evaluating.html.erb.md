@@ -107,3 +107,7 @@ These tips are important points to consider when evaluating website accessibilit
 * [Easy checks](/WAI/eval/preliminary.html): Provides simple steps to help assess if a web page addresses accessibility
 * [Website Accessibility Conformance Evaluation Methodology](/WAI/eval/conformance.html): A methodology designed to assist in evaluating the conformance of websites to Web Content Accessibility Guidelines (WCAG) 2.0
 * [Involving Users in Web Accessibility Evaluation](/WAI/eval/users.html): Provides guidance on including people with disabilities in accessibility evaluation throughout Web development
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}

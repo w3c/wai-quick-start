@@ -122,3 +122,7 @@ These tips are important points to consider when managing website accessibility,
 * [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines
 * [Strategic Planning for Web Accessibility](/WAI/impl/): Provides guidance on developing a plan for your organization or project
 * [Improving the Accessibility of Your Website](/WAI/impl/improving): Provides steps to help site owners and managers plan for accessibility improvements of a website
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}

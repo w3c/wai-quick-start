@@ -120,3 +120,7 @@ These tips are important points to consider when promoting website accessibility
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Detailed examples of people with different disabilities using websites, applications, browsers, and authoring tools
 * [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines
 * [Developing Web Accessibility Presentations and Training](/WAI/training/Overview.html): Provides outlines and material to help you develop presentations and training on web accessibility
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
