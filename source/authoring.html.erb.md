@@ -26,7 +26,7 @@ Write in short, clear sentences and paragraphs. Front-load important messages. S
 {:/}
 
 {:.attach_permalink}
-## Avoid using complex words
+## Avoid using needlessly complex words
 
 Avoid using words more complicated than the audience needs. Some audiences, such as in academia, require complex terminology, but still seek for opportunities to simplify. When content requires possibly unfamiliar terms, include a glossary. 
 
