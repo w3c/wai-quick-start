@@ -173,7 +173,7 @@ These tips are important points to consider when designing accessible websites, 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Uses real-life examples to introduce accessibility, and explores tools and approaches that help, and barriers encountered 
 * [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines
-* [Before and After Demonstration](/WAI/demos/bad/): Demonstrates an accessible and inaccessible website that share the same visual design, including annotations that highlight key accessibility barriers and repairs
+* [Before and After Demonstration](/WAI/demos/bad/): Example accessible and inaccessible websites that share the same visual design, including annotations that highlight key accessibility barriers and repairs
 
 {::nomarkdown}
 <%= learn_more_end %>
