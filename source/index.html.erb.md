@@ -3,7 +3,7 @@ title: "Quick Start Tips"
 status: editors-draft
 ---
 
-These guides provide you with practical tips to get started with web accessibility, and pointers to detailed resources to learn more.
+Follow these practical tips to help you get started with web accessibility.
 
 * [Designing](designing.html): Quick start tips for accessible web design.
 * [Developing](developing.html): Quick start tips for accessible web development.
