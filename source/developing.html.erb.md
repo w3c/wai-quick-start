@@ -56,7 +56,7 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 {:/}
 
 {:.attach_permalink}
-## Match the reading order and the code order
+## Reflect the reading order and the code order
 
 As much as possible, ensure that the order of elements in the code matches the order of the visual design. This can be checked by removing CSS styling and comparing the order of the content with the visual hierarchy of the page.
 
