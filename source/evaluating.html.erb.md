@@ -1,5 +1,5 @@
 ---
-title: "Quick start tips for evaluating accessibility"
+title: "Quick start tips for evaluating web accessibility"
 status: editors-draft
 layout: guide
 ---
