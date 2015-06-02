@@ -4,7 +4,7 @@ status: editors-draft
 layout: guide
 ---
 
-These are introductory tips to help you start with accessibility. While not an exhaustive list of requirements, they cover important points that will help you better incorporate accessibility into your visual and interaction designs.
+These tips cover the basics of accessible web design. They are not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
 
 {:.toc .no_toc}
 ## On this page
