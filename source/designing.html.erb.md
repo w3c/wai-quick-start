@@ -1,5 +1,5 @@
 ---
-title: "Quick start tips for accessible design"
+title: "Quick start tips for accessible web design"
 status: editors-draft
 layout: guide
 ---
