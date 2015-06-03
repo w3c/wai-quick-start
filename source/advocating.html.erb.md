@@ -1,10 +1,11 @@
 ---
-title: "Quick start tips for accessibility advocacy"
+title: Advocating for Web Accessibility
+subtitle: Tips for understanding and promoting accessibility
 status: editors-draft
 layout: guide
 ---
 
-These tips will help you understand and promote web accessibility. They are not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
+These tips will help you understand and promote web accessibility. This is not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
 
 {:.toc .no_toc}
 ## On this page

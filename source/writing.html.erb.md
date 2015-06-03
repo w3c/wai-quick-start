@@ -1,5 +1,6 @@
 ---
-title: "Quick start tips for writing accessible content"
+title: Writing for Web Accessibility
+subtitle: Tips for writing content
 status: editors-draft
 layout: guide
 ---

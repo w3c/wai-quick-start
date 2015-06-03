@@ -1,13 +1,12 @@
 ---
-title: "Quick Start Tips"
+title: "Tips for Getting Started with Web Accessibility"
 status: editors-draft
 ---
 
-Follow these practical tips to help you get started with web accessibility.
-
-* [Designing](designing.html): Tips for accessible web design.
-* [Developing](developing.html): Tips for accessible web development.
-* [Authoring](authoring.html): Tips for writing accessible content for the web.
-* [Evaluating](evaluating.html): Tips for website accessibility evaluation process.
-* [Managing](managing.html): Tips for planning and managing web accessibility. 
-* [Advocating](advocating.html): Tips for championing accessibility.
+{:.tips-grid}
+* [<span>Designing</span> for Web Accessibility](designing.html)<span class="visuallyhidden">: </span>Tips for visual and interface design.
+* [<span>Developing</span> for Web Accessibility](developing.html)<span class="visuallyhidden">: </span>Tips for markup and coding.
+* [<span>Writing</span> for Web Accessibility](writing.html)<span class="visuallyhidden">: </span>Tips for writing content.
+* [<span>Evaluating</span> Web Accessibility](evaluating.html)<span class="visuallyhidden">: </span>Tips on the evaluation process.
+* [<span>Managing</span> Web Accessibility](managing.html)<span class="visuallyhidden">: </span>Tips on planning and managing. 
+* [<span>Advocating</span> for Web Accessibility](advocating.html)<span class="visuallyhidden">: </span>Tips for understanding and promoting accessibility.

@@ -7,6 +7,15 @@
 }
 
 #main {
+  h2 {
+    &.subhead {
+      @extend .font-secondary;
+      color: $wai_fg;
+      border: none;
+      font-size: 1.2em;
+      margin-top: 0.25em;
+    }
+  }
   nav.section {
     float: right;
     width: 25%;
@@ -14,6 +23,7 @@
     border: 1px dashed #930;
     font-weight: bold;
     padding: 1em;
+    margin-left: 1em;
     h2 {
       border: none;
       color: $wai_fg;
@@ -24,6 +34,31 @@
     }
     ul {
       margin: 0.5em 0 0 0;
+    }
+  }
+  
+  .tips-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    li {
+      width: 25%;
+      margin: 0;
+      padding: 0 1em 2em 1em;
+      text-align: center;
+      a {
+        display: block;
+        font-size: 110%;
+        margin-bottom: 0.5em;
+        line-height: 1.5em;
+        font-weight: bold;
+        span {
+          display: block;
+          font-size: 120%;
+        }
+      }
     }
   }
 }

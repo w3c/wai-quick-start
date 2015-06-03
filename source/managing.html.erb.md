@@ -1,10 +1,11 @@
 ---
-title: "Quick start tips for managing accessibility"
+title: Managing Web Accessibility
+subtitle: Tips on planning and managing
 status: editors-draft
 layout: guide
 ---
 
-These tips will help you improve the accessibility outcomes of your projects. They are not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
+These tips will help you improve the accessibility outcomes of your projects. This is not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
 
 {:.toc .no_toc}
 ## On this page

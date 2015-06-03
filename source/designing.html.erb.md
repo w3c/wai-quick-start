@@ -1,10 +1,11 @@
 ---
-title: "Quick start tips for accessible web design"
+title: Designing for Web Accessibility
+subtitle: Tips for visual and interface design
 status: editors-draft
 layout: guide
 ---
 
-These tips cover the basics of accessible web design. They are not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
+These tips cover the basics of accessible web design. This is not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
 
 {:.toc .no_toc}
 ## On this page
