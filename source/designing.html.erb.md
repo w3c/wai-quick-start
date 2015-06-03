@@ -1,6 +1,6 @@
 ---
 title: Designing for Web Accessibility
-subtitle: Tips for visual and interface design
+subtitle: Tips for user interface and visual design
 status: editors-draft
 layout: guide
 ---
