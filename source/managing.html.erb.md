@@ -97,7 +97,7 @@ Seek to identify accessibility barriers early by undertaking regular checks thro
 {:/}
 
 {:.attach_permalink}
-## Involve users with disability in any usability testing
+## Involve users with disabilities in any usability testing
 
 Any usability testing should seek to incorporate feedback from people with disabilities. This is especially important for websites where the target audience are likely to benefit more from accessible solutions, such as older people.
 
