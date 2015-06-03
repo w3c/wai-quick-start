@@ -18,12 +18,13 @@
   }
   nav.section {
     float: right;
-    width: 25%;
-    background: #fffaf5 none repeat scroll 0 0;
-    border: 1px dashed #930;
+    width: 27%;
+    background: lighten($w3c_paleblue, 10%) none repeat scroll 0 0;
+    border: 1px solid #930;
     font-weight: bold;
     padding: 1em;
     margin-left: 1em;
+    margin-top: 2em;
     h2 {
       border: none;
       color: $wai_fg;
