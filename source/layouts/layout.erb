@@ -2,6 +2,9 @@
 
 <main id="main" role="main">
   <%= partial "layouts/status" %>
+  <% if current_page.data.layout == 'guide' %>
+    <%= partial "layouts/sectionnav" %>
+  <% end %>
   <header class="heading">
     <h1><%= current_page.data.title %></h1>
     <% if current_page.data.subtitle %>
