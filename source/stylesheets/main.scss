@@ -7,13 +7,14 @@
 }
 
 #main {
-  h2 {
-    &.subhead {
+  header {
+    .subtitle {
       @extend .font-secondary;
       color: $wai_fg;
       border: none;
       font-size: 1.2em;
       margin-top: 0.25em;
+      font-weight: bold;
     }
   }
   nav.section {
@@ -25,16 +26,24 @@
     padding: 1em;
     margin-left: 1em;
     margin-top: 2em;
+    p {
+      margin: 0 0 0.5em 0;
+      font-size: 130%;
+    }
     h2 {
-      border: none;
-      color: $wai_fg;
-      margin: 0;
-      a {
-        text-decoration: none;
-      }
+      @extend .visuallyhidden;
     }
     ul {
       margin: 0.5em 0 0 0;
+    }
+    a {
+      text-decoration: none;
+      &:visited {
+        color: $w3c_blue;
+      }
+      &:hover, &:focus {
+        text-decoration: underline;
+      }
     }
   }
   
