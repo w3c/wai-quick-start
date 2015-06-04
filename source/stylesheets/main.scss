@@ -17,6 +17,14 @@
       font-weight: bold;
     }
   }
+  .inner {
+    &>* {
+      margin-left: 2em;
+    }
+    &>h2 {
+      margin-left: 0;
+    }
+  }
   nav.section {
     float: right;
     width: 27%;
