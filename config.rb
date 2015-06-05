@@ -92,9 +92,9 @@ helpers do
 
   def example_start(plural = nil)
     if plural
-      '<aside class="learn_more"><h3>Examples</h3>'
+      '<aside class="example"><h3>Examples</h3>'
     else
-      '<aside class="learn_more"><h3>Example</h3>'
+      '<aside class="example"><h3>Example</h3>'
     end
   end
   
