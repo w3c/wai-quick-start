@@ -252,3 +252,43 @@
     }
   }
 }
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+  
+  header {
+    img {
+      max-width: none;
+    }
+    #masthead {
+      margin: 0;
+      float: left;
+      > p, p {
+        margin: 0;
+        width: auto;
+        border-right: none;
+      }
+    }
+    #tagline {
+      background: none;
+      color: #333;
+      p {
+        text-align: left;
+      }
+    }
+  }
+  #main {
+    margin: 0;
+  }
+  #controls, #nav, nav.section, .contribute, .permalink {
+    display: none;
+  }
+  .color-alone {
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
