@@ -13,6 +13,10 @@ These tips will help you improve your accessibility evaluation process. This is 
 {:toc .toc}
 * Will be replaced with the ToC
 
+{::nomarkdown}
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Select tools to assist in testing
 
@@ -24,6 +28,11 @@ Software tools can be used by evaluators as part of the evaluation process, to a
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -39,6 +48,11 @@ Develop a standard report template so that repeated evaluations are comparable. 
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Maintain a record of commonly identified issues
 
@@ -50,6 +64,11 @@ Following evaluations, seek to capture common issues and suggested solutions to 
 
 {::nomarkdown}
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -65,6 +84,11 @@ Plan to run evaluations as early as possible, even at design phase. This will no
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Run evaluation sessions with real people
 
@@ -76,6 +100,11 @@ Seek feedback from people with disabilities on any materials being evaluated. Th
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -91,6 +120,11 @@ Run a full, comprehensive evaluation before go-live. Aim to cover all key websit
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -111,4 +145,8 @@ These tips are important points to consider when evaluating website accessibilit
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
 {:/}

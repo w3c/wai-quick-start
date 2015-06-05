@@ -13,6 +13,10 @@ These tips cover the basics of writing accessible web content. They are not an e
 {:toc .toc}
 * Will be replaced with the ToC
 
+{::nomarkdown}
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ##  Keep it short and simple 
 
@@ -26,6 +30,11 @@ Write in short, clear sentences and paragraphs. Front-load important messages. S
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Avoid using needlessly complex words
 
@@ -37,6 +46,11 @@ Avoid using words more complicated than the audience needs. Some audiences, such
 
 {::nomarkdown}
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -54,6 +68,11 @@ When first used on a page, ensure that acronyms are fully expanded. Follow the e
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Make link text clear
 
@@ -67,6 +86,11 @@ Try to write link text so that it would make sense out of context. Link text sho
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Provide short, meaningful headings to break-up text
 
@@ -78,6 +102,11 @@ Use clear and simple headings to split up text into manageable chunks. Headings 
 
 {::nomarkdown}
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -95,6 +124,11 @@ The title of a page should be unique within the website and should simply descri
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Provide alternative text for all images
 
@@ -108,6 +142,11 @@ Each image used should be provided with alternative text that describes the info
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Provide transcripts and captions for multimedia content
 
@@ -119,6 +158,11 @@ For all multimedia content, provide transcripts of the content. The transcript s
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -136,4 +180,8 @@ These tips are important points to consider when writing accessible content, but
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
 {:/}

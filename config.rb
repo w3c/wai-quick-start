@@ -74,6 +74,14 @@ helpers do
     end
   end
 
+  def tip_start
+    '<article class="tip">'
+  end
+
+  def tip_end
+    '</article>'
+  end
+
   def learn_more_start
     '<aside class="learn_more"><h3>Learn more</h3>'
   end

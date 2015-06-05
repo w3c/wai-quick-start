@@ -13,6 +13,10 @@ These tips cover the basics of accessible web development. This is not an exhaus
 {:toc .toc}
 * Will be replaced with the ToC
 
+{::nomarkdown}
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Use mark-up to convey meaning
 
@@ -28,6 +32,10 @@ HTML5 provides many elements that signify meaning, such as `<h1>`, `<nav>`, `<as
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
 
 {:.attach_permalink}
 ## Associate all form elements with labels
@@ -56,6 +64,11 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Reflect the reading order and the code order
 
@@ -69,6 +82,11 @@ As much as possible, ensure that the order of elements in the code matches the o
 
 {::nomarkdown}
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -86,6 +104,11 @@ When creating new interactive elements, such as accordions, or off canvas naviga
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
@@ -101,6 +124,11 @@ This is easily checked by trying to interactive with a page using the keyboard o
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Check that your code validates
 
@@ -114,6 +142,11 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 <%= learn_more_end %>
 {:/}
 
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
 
 {:.attach_permalink}
 ## Learn more about accessibility
@@ -132,4 +165,8 @@ These tips are important points to consider when developing accessible websites,
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
 {:/}

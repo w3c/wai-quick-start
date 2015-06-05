@@ -13,6 +13,10 @@ These tips will help you understand and promote web accessibility. This is not a
 {:toc .toc}
 * Will be replaced with the ToC
 
+{::nomarkdown}
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Assess the current situation and communicate existing barriers
 
@@ -26,6 +30,11 @@ Undertake a quick accessibility evaluation of key organizational websites to bet
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Develop an accessibility business case
 
@@ -37,6 +46,11 @@ Use the business case to clarify why accessibility is important to the organizat
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -55,6 +69,11 @@ Support from management helps ensure budget and resources are available for acce
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Promote awareness for accessibility
 
@@ -68,6 +87,10 @@ Encourage awareness of the value and need for accessibility throughout the organ
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
 
 {:.attach_permalink}
 ## Seek alliances within the organization
@@ -80,6 +103,11 @@ Organizations may have many departments working on web implementation projects. 
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -95,6 +123,11 @@ Provide a mechanism to gather feedback both internally and externally. Use the f
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Involve experts and people with disabilities
 
@@ -106,6 +139,11 @@ Experts and people with disabilities will help build understanding of the barrie
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -124,4 +162,8 @@ These tips are important points to consider when promoting website accessibility
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
 {:/}

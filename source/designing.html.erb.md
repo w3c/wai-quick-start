@@ -13,10 +13,20 @@ These tips cover the basics of accessible web design. This is not an exhaustive 
 {:toc .toc}
 * Will be replaced with the ToC
 
+
+{::nomarkdown}
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Provide sufficient contrast between colors
 
 Wherever text is displayed, including on buttons, check that you have chosen foreground/background color combinations that have sufficient contrast. For text on a background image check a sample of dominant colors or provide some way to make the text stand out. Where color is used to differentiate two or more objects, ensure that contrast is checked between the colors of adjacent objects.
+
+{::nomarkdown}
+<%= example_start :plural %>
+<%= example_end %>
+{:/}
 
 {::nomarkdown}
 <%= learn_more_start %>
@@ -30,6 +40,11 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Don't use color alone to signify meaning
 
@@ -38,13 +53,15 @@ Color can be a useful indicator of emphasis or meaning but can never be the only
 {::nomarkdown}
 <%= example_start %>
 {:/}
+<%= example_start :plural %>
 
-[... Image of example graph ...]
 
-[... Reference to color in text example? ...]
+<%= example_end %>
+{:/}
 
 {::nomarkdown}
-<%= example_end %>
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -54,12 +71,15 @@ Provide distinct styles for the inactive and active states of interactive elemen
 
 {::nomarkdown}
 <%= example_start %>
-{:/}
 
 [... Example of styles for normal, hover, focus, active on link (and form element)? ...]
 
-{::nomarkdown}
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -79,6 +99,11 @@ Ensure page designs include clear and consistent navigation that indicate where 
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Provide visible controls for audio and video players
 
@@ -92,6 +117,11 @@ For designs that include audio or video content, ensure that there is provision 
 
 {::nomarkdown}
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -111,6 +141,11 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Provide clear presentation of errors
 
@@ -126,6 +161,11 @@ When something goes wrong, it should be extremely obvious where to find the prob
 
 {::nomarkdown}
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -145,6 +185,11 @@ Text design benefits from clear headers to chunk up content, and main content th
 <%= example_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Present text in a flexible font size and line length
 
@@ -160,6 +205,11 @@ Ideal font size will vary for all users, so it is important to ensure that chang
 
 {::nomarkdown}
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -178,4 +228,8 @@ These tips are important points to consider when designing accessible websites, 
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
 {:/}

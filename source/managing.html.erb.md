@@ -15,6 +15,10 @@ These tips will help you improve the accessibility outcomes of your projects. Th
 
 <!-- TODO: Consider moving buy-in and policy activities to advocacy -->
 
+{::nomarkdown}
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Secure buy-in from senior management
 
@@ -31,6 +35,11 @@ Support from management helps ensure budget and resources are available for acce
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ##  Create an accessibility policy 
 
@@ -42,6 +51,11 @@ An accessibility policy for your organization should define your goals and targe
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -57,6 +71,11 @@ An external website accessibility statement should include details on conformanc
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Identify team accessibility contacts
 
@@ -68,6 +87,11 @@ Identify key project team members who will have responsibility for leading acces
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -83,6 +107,11 @@ Accessibility awareness training should be provided for all team members. This s
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Plan for regular accessibility checks
 
@@ -96,6 +125,11 @@ Seek to identify accessibility barriers early by undertaking regular checks thro
 <%= learn_more_end %>
 {:/}
 
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
 {:.attach_permalink}
 ## Involve users with disabilities in any usability testing
 
@@ -107,6 +141,11 @@ Any usability testing should seek to incorporate feedback from people with disab
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
 {:/}
 
 {:.attach_permalink}
@@ -126,4 +165,8 @@ These tips are important points to consider when managing website accessibility,
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
 {:/}
