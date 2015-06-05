@@ -2,7 +2,7 @@
   <h2>Section Navigation</h2>
   <p><%= nav_link('Tips for Getting Started with Web Accessibility', 'index.html') %></p>
   <ul>
-    <% ['designing', 'developing', 'writing', 'evaluating', 'managing', 'advocating'].each do |guide| %>
+    <% ['designing', 'writing', 'developing', 'evaluating', 'managing', 'advocating'].each do |guide| %>
       <li>
       <% if is_current(guide + '.html') %>
         <%= guide.capitalize %>
