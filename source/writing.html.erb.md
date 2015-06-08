@@ -1,11 +1,8 @@
 ---
-title: Writing for Web Accessibility
-subtitle: Tips for writing content
+title: Tips on Writing for Web Accessibility
 status: editors-draft
 layout: guide
 ---
-
-These tips cover the basics of writing accessible web content. They are not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
 
 {:.toc .no_toc}
 ## On this page

@@ -5,7 +5,7 @@ status: editors-draft
 layout: guide
 ---
 
-These tips cover the basics of accessible web development. This is not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
+These introductory tips cover the basics of accessible web development. This is not an exhaustive list of requirements for web accessibility, but will help you start in the right direction.
 
 {:.toc .no_toc}
 ## On this page
