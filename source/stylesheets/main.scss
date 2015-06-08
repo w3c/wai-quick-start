@@ -2,8 +2,10 @@
 
 @import "wai_style";
 
+$wai_grey_bg: #e0e0e0;
+
 .permalink {
-  background-color: #fffaf5;
+  background-color: $wai_bg;
 }
 
 #main {
@@ -20,12 +22,12 @@
   nav.section {
     float: right;
     width: 27%;
-    background: lighten($w3c_paleblue, 10%) none repeat scroll 0 0;
-    border: 1px solid #930;
+    background: $wai_grey_bg none repeat scroll 0 0;
     font-weight: bold;
     padding: 1em;
     margin-left: 1em;
     margin-top: 2em;
+    border-radius: 3px;
     p {
       margin: 0 0 0.5em 0;
       font-size: 130%;
@@ -38,9 +40,7 @@
     }
     a {
       text-decoration: none;
-      &:visited {
-        color: $w3c_blue;
-      }
+      color: $wai_red !important;
       &:hover, &:focus {
         text-decoration: underline;
       }
