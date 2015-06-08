@@ -14,7 +14,6 @@ These introductory tips cover the basics of accessible user interface and visual
 {:toc .toc}
 * Will be replaced with the ToC
 
-
 {::nomarkdown}
 <%= tip_start %>
 {:/}
@@ -26,6 +25,28 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 
 {::nomarkdown}
 <%= example_start :plural %>
+
+<div class="contrast three-column">
+  <figure>
+    <figcaption>Text with insufficient contrast</figcaption>
+    <div>
+      <p class="fail">Lorem ipsum dolor sit amet</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Text with sufficient contrast</figcaption>
+    <div>
+      <p class="pass">Sed do eiusmod tempor incididunt</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Button with sufficient contrast</figcaption>
+    <div>
+      <button>Remember buttons</button>
+    </div>
+  </figure>
+</div>
+
 <%= example_end %>
 {:/}
 
@@ -52,12 +73,61 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 Color can be a useful indicator of emphasis or meaning but can never be the only way such meaning is conveyed. Use additional notification methods that do not rely on color perception when using color to differentiate elements, for example in graphs or maps, or when highlighting information, for example required form fields or important text.
 
 {::nomarkdown}
-<%= example_start %>
-{:/}
 <%= example_start :plural %>
 
+<div class="color-alone two-column">
+  <figure class="fail">
+    <figcaption>Inaccessible pie chart</figcaption>
+    <img src="images/inaccessible_pie_chart.png" width="200" height="200" alt="A pie chart">
+    <ul>
+      <li class="super">Superbear</li>
+      <li class="aqua">Aquabear</li>
+      <li class="bat">Batbear</li>
+      <li class="star">Starbear</li>
+      <li class="blue">Blue Bear</li>
+    </ul>
+  </figure>
+  <figure class="pass">
+    <figcaption>Accessible pie chart</figcaption>
+    <img src="images/accessible_pie_chart.png" width="200" height="200" alt="Chart of most battles won, Batbear is in the lead">
+    <ul>
+      <li class="super">Superbear (28%)</li>
+      <li class="aqua">Aquabear (11%)</li>
+      <li class="bat">Batbear (31%)</li>
+      <li class="star">Starbear (19%)</li>
+      <li class="blue">Blue Bear (11%)</li>
+    </ul>
+  </figure>
+  <figure class="reference fail">
+    <figcaption>Inappropriate reference using color only</figcaption>
+    <div>
+      <p><span class="required">Required fields</span></p>
+      <label for="name1">Name:</label> <input type="text" id="name1"><br>
+      <label class="required" for="email1">Email:</label> <input type="text" id="email1">
+    </div>
+  </figure>
+  <figure class="reference pass">
+    <figcaption>Appropriate reference with more than color</figcaption>
+    <div>
+      <p><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
+      <label for="name2">Name:</label> <input type="text" id="name2"><br>
+      <label class="required" for="email2">Email ✻:</label> <input type="text" id="email2">
+    </div>
+  </figure>
+</div>
 
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+* [Understanding SC 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html): WCAG 2.0 Success Criteria on using color
+* [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper): Describes how a user with "color blindness" experiences the Web
+
+{::nomarkdown}
+<%= learn_more_end %>
 {:/}
 
 {::nomarkdown}
@@ -73,9 +143,46 @@ Provide distinct styles for the inactive and active states of interactive elemen
 {::nomarkdown}
 <%= example_start %>
 
-[... Example of styles for normal, hover, focus, active on link (and form element)? ...]
+<div class="focus three-column">
+  <figure>
+    <figcaption>Plain link</figcaption>
+    <div>
+      <p><a href="#">Link one</a></p>
+    </div>
+  </figure>
+  <figure class="hover">
+    <figcaption>Hovering over a link</figcaption>
+    <div>
+      <p><a href="#">Link two</a><img src="images/pointer.png" width="20" alt=""></p>
+    </div>
+  </figure>
+  <figure class="keyboard">
+    <figcaption>Link with keyboard focus</figcaption>
+    <div>
+      <p><a href="#">Link three</a></p>
+    </div>
+  </figure>
+  <figure class="active">
+    <figcaption>Link when activated</figcaption>
+    <div>
+      <p><a href="#">Link four</a><img src="images/pointer.png" width="20" alt=""></p>
+    </div>
+  </figure>
+</div>
 
 <%= example_end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+* [Understanding SC 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html): WCAG 2.0 Success Criteria covering element focus
+* [Mr. Jones, Reporter with repetitive stress injury](/WAI/intro/people-use-web/stories#reporter): Describes some challenges faced by someone with limited ability to use a mouse
+* [Mr. Yunus, Retiree with low vision, hand tremor, and mild short-term memory loss](/WAI/intro/people-use-web/stories#retiree): Describes some challenges faced by an older user
+
+{::nomarkdown}
+<%= learn_more_end %>
 {:/}
 
 {::nomarkdown}
@@ -86,18 +193,17 @@ Provide distinct styles for the inactive and active states of interactive elemen
 {:.attach_permalink}
 ## Provide consistent navigation and orientation information
 
-Ensure page designs include clear and consistent navigation that indicate where in a site the user is, for example, breadcrumbs, and how they can access other areas of the site, for example, primary navigation in a header. Secondary navigation styles may be required for specific web content, such as products in an online store. Aim for consistency in style if secondary navigation is used in many different places.
-
-<!-- TODO: Edit to reflect new title -->
+Ensure page designs include clear and consistent navigation. Indicate where in a site the user is, for example, using breadcrumbs, and how they can access other areas of the site, for example, primary navigation in a header. Secondary navigation styles may be required for specific web content, such as products in an online store. Aim for consistency in style if secondary navigation is used in many different places.
 
 {::nomarkdown}
-<%= example_start %>
+<%= learn_more_start %>
 {:/}
 
-[... Example of various navigation styles? ...]
+* [Understanding SC 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html): WCAG 2.0 Success Criteria relating to consistent navigation
+* [Mr. Sands, Supermarket assistant with Down syndrome](/WAI/intro/people-use-web/stories#supermarketassistant): Describes how consistency and navigation can help someone with cognitive difficulties 
 
 {::nomarkdown}
-<%= example_end %>
+<%= learn_more_end %>
 {:/}
 
 {::nomarkdown}
@@ -112,11 +218,18 @@ For designs that include audio or video content, ensure that there is provision 
 
 {::nomarkdown}
 <%= example_start %>
-{:/}
 
-[... Example of good and bad controls? ...]
+<div class="visible_controls two-column">
+  <figure>
+    <figcaption>Example media player controls</figcaption>
+    <div>
+      <p><img src="images/example_media_player.png" alt="Example media player"></p>
+      <p>Provide styling options for when each element is active, for example, hovered over with mouse, or receiving keyboard focus.</p>
+    </div>
+  </figure>
+</div>
 
-{::nomarkdown}
+
 <%= example_end %>
 {:/}
 
