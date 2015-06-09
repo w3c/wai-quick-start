@@ -2,14 +2,52 @@
 
 @import "wai_style";
 
+
+// Media query variables
+$small:  25em; //* 400px */
+$medium: 43em; //* 700px */
+$big:    56em; //* 900px */
+$large:  81em; //* 1300px */
+
 $wai_grey_bg: #e0e0e0;
 
 .permalink {
   background-color: $wai_bg;
 }
 
+// Adjust navigation for small viewports
+@include mq($small) {
+  #nav {
+    float: none;
+    width: auto;
+  }
+  #main {
+    margin: 0;
+  }
+}
+@include mq($medium) {
+  #nav {
+    float: left;
+    width: 24%;
+  }
+  #main {
+    margin: 0 0 0 27%;
+  }
+}
+
+#logos {
+  img {
+    max-width: none;
+  }
+}
+
 #main {
   header {
+    @include mq($medium) {
+      h1 {
+        padding: 1.3em 0 0 0;
+      }
+    }
     .subtitle {
       @extend .font-secondary;
       color: $wai_fg;
@@ -20,13 +58,16 @@ $wai_grey_bg: #e0e0e0;
     }
   }
   nav.section {
-    float: right;
-    width: 27%;
+    @include mq($small) {
+      float: right;
+      width: 27%;
+      margin-left: 1em;
+      margin-top: 2em;
+    }
+    margin-bottom: 1em;
     background: $wai_grey_bg none repeat scroll 0 0;
     font-weight: bold;
     padding: 1em;
-    margin-left: 1em;
-    margin-top: 2em;
     border-radius: 3px;
     p {
       margin: 0 0 0.5em 0;
@@ -83,19 +124,21 @@ $wai_grey_bg: #e0e0e0;
       }
     }
     
-    .two-column {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      figure {
-        width: 50%;
+    @include mq($medium) {
+      .two-column {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        figure {
+          width: 50%;
+        }
       }
-    }
-    .three-column {
-      display: flex;
-      justify-content: space-between;
-      figure {
-        margin-right: 1em;
+      .three-column {
+        display: flex;
+        justify-content: space-between;
+        figure {
+          margin-right: 1em;
+        }
       }
     }
     figure {
@@ -104,7 +147,7 @@ $wai_grey_bg: #e0e0e0;
         font-weight: bold;
         padding-bottom: 0.5em;
       }
-      div {
+      &>div {
         padding: 1em;
         border-radius: 5px;
         box-shadow: 0 0 2px 0 #333333;
@@ -119,6 +162,9 @@ $wai_grey_bg: #e0e0e0;
           &:last-child {
             margin-bottom: 0;
           }
+        }
+        .required {
+          color: #992929;
         }
       }
     }
@@ -159,6 +205,7 @@ $wai_grey_bg: #e0e0e0;
             &:before {
               content: '◼︎ ';
               font-size: 160%;
+              white-space: nowrap;
             }
           }
         }

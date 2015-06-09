@@ -215,8 +215,8 @@ a {
 */
 #nav {
   clear: left;
-  float: left;
-  width: 24%;
+  //float: left;
+  //width: 24%;
   padding: 0 0.3em;		/* Make #nav same width as logos and tag */
   color: $wai_link;
   font-size: 0.95em;
@@ -387,11 +387,11 @@ a {
 * #main contains the contents that differs from page to page.
 */
 #main {
-  margin: 0 0 0 27%;		/* 27% is bigger than 24%, the width of #nav */
+  //margin: 0 0 0 27%;		/* 27% is bigger than 24%, the width of #nav */
 
   h1 {
     margin: 0 0 0 0;
-    padding: 1.3em 0 0 0;
+    //padding: 1.3em 0 0 0;
     font: bold 145% "Georgia", serif;
     .subtitle {
       font-size: 85%;;
