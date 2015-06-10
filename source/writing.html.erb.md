@@ -1,6 +1,7 @@
 ---
 title: Tips on Writing for Web Accessibility
 status: editors-draft
+icon: pencil
 layout: guide
 ---
 

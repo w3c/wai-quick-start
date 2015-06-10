@@ -1,6 +1,7 @@
 ---
 title: Designing for Web Accessibility
 subtitle: Tips for Getting Started
+icon: paint-brush
 status: editors-draft
 layout: guide
 heading: option1

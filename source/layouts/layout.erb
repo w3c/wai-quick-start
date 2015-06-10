@@ -7,9 +7,9 @@
   <% end %>
   <header class="heading">
     <% if current_page.data.heading == 'option1'  %>
-      <h1><%= current_page.data.title %><% if current_page.data.subtitle %>: <%= current_page.data.subtitle %><% end %></h1>
+      <h1><% if current_page.data.icon %><span class="fa fa-<%= current_page.data.icon %>"></span> <% end %><%= current_page.data.title %><% if current_page.data.subtitle %>: <%= current_page.data.subtitle %><% end %></h1>
     <% else %>
-      <h1><%= current_page.data.title %></h1>
+      <h1><% if current_page.data.icon %><span class="fa fa-<%= current_page.data.icon %>"></span> <% end %><%= current_page.data.title %></h1>
       <% if current_page.data.subtitle %>
       <p class="subtitle"><%= current_page.data.subtitle %></p>
       <% end %>

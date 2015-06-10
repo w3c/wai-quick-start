@@ -1,6 +1,7 @@
 ---
 title: Managing Web Accessibility
 subtitle: Tips on planning and managing
+icon: cogs
 status: editors-draft
 layout: guide
 ---

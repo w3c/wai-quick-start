@@ -1,6 +1,7 @@
 ---
 title: Advocating for Web Accessibility
 subtitle: Tips for understanding and promoting accessibility
+icon: bullhorn
 status: editors-draft
 layout: guide
 ---

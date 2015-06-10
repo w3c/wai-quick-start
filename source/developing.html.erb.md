@@ -1,6 +1,7 @@
 ---
 title: Developing for Web Accessibility
 subtitle: Tips for markup and coding
+icon: code
 status: editors-draft
 layout: guide
 ---

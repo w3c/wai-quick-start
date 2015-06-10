@@ -1,6 +1,7 @@
 ---
 title: Evaluating Web Accessibility
 subtitle: Tips on the evaluation process
+icon: bug
 status: editors-draft
 layout: guide
 ---

@@ -1,9 +1,10 @@
 <nav class="section">
   <h2>Section Navigation</h2>
   <p><%= nav_link('Tips for Getting Started with Web Accessibility', 'index.html') %></p>
-  <ul>
-    <% ['designing', 'writing', 'developing', 'evaluating', 'managing', 'advocating'].each do |guide| %>
+  <ul class="fa-ul">
+    <% {'designing' => 'paint-brush', 'writing' => 'pencil', 'developing' => 'code', 'evaluating' => 'bug', 'managing' => 'cogs', 'advocating' => 'bullhorn'}.each do |guide, icon| %>
       <li>
+        <span class="fa fa-li fa-<%= icon %>"></span>
       <% if is_current(guide + '.html') %>
         <%= guide.capitalize %>
       <% else %>
