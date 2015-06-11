@@ -7,7 +7,7 @@ layout: guide
 heading: option1
 ---
 
-These introductory tips cover the basics of accessible user interface and visual design.
+These introductory tips cover some of the basics for making user interface designs and visual designs accessible to people with disabilities.
 
 {:.toc .no_toc}
 ## On this page
