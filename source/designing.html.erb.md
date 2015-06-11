@@ -330,12 +330,7 @@ Ideal font size will vary for all users, so it is important to ensure that chang
 {:.attach_permalink}
 ## Learn more about accessibility
 
-These tips are important points to consider when designing accessible websites, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
-
-{::nomarkdown}
-<%= learn_more_start %>
-{:/}
-
+These tips are just some of the accessibility issues to address when designing websites; there are more issues to consider. We encourage you to read the following resources to learn more about accessibility &mdash; why accessibility is important for people with disabilities, for designers, and for organizations; about web accessibility guidelines that are international web standards; and more.
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles): Provides an introduction to the web accessibility requirements referenced in the international accessibility standards from W3C Web Accessibility Initiative
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Uses real-life examples to introduce accessibility, and explores tools and approaches that help, and barriers encountered 
