@@ -139,7 +139,6 @@ These tips are important points to consider when evaluating website accessibilit
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Uses real-life examples to introduce accessibility, and explores tools and approaches that help, and barriers encountered 
-* [Essential Components of Web Accessibility](/WAI/intro/components.php):  Shows how Web accessibility depends on several components working together and shows the relationship between the Web Accessibility Initiative guidelines
 * [Easy checks](/WAI/eval/preliminary.html): Provides simple steps to help assess if a web page addresses accessibility
 * [Website Accessibility Conformance Evaluation Methodology](/WAI/eval/conformance.html): A methodology designed to assist in evaluating the conformance of websites to Web Content Accessibility Guidelines (WCAG) 2.0
 * [Involving Users in Web Accessibility Evaluation](/WAI/eval/users.html): Provides guidance on including people with disabilities in accessibility evaluation throughout Web development
