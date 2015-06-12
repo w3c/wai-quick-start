@@ -34,7 +34,7 @@ Write in short, clear sentences and paragraphs. Front-load important messages. S
 {:/}
 
 {:.attach_permalink}
-## Avoid using needlessly complex words
+## Avoid using needlessly complex words and phrases
 
 Avoid using words more complicated than the audience needs. Some audiences, such as in academia, require complex terminology, but still seek for opportunities to simplify. When content requires possibly unfamiliar terms, include a glossary. 
 
@@ -52,27 +52,7 @@ Avoid using words more complicated than the audience needs. Some audiences, such
 {:/}
 
 {:.attach_permalink}
-## Expand all acronyms on their first use
-
-When first used on a page, ensure that acronyms are fully expanded. Follow the expansion with the acronym. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
-
-{::nomarkdown}
-<%= example_start %>
-{:/}
-
-[... Some acronym examples ...]
-
-{::nomarkdown}
-<%= example_end %>
-{:/}
-
-{::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
-{:/}
-
-{:.attach_permalink}
-## Make link text clear
+## Provide useful link text
 
 Try to write link text so that it would make sense out of context. Link text should describe the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Where the link target is not HTML, indicate the document type and approximate size in the link text.
 
@@ -90,7 +70,7 @@ Try to write link text so that it would make sense out of context. Link text sho
 {:/}
 
 {:.attach_permalink}
-## Provide short, meaningful headings to break-up text
+## Provide short, meaningful headings to structure text
 
 Use clear and simple headings to split up text into manageable chunks. Headings should be short and aim to describe or introduce the following section. They should not confuse readers as to what the following section should be about.  
 
@@ -128,7 +108,7 @@ The title of a page should be unique within the website and should simply descri
 {:/}
 
 {:.attach_permalink}
-## Provide alternative text for all images
+## Provide text alternatives for all images
 
 Each image used should be provided with alternative text that describes the information of function represented by the image. Provide text that describes the purpose the image serves or what information it conveys. Where an image is purely decorative, `null` alternative text may be appropriate.
  
@@ -138,6 +118,26 @@ Each image used should be provided with alternative text that describes the info
 
 {::nomarkdown}
 <%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
+{:.attach_permalink}
+## Expand all acronyms on their first use
+
+When first used on a page, ensure that acronyms are fully expanded. Follow the expansion with the acronym. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
+
+{::nomarkdown}
+<%= example_start %>
+{:/}
+
+[... Some acronym examples ...]
+
+{::nomarkdown}
+<%= example_end %>
 {:/}
 
 {::nomarkdown}

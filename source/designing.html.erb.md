@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible user interface and visual
 {:/}
 
 {:.attach_permalink}
-## Provide sufficient contrast between colors
+## Provide sufficient color contrast
 
 Wherever text is displayed, including on buttons, check that you have chosen foreground/background color combinations that have sufficient contrast. For text on a background image check a sample of dominant colors or provide some way to make the text stand out. Where color is used to differentiate two or more objects, ensure that contrast is checked between the colors of adjacent objects.
 
@@ -137,7 +137,7 @@ Color can be a useful indicator of emphasis or meaning but can never be the only
 {:/}
 
 {:.attach_permalink}
-## Ensure interactive elements are easily identified
+## Ensure interactive elements are unambiguous and easy to identify
 
 Provide distinct styles for the inactive and active states of interactive elements, including links. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
 
@@ -192,7 +192,7 @@ Provide distinct styles for the inactive and active states of interactive elemen
 {:/}
 
 {:.attach_permalink}
-## Provide consistent navigation and orientation information
+## Provide consistent navigation and orientation
 
 Ensure page designs include clear and consistent navigation. Indicate where in a site the user is, for example, using breadcrumbs, and how they can access other areas of the site, for example, primary navigation in a header. Secondary navigation styles may be required for specific web content, such as products in an online store. Aim for consistency in style if secondary navigation is used in many different places.
 
@@ -284,7 +284,7 @@ When something goes wrong, it should be extremely obvious where to find the prob
 {:/}
 
 {:.attach_permalink}
-## Use headers and whitespace to group content
+## Use headers and whitespace to group related content
 
 Text design benefits from clear headers to chunk up content, and main content that is not too wide. Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom.
 
