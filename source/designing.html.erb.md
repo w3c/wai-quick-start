@@ -319,8 +319,8 @@ When something goes wrong, it should be extremely obvious where to find the prob
       <div class="errors">
         <p>There were two problems with your submission.</p>
         <ol class="fa-ul">
-          <li><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">The email address provided does not seem to be valid</a></li>
-          <li><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('comment3').focus()">There was no comment provided</a></li>
+          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">The email address provided does not seem to be valid</a></li>
+          <li id="error_comment"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('comment3').focus()">There was no comment provided</a></li>
         </ol>
       </div>
       <form action="">
@@ -331,7 +331,7 @@ When something goes wrong, it should be extremely obvious where to find the prob
         </div>
         <div class="row error">
           <label class="required" for="email5"><span class="fa fa-exclamation-triangle"></span> Email ✻</label>
-          <input type="text" id="email5" name="email" value="suberbear@@hq.space">
+          <input type="text" id="email5" name="email" value="suberbear@@hq.space" aria-invalid="true" aria-describedby="error_email">
         </div>
         <div class="row">
           <label for="website2">Website</label>
@@ -339,7 +339,7 @@ When something goes wrong, it should be extremely obvious where to find the prob
         </div>
         <div class="row error">
           <label class="required" for="comment3"><span class="fa fa-exclamation-triangle"></span> Comment ✻</label>
-          <textarea name="comment" id="comment3"></textarea>
+          <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
         </div>
       </form>
     </div>
