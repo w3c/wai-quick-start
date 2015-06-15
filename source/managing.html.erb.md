@@ -42,6 +42,16 @@ Support from management helps ensure budget and resources are available for acce
 {:/}
 
 {:.attach_permalink}
+##  Integrate accessibility considerations throughout project life cycle
+
+<!-- **Note:** Covers considerations at design phase, development of use cases and audience understanding, design guidelines, code libraries, user stories, etc. -->
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
+{:.attach_permalink}
 ##  Create an accessibility policy 
 
 An accessibility policy for your organization should define your goals and targets regarding the accessibility of web content and services. Ensure there is a clear indication of standards to be adhered to, scope of the policy, and milestones. Consider also an internal process for how accessibility will be monitored.
