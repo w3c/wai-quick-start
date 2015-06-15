@@ -89,6 +89,7 @@ $wai_grey_bg: #e0e0e0;
   }
   
   .tips-grid {
+    margin-left: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -99,8 +100,14 @@ $wai_grey_bg: #e0e0e0;
         position: static;
         font-size: 250%;
         margin-bottom: 10px;
+        width: auto;
       }
-      width: 25%;
+      @include mq($small) {
+        width: 50%;
+      }
+      @include mq($medium) {
+        width: 25%;
+      }
       margin: 0;
       padding: 0 1em 2em 1em;
       text-align: center;
@@ -121,6 +128,9 @@ $wai_grey_bg: #e0e0e0;
         &:hover, &:focus {
           text-decoration: underline;
           color: $wai_red;
+          .fa {
+            text-decoration: none;
+          }
         }
       }
     }
@@ -261,53 +271,127 @@ $wai_grey_bg: #e0e0e0;
           }
         }
       }
-      .reference {
-        &.fail {
-          .required {
-            color: #992929;
-          }
-        }
-        &.pass {
-          .required {
-            color: #992929;
-          }
-        }
-      }
     }
     .focus {
+      div {
+        width: 75%;
+      }
       p {
         position: relative;
+        padding: 0.25em 0.5em;
+        text-align: center;
       }
       a {
-        text-decoration: none;
-        padding: 2px 5px;
-        display: inline-block;
+        font-size: 200%; 
+        text-decoration: underline;
       }
       .hover {
         a {
+          color: #992929;
           text-decoration: underline;
         }
         img {
           position: absolute;
           top: 1em;
-          left: 2em;
+          left: 50%;
         }
       }
       .keyboard {
         a {
-          background: #4c4947;
-          color: #ffffff;
+          outline: medium dashed #992929;
+          color: #992929;
         }
       }
       .active {
         a {
-          color: #000000;
+          background: #992929;
+          color: #ffffff;
         }
         img {
           position: absolute;
           top: 1em;
-          left: 2em;
+          left: 50%;
         }
+      }
+    }
+    .labels {
+      input, textarea {
+        border: 1px solid #bfbfbf;
+        padding: 2px 4px;
+        &:focus {
+          border: 1px solid $wai_link_active;
+        }
+      }
+      figure {
+        width: 60%;
+        &>div {
+          width: 100%;
+        }
+      }
+      .fail {
+        label {
+          float: right;
+        }
+        input {
+          width: 50%;
+        }
+        textarea {
+          width: 100%;
+          height: 4em;
+        }
+      }
+      .pass {
+        legend {
+          font-weight: bold;
+          margin-bottom: 0.5em;
+        }
+        .row {
+          padding: 0.25em 0.5em;
+        }
+        label {
+          width: 6em;
+          display: inline-block;
+        }
+        input {
+          width: 20em;
+        }
+        textarea {
+          width: 20em;
+          height: 5em;
+        }
+      }
+    }
+    .errors {
+      .errors {
+        li {
+          span {
+            color: #992929;
+          }
+        }
+      }
+      legend {
+        font-weight: bold;
+        margin-bottom: 0.5em;
+      }
+      .row {
+        padding: 0.25em 0.5em;
+        &.error {
+          background: #992929;
+          label {
+            color: #ffffff;
+          }
+        }
+      }
+      label {
+        width: 7em;
+        display: inline-block;
+      }
+      input {
+        width: 20em;
+      }
+      textarea {
+        width: 20em;
+        height: 5em;
       }
     }
   }

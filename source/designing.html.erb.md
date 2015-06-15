@@ -55,6 +55,7 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 <%= learn_more_start %>
 {:/}
 
+* [Easy Checks - Contrast ratio](/WAI/eval/preliminary.html#contrast): Explores this tip further and provides information on what to check for
 * [List of Contrast Ratio tools](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head): Tools to help in exploring color contrast
 * [Understanding SC 1.4.3 Contrast (Minimum)](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html): WCAG 2.0 Success Criteria for color contrast
 * [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper): Describes how a user with "color blindness" experiences the Web
@@ -102,17 +103,17 @@ Color can be a useful indicator of emphasis or meaning but can never be the only
   <figure class="reference fail">
     <figcaption>Inappropriate reference using color only</figcaption>
     <div>
-      <p><span class="required">Required fields</span></p>
-      <label for="name1">Name:</label> <input type="text" id="name1"><br>
-      <label class="required" for="email1">Email:</label> <input type="text" id="email1">
+      <p><span class="required">Required fields in red</span></p>
+      <label for="name1">Name:</label> <input type="text" id="name1" name="name"><br>
+      <label class="required" for="email1">Email:</label> <input type="text" id="email1" name="email">
     </div>
   </figure>
   <figure class="reference pass">
     <figcaption>Appropriate reference with more than color</figcaption>
     <div>
       <p><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
-      <label for="name2">Name:</label> <input type="text" id="name2"><br>
-      <label class="required" for="email2">Email ✻:</label> <input type="text" id="email2">
+      <label for="name2">Name:</label> <input type="text" id="name2" name="name"><br>
+      <label class="required" for="email2">Email ✻:</label> <input type="text" id="email2" name="email">
     </div>
   </figure>
 </div>
@@ -142,31 +143,31 @@ Color can be a useful indicator of emphasis or meaning but can never be the only
 Provide distinct styles for the inactive and active states of interactive elements, including links. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example_start :plural %>
 
-<div class="focus three-column">
+<div class="focus two-column">
   <figure>
-    <figcaption>Plain link</figcaption>
+    <figcaption>Plain links stand out from surrounding text</figcaption>
     <div>
-      <p><a href="#">Link one</a></p>
+      <p><a href="#">Plain link</a></p>
     </div>
   </figure>
   <figure class="hover">
-    <figcaption>Hovering over a link</figcaption>
+    <figcaption>Hovering over a link should be indicated</figcaption>
     <div>
-      <p><a href="#">Link two</a><img src="images/pointer.png" width="20" alt=""></p>
+      <p><a href="#">Hovered link</a><img src="images/pointer.png" width="20" alt=""></p>
     </div>
   </figure>
   <figure class="keyboard">
-    <figcaption>Link with keyboard focus</figcaption>
+    <figcaption>When a link receives keyboard focus, make it really apparent</figcaption>
     <div>
-      <p><a href="#">Link three</a></p>
+      <p><a href="#">Link with focus</a></p>
     </div>
   </figure>
   <figure class="active">
-    <figcaption>Link when activated</figcaption>
+    <figcaption>Change style when a link is activated to highlight the action</figcaption>
     <div>
-      <p><a href="#">Link four</a><img src="images/pointer.png" width="20" alt=""></p>
+      <p><a href="#">Activated link</a><img src="images/pointer.png" width="20" alt=""></p>
     </div>
   </figure>
 </div>
@@ -215,7 +216,7 @@ Ensure page designs include clear and consistent navigation. Indicate where in a
 {:.attach_permalink}
 ## Provide visible controls for audio and video players
 
-For designs that include audio or video content, ensure that there is provision for controls for the player. The controls should include as a minimum start, pause, seek controls, and volume controls. Ensure their position, size, and styling make them sufficiently prominent.
+For designs that include audio or video content, ensure that there is provision for controls for the player. The controls should include as a minimum start, pause, seek controls, volume controls, and closed captions activation. Ensure their position, size, and styling make them sufficiently prominent.
 
 {::nomarkdown}
 <%= example_start %>
@@ -230,7 +231,6 @@ For designs that include audio or video content, ensure that there is provision 
   </figure>
 </div>
 
-
 <%= example_end %>
 {:/}
 
@@ -244,15 +244,58 @@ For designs that include audio or video content, ensure that there is provision 
 
 When creating forms, ensure that all elements have a descriptive label adjacent to the element. Labels are usually positioned to the left or above the element, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
 
-[**Note:** What about elements where labels are not required?]
-
-[**Note:** Should some mention be made regarding space for instructions?]
-
 {::nomarkdown}
 <%= example_start %>
-{:/}
 
-{::nomarkdown}
+<div class="labels">
+  <figure class="fail">
+    <figcaption>Example of poorly associated labels</figcaption>
+    <div>
+      <form action="">
+        <div class="row">
+          <label for="name3">Name</label>
+          <input type="text" id="name3" name="name">
+        </div>
+        <div class="row">
+          <label class="required" for="email3">Email ✻</label>
+          <input type="text" id="email3" name="email">
+        </div>
+        <div class="row">
+          <label for="website">Website</label>
+          <input type="text" id="website" name="website">
+        </div>
+        <div class="row">
+          <textarea name="comment" id="comment"></textarea>
+        </div>
+      </form>
+    </div>
+  </figure>
+  <figure class="pass">
+    <figcaption>Good example of associated labels</figcaption>
+    <div>
+      <form action="">
+        <legend>Add a comment</legend>
+        <div class="row">
+          <label for="name4">Name</label>
+          <input type="text" id="name4" name="name">
+        </div>
+        <div class="row">
+          <label class="required" for="email4">Email ✻</label>
+          <input type="text" id="email4" name="email">
+        </div>
+        <div class="row">
+          <label for="website2">Website</label>
+          <input type="text" id="website2" name="website">
+        </div>
+        <div class="row">
+          <label class="required" for="comment2">Comment ✻</label>
+          <textarea name="comment" id="comment2"></textarea>
+        </div>
+      </form>
+    </div>
+  </figure>
+</div>
+
 <%= example_end %>
 {:/}
 
@@ -262,20 +305,61 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 {:/}
 
 {:.attach_permalink}
-## Provide clear presentation of errors
+## Provide clear feedback
 
-When something goes wrong, it should be extremely obvious where to find the problem. Ideally, provide a list of errors above the form, repeat the error beside the offending form element, and create a style that make the element really stand out. Inline validation can be extremely helpful for many users, but needs careful coding to ensure accessibility.
-
-[**Note:** Should something on this be included in the developing section?]
+When something goes wrong, it should be extremely obvious where to find the problem. Ideally, provide a list of errors above the form, repeat the error beside the offending form element, and create a style that make the element really stand out. Well designed and visible inline validation can be extremely helpful for many users, but needs careful coding to ensure accessibility.
 
 {::nomarkdown}
 <%= example_start %>
+
+
+<div class="errors">
+  <figure>
+    <figcaption>Example of prominent errors</figcaption>
+    <div>
+      <div class="errors">
+        <p>There were two problems with your submission.</p>
+        <ol class="fa-ul">
+          <li><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">The email address provided does not seem to be valid</a></li>
+          <li><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('comment3').focus()">There was no comment provided</a></li>
+        </ol>
+      </div>
+      <form action="">
+        <legend>Add a comment</legend>
+        <div class="row">
+          <label for="name5">Name</label>
+          <input type="text" id="name5" name="name" value="Superbear">
+        </div>
+        <div class="row error">
+          <label class="required" for="email5"><span class="fa fa-exclamation-triangle"></span> Email ✻</label>
+          <input type="text" id="email5" name="email" value="suberbear@@hq.space">
+        </div>
+        <div class="row">
+          <label for="website2">Website</label>
+          <input type="text" id="website3" name="website">
+        </div>
+        <div class="row error">
+          <label class="required" for="comment3"><span class="fa fa-exclamation-triangle"></span> Comment ✻</label>
+          <textarea name="comment" id="comment3"></textarea>
+        </div>
+      </form>
+    </div>
+  </figure>
+</div>
+
+<%= example_end %>
 {:/}
 
-[... Example of form errors ...]
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+* [Understanding SC 3.3.1 Error Identification](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html): WCAG 2.0 Success Criteria covering how 
+* [User Notifications Tutorial](/WAI/tutorials/forms/notifications/): Shows how feedback can be provided in different ways
+* [Ms. Olsen, Classroom student with attention deficit hyperactivity disorder (ADHD) and dyslexia](/WAI/intro/people-use-web/stories#classroomstudent): Describes how making important content easily identifiable can help 
 
 {::nomarkdown}
-<%= example_end %>
+<%= learn_more_end %>
 {:/}
 
 {::nomarkdown}
@@ -288,16 +372,16 @@ When something goes wrong, it should be extremely obvious where to find the prob
 
 Text design benefits from clear headers to chunk up content, and main content that is not too wide. Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom.
 
-<!-- TODO: Update description to reflect new title -->
-
 {::nomarkdown}
-<%= example_start %>
+<%= learn_more_start %>
 {:/}
 
-[... Example of text layout? ...]
+* [Understanding SC 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html): WCAG 2.0 Success Criteria detailing how heading information should be presented
+* [Headings Tutorial](/WAI/tutorials/page-structure/headings/): Discusses different ways to use headings to provide meaning to content
+* [Ms. Laitinen, Accountant with blindness](/WAI/intro/people-use-web/stories#accountant): Describes how headings can be helpful for navigation 
 
 {::nomarkdown}
-<%= example_end %>
+<%= learn_more_end %>
 {:/}
 
 {::nomarkdown}
