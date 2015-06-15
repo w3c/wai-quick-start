@@ -4,10 +4,10 @@
 
 
 // Media query variables
-$small:  25em; //* 400px */
-$medium: 43em; //* 700px */
-$big:    56em; //* 900px */
-$large:  81em; //* 1300px */
+$small:  400px;
+$medium: 700px;
+$big:    900px;
+$large:  1300px;
 
 $wai_grey_bg: #e0e0e0;
 
@@ -140,7 +140,10 @@ $wai_grey_bg: #e0e0e0;
     .tip {
       margin-bottom: 3em;
       &>* {
-        margin-left: 2em;
+        margin-left: 1em;
+        @include mq($medium) {
+          margin-left: 2em;
+        }
       }
       &>h2 {
         margin-left: 0;
@@ -323,7 +326,10 @@ $wai_grey_bg: #e0e0e0;
         }
       }
       figure {
-        width: 60%;
+        width: 80%;
+        @include mq($medium) {
+          width: 74%;
+        }
         &>div {
           width: 100%;
         }
@@ -349,15 +355,23 @@ $wai_grey_bg: #e0e0e0;
           padding: 0.25em 0.5em;
         }
         label {
-          width: 6em;
+          width: 33%;
           display: inline-block;
         }
         input {
-          width: 20em;
+          width: 60%;
         }
         textarea {
-          width: 20em;
+          width: 60%;
           height: 5em;
+        }
+        @include mq($medium) {
+          label {
+            width: 23%;
+          }
+          input, textarea {
+            width: 73%;
+          }
         }
       }
     }
@@ -392,6 +406,14 @@ $wai_grey_bg: #e0e0e0;
       textarea {
         width: 20em;
         height: 5em;
+      }
+    }
+    .responsive {
+      img {
+        height: 300px;
+        &:first-child {
+          margin-right: 2em;
+        }
       }
     }
   }

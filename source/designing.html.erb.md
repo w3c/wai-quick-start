@@ -245,7 +245,7 @@ For designs that include audio or video content, ensure that there is provision 
 When creating forms, ensure that all elements have a descriptive label adjacent to the element. Labels are usually positioned to the left or above the element, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example_start :plural %>
 
 <div class="labels">
   <figure class="fail">
@@ -311,7 +311,6 @@ When something goes wrong, it should be extremely obvious where to find the prob
 
 {::nomarkdown}
 <%= example_start %>
-
 
 <div class="errors">
   <figure>
@@ -390,19 +389,24 @@ Text design benefits from clear headers to chunk up content, and main content th
 {:/}
 
 {:.attach_permalink}
-## Present text in a flexible font size and line length
+## Create designs for different viewport sizes
 
-Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom. For all designs ensure that the line length is kept to about 80 characters maximum.
-
-[**Note:** Suggests a separate section on creating responsive designs?]
+Commonly called 'responsive design', consider how page information can be presented in different sized viewports, such as mobile phones or zoomed browser windows. Consider position and presentation of main elements, such as header and navigation. Also, ensure text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
 <%= example_start %>
-{:/}
 
-[... Example of text layout? ...]
 
-{::nomarkdown}
+<div class="responsive">
+  <figure>
+    <figcaption>Example of content displayed in different viewport sizes</figcaption>
+    <div>
+      <img src="images/phone.png" alt="Example of content displayed in a phone">
+      <img src="images/browser.png" alt="Example of content zoomed in a browser">
+    </div>
+  </figure>
+</div>
+
 <%= example_end %>
 {:/}
 
