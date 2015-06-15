@@ -19,6 +19,26 @@ These tips will help you improve your accessibility evaluation process. This is 
 {:/}
 
 {:.attach_permalink}
+## Perform initial cursory check to identify obvious issues
+
+If evaluation only happens when code is near completion, then begin with a quick accessibility check to identify obvious issues. Results of such an evaluation will help determine the extent of any accessibility issues. Early visibility of issues will allow developers to begin assessing the problems and finding solutions.
+
+{::nomarkdown}
+<%= learn_more_start %>
+{:/}
+
+* [Easy Checks](/WAI/eval/preliminary): Provides simple steps to help determine if a web page addresses accessibility
+
+{::nomarkdown}
+<%= learn_more_end %>
+{:/}
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
+{:.attach_permalink}
 ## Select tools to assist in testing
 
 Software tools can be used by evaluators as part of the evaluation process, to assist in determining compliance with assistive technologies, and to support large-scale content reviews across an entire website. Tools are often specialized, such as a color contrast checker, and may not cover every aspect of accessibility. Select tools with an appreciation for their limitations as well as their strengths.
