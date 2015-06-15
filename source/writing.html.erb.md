@@ -16,7 +16,7 @@ layout: guide
 {:/}
 
 {:.attach_permalink}
-##  Keep it short and simple 
+##  Keep content short and simple 
 
 Write in short, clear sentences and paragraphs. Front-load important messages. Split complex prose into a few short sentences.
  
@@ -34,7 +34,7 @@ Write in short, clear sentences and paragraphs. Front-load important messages. S
 {:/}
 
 {:.attach_permalink}
-## Avoid using needlessly complex words and phrases
+## Avoid using overly complex words and phrases
 
 Avoid using words more complicated than the audience needs. Some audiences, such as in academia, require complex terminology, but still seek for opportunities to simplify. When content requires possibly unfamiliar terms, include a glossary. 
 
@@ -70,7 +70,7 @@ Try to write link text so that it would make sense out of context. Link text sho
 {:/}
 
 {:.attach_permalink}
-## Provide short, meaningful headings to structure text
+## Provide meaningful headings to structure text
 
 Use clear and simple headings to split up text into manageable chunks. Headings should be short and aim to describe or introduce the following section. They should not confuse readers as to what the following section should be about.  
 
