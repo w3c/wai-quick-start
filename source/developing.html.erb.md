@@ -19,7 +19,31 @@ These introductory tips cover the basics of accessible web development. This is 
 {:/}
 
 {:.attach_permalink}
-## Use mark-up to convey meaning
+## Help users avoid and correct mistakes
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
+{:.attach_permalink}
+## Use progressive enhancement
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
+{:.attach_permalink}
+## Adopt a responsive design approach
+
+{::nomarkdown}
+<%= tip_end %>
+<%= tip_start %>
+{:/}
+
+{:.attach_permalink}
+## Use mark-up to convey meaning and structure
 
 HTML5 provides many elements that signify meaning, such as `<h1>`, `<nav>`, `<aside>`, which can be interpreted and communicated by assistive technologies. Use these elements to help structure content and convey meaning that is visually apparent. ARIA roles can be used to provide additional meaning to page elements, for example, using `role='search'` to identify search functionality. Work with designers and content authors to ensure the given meaning is agreed and consistently used.
 
