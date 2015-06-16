@@ -16,7 +16,7 @@ These introductory tips cover the basics of accessible user interface and visual
 * Will be replaced with the ToC
 
 {::nomarkdown}
-<%= tip_start %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -25,7 +25,7 @@ These introductory tips cover the basics of accessible user interface and visual
 Wherever text is displayed, including on buttons, check that you have chosen foreground/background color combinations that have sufficient contrast. For text on a background image check a sample of dominant colors or provide some way to make the text stand out. Where color is used to differentiate two or more objects, ensure that contrast is checked between the colors of adjacent objects.
 
 {::nomarkdown}
-<%= example_start :plural %>
+<%= example :start, :plural %>
 
 <div class="contrast three-column">
   <figure>
@@ -48,11 +48,11 @@ Wherever text is displayed, including on buttons, check that you have chosen for
   </figure>
 </div>
 
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [Easy Checks - Contrast ratio](/WAI/eval/preliminary.html#contrast): Explores this tip further and provides information on what to check for
@@ -61,12 +61,12 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 * [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper): Describes how a user with "color blindness" experiences the Web
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -75,7 +75,7 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 Color can be a useful indicator of emphasis or meaning but can never be the only way such meaning is conveyed. Use additional notification methods that do not rely on color perception when using color to differentiate elements, for example in graphs or maps, or when highlighting information, for example required form fields or important text.
 
 {::nomarkdown}
-<%= example_start :plural %>
+<%= example :start, :plural %>
 
 <div class="color-alone two-column">
   <figure class="fail">
@@ -118,23 +118,23 @@ Color can be a useful indicator of emphasis or meaning but can never be the only
   </figure>
 </div>
 
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [Understanding SC 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html): WCAG 2.0 Success Criteria on using color
 * [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper): Describes how a user with "color blindness" experiences the Web
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -143,7 +143,7 @@ Color can be a useful indicator of emphasis or meaning but can never be the only
 Provide distinct styles for the inactive and active states of interactive elements, including links. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
 
 {::nomarkdown}
-<%= example_start :plural %>
+<%= example :start, :plural %>
 
 <div class="focus two-column">
   <figure>
@@ -172,11 +172,11 @@ Provide distinct styles for the inactive and active states of interactive elemen
   </figure>
 </div>
 
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [Understanding SC 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html): WCAG 2.0 Success Criteria covering element focus
@@ -184,12 +184,12 @@ Provide distinct styles for the inactive and active states of interactive elemen
 * [Mr. Yunus, Retiree with low vision, hand tremor, and mild short-term memory loss](/WAI/intro/people-use-web/stories#retiree): Describes some challenges faced by an older user
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -198,19 +198,19 @@ Provide distinct styles for the inactive and active states of interactive elemen
 Ensure page designs include clear and consistent navigation. Indicate where in a site the user is, for example, using breadcrumbs, and how they can access other areas of the site, for example, primary navigation in a header. Secondary navigation styles may be required for specific web content, such as products in an online store. Aim for consistency in style if secondary navigation is used in many different places.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [Understanding SC 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html): WCAG 2.0 Success Criteria relating to consistent navigation
 * [Mr. Sands, Supermarket assistant with Down syndrome](/WAI/intro/people-use-web/stories#supermarketassistant): Describes how consistency and navigation can help someone with cognitive difficulties 
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -219,7 +219,7 @@ Ensure page designs include clear and consistent navigation. Indicate where in a
 For designs that include audio or video content, ensure that there is provision for controls for the player. The controls should include as a minimum start, pause, seek controls, volume controls, and closed captions activation. Ensure their position, size, and styling make them sufficiently prominent.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 
 <div class="visible_controls two-column">
   <figure>
@@ -231,12 +231,12 @@ For designs that include audio or video content, ensure that there is provision 
   </figure>
 </div>
 
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -245,7 +245,7 @@ For designs that include audio or video content, ensure that there is provision 
 When creating forms, ensure that all elements have a descriptive label adjacent to the element. Labels are usually positioned to the left or above the element, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
 
 {::nomarkdown}
-<%= example_start :plural %>
+<%= example :start, :plural %>
 
 <div class="labels">
   <figure class="fail">
@@ -296,12 +296,12 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
   </figure>
 </div>
 
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -310,7 +310,7 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 When something goes wrong, it should be extremely obvious where to find the problem. Ideally, provide a list of errors above the form, repeat the error beside the offending form element, and create a style that make the element really stand out. Well designed and visible inline validation can be extremely helpful for many users, but needs careful coding to ensure accessibility.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 
 <div class="errors">
   <figure>
@@ -346,11 +346,11 @@ When something goes wrong, it should be extremely obvious where to find the prob
   </figure>
 </div>
 
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [Understanding SC 3.3.1 Error Identification](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html): WCAG 2.0 Success Criteria covering how 
@@ -358,12 +358,12 @@ When something goes wrong, it should be extremely obvious where to find the prob
 * [Ms. Olsen, Classroom student with attention deficit hyperactivity disorder (ADHD) and dyslexia](/WAI/intro/people-use-web/stories#classroomstudent): Describes how making important content easily identifiable can help 
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -372,7 +372,7 @@ When something goes wrong, it should be extremely obvious where to find the prob
 Text design benefits from clear headers to chunk up content, and main content that is not too wide. Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [Understanding SC 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html): WCAG 2.0 Success Criteria detailing how heading information should be presented
@@ -380,12 +380,12 @@ Text design benefits from clear headers to chunk up content, and main content th
 * [Ms. Laitinen, Accountant with blindness](/WAI/intro/people-use-web/stories#accountant): Describes how headings can be helpful for navigation 
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -394,7 +394,7 @@ Text design benefits from clear headers to chunk up content, and main content th
 Commonly called 'responsive design', consider how page information can be presented in different sized viewports, such as mobile phones or zoomed browser windows. Consider position and presentation of main elements, such as header and navigation. Also, ensure text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 
 
 <div class="responsive">
@@ -407,12 +407,12 @@ Commonly called 'responsive design', consider how page information can be presen
   </figure>
 </div>
 
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -421,7 +421,7 @@ Commonly called 'responsive design', consider how page information can be presen
 These tips are important points to consider when designing accessible websites, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
@@ -430,9 +430,9 @@ These tips are important points to consider when designing accessible websites, 
 * [Before and After Demonstration](/WAI/demos/bad/): Example accessible and inaccessible websites that share the same visual design, including annotations that highlight key accessibility barriers and repairs
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
+<%= tip :end %>
 {:/}

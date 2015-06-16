@@ -15,7 +15,7 @@ These tips will help you improve your accessibility evaluation process. This is 
 * Will be replaced with the ToC
 
 {::nomarkdown}
-<%= tip_start %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -24,18 +24,18 @@ These tips will help you improve your accessibility evaluation process. This is 
 If evaluation only happens when code is near completion, then begin with a quick accessibility check to identify obvious issues. Results of such an evaluation will help determine the extent of any accessibility issues. Early visibility of issues will allow developers to begin assessing the problems and finding solutions.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [Easy Checks](/WAI/eval/preliminary): Provides simple steps to help determine if a web page addresses accessibility
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -44,16 +44,16 @@ If evaluation only happens when code is near completion, then begin with a quick
 Software tools can be used by evaluators as part of the evaluation process, to assist in determining compliance with assistive technologies, and to support large-scale content reviews across an entire website. Tools are often specialized, such as a color contrast checker, and may not cover every aspect of accessibility. Select tools with an appreciation for their limitations as well as their strengths.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -62,16 +62,16 @@ Software tools can be used by evaluators as part of the evaluation process, to a
 Develop a standard report template so that repeated evaluations are comparable. Aim to summarize findings to allow for comparison throughout a projects life-cycle and across similar projects. Ensure that any report template covers every point in the accessibility guidelines accepted by the organization. A robust report template should also seek to capture details of what was evaluated and how the evaluation was performed, for example tools used, specific test data.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -80,16 +80,16 @@ Develop a standard report template so that repeated evaluations are comparable. 
 Following evaluations, seek to capture common issues and suggested solutions to aide subsequent development efforts. Try to provide a learning tool for development teams so that repetition of errors is reduced.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 {:/}
 
 {::nomarkdown}
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -98,16 +98,16 @@ Following evaluations, seek to capture common issues and suggested solutions to 
 Plan to run evaluations as early as possible, even at design phase. This will not identify all issues but should aim to catch relevant issues early to reduce the cost to fix. More thorough evaluations should be planned at key development milestones or when functional components are completed.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 {:/}
 
 {::nomarkdown}
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -116,16 +116,16 @@ Plan to run evaluations as early as possible, even at design phase. This will no
 Seek feedback from people with disabilities on any materials being evaluated. This will help identify subtle issues, but will also emphasize the impact of any barriers. Encourage members of the project team to observe sessions as it is helpful in building understanding of the importance of accessibility.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -136,16 +136,16 @@ Run a full, comprehensive evaluation before go-live. Aim to cover all key websit
 [**Note:** Consider a tip on prioritization of issues]
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -154,7 +154,7 @@ Run a full, comprehensive evaluation before go-live. Aim to cover all key websit
 These tips are important points to consider when evaluating website accessibility, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
@@ -165,9 +165,9 @@ These tips are important points to consider when evaluating website accessibilit
 * [Involving Users in Web Accessibility Evaluation](/WAI/eval/users.html): Provides guidance on including people with disabilities in accessibility evaluation throughout Web development
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
+<%= tip :end %>
 {:/}

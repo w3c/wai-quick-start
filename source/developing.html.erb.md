@@ -15,31 +15,31 @@ These introductory tips cover the basics of accessible web development. This is 
 * Will be replaced with the ToC
 
 {::nomarkdown}
-<%= tip_start %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
 ## Use progressive enhancement
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
 ## Adopt a responsive design approach
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -48,18 +48,18 @@ These introductory tips cover the basics of accessible web development. This is 
 HTML5 provides many elements that signify meaning, such as `<h1>`, `<nav>`, `<aside>`, which can be interpreted and communicated by assistive technologies. Use these elements to help structure content and convey meaning that is visually apparent. ARIA roles can be used to provide additional meaning to page elements, for example, using `role='search'` to identify search functionality. Work with designers and content authors to ensure the given meaning is agreed and consistently used.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 {:/}
 
 [... Example of markup along side a visual design ...]
 
 {::nomarkdown}
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -68,30 +68,30 @@ HTML5 provides many elements that signify meaning, such as `<h1>`, `<nav>`, `<as
 Associate the `<label>` element with form elements using the *for* and *id* attributes. If there is not a visible label, provide a label and position it offscreen using CSS. 
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 {:/}
 
     <label for="username">
     <input id="username" type="text">
 
 {::nomarkdown}
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [Labelling controls - Tutorial page](/WAI/tutorials/forms/labels/): Provides details on how to label form controls and elements
 * [Understanding SC 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): WCAG 2.0 Success Criteria 3.3.2 for labels
 * [Design solutions - navigating and finding content](/WAI/intro/people-use-web/browsing#navigation): Explores how providing labels benefits people with disabilities
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -100,18 +100,18 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 As much as possible, ensure that the order of elements in the code matches the order of the visual design. This can be checked by removing CSS styling and comparing the order of the content with the visual hierarchy of the page.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 {:/}
 
 [... Example of code order versus visual order ...]
 
 {::nomarkdown}
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -120,18 +120,18 @@ As much as possible, ensure that the order of elements in the code matches the o
 When creating new interactive elements, such as accordions, or off canvas navigation, ARIA attributes use to provide meaning and state. Additional code is usually required to implement interactions, for example, opening and closing elements.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 {:/}
 
 [... Example of hamburger menu, list of images as radio select, or collapsable accordion ...]
 
 {::nomarkdown}
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -140,18 +140,18 @@ When creating new interactive elements, such as accordions, or off canvas naviga
 This is easily checked by trying to interactive with a page using the keyboard only. If some functionality, is not reachable using just the keyboard then there is a problem. Think about keyboard access when developing new interactive elements, such as menus, collapsable accordions, or media players.
 
 {::nomarkdown}
-<%= example_start %>
+<%= example %>
 {:/}
 
 [... **Note:** May be too complex to create an example for ...]
 
 {::nomarkdown}
-<%= example_end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -160,17 +160,17 @@ This is easily checked by trying to interactive with a page using the keyboard o
 Validate HTML and CSS to identify possible compatibility problems. Fix identified problems to reduce the risk of errors on different devices.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 
 {::nomarkdown}
-<%= tip_end %>
-<%= tip_start %>
+<%= tip :end %>
+<%= tip %>
 {:/}
 
 {:.attach_permalink}
@@ -179,7 +179,7 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 These tips are important points to consider when developing accessible websites, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
 
 {::nomarkdown}
-<%= learn_more_start %>
+<%= learn_more %>
 {:/}
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
@@ -189,9 +189,9 @@ These tips are important points to consider when developing accessible websites,
 * [Before and After Demonstration](/WAI/demos/bad/): Example accessible and inaccessible websites that share the same visual design, including annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0
 
 {::nomarkdown}
-<%= learn_more_end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
-<%= tip_end %>
+<%= tip :end %>
 {:/}

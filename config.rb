@@ -74,32 +74,32 @@ helpers do
     end
   end
 
-  def tip_start
-    '<article class="tip">'
+  def tip(start_end = :start)
+    if start_end == :start
+      '<article class="tip">'
+    elsif start_end == :end
+      '</article>'
+    end
   end
 
-  def tip_end
-    '</article>'
-  end
-
-  def learn_more_start
-    '<aside class="learn_more"><h3>Learn more</h3>'
-  end
-  
-  def learn_more_end
-    '</aside>'
-  end
-
-  def example_start(plural = nil)
-    if plural
-      '<aside class="example"><h3>Examples</h3>'
-    else
-      '<aside class="example"><h3>Example</h3>'
+  def learn_more(start_end = :start)
+    if start_end == :start
+      '<aside class="learn_more"><h3>Learn more</h3>'
+    elsif start_end == :end
+      '</article>'
     end
   end
   
-  def example_end
-    '</aside>'
+  def example(start_end = :start, plural = nil)
+    if start_end == :start
+      if plural
+        '<aside class="example"><h3>Examples</h3>'
+      else
+        '<aside class="example"><h3>Example</h3>'
+      end
+    elsif start_end == :end
+      '</aside>'
+    end
   end
 end
 
