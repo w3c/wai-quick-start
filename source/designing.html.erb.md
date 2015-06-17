@@ -367,9 +367,9 @@ When something goes wrong, it should be extremely obvious where to find the prob
 {:/}
 
 {:.attach_permalink}
-## Use headers and whitespace to group related content
+## Use headings and spacing to group related content
 
-Text design benefits from clear headers to chunk up content, and main content that is not too wide. Ideal font size will vary for all users, so it is important to ensure that changes in the font size can be accommodated in the design, for example, by creating different layouts for different levels of zoom.
+Content design benefits from clear headings to chunk up content. Use whitespace to reduce clutter, make related content or elements more apparent, and make content more scannable.
 
 {::nomarkdown}
 <%= learn_more %>
