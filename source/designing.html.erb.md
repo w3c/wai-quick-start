@@ -1,10 +1,8 @@
 ---
-title: Designing for Web Accessibility
-subtitle: Tips for Getting Started
+title: Tips on Designing for Web Accessibility
 icon: paint-brush
 status: editors-draft
 layout: guide
-heading: option1
 ---
 
 These introductory tips cover the basics of accessible user interface and visual design.

@@ -1,12 +1,11 @@
 ---
-title: Developing for Web Accessibility
-subtitle: Tips for markup and coding
+title: Tips on Developing for Web Accessibility
 icon: code
 status: editors-draft
 layout: guide
 ---
 
-These introductory tips cover the basics of accessible web development. This is not an exhaustive list of requirements for web accessibility, but will help you start in the right direction.
+These introductory tips cover the basics of accessible front-end web development using HTML, CSS, and JavaScript.
 
 {:.toc .no_toc}
 ## On this page

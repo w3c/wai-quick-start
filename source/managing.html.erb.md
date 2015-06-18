@@ -1,12 +1,11 @@
 ---
-title: Managing Web Accessibility
-subtitle: Tips on planning and managing
+title: Tips on Managing Web Accessibility
 icon: cogs
 status: editors-draft
 layout: guide
 ---
 
-These tips will help you improve the accessibility outcomes of your projects. This is not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
+These tips will help you integrate accessibility into project planning and managing.
 
 {:.toc .no_toc}
 ## On this page

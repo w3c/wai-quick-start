@@ -1,12 +1,11 @@
 ---
-title: Evaluating Web Accessibility
-subtitle: Tips on the evaluation process
+title: Tips on Evaluating Web Accessibility
 icon: bug
 status: editors-draft
 layout: guide
 ---
 
-These tips will help you improve your accessibility evaluation process. This is not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
+These tips will help you improve your accessibility evaluation process.
 
 {:.toc .no_toc}
 ## On this page

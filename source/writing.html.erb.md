@@ -5,6 +5,9 @@ icon: pencil
 layout: guide
 ---
 
+These introductory tips cover the basics of writing web accessible content.
+
+
 {:.toc .no_toc}
 ## On this page
 

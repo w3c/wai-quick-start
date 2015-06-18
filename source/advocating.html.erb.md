@@ -1,12 +1,11 @@
 ---
-title: Advocating for Web Accessibility
-subtitle: Tips for understanding and promoting accessibility
+title: Tips on Advocating for Web Accessibility
 icon: bullhorn
 status: editors-draft
 layout: guide
 ---
 
-These tips will help you understand and promote web accessibility. This is not an exhaustive list of requirements for web accessibility, but cover important points and provide links to help you find out more.
+These tips will help you understand and promote web accessibility.
 
 {:.toc .no_toc}
 ## On this page
