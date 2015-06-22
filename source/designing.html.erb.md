@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible user interface and visual
 {:.attach_permalink}
 ## Provide sufficient color contrast
 
-Wherever text is displayed, including on buttons, check that you have chosen foreground/background color combinations that have sufficient contrast. For text on a background image check a sample of dominant colors or provide some way to make the text stand out. Where color is used to differentiate two or more objects, ensure that contrast is checked between the colors of adjacent objects.
+Text that is intended to be read by users needs to have sufficient (luminosity) contrast between foreground and background colors. This includes text on images, buttons, and other elements. Logos, purely decorative images, and other incidental text that is not intended for reading are exempt from this requirement.
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -70,7 +70,7 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 {:.attach_permalink}
 ## Don't use color alone to signify meaning
 
-Color can be a useful indicator of emphasis or meaning but can never be the only way such meaning is conveyed. Use additional notification methods that do not rely on color perception when using color to differentiate elements, for example in graphs or maps, or when highlighting information, for example required form fields or important text.
+Color can be a useful indicator of emphasis or meaning but should not be the only way such meaning is conveyed. Use additional identification that does not rely on color perception when using color to differentiate elements. For example, use an asterisk in addition to color to indicate required form fields, and use labels and patterns to help distinguish areas on graphs and maps.
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -136,9 +136,9 @@ Color can be a useful indicator of emphasis or meaning but can never be the only
 {:/}
 
 {:.attach_permalink}
-## Ensure interactive elements are unambiguous and easy to identify
+## Ensure interactive elements are easy to identify
 
-Provide distinct styles for the inactive and active states of interactive elements, including links. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
+Provide distinct styles for interactive elements, such as links, buttons, and other controls, to make them easy to distinguish and identify. Also, where appropriate, provide distinct styles for mouse hover, keyboard focus, and touch-screen activation so that users can identify the state of the element.
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -193,7 +193,7 @@ Provide distinct styles for the inactive and active states of interactive elemen
 {:.attach_permalink}
 ## Provide consistent navigation and orientation
 
-Ensure page designs include clear and consistent navigation. Indicate where in a site the user is, for example, using breadcrumbs, and how they can access other areas of the site, for example, primary navigation in a header. Secondary navigation styles may be required for specific web content, such as products in an online store. Aim for consistency in style if secondary navigation is used in many different places.
+Ensure page designs include clear and consistent navigation. For example, that navigational elements have the same naming and appear in the same place on related pages. Also provide orientation cues, such as clear headings and, if appropriate, breadcrumbs, so that users understand where they are on a web page and in the website. Also ensure consistency in styling and layout, especially of navigational elements.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -305,7 +305,7 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 {:.attach_permalink}
 ## Provide clear feedback
 
-When something goes wrong, it should be extremely obvious where to find the problem. Ideally, provide a list of errors above the form, repeat the error beside the offending form element, and create a style that make the element really stand out. Well designed and visible inline validation can be extremely helpful for many users, but needs careful coding to ensure accessibility.
+Provide feedback for interaction. For example, to confirm the completion of a function such as submitting a form, to alert the user that something went wrong, and to notify users when something changes on the page. This feedback needs to be evident to users, for example by placing it prominently in the view port and by using appropriate notifications. The instructions should be easy to understand and to follow.
 
 {::nomarkdown}
 <%= example %>
