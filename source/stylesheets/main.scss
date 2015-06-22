@@ -147,6 +147,9 @@ $wai_grey_bg: #e0e0e0;
         margin-left: 0;
       }
     }
+    .highlight {
+      background: yellow;
+    }
     
     @include mq($medium) {
       .two-column {

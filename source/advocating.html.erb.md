@@ -36,7 +36,7 @@ Consider aspects such as awareness, cultural acceptance, availability of experts
 {:/}
 
 {:.attach_permalink}
-## Leverage the role of people with disabilities
+## Engage with people with disabilities
 
 People with disabilities are often unaware of accessibility features, so that they are being infrequently demanded. Involving them in awareness-raising campaigns and discussion is equally important to ensure backing and a societal contract. @@@
 
