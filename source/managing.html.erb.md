@@ -22,7 +22,7 @@ These tips will help you integrate accessibility into project planning and manag
 {:.attach_permalink}
 ## Secure buy-in from senior management
 
-Support from management helps ensure budget and resources are available for accessibility activities. A strong business case, tailored to organizational goals, will help.
+Support from management helps ensure budget and resources are available for accessibility activities. A strong business case, tailored to the organizational goals, will help.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -41,7 +41,7 @@ Support from management helps ensure budget and resources are available for acce
 {:/}
 
 {:.attach_permalink}
-##  Integrate accessibility considerations throughout project life cycle
+##  Integrate accessibility throughout the workflow
 
 <!-- **Note:** Covers considerations at design phase, development of use cases and audience understanding, design guidelines, code libraries, user stories, etc. -->
 
@@ -141,9 +141,9 @@ Seek to identify accessibility barriers early by undertaking regular checks thro
 {:/}
 
 {:.attach_permalink}
-## Involve users with disabilities in any usability testing
+## Involve users with disabilities in usability testing
 
-Any usability testing should seek to incorporate feedback from people with disabilities. This is especially important for websites where the target audience are likely to benefit more from accessible solutions, such as older people.
+Usability testing should seek to incorporate feedback from people with disabilities. This is especially important for websites where the target audience are likely to benefit more from accessible solutions, such as older people.
 
 {::nomarkdown}
 <%= learn_more %>
