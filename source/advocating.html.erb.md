@@ -18,9 +18,45 @@ These tips will help you understand and promote web accessibility.
 {:/}
 
 {:.attach_permalink}
-## Assess the current situation and communicate existing barriers
+## Assess key issues impacting accessibility
 
-Undertake a quick accessibility evaluation of key organizational websites to better understand the scale of any problems. Focus on key business activities to determine if people with disabilities are able to engage with your business. Use findings to help in subsequent communications with stakeholders and implementation teams.
+Consider aspects such as awareness, cultural acceptance, availability of experts and tools, and policy implications that are impacting accessibility implementation. Also consider the role of key stakeholders, such as designers and developers, decision and policy makers, and people with disabilities; for example, that both producers and users aware of the issues and their relevance.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Leverage the role of people with disabilities
+
+People with disabilities are often unaware of accessibility features, so that they are being infrequently demanded. Involving them in awareness-raising campaigns and discussion is equally important to ensure backing and a societal contract. @@@
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Address top management and decision makers
+
+While individual developers might want to increase accessibility efforts, they may not have the necessary backing to induce change. Targeting top management and decision makers in awareness-raising campaigns and discussion can have higher impact on overall change and progress. @@@
 
 {::nomarkdown}
 <%= learn_more %>
@@ -38,32 +74,11 @@ Undertake a quick accessibility evaluation of key organizational websites to bet
 {:.attach_permalink}
 ## Develop an accessibility business case
 
-Use the business case to clarify why accessibility is important to the organization. Seek to align the rationale for adopting accessibility with core business objectives and motivations. 
+Build a business case for web accessibility that is most relevant to the particular context. For example, focus on social factors such as employment opportunities, legal factors such as relevant policies, market factors such as corporate social responsibility, and technical factors such as improved usability, as necessary. @@@
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Secure management support for accessibility activities
-
-Support from management helps ensure budget and resources are available for accessibility activities. Support will also help with prioritization when resource clashes occur. A strong business case, tailored to organizational goals, will help.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* [Developing a Web Accessibility Business Case for Your Organization](http://www.w3.org/WAI/bcase/Overview.html): Provides information on how to create a business case
-* [Determine Your Goal and Gather Support](http://www.w3.org/WAI/impl/#goal): Section of Strategic Planning document that discusses broad area of securing management support.
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -77,7 +92,7 @@ Support from management helps ensure budget and resources are available for acce
 {:.attach_permalink}
 ## Promote awareness for accessibility
 
-Encourage awareness of the value and need for accessibility throughout the organization. Ensure that further information is available for those interested, and that there is a framework for them to communicate. Plan for follow up training and information, particularly for those involved in implementation activities. 
+Encourage awareness of the value and need for accessibility among all stakeholders, including designers and developers, managers and decision makers, and people with disabilities. Ensure that further information is available for those interested, and that there is a framework for them to communicate and exchange knowledge. @@@ 
 
 {::nomarkdown}
 <%= learn_more %>
@@ -93,45 +108,9 @@ Encourage awareness of the value and need for accessibility throughout the organ
 {:/}
 
 {:.attach_permalink}
-## Seek alliances within the organization
+## Seek alliances and build networks
 
-Organizations may have many departments working on web implementation projects. Seek them out and bring them together. Provide shared training opportunities and look for opportunities to develop shared resources. Grow a network of people working on web projects interested in accessibility.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Create feedback mechanisms
-
-Provide a mechanism to gather feedback both internally and externally. Use the feedback to identify accessibility barriers, opportunities, and ideas. Ensure that the feedback is responded to positively, and fed into broader web implementation activities.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Involve experts and people with disabilities
-
-Experts and people with disabilities will help build understanding of the barriers faced and what accommodations can help in removing them. Stories of how people with disabilities use the web can also help develop understanding of the principles of and need for web accessibility. Use these stories as cases studies when building awareness and, potentially, as personas for implementation teams.
+Strengthening the networks and alliances of accessibility supports helps to increase knowledge, implementation, and drive for change. @@@
 
 {::nomarkdown}
 <%= learn_more %>
