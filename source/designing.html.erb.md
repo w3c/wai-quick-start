@@ -138,7 +138,7 @@ Color can be a useful indicator of emphasis or meaning but can never be the only
 {:.attach_permalink}
 ## Ensure interactive elements are unambiguous and easy to identify
 
-Provide distinct styles for the inactive and active states of interactive elements, including links. This includes mouse hover, keyboard focus, and possibly even when it is activated on a touch device. Ensure the alternative styling provides sufficient contrast, and make the element easily identifiable.
+Provide distinct styles for interactive elements, such as links, buttons, and other controls, to make them easy to distinguish and identify. Where appropriate, provide distinct styles for mouse hover, keyboard focus, and touch-screen activation so that users can identify the state of the element.
 
 {::nomarkdown}
 <%= example :start, :plural %>
