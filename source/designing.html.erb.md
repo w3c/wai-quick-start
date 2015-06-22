@@ -305,8 +305,8 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 {:.attach_permalink}
 ## Provide clear feedback
 
-When something goes wrong, it should be extremely obvious where to find the problem. Ideally, provide a list of errors above the form, repeat the error beside the offending form element, and create a style that make the element really stand out. Well designed and visible inline validation can be extremely helpful for many users, but needs careful coding to ensure accessibility.
-
+Provide feedback for any page interactions, such as confirmation of form submission, alerting the user when something when wrong, or notification of changes on the page. Important feedback that requires user action should be presented in a style that really stands out. Any instructions should be clear and easy to follow. 
+ 
 {::nomarkdown}
 <%= example %>
 
