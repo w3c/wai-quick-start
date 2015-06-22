@@ -41,7 +41,7 @@ Support from management helps ensure budget and resources are available for acce
 {:/}
 
 {:.attach_permalink}
-##  Integrate accessibility throughout the workflow
+##  Integrate accessibility throughout the project life-cycle
 
 <!-- **Note:** Covers considerations at design phase, development of use cases and audience understanding, design guidelines, code libraries, user stories, etc. -->
 
