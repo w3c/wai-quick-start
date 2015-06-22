@@ -54,7 +54,7 @@ People with disabilities are often unaware of accessibility features, so that th
 {:/}
 
 {:.attach_permalink}
-## Address top management and decision makers
+## Engage senior stakeholders and decision makers
 
 While individual developers might want to increase accessibility efforts, they may not have the necessary backing to induce change. Targeting top management and decision makers in awareness-raising campaigns and discussion can have higher impact on overall change and progress. @@@
 
