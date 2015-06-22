@@ -114,10 +114,11 @@ $wai_grey_bg: #e0e0e0;
       a {
         display: block;
         font-size: 105%;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.4em;
         line-height: 1.5em;
         font-weight: bold;
         text-decoration: none;
+        border-bottom: 2px solid transparent;
         span {
           display: block;
           font-size: 140%;
@@ -126,11 +127,8 @@ $wai_grey_bg: #e0e0e0;
           color: $wai_link;
         }
         &:hover, &:focus {
-          text-decoration: underline;
+          border-bottom: 2px solid $wai-red;
           color: $wai_red;
-          .fa {
-            text-decoration: none;
-          }
         }
       }
     }
