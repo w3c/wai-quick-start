@@ -193,7 +193,7 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
 {:.attach_permalink}
 ## Provide consistent navigation and orientation
 
-Ensure page designs include clear and consistent navigation. Indicate where in a site the user is, for example, using breadcrumbs, and how they can access other areas of the site, for example, primary navigation in a header. Secondary navigation styles may be required for specific web content, such as products in an online store. Aim for consistency in style if secondary navigation is used in many different places.
+Ensure page designs include clear and consistent naming, styling and positioning of navigation elements. Help users understand where they are on a web page and in a website by providing orientation cues, such as clear headings and, if appropriate, breadcrumbs.
 
 {::nomarkdown}
 <%= learn_more %>
