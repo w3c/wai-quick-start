@@ -20,7 +20,7 @@ These tips will help you understand and promote web accessibility.
 {:.attach_permalink}
 ## Assess key issues impacting accessibility
 
-Consider aspects such as awareness, cultural acceptance, availability of experts and tools, and policy implications that are impacting accessibility implementation. Also consider the role of key stakeholders, such as designers and developers, decision and policy makers, and people with disabilities; for example, that both producers and users aware of the issues and their relevance.
+Many factors may impact accessibility implementation. Consider general awareness, cultural acceptance, availability of experts and tools, and policy implications. Key stakeholders play an important role in ensuring an awareness of the issues and their relevance. Consider roles such as designers, developers, project managers, senior management and policy makers.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -40,6 +40,8 @@ Consider aspects such as awareness, cultural acceptance, availability of experts
 
 People with disabilities are often unaware of accessibility features, so that they are being infrequently demanded. Involving them in awareness-raising campaigns and discussion is equally important to ensure backing and a societal contract. @@@
 
+People with disabilities will help build understanding of the barriers faced and what accommodations can help in removing them. Stories of how people with disabilities use the web can also help develop understanding of the principles of and need for web accessibility. Use these stories as cases studies when building awareness and seeking backing.
+
 {::nomarkdown}
 <%= learn_more %>
 {:/}
@@ -56,7 +58,7 @@ People with disabilities are often unaware of accessibility features, so that th
 {:.attach_permalink}
 ## Engage senior stakeholders and decision makers
 
-While individual developers might want to increase accessibility efforts, they may not have the necessary backing to induce change. Targeting top management and decision makers in awareness-raising campaigns and discussion can have higher impact on overall change and progress. @@@
+Individual project staff might want to increase accessibility efforts but lack the resources to do so. Backing from senior stakeholders and decision makers will help stimulate change and ensure resources are available for accessibility activities. Target these people with awareness-raising campaigns and discussion to provide an appreciation for the value and importance of accessibility. This will impact on broad change and progress.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -74,11 +76,14 @@ While individual developers might want to increase accessibility efforts, they m
 {:.attach_permalink}
 ## Develop an accessibility business case
 
-Build a business case for web accessibility that is most relevant to the particular context. For example, focus on social factors such as employment opportunities, legal factors such as relevant policies, market factors such as corporate social responsibility, and technical factors such as improved usability, as necessary. @@@
+Build a business case for web accessibility that is most relevant to the organization. Seek to align the rationale for adopting accessibility with core business objectives and motivations. For example, if providing employment opportunities is important then focus on social factors, or if risk and compliance are important then legal factors may be relevant.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* [Developing a Web Accessibility Business Case for Your Organization](http://www.w3.org/WAI/bcase/Overview.html): Provides information on how to create a business case
+* [Determine Your Goal and Gather Support](http://www.w3.org/WAI/impl/#goal): Section of Strategic Planning document that discusses broad area of securing management support.
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -92,7 +97,7 @@ Build a business case for web accessibility that is most relevant to the particu
 {:.attach_permalink}
 ## Promote awareness for accessibility
 
-Encourage awareness of the value and need for accessibility among all stakeholders, including designers and developers, managers and decision makers, and people with disabilities. Ensure that further information is available for those interested, and that there is a framework for them to communicate and exchange knowledge. @@@ 
+Encourage awareness of the value and need for accessibility among all stakeholders, such as designers, developers, managers, and decision makers . Ensure that further information is available for those interested, and that there is a framework for them to communicate and exchange knowledge. Providing sustained information can be more helpful at maintaining activite.  
 
 {::nomarkdown}
 <%= learn_more %>
@@ -110,7 +115,7 @@ Encourage awareness of the value and need for accessibility among all stakeholde
 {:.attach_permalink}
 ## Seek alliances and build networks
 
-Strengthening the networks and alliances of accessibility supports helps to increase knowledge, implementation, and drive for change. @@@
+Organizations may have many departments working on web implementation projects. Seek them out and bring them together. Provide shared training opportunities and look for opportunities to develop shared resources. Strengthening the networks and alliances of people working on web projects interested in accessibility will help increase knowledge and drive for change.
 
 {::nomarkdown}
 <%= learn_more %>
