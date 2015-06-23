@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible user interface and visual
 {:.attach_permalink}
 ## Provide sufficient color contrast
 
-Wherever text is displayed, including on buttons, check that you have chosen foreground/background color combinations that have sufficient contrast. For text on a background image check a sample of dominant colors or provide some way to make the text stand out. Where color is used to differentiate two or more objects, ensure that contrast is checked between the colors of adjacent objects.
+Text needs to have sufficient contrast between foreground and background colors. This includes text on images, buttons, and other elements. Don't worry about logos, or incidental text, such as text that happens to be in a photograph.
 
 {::nomarkdown}
 <%= example :start, :plural %>
