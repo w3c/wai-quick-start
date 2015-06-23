@@ -70,7 +70,7 @@ Wherever text is displayed, including on buttons, check that you have chosen for
 {:.attach_permalink}
 ## Don't use color alone to signify meaning
 
-Color can be a useful indicator of emphasis or meaning but can never be the only way such meaning is conveyed. Use additional notification methods that do not rely on color perception when using color to differentiate elements, for example in graphs or maps, or when highlighting information, for example required form fields or important text.
+Color can be a useful indicator of emphasis or meaning but should not be the only way such meaning is conveyed. Use additional identification that does not rely on color perception when using color to differentiate elements. For example, use an asterisk in addition to color to indicate required form fields, and use labels and patterns to help distinguish areas on graphs and maps.
 
 {::nomarkdown}
 <%= example :start, :plural %>
