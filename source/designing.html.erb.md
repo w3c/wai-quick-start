@@ -35,7 +35,7 @@ Text needs to have sufficient contrast between foreground and background colors.
   <figure>
     <figcaption>Text with sufficient contrast</figcaption>
     <div>
-      <p class="pass">Sed do eiusmod tempor incididunt</p>
+      <p class="pass">Sed do eiusmod tempor incid</p>
     </div>
   </figure>
   <figure>
@@ -78,7 +78,7 @@ Color can be a useful indicator of emphasis or meaning but should not be the onl
 <div class="color-alone two-column">
   <figure class="fail">
     <figcaption>Inaccessible pie chart</figcaption>
-    <img src="images/inaccessible_pie_chart.png" width="200" height="200" alt="A pie chart">
+    <img src="images/inaccessible_pie_chart.png" width="150" height="150" alt="A pie chart">
     <ul>
       <li class="super">Superbear</li>
       <li class="aqua">Aquabear</li>
@@ -89,7 +89,7 @@ Color can be a useful indicator of emphasis or meaning but should not be the onl
   </figure>
   <figure class="pass">
     <figcaption>Accessible pie chart</figcaption>
-    <img src="images/accessible_pie_chart.png" width="200" height="200" alt="Chart of most battles won, Batbear is in the lead">
+    <img src="images/accessible_pie_chart.png" width="150" height="150" alt="Chart of most battles won, Batbear is in the lead">
     <ul>
       <li class="super">Superbear (28%)</li>
       <li class="aqua">Aquabear (11%)</li>
@@ -97,22 +97,6 @@ Color can be a useful indicator of emphasis or meaning but should not be the onl
       <li class="star">Starbear (19%)</li>
       <li class="blue">Blue Bear (11%)</li>
     </ul>
-  </figure>
-  <figure class="reference fail">
-    <figcaption>Inappropriate reference using color only</figcaption>
-    <div>
-      <p><span class="required">Required fields in red</span></p>
-      <label for="name1">Name:</label> <input type="text" id="name1" name="name"><br>
-      <label class="required" for="email1">Email:</label> <input type="text" id="email1" name="email">
-    </div>
-  </figure>
-  <figure class="reference pass">
-    <figcaption>Appropriate reference with more than color</figcaption>
-    <div>
-      <p><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
-      <label for="name2">Name:</label> <input type="text" id="name2" name="name"><br>
-      <label class="required" for="email2">Email ✻:</label> <input type="text" id="email2" name="email">
-    </div>
   </figure>
 </div>
 
@@ -143,7 +127,7 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
 {::nomarkdown}
 <%= example :start, :plural %>
 
-<div class="focus two-column">
+<div class="focus four-column">
   <figure>
     <figcaption>Plain links stand out from surrounding text</figcaption>
     <div>
@@ -151,19 +135,19 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
     </div>
   </figure>
   <figure class="hover">
-    <figcaption>Hovering over a link should be indicated</figcaption>
+    <figcaption>Hovering over a link changes style</figcaption>
     <div>
       <p><a href="#">Hovered link</a><img src="images/pointer.png" width="20" alt=""></p>
     </div>
   </figure>
   <figure class="keyboard">
-    <figcaption>When a link receives keyboard focus, make it really apparent</figcaption>
+    <figcaption>A link with keyboard focus can be really clear</figcaption>
     <div>
       <p><a href="#">Link with focus</a></p>
     </div>
   </figure>
   <figure class="active">
-    <figcaption>Change style when a link is activated to highlight the action</figcaption>
+    <figcaption>Change style for touched or clicked links</figcaption>
     <div>
       <p><a href="#">Activated link</a><img src="images/pointer.png" width="20" alt=""></p>
     </div>
@@ -214,23 +198,7 @@ Ensure page designs include clear and consistent naming, styling and positioning
 {:.attach_permalink}
 ## Provide visible controls for audio and video players
 
-For designs that include audio or video content, ensure that there is provision for controls for the player. The controls should include as a minimum start, pause, seek controls, volume controls, and closed captions activation. Ensure their position, size, and styling make them sufficiently prominent.
-
-{::nomarkdown}
-<%= example %>
-
-<div class="visible_controls two-column">
-  <figure>
-    <figcaption>Example media player controls</figcaption>
-    <div>
-      <p><img src="images/example_media_player.png" alt="Example media player"></p>
-      <p>Provide styling options for when each element is active, for example, hovered over with mouse, or receiving keyboard focus.</p>
-    </div>
-  </figure>
-</div>
-
-<%= example :end %>
-{:/}
+For designs that include audio or video content, ensure that there is provision for controls for the player. The controls should include as a minimum start, pause, seek controls, volume controls, and closed captions activation. Ensure their position, size, and styling make them sufficiently prominent. Provide styling options for when each element is active, for example, hovered over with mouse, or receiving keyboard focus.
 
 {::nomarkdown}
 <%= tip :end %>
@@ -251,15 +219,11 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
     <div>
       <form action="">
         <div class="row">
-          <label for="name3">Name</label>
-          <input type="text" id="name3" name="name">
-        </div>
-        <div class="row">
-          <label class="required" for="email3">Email ✻</label>
+          <label class="required">Email ✻</label>
           <input type="text" id="email3" name="email">
         </div>
         <div class="row">
-          <label for="website">Website</label>
+          <label>Website</label>
           <input type="text" id="website" name="website">
         </div>
         <div class="row">
@@ -273,10 +237,6 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
     <div>
       <form action="">
         <legend>Add a comment</legend>
-        <div class="row">
-          <label for="name4">Name</label>
-          <input type="text" id="name4" name="name">
-        </div>
         <div class="row">
           <label class="required" for="email4">Email ✻</label>
           <input type="text" id="email4" name="email">

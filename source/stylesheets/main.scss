@@ -114,7 +114,8 @@ $wai_grey_bg: #e0e0e0;
       a {
         display: block;
         font-size: 105%;
-        margin-bottom: 0.4em;
+        margin-bottom: 0.2em;
+        padding-bottom: 0.2em;
         line-height: 1.5em;
         font-weight: bold;
         text-decoration: none;
@@ -165,6 +166,14 @@ $wai_grey_bg: #e0e0e0;
         justify-content: space-between;
         figure {
           margin-right: 1em;
+        }
+      }
+      .four-column {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        figure {
+          width: 25%;
         }
       }
     }
@@ -236,49 +245,28 @@ $wai_grey_bg: #e0e0e0;
             }
           }
         }
-        &.fail {
-          li {
-            &.super:before {
-              color: #717ACB;
-            }
-            &.aqua:before {
-              color: #50CEFF;
-            }
-            &.bat:before {
-              color: #79C850;
-            }
-            &.star:before {
-              color: #FFB760;
-            }
-            &.blue:before {
-              color: #FB694C;
-            }
+        li {
+          &.super:before {
+            color: #717ACB;
           }
-        }
-        &.pass {
-          li {
-            &.super:before {
-              color: #F0F8FF;
-            }
-            &.aqua:before {
-              color: #6495ED;
-            }
-            &.bat:before {
-              color: #5D8AA8;
-            }
-            &.star:before {
-              color: #0047AB;
-            }
-            &.blue:before {
-              color: #003366;
-            }
+          &.aqua:before {
+            color: #50CEFF;
+          }
+          &.bat:before {
+            color: #79C850;
+          }
+          &.star:before {
+            color: #FFB760;
+          }
+          &.blue:before {
+            color: #FB694C;
           }
         }
       }
     }
     .focus {
-      div {
-        width: 75%;
+      figcaption {
+        padding-right: 1em;
       }
       p {
         position: relative;
@@ -286,7 +274,7 @@ $wai_grey_bg: #e0e0e0;
         text-align: center;
       }
       a {
-        font-size: 200%; 
+        font-size: 110%; 
         text-decoration: underline;
       }
       .hover {
