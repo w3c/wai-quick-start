@@ -21,7 +21,7 @@ These introductory tips cover the basics of writing web accessible content.
 {:.attach_permalink}
 ##  Keep content short and simple 
 
-Write in short, clear sentences and paragraphs. Front-load important messages. Split complex prose into a few short sentences.
+Write in short, clear sentences and paragraphs. Front-load important messages. Split complex prose into a few short sentences. Try and keep paragraphs to a single idea.
  
 {::nomarkdown}
 <%= example %>
@@ -39,7 +39,7 @@ Write in short, clear sentences and paragraphs. Front-load important messages. S
 {:.attach_permalink}
 ## Avoid using overly complex words and phrases
 
-Avoid using words more complicated than the audience needs. Some audiences, such as in academia, require complex terminology, but still seek for opportunities to simplify. When content requires possibly unfamiliar terms, include a glossary. 
+Avoid using words more complicated than the audience needs. Some audiences, such as in doctors or engineers, require complex terminology, but still seek for opportunities to simplify. When content requires possibly unfamiliar terms, include a glossary. 
 
 {::nomarkdown}
 <%= example %>
@@ -75,7 +75,7 @@ Try to write link text so that it would make sense out of context. Link text sho
 {:.attach_permalink}
 ## Provide meaningful headings to structure text
 
-Use clear and simple headings to split up text into manageable chunks. Headings should be short and aim to describe or introduce the following section. They should not confuse readers as to what the following section should be about.  
+Use clear and simple headings to split up text into manageable chunks. Headings should be short and aim to describe or introduce the following section. They should clarify for readers what the following section is be about.  
 
 {::nomarkdown}
 <%= example %>
