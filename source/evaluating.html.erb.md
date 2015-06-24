@@ -40,7 +40,7 @@ If evaluation only happens when code is near completion, then begin with a quick
 {:.attach_permalink}
 ## Select tools to assist in testing
 
-Software tools can be used by evaluators as part of the evaluation process, to assist in determining compliance with assistive technologies, and to support large-scale content reviews across an entire website. Tools are often specialized, such as a color contrast checker, and may not cover every aspect of accessibility. Select tools with an appreciation for their limitations as well as their strengths.
+Software tools can be used by evaluators as part of the evaluation process, to assist in determining compliance with assistive technologies, and to support large-scale content reviews across an entire website. Tools are often specialized, such as a color contrast checker, and may not cover every aspect of accessibility. Appreciate the limitations of the tools you select as well as their strengths.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -112,7 +112,7 @@ Plan to run evaluations as early as possible, even at design phase. This will no
 {:.attach_permalink}
 ## Run evaluation sessions with real people
 
-Seek feedback from people with disabilities on any materials being evaluated. This will help identify subtle issues, but will also emphasize the impact of any barriers. Encourage members of the project team to observe sessions as it is helpful in building understanding of the importance of accessibility.
+Seek feedback from people with disabilities on any materials being evaluated. This will help identify subtle issues, but will also emphasize the impact of any barriers. However,  be aware that everyone has different abilities with technology and a problem for one user may just be due to their technology or skill level. Encourage members of the project team to observe sessions as it is helpful in building understanding of the importance of accessibility.
 
 {::nomarkdown}
 <%= learn_more %>
