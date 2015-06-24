@@ -53,10 +53,10 @@ Text needs to have sufficient contrast between foreground and background colors.
 <%= learn_more %>
 {:/}
 
-* [Easy Checks - Contrast ratio](/WAI/eval/preliminary.html#contrast): Explores this tip further and provides information on what to check for
-* [List of Contrast Ratio tools](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head): Tools to help in exploring color contrast
-* [Understanding SC 1.4.3 Contrast (Minimum)](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html): WCAG 2.0 Success Criteria for color contrast
-* [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper): Describes how a user with "color blindness" experiences the Web
+* [<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> requirement for color contrast](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)
+* [How to check contrast ratio](/WAI/eval/preliminary.html#contrast)
+* [Tools to help explore color contrast](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
+* [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -107,8 +107,9 @@ Color can be a useful indicator of emphasis or meaning but should not be the onl
 <%= learn_more %>
 {:/}
 
-* [Understanding SC 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html): WCAG 2.0 Success Criteria on using color
-* [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper): Describes how a user with "color blindness" experiences the Web
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [SC 1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
+* **Background**: [Understanding SC 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
+* **User Story**: [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper)
 
 {::nomarkdown}
 <%= learn_more :end %>
