@@ -349,7 +349,7 @@ Content design benefits from clear headings to chunk up content. Use whitespace 
 {:.attach_permalink}
 ## Create designs for different viewport sizes
 
-Commonly called 'responsive design', consider how page information can be presented in different sized viewports, such as mobile phones or zoomed browser windows. Consider position and presentation of main elements, such as header and navigation. Also, ensure text size and line width are set to maximize readability and legibility.
+Commonly called 'responsive design', consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
 <%= example %>
@@ -359,8 +359,10 @@ Commonly called 'responsive design', consider how page information can be presen
   <figure>
     <figcaption>Example of content displayed in different viewport sizes</figcaption>
     <div>
-      <img src="images/phone.png" alt="Example of content displayed in a phone">
-      <img src="images/browser.png" alt="Example of content zoomed in a browser">
+      <img src="images/content_in_browser.png" alt="Example of content in a standard browser">
+      <img src="images/content_in_phone.png" alt="Example of content displayed in a phone">
+      <p>Browser display uses multiple columns for primary content, visible navigation options, and visible secondary information.</p>
+      <p>Mobile display uses single column for primary content, navigation options are revealed using an icon, and secondary information is also revealed via icon.</p>
     </div>
   </figure>
 </div>
