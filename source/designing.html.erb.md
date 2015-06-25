@@ -302,7 +302,7 @@ Provide feedback for any page interactions, such as confirmation of form submiss
         </div>
         <div class="row error">
           <label class="required" for="email5"><span class="fa fa-exclamation-triangle"></span> Email ✻</label>
-          <input type="text" id="email5" name="email" value="suberbear@@hq.space" aria-invalid="true" aria-describedby="error_email">
+          <input type="text" id="email5" name="email" value="superbear@@hq.space" aria-invalid="true" aria-describedby="error_email">
         </div>
         <div class="row">
           <label for="website2">Website</label>
