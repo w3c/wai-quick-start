@@ -239,11 +239,11 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
       <form action="">
         <legend>Add a comment</legend>
         <div class="row">
-          <label class="required" for="email4">Email ✻</label>
+          <label class="required" for="email4">Your Email ✻</label>
           <input type="text" id="email4" name="email">
         </div>
         <div class="row">
-          <label for="website2">Website</label>
+          <label for="website2">Your Website</label>
           <input type="text" id="website2" name="website">
         </div>
         <div class="row">
@@ -256,6 +256,18 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 </div>
 
 <%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* [Understanding SC 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): WCAG 2.0 Success Criteria detailing how labels and instructions should be included
+* [Understanding SC 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html): WCAG 2.0 Success Criteria detailing what information should be included in labelss
+* [Mr. Sands, Supermarket assistant with Down syndrome](/WAI/intro/people-use-web/stories#supermarketassistant): Describes how clear labelling can help 
+
+{::nomarkdown}
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
@@ -369,6 +381,17 @@ Commonly called 'responsive design', consider how page information is presented 
 </div>
 
 <%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* [Understanding SC 1.4.4 Resize text](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html): WCAG 2.0 Success Criteria related to resizing of text
+* [Mr. Yunus, Retiree with low vision, hand tremor, and mild short-term memory loss](/WAI/intro/people-use-web/stories#retiree): Describes how alternative views of zoomed pages can be helpful 
+
+{::nomarkdown}
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
