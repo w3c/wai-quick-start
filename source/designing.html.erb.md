@@ -18,9 +18,11 @@ These introductory tips cover the basics of accessible user interface and visual
 {:/}
 
 {:.attach_permalink}
-## Provide sufficient color contrast
+## Provide sufficient contrast between colors
 
-Text needs to have sufficient contrast between foreground and background colors. This includes text on images, buttons, and other elements. Don't worry about logos, or incidental text, such as text that happens to be in a photograph.
+Text needs to have sufficient contrast between foreground and background colors. This includes text on images, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph.
+
+Note that this accessibility requirement is sometimes called sufficient "color contrast"; however, technically it is "luminance contrast". This page has avoided both terms so as not to introduce too much jargon, but also to avoid using the incorrect terminology.
 
 {::nomarkdown}
 <%= example :start, :plural %>
