@@ -129,6 +129,24 @@ Each image used should be provided with alternative text that describes the info
 {:/}
 
 {:.attach_permalink}
+## Provide transcripts and captions for multimedia content
+
+For all multimedia content, provide transcripts of the content. The transcript should include any additional descriptions that are important for understanding the content. For multimedia content that includes video, captions may be required. Similar to the transcript, the captions provide a text version of the audio content, but with the addition of timing markers to indicate when in the video the text should be presented.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Expand all acronyms on their first use
 
 When first used on a page, ensure that acronyms are fully expanded. Follow the expansion with the acronym. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
@@ -141,24 +159,6 @@ When first used on a page, ensure that acronyms are fully expanded. Follow the e
 
 {::nomarkdown}
 <%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Provide transcripts and captions for multimedia content
-
-For all multimedia content, provide transcripts of the content. The transcript should include any additional descriptions that are important for understanding the content. For multimedia content that includes video, captions may be required. Similar to the transcript, the captions provide a text version of the audio content, but with the addition of timing markers to indicate when in the video the text should be presented.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-{::nomarkdown}
-<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
