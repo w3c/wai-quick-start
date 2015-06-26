@@ -21,7 +21,7 @@ These introductory tips cover the basics of writing web accessible content.
 {:.attach_permalink}
 ##  Keep content clear and concise 
 
-Write in short, clear sentences and paragraphs. Front-load important messages. Split complex prose into a few short sentences. Try and keep paragraphs to a single idea.
+Write in short, clear sentences and paragraphs, as appropriate for the context. Front-load important messages. Split complex prose into a few short sentences. Try and keep paragraphs to a single idea.
  
 {::nomarkdown}
 <%= example %>
