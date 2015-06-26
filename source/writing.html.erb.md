@@ -19,7 +19,7 @@ These introductory tips cover the basics of writing web accessible content.
 {:/}
 
 {:.attach_permalink}
-##  Keep content short and simple 
+##  Keep content clear and concise 
 
 Write in short, clear sentences and paragraphs. Front-load important messages. Split complex prose into a few short sentences. Try and keep paragraphs to a single idea.
  
