@@ -191,7 +191,6 @@ $wai_grey: #333333;
     figure {
       clear: both;
       figcaption {
-        font-weight: bold;
         padding-bottom: 0.5em;
       }
       &>div {
@@ -301,7 +300,7 @@ $wai_grey: #333333;
       }
       .keyboard {
         a {
-          outline: medium dashed #992929;
+          outline: 2px dashed #992929;
           color: #992929;
         }
       }
@@ -411,7 +410,7 @@ $wai_grey: #333333;
     }
     .responsive {
       @include mq($medium) {
-        width: 89%;
+        width: 91%;
       }
       img {
         @include mq($medium) {
