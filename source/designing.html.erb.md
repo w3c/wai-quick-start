@@ -55,10 +55,11 @@ Note that this accessibility requirement is sometimes called sufficient "color c
 <%= learn_more %>
 {:/}
 
-* [<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> requirement for color contrast](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)
-* [How to check contrast ratio](/WAI/eval/preliminary.html#contrast)
-* [Tools to help explore color contrast](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
-* [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [Success Criteria (SC)1.4.3 Contrast (Minimum)](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
+* **How To**: [How to check contrast ratio](/WAI/eval/preliminary.html#contrast)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 1.4.3 Contrast (Minimum)](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
+* **User Story**: [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
+* **Additional Resource**: [Tools to help explore color contrast](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -109,9 +110,9 @@ Color can be a useful indicator of emphasis or meaning but should not be the onl
 <%= learn_more %>
 {:/}
 
-* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [SC 1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
-* **Background**: [Understanding SC 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
-* **User Story**: [Mr. Lee, Online shopper with color blindness](/WAI/intro/people-use-web/stories#shopper)
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
+* **User Story**: [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -164,9 +165,10 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
 <%= learn_more %>
 {:/}
 
-* [Understanding SC 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html): WCAG 2.0 Success Criteria covering element focus
-* [Mr. Jones, Reporter with repetitive stress injury](/WAI/intro/people-use-web/stories#reporter): Describes some challenges faced by someone with limited ability to use a mouse
-* [Mr. Yunus, Retiree with low vision, hand tremor, and mild short-term memory loss](/WAI/intro/people-use-web/stories#retiree): Describes some challenges faced by an older user
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 2.4.7 Focus Visible](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html)
+* **User Story**: [Challenges faced by someone with a limited ability to use a mouse](/WAI/intro/people-use-web/stories#reporter)
+* **User Story**: [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -186,8 +188,9 @@ Ensure page designs include clear and consistent naming, styling and positioning
 <%= learn_more %>
 {:/}
 
-* [Understanding SC 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html): WCAG 2.0 Success Criteria relating to consistent navigation
-* [Mr. Sands, Supermarket assistant with Down syndrome](/WAI/intro/people-use-web/stories#supermarketassistant): Describes how consistency and navigation can help someone with cognitive difficulties 
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 3.2.3 Consistent Navigation](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html)
+* **User Story**: [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -264,9 +267,11 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 <%= learn_more %>
 {:/}
 
-* [Understanding SC 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): WCAG 2.0 Success Criteria detailing how labels and instructions should be included
-* [Understanding SC 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html): WCAG 2.0 Success Criteria detailing what information should be included in labelss
-* [Mr. Sands, Supermarket assistant with Down syndrome](/WAI/intro/people-use-web/stories#supermarketassistant): Describes how clear labelling can help 
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
+* **User Story**: [How clear labelling can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -326,9 +331,10 @@ Provide feedback for any page interactions, such as confirmation of form submiss
 <%= learn_more %>
 {:/}
 
-* [Understanding SC 3.3.1 Error Identification](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html): WCAG 2.0 Success Criteria covering how 
-* [User Notifications Tutorial](/WAI/tutorials/forms/notifications/): Shows how feedback can be provided in different ways
-* [Ms. Olsen, Classroom student with attention deficit hyperactivity disorder (ADHD) and dyslexia](/WAI/intro/people-use-web/stories#classroomstudent): Describes how making important content easily identifiable can help 
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 3.3.1 Error Identification](/WAI/WCAG20/quickref/#minimize-error-identified)
+* **How To**: [Shows how feedback can be provided in different ways](/WAI/tutorials/forms/notifications/)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 3.3.1 Error Identification](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html)
+* **User Story**: [How making important content easily identifiable can help](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -348,9 +354,10 @@ Content design benefits from clear headings to chunk up content. Use whitespace 
 <%= learn_more %>
 {:/}
 
-* [Understanding SC 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html): WCAG 2.0 Success Criteria detailing how heading information should be presented
-* [Headings Tutorial](/WAI/tutorials/page-structure/headings/): Discusses different ways to use headings to provide meaning to content
-* [Ms. Laitinen, Accountant with blindness](/WAI/intro/people-use-web/stories#accountant): Describes how headings can be helpful for navigation 
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
+* **How To**: [Discusses different ways to use headings to provide meaning to content](/WAI/tutorials/page-structure/headings/)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
+* **User Story**: [Describes how headings can be helpful for navigation](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -389,8 +396,9 @@ Commonly called 'responsive design', consider how page information is presented 
 <%= learn_more %>
 {:/}
 
-* [Understanding SC 1.4.4 Resize text](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html): WCAG 2.0 Success Criteria related to resizing of text
-* [Mr. Yunus, Retiree with low vision, hand tremor, and mild short-term memory loss](/WAI/intro/people-use-web/stories#retiree): Describes how alternative views of zoomed pages can be helpful 
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 1.4.4 Resize text](/WAI/WCAG20/quickref/#visual-audio-contrast-scale)
+* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 1.4.4 Resize text](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
+* **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
 <%= learn_more :end %>
