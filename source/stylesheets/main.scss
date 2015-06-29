@@ -10,6 +10,7 @@ $big:    900px;
 $large:  1300px;
 
 $wai_grey_bg: #e0e0e0;
+$wai_grey: #333333;
 
 .permalink {
   background-color: $wai_bg;
@@ -150,6 +151,16 @@ $wai_grey_bg: #e0e0e0;
     }
     .highlight {
       background: yellow;
+    }
+    
+    h3 {
+      color: $wai_grey;
+    }
+    
+    figure {
+      figcaption {
+        color: $wai_grey;
+      }
     }
     
     @include mq($medium) {
@@ -380,6 +391,7 @@ $wai_grey_bg: #e0e0e0;
         padding: 0.25em 0.5em;
         &.error {
           background: #992929;
+          color: #ffffff;
           label {
             color: #ffffff;
           }
@@ -398,10 +410,14 @@ $wai_grey_bg: #e0e0e0;
       }
     }
     .responsive {
+      @include mq($medium) {
+        width: 89%;
+      }
       img {
-        height: 300px;
-        &:first-child {
-          margin-right: 2em;
+        @include mq($medium) {
+          &:first-child {
+            margin-right: 2em;
+          }
         }
       }
     }
