@@ -74,9 +74,9 @@ helpers do
     end
   end
 
-  def tip(start_end = :start)
+  def tip(start_end = :start, css_class = '')
     if start_end == :start
-      '<article class="tip">'
+      '<article class="tip ' + css_class + '">'
     elsif start_end == :end
       '</article>'
     end
@@ -90,12 +90,17 @@ helpers do
     end
   end
   
-  def example(start_end = :start, plural = nil)
+  def example(start_end = :start, plural = nil, showhide_id = nil)
     if start_end == :start
+      addShowhide = ''
+      if showhide_id
+        addShowhide = ' id="' + showhide_id + '" class="attach_show"'
+      end
+
       if plural
-        '<aside class="example"><h3>Examples</h3>'
+        '<aside class="example"><h3' + addShowhide + '>Examples</h3>'
       else
-        '<aside class="example"><h3>Example</h3>'
+        '<aside class="example"><h3' + addShowhide + '>Example</h3>'
       end
     elsif start_end == :end
       '</aside>'

@@ -14,7 +14,7 @@ These introductory tips cover the basics of accessible user interface and visual
 * Will be replaced with the ToC
 
 {::nomarkdown}
-<%= tip %>
+<%= tip :start, 'option1' %>
 {:/}
 
 {:.attach_permalink}
@@ -67,7 +67,7 @@ Note that this accessibility requirement is sometimes called sufficient "color c
 
 {::nomarkdown}
 <%= tip :end %>
-<%= tip %>
+<%= tip :start, 'option2' %>
 {:/}
 
 {:.attach_permalink}
@@ -120,7 +120,7 @@ Color can be a useful indicator of emphasis or meaning but should not be the onl
 
 {::nomarkdown}
 <%= tip :end %>
-<%= tip %>
+<%= tip :start, 'option3' %>
 {:/}
 
 {:.attach_permalink}
@@ -217,7 +217,7 @@ For designs that include audio or video content, ensure that there is provision 
 When creating forms, ensure that all elements have a descriptive label adjacent to the element. Labels are usually positioned to the left or above the element, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example :start, :plural, 'labels_example' %>
 
 <div class="labels">
   <figure class="fail">
@@ -289,7 +289,7 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 Provide feedback for any page interactions, such as confirmation of form submission, alerting the user when something when wrong, or notification of changes on the page. Important feedback that requires user action should be presented in a style that really stands out. Any instructions should be clear and easy to follow. 
  
 {::nomarkdown}
-<%= example %>
+<%= example :start, nil, 'feedback_example' %>
 
 <div class="errors">
   <figure>
@@ -422,6 +422,7 @@ These tips are important points to consider when designing accessible websites, 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles): Provides an introduction to the web accessibility requirements referenced in the international accessibility standards from W3C Web Accessibility Initiative
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Uses real-life examples to introduce accessibility, and explores tools and approaches that help, and barriers encountered 
+* [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible to people with disabilities, and that provides a better user experience for everyone
 * [Before and After Demonstration](/WAI/demos/bad/): Example accessible and inaccessible websites that share the same visual design, including annotations that highlight key accessibility barriers and repairs
 
 {::nomarkdown}

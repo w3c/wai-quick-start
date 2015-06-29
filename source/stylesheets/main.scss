@@ -142,11 +142,64 @@ $wai_grey: #333333;
       &>* {
         margin-left: 1em;
         @include mq($medium) {
-          margin-left: 2em;
+          margin-left: 28px;
         }
       }
       &>h2 {
         margin-left: 0;
+      }
+
+      &.option1 {
+        .example {
+          background: darken($wai_bg, 1%);
+          border-left: 3px solid $wai_red;
+          padding: 1em 2em;
+          h3 {
+            margin-top: 0;
+          }
+        }
+      }
+
+      &.option2 {
+        .example {
+          background: lighten($wai_grey_bg, 10%);
+          border-left: 3px solid darken($wai_grey_bg, 10%);
+          padding: 1em 2em;
+          h3 {
+            margin-top: 0;
+          }
+        }
+      }
+      
+      &.option3 {
+        & > p {
+          font-size: 115%;
+        }
+      }
+
+      .toggle {
+        font-size: 80%;
+        border: 1px solid $wai_grey_bg;
+        border-radius: 3px;
+        color: $wai_grey;
+        background: lighten($wai_grey_bg, 10%);
+        text-decoration: none;
+        display: inline-block;
+        padding: 0.1em 0.5em;
+        span {
+          @extend .visuallyhidden;
+        }
+      }
+
+      .shown {
+        overflow-y: hidden;
+        transition: max-height 0.5s ease-in-out;
+      }
+      
+      .hidden {
+        overflow-y: hidden;
+        max-height: 0 !important;
+        transition: max-height 0.5s ease-in-out;
       }
     }
     .highlight {
@@ -158,6 +211,7 @@ $wai_grey: #333333;
     }
     
     figure {
+      margin-left: 0.1em;
       figcaption {
         color: $wai_grey;
       }
@@ -169,7 +223,7 @@ $wai_grey: #333333;
         flex-wrap: wrap;
         justify-content: space-between;
         figure {
-          width: 50%;
+          width: 49%;
         }
       }
       .three-column {
@@ -184,7 +238,7 @@ $wai_grey: #333333;
         flex-wrap: wrap;
         justify-content: space-between;
         figure {
-          width: 25%;
+          width: 24.5%;
         }
       }
     }
@@ -197,7 +251,7 @@ $wai_grey: #333333;
         padding: 1em;
         border-radius: 5px;
         box-shadow: 0 0 2px 0 #333333;
-        background: #F2EBD0;
+        background: #fcf5da;
         color: #4C4947;
         margin-bottom: 1em;
         display: inline-block;
@@ -219,11 +273,9 @@ $wai_grey: #333333;
         text-align: center;
       }
       .fail {
-        background: #F2EBD0;
         color: #7C7875;
       }
       .pass {
-        background: #F2EBD0;
         color: #4C4947;
       }
       button {
