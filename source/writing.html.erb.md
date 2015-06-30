@@ -27,6 +27,8 @@ Write in short, clear sentences and paragraphs, as appropriate for the context. 
 <%= example %>
 {:/}
 
+[... Contrasting example of involved text against a clear text ...]
+
 {::nomarkdown}
 <%= example :end %>
 {:/}
@@ -44,6 +46,8 @@ Avoid using words more complicated than the audience needs. Some audiences, such
 {::nomarkdown}
 <%= example %>
 {:/}
+
+[... Example using medical terminology against layman terminology... ]
 
 {::nomarkdown}
 <%= example :end %>
@@ -63,6 +67,10 @@ Try to write link text so that it would make sense out of context. Link text sho
 <%= example %>
 {:/}
 
+[... Example of links in context, one with no out of context meaning, one clear out of context ...]
+
+[... Example of 'click here' in sentence, contrasted with contextually meaningful link ...]
+
 {::nomarkdown}
 <%= example :end %>
 {:/}
@@ -75,11 +83,15 @@ Try to write link text so that it would make sense out of context. Link text sho
 {:.attach_permalink}
 ## Provide meaningful headings to structure text
 
-Use clear and simple headings to split up text into manageable chunks. Headings should be short and aim to describe or introduce the following section. They should clarify for readers what the following section is be about.  
+Use clear and simple headings to split up text into manageable chunks. Headings should be short and aim to describe or introduce the following section. They should clarify what the following section is about.  
 
 {::nomarkdown}
 <%= example %>
 {:/}
+
+[... Example of block of text with and without headings to provide clarity and structure ...]
+
+[... May be too long for an example, perhaps examples of using metaphor, or quirky headings ...]
 
 {::nomarkdown}
 <%= example :end %>
@@ -99,7 +111,7 @@ The title of a page should be unique within the website and should simply descri
 <%= example %>
 {:/}
 
-[... Example of simple title, title and webpage title, and title as part of process ...]
+[... Example of simple title, page title and site title together, and title as part of process ...]
 
 {::nomarkdown}
 <%= example :end %>
@@ -116,11 +128,14 @@ The title of a page should be unique within the website and should simply descri
 Each image used should be provided with alternative text that describes the information of function represented by the image. Provide text that describes the purpose the image serves or what information it conveys. Where an image is purely decorative, `null` alternative text may be appropriate.
  
 {::nomarkdown}
-<%= learn_more %>
+<%= example %>
 {:/}
 
+[... Some examples of images with appropriate alternative text ...]
+
+[... Probably worth using a couple of examples from the tutorials and then linking directly there ...]
 {::nomarkdown}
-<%= learn_more :end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
@@ -134,11 +149,12 @@ Each image used should be provided with alternative text that describes the info
 For all multimedia content, provide transcripts of the content. The transcript should include any additional descriptions that are important for understanding the content. For multimedia content that includes video, captions may be required. Similar to the transcript, the captions provide a text version of the audio content, but with the addition of timing markers to indicate when in the video the text should be presented.
 
 {::nomarkdown}
-<%= learn_more %>
+<%= example %>
 {:/}
 
+[... Could include a link to a video with captions and the associated captions file. Could show a video and then include a transcript below. Both may be quite involved... ]
 {::nomarkdown}
-<%= learn_more :end %>
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
@@ -155,7 +171,7 @@ When first used on a page, ensure that acronyms are fully expanded. Follow the e
 <%= example %>
 {:/}
 
-[... Some acronym examples ...]
+[... Simple example of paragraph with acronym presented twice, first with it expanded second using &lt;acronym&gt; ...]
 
 {::nomarkdown}
 <%= example :end %>

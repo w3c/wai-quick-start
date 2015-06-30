@@ -50,7 +50,7 @@ HTML5 provides many elements that signify meaning, such as `<h1>`, `<nav>`, `<as
 <%= example %>
 {:/}
 
-[... Example of markup along side a visual design ...]
+[... Example of markup along side a visual design highlighting how different elements relate to design components ...]
 
 {::nomarkdown}
 <%= example :end %>

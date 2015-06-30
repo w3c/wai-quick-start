@@ -79,11 +79,11 @@ Develop a standard report template so that repeated evaluations are comparable. 
 Following evaluations, seek to capture common issues and suggested solutions to aide subsequent development efforts. Try to provide a learning tool for development teams so that repetition of errors is reduced.
 
 {::nomarkdown}
-<%= example %>
+<%= learn_more %>
 {:/}
 
 {::nomarkdown}
-<%= example :end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
@@ -97,11 +97,11 @@ Following evaluations, seek to capture common issues and suggested solutions to 
 Plan to run evaluations as early as possible, even at design phase. This will not identify all issues but should aim to catch relevant issues early to reduce the cost to fix. More thorough evaluations should be planned at key development milestones or when functional components are completed.
 
 {::nomarkdown}
-<%= example %>
+<%= learn_more %>
 {:/}
 
 {::nomarkdown}
-<%= example :end %>
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
@@ -131,8 +131,6 @@ Seek feedback from people with disabilities on any materials being evaluated. Th
 ## Ensure final comprehensive evaluation
 
 Run a full, comprehensive evaluation before go-live. Aim to cover all key website functions, all templates, and, where appropriate, a reasonable sample of general content pages. Evaluation should check each point in the accessibility guidelines accepted by the organization. Ensure that there is sufficient development time to address any issues with key components.
-
-[**Note:** Consider a tip on prioritization of issues]
 
 {::nomarkdown}
 <%= learn_more %>
