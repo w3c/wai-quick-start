@@ -136,7 +136,7 @@ When creating new interactive elements, such as accordions, or off canvas naviga
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
-This is easily checked by trying to interactive with a page using the keyboard only. If some functionality, is not reachable using just the keyboard then there is a problem. Think about keyboard access when developing new interactive elements, such as menus, collapsable accordions, or media players.
+This is easily checked by trying to interact with a page using the keyboard only. If some functionality, is not reachable using just the keyboard then there is a problem. Think about keyboard access when developing new interactive elements, such as menus, collapsable accordions, or media players.
 
 {::nomarkdown}
 <%= example %>
@@ -165,7 +165,6 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 {::nomarkdown}
 <%= learn_more :end %>
 {:/}
-
 
 {::nomarkdown}
 <%= tip :end %>

@@ -13,8 +13,6 @@ These tips will help you integrate accessibility into project planning and manag
 {:toc .toc}
 * Will be replaced with the ToC
 
-<!-- TODO: Consider moving buy-in and policy activities to advocacy -->
-
 {::nomarkdown}
 <%= tip %>
 {:/}
