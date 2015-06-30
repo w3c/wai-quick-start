@@ -20,6 +20,20 @@ These introductory tips cover the basics of accessible front-end web development
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
+Forms should provide clear instructions as to the required format of information. Try to be as forgiving as possible when accepting information. For example accept phone numbers that include spaces and strip them out if necessary. Provide feedback on errors that clearly identifies where the error occurred, ideally with a in-page link for easy access, and how to fix the problem.
+
+{::nomarkdown}
+<%= example %>
+{:/}
+
+[... Example form with instructions ...]
+
+[... Example set of error notifications, maybe different from the Designing? ...]
+
+{::nomarkdown}
+<%= example :end %>
+{:/}
+
 {::nomarkdown}
 <%= tip :end %>
 <%= tip %>
@@ -28,6 +42,8 @@ These introductory tips cover the basics of accessible front-end web development
 {:.attach_permalink}
 ## Use progressive enhancement
 
+Progressive enhancement starts with the basic core semantic HTML presenting the content and functionality. Additional styling and functionality are then progressively added with different technologies, such as CSS or JavaScript. If the added technology is not available, such as behind a firewall that prevents JavaScript, the core content will still be available.
+
 {::nomarkdown}
 <%= tip :end %>
 <%= tip %>
@@ -35,6 +51,18 @@ These introductory tips cover the basics of accessible front-end web development
 
 {:.attach_permalink}
 ## Adopt a responsive design approach
+
+Use responsive design to present content in ways to take advantage of the size available in the browser. When less space is available, elements can be condensed or rearranged. Use <acronym="Cascading Style Sheet">CSS</acronym> media queries to target styling depending on the device width or the width of the current browser window.
+
+{::nomarkdown}
+<%= example %>
+{:/}
+
+[... Media query example with corresponding image showing how change might occur ...]
+
+{::nomarkdown}
+<%= example :end %>
+{:/}
 
 {::nomarkdown}
 <%= tip :end %>
