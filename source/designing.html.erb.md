@@ -22,7 +22,7 @@ These introductory tips cover the basics of accessible user interface and visual
 
 Text needs to have sufficient contrast between foreground and background colors. This includes text on images, buttons, and other elements. A minimum contrast ratio is required by the guidelines and tools are available to help you determine the ratio between colors. This does not apply for logos, or incidental text, such as text that happens to be in a photograph.
 
-Note that this accessibility requirement is sometimes called sufficient "color contrast"; however, technically it is "luminance contrast". This page has avoided both terms so as not to introduce too much jargon, but also to avoid using the incorrect terminology.
+Note that "contrast" is used as a short form for the more technically correct term "luminance contrast".
 
 {::nomarkdown}
 <%= example :start, :plural %>
