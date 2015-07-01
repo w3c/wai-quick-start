@@ -82,7 +82,7 @@ $wai_grey: #333333;
     }
     a {
       text-decoration: none;
-      color: $wai_red !important;
+      color: $wai_link_active !important;
       &:hover, &:focus {
         text-decoration: underline;
       }
