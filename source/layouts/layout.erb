@@ -3,7 +3,15 @@
 <main id="main" role="main">
   <%= partial "layouts/status" %>
   <% if current_page.data.layout == 'guide' %>
-    <%= partial "layouts/sectionnav" %>
+    <div class="right-inset">
+      <%= partial "layouts/sectionnav" %>
+      <%= partial "layouts/what_is_wcag" %>
+    </div>
+  <% end %>
+  <% if current_page.data.layout == 'guide2' %>
+    <div class="right-inset">
+      <%= partial "layouts/sectionnav" %>
+    </div>
   <% end %>
   <header class="heading">
     <% if current_page.data.heading == 'option1'  %>

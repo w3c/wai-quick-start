@@ -2,10 +2,14 @@
 title: Tips on Developing for Web Accessibility
 icon: code
 status: editors-draft
-layout: guide
+layout: guide2
 ---
 
 These introductory tips cover the basics of accessible front-end web development using HTML, CSS, and JavaScript.
+
+{::nomarkdown}
+<%= partial "layouts/what_is_wcag" %>
+{:/}
 
 {:.toc .no_toc}
 ## On this page

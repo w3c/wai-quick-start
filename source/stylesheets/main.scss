@@ -58,13 +58,15 @@ $wai_grey: #333333;
       font-weight: bold;
     }
   }
-  nav.section {
+  .right-inset {
     @include mq($small) {
       float: right;
       width: 27%;
-      margin-left: 1em;
-      margin-top: 2em;
+      padding: 2em 0 1em 1em;
     }
+    background-color: $wai_bg;
+  }
+  nav.section {
     margin-bottom: 1em;
     background: $wai_grey_bg none repeat scroll 0 0;
     font-weight: bold;
@@ -86,6 +88,21 @@ $wai_grey: #333333;
       &:hover, &:focus {
         text-decoration: underline;
       }
+    }
+  }
+  aside.what-is-wcag {
+    border: 1px dashed $wai_red;
+    padding: 1em;
+    h2 {
+      margin-top: 0;
+      border-bottom: none;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+    .guide2 & {
+      border: none;
+      padding: 0;
     }
   }
   
