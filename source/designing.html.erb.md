@@ -215,7 +215,7 @@ For designs that include audio or video content, ensure that there is provision 
 {:.attach_permalink}
 ## Ensure form elements include clearly associated labels
 
-When creating forms, ensure that all elements have a descriptive label adjacent to the element. Labels are usually positioned to the left or above the element, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
+When creating forms, ensure that all elements have a descriptive label adjacent to the element. Labels are usually positioned to the left or above the element, except for checkboxes and radio buttons where it is usually to the right (on websites with left-to-right languages). Avoid having too much distance between labels and associated elements.
 
 {::nomarkdown}
 <%= example :start, :plural, 'labels_example' %>
