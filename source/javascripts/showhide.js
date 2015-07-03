@@ -74,6 +74,8 @@
   });
 
   // Add in show/hide functionality for the toggle link
+  // TODO: When hidden the block is still keyboard accessible. Needs to be display: none but this
+  // wreaks the show/hide CSS transition
   var showhides = document.querySelectorAll('a.toggle');
   Array.prototype.forEach.call(showhides, function(el, i){
   	el.addEventListener('click', function(e){

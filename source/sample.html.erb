@@ -1,0 +1,45 @@
+---
+title: Icon Samples
+status: editors-draft
+---
+
+<%= stylesheet_link_tag 'icons/flaticon.css'  %>
+
+<style>
+  #examples li {
+    margin-bottom: 2em;
+  }
+
+  #examples li li {
+    margin-bottom: 1em;
+  }
+  
+  #examples span {
+    margin-right: 1em;
+  }
+</style>
+
+<p>The different sizes reflect how the icon will look on the overview page, as a heading in a tip page, and in the section navigation within a tip page.</p>
+
+<ul id="examples">
+  <% {'designing' => ['fa fa-paint-brush', 'flaticon-compass56', 'flaticon-design21', 'flaticon-graphicseditor8', 'flaticon-paintbrush2'],
+      'evaluating' => ['fa fa-bug', 'fa fa-clipboard', 'flaticon-screen124', 'flaticon-desktop20',  'flaticon-magnifier24', 'fa fa-heartbeat'],
+      'writing' => ['fa fa-pencil'],
+      'developing' => ['fa fa-code'],
+      'managing' => ['fa fa-cogs'],
+      'advocating' => ['flaticon-megaphone18']
+    }.each do |guide, icons| %>
+  <li><%= guide.capitalize %>
+    <ol>
+      <% icons.each do |icon| %>
+      <li>Overview: <span class="<%= icon %>" style="font-size: 260%"></span>
+          Heading: <span class="<%= icon %>" style="font-size: 145%"></span>
+          Section Nav: <span class="<%= icon %>" style="font-size: 100%"></span>
+      </li>
+      <% end %>
+    </ol>
+  </li>
+  <% end %>
+</ul>
+
+<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/abhimanyu-rana" title="Abhimanyu Rana">Abhimanyu Rana</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
