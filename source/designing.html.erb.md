@@ -375,7 +375,7 @@ Content design benefits from clear headings to chunk up content. Use whitespace 
 {:.attach_permalink}
 ## Create designs for different viewport sizes
 
-Commonly called 'responsive design', consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure text size and line width are set to maximize readability and legibility.
+Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
 <%= example %>
