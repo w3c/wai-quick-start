@@ -289,7 +289,7 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
 {:.attach_permalink}
 ## Provide clear feedback
 
-Provide feedback for any page interactions, such as confirmation of form submission, alerting the user when something when wrong, or notification of changes on the page. Important feedback that requires user action should be presented in a style that really stands out. Any instructions should be clear and easy to follow. 
+Provide feedback for any page interactions, such as confirmation of form submission, alerting the user when something goes wrong, or notification of changes on the page. Important feedback that requires user action should be presented in a prominent style. Any instructions should be clear and easy to follow. 
  
 {::nomarkdown}
 <%= example :start, nil, 'feedback_example' %>
