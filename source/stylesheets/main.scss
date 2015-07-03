@@ -210,13 +210,15 @@ $wai_grey: #333333;
 
       .shown {
         overflow-y: hidden;
-        transition: max-height 0.5s ease-in-out;
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
       }
       
       .hidden {
         overflow-y: hidden;
         max-height: 0 !important;
-        transition: max-height 0.5s ease-in-out;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
       }
     }
     .highlight {
@@ -224,13 +226,13 @@ $wai_grey: #333333;
     }
     
     h3 {
-      color: $wai_grey;
+      color: $wai_fg;
     }
     
     figure {
       margin-left: 0.1em;
       figcaption {
-        color: $wai_grey;
+        color: $wai_fg;
       }
     }
     
