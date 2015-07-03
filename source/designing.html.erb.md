@@ -226,7 +226,7 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
     <div>
       <form action="">
         <div class="row">
-          <label class="required">Email ✻</label>
+          <label class="required">E-mail ✻</label>
           <input type="text" id="email3" name="email">
         </div>
         <div class="row">
@@ -245,7 +245,7 @@ When creating forms, ensure that all elements have a descriptive label adjacent 
       <form action="">
         <legend>Add a comment</legend>
         <div class="row">
-          <label class="required" for="email4">Your Email ✻</label>
+          <label class="required" for="email4">Your E-mail ✻</label>
           <input type="text" id="email4" name="email">
         </div>
         <div class="row">
@@ -312,7 +312,7 @@ Provide feedback for any page interactions, such as confirmation of form submiss
           <input type="text" id="name5" name="name" value="Superbear">
         </div>
         <div class="row error">
-          <label class="required" for="email5"><span class="fa fa-exclamation-triangle"></span> Email ✻</label>
+          <label class="required" for="email5"><span class="fa fa-exclamation-triangle"></span> E-mail ✻</label>
           <input type="text" id="email5" name="email" value="superbear@@hq.space" aria-invalid="true" aria-describedby="error_email">
         </div>
         <div class="row">
