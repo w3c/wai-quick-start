@@ -41,7 +41,7 @@ Support from management helps ensure budget and resources are available for acce
 {:.attach_permalink}
 ##  Integrate accessibility throughout the project life-cycle
 
-<!-- **Note:** Covers considerations at design phase, development of use cases and audience understanding, design guidelines, code libraries, user stories, etc. -->
+Aim to integrate accessibility considerations throughout any web project. For example, during requirements planning consider people with disabilities as consumers of the site when considering use cases, include accessibility reviews at key phases such as design, and development sprints. Consider how well accessibility is included into design and development resources, such as brand guidelines and code libraries.
 
 {::nomarkdown}
 <%= tip :end %>
