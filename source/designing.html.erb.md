@@ -299,10 +299,10 @@ Provide feedback for any page interactions, such as confirmation of form submiss
     <figcaption>Example of prominent errors</figcaption>
     <div>
       <div class="errors">
-        <p>There were two problems with your submission.</p>
+        <p>There are two problems.</p>
         <ol class="fa-ul">
-          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">The email address provided does not seem to be valid</a></li>
-          <li id="error_comment"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('comment3').focus()">There was no comment provided</a></li>
+          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">The E-mail you provided is not valid</a></li>
+          <li id="error_comment"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
         </ol>
       </div>
       <form action="">
