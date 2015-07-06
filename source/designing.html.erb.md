@@ -14,7 +14,7 @@ These introductory tips cover the basics of accessible user interface and visual
 * Will be replaced with the ToC
 
 {::nomarkdown}
-<%= tip :start, 'option1' %>
+<%= tip :start %>
 {:/}
 
 {:.attach_permalink}
@@ -61,7 +61,7 @@ Note that "contrast" is used as a short form for the more technically correct te
 
 {::nomarkdown}
 <%= tip :end %>
-<%= tip :start, 'option2' %>
+<%= tip :start %>
 {:/}
 
 {:.attach_permalink}
@@ -114,7 +114,7 @@ Color can be a useful to indicate emphasis or meaning but should not be the only
 
 {::nomarkdown}
 <%= tip :end %>
-<%= tip :start, 'option3' %>
+<%= tip :start %>
 {:/}
 
 {:.attach_permalink}
