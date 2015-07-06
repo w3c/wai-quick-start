@@ -203,16 +203,6 @@ Ensure page designs include clear and consistent naming, styling and positioning
 {:/}
 
 {:.attach_permalink}
-## Provide visible controls for audio and video players
-
-For designs that include audio or video content, ensure that there is provision for controls for the player. The controls should include as a minimum start, pause, seek controls, volume controls, and closed captions activation. Ensure their position, size, and styling make them sufficiently prominent. Provide styling options for when each element is active, for example, hovered over with mouse, or receiving keyboard focus.
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Ensure form elements include clearly associated labels
 
 When creating forms, ensure that all fields have an adjacent, descriptive label. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
