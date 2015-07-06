@@ -40,12 +40,6 @@ Note that "contrast" is used as a short form for the more technically correct te
       <p class="pass">Sed do eiusmod tempor incid</p>
     </div>
   </figure>
-  <figure>
-    <figcaption>Button with sufficient contrast</figcaption>
-    <div>
-      <button>Remember buttons</button>
-    </div>
-  </figure>
 </div>
 
 <%= example :end %>
