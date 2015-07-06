@@ -212,13 +212,6 @@ $wai_grey: #333333;
         padding-bottom: 0.5em;
       }
       &>div {
-        padding: 1em;
-        border-radius: 5px;
-        box-shadow: 0 0 2px 0 #333333;
-        background: #fcf5da;
-        color: #4C4947;
-        margin-bottom: 1em;
-        display: inline-block;
         p {
           &:first-child {
             margin-top: 0;
@@ -233,9 +226,6 @@ $wai_grey: #333333;
       }
     }
     .contrast {
-      p {
-        text-align: center;
-      }
       .fail {
         color: #7C7875;
       }

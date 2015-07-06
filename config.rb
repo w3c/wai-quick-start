@@ -93,9 +93,9 @@ helpers do
   def example(start_end = :start, plural = nil)
     if start_end == :start
       if plural
-        '<aside class="example"><h3' + addShowhide + '>Examples</h3>'
+        '<aside class="example"><h3>Examples</h3>'
       else
-        '<aside class="example"><h3' + addShowhide + '>Example</h3>'
+        '<aside class="example"><h3>Example</h3>'
       end
     elsif start_end == :end
       '</aside>'
