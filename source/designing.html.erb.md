@@ -73,6 +73,22 @@ Color can be a useful to indicate emphasis or meaning but should not be the only
 <%= example :start, :plural %>
 
 <div class="color-alone two-column">
+  <figure class="reference fail">
+    <figcaption>Inappropriate reference using color only</figcaption>
+    <div>
+      <p><span class="required">Required fields in red</span></p>
+      <label for="name1">Name:</label> <input type="text" id="name1" name="name"><br>
+      <label class="required" for="email1">Email:</label> <input type="text" id="email1" name="email">
+    </div>
+  </figure>
+  <figure class="reference pass">
+    <figcaption>Appropriate reference with more than color</figcaption>
+    <div>
+      <p><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
+      <label for="name2">Name:</label> <input type="text" id="name2" name="name"><br>
+      <label class="required" for="email2">Email ✻:</label> <input type="text" id="email2" name="email">
+    </div>
+  </figure>
   <figure class="fail">
     <figcaption>Inaccessible pie chart</figcaption>
     <img src="images/inaccessible_pie_chart.png" width="150" height="150" alt="A pie chart">
