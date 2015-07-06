@@ -277,7 +277,18 @@ $wai_grey: #333333;
       }
     }
     .focus {
+      justify-content: flex-start;
+      @include mq($medium) {
+        &>div:first-child {
+          width: 22em;
+          margin-right: 1.5em;
+        }
+        &>div:last-child {
+          width: 15em;
+        }
+      }
       figure {
+        width: auto;
         div {
           padding: 1em;
           background: lighten($wai_grey_bg, 8%);
@@ -303,27 +314,44 @@ $wai_grey: #333333;
         }
         &:active {
           background: #A0005F;
-          color: #ffffff;
+          color: #f4f4f4;
         }
       }
       .hover {
+        p {
+          text-align: center;
+        }
         a {
           color: #A0005F;
           text-decoration: underline;
+          &:active {
+            background: #A0005F;
+            color: #f4f4f4;
+          }
         }
         img {
           position: absolute;
           top: 1em;
-          left: 6em;
+          left: 50%;
         }
       }
       .keyboard {
+        p {
+          text-align: center;
+        }
         a {
           outline: 1px dashed #A0005F;
           color: #A0005F;
+          &:active {
+            background: #A0005F;
+            color: #f4f4f4;
+          }
         }
       }
       .active {
+        p {
+          text-align: center;
+        }
         a {
           background: #A0005F;
           color: #f4f4f4;
@@ -331,7 +359,7 @@ $wai_grey: #333333;
         img {
           position: absolute;
           top: 1em;
-          left: 6em;
+          left: 50%;
         }
       }
     }

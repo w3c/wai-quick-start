@@ -126,30 +126,34 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
 <%= example :start, :plural %>
 
 <div class="focus two-column">
-  <figure>
-    <figcaption>Style links to stand out from surrounding text</figcaption>
-    <div>
-      <p>Pop into <a href='javascript:return false;'>our Training Centre</a> to pick up an application form.</p>
-    </div>
-  </figure>
-  <figure class="hover">
-    <figcaption>Change style when links are hovered over with a mouse</figcaption>
-    <div>
-      <p>Pop into <a href=''>our Training Centre</a><img src="images/pointer.png" width="20" alt=""> to pick up an application form.</p>
-    </div>
-  </figure>
-  <figure class="keyboard">
-    <figcaption>Extra styling when links are tabbed to are helpful</figcaption>
-    <div>
-      <p>Pop into <a href=''>our Training Centre</a> to pick up an application form.</p>
-    </div>
-  </figure>
-  <figure class="active">
-    <figcaption>Strong styles for touched or clicked links can promote action</figcaption>
-    <div>
-      <p>Pop into <a href='javascript:return false;'>our Training Centre</a><img src="images/pointer.png" width="20" alt=""> to pick up an application form.</p>
-    </div>
-  </figure>
+  <div>
+    <figure>
+      <figcaption>Style links to stand out from text</figcaption>
+      <div>
+        <p>Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words '<a href="javascript:return false;">EAT ME</a>' were beautifully marked in currants. 'Well, I'll eat it,' said Alice, 'and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door; so either way I'll get into the garden, and I don't care which happens!'</p>
+      </div>
+    </figure>
+  </div>
+  <div>
+    <figure class="hover">
+      <figcaption>Hovered over with a mouse</figcaption>
+      <div>
+        <p><a href="javascript:return false;">EAT ME</a><img src="images/pointer.png" width="20" alt=""></p>
+      </div>
+    </figure>
+    <figure class="keyboard">
+      <figcaption>Tabbed to link</figcaption>
+      <div>
+        <p><a href="javascript:return false;">EAT ME</a></p>
+      </div>
+    </figure>
+    <figure class="active">
+      <figcaption>Touched or clicked link</figcaption>
+      <div>
+        <p><a href="javascript:return false;">EAT ME</a><img src="images/pointer.png" width="20" alt=""></p>
+      </div>
+    </figure>
+  </div>
 </div>
 
 <%= example :end %>
