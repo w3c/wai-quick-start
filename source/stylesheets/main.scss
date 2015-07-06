@@ -208,6 +208,7 @@ $wai_grey: #333333;
     }
     figure {
       clear: both;
+      margin-bottom: 1em;
       figcaption {
         padding-bottom: 0.5em;
       }
@@ -229,7 +230,7 @@ $wai_grey: #333333;
       figure {
         div {
           padding: 1em;
-          background: lighten($wai_grey_bg, 10%);
+          background: lighten($wai_grey_bg, 8%);
           box-shadow: 0 0 2px 0 $wai_grey_bg;
         }
       }
@@ -237,19 +238,7 @@ $wai_grey: #333333;
         color: lighten($wai_grey, 40%);
       }
       .pass {
-        color: lighten($wai_grey, 13%);
-      }
-      button {
-        @extend .btn;
-        padding: 0.2em 1em;
-        background: #992929;
-        color: #FFFFFF !important;
-        &:focus {
-          border: 1px solid #00B233;
-        }
-        &:active {
-          background: lighten(#992929, 5%);
-        }
+        color: lighten($wai_grey, 12%);
       }
     }
     .color-alone {
@@ -288,44 +277,61 @@ $wai_grey: #333333;
       }
     }
     .focus {
+      figure {
+        div {
+          padding: 1em;
+          background: lighten($wai_grey_bg, 8%);
+          box-shadow: 0 0 2px 0 $wai_grey_bg;
+        }
+      }
       figcaption {
         padding-right: 1em;
       }
       p {
         position: relative;
-        padding: 0.25em 0.5em;
-        text-align: center;
       }
       a {
-        font-size: 110%; 
         text-decoration: underline;
+        color: #8B3B09;
+        &:hover {
+          color: #A0005F;
+          text-decoration: underline;
+        }
+        &:focus {
+          outline: 1px dashed #A0005F;
+          color: #A0005F;
+        }
+        &:active {
+          background: #A0005F;
+          color: #ffffff;
+        }
       }
       .hover {
         a {
-          color: #992929;
+          color: #A0005F;
           text-decoration: underline;
         }
         img {
           position: absolute;
           top: 1em;
-          left: 50%;
+          left: 6em;
         }
       }
       .keyboard {
         a {
-          outline: 2px dashed #992929;
-          color: #992929;
+          outline: 1px dashed #A0005F;
+          color: #A0005F;
         }
       }
       .active {
         a {
-          background: #992929;
-          color: #ffffff;
+          background: #A0005F;
+          color: #f4f4f4;
         }
         img {
           position: absolute;
           top: 1em;
-          left: 50%;
+          left: 6em;
         }
       }
     }

@@ -125,29 +125,29 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
 {::nomarkdown}
 <%= example :start, :plural %>
 
-<div class="focus four-column">
+<div class="focus two-column">
   <figure>
-    <figcaption>Plain links stand out from surrounding text</figcaption>
+    <figcaption>Style links to stand out from surrounding text</figcaption>
     <div>
-      <p><a href="#">Plain link</a></p>
+      <p>Pop into <a href='javascript:return false;'>our Training Centre</a> to pick up an application form.</p>
     </div>
   </figure>
   <figure class="hover">
-    <figcaption>Hovering over a link changes style</figcaption>
+    <figcaption>Change style when links are hovered over with a mouse</figcaption>
     <div>
-      <p><a href="#">Hovered link</a><img src="images/pointer.png" width="20" alt=""></p>
+      <p>Pop into <a href=''>our Training Centre</a><img src="images/pointer.png" width="20" alt=""> to pick up an application form.</p>
     </div>
   </figure>
   <figure class="keyboard">
-    <figcaption>A link with keyboard focus can be really clear</figcaption>
+    <figcaption>Extra styling when links are tabbed to are helpful</figcaption>
     <div>
-      <p><a href="#">Link with focus</a></p>
+      <p>Pop into <a href=''>our Training Centre</a> to pick up an application form.</p>
     </div>
   </figure>
   <figure class="active">
-    <figcaption>Change style for touched or clicked links</figcaption>
+    <figcaption>Strong styles for touched or clicked links can promote action</figcaption>
     <div>
-      <p><a href="#">Activated link</a><img src="images/pointer.png" width="20" alt=""></p>
+      <p>Pop into <a href='javascript:return false;'>our Training Centre</a><img src="images/pointer.png" width="20" alt=""> to pick up an application form.</p>
     </div>
   </figure>
 </div>
