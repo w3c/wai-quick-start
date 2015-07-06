@@ -90,13 +90,8 @@ helpers do
     end
   end
   
-  def example(start_end = :start, plural = nil, showhide_id = nil)
+  def example(start_end = :start, plural = nil)
     if start_end == :start
-      addShowhide = ''
-      if showhide_id
-        addShowhide = ' id="' + showhide_id + '" class="attach_show"'
-      end
-
       if plural
         '<aside class="example"><h3' + addShowhide + '>Examples</h3>'
       else

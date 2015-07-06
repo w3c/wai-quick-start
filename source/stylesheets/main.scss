@@ -165,61 +165,6 @@ $wai_grey: #333333;
       &>h2 {
         margin-left: 0;
       }
-
-      &.option1 {
-        .example {
-          background: darken($wai_bg, 1%);
-          border-left: 3px solid $wai_red;
-          padding: 1em 2em;
-          h3 {
-            margin-top: 0;
-          }
-        }
-      }
-
-      &.option2 {
-        .example {
-          background: lighten($wai_grey_bg, 10%);
-          border-left: 3px solid darken($wai_grey_bg, 10%);
-          padding: 1em 2em;
-          h3 {
-            margin-top: 0;
-          }
-        }
-      }
-      
-      &.option3 {
-        & > p {
-          font-size: 115%;
-        }
-      }
-
-      .toggle {
-        font-size: 80%;
-        border: 1px solid $wai_grey_bg;
-        border-radius: 3px;
-        color: $wai_grey;
-        background: lighten($wai_grey_bg, 10%);
-        text-decoration: none;
-        display: inline-block;
-        padding: 0.1em 0.5em;
-        span {
-          @extend .visuallyhidden;
-        }
-      }
-
-      .shown {
-        overflow-y: hidden;
-        opacity: 1;
-        transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
-      }
-      
-      .hidden {
-        overflow-y: hidden;
-        max-height: 0 !important;
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
-      }
     }
     .highlight {
       background: yellow;

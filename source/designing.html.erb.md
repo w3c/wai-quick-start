@@ -202,7 +202,7 @@ Ensure page designs include clear and consistent naming, styling and positioning
 When creating forms, ensure that all fields have an adjacent, descriptive label. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where it is usually to the right. Avoid having too much distance between labels and associated elements.
 
 {::nomarkdown}
-<%= example :start, :plural, 'labels_example' %>
+<%= example :start, :plural %>
 
 <div class="labels">
   <figure class="fail">
@@ -276,7 +276,7 @@ When creating forms, ensure that all fields have an adjacent, descriptive label.
 Provide feedback for any page interactions, such as confirmation of form submission, alerting the user when something goes wrong, or notification of changes on the page. Important feedback that requires user action should be presented in a prominent style. Any instructions should be clear and easy to follow. 
  
 {::nomarkdown}
-<%= example :start, nil, 'feedback_example' %>
+<%= example :start, nil %>
 
 <div class="errors">
   <figure>
