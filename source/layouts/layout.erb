@@ -8,11 +8,6 @@
       <%= partial "layouts/what_is_wcag" %>
     </div>
   <% end %>
-  <% if current_page.data.layout == 'guide2' %>
-    <div class="right-inset">
-      <%= partial "layouts/sectionnav" %>
-    </div>
-  <% end %>
   <header class="heading">
     <% if current_page.data.heading == 'option1'  %>
       <h1><% if current_page.data.icon %><span class="fa fa-<%= current_page.data.icon %>"></span> <% end %><%= current_page.data.title %><% if current_page.data.subtitle %>: <%= current_page.data.subtitle %><% end %></h1>
