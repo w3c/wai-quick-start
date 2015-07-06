@@ -27,17 +27,17 @@ Note that "contrast" is used as a short form for the more technically correct te
 {::nomarkdown}
 <%= example :start, :plural %>
 
-<div class="contrast three-column">
+<div class="contrast two-column">
   <figure>
     <figcaption>Text with insufficient contrast</figcaption>
     <div>
-      <p class="fail">Lorem ipsum dolor sit amet</p>
+      <p class="fail">'But they were IN the well,' Alice said to the Dormouse, not choosing to notice this last remark. 'Of course they were', said the Dormouse; '—well in.' 'But they were IN the well,' Alice said to the Dormouse, not choosing to notice this last remark.</p>
     </div>
   </figure>
   <figure>
     <figcaption>Text with sufficient contrast</figcaption>
     <div>
-      <p class="pass">Sed do eiusmod tempor incid</p>
+      <p class="pass">'They were learning to draw,' the Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy; 'and they drew all manner of things—everything that begins with an M—' 'Why with an M?' said Alice. 'Why not?' said the March Hare.</p>
     </div>
   </figure>
 </div>

@@ -226,11 +226,18 @@ $wai_grey: #333333;
       }
     }
     .contrast {
+      figure {
+        div {
+          padding: 1em;
+          background: lighten($wai_grey_bg, 10%);
+          box-shadow: 0 0 2px 0 $wai_grey_bg;
+        }
+      }
       .fail {
-        color: #7C7875;
+        color: lighten($wai_grey, 40%);
       }
       .pass {
-        color: #4C4947;
+        color: lighten($wai_grey, 13%);
       }
       button {
         @extend .btn;
