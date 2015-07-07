@@ -76,17 +76,29 @@ Color can be a useful to indicate emphasis or meaning but should not be the only
   <figure class="reference fail">
     <figcaption>Inappropriate reference using color only</figcaption>
     <div>
-      <p><span class="required">Required fields in red</span></p>
-      <label for="name1">Name:</label> <input type="text" id="name1" name="name"><br>
-      <label class="required" for="email1">Email:</label> <input type="text" id="email1" name="email">
+      <form action="">
+        <p class="instruction"><span class="required">Required fields in red</span></p>
+        <div class='row'>
+          <label for="name1">Name:</label> <input type="text" id="name1" name="name">
+        </div>
+        <div class="row">
+          <label class="required" for="email1">Email:</label> <input type="text" id="email1" name="email">
+        </div>
+      </form>
     </div>
   </figure>
   <figure class="reference pass">
     <figcaption>Appropriate reference with more than color</figcaption>
     <div>
-      <p><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
-      <label for="name2">Name:</label> <input type="text" id="name2" name="name"><br>
-      <label class="required" for="email2">Email ✻:</label> <input type="text" id="email2" name="email">
+      <form action="">
+        <p class="instruction"><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
+        <div class='row'>
+          <label for="name2">Name:</label> <input type="text" id="name2" name="name"><br>
+        </div>
+        <div class="row">
+          <label class="required" for="email2">Email ✻:</label> <input type="text" id="email2" name="email">
+        </div>
+      </form>
     </div>
   </figure>
   <figure class="fail">
