@@ -74,10 +74,10 @@ Color can be a useful to indicate emphasis or meaning but should not be the only
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption>Inappropriate reference using color only</figcaption>
+    <figcaption>Inappropriate instruction using color only</figcaption>
     <div>
       <form action="">
-        <p class="instruction"><span class="required">Required fields in red</span></p>
+        <p class="instruction"><span class="required">Required fields are in red</span></p>
         <div class='row'>
           <label for="name1">Name:</label> <input type="text" id="name1" name="name">
         </div>
@@ -88,7 +88,7 @@ Color can be a useful to indicate emphasis or meaning but should not be the only
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption>Appropriate reference with more than color</figcaption>
+    <figcaption>Appropriate instruction using color and symbol</figcaption>
     <div>
       <form action="">
         <p class="instruction"><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
