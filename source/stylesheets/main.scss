@@ -265,7 +265,7 @@ $wai_grey: #333333;
       justify-content: flex-start;
       @include mq($medium) {
         &>div:first-child {
-          width: 22em;
+          width: 27em;
           margin-right: 1.5em;
         }
         &>div:last-child {
