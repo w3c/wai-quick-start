@@ -184,7 +184,10 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
     <figure>
       <figcaption>Style links to stand out from text</figcaption>
       <div>
-        <p>Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words '<a href="javascript:return false;">EAT ME</a>' were beautifully marked in currants. 'Well, I'll eat it,' said Alice, 'and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door; so either way I'll get into the garden, and I don't care which happens!'</p>
+        <p>'Cheshire Puss,' she began, rather timidly, as she did not at all know whether it would like the name: however, it only grinned a little wider. Alice went on. 'Would you tell me, please, <a href="javascript:return false;">which way I ought to go</a> from here?'</p>
+        <p>'That depends a good deal on where you want to get to,' said the Cat.</p>
+        <p>'I don't much care where—' said Alice.</p>
+        <p>'Then it doesn't matter which way you go,' said the Cat.</p>
       </div>
     </figure>
   </div>
@@ -192,19 +195,19 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
     <figure class="hover">
       <figcaption>Mouse hovered over link</figcaption>
       <div>
-        <p><a href="javascript:return false;">EAT ME</a><img src="images/pointer.png" width="20" alt=""></p>
+        <p><a href="javascript:return false;">which way I ought to go</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
       <figcaption>Tabbed to link with keyboard</figcaption>
       <div>
-        <p><a href="javascript:return false;">EAT ME</a></p>
+        <p><a href="javascript:return false;">which way I ought to go</a></p>
       </div>
     </figure>
     <figure class="active">
       <figcaption>Touch or click on link</figcaption>
       <div>
-        <p><a href="javascript:return false;">EAT ME</a><img src="images/pointer.png" width="20" alt=""></p>
+        <p><a href="javascript:return false;">which way I ought to go</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
   </div>
