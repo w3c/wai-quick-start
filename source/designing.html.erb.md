@@ -101,27 +101,53 @@ Color can be a useful to indicate emphasis or meaning but should not be the only
       </form>
     </div>
   </figure>
-  <figure class="fail">
-    <figcaption>Inaccessible pie chart</figcaption>
-    <img src="images/inaccessible_pie_chart.png" width="150" height="150" alt="A pie chart">
-    <ul>
-      <li class="super">Superbear</li>
-      <li class="aqua">Aquabear</li>
-      <li class="bat">Batbear</li>
-      <li class="star">Starbear</li>
-      <li class="blue">Blue Bear</li>
-    </ul>
+  <figure class="question fail">
+    <figcaption>Inaccessible test question</figcaption>
+    <div>
+      <svg width="153" height="154" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+        <g>
+          <title>Inaccessible triangle question</title>
+          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#0000ff"/>
+          <path stroke-opacity="0" d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#b40000"/>
+          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#00ff00"/>
+          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#eaea00"/>
+        </g>
+      </svg>
+      <form action="">
+        <legend>Which is the right-angled triangle?</legend>
+        <input id='answer-blue1' name='answer1' name='blue' type='radio'> <label for='answer-blue1'>Blue</label><br>
+        <input id='answer-red1' name='answer1' name='red' type='radio'> <label for='answer-red1'>Red</label><br>
+        <input id='answer-green1' name='answer1' name='green' type='radio'> <label for='answer-green1'>Green</label><br>
+        <input id='answer-yellow1' name='answer1' name='yellow' type='radio'> <label for='answer-yellow1'>Yellow</label><br>
+        <input id='answer-pass1' name='answer1' name='pass' type='radio'> <label for='answer-pass1'>Don't know</label>
+      </form>
+    </div>
   </figure>
-  <figure class="pass">
-    <figcaption>Accessible pie chart</figcaption>
-    <img src="images/accessible_pie_chart.png" width="150" height="150" alt="Chart of most battles won, Batbear is in the lead">
-    <ul>
-      <li class="super">Superbear (28%)</li>
-      <li class="aqua">Aquabear (11%)</li>
-      <li class="bat">Batbear (31%)</li>
-      <li class="star">Starbear (19%)</li>
-      <li class="blue">Blue Bear (11%)</li>
-    </ul>
+  <figure class="question pass">
+    <figcaption>Accessible test question</figcaption>
+    <div>
+      <svg width="153" height="154" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+        <g>
+          <title>Accessible triangle question</title>
+          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#0000ff" title="1. Blue triangle"/>
+          <path stroke-opacity="0" d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#b40000" title="2. Red triangle"/>
+          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#00ff00" title="3. Green triangle"/>
+          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#eaea00" title="4. Yellow triangle"/>
+          <text xml:space="preserve" text-anchor="middle" class="one" y="49" x="53" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#ffffff">1</text>
+          <text xml:space="preserve" text-anchor="middle" y="53" x="131.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">2</text>
+          <text xml:space="preserve" text-anchor="middle" y="114" x="114" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">3</text>
+          <text xml:space="preserve" text-anchor="middle" y="118" x="52.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">4</text>
+        </g>
+      </svg>
+      <form action="">
+        <legend>Which is the right-angled triangle?</legend>
+        <input id='answer-blue2' name='answer2' name='blue' type='radio'> <label for='answer-blue2'>1. Blue</label><br>
+        <input id='answer-red2' name='answer2' name='red' type='radio'> <label for='answer-red2'>2. Red</label><br>
+        <input id='answer-green2' name='answer2' name='green' type='radio'> <label for='answer-green2'>3. Green</label><br>
+        <input id='answer-yellow2' name='answer2' name='yellow' type='radio'> <label for='answer-yellow2'>4. Yellow</label><br>
+        <input id='answer-pass2' name='answer2' name='pass' type='radio'> <label for='answer-pass2'>Don't know</label>
+      </form>
+    </div>
   </figure>
 </div>
 

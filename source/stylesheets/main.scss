@@ -247,36 +247,17 @@ $wai_grey: #333333;
     }
     .color-alone {
       figure {
-        img {
+        @include mq($medium) {
+          &.question {
+            margin-bottom: 0;
+          }
+        }
+        svg {
           float: left;
           margin: 0 1em 1.5em 0;
         }
-        ul {
-          list-style-type: none;
-          li {
-            &:before {
-              content: '◼︎ ';
-              font-size: 160%;
-              white-space: nowrap;
-            }
-          }
-        }
-        li {
-          &.super:before {
-            color: #717ACB;
-          }
-          &.aqua:before {
-            color: #50CEFF;
-          }
-          &.bat:before {
-            color: #79C850;
-          }
-          &.star:before {
-            color: #FFB760;
-          }
-          &.blue:before {
-            color: #FB694C;
-          }
+        &.question form {
+          height: 154px;
         }
       }
     }
