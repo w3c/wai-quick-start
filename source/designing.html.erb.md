@@ -152,19 +152,19 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
   </div>
   <div>
     <figure class="hover">
-      <figcaption>Hovered over with a mouse</figcaption>
+      <figcaption>Mouse hovered over link</figcaption>
       <div>
         <p><a href="javascript:return false;">EAT ME</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
-      <figcaption>Tabbed to link</figcaption>
+      <figcaption>Tabbed to link with keyboard</figcaption>
       <div>
         <p><a href="javascript:return false;">EAT ME</a></p>
       </div>
     </figure>
     <figure class="active">
-      <figcaption>Touched or clicked link</figcaption>
+      <figcaption>Touch or click on link</figcaption>
       <div>
         <p><a href="javascript:return false;">EAT ME</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
@@ -225,29 +225,12 @@ When creating forms, ensure that all fields have an adjacent, descriptive label.
 <%= example :start, :plural %>
 
 <div class="labels">
-  <figure class="fail">
-    <figcaption>Example of poorly associated labels</figcaption>
-    <div>
-      <form action="">
-        <div class="row">
-          <label class="required">E-mail ✻</label>
-          <input type="text" id="email3" name="email">
-        </div>
-        <div class="row">
-          <label>Website</label>
-          <input type="text" id="website" name="website">
-        </div>
-        <div class="row">
-          <textarea name="comment" id="comment"></textarea>
-        </div>
-      </form>
-    </div>
-  </figure>
   <figure class="pass">
     <figcaption>Good example of associated labels</figcaption>
     <div>
       <form action="">
         <legend>Add a comment</legend>
+        <p class="instruction"><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
         <div class="row">
           <label class="required" for="email4">Your E-mail ✻</label>
           <input type="text" id="email4" name="email">
@@ -302,7 +285,7 @@ Provide feedback for any page interactions, such as confirmation of form submiss
   <figure>
     <figcaption>Example of prominent errors</figcaption>
     <div>
-      <div class="errors">
+      <div class="error-list">
         <p>There are two problems.</p>
         <ol class="fa-ul">
           <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">The E-mail you provided is not valid</a></li>
@@ -311,6 +294,7 @@ Provide feedback for any page interactions, such as confirmation of form submiss
       </div>
       <form action="">
         <legend>Add a comment</legend>
+        <p class="instruction"><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
         <div class="row">
           <label for="name5">Name</label>
           <input type="text" id="name5" name="name" value="Superbear">
@@ -391,7 +375,7 @@ Consider how page information is presented in different sized viewports, such as
     <div>
       <img src="images/content_in_browser.png" alt="Example of content in a standard browser">
       <img src="images/content_in_phone.png" alt="Example of content displayed in a phone">
-      <p>Browser display uses multiple columns for primary content, visible navigation options, and visible secondary information.</p>
+      <p>Browser display without zoom uses multiple columns for primary content, visible navigation options, and visible secondary information.</p>
       <p>Mobile display uses single column for primary content, navigation options are revealed using an icon, and secondary information is also revealed via icon.</p>
     </div>
   </figure>

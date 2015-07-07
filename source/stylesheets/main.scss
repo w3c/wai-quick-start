@@ -4,10 +4,10 @@
 
 
 // Media query variables
-$small:  400px;
-$medium: 700px;
-$big:    900px;
-$large:  1300px;
+$small:  25em; //* 400px */
+$medium: 43em; //* 700px */
+$big:    56em; //* 900px */
+$large:  81em; //* 1300px */
 
 $wai_grey_bg: #e0e0e0;
 $wai_grey: #333333;
@@ -172,12 +172,43 @@ $wai_grey: #333333;
     
     h3 {
       color: $wai_fg;
+      margin-top: 0;
     }
     
     figure {
-      margin-left: 0.1em;
+      clear: both;
+      margin-bottom: 1em;
       figcaption {
         color: $wai_fg;
+        padding-bottom: 0.5em;
+      }
+      &>div {
+        padding: 1em;
+        background: lighten($wai_grey_bg, 8%);
+        box-shadow: 0 0 2px 0 $wai_grey_bg;
+        p {
+          &:first-child {
+            margin-top: 0;
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    form {
+      legend {
+        font-weight: bold;
+      }
+      .instruction {
+        margin: 0;
+      }
+      .row:first-of-type {
+        margin-top: 0.5em;
+      }
+      .required {
+        color: #992929;
       }
     }
     
@@ -194,7 +225,7 @@ $wai_grey: #333333;
         display: flex;
         justify-content: space-between;
         figure {
-          margin-right: 1em;
+          width: 32%;
         }
       }
       .four-column {
@@ -206,34 +237,7 @@ $wai_grey: #333333;
         }
       }
     }
-    figure {
-      clear: both;
-      margin-bottom: 1em;
-      figcaption {
-        padding-bottom: 0.5em;
-      }
-      &>div {
-        p {
-          &:first-child {
-            margin-top: 0;
-          }
-          &:last-child {
-            margin-bottom: 0;
-          }
-        }
-        .required {
-          color: #992929;
-        }
-      }
-    }
     .contrast {
-      figure {
-        div {
-          padding: 1em;
-          background: lighten($wai_grey_bg, 8%);
-          box-shadow: 0 0 2px 0 $wai_grey_bg;
-        }
-      }
       .fail {
         color: lighten($wai_grey, 40%);
       }
@@ -243,11 +247,6 @@ $wai_grey: #333333;
     }
     .color-alone {
       figure {
-        div {
-          padding: 1em;
-          background: lighten($wai_grey_bg, 8%);
-          box-shadow: 0 0 2px 0 $wai_grey_bg;
-        }
         img {
           float: left;
           margin: 0 1em 1.5em 0;
@@ -294,11 +293,6 @@ $wai_grey: #333333;
       }
       figure {
         width: auto;
-        div {
-          padding: 1em;
-          background: lighten($wai_grey_bg, 8%);
-          box-shadow: 0 0 2px 0 $wai_grey_bg;
-        }
       }
       figcaption {
         padding-right: 1em;
@@ -377,43 +371,24 @@ $wai_grey: #333333;
         }
       }
       figure {
-        width: 80%;
         @include mq($medium) {
-          width: 74%;
-        }
-        &>div {
-          width: 100%;
-        }
-      }
-      .fail {
-        label {
-          float: right;
-        }
-        input {
-          width: 50%;
-        }
-        textarea {
-          width: 100%;
-          height: 4em;
+          width: 60%;
         }
       }
       .pass {
-        legend {
-          font-weight: bold;
-          margin-bottom: 0.5em;
-        }
         .row {
-          padding: 0.25em 0.5em;
+          padding: 0.25em 0;
         }
         label {
           width: 33%;
           display: inline-block;
+          white-space: nowrap;
         }
         input {
-          width: 60%;
+          width: 62%;
         }
         textarea {
-          width: 60%;
+          width: 62%;
           height: 5em;
         }
         @include mq($medium) {
@@ -427,40 +402,66 @@ $wai_grey: #333333;
       }
     }
     .errors {
-      .errors {
+      input, textarea {
+        border: 1px solid #bfbfbf;
+        padding: 2px 4px;
+        &:focus {
+          border: 1px solid $wai_link_active;
+        }
+      }
+      @include mq($medium) {
+        width: 60%;
+      }
+      .error-list {
         li {
           span {
             color: #992929;
           }
         }
       }
-      legend {
-        font-weight: bold;
-        margin-bottom: 0.5em;
-      }
       .row {
-        padding: 0.25em 0.5em;
+        padding: 0.25em 0;
         &.error {
           background: #992929;
           color: #ffffff;
           label {
             color: #ffffff;
+            &:before {
+              padding: 0.2em;
+              content: ' ';
+            }
           }
         }
       }
       label {
-        width: 7em;
+        width: 33%;
         display: inline-block;
+        white-space: nowrap;
       }
       input {
-        width: 20em;
+        width: 62%;
       }
       textarea {
-        width: 20em;
+        width: 62%;
         height: 5em;
+      }
+      @include mq($medium) {
+        label {
+          width: 23%;
+        }
+        input, textarea {
+          width: 73%;
+        }
       }
     }
     .responsive {
+      figure {
+        margin-bottom: 0;
+        div {
+          background: none;
+          box-shadow: none;
+        }
+      }
       @include mq($medium) {
         width: 91%;
       }
