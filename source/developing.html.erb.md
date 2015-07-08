@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible front-end web development
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
-Forms should provide clear instructions as to the required format of information. Try to be as forgiving as possible when accepting information. For example accept phone numbers that include spaces and strip them out if necessary. Provide feedback on errors that clearly identifies where the error occurred, ideally with a in-page link for easy access, and how to fix the problem.
+Provide clear instructions on required information formats. Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected, including a description of the specific error, where it occurred, and how to correct it. Provide an in-page link for easy access from the error to the field when feasible. 
 
 {::nomarkdown}
 <%= example %>
