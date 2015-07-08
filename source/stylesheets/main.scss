@@ -455,6 +455,10 @@ $wai_grey: #333333;
         div {
           background: none;
           box-shadow: none;
+          padding: 0;
+          &:last-child {
+            margin-bottom: 1em;
+          }
         }
       }
       @include mq($medium) {
@@ -463,7 +467,7 @@ $wai_grey: #333333;
       img {
         @include mq($medium) {
           &:first-child {
-            margin-right: 2em;
+            margin-right: 1em;
           }
         }
       }
