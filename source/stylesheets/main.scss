@@ -198,6 +198,10 @@ $wai_grey: #333333;
     }
 
     form {
+      box-sizing: border-box;
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
       legend {
         font-weight: bold;
       }
@@ -265,7 +269,7 @@ $wai_grey: #333333;
       justify-content: flex-start;
       @include mq($medium) {
         &>div:first-child {
-          width: 27em;
+          width: 21em;
           margin-right: 1.5em;
         }
         &>div:last-child {
@@ -359,18 +363,32 @@ $wai_grey: #333333;
       .pass {
         .row {
           padding: 0.25em 0;
-        }
-        label {
-          width: 33%;
-          display: inline-block;
-          white-space: nowrap;
-        }
-        input {
-          width: 62%;
-        }
-        textarea {
-          width: 62%;
-          height: 5em;
+          position: relative;
+          label {
+            width: 33%;
+            display: inline-block;
+            white-space: nowrap;
+          }
+          input {
+            width: 62%;
+          }
+          textarea {
+            width: 62%;
+            height: 5em;
+          }
+          &.checkbox {
+            padding-left: 34%;
+            label {
+              width: auto;
+              white-space: normal;
+              padding-left: 1.2em;
+            }
+            input {
+              width: auto;
+              position: absolute;
+              top: 0.5em;
+            }
+          }
         }
         @include mq($medium) {
           label {
@@ -383,15 +401,15 @@ $wai_grey: #333333;
       }
     }
     .errors {
+      @include mq($medium) {
+        width: 35em;
+      }
       input, textarea {
         border: 1px solid #bfbfbf;
         padding: 2px 4px;
         &:focus {
           border: 1px solid $wai_link_active;
         }
-      }
-      @include mq($medium) {
-        width: 60%;
       }
       .error-list {
         li {
@@ -406,24 +424,20 @@ $wai_grey: #333333;
           background: #992929;
           color: #ffffff;
           label {
+            padding-left: 0.5em;
             color: #ffffff;
-            &:before {
-              padding: 0.2em;
-              content: ' ';
-            }
           }
         }
       }
       label {
         width: 33%;
         display: inline-block;
-        white-space: nowrap;
       }
       input {
-        width: 62%;
+        width: 65.5%;
       }
       textarea {
-        width: 62%;
+        width: 65.5%;
         height: 5em;
       }
       @include mq($medium) {
@@ -431,7 +445,7 @@ $wai_grey: #333333;
           width: 23%;
         }
         input, textarea {
-          width: 73%;
+          width: 75.5%;
         }
       }
     }

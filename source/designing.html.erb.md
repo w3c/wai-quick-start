@@ -31,13 +31,13 @@ Note that "contrast" is used as a short form for the more technically correct te
   <figure>
     <figcaption>Text with insufficient contrast</figcaption>
     <div>
-      <p class="fail">'But they were IN the well,' Alice said to the Dormouse, not choosing to notice this last remark. 'Of course they were', said the Dormouse; '—well in.' 'But they were IN the well,' Alice said to the Dormouse, not choosing to notice this last remark.</p>
+      <p class="fail">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
   <figure>
     <figcaption>Text with sufficient contrast</figcaption>
     <div>
-      <p class="pass">'They were learning to draw,' the Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy; 'and they drew all manner of things—everything that begins with an M—' 'Why with an M?' said Alice. 'Why not?' said the March Hare.</p>
+      <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
 </div>
@@ -74,7 +74,7 @@ Color can be a useful to indicate emphasis or meaning but should not be the only
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption>Inappropriate instruction using color only</figcaption>
+    <figcaption>InInaccessible instruction using color only</figcaption>
     <div>
       <form action="">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
@@ -88,7 +88,7 @@ Color can be a useful to indicate emphasis or meaning but should not be the only
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption>Appropriate instruction using color and symbol</figcaption>
+    <figcaption>Accessible instruction using color and symbol</figcaption>
     <div>
       <form action="">
         <p class="instruction"><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
@@ -184,10 +184,8 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
     <figure>
       <figcaption>Style links to stand out from text</figcaption>
       <div>
-        <p>'Cheshire Puss,' she began, rather timidly, as she did not at all know whether it would like the name: however, it only grinned a little wider. Alice went on. 'Would you tell me, please, <a href="javascript:return false;">which way I ought to go</a> from here?'</p>
-        <p>'That depends a good deal on where you want to get to,' said the Cat.</p>
-        <p>'I don't much care where—' said Alice.</p>
-        <p>'Then it doesn't matter which way you go,' said the Cat.</p>
+        <p>Some people can't use a mouse and use a <a href="javascript:return false;">keyboard to navigate</a> through web pages, using the tab and arrow keys. It is important that all interactive elements can be reached using the keyboard and that it is clear which element has focus. If this is not clear then users won't know which link or element they are selecting.</p>
+        <p></p>
       </div>
     </figure>
   </div>
@@ -195,19 +193,19 @@ Provide distinct styles for interactive elements, such as links, buttons, and ot
     <figure class="hover">
       <figcaption>Mouse hovered over link</figcaption>
       <div>
-        <p><a href="javascript:return false;">which way I ought to go</a><img src="images/pointer.png" width="20" alt=""></p>
+        <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
       <figcaption>Tabbed to link with keyboard</figcaption>
       <div>
-        <p><a href="javascript:return false;">which way I ought to go</a></p>
+        <p><a href="javascript:return false;">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
       <figcaption>Touch or click on link</figcaption>
       <div>
-        <p><a href="javascript:return false;">which way I ought to go</a><img src="images/pointer.png" width="20" alt=""></p>
+        <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
   </div>
@@ -271,17 +269,20 @@ When creating forms, ensure that all fields have an adjacent, descriptive label.
     <div>
       <form action="">
         <legend>Add a comment</legend>
-        <p class="instruction"><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
         <div class="row">
-          <label class="required" for="email4">Your E-mail ✻</label>
+          <label for="email4">Your E-mail</label>
           <input type="text" id="email4" name="email">
+        </div>
+        <div class="row checkbox">
+          <input type="checkbox" id="contact1" name="contact">
+          <label for="contact1">I am happy for you to contact me</label>
         </div>
         <div class="row">
           <label for="website2">Your Website</label>
           <input type="text" id="website2" name="website">
         </div>
         <div class="row">
-          <label class="required" for="comment2">Comment ✻</label>
+          <label for="comment2">Comment</label>
           <textarea name="comment" id="comment2"></textarea>
         </div>
       </form>
