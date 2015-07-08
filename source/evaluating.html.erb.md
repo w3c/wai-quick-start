@@ -154,12 +154,12 @@ These tips are important points to consider when evaluating website accessibilit
 <%= learn_more %>
 {:/}
 
-* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): <abbr title="World Wide Web Consortium">W3C</abbr> introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles): Provides an introduction to the web accessibility requirements referenced in the international accessibility standards from W3C Web Accessibility Initiative
-* [How people with disabilities use the web](/WAI/intro/people-use-web): Uses real-life examples to introduce accessibility, and explores tools and approaches that help, and barriers encountered 
-* [Easy checks](/WAI/eval/preliminary.html): Provides simple steps to help assess if a web page addresses accessibility
-* [Website Accessibility Conformance Evaluation Methodology](/WAI/eval/conformance.html): A methodology designed to assist in evaluating the conformance of websites to Web Content Accessibility Guidelines (WCAG) 2.0
-* [Involving Users in Web Accessibility Evaluation](/WAI/eval/users.html): Provides guidance on including people with disabilities in accessibility evaluation throughout Web development
+* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
+* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <acronym title="Web Content Accessibility Guidelines">WCAG</acronym> requirements
+* [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
+* [Easy checks](/WAI/eval/preliminary.html): Simple steps to help assess if a web page addresses accessibility
+* [Website Accessibility Conformance Evaluation Methodology](/WAI/eval/conformance.html): A methodology designed to assist in evaluating the conformance of websites to <acronym title="Web Content Accessibility Guidelines">WCAG</acronym> 2.0
+* [Involving Users in Web Accessibility Evaluation](/WAI/eval/users.html): Provides guidance on including people with disabilities in accessibility evaluation
 
 {::nomarkdown}
 <%= learn_more :end %>
