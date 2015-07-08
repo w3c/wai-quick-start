@@ -5,7 +5,7 @@ status: editors-draft
 layout: guide
 ---
 
-These tips will help you integrate accessibility into project planning and managing.
+These tips will help you plan and manage the accessibility of your website.
 
 {:.toc .no_toc}
 ## On this page
@@ -39,9 +39,9 @@ Support from management helps ensure budget and resources are available for acce
 {:/}
 
 {:.attach_permalink}
-##  Integrate accessibility throughout the project life-cycle
+##  Integrate accessibility throughout your workflow
 
-Aim to integrate accessibility considerations throughout any web project. For example, during requirements planning consider people with disabilities as consumers of the site when considering use cases, include accessibility reviews at key phases such as design, and development sprints. Consider how well accessibility is included into design and development resources, such as brand guidelines and code libraries.
+Integrate accessibility throughout all stages of design, development, and on-going maintenance. For example, consider people with disabilities as consumers during requirements planning of the website. Ensure reviews of these accessibility considerations at key phases, such as design and development sprints. Also integrate accessibility throughout your design and development resources, such as brand guidelines and code libraries.
 
 {::nomarkdown}
 <%= tip :end %>
@@ -85,9 +85,9 @@ An external website accessibility statement should include details on conformanc
 {:/}
 
 {:.attach_permalink}
-## Identify team accessibility contacts
+## Identify accessibility contacts
 
-Identify key project team members who will have responsibility for leading accessibility activities and to function as primary contacts for accessibility questions. Ensure there is representation from across all project areas such as design, content creation, development, and quality assurance. In smaller teams it is likely that one individual will have primary responsibility for accessibility.
+Identify key staff who will have primary responsibility for leading accessibility activities in different areas, such as design, content creation, development, and quality assurance. In smaller teams it is likely that one individual will have primary responsibility for accessibility. Involve these contacts in planning and managing activities, and ensure their availability and buy-in.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -103,9 +103,9 @@ Identify key project team members who will have responsibility for leading acces
 {:/}
 
 {:.attach_permalink}
-## Provide accessibility awareness training
+## Provide accessibility training
 
-Accessibility awareness training should be provided for all team members. This should seek to introduce accessibility and explain why it is important. Ideally it will also cover aspects of how people with disabilities use the web to cultivate a better appreciation of why certain accommodations are important.
+Accessibility training should be provided for all team members. This includes awareness-raising and introduction to accessibility, as well as technical training and skills development for those involved in the production. For example, continual awareness-raising on how people with disabilities use the web is useful for everyone involved in design, development, and on-going maintenance.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -139,9 +139,9 @@ Seek to identify accessibility barriers early by undertaking regular checks thro
 {:/}
 
 {:.attach_permalink}
-## Involve users with disabilities in usability testing
+## Involve users with disabilities
 
-Usability testing should seek to incorporate feedback from people with disabilities. This is especially important for websites where the target audience are likely to benefit more from accessible solutions, such as older people.
+Involing users with disabilities highlights real issues and provides practical feedback that is sometimes not easy to identify by experts alone. In particular, involving users with disabilities in usability testing helps you identify issues more efficiently and develop accessible solutions more effectively.
 
 {::nomarkdown}
 <%= learn_more %>
