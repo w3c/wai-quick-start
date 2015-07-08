@@ -18,28 +18,6 @@ These introductory tips cover the basics of accessible front-end web development
 {:/}
 
 {:.attach_permalink}
-## Help users avoid and correct mistakes
-
-Provide clear instructions on required information formats. Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected, including a description of the specific error, where it occurred, and how to correct it. Provide an in-page link for easy access from the error to the field when feasible. 
-
-{::nomarkdown}
-<%= example %>
-{:/}
-
-[... Example form with instructions ...]
-
-[... Example set of error notifications, maybe different from the Designing? ...]
-
-{::nomarkdown}
-<%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Use progressive enhancement
 
 Progressive enhancement starts with the basic core semantic HTML presenting the content and functionality. Additional styling and functionality are then progressively added with different technologies, such as CSS or JavaScript. If the added technology is not available, such as behind a firewall that prevents JavaScript, the core content will still be available.
@@ -114,6 +92,28 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 * [Design solutions - navigating and finding content](/WAI/intro/people-use-web/browsing#navigation): Explores how providing labels benefits people with disabilities
 {::nomarkdown}
 <%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Help users avoid and correct mistakes
+
+Provide clear instructions on required information formats. Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected, including a description of the specific error, where it occurred, and how to correct it. Provide an in-page link for easy access from the error to the field when feasible. 
+
+{::nomarkdown}
+<%= example %>
+{:/}
+
+[... Example form with instructions ...]
+
+[... Example set of error notifications, maybe different from the Designing? ...]
+
+{::nomarkdown}
+<%= example :end %>
 {:/}
 
 {::nomarkdown}
