@@ -417,8 +417,8 @@ Consider how page information is presented in different sized viewports, such as
     <div>
       <img src="images/content_in_browser.png" alt="Example of content in a standard browser">
       <img src="images/content_in_phone.png" alt="Example of content displayed in a phone">
-      <p>Browser display without zoom uses multiple columns for primary content, visible navigation options, and visible secondary information.</p>
-      <p>Mobile display uses single column for primary content, navigation options are revealed using an icon, and secondary information is also revealed via icon.</p>
+      <p>Display in a wide window with small text uses multiple columns for primary content, visible navigation options, and visible secondary information.</p>
+      <p>Display in a narrow window, such as a mobile phone, or with large text uses single column for primary content, navigation options are revealed using an icon, and secondary information is also revealed via icon.</p>
     </div>
   </figure>
 </div>
