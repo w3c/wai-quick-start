@@ -74,7 +74,7 @@ Color can be useful to indicate emphasis or meaning but should not be the only w
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption>InInaccessible instruction using color only</figcaption>
+    <figcaption>Inaccessible instruction using color only</figcaption>
     <div>
       <form action="">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
