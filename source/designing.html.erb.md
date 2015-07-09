@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible user interface and visual
 {:.attach_permalink}
 ## Provide sufficient contrast between colors
 
-Text needs to have sufficient contrast between foreground and background colors. This includes text on images, background gradients, buttons, and other elements. A minimum contrast ratio is required by the Web Content Accessibility Guidelines (WCAG) and guidance on how to check contrast ratio is available. This does not apply for logos, or incidental text, such as text that happens to be in a photograph.
+Text needs to have sufficient contrast between foreground and background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. There are tools to help check if color combinations meet the minimum contrast ratio defined in <acronym title="Web Content Accessibility Guidelines">WCAG</acronym>.
 
 Note that "contrast" is used as a short form for the more technically correct term "luminance contrast".
 
