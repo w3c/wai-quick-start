@@ -486,10 +486,10 @@ These tips are important points to consider when designing accessible websites, 
 <%= learn_more %>
 {:/}
 
-* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <acronym title="Web Content Accessibility Guidelines">WCAG</acronym> requirements
-* [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
-* [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible to people with disabilities
+* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility) introduction
+* [Accessibility Principles](/WAI/intro/people-use-web/principles)
+* [How people with disabilities use the web](/WAI/intro/people-use-web)
+* [Web Accessibility Tutorials](/WAI/tutorials/)
 * [Before and After Demonstration](/WAI/demos/bad/): Example accessible and inaccessible websites that share the same visual design, with annotations on key accessibility barriers and repairs
 
 {::nomarkdown}
