@@ -65,9 +65,9 @@ Note that "contrast" is used as a short form for the more technically correct te
 {:/}
 
 {:.attach_permalink}
-## Don't use color alone to signify meaning
+## Don't use color alone to convey information
 
-Color can be useful to indicate emphasis or meaning but should not be the only way information is conveyed. Use additional identification that does not rely on color perception when using color to differentiate elements. For example, use an asterisk in addition to color to indicate required form fields, and use labels and patterns to help distinguish areas on graphs and maps.
+While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. For example, use an asterisk in addition to color to indicate required form fields, and use labels to distinguish areas on graphs.
 
 {::nomarkdown}
 <%= example :start, :plural %>
