@@ -484,7 +484,7 @@ Provide a text description to communicate what information or function images ar
 {:.attach_permalink}
 ## Learn more about accessibility
 
-These tips are important points to consider when designing accessible websites, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
+These tips are just some of the important accessibility points to address when designing websites. There are more things to consider. The following resources will help you learn more about accessibility — why it is important for people with disabilities, for designers, and for organizations; about web accessibility guidelines; and much more. 
 
 {::nomarkdown}
 <%= learn_more %>
