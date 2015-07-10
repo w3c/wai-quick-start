@@ -454,8 +454,6 @@ Provide a text description to communicate what information or function images ar
 [... Text descriptions for: ... ]
 [... Home icon with functional text 'Home' ...]
 
-[... Photo of snow vista with descriptive text 'Used to evoke a sense of desire in snowboarders' ...]
-
 <%= example :end %>
 {:/}
 
