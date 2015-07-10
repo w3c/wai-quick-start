@@ -174,7 +174,7 @@ While color can be useful to convey information, color should not be the only wa
 {:.attach_permalink}
 ## Ensure interactive elements are easy to identify
 
-Provide distinct styles for interactive elements, such as links, buttons, and other controls, to make them easy to distinguish and identify. Those styles include interaction specific changes of appearance, for example in the event of a mouse hover, keyboard focus, and touch-screen activation. This helps users to identify the state of the element.
+Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation.
 
 {::nomarkdown}
 <%= example :start, :plural %>
