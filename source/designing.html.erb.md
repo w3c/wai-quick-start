@@ -53,7 +53,7 @@ Note that "contrast" is used as a short form for the more technically correct te
 * **How To**: [How to check contrast ratio](/WAI/eval/preliminary.html#contrast)
 * **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 1.4.3 Contrast (Minimum)](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
 * **User Story**: [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
-* **Support Tools**: [List of resources to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
+* **Support Tools**: [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
 {::nomarkdown}
 <%= learn_more :end %>
