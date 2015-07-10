@@ -382,7 +382,7 @@ Provide feedback for any page interactions, such as confirmation of form submiss
 {:.attach_permalink}
 ## Use headings and spacing to group related content
 
-Content design benefits from clear headings to chunk up content. Use whitespace to reduce clutter, make related content or elements more apparent, and make content more scannable.
+Provide clear headings to group content and make it easier to scan. Use whitespace to make relationships between content and elements more apparent.
 
 {::nomarkdown}
 <%= learn_more %>
