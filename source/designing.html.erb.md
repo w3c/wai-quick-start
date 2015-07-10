@@ -242,8 +242,12 @@ Ensure page designs include clear and consistent naming, styling and positioning
 <%= learn_more %>
 {:/}
 
-* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 3.2.3 Consistent Navigation](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations)
-* **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html)
+* **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**:
+  * [<acronym title="Success Criteria">SC</acronym> 3.2.3 Consistent Navigation](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations)
+  * [<acronym title="Success Criteria">SC</acronym> 2.4.5 Multiple Ways](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc)
+* **Background**:
+  * [Understanding <acronym title="Success Criteria">SC</acronym> 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html)
+  * [Understanding <acronym title="Success Criteria">SC</acronym> 2.4.5 Multiple Ways](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html)
 * **User Story**: [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
