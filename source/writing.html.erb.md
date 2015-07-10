@@ -125,7 +125,7 @@ The title of a page should be unique within the website and should simply descri
 {:.attach_permalink}
 ## Provide text alternatives for all images
 
-Each image used should be provided with alternative text that describes the information of function represented by the image. Provide text that describes the purpose the image serves or what information it conveys. Where an image is purely decorative, `null` alternative text may be appropriate.
+Each image used should be provided with alternative text that describes the information or function represented by the image. Provide text that describes the purpose the image serves or what information it conveys. Where an image is purely decorative, `null` alternative text may be appropriate.
  
 {::nomarkdown}
 <%= example %>
