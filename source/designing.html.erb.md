@@ -262,7 +262,7 @@ Ensure page designs include clear and consistent naming, styling and positioning
 {:.attach_permalink}
 ## Ensure form elements include clearly associated labels
 
-Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and elements.
+Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.
 
 {::nomarkdown}
 <%= example :start, :plural %>
