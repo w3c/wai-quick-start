@@ -494,7 +494,7 @@ These tips are just some of the important accessibility points to address when d
 * [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <acronym title="Web Content Accessibility Guidelines">WCAG</acronym> requirements
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
 * [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible to people with disabilities
-* [Before and After Demonstration](/WAI/demos/bad/): Example accessible and inaccessible websites that share the same visual design, with annotations on key accessibility barriers and repairs
+* [Before and After Demonstration (BAD)](/WAI/demos/bad/) shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
 
 {::nomarkdown}
 <%= learn_more :end %>
