@@ -172,7 +172,7 @@ While color can be useful to convey information, color should not be the only wa
 {:/}
 
 {:.attach_permalink}
-## Ensure interactive elements are easy to identify
+## Ensure that interactive elements are easy to identify
 
 Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation.
 
@@ -236,7 +236,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 {:.attach_permalink}
 ## Provide clear and consistent navigation options
 
-Ensure page designs include clear and consistent naming, styling and positioning of navigation elements. If your web site consists of many pages, provide more than one method of navigation, such as a breadcrumb navigation, a site search, or a site map. Help users understand where they are on a web page and in a website by providing orientation cues, such as clear headings and, if appropriate, breadcrumbs.
+Ensure that page designs include clear and consistent naming, styling and positioning of navigation elements. If your web site consists of many pages, provide more than one method of navigation, such as a breadcrumb navigation, a site search, or a site map. Help users understand where they are on a web page and in a website by providing orientation cues, such as clear headings and, if appropriate, breadcrumbs.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -260,7 +260,7 @@ Ensure page designs include clear and consistent naming, styling and positioning
 {:/}
 
 {:.attach_permalink}
-## Ensure form elements include clearly associated labels
+## Ensure that form elements include clearly associated labels
 
 Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.
 
@@ -409,7 +409,7 @@ Provide clear headings to group content, reduce clutter, and make it easier to s
 {:.attach_permalink}
 ## Create designs for different viewport sizes
 
-Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure text size and line width are set to maximize readability and legibility.
+Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
 <%= example %>
