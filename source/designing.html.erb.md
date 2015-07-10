@@ -386,7 +386,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 {:.attach_permalink}
 ## Use headings and spacing to group related content
 
-Provide clear headings to group content and make it easier to scan. Use whitespace to make relationships between content and elements more apparent.
+Provide clear headings to group content, reduce clutter, and make it easier to scan. Use whitespace to make relationships between content and elements more apparent.
 
 {::nomarkdown}
 <%= learn_more %>
