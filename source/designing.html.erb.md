@@ -464,7 +464,7 @@ Provide a text description to communicate what information or function images ar
 {:/}
 
 * **<acronym title="Web Content Accessibility Guidelines">WCAG</acronym> Requirement**: [<acronym title="Success Criteria">SC</acronym> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
-* **Tutotial**: [Demonstrates how to provide appropriate text alternatives based on the purpose of the image](/WAI/tutorials/images/)
+* **Tutorial**: [Demonstrates how to provide appropriate text alternatives based on the purpose of the image](/WAI/tutorials/images/)
 * **Background**: [Understanding <acronym title="Success Criteria">SC</acronym> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
 * **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
