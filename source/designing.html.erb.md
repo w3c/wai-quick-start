@@ -18,9 +18,9 @@ These introductory tips cover the basics of accessible user interface design and
 {:/}
 
 {:.attach_permalink}
-## Provide sufficient contrast between colors
+## Provide sufficient contrast between foreground and background
 
-Text needs to have sufficient contrast between foreground and background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. There are tools to help check if color combinations meet the minimum contrast ratio defined in <acronym title="Web Content Accessibility Guidelines">WCAG</acronym>.
+Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. There are tools to help check if color combinations meet the minimum contrast ratio defined in <acronym title="Web Content Accessibility Guidelines">WCAG</acronym>.
 
 Note that "contrast" is used as a short form for the more technically correct term "luminance contrast".
 
@@ -91,7 +91,7 @@ While color can be useful to convey information, color should not be the only wa
     <figcaption>Accessible instruction using color and symbol</figcaption>
     <div>
       <form action="">
-        <p class="instruction"><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
+        <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
         <div class='row'>
           <label for="name2">Name:</label> <input type="text" id="name2" name="name"><br>
         </div>
@@ -332,15 +332,15 @@ Provide feedback for interactions, such as confirming form submission, alerting 
     <figcaption>Example of prominent errors</figcaption>
     <div>
       <div class="error-list">
-        <p>There are two problems.</p>
+        <p>Please correct the following errors.</p>
         <ol class="fa-ul">
-          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">The E-mail you provided is not valid</a></li>
+          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">You entered an invalid email</a></li>
           <li id="error_comment"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
         </ol>
       </div>
       <form action="">
         <legend>Add a comment</legend>
-        <p class="instruction"><span class='required'>Required fields</span> are marked with <span class='required'>✻</span></p>
+        <p class="instruction"><span class='required'>Required fields are in red and </span> are marked with <span class='required'>✻</span></p>
         <div class="row">
           <label for="name5">Name</label>
           <input type="text" id="name5" name="name" value="Superbear">
@@ -450,7 +450,7 @@ Consider how page information is presented in different sized viewports, such as
 {:.attach_permalink}
 ## Provide a text alternative for images
 
-Provide a text description to communicate what information or function images are being used for in designs. Images can be used in many different ways, such as to convey information, as decorative support, or in functional ways. Consider what the image is being selected to do and provide text to describe that purpose. Decorative images, that don't add information to the content of the page, should be presented in CSS or provided with empty alternative text.
+Provide a text description to communicate what information or function is conveyed by an image. Images can be used in many different ways, such as to convey information, as decorative support, or in functional ways. Consider what the image is being selected to do and provide text to describe that purpose. Decorative images, that don't add information to the content of the page, should be presented in CSS or provided with null alternative text.
 
 {::nomarkdown}
 <%= example %>
