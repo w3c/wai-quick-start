@@ -107,10 +107,10 @@ While color can be useful to convey information, color should not be the only wa
       <svg width="153" height="154" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
         <g>
           <title>Inaccessible triangle question</title>
-          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#0000ff"/>
-          <path stroke-opacity="0" d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#b40000"/>
-          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#00ff00"/>
-          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#eaea00"/>
+          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green"/>
+          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue"/>
+          <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red"/>
+          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" class="yellow"/>
         </g>
       </svg>
       <form action="">
@@ -129,21 +129,21 @@ While color can be useful to convey information, color should not be the only wa
       <svg width="153" height="154" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
         <g>
           <title>Accessible triangle question</title>
-          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#0000ff" title="1. Blue triangle"/>
-          <path stroke-opacity="0" d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#b40000" title="2. Red triangle"/>
-          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#00ff00" title="3. Green triangle"/>
-          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#eaea00" title="4. Yellow triangle"/>
-          <text xml:space="preserve" text-anchor="middle" class="one" y="49" x="53" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#ffffff">1</text>
-          <text xml:space="preserve" text-anchor="middle" y="53" x="131.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">2</text>
-          <text xml:space="preserve" text-anchor="middle" y="114" x="114" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">3</text>
-          <text xml:space="preserve" text-anchor="middle" y="118" x="52.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">4</text>
+          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green" title="1. Green triangle"/>
+          <text class="green" y="51" x="44"><tspan>1</tspan><tspan dx="100">: Angles are 30°, 60°, 90°</tspan></text>
+          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue" title="2. Blue triangle"/>
+          <text class="blue" y="54" x="132"><tspan>2</tspan><tspan dx="100">: Angles are 30°, 30°, 120°</tspan></text>
+          <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red" title="3. Red triangle"/>
+          <text class="red" y="114" x="110"><tspan>3</tspan><tspan dx="100">: Angles are 30°, 60°, 90°</tspan></text>
+          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" class="yellow" title="4. Yellow triangle"/>
+          <text class="yellow" y="118" x="48"><tspan>4</tspan><tspan dx="100">: Angles are 40°, 70°, 70°</tspan></text>
         </g>
       </svg>
       <form action="">
         <legend>Which is the right-angled triangle?</legend>
-        <input id='answer-blue2' name='answer2' name='blue' type='radio'> <label for='answer-blue2'>1. Blue</label><br>
-        <input id='answer-red2' name='answer2' name='red' type='radio'> <label for='answer-red2'>2. Red</label><br>
-        <input id='answer-green2' name='answer2' name='green' type='radio'> <label for='answer-green2'>3. Green</label><br>
+        <input id='answer-green2' name='answer2' name='green' type='radio'> <label for='answer-green2'>1. Green</label><br>
+        <input id='answer-blue2' name='answer2' name='blue' type='radio'> <label for='answer-blue2'>2. Blue</label><br>
+        <input id='answer-red2' name='answer2' name='red' type='radio'> <label for='answer-red2'>3. Red</label><br>
         <input id='answer-yellow2' name='answer2' name='yellow' type='radio'> <label for='answer-yellow2'>4. Yellow</label><br>
         <input id='answer-pass2' name='answer2' name='pass' type='radio'> <label for='answer-pass2'>Don't know</label>
       </form>

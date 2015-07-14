@@ -263,6 +263,30 @@ $wai_grey: #333333;
         svg {
           float: left;
           margin: 0 1em 1.5em 0;
+          text {
+            fill: #f4f4f4;
+            tspan {
+              @extend .visuallyhidden;
+            }
+            &.yellow {
+              fill: $wai_grey;
+            }
+          }
+          path {
+            stroke-width: 0;
+            &.blue {
+              fill: #0000CC;
+            }
+            &.green {
+              fill: #09610D;
+            }
+            &.red {
+              fill: #AA0402;
+            }
+            &.yellow {
+              fill: #DDDD00;
+            }
+          }
         }
         &.question form {
           height: 154px;
