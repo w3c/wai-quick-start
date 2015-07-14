@@ -115,9 +115,9 @@ While color can be useful to convey information, color should not be the only wa
       </svg>
       <form action="">
         <legend>Which is the right-angled triangle?</legend>
+        <input id='answer-green1' name='answer1' name='green' type='radio'> <label for='answer-green1'>Green</label><br>
         <input id='answer-blue1' name='answer1' name='blue' type='radio'> <label for='answer-blue1'>Blue</label><br>
         <input id='answer-red1' name='answer1' name='red' type='radio'> <label for='answer-red1'>Red</label><br>
-        <input id='answer-green1' name='answer1' name='green' type='radio'> <label for='answer-green1'>Green</label><br>
         <input id='answer-yellow1' name='answer1' name='yellow' type='radio'> <label for='answer-yellow1'>Yellow</label><br>
         <input id='answer-pass1' name='answer1' name='pass' type='radio'> <label for='answer-pass1'>Don't know</label>
       </form>
@@ -236,7 +236,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 {:.attach_permalink}
 ## Provide clear and consistent navigation options
 
-Ensure that page designs include clear and consistent naming, styling and positioning of navigation elements. If your web site consists of many pages, provide more than one method of navigation, such as a breadcrumb navigation, a site search, or a site map. Help users understand where they are on a web page and in a website by providing orientation cues, such as clear headings and, if appropriate, breadcrumbs.
+Ensure that page designs include clear and consistent naming, styling, and positioning of navigation elements. If your web site consists of many pages, provide more than one method of navigation, such as a breadcrumb navigation, a site search, or a site map. Help users understand where they are on a web page and in a website by providing orientation cues, such as clear headings and, if appropriate, breadcrumbs.
 
 {::nomarkdown}
 <%= learn_more %>
