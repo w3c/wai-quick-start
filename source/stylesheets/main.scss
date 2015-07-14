@@ -255,14 +255,24 @@ $wai_grey: #333333;
     }
     .color-alone {
       figure {
-        @include mq($medium) {
+        @include mq($large) {
           &.question {
             margin-bottom: 0;
           }
         }
         svg {
-          float: left;
-          margin: 0 1em 1.5em 0;
+          @include mq($small) {
+            float: left;
+            margin: 0 1em 1.5em 0;
+          }
+          @include mq($medium) {
+            float: none;
+            margin: 0;
+          }
+          @include mq($big) {
+            float: left;
+            margin: 0 1em 1.5em 0;
+          }
           text {
             fill: #f4f4f4;
             tspan {
@@ -289,7 +299,15 @@ $wai_grey: #333333;
           }
         }
         &.question form {
-          height: 154px;
+          @include mq($small) {
+            height: 154px;
+          }
+          @include mq($medium) {
+            height: auto;
+          }
+          @include mq($big) {
+            height: 154px;
+          }
         }
       }
     }
