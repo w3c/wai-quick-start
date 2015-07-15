@@ -448,9 +448,9 @@ Consider how page information is presented in different sized viewports, such as
 {:/}
 
 {:.attach_permalink}
-## Provide a text alternative for images
+## Provide text alternatives for images
 
-Provide a text description to communicate what information or function is conveyed by an image. Images can be used in many different ways, such as to convey information, as decorative support, or in functional ways. Consider what the image is being selected to do and provide text to describe that purpose. Decorative images, that don't add information to the content of the page, should be presented in CSS or provided with null alternative text.
+Provide text which describes the purpose of each image. Images might convey information, provide decorative support, or support functionality. Alternative text is not needed for purely decorative images that don't add information to the page.
 
 {::nomarkdown}
 <%= example %>
