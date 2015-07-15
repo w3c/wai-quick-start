@@ -172,7 +172,11 @@ $wai_grey: #333333;
     
     h3 {
       color: $wai_fg;
-      margin-top: 0;
+      margin: 0 0 0.25em 0;
+      font-size: 1.2em;
+      +ul, +ol {
+        margin-top: 0;
+      }
     }
     
     figure {
