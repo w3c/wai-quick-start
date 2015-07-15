@@ -494,6 +494,7 @@ These tips are just some of the important accessibility points to address when d
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
 * [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible to people with disabilities
 * [Before and After Demonstration](/WAI/demos/bad/): Shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
+* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/): Includes tools to help explore contrast ratio
 
 {::nomarkdown}
 <%= learn_more :end %>

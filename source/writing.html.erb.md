@@ -194,6 +194,7 @@ These tips are important points to consider when writing accessible content, but
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> requirements
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
+* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/): Includes tools to help explore readability of content
 
 {::nomarkdown}
 <%= learn_more :end %>
