@@ -184,7 +184,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
     <figure>
       <figcaption>Style links to stand out from text</figcaption>
       <div>
-        <p>Some people can't use a mouse and use a <a href="javascript:return false;">keyboard to navigate</a> through web pages, using the tab and arrow keys. It is important that all interactive elements can be reached using the keyboard and that it is clear which element has focus. If this is not clear then users won't know which link or element they are selecting.</p>
+        <p>Some people can't use a mouse and use only a <a href="javascript:return false;">keyboard to navigate</a> through web pages. It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
         <p></p>
       </div>
     </figure>
