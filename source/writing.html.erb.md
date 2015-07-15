@@ -177,7 +177,7 @@ For multimedia content, provide transcripts of the content. The transcript shoul
 {:.attach_permalink}
 ## Expand acronyms on their first use
 
-When first used on a page, ensure that acronyms are fully expanded. Follow the expansion with the abbr. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
+When first used on a page, ensure that acronyms are fully expanded. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
 
 {::nomarkdown}
 <%= example %>
@@ -187,7 +187,7 @@ When first used on a page, ensure that acronyms are fully expanded. Follow the e
   <figure>
     <figcaption>Example paragraph introducing and then referencing an acronym</figcaption>
     <div>
-      <p>Since the passage of the Communications and Video Accessibility Act (CVAA), we have seen increased use of auto generated captions. While this may be well-intentioned, auto-captioning is still quite unreliable and error-prone and does not usually fulfill the intention of the <abbr title="Communications and Video Accessibility Act">CVAA</abbr> legislation.</p>
+      <p>Since the passage of the Communications and Video Accessibility Act (CVAA), we have seen increased use of auto generated captions. While this may be well-intentioned, auto-captioning is still quite unreliable and error-prone and does not usually fulfill the intention of the CVAA legislation.</p>
     </div>
   </figure>
 </div>
