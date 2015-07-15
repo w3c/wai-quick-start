@@ -123,7 +123,7 @@ The title of a page should be unique within the website and should simply descri
 {:/}
 
 {:.attach_permalink}
-## Provide text alternatives for all images
+## Provide text alternatives for images
 
 Each image used should be provided with alternative text that describes the information or function represented by the image. Provide text that describes the purpose the image serves or what information it conveys. Where an image is purely decorative, `null` alternative text may be appropriate.
  
@@ -146,7 +146,7 @@ Each image used should be provided with alternative text that describes the info
 {:.attach_permalink}
 ## Provide transcripts and captions for multimedia content
 
-For all multimedia content, provide transcripts of the content. The transcript should include any additional descriptions that are important for understanding the content. For multimedia content that includes video, captions may be required. Similar to the transcript, the captions provide a text version of the audio content, but with the addition of timing markers to indicate when in the video the text should be presented.
+For multimedia content, provide transcripts of the content. The transcript should include any additional descriptions that are important for understanding the content. For multimedia content that includes video, captions may be required. Similar to the transcript, the captions provide a text version of the audio content, but with the addition of timing markers to indicate when in the video the text should be presented.
 
 {::nomarkdown}
 <%= example %>
@@ -163,7 +163,7 @@ For all multimedia content, provide transcripts of the content. The transcript s
 {:/}
 
 {:.attach_permalink}
-## Expand all abbrs on their first use
+## Expand abbrs on their first use
 
 When first used on a page, ensure that abbrs are fully expanded. Follow the expansion with the abbr. Some extremely common abbrs may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational abbrs are as well known.
 
