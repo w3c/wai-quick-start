@@ -455,10 +455,15 @@ Provide text which describes the purpose of each image. Images might convey info
 
 {::nomarkdown}
 <%= example %>
+{:/}
 
-[... Text descriptions for: ... ]
-[... Home icon with functional text 'Home' ...]
+* [... Home icon with functional text 'Home' ...]
+* For example, appropriate text alternative for a search button would be "search", not "magnifying glass".
+* maybe use an example from BAD. Could use the "logo"and show both the too detailed bad alt and the good alt.
+* http://www.w3.org/WAI/intro/cycle.png alt = illustration with arrow going from content at the top through authoring tools at left to content at the bottom, and an arrow going from the content at the bottom through assistive technologies and user agents at the right and back to content at the top" -- but maybe too complex
+* http://www.w3.org/WAI/intro/iui-scroll.png alt="Illustration of 4 scroll down user actions (described in the main content) going into a filter labeled IndieUI Events. Under filter is 'scrollrequest(x/y)', and an arrow pointing to it from a Web App." -- but maybe too complex
 
+{::nomarkdown}
 <%= example :end %>
 {:/}
 
