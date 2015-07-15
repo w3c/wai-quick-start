@@ -183,7 +183,14 @@ When first used on a page, ensure that acronyms are fully expanded. Follow the e
 <%= example %>
 {:/}
 
-[... Simple example of paragraph with abbr presented twice, first with it expanded second using &lt;abbr&gt; ...]
+<div class="">
+  <figure>
+    <figcaption>Example paragraph introducing and then referencing an acronym</figcaption>
+    <div>
+      <p>Since the passage of the Communications and Video Accessibility Act (CVAA), we have seen increased use of auto generated captions. While this may be well-intentioned, auto-captioning is still quite unreliable and error-prone and does not usually fulfill the intention of the <abbr title="Communications and Video Accessibility Act">CVAA</abbr> legislation.</p>
+    </div>
+  </figure>
+</div>
 
 {::nomarkdown}
 <%= example :end %>
