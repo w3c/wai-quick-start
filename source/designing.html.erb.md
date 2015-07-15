@@ -191,19 +191,19 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   </div>
   <div>
     <figure class="hover">
-      <figcaption>Mouse hovered over link</figcaption>
+      <figcaption>Mouse hover style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
-      <figcaption>Tabbed to link with keyboard</figcaption>
+      <figcaption>Keyboard focus style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
-      <figcaption>Touch or click on link</figcaption>
+      <figcaption>Touch or click style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
