@@ -117,7 +117,7 @@ Use clear and simple headings to split up text into manageable chunks. Headings 
 {:.attach_permalink}
 ## Use informative and unique page titles
 
-The title of a page should be unique within the website and should simply describe the page content. For pages that are part of a multi-step process, consider including the stage within the title. @@frontload
+Provide unique titles to each page that simply describes page content and distinguishes it from other pages. Consider including the stage within the title for pages that are part of a group, such as a multi-step process.
 
 {::nomarkdown}
 <%= example %>
