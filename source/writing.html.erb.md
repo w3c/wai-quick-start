@@ -163,15 +163,15 @@ For all multimedia content, provide transcripts of the content. The transcript s
 {:/}
 
 {:.attach_permalink}
-## Expand all acronyms on their first use
+## Expand all abbrs on their first use
 
-When first used on a page, ensure that acronyms are fully expanded. Follow the expansion with the acronym. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
+When first used on a page, ensure that abbrs are fully expanded. Follow the expansion with the abbr. Some extremely common abbrs may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational abbrs are as well known.
 
 {::nomarkdown}
 <%= example %>
 {:/}
 
-[... Simple example of paragraph with acronym presented twice, first with it expanded second using &lt;acronym&gt; ...]
+[... Simple example of paragraph with abbr presented twice, first with it expanded second using &lt;abbr&gt; ...]
 
 {::nomarkdown}
 <%= example :end %>
@@ -192,7 +192,7 @@ These tips are important points to consider when writing accessible content, but
 {:/}
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <acronym title="Web Content Accessibility Guidelines">WCAG</acronym> requirements
+* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> requirements
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
 
 {::nomarkdown}

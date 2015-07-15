@@ -166,7 +166,7 @@ These tips are important points to consider when managing website accessibility,
 {:/}
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <acronym title="Web Content Accessibility Guidelines">WCAG</acronym> requirements
+* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> requirements
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
 * [Strategic Planning for Web Accessibility](/WAI/impl/): Guidance on developing a plan for your organization or project
 * [Improving the Accessibility of Your Website](/WAI/impl/improving): Steps to help site owners and managers plan for accessibility improvements of a website

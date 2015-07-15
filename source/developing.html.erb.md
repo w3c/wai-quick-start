@@ -30,7 +30,7 @@ Progressive enhancement starts with the basic core semantic HTML presenting the 
 {:.attach_permalink}
 ## Adopt a responsive design approach
 
-Use responsive design to present content in ways to take advantage of the size available in the browser. When less space is available, elements can be condensed or rearranged. Use <acronym="Cascading Style Sheet">CSS</acronym> media queries to target styling depending on the device width or the width of the current browser window.
+Use responsive design to present content in ways to take advantage of the size available in the browser. When less space is available, elements can be condensed or rearranged. Use <abbr="Cascading Style Sheet">CSS</abbr> media queries to target styling depending on the device width or the width of the current browser window.
 
 {::nomarkdown}
 <%= example %>
@@ -209,7 +209,7 @@ These tips are important points to consider when developing accessible websites,
 {:/}
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <acronym title="Web Content Accessibility Guidelines">WCAG</acronym> requirements
+* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> requirements
 * [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
 * [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible to people with disabilities
 * [Before and After Demonstration](/WAI/demos/bad/): Example accessible and inaccessible websites that share the same visual design, with annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0
