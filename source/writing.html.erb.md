@@ -163,9 +163,9 @@ For multimedia content, provide transcripts of the content. The transcript shoul
 {:/}
 
 {:.attach_permalink}
-## Expand abbrs on their first use
+## Expand acronyms on their first use
 
-When first used on a page, ensure that abbrs are fully expanded. Follow the expansion with the abbr. Some extremely common abbrs may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational abbrs are as well known.
+When first used on a page, ensure that acronyms are fully expanded. Follow the expansion with the abbr. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
 
 {::nomarkdown}
 <%= example %>
