@@ -137,8 +137,8 @@ Provide unique titles to each page that simply describes page content and distin
 {:.attach_permalink}
 ## Provide text alternatives for images
 
-Each image used should be provided with alternative text that describes the information or function represented by the image. Provide text that describes the purpose the image serves or what information it conveys. Where an image is purely decorative, `null` alternative text may be appropriate.
- 
+Assign alternative text to every image. Text must clearly describe the information or function represented by the image. Where an image is purely decorative, use empty alternative text.
+
 {::nomarkdown}
 <%= example %>
 {:/}
