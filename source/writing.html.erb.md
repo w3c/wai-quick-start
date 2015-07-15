@@ -25,9 +25,21 @@ Write in short, clear sentences and paragraphs, as appropriate for the context. 
  
 {::nomarkdown}
 <%= example %>
-{:/}
 
-[... Contrasting example of involved text against a clear text ...]
+<div class="two-column">
+  <figure>
+    <figcaption>Complex text</figcaption>
+    <div>
+      <p class="fail">In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to the parties involved. Once we obtain information that causes us to understand the causality, we will assign monetary remuneration accordingly.</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Clear and simple text</figcaption>
+    <div>
+      <p class="pass">If our client is involved in a car accident, an agent will investigate. Those findings will determine the payment of claims.</p>
+    </div>
+  </figure>
+</div>
 
 {::nomarkdown}
 <%= example :end %>
