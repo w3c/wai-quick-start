@@ -498,6 +498,39 @@ $wai_grey: #333333;
         }
       }
     }
+    .headings {
+      @include mq($medium) {
+        &.two-column {
+          display: block;
+          figure {
+            width: 19.3em;
+          }
+        }
+      }
+      @include mq($big) {
+        &.two-column {
+          display: flex;
+          figure {
+            width: 49%;
+          }
+        }
+      }
+      svg {
+        text {
+          fill: $wai_grey;
+          font-weight: bold;
+          &.heading {
+            font-size: 0.9em;
+          }
+          &.sub-heading {
+            font-size: 0.6em;
+          }
+        }
+        rect, circle {
+          fill: lighten($wai_grey, 40%);
+        }
+      }
+    }
     .responsive {
       figure {
         margin-bottom: 0;
