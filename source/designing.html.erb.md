@@ -408,7 +408,6 @@ Use whitespace and proximity to make relationships between content more apparent
           <rect x="0" y="48" width="250" height="3"/>
           <rect x="0" y="54" width="250" height="3"/>
           <rect x="0" y="60" width="250" height="3"/>
-          <rect x="0" y="66" width="250" height="3"/>
           <rect x="0" y="72" width="250" height="3"/>
           <rect x="0" y="78" width="250" height="3"/>
           <rect x="0" y="84" width="250" height="3"/>
@@ -418,7 +417,6 @@ Use whitespace and proximity to make relationships between content more apparent
           <rect x="0" y="108" width="250" height="3"/>
           <rect x="0" y="114" width="250" height="3"/>
           <rect x="0" y="120" width="250" height="3"/>
-          <rect x="0" y="126" width="250" height="3"/>
           <rect x="0" y="132" width="250" height="3"/>
           <rect x="0" y="138" width="250" height="3"/>
           <rect x="0" y="144" width="250" height="3"/>
