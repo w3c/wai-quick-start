@@ -613,10 +613,10 @@ These tips are just some of the important accessibility points to address when d
 <%= learn_more %>
 {:/}
 
-* [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; includes links to many more helpful resources
+* [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; covers broad issues, such as the business case, and links to helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; introduces the concepts behind the web accessibility requirements
 * [How people with disabilities use the web](/WAI/intro/people-use-web) &mdash; explores the impact of accessible design with real-life examples
-* [Web Accessibility Tutorials](/WAI/tutorials/) &mdash; help on developing web content including some guidance on designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
+* [Web Accessibility Tutorials](/WAI/tutorials/) &mdash; includes some guidance related to designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
 * [Before and After Demonstration](/WAI/demos/bad/) &mdash; shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) &mdash; includes tools to help explore contrast ratio
 
