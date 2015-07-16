@@ -20,9 +20,7 @@ These introductory tips cover the basics of accessible user interface design and
 {:.attach_permalink}
 ## Provide sufficient contrast between foreground and background
 
-Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> and how to check the contrast.
-
-Note that "contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
+Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -616,9 +614,9 @@ These tips are just some of the important accessibility points to address when d
 {:/}
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> requirements
-* [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
-* [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible to people with disabilities
+* [Accessibility Principles](/WAI/intro/people-use-web/principles): @@Briefly introduces the concepts behind accessibility requirements@@
+* [How people with disabilities use the web](/WAI/intro/people-use-web): @@Real-life examples of the benefits of accessibility@@
+* [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible @@mostly covers coding but includes some guidance on designing for example the images tutorial@@
 * [Before and After Demonstration](/WAI/demos/bad/): Shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/): Includes tools to help explore contrast ratio
 
