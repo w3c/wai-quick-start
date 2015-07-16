@@ -569,6 +569,46 @@ Provide text which describes the purpose of each image. Images might convey info
 {:/}
 
 {:.attach_permalink}
+## Provide controls for content that starts automatically
+
+Provide visible controls to allow users to stop any animations or auto-playing sound. This applies to carousels, image sliders, background sound, and videos.
+
+{::nomarkdown}
+<%= example %>
+
+<div class="autoplay">
+  <figure>
+    <figcaption></figcaption>
+    <div>
+    </div>
+  </figure>
+</div>
+
+<%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
+  * [<abbr title="Success Criteria">SC</abbr> 1.4.2 Audio Control](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio)
+  * [<abbr title="Success Criteria">SC</abbr> 2.2.2 Pause, Stop, Hide](/WAI/WCAG20/quickref/#qr-time-limits-pause)
+* **Tutorial**: [Carousel Concepts](/WAI/tutorials/carousels/)
+* **Background**:
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 1.4.2 Audio Control](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html)
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 2.2.2 Pause, Stop, Hide](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Learn more about accessibility
 
 These tips are just some of the important accessibility points to address when designing websites. There are more things to consider. The following resources will help you learn more about accessibility — why it is important for people with disabilities, for designers, and for organizations; about web accessibility guidelines; and much more. 
