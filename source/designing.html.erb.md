@@ -104,9 +104,9 @@ While color can be useful to convey information, color should not be the only wa
   <figure class="question fail">
     <figcaption>Inaccessible test question using only color</figcaption>
     <div>
-      <svg width="153" height="154" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+      <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
-          <title>Inaccessible triangle question</title>
+          <title id="inaccessible-triangles-title">Inaccessible triangle question</title>
           <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green"/>
           <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue"/>
           <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red"/>
@@ -126,9 +126,9 @@ While color can be useful to convey information, color should not be the only wa
   <figure class="question pass">
     <figcaption>Accessible test question with numbers and color</figcaption>
     <div>
-      <svg width="153" height="154" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+      <svg version="1.1" width="153" height="154" aria-labelledby="accessible-triangles-title" role="img">
         <g>
-          <title>Accessible triangle question</title>
+          <title id="accessible-triangles-title">Accessible triangle question</title>
           <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green" title="1. Green triangle"/>
           <text class="green" y="51" x="44"><tspan>1</tspan><tspan dx="100">: Angles are 30°, 60°, 90°</tspan></text>
           <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue" title="2. Blue triangle"/>
@@ -396,10 +396,10 @@ Use whitespace and proximity to make relationships between content more apparent
   <figure class="pass">
     <figcaption>Poor use of headings</figcaption>
     <div>
-      <svg height="173" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+      <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
-          <title>Poor use of headings</title>
-          <desc>Single heading with large blocks of text and no sub headings</desc>
+          <title id="inaccessible-headings-title">Poor use of headings</title>
+          <desc id="inaccessible-headings-desc">Single heading with large blocks of text and no sub headings</desc>
           <text class="heading" x="0" y="14">Main heading</text>
           <rect x="0" y="24" width="250" height="3"/>
           <rect x="0" y="30" width="250" height="3"/>
@@ -433,10 +433,10 @@ Use whitespace and proximity to make relationships between content more apparent
   <figure class="pass">
     <figcaption>Good use of headings and spacing to group content</figcaption>
     <div>
-      <svg height="173" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+      <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
-          <title>Good use of headings</title>
-          <desc>Main heading, multiple sub headings, lists, and no large text blocks</desc>
+          <title id="accessible-headings-title">Good use of headings</title>
+          <desc id="accessible-headings-desc">Main heading, multiple sub headings, lists, and no large text blocks</desc>
           <text class="heading" x="0" y="14">Main heading</text>
           <rect x="0" y="24" width="244" height="3"/>
           <rect x="0" y="30" width="228" height="3"/>
