@@ -235,7 +235,7 @@ As best practice, provide distinct styles for interactive elements, such as link
 {:.attach_permalink}
 ## Provide clear and consistent navigation options
 
-Ensure that page designs include clear and consistent naming, styling, and positioning of navigation elements. If your web site consists of many pages, provide more than one method of navigation, such as a breadcrumb navigation, a site search, or a site map. Help users understand where they are on a web page and in a website by providing orientation cues, such as clear headings and, if appropriate, breadcrumbs.
+Ensure that navigation across pages within a website has consistent naming, styling and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs or clear headings.
 
 {::nomarkdown}
 <%= learn_more %>
