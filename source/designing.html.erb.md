@@ -326,7 +326,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Important feedback that requires user action should be presented in a prominent style. Instructions should be clear and easy to follow. 
  
 {::nomarkdown}
-<%= example :start, nil %>
+<%= example :start %>
 
 <div class="errors">
   <figure>
@@ -416,7 +416,6 @@ Note that this is considered best practice rather than a requirement.
 
 {::nomarkdown}
 <%= example %>
-
 
 <div class="responsive">
   <figure>
