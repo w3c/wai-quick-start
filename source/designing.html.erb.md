@@ -5,7 +5,7 @@ status: editors-draft
 layout: guide
 ---
 
-These introductory tips cover the basics of accessible user interface design and visual design.
+These introductory tips cover the basics of accessible user interface design and visual design. They provide links to further guidance and information. These tips do not cover all accessibility requirements, and may not cover them in detail.
 
 {:.toc .no_toc}
 ## On this page
