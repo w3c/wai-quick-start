@@ -30,7 +30,7 @@ Progressive enhancement starts with the basic core semantic HTML presenting the 
 {:.attach_permalink}
 ## Adopt a responsive design approach
 
-Use responsive design to present content in ways to take advantage of the size available in the browser. When less space is available, elements can be condensed or rearranged. Use <abbr="Cascading Style Sheet">CSS</abbr> media queries to target styling depending on the width of the viewport. Use `em` or `rem` units in the queries to make sure that the design adapts when changing the font size.
+Use responsive design to adapt different viewport sizes, such as on mobile devices and tables. Elements can be condensed or rearranged when less space is available, . Use <abbr="Cascading Style Sheet">CSS</abbr> media queries to target styling depending on the width of the viewport. Use `em` or `rem` units in the queries to make sure that the design adapts when changing the font size.
 
 {::nomarkdown}
 <%= example %>
@@ -50,7 +50,7 @@ Use responsive design to present content in ways to take advantage of the size a
 {:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
-HTML5 provides many elements that signify meaning, such as `<h1>`, `<nav>`, `<aside>`, which can be interpreted and communicated by assistive technologies. Use these elements to help structure content and convey meaning that is visually apparent. ARIA roles can be used to provide additional meaning to page elements, for example, using `role='search'` to identify search functionality. Work with designers and content authors to ensure the given meaning is agreed and consistently used.
+Use structural elements to mark-up headings, lists, and paragraphs. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can be used to provide structure, for example, using `role='search'` to identify search functionality. Work with designers and content authors to ensure the given meaning is agreed and consistently used.
 
 {::nomarkdown}
 <%= example %>
@@ -102,7 +102,7 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
-Provide clear instructions on required information formats. Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected, including a description of the specific error, where it occurred, and how to correct it. Provide an in-page link for easy access from the error to the field when feasible. 
+Provide clear instructions on required information formats, such as for dates and phone numbers. Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected, including a description of the specific error, where it occurred, and how to correct it. Provide an in-page link for easy access from the error to the field when feasible. 
 
 {::nomarkdown}
 <%= example %>
@@ -124,7 +124,7 @@ Provide clear instructions on required information formats. Be as forgiving of f
 {:.attach_permalink}
 ## Reflect the reading order in the code order
 
-As much as possible, ensure that the order of elements in the code matches the order of the visual design. This can be checked by removing CSS styling and comparing the order of the content with the visual hierarchy of the page.
+Ensure that the order of elements in the code matches the logical order of the information when presented visually. This can be checked by removing CSS styling and comparing the order of the content with the visual hierarchy of the page.
 
 {::nomarkdown}
 <%= example %>
@@ -144,7 +144,7 @@ As much as possible, ensure that the order of elements in the code matches the o
 {:.attach_permalink}
 ## Provide meaning to non-standard interactive elements 
 
-When creating new interactive elements, such as accordions, or off canvas navigation, ARIA attributes use to provide meaning and state. Additional code is usually required to implement interactions, for example, opening and closing elements.
+For custom widgets, such as accordions and custom-made buttons, use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information about the widget and its current state. For example, `role='button'` and `state='pressed'` provide information about the widget within the code. Additional code is still required to implement the behavior of such widgets, such as pressing interaction.
 
 {::nomarkdown}
 <%= example %>
