@@ -158,7 +158,7 @@ Assign alternative text to every image. Text must clearly describe the informati
 {:.attach_permalink}
 ## Provide transcripts and captions for multimedia content
 
-For multimedia content, provide transcripts of the content. The transcript should include any additional descriptions that are important for understanding the content. For multimedia content that includes video, captions may be required. Similar to the transcript, the captions provide a text version of the audio content, but with the addition of timing markers to indicate when in the video the text should be presented.
+For audio-only content, such a podcast, provide transcripts. Include everything that is spoken, and descriptions of sounds that are important for understanding the content; for example 'squeaking door'. Provide this information, including the audio description, as captions when audio is used to accompany visual content, such as animations and video. The requirements vary for pre-recorded and live content.
 
 {::nomarkdown}
 <%= example %>
