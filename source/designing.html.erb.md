@@ -613,12 +613,12 @@ These tips are just some of the important accessibility points to address when d
 <%= learn_more %>
 {:/}
 
-* [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles): @@Briefly introduces the concepts behind accessibility requirements@@
-* [How people with disabilities use the web](/WAI/intro/people-use-web): @@Real-life examples of the benefits of accessibility@@
-* [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible @@mostly covers coding but includes some guidance on designing for example the images tutorial@@
-* [Before and After Demonstration](/WAI/demos/bad/): Shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
-* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/): Includes tools to help explore contrast ratio
+* [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; includes links to many more helpful resources
+* [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; introduces the concepts behind the web accessibility requirements
+* [How people with disabilities use the web](/WAI/intro/people-use-web) &mdash; explores the impact of accessible design with real-life examples
+* [Web Accessibility Tutorials](/WAI/tutorials/) &mdash; help on developing web content including some guidance on designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
+* [Before and After Demonstration](/WAI/demos/bad/) &mdash; shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
+* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) &mdash; includes tools to help explore contrast ratio
 
 {::nomarkdown}
 <%= learn_more :end %>
