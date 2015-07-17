@@ -391,75 +391,84 @@ Use whitespace and proximity to make relationships between content more apparent
 <%= example :start, :plural %>
 
 <div class="headings two-column">
-  <figure class="pass">
-    <figcaption>Poor use of headings</figcaption>
+  <figure class="fail">
+    <figcaption>Poor use of spacing and headings</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
-          <title id="inaccessible-headings-title">Poor use of headings</title>
-          <desc id="inaccessible-headings-desc">Single heading with large blocks of text and no sub headings</desc>
+          <title id="inaccessible-headings-title">Poor use of headings and space</title>
+          <desc id="inaccessible-headings-desc">Single heading with large blocks of text, poor separation of sub-headings, and unclear image relationship</desc>
           <text class="heading" x="0" y="14">Main heading</text>
+          <rect x="0" y="18" width="250" height="3"/>
           <rect x="0" y="24" width="250" height="3"/>
           <rect x="0" y="30" width="250" height="3"/>
-          <rect x="0" y="36" width="250" height="3"/>
-          <rect x="0" y="42" width="250" height="3"/>
-          <rect x="0" y="48" width="250" height="3"/>
-          <rect x="0" y="54" width="250" height="3"/>
-          <rect x="0" y="60" width="250" height="3"/>
-          <rect x="0" y="72" width="250" height="3"/>
-          <rect x="0" y="78" width="250" height="3"/>
-          <rect x="0" y="84" width="250" height="3"/>
-          <rect x="0" y="90" width="250" height="3"/>
-          <rect x="0" y="96" width="250" height="3"/>
-          <rect x="0" y="102" width="250" height="3"/>
-          <rect x="0" y="108" width="250" height="3"/>
-          <rect x="0" y="114" width="250" height="3"/>
-          <rect x="0" y="120" width="250" height="3"/>
-          <rect x="0" y="132" width="250" height="3"/>
-          <rect x="0" y="138" width="250" height="3"/>
-          <rect x="0" y="144" width="250" height="3"/>
-          <rect x="0" y="150" width="250" height="3"/>
-          <rect x="0" y="156" width="250" height="3"/>
-          <rect x="0" y="162" width="250" height="3"/>
-          <rect x="0" y="168" width="250" height="3"/>
+          <rect class="image" x="150" y="36" width="100" height="55"/>
+          <line x1="151" y1="37" x2="249" y2="90" stroke-width="1"/>
+          <line x1="151" y1="90" x2="249" y2="37" stroke-width="1"/>
+          <rect x="0" y="36" width="145" height="3"/>
+          <rect x="0" y="42" width="145" height="3"/>
+          <rect x="0" y="48" width="145" height="3"/>
+          <rect x="0" y="54" width="145" height="3"/>
+          <rect x="0" y="60" width="145" height="3"/>
+          <text class="sub-heading" x="0" y="74">Sub heading</text>
+          <rect x="0" y="76" width="145" height="3"/>
+          <rect x="0" y="82" width="145" height="3"/>
+          <rect x="0" y="88" width="145" height="3"/>
+          <rect x="0" y="94" width="250" height="3"/>
+          <rect x="0" y="100" width="250" height="3"/>
+          <rect x="0" y="106" width="250" height="3"/>
+          <rect x="0" y="112" width="250" height="3"/>
+          <text class="sub-heading" x="0" y="126">Sub heading</text>
+          <rect x="0" y="128" width="250" height="3"/>
+          <rect x="0" y="134" width="250" height="3"/>
+          <rect x="0" y="140" width="250" height="3"/>
+          <rect x="0" y="146" width="250" height="3"/>
+          <rect x="0" y="152" width="250" height="3"/>
+          <rect x="0" y="158" width="250" height="3"/>
         </g>
       </svg>
     </div>
   </figure>
   <figure class="pass">
-    <figcaption>Good use of headings and spacing to group content</figcaption>
+    <figcaption>Good use of spacing and headings</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
           <title id="accessible-headings-title">Good use of headings</title>
           <desc id="accessible-headings-desc">Main heading, multiple sub headings, lists, and no large text blocks</desc>
           <text class="heading" x="0" y="14">Main heading</text>
-          <rect x="0" y="24" width="244" height="3"/>
-          <rect x="0" y="30" width="228" height="3"/>
-          <rect x="0" y="36" width="249" height="3"/>
-          <rect x="0" y="42" width="237" height="3"/>
-          <text class="sub-heading" x="0" y="63">Sub heading</text>
-          <rect x="0" y="68" width="244" height="3"/>
-          <rect x="0" y="74" width="228" height="3"/>
-          <circle cx="8.5" cy="84.5" r="1.5"/> <rect x="15" y="83" width="106" height="3"/>
-          <circle cx="8.5" cy="90.5" r="1.5"/> <rect x="15" y="89" width="99" height="3"/>
-          <circle cx="8.5" cy="96.5" r="1.5"/> <rect x="15" y="95" width="114" height="3"/>
-          <circle cx="8.5" cy="102.5" r="1.5"/> <rect x="15" y="101" width="110" height="3"/>
-          <text class="sub-heading" x="0" y="122">Sub heading</text>
-          <rect x="0" y="127" width="106" height="3"/>
-          <rect x="0" y="133" width="99" height="3"/>
-          <rect x="0" y="163" width="114" height="3"/>
-          <rect x="0" y="169" width="110" height="3"/>
-          <circle cx="8.5" cy="143.5" r="1.5"/> <rect x="15" y="142" width="63" height="3"/>
-          <circle cx="8.5" cy="149.5" r="1.5"/> <rect x="15" y="148" width="59" height="3"/>
-          <circle cx="8.5" cy="155.5" r="1.5"/> <rect x="15" y="154" width="68" height="3"/>
-          <text class="sub-heading" x="135" y="122">Sub heading</text>
-          <rect x="135" y="127" width="106" height="3"/>
-          <rect x="135" y="133" width="99" height="3"/>
-          <rect x="135" y="151" width="114" height="3"/>
-          <rect x="135" y="157" width="110" height="3"/>
-          <rect x="135" y="139" width="114" height="3"/>
-          <rect x="135" y="145" width="110" height="3"/>
+          <rect x="0" y="51" width="145" height="3"/>
+          <rect x="0" y="57" width="140" height="3"/>
+          <rect x="0" y="63" width="129" height="3"/>
+          <rect x="0" y="69" width="142" height="3"/>
+          <rect x="0" y="75" width="133" height="3"/>
+          <rect x="0" y="21" width="145" height="3"/>
+          <rect x="0" y="27" width="140" height="3"/>
+          <rect x="0" y="33" width="129" height="3"/>
+          <rect x="0" y="39" width="142" height="3"/>
+          <rect x="0" y="103" width="106" height="3"/>
+          <rect class="image" x="150" y="21" width="100" height="55"/>
+          <line x1="151" y1="22" x2="249" y2="75"/>
+          <line x1="151" y1="75" x2="249" y2="22"/>
+          <text class="sub-heading" x="0" y="98">Sub heading</text>
+          <rect x="0" y="109" width="99" height="3"/>
+          <rect x="0" y="133" width="110" height="3"/>
+          <rect x="0" y="115" width="114" height="3"/>
+          <rect x="0" y="121" width="110" height="3"/>
+          <rect x="0" y="139" width="99" height="3"/>
+          <rect x="0" y="157" width="114" height="3"/>
+          <rect x="0" y="145" width="114" height="3"/>
+          <rect x="0" y="151" width="110" height="3"/>
+          <text class="sub-heading" x="135" y="98">Sub heading</text>
+          <rect x="135" y="103" width="106" height="3"/>
+          <rect x="135" y="109" width="99" height="3"/>
+          <rect x="135" y="133" width="110" height="3"/>
+          <rect x="135" y="115" width="114" height="3"/>
+          <rect x="135" y="139" width="99" height="3"/>
+          <rect x="135" y="157" width="114" height="3"/>
+          <rect x="135" y="145" width="108" height="3"/>
+          <rect x="135" y="151" width="110" height="3"/>
+          <rect x="135" y="127" width="114" height="3"/>
         </g>
       </svg>
     </div>

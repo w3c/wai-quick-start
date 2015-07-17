@@ -522,12 +522,30 @@ $wai_grey: #333333;
           &.heading {
             font-size: 0.9em;
           }
-          &.sub-heading {
-            font-size: 0.6em;
-          }
         }
         rect, circle {
           fill: lighten($wai_grey, 40%);
+        }
+        line {
+          stroke: lighten($wai_grey, 40%);
+          stroke-linecap: round;
+        }
+        .image {
+          fill: lighten($wai_grey, 65%);
+        }
+      }
+      .fail {
+        text {
+          &.sub-heading {
+            font-size: 0.8em;
+          }
+        }
+      }
+      .pass {
+        text {
+          &.sub-heading {
+            font-size: 0.6em;
+          }
         }
       }
     }
