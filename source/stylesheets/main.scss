@@ -499,19 +499,22 @@ $wai_grey: #333333;
       }
     }
     .headings {
+      &.two-column {
+        figure {
+          width: 19.3em;
+        }
+      }
       @include mq($medium) {
         &.two-column {
           display: block;
-          figure {
-            width: 19.3em;
-          }
         }
       }
       @include mq($big) {
         &.two-column {
           display: flex;
-          figure {
-            width: 49%;
+          justify-content: flex-start;
+          figure:first-of-type {
+            margin-right: 2em;
           }
         }
       }
