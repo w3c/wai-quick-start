@@ -51,26 +51,15 @@ Write in short, clear sentences and paragraphs, as appropriate for the context. 
 {:/}
 
 {:.attach_permalink}
-## Avoid using overly complex words and phrases
 
-Avoid using words more complicated than the audience needs. Some audiences, such as in doctors or engineers, require complex terminology, but still seek for opportunities to simplify. When content requires possibly unfamiliar terms, include a glossary. 
+## Know your audience and write for them
 
-{::nomarkdown}
-<%= example %>
-{:/}
+If you are writing to the general public, it's useful to use language that is very basic and not overly complex. If the writing is geared toward readers of a particular niche, then ensure complex language, words, or phrases is clearly defined on the first use. It is also helpful to reiterate the definition for such language when it is re-introduced after having been unused within the document you are authoring. 
 
-[... Example using medical terminology against layman terminology... ]
-
-{::nomarkdown}
-<%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
+**Example Here**
 
 {:.attach_permalink}
+
 ## Provide meaningful link text
 
 Try to write link text so that it would make sense out of context. Link text should describe the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Where the link target is not HTML, indicate the document type and approximate size in the link text.
@@ -175,33 +164,7 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 {:/}
 
 {:.attach_permalink}
-## Expand acronyms on their first use
 
-When first used on a page, ensure that acronyms are fully expanded. Follow the expansion with the abbr. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
-
-{::nomarkdown}
-<%= example %>
-{:/}
-
-<div class="">
-  <figure>
-    <figcaption>Example paragraph introducing and then referencing an acronym</figcaption>
-    <div>
-      <p>Since the passage of the Communications and Video Accessibility Act (CVAA), we have seen increased use of auto generated captions. While this may be well-intentioned, auto-captioning is still quite unreliable and error-prone and does not usually fulfill the intention of the <abbr title="Communications and Video Accessibility Act">CVAA</abbr> legislation.</p>
-    </div>
-  </figure>
-</div>
-
-{::nomarkdown}
-<%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Learn more about accessibility
 
 These tips are important points to consider when writing accessible content, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
