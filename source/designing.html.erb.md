@@ -139,10 +139,10 @@ While color can be useful to convey information, color should not be the only wa
       </svg>
       <form action="">
         <legend>Which is the right-angled triangle?</legend>
-        <input id='answer-green2' name='answer2' name='green' type='radio'> <label for='answer-green2'>1. Green</label><br>
-        <input id='answer-blue2' name='answer2' name='blue' type='radio'> <label for='answer-blue2'>2. Blue</label><br>
-        <input id='answer-red2' name='answer2' name='red' type='radio'> <label for='answer-red2'>3. Red</label><br>
-        <input id='answer-yellow2' name='answer2' name='yellow' type='radio'> <label for='answer-yellow2'>4. Yellow</label><br>
+        <input id='answer-green2' name='answer2' name='green' type='radio'> <label for='answer-green2'>Green (1)</label><br>
+        <input id='answer-blue2' name='answer2' name='blue' type='radio'> <label for='answer-blue2'>Blue (2)</label><br>
+        <input id='answer-red2' name='answer2' name='red' type='radio'> <label for='answer-red2'>Red (3)</label><br>
+        <input id='answer-yellow2' name='answer2' name='yellow' type='radio'> <label for='answer-yellow2'>Yellow (4)</label><br>
         <input id='answer-pass2' name='answer2' name='pass' type='radio'> <label for='answer-pass2'>Don't know</label>
       </form>
     </div>
