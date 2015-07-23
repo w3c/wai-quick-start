@@ -108,7 +108,7 @@ Provide clear instructions on required information formats, such as for dates an
 <%= example %>
 {:/}
 
-[... Example form with instructions ...]
+[... Simple form with instructions for password requirements or date format ...]
 
 [... Example set of error notifications, maybe different from the Designing? ...]
 
@@ -130,7 +130,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 <%= example %>
 {:/}
 
-[... Example of code order versus visual order ...]
+[... Show sample page structure (including header, navigation, main, support panel, and footer.  Then show two samples of general code structure one good, one bad ...]
 
 {::nomarkdown}
 <%= example :end %>
