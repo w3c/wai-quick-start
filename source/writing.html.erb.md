@@ -36,7 +36,7 @@ Write in short, clear sentences and paragraphs, as appropriate for the context. 
   <figure>
     <figcaption>Clear and simple text</figcaption>
     <div>
-      <p class="pass">If our client is involved in a car accident, an agent will investigate. Those findings will determine the payment of claims.</p>
+      <p class="pass">If you are involved in a car accident, an agent will investigate. Those findings will determine the payment of claims.</p>
     </div>
   </figure>
 </div>
