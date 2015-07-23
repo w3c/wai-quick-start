@@ -95,7 +95,7 @@ Try to write link text so that it would make sense out of context. Link text sho
 {:.attach_permalink}
 ## Use headings to convey meaning and structure 
 
-Use clear and simple headings to split up text into manageable chunks. Headings should be short and aim to describe or introduce the following section. They should clarify what the following section is about.  
+Use clear and simple headings to help readers skim and understand text. Headings should usually be short and introduce or summarize a section of text.
 
 {::nomarkdown}
 <%= example %>
