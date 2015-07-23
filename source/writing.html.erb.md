@@ -71,7 +71,7 @@ Avoid using words more complicated than the audience needs. Some audiences, such
 {:/}
 
 {:.attach_permalink}
-## Provide meaningful link text
+## Make link text meaningful
 
 Try to write link text so that it would make sense out of context. Link text should describe the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Where the link target is not HTML, indicate the document type and approximate size in the link text.
 
@@ -93,7 +93,7 @@ Try to write link text so that it would make sense out of context. Link text sho
 {:/}
 
 {:.attach_permalink}
-## Provide headings to structure text
+## Use headings to convey meaning and structure 
 
 Use clear and simple headings to split up text into manageable chunks. Headings should be short and aim to describe or introduce the following section. They should clarify what the following section is about.  
 
@@ -115,7 +115,7 @@ Use clear and simple headings to split up text into manageable chunks. Headings 
 {:/}
 
 {:.attach_permalink}
-## Use informative and unique page titles
+## Provide informative, unique page titles
 
 Provide unique titles to each page that simply describes page content and distinguishes it from other pages. Consider including the stage within the title for pages that are part of a group, such as a multi-step process.
 
@@ -156,7 +156,7 @@ Assign alternative text to every image. Text must clearly describe the informati
 {:/}
 
 {:.attach_permalink}
-## Provide transcripts and captions for multimedia content
+## Provide transcripts and captions for multimedia
 
 For audio-only content, such a podcast, provide transcripts. Include everything that is spoken, and descriptions of sounds that are important for understanding the content; for example 'squeaking door'. Provide this information, including the audio description, as captions when audio is used to accompany visual content, such as animations and video. The requirements vary for pre-recorded and live content.
 
@@ -175,7 +175,7 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 {:/}
 
 {:.attach_permalink}
-## Expand acronyms on their first use
+## Expand acronyms on first use
 
 When first used on a page, ensure that acronyms are fully expanded. Follow the expansion with the abbr. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary, although avoid assuming internal organizational acronyms are as well known.
 
