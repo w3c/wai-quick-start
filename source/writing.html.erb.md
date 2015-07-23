@@ -117,7 +117,7 @@ Use clear and simple headings to split up text into manageable chunks. Headings 
 {:.attach_permalink}
 ## Provide informative, unique page titles
 
-Provide unique titles to each page that simply describes page content and distinguishes it from other pages. Consider including the stage within the title for pages that are part of a group, such as a multi-step process.
+Provide unique titles to each page that simply describes page content or purpose and distinguishes it from other pages. Place your organisation's name at the end of the title if inlcuding this information. Consider including the stage within the title for pages that are part of a group, such as a multi-step process.
 
 {::nomarkdown}
 <%= example %>
