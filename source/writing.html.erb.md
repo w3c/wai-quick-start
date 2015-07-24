@@ -18,6 +18,48 @@ These introductory tips cover the basics of writing web accessible content.
 <%= tip %>
 {:/}
 
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Provide informative, unique page titles
+
+Provide unique titles to each page that simply describes page content or purpose, and distinguishes it from other pages. If including the organization's name in the title, it should usually go at the end. For pages that are part of a group, such as a multi-step process, include the stage in the page title.
+
+{::nomarkdown}
+<%= example %>
+{:/}
+
+[... Example of simple title, page title and site title together, and title as part of process ...]
+
+{::nomarkdown}
+<%= example :end %>
+{:/}
+
+{:.attach_permalink}
+## Use headings to convey meaning and structure 
+
+Use clear and simple headings to split up text into manageable chunks. Headings should be short and describe or introduce the following section.
+
+{::nomarkdown}
+<%= example %>
+{:/}
+
+[... Example of block of text with and without headings to provide clarity and structure ...]
+
+[... May be too long for an example, perhaps examples of using metaphor, or quirky headings ...]
+
+{::nomarkdown}
+<%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
 {:.attach_permalink}
 ##  Keep content clear and concise 
 
@@ -82,48 +124,6 @@ Write link text so that it would make sense out of context. Link text should des
 [... Example of links in context, one with no out of context meaning, one clear out of context ...]
 
 [... Example of 'click here' in sentence, contrasted with contextually meaningful link ...]
-
-{::nomarkdown}
-<%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Use headings to convey meaning and structure 
-
-Use clear and simple headings to split up text into manageable chunks. Headings should be short and describe or introduce the following section.
-
-{::nomarkdown}
-<%= example %>
-{:/}
-
-[... Example of block of text with and without headings to provide clarity and structure ...]
-
-[... May be too long for an example, perhaps examples of using metaphor, or quirky headings ...]
-
-{::nomarkdown}
-<%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Provide informative, unique page titles
-
-Provide unique titles to each page that simply describes page content or purpose, and distinguishes it from other pages. If including the organization's name in the title, it should usually go at the end. For pages that are part of a group, such as a multi-step process, include the stage in the page title.
-
-{::nomarkdown}
-<%= example %>
-{:/}
-
-[... Example of simple title, page title and site title together, and title as part of process ...]
 
 {::nomarkdown}
 <%= example :end %>
