@@ -276,6 +276,24 @@ Provide an indication of language in the `html` tag using the `lang` attribute. 
 {:/}
 
 {:.attach_permalink}
+## Ensure compatibility of your code
+
+Make sure your code, especially for web applications, is supported by web browsers and assistive technologies. For example, some HTML5 and WAI-ARIA features might not be supported. Some evaluation tools help you check compatibility.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Learn more about accessibility
 
 These tips are important points to consider when developing accessible websites, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
