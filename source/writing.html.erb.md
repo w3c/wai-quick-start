@@ -41,7 +41,7 @@ Provide unique titles to each page that simply describes page content or purpose
 {:.attach_permalink}
 ## Use headings to convey meaning and structure 
 
-Use clear and simple headings to split up text into manageable chunks. Headings should be short and describe or introduce the following section.
+Use clear and simple headings to group related paragraphs. Headings should be short and describe or introduce the following section.
 
 {::nomarkdown}
 <%= example %>
