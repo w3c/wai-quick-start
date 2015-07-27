@@ -50,13 +50,15 @@ Use responsive design to adapt different viewport sizes, such as on mobile devic
 {:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
-Use structural elements to mark-up headings, lists, and paragraphs. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can be used to provide structure, for example, using `role='search'` to identify search functionality. Work with designers and content authors to ensure the given meaning is agreed and consistently used.
+Use structural elements to mark-up headings, lists, tables, and paragraphs. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can be used to provide structure, for example, using `role='search'` to identify search functionality. Work with designers and content authors to ensure the given meaning is agreed and consistently used.
 
 {::nomarkdown}
 <%= example %>
 {:/}
 
 [... Example of markup along side a visual design highlighting how different elements relate to design components ...]
+
+[... Consider *simple* table example ...]
 
 {::nomarkdown}
 <%= example :end %>
