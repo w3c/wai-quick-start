@@ -176,6 +176,24 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 {:/}
 
 {:.attach_permalink}
+## Provide clear instructions
+
+Ensure that instructions and guidance where action is required, such as on forms, is clear and simple. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, such as in form errors.
+
+{::nomarkdown}
+<%= example %>
+{:/}
+
+{::nomarkdown}
+<%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Expand acronyms on first use
 
 Expand acronyms the first time they are used on a page. Follow the expansion with the acronym. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary. Avoid assuming internal organizational acronyms are as well known.
