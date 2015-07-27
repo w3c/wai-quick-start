@@ -202,6 +202,24 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 {:/}
 
 {:.attach_permalink}
+## Ensure resized text is legible
+
+Specify container size and position, and text size in relative units, such as `em`, `rem`, or percentages. Avoid `overflow: hidden` causing clipping of enlarged text. Create different content flows when font size is increased to avoid horizontal scrolling.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Identify page language and language changes
 
 Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs the rest of the page.
