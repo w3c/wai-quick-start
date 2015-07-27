@@ -202,6 +202,24 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 {:/}
 
 {:.attach_permalink}
+## Include alternative text for images
+
+Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr title="Cascading Style Sheet">CSS</abbr>.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Ensure resized text is legible
 
 Specify container size and position, and text size in relative units, such as `em`, `rem`, or percentages. Avoid `overflow: hidden` causing clipping of enlarged text. Create different content flows when font size is increased to avoid horizontal scrolling.
