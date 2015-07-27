@@ -238,6 +238,24 @@ Specify container size and position, and text size in relative units, such as `e
 {:/}
 
 {:.attach_permalink}
+## Ensure that CAPTCHAs have accessible alternatives
+
+Ensure that any CAPTCHA that really needs to be included is simple to understand and includes alternatives for users unable to see and/or hear the test.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Identify page language and language changes
 
 Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs the rest of the page.
