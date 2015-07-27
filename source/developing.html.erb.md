@@ -210,6 +210,8 @@ Provide an indication of language in the `html` tag using the `lang` attribute. 
 <%= learn_more %>
 {:/}
 
+* **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
+
 {::nomarkdown}
 <%= learn_more :end %>
 {:/}
