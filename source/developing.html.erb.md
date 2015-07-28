@@ -70,7 +70,7 @@ Use responsive design to adapt different viewport sizes, such as on mobile devic
 {:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
-Use structural elements to mark-up headings, lists, tables, and paragraphs. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can be used to provide structure, for example, using `role='search'` to identify search functionality. Work with designers and content authors to ensure the given meaning is agreed and consistently used.
+Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can be used to provide structure, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
 <%= example %>
@@ -89,7 +89,9 @@ Use structural elements to mark-up headings, lists, tables, and paragraphs. HTML
 {:/}
 
 * **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic)
-* **Tutorial**: [Page Structure](/WAI/tutorials/page-structure/)
+* * **Tutorial**:
+  * [Page Structure](/WAI/tutorials/page-structure/)
+  * [Tables](/WAI/tutorials/tables/)
 * **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.3.1 Info and Relationships](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
 * **User Story**: [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
 
