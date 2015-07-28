@@ -23,6 +23,16 @@ These introductory tips cover the basics of accessible front-end web development
 Progressive enhancement starts with the basic core semantic HTML presenting the content and functionality. Additional styling and functionality are then progressively added with different technologies, such as CSS or JavaScript. If the added technology is not available, such as behind a firewall that prevents JavaScript, the core content will still be available.
 
 {::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* 
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
 <%= tip :end %>
 <%= tip %>
 {:/}
@@ -40,6 +50,16 @@ Use responsive design to adapt different viewport sizes, such as on mobile devic
 
 {::nomarkdown}
 <%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
+
+{::nomarkdown}
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
@@ -62,6 +82,19 @@ Use structural elements to mark-up headings, lists, tables, and paragraphs. HTML
 
 {::nomarkdown}
 <%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic)
+* **Tutorial**: [Page Structure](/WAI/tutorials/page-structure/)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.3.1 Info and Relationships](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
+* **User Story**: [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
+
+{::nomarkdown}
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
@@ -89,9 +122,10 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 <%= learn_more %>
 {:/}
 
-* [Labelling controls - Tutorial page](/WAI/tutorials/forms/labels/): Provides details on how to label form controls and elements
-* [Understanding SC 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): WCAG 2.0 Success Criteria 3.3.2 for labels
-* [Design solutions - navigating and finding content](/WAI/intro/people-use-web/browsing#navigation): Explores how providing labels benefits people with disabilities
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
+* **Tutorial**: [Labelling Controls](/WAI/tutorials/forms/labels/)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
+
 {::nomarkdown}
 <%= learn_more :end %>
 {:/}
@@ -119,6 +153,19 @@ Provide clear instructions on required information formats, such as for dates an
 {:/}
 
 {::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.3.1 Error Identifications](/WAI/WCAG20/quickref/#qr-minimize-error-identified)
+* **Tutorial**: [Validating Input](/WAI/tutorials/forms/validation/)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.3.1 Error Identifications](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html)
+* **User Story**: [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
 <%= tip :end %>
 <%= tip %>
 {:/}
@@ -136,6 +183,18 @@ Ensure that the order of elements in the code matches the logical order of the i
 
 {::nomarkdown}
 <%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.3.2 Meaningful Sequence](/WAI/WCAG20/quickref/#qr-minimize-error-identified)
+* **How To**: [Order the content in a meaningful sequence](/TR/2014/NOTE-WCAG20-TECHS-20140916/G57)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.3.2 Meaningful Sequence](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html)
+
+{::nomarkdown}
+<%= learn_more :end %>
 {:/}
 
 {::nomarkdown}
@@ -159,6 +218,17 @@ For custom widgets, such as accordions and custom-made buttons, use <abbr title=
 {:/}
 
 {::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 4.1.2 Name, Role, Value](/WAI/WCAG20/quickref/#ensure-compat-rsv)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 4.1.2 Name, Role, Value](/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
 <%= tip :end %>
 <%= tip %>
 {:/}
@@ -179,6 +249,21 @@ This is easily checked by trying to interact with a page using the keyboard only
 {:/}
 
 {::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 2.1.1 Keyboard](/WAI/WCAG20/quickref/#keyboard-operation-keyboard-operable)
+* **How To**:
+  * [Ensure keyboard control for all functionality](/TR/2014/NOTE-WCAG20-TECHS-20140916/G202)
+  * [Provide keyboard-triggered event handlers](/TR/2014/NOTE-WCAG20-TECHS-20140916/G90)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 2.1.1 Keyboard](/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html)
+* **User Story**: [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
 <%= tip :end %>
 <%= tip %>
 {:/}
@@ -192,9 +277,12 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 <%= learn_more %>
 {:/}
 
+* 
+
 {::nomarkdown}
 <%= learn_more :end %>
 {:/}
+
 
 {::nomarkdown}
 <%= tip :end %>
@@ -209,6 +297,11 @@ Ensure that alternative text for images is added to all informative and function
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
+* **Tutorial**: [Images](/WAI/tutorials/images/)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
+* **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -228,6 +321,8 @@ Specify container size and position, and text size in relative units, such as `e
 <%= learn_more %>
 {:/}
 
+* 
+
 {::nomarkdown}
 <%= learn_more :end %>
 {:/}
@@ -245,6 +340,8 @@ Ensure that any CAPTCHA that really needs to be included is simple to understand
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* 
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -283,6 +380,8 @@ Make sure your code, especially for web applications, is supported by web browse
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* 
 
 {::nomarkdown}
 <%= learn_more :end %>
