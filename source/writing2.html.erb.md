@@ -124,6 +124,39 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 {:/}
 
 {:.attach_permalink}
+## Provide clear instructions
+
+Ensure that instructions and guidance where action is required, such as on forms, is clear and simple. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, such as in form errors.
+
+{::nomarkdown}
+<%= example %>
+{:/}
+
+{::nomarkdown}
+<%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
+* **How To**:
+  * [Provide text instructions for forms](/TR/2014/NOTE-WCAG20-TECHS-20140916/G184)
+  * [Provide expected data format and example](/TR/2014/NOTE-WCAG20-TECHS-20140916/G89)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
+* **User Story**: [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Make text readable and understandable
 
 Use simple language and formatting, as appropriate for the context.
