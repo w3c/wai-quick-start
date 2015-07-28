@@ -290,6 +290,26 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 {:/}
 
 {:.attach_permalink}
+## Ensure compatibility of your code
+
+Make sure your code, especially for web applications, is supported by web browsers and assistive technologies. For example, some HTML5 and WAI-ARIA features might not be supported. Some evaluation tools help you check compatibility.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* 
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Include alternative text for images
 
 Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr title="Cascading Style Sheet">CSS</abbr>.
@@ -362,26 +382,6 @@ Provide an indication of language in the `html` tag using the `lang` attribute. 
 {:/}
 
 * **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Ensure compatibility of your code
-
-Make sure your code, especially for web applications, is supported by web browsers and assistive technologies. For example, some HTML5 and WAI-ARIA features might not be supported. Some evaluation tools help you check compatibility.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* 
 
 {::nomarkdown}
 <%= learn_more :end %>
