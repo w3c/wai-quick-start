@@ -225,7 +225,7 @@ Assign alternative text to every image. Text must clearly describe the informati
 {:/}
 
 * **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
-* **Tutorial**: [Images Concepts](/WAI/tutorials/images/)
+* **Tutorial**: [Images](/WAI/tutorials/images/)
 * **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
 * **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
