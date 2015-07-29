@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible front-end web development
 {:.attach_permalink}
 ## Use progressive enhancement
 
-Progressive enhancement starts with the basic core semantic HTML presenting the content and functionality. Additional styling and functionality are then progressively added with different technologies, such as CSS or JavaScript. If the added technology is not available, such as behind a firewall that prevents JavaScript, the core content will still be available.
+Progressive enhancement starts with the core semantic <abbr>HTML</abbr> presenting the content and functionality. Additional styling and functionality are then progressively added with different technologies, such as CSS or JavaScript. The core content will still be available when the added technology is not available, such as JavaScript blocked by a firewall.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -70,7 +70,7 @@ Use responsive design to adapt different viewport sizes, such as on mobile devic
 {:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
-Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can be used to provide structure, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
+Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
 <%= example %>
@@ -107,7 +107,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 {:.attach_permalink}
 ## Associate all form elements with labels
 
-Associate the `<label>` element with form elements using the *for* and *id* attributes. If there is not a visible label, provide a label and position it offscreen using CSS. 
+Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using CSS when the design does not include a visible label. 
 
 {::nomarkdown}
 <%= example %>
@@ -140,7 +140,7 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
-Provide clear instructions on required information formats, such as for dates and phone numbers. Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected, including a description of the specific error, where it occurred, and how to correct it. Provide an in-page link for easy access from the error to the field when feasible. 
+Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Provide an in-page link for easy access from the error to the field when feasible. 
 
 {::nomarkdown}
 <%= example %>
@@ -175,7 +175,7 @@ Provide clear instructions on required information formats, such as for dates an
 {:.attach_permalink}
 ## Reflect the reading order in the code order
 
-Ensure that the order of elements in the code matches the logical order of the information when presented visually. This can be checked by removing CSS styling and comparing the order of the content with the visual hierarchy of the page.
+Ensure that the order of elements in the code matches the logical order of the information when presented visually. This can be checked by removing <abbr>CSS</abbr> styling and comparing the order of the content with the visual hierarchy of the page.
 
 {::nomarkdown}
 <%= example %>
@@ -207,7 +207,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:.attach_permalink}
 ## Provide meaning to non-standard interactive elements 
 
-For custom widgets, such as accordions and custom-made buttons, use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information about the widget and its current state. For example, `role='button'` and `state='pressed'` provide information about the widget within the code. Additional code is still required to implement the behavior of such widgets, such as pressing interaction.
+Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role='button'` and `state='pressed'`. Additional code is required to implement the behavior of such widgets, such as pressing interaction.
 
 {::nomarkdown}
 <%= example %>
@@ -238,7 +238,7 @@ For custom widgets, such as accordions and custom-made buttons, use <abbr title=
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
-This is easily checked by trying to interact with a page using the keyboard only. If some functionality, is not reachable using just the keyboard then there is a problem. Think about keyboard access when developing new interactive elements, such as menus, collapsable accordions, or media players.
+Think about keyboard access when developing new interactive elements, such as menus, collapsable accordions, or media players. Use `tabindex='0'` to include an element that does not normally receive focus, such as `<div>` or `<span>` in the navigation order.
 
 {::nomarkdown}
 <%= example %>
