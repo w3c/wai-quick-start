@@ -40,7 +40,7 @@ Progressive enhancement starts with the core semantic <abbr>HTML</abbr> presenti
 {:.attach_permalink}
 ## Adopt a responsive design approach
 
-Use responsive design to adapt different viewport sizes, such as on mobile devices and tablets. Elements can be condensed or rearranged when less space is available. Use <abbr title="Cascading Style Sheet">CSS</abbr> media queries to target styling depending on the width of the viewport. Use `em` or `rem` units in the queries to make sure that the design adapts when changing the font size.
+Use responsive design to adapt the display to different viewport sizes, such as on mobile devices and tablets. Elements can be condensed or rearranged when less space is available. Use <abbr title="Cascading Style Sheet">CSS</abbr> media queries to target styling depending on the width of the viewport. Use `em` or `rem` units in the queries to make sure that the design adapts when changing the font size.
 
 {::nomarkdown}
 <%= example %>
