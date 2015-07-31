@@ -205,7 +205,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:/}
 
 {:.attach_permalink}
-## Provide meaning to non-standard interactive elements 
+## Provide meaning for non-standard interactive elements 
 
 Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role='button'` and `state='pressed'`. Additional code is required to implement the behavior of such widgets, such as pressing interaction.
 
