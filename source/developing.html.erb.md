@@ -26,7 +26,7 @@ Progressive enhancement starts with the core semantic <abbr>HTML</abbr> presenti
 <%= learn_more %>
 {:/}
 
-* 
+* No identified W3C resources
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -89,7 +89,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 {:/}
 
 * **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic)
-* * **Tutorial**:
+* **Tutorial**:
   * [Page Structure](/WAI/tutorials/page-structure/)
   * [Tables](/WAI/tutorials/tables/)
 * **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.3.1 Info and Relationships](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
@@ -279,7 +279,7 @@ Validate HTML and CSS to identify possible compatibility problems. Fix identifie
 <%= learn_more %>
 {:/}
 
-* 
+* TBC
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -300,7 +300,7 @@ Make sure your code, especially for web applications, is supported by web browse
 <%= learn_more %>
 {:/}
 
-* 
+* TBC
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -343,7 +343,7 @@ Specify container size and position, and text size in relative units, such as `e
 <%= learn_more %>
 {:/}
 
-* 
+* TBC
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -363,7 +363,7 @@ Ensure that any CAPTCHA that really needs to be included is simple to understand
 <%= learn_more %>
 {:/}
 
-* 
+* TBC
 
 {::nomarkdown}
 <%= learn_more :end %>
