@@ -32,7 +32,7 @@ Provide unique titles to each page that simply describes page content or purpose
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
       <g transform="scale(1.2)">
         <title id="page-title-1">Simple page title</title>
-        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" stroke-width="0.5"/>
+        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
         <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
         <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
         <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
@@ -45,7 +45,7 @@ Provide unique titles to each page that simply describes page content or purpose
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-2" role="img">
       <g transform="scale(1.2)">
         <title id="page-title-2">Sub-page title with site title included</title>
-        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" stroke-width="0.5"/>
+        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
         <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
         <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
         <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
@@ -58,7 +58,7 @@ Provide unique titles to each page that simply describes page content or purpose
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-3" role="img">
       <g transform="scale(1.2)">
         <title id="page-title-3">Title of page in a process</title>
-        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" stroke-width="0.5"/>
+        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
         <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
         <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
         <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
