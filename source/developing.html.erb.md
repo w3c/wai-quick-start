@@ -107,7 +107,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 {:.attach_permalink}
 ## Associate all form elements with labels
 
-Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using CSS when the design does not include a visible label. 
+Associate the `<label>` element with form elements using the *for* and *id* attributes and position appropriately according to convention. Position the `<label>` element offscreen using CSS when the design does not include a visible label; beware of doing this as many sighted people may still misinterpret the required input without an obvious label. 
 
 {::nomarkdown}
 <%= example %>
