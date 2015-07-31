@@ -141,7 +141,7 @@ Write in short, clear sentences and paragraphs, as appropriate for the context. 
   <figure>
     <figcaption>Complex text</figcaption>
     <div>
-      <p class="fail">In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to the parties involved. Once we obtain information that causes us to understand the causality, we will assign monetary remuneration accordingly.</p>
+      <p class="fail">In the event of a vehicular collision, a company assigned representative will investigate to ascertain the cause and extent of damages to property belonging to the parties involved. Once cause, damages, and responsibility have been established, we will assign monetary remuneration accordingly.</p>
     </div>
   </figure>
   <figure>
