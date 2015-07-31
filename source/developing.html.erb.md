@@ -140,7 +140,7 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
-Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Provide an in-page link for easy access from the error to the field when feasible. 
+Be as forgiving of format as possible when accepting information; for example, accept phone numbers that include spaces and delete the spaces as needed. Add clear instructions for form completion if there is any complexity in the inputs expected. Clearly identify errors that cannot be auto-corrected and provide an in-page link for easy access from the error to the field when feasible. 
 
 {::nomarkdown}
 <%= example %>
