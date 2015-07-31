@@ -575,6 +575,19 @@ $wai_grey: #333333;
         }
       }
     }
+    .page-title {
+      display: inline-block;
+      svg {
+        text {
+          font-size: 0.8em;
+          fill: $wai_grey;
+        }
+        path {
+          stroke: #9d9d9d;
+          fill: lighten($wai_grey_bg, 8%);;
+        }
+      }
+    }
   }
 }
 
