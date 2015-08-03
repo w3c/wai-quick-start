@@ -258,12 +258,24 @@ Assign alternative text to every image. Text must clearly describe the informati
 
 {::nomarkdown}
 <%= example %>
-{:/}
 
-[... Some examples of images with appropriate alternative text ...]
+<div class="text-alternative two-column">
+  <figure>
+    <figcaption>Inaccessible alternative text</figcaption>
+    <div>
+      <p class="fail"><img src="images/dog.jpg" alt="dog"> Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location.</p>
+      <p><strong>Alternative text</strong>: 'dog'</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Accessible alternative text</figcaption>
+    <div>
+      <p class="pass"><img src="images/dog.jpg" alt="Golden labrador with a bell attached to its collar."> Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location.</p>
+      <p><strong>Alternative text</strong>: 'Golden labrador with a bell attached to its collar.'</p>
+    </div>
+  </figure>
+</div>
 
-[... Probably worth using a couple of examples from the tutorials and then linking directly there ...]
-{::nomarkdown}
 <%= example :end %>
 {:/}
 

@@ -588,6 +588,29 @@ $wai_grey: #333333;
         }
       }
     }
+    .text-alternative {
+      div {
+        overflow: hidden;
+      }
+      img {
+        float: left;
+        margin-right: 1em;
+      }
+      @include mq($medium) {
+        img {
+          float: none;
+          margin-right: 0;
+          margin-bottom: 1em;
+          display: block;
+        }
+      }
+      @include mq($big) {
+        img {
+          float: left;
+          margin-right: 1em;
+        }
+      }
+    }
   }
 }
 
