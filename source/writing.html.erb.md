@@ -137,7 +137,7 @@ Write in short, clear sentences and paragraphs, as appropriate for the context. 
 {::nomarkdown}
 <%= example %>
 
-<div class="two-column">
+<div class="clear-concise two-column">
   <figure>
     <figcaption>Complex text</figcaption>
     <div>
@@ -210,14 +210,23 @@ Avoid using words more complicated than the audience needs. Some topics may requ
 Write link text so that it would make sense out of context. Link text should describe the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Indicate the document type and approximate size in the link text when the link target is not HTML. 
 
 {::nomarkdown}
-<%= example %>
-{:/}
+<%= example :start, :plural %>
 
-[... Example of links in context, one with no out of context meaning, one clear out of context ...]
+<div class="meaningful-links two-column">
+  <figure>
+    <figcaption>Link text with no out of context meaning</figcaption>
+    <div>
+      <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Link text that has meaning out of context</figcaption>
+    <div>
+      <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
+    </div>
+  </figure>
+</div>
 
-[... Example of 'click here' in sentence, contrasted with contextually meaningful link ...]
-
-{::nomarkdown}
 <%= example :end %>
 {:/}
 
