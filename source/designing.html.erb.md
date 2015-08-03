@@ -339,7 +339,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
       </div>
       <form action="">
         <legend>Add a comment</legend>
-        <p class="instruction"><span class='required'>Required fields are in red and </span> are marked with <span class='required'>✻</span></p>
+        <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
         <div class="row">
           <label for="name5">Name</label>
           <input type="text" id="name5" name="name" value="Superbear">
