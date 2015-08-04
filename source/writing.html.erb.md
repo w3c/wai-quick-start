@@ -21,7 +21,7 @@ These introductory tips cover the basics of writing web accessible content.
 {:.attach_permalink}
 ## Provide informative, unique page titles
 
-Provide unique titles to each page that simply describes page content or purpose, and distinguishes it from other pages. If including the organization's name in the title, it should usually go at the end. For pages that are part of a group, such as a multi-step process, include the stage in the page title.
+Provide unique titles to describe the page content and purpose, and distinguishes it from other pages. If including the organization's name in the title, it should usually go at the end. For pages that are part of a group, such as a multi-step process, include the stage in the page title.
 
 {::nomarkdown}
 <%= example %>
@@ -91,7 +91,7 @@ Provide unique titles to each page that simply describes page content or purpose
 {:.attach_permalink}
 ## Use headings to convey meaning and structure 
 
-Use clear and simple headings to group related paragraphs. Headings should be short and describe or introduce the following section.
+Use clear and simple headings to group related paragraphs. Headings should be short and introduce the following section.
 
 {::nomarkdown}
 <%= example %>
@@ -264,14 +264,14 @@ Assign alternative text to every image. Text must clearly describe the informati
     <figcaption>Inaccessible alternative text</figcaption>
     <div>
       <p class="fail"><img src="images/dog.jpg" alt="dog"> Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location.</p>
-      <p><strong>Alternative text</strong>: 'dog'</p>
+      <p><strong>Alternative text for image</strong>: 'dog'</p>
     </div>
   </figure>
   <figure>
     <figcaption>Accessible alternative text</figcaption>
     <div>
       <p class="pass"><img src="images/dog.jpg" alt="Golden labrador with a bell attached to its collar."> Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location.</p>
-      <p><strong>Alternative text</strong>: 'Golden labrador with a bell attached to its collar.'</p>
+      <p><strong>Alternative text for image</strong>: 'Golden labrador with a bell attached to its collar.'</p>
     </div>
   </figure>
 </div>
