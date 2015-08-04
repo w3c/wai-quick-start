@@ -172,7 +172,7 @@ While color can be useful to convey information, color should not be the only wa
 {:.attach_permalink}
 ## Ensure that interactive elements are easy to identify
 
-Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation.
+Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation. Ensure that styles and naming for interactive elements are used consistently throughout the website.
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -217,8 +217,12 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 2.4.7 Focus Visible](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html)
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
+  * [<abbr title="Success Criteria">SC</abbr> 2.4.7 Focus Visible](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible)
+  * [<abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality)
+* **Background**:
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html)
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
 * **User Story**:
   * [Challenges faced by someone with a limited ability to use a mouse](/WAI/intro/people-use-web/stories#reporter)
   * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#reporter)
@@ -235,7 +239,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 {:.attach_permalink}
 ## Provide clear and consistent navigation options
 
-Ensure that navigation across pages within a website has consistent naming, styling and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs or clear headings. Provide consistent naming and presentation of other navigation elements, such as modal window close buttons and form buttons.
+Ensure that navigation across pages within a website has consistent naming, styling, and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs and clear headings.
 
 {::nomarkdown}
 <%= learn_more %>
