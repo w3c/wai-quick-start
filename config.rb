@@ -101,6 +101,21 @@ helpers do
       '</aside>'
     end
   end
+  
+  def related_issues(*issues)
+    if issues.length > 0
+      issues_links = issues.collect { |issue_id|
+        '<a href="https://github.com/w3c/wai-quick-start/issues/' + issue_id.to_s + '">' + issue_id.to_s + '</a>'
+      }
+      related_label = 'Related Issue'
+      if issues.length > 1
+        related_label += 's'
+        issues_links[-1] = 'and ' + issues_links[-1]
+      end
+
+      '<div class="related-issue"><i class="fa fa-github"></i><strong>' + related_label + ':</strong> ' + (issues.length == 2 ? issues_links.join(' ') : issues_links.join(', ')) + '</div>'
+    end
+  end
 end
 
 set :markdown_engine, :kramdown

@@ -16,6 +16,16 @@ $wai_grey: #333333;
   background-color: $wai_bg;
 }
 
+.related-issue {
+  display: inline-block;
+  margin: 0.5em 0 0 0;
+  padding: 0.5em 1em;
+  background: #ccffcc;
+  i {
+    margin-right: 0.5em;
+  }
+}
+
 // Adjust navigation for small viewports
 @include mq($small) {
   #nav {
