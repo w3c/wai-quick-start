@@ -367,7 +367,7 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 {:.attach_permalink}
 ## Provide clear instructions
 
-Ensure that instructions and guidance where action is required, such as on forms, is clear and simple. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, such as in form errors.
+Ensure that where action is required, such as on forms, instructions and guidance are clear and simple. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, such as in form errors.
 
 {::nomarkdown}
 <%= example %>
