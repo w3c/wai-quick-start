@@ -594,6 +594,7 @@ $wai_grey: #333333;
         }
         path {
           stroke: #9d9d9d;
+          stroke-width: 0.5;
           fill: lighten($wai_grey_bg, 8%);;
         }
       }
