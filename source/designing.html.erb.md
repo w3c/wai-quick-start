@@ -172,7 +172,7 @@ While color can be useful to convey information, color should not be the only wa
 {:.attach_permalink}
 ## Ensure that interactive elements are easy to identify
 
-As best practice, provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation.
+Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation.
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -500,8 +500,6 @@ Use whitespace and proximity to make relationships between content more apparent
 ## Create designs for different viewport sizes
 
 Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
-
-Note that this is considered best practice rather than a requirement.
 
 {::nomarkdown}
 <%= example %>
