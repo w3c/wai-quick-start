@@ -598,6 +598,27 @@ $wai_grey: #333333;
         }
       }
     }
+    .heading-structure {
+      h2, h3, h4 {
+        color: $wai_fg;
+        border-bottom: none;
+        margin: 0;
+        padding: 0.5em 0;
+        & + p {
+          margin-top: 0;
+        }
+      }
+      
+      h2 {
+        font-size: 1.4em;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+      h4 {
+        font-size: 1.0em;
+      }
+    }
     .text-alternative {
       div {
         overflow: hidden;
