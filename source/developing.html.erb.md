@@ -40,7 +40,7 @@ Progressive enhancement starts with the core semantic <abbr>HTML</abbr> presenti
 {:.attach_permalink}
 ## Adopt a responsive design approach
 
-Use responsive design to adapt to different viewport sizes, such as on mobile devices and tablets. Elements can be condensed or rearranged when less space is available. Use <abbr title="Cascading Style Sheet">CSS</abbr> media queries to target styling depending on the width of the viewport. Use `em` or `rem` units in the queries to make sure that the design adapts when changing the font size.
+Use responsive design to adapt different viewport sizes, such as on mobile devices and tablets. Elements can be condensed or rearranged when less space is available. Use <abbr title="Cascading Style Sheet">CSS</abbr> media queries to target styling depending on the width of the viewport. Use `em` or `rem` units in the queries to make sure that the design adapts when changing the font size.
 
 {::nomarkdown}
 <%= example %>
@@ -70,7 +70,7 @@ Use responsive design to adapt to different viewport sizes, such as on mobile de
 {:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
-Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and use them consistently.
+Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
 <%= example %>
