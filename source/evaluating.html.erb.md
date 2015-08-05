@@ -7,6 +7,10 @@ layout: guide
 
 These tips will help you improve your accessibility evaluation process.
 
+{::nomarkdown}
+<%= related_issues 50 %>
+{:/}
+
 {:.toc .no_toc}
 ## On this page
 

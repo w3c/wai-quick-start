@@ -389,6 +389,10 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 {:.attach_permalink}
 ## Use spacing and headings to group related content
 
+{::nomarkdown}
+<%= related_issues 107 %>
+{:/}
+
 Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand.
 
 {::nomarkdown}
@@ -503,6 +507,10 @@ Use whitespace and proximity to make relationships between content more apparent
 {:.attach_permalink}
 ## Create designs for different viewport sizes
 
+{::nomarkdown}
+<%= related_issues 69 %>
+{:/}
+
 Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
@@ -540,6 +548,10 @@ Consider how page information is presented in different sized viewports, such as
 
 {:.attach_permalink}
 ## Provide text alternatives for images
+
+{::nomarkdown}
+<%= related_issues 78 %>
+{:/}
 
 Provide text which describes the purpose of each image. Images might convey information, provide decorative support, or support functionality. Alternative text is not needed for purely decorative images that don't add information to the page.
 

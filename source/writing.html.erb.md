@@ -21,6 +21,10 @@ These introductory tips cover the basics of writing web accessible content.
 {:.attach_permalink}
 ## Provide informative, unique page titles
 
+{::nomarkdown}
+<%= related_issues 161 %>
+{:/}
+
 Provide unique titles to describe the page content and purpose, and distinguishes it from other pages. If including the organization's name in the title, it should usually go at the end. For pages that are part of a group, such as a multi-step process, include the stage in the page title.
 
 {::nomarkdown}
@@ -90,6 +94,10 @@ Provide unique titles to describe the page content and purpose, and distinguishe
 
 {:.attach_permalink}
 ## Use headings to convey meaning and structure 
+
+{::nomarkdown}
+<%= related_issues 131, 62 %>
+{:/}
 
 Use clear and simple headings to group related paragraphs. Headings should be short and introduce the following section.
 
@@ -173,6 +181,10 @@ Use clear and simple headings to group related paragraphs. Headings should be sh
 {:.attach_permalink}
 ##  Keep content clear and concise 
 
+{::nomarkdown}
+<%= related_issues 129 %>
+{:/}
+
 Write in short, clear sentences and paragraphs, as appropriate for the context. Front-load important messages. Split complex prose into a few short sentences. Try and keep paragraphs to a single idea.
  
 {::nomarkdown}
@@ -216,6 +228,10 @@ Write in short, clear sentences and paragraphs, as appropriate for the context. 
 
 {:.attach_permalink}
 ## Avoid using overly complex words and phrases
+
+{::nomarkdown}
+<%= related_issues 130 %>
+{:/}
 
 Avoid using words more complicated than the audience needs. Some topics may require complex terminology, such as medical or engineering texts, but simpler forms may still be possible. Provide a glossary when content includes unfamiliar terms. 
 
@@ -341,6 +357,10 @@ Assign alternative text to every image. Text must clearly describe the informati
 {:.attach_permalink}
 ## Provide transcripts and captions for multimedia
 
+{::nomarkdown}
+<%= related_issues 163 %>
+{:/}
+
 For audio-only content, such a podcast, provide transcripts. Include everything that is spoken, and descriptions of sounds that are important for understanding the content, for example 'squeaking door'. Provide this information, including the audio description, as captions when audio is used to accompany visual content, such as animations and video. The requirements vary for pre-recorded and live content.
 
 {::nomarkdown}
@@ -366,6 +386,10 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 
 {:.attach_permalink}
 ## Provide clear instructions
+
+{::nomarkdown}
+<%= related_issues 114 %>
+{:/}
 
 Ensure that where action is required, such as on forms, instructions and guidance are clear and simple. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, such as in form errors.
 

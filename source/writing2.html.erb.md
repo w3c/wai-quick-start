@@ -235,6 +235,10 @@ Ensure that instructions and guidance where action is required, such as on forms
 {:.attach_permalink}
 ## Make text readable and understandable
 
+{::nomarkdown}
+<%= related_issues 158 %>
+{:/}
+
 Use simple language and formatting, as appropriate for the context.
 
 * **Keep content clear and concise.** Write in short, clear sentences and paragraphs.

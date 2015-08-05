@@ -141,6 +141,9 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 ## Help users avoid and correct mistakes
 
 Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Provide an in-page link for easy access from the error to the field when feasible. 
+{::nomarkdown}
+<%= related_issues 157 %>
+{:/}
 
 {::nomarkdown}
 <%= example %>
@@ -174,6 +177,10 @@ Be as forgiving of format as possible when accepting information. For example, a
 
 {:.attach_permalink}
 ## Reflect the reading order in the code order
+
+{::nomarkdown}
+<%= related_issues 153 %>
+{:/}
 
 Ensure that the order of elements in the code matches the logical order of the information when presented visually. This can be checked by removing <abbr>CSS</abbr> styling and comparing the order of the content with the visual hierarchy of the page.
 
@@ -238,6 +245,10 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
+{::nomarkdown}
+<%= related_issues 155 %>
+{:/}
+
 Think about keyboard access when developing new interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex='0'` add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order.
 
 {::nomarkdown}
@@ -272,6 +283,10 @@ Think about keyboard access when developing new interactive elements, such as me
 
 {:.attach_permalink}
 ## Check that your code validates
+
+{::nomarkdown}
+<%= related_issues 154, 118 %>
+{:/}
 
 Validate HTML and CSS to identify possible compatibility problems. Fix identified problems to reduce the risk of errors on different devices.
 
@@ -314,6 +329,10 @@ Make sure your code, especially for web applications, is supported by web browse
 {:.attach_permalink}
 ## Include alternative text for images
 
+{::nomarkdown}
+<%= related_issues 151 %>
+{:/}
+
 Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr title="Cascading Style Sheet">CSS</abbr>.
 
 {::nomarkdown}
@@ -337,6 +356,10 @@ Ensure that alternative text for images is added to all informative and function
 {:.attach_permalink}
 ## Ensure resized text is legible
 
+{::nomarkdown}
+<%= related_issues 156 %>
+{:/}
+
 Specify container size and position, and text size in relative units, such as `em`, `rem`, or percentages. Avoid `overflow: hidden` causing clipping of enlarged text. Create different content flows when font size is increased to avoid horizontal scrolling.
 
 {::nomarkdown}
@@ -358,6 +381,9 @@ Specify container size and position, and text size in relative units, such as `e
 ## Ensure that CAPTCHAs have accessible alternatives
 
 Ensure that any CAPTCHA that really needs to be included is simple to understand and includes alternatives for users unable to see and/or hear the test.
+{::nomarkdown}
+<%= related_issues 159 %>
+{:/}
 
 {::nomarkdown}
 <%= learn_more %>
@@ -376,6 +402,10 @@ Ensure that any CAPTCHA that really needs to be included is simple to understand
 
 {:.attach_permalink}
 ## Identify page language and language changes
+
+{::nomarkdown}
+<%= related_issues 146 %>
+{:/}
 
 Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs the rest of the page.
 
