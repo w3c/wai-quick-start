@@ -18,33 +18,6 @@ These introductory tips cover the basics of accessible front-end web development
 {:/}
 
 {:.attach_permalink}
-## Write code that adapts to user's technology
-
-Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. A progressive enhancement approach will help ensure that core functionality and content is available regardless of technology being used.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
-  * [<abbr title="Success Criteria">SC</abbr> 1.4.4 Resize text](/WAI/WCAG20/quickref/#visual-audio-contrast-scale)
-  * [<abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality)
-* **Background**:
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 1.4.4 Resize text](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
-  * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
-* **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
 Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
@@ -199,6 +172,57 @@ Be as forgiving of format as possible when accepting information. For example, a
 {:/}
 
 {:.attach_permalink}
+## Include alternative text for images
+
+{::nomarkdown}
+<%= related_issues 151 %>
+{:/}
+
+Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
+* **Tutorial**: [Images](/WAI/tutorials/images/)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
+* **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Identify page language and language changes
+
+{::nomarkdown}
+<%= related_issues 146 %>
+{:/}
+
+Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs the rest of the page.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Reflect the reading order in the code order
 
 {::nomarkdown}
@@ -254,6 +278,57 @@ Ensure that the order of elements in the code matches the logical order of the i
 * **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.3.2 Meaningful Sequence](/WAI/WCAG20/quickref/#qr-minimize-error-identified)
 * **How To**: [Order the content in a meaningful sequence](/TR/2014/NOTE-WCAG20-TECHS-20140916/G57)
 * **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.3.2 Meaningful Sequence](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Write code that adapts to user's technology
+
+Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. A progressive enhancement approach will help ensure that core functionality and content is available regardless of technology being used.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
+  * [<abbr title="Success Criteria">SC</abbr> 1.4.4 Resize text](/WAI/WCAG20/quickref/#visual-audio-contrast-scale)
+  * [<abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality)
+* **Background**:
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 1.4.4 Resize text](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
+  * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
+* **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Ensure resized text is legible
+
+{::nomarkdown}
+<%= related_issues 156 %>
+{:/}
+
+Specify container size and position, and text size in relative units, such as `em`, `rem`, or percentages. Avoid `overflow: hidden` causing clipping of enlarged text. Create different content flows when font size is increased to avoid horizontal scrolling.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* TBC
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -336,93 +411,21 @@ Think about keyboard access when developing new interactive elements, such as me
 {:/}
 
 {:.attach_permalink}
-## Include alternative text for images
-
-{::nomarkdown}
-<%= related_issues 151 %>
-{:/}
-
-Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
-* **Tutorial**: [Images](/WAI/tutorials/images/)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
-* **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Ensure resized text is legible
-
-{::nomarkdown}
-<%= related_issues 156 %>
-{:/}
-
-Specify container size and position, and text size in relative units, such as `em`, `rem`, or percentages. Avoid `overflow: hidden` causing clipping of enlarged text. Create different content flows when font size is increased to avoid horizontal scrolling.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* TBC
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Ensure that CAPTCHAs have accessible alternatives
 
-Ensure that any CAPTCHA that really needs to be included is simple to understand and includes alternatives for users unable to see and/or hear the test.
 {::nomarkdown}
 <%= related_issues 159 %>
 {:/}
 
+CAPTCHAs create problems for many people. If CAPTCHA really needs to be included, ensure that it is simple to understand and includes alternatives for users unable to see and/or hear the test. 
+
+See note on CAPTCHA: http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html
+
 {::nomarkdown}
 <%= learn_more %>
 {:/}
 
 * TBC
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Identify page language and language changes
-
-{::nomarkdown}
-<%= related_issues 146 %>
-{:/}
-
-Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs the rest of the page.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
 
 {::nomarkdown}
 <%= learn_more :end %>
