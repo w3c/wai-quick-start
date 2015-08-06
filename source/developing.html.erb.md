@@ -138,12 +138,17 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 
 {::nomarkdown}
 <%= example %>
-{:/}
 
-    <label for="username">
-    <input id="username" type="text">
+<div class="mark-up">
+  <figure>
+    <figcaption>Form field with associated label</figcaption>
+    <% html_example do %>
+      <label for="username">Username:</label>
+      <input id="username" type="text">
+    <% end %>
+  </figure>
+</div>
 
-{::nomarkdown}
 <%= example :end %>
 {:/}
 
