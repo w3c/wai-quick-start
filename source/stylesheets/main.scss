@@ -643,14 +643,25 @@ $wai_grey: #333333;
     .html-example {
       display: inline-block;
       overflow: hidden;
-      .rendered {
-        float: left;
-        width: 35%;
-        padding-right: 2em;
+      @include mq($small) {
+        .rendered, .code {
+          float: none;
+          width: auto;
+        }
+        .code {
+          margin-top: 1em;
+        }
       }
-      .code {
-        float: left;
-        width: 58%;
+      @include mq($medium) {
+        .rendered {
+          float: left;
+          width: 35%;
+          padding-right: 2em;
+        }
+        .code {
+          float: left;
+          width: 58%;
+        }
       }
     }
     .mark-up {
@@ -659,6 +670,13 @@ $wai_grey: #333333;
         h2 {
           border-bottom: none;
         }
+      }
+    }
+    .avoid-mistakes {
+      #dob-format, #phone-desc {
+        color: lighten($wai_grey, 10%);
+        font-size: 90%;
+        margin-top: 0em;
       }
     }
   }

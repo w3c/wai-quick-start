@@ -167,20 +167,34 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
-Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Provide an in-page link for easy access from the error to the field when feasible. 
 {::nomarkdown}
 <%= related_issues 157 %>
 {:/}
 
-{::nomarkdown}
-<%= example %>
-{:/}
-
-[... Simple form with instructions for password requirements or date format ...]
-
-[... Example set of error notifications, maybe different from the Designing? ...]
+Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Provide an in-page link for easy access from the error to the field. Work with content writers to agree on content for instructions and messages.
 
 {::nomarkdown}
+<%= example :start, :plural %>
+
+<div class="avoid-mistakes">
+  <figure>
+    <figcaption>Date field with formatting instructions</figcaption>
+    <% html_example do %>
+      <label id="dob-label" for="dob" tabindex="-1">Date of birth:</label>
+      <input id="dob" type="date" name="dob" aria-labelledby="dob-label dob-format">
+      <p id="dob-format" tabindex="-1">dd/MMM/YYYY</p>
+    <% end %>
+  </figure>
+  <figure>
+    <figcaption>Phone number field with forgiving validation</figcaption>
+    <% html_example do %>
+      <label for="phone">Phone:</label>
+      <input id="phone" name="phone" type="tel" pattern="^[2-9]\d{2}[- ]?\d{3}[- ]?\d{4}$" aria-describedby="phone-desc">
+      <p id="phone-desc">US phone number, of the form ANN-NNN-NNNN, where the first digit is not 0 or 1</p>
+    <% end %>
+  </figure>
+</div>
+
 <%= example :end %>
 {:/}
 
