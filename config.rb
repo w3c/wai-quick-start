@@ -28,6 +28,8 @@
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+require 'active_support/core_ext'
+
 ###
 # Helpers
 ###
@@ -116,9 +118,29 @@ helpers do
       '<div class="related-issue"><i class="fa fa-github"></i><strong>' + related_label + ':</strong> ' + (issues.length == 2 ? issues_links.join(' ') : issues_links.join(', ')) + '</div>'
     end
   end
+
+  def html_example(&code)
+    return unless block_given?
+    
+    content = capture_html(&code).encode(Encoding::UTF_8).strip_heredoc
+    highlighted = Middleman::Syntax::Highlighter.highlight(content, 'html').html_safe
+
+    concat_content <<-EOC
+      <div class="html-example">
+        <div class="rendered">
+          <p>Rendered:</p>
+          #{content}
+        </div>
+        <div class="code">
+          <p>Code Snippet:</p>#{highlighted}
+        </div>
+      </div>
+    EOC
+  end
 end
 
 set :markdown_engine, :kramdown
+activate :syntax
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 
 set :css_dir, 'stylesheets'
