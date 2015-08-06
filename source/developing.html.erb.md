@@ -5,7 +5,7 @@ status: editors-draft
 layout: guide
 ---
 
-These introductory tips cover the basics of accessible front-end web development using HTML, CSS, and JavaScript.
+These introductory tips cover the basics of accessible front-end web development using <abbr>HTML</abbr>, <abbr>CSS</abbr>, and JavaScript.
 
 {:.toc .no_toc}
 ## On this page
@@ -111,7 +111,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 {:.attach_permalink}
 ## Associate all form elements with labels
 
-Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using CSS when the design does not include a visible label. 
+Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using <abbr>CSS</abbr> when the design does not include a visible label. 
 
 {::nomarkdown}
 <%= example %>
@@ -342,7 +342,7 @@ Think about keyboard access when developing new interactive elements, such as me
 <%= related_issues 151 %>
 {:/}
 
-Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr title="Cascading Style Sheet">CSS</abbr>.
+Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>.
 
 {::nomarkdown}
 <%= learn_more %>
