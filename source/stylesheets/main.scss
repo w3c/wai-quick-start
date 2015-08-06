@@ -1,7 +1,7 @@
 @-ms-viewport { width: device-width; } @-o-viewport { width: device-width; } @viewport { width: device-width; }
 
 @import "wai_style";
-
+@import "syntax_highlight";
 
 // Media query variables
 $small:  25em; //* 400px */
@@ -175,9 +175,6 @@ $wai_grey: #333333;
       &>h2 {
         margin-left: 0;
       }
-    }
-    .highlight {
-      background: yellow;
     }
     
     h3 {
@@ -640,6 +637,27 @@ $wai_grey: #333333;
         img {
           float: left;
           margin-right: 1em;
+        }
+      }
+    }
+    .html-example {
+      display: inline-block;
+      overflow: hidden;
+      .rendered {
+        float: left;
+        width: 35%;
+        padding-right: 2em;
+      }
+      .code {
+        float: left;
+        width: 58%;
+      }
+    }
+    .mark-up {
+      figure {
+        clear: both;
+        h2 {
+          border-bottom: none;
         }
       }
     }

@@ -73,14 +73,41 @@ Use responsive design to adapt different viewport sizes, such as on mobile devic
 Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
-<%= example %>
-{:/}
+<%= example :start, :plural %>
 
-[... Example of markup along side a visual design highlighting how different elements relate to design components ...]
+<div class="mark-up">
+  <figure>
+    <figcaption>Search field using <abbr>WAI-ARIA</abbr></figcaption>
+    <% html_example do %>
+    <form action="" role="search">
+      <label for="search">Search</label>
+      <input type="search" aria-describedby="search-help">
+      <div id="search-help">Search records by customer id or name</div>
+      <input type="submit" value="Go">
+    </form>
+    <% end %>
+  </figure>
+  <figure>
+    <figcaption>HTML5 elements provide additional meaning and structure</figcaption>
+    <% html_example do %>
+    <section>
+      <article>
+        <h2>Superbear saves the day</h2>
+        <time>7 Aug 2015</time>
+        <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
+        <aside>
+          <h3>Related</h3>
+          <ul>
+            <li><a href="#">Bear receives key to city</a></li>
+            <li><a href="#">Superbear stands for mayor</a></li>
+          </ul>
+        </aside>
+      </article>
+    </section>
+    <% end %>
+  </figure>
+</div>
 
-[... Consider *simple* table example ...]
-
-{::nomarkdown}
 <%= example :end %>
 {:/}
 
