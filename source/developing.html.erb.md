@@ -18,6 +18,95 @@ These introductory tips cover the basics of accessible front-end web development
 {:/}
 
 {:.attach_permalink}
+## Associate all form elements with labels
+
+Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using <abbr>CSS</abbr> when the design does not include a visible label. 
+
+{::nomarkdown}
+<%= example %>
+
+<div class="mark-up">
+  <figure>
+    <figcaption>Form field with associated label</figcaption>
+    <% html_example do %>
+      <label for="username">Username:</label>
+      <input id="username" type="text">
+    <% end %>
+  </figure>
+</div>
+
+<%= example :end %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
+* **Tutorial**: [Labelling Controls](/WAI/tutorials/forms/labels/)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Include alternative text for images
+
+{::nomarkdown}
+<%= related_issues 151 %>
+{:/}
+
+Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
+* **Tutorial**: [Images](/WAI/tutorials/images/)
+* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
+* **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Identify page language and language changes
+
+{::nomarkdown}
+<%= related_issues 146 %>
+{:/}
+
+Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs the rest of the page.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+* **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
 Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
@@ -82,44 +171,6 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 {:/}
 
 {:.attach_permalink}
-## Associate all form elements with labels
-
-Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using <abbr>CSS</abbr> when the design does not include a visible label. 
-
-{::nomarkdown}
-<%= example %>
-
-<div class="mark-up">
-  <figure>
-    <figcaption>Form field with associated label</figcaption>
-    <% html_example do %>
-      <label for="username">Username:</label>
-      <input id="username" type="text">
-    <% end %>
-  </figure>
-</div>
-
-<%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
-* **Tutorial**: [Labelling Controls](/WAI/tutorials/forms/labels/)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Help users avoid and correct mistakes
 
 {::nomarkdown}
@@ -161,57 +212,6 @@ Be as forgiving of format as possible when accepting information. For example, a
 * **Tutorial**: [Validating Input](/WAI/tutorials/forms/validation/)
 * **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.3.1 Error Identifications](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html)
 * **User Story**: [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Include alternative text for images
-
-{::nomarkdown}
-<%= related_issues 151 %>
-{:/}
-
-Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
-* **Tutorial**: [Images](/WAI/tutorials/images/)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
-* **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Identify page language and language changes
-
-{::nomarkdown}
-<%= related_issues 146 %>
-{:/}
-
-Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs the rest of the page.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
 
 {::nomarkdown}
 <%= learn_more :end %>
