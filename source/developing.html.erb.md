@@ -359,51 +359,6 @@ Think about keyboard access when developing new interactive elements, such as me
 {:/}
 
 {:.attach_permalink}
-## Check that your code validates
-
-{::nomarkdown}
-<%= related_issues 154, 118 %>
-{:/}
-
-Validate HTML and CSS to identify possible compatibility problems. Fix identified problems to reduce the risk of errors on different devices.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* TBC
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Ensure compatibility of your code
-
-Make sure your code, especially for web applications, is supported by web browsers and assistive technologies. For example, some HTML5 and WAI-ARIA features might not be supported. Some evaluation tools help you check compatibility.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* TBC
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Include alternative text for images
 
 {::nomarkdown}
