@@ -18,44 +18,21 @@ These introductory tips cover the basics of accessible front-end web development
 {:/}
 
 {:.attach_permalink}
-## Use progressive enhancement
+## Write code that adapts to user's technology
 
-Progressive enhancement starts with the core semantic <abbr>HTML</abbr> presenting the content and functionality. Additional styling and functionality are then progressively added with different technologies, such as CSS or JavaScript. The core content will still be available when the added technology is not available, such as JavaScript blocked by a firewall.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* No identified W3C resources
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Adopt a responsive design approach
-
-Use responsive design to adapt different viewport sizes, such as on mobile devices and tablets. Elements can be condensed or rearranged when less space is available. Use <abbr title="Cascading Style Sheet">CSS</abbr> media queries to target styling depending on the width of the viewport. Use `em` or `rem` units in the queries to make sure that the design adapts when changing the font size.
-
-{::nomarkdown}
-<%= example %>
-{:/}
-
-[... Media query example with corresponding image showing how change might occur ...]
-
-{::nomarkdown}
-<%= example :end %>
-{:/}
+Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. A progressive enhancement approach will help ensure that core functionality and content is available regardless of technology being used.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
 
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
+  * [<abbr title="Success Criteria">SC</abbr> 1.4.4 Resize text](/WAI/WCAG20/quickref/#visual-audio-contrast-scale)
+  * [<abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality)
+* **Background**:
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 1.4.4 Resize text](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
+  * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
