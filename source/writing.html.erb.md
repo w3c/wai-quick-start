@@ -99,7 +99,7 @@ Provide unique titles to describe the page content and purpose, and distinguishe
 <%= related_issues 131, 62 %>
 {:/}
 
-Use clear and simple headings to group related paragraphs. Headings should be short and introduce the following section.
+Use clear and simple headings to group related paragraphs. Headings should usually be short and introduce or summarize a section of text.
 
 {::nomarkdown}
 <%= example :start, :plural %>
