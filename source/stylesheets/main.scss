@@ -679,6 +679,58 @@ $wai_grey: #333333;
         margin-top: 0em;
       }
     }
+    .order {
+      div {
+        overflow: hidden;
+        display: inline-block;
+      }
+      article {
+        position: relative;
+        h3, .desc, .buy {
+          margin-left: 210px;
+        }
+        img {
+          float: left;
+          margin-top: -2em;
+          width: 200px;
+        }
+        .buy {
+          a {
+          	background-color: #44c767;
+          	border-radius: 19px;
+          	border: 1px solid #18ab29;
+          	display: inline-block;
+          	color: #1e1e1e;
+          	padding: 5px 15px;
+          	text-decoration: none;
+          	text-shadow: 0px 1px 0px #6bd387;
+            &:hover {
+            	background-color: #5cbf2a;
+            }
+            &:active {
+            	position: relative;
+            	top: 1px;
+            }
+          }
+        }
+      }
+      .two-column {
+        margin-top: 2em;
+      }
+      .fail, .pass {
+        b {
+          color: $wai_red;
+        }
+      }
+      @include mq($medium) {
+        .fail {
+          margin-right: 3em;
+        }
+        .fail, .pass {
+          width: 45%;
+        }
+      }
+    }
   }
 }
 
