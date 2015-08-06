@@ -318,14 +318,14 @@ Assign alternative text to every image. Text must clearly describe the informati
 
 <div class="text-alternative two-column">
   <figure>
-    <figcaption>Inaccessible alternative text</figcaption>
+    <figcaption>Poor alternative text</figcaption>
     <div>
       <p class="fail"><img src="images/dog.jpg" alt="dog"> Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location.</p>
       <p><strong>Alternative text for image</strong>: 'dog'</p>
     </div>
   </figure>
   <figure>
-    <figcaption>Accessible alternative text</figcaption>
+    <figcaption>Good alternative text</figcaption>
     <div>
       <p class="pass"><img src="images/dog.jpg" alt="Golden labrador with a bell attached to its collar."> Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location.</p>
       <p><strong>Alternative text for image</strong>: 'Golden labrador with a bell attached to its collar.'</p>
