@@ -264,7 +264,6 @@ Ensure that the order of elements in the code matches the logical order of the i
         </div>
       </div>
     </div>
-  </div>
   </figure>
 </div>
 
