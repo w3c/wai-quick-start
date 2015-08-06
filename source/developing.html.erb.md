@@ -308,6 +308,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 
 * **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 4.1.2 Name, Role, Value](/WAI/WCAG20/quickref/#ensure-compat-rsv)
 * **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 4.1.2 Name, Role, Value](/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
+* **Note**: [Notes on Using ARIA in HTML](/TR/aria-in-html/)  
 
 {::nomarkdown}
 <%= learn_more :end %>
