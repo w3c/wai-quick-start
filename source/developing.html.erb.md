@@ -24,6 +24,7 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 
 {::nomarkdown}
 <%= example %>
+<%= related_issues 139 %>
 
 <div class="form-labels">
   <figure>
@@ -113,6 +114,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 
 {::nomarkdown}
 <%= example :start, :plural %>
+<%= related_issues 138 %>
 
 <div class="mark-up">
   <figure>
@@ -181,6 +183,7 @@ Be as forgiving of format as possible when accepting information. For example, a
 
 {::nomarkdown}
 <%= example :start, :plural %>
+<%= related_issues 140 %>
 
 <div class="avoid-mistakes">
   <figure>
@@ -233,6 +236,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 
 {::nomarkdown}
 <%= example %>
+<%= related_issues 141 %>
 
 <div class="order">
   <figure>
@@ -294,6 +298,15 @@ Ensure that the order of elements in the code matches the logical order of the i
 Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. Avoid clipping and horizontal scrolling when font size is increased. A progressive enhancement approach will help ensure that core functionality and content is available regardless of technology being used.
 
 {::nomarkdown}
+<%= example %>
+<%= related_issues 136, 137 %>
+
+<p>[ ... Consider example for responsive design, and/or resize text ... ]</p>
+
+<%= example :end %>
+{:/}
+
+{::nomarkdown}
 <%= learn_more %>
 {:/}
 
@@ -322,6 +335,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 
 {::nomarkdown}
 <%= example %>
+<%= related_issues 142 %>
 {:/}
 
 [... Example of hamburger menu, list of images as radio select, or collapsable accordion ...]
@@ -358,6 +372,7 @@ Think about keyboard access when developing new interactive elements, such as me
 
 {::nomarkdown}
 <%= example %>
+<%= related_issues 143 %>
 {:/}
 
 [... **Note:** May be too complex to create an example for ...]
