@@ -37,6 +37,7 @@
   transform: scale(.8);
   transition: transform .3s;
   width: 100%;
+  max-height: 80%;
 }
 
 .modal-overlay[aria-hidden="false"] .modal-holder {
