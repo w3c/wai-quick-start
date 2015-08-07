@@ -106,7 +106,7 @@ Use clear and simple headings to group related paragraphs. Headings should usual
 
 <div class="heading-structure">
   <figure>
-    <figcaption>No headings used</figcaption>
+    <figcaption>Content presented without headings</figcaption>
     <div>
       <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
 
@@ -124,7 +124,7 @@ Use clear and simple headings to group related paragraphs. Headings should usual
     </div>
   </figure>
   <figure>
-    <figcaption>No headings used</figcaption>
+    <figcaption>Headings used to split content and group topics</figcaption>
     <div>
       <h2><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
       

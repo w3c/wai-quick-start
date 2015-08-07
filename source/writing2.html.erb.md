@@ -105,8 +105,10 @@ Use clear and simple headings to group related paragraphs. Headings should usual
 
 <div class="heading-structure">
   <figure>
-    <figcaption>No headings used</figcaption>
+    <figcaption>Content presented without headings</figcaption>
     <div>
+      <h2><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
+
       <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
 
       <p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
@@ -123,7 +125,7 @@ Use clear and simple headings to group related paragraphs. Headings should usual
     </div>
   </figure>
   <figure>
-    <figcaption>No headings used</figcaption>
+    <figcaption>Headings used to split content and group topics</figcaption>
     <div>
       <h2><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
       
