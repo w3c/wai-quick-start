@@ -291,7 +291,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:.attach_permalink}
 ## Write code that adapts to user's technology
 
-Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. A progressive enhancement approach will help ensure that core functionality and content is available regardless of technology being used.
+Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. Avoid clipping and horizontal scrolling when font size is increased. A progressive enhancement approach will help ensure that core functionality and content is available regardless of technology being used.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -305,30 +305,6 @@ Use responsive design to adapt the display to different zoom states and viewport
   * [Understanding <abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Ensure resized text is legible
-
-{::nomarkdown}
-<%= related_issues 156 %>
-{:/}
-
-Specify container size and position, and text size in relative units, such as `em`, `rem`, or percentages. Avoid `overflow: hidden` causing clipping of enlarged text. Create different content flows when font size is increased to avoid horizontal scrolling.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* TBC
 
 {::nomarkdown}
 <%= learn_more :end %>
