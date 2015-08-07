@@ -41,11 +41,13 @@ Provide unique titles to describe the page content and purpose, and distinguishe
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
       <g transform="scale(1.2)">
         <title id="page-title-1">Simple page title</title>
-        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
-        <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
-        <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
-        <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
-        <text transform="translate(160 15)">Space Teddy Inc.</text>
+        <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+        <text transform="translate(10 15)">Space Teddy Inc.</text>
+        <g transform="translate(333 4)">
+        	<rect x="0" y="9.5" width="10" height="1.5"/>
+	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+        	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+        </g>
       </g>
     </svg>
   </figure>
@@ -54,11 +56,13 @@ Provide unique titles to describe the page content and purpose, and distinguishe
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-2" role="img">
       <g transform="scale(1.2)">
         <title id="page-title-2">Sub-page title with site title included</title>
-        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
-        <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
-        <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
-        <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
-        <text transform="translate(124 15)">Latest News &bull; Space Teddy Inc.</text>
+        <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+        <text transform="translate(10 15)">Latest News &bull; Space Teddy Inc.</text>
+        <g transform="translate(333 4)">
+        	<rect x="0" y="9.5" width="10" height="1.5"/>
+	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+        	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+        </g>
       </g>
     </svg>
   </figure>
@@ -67,15 +71,18 @@ Provide unique titles to describe the page content and purpose, and distinguishe
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-3" role="img">
       <g transform="scale(1.2)">
         <title id="page-title-3">Title of page in a process</title>
-        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
-        <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
-        <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
-        <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
-        <text transform="translate(87 15)">Buy Your Bear (Step 1 of 3) &bull; Space Teddy Inc.</text>
+        <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+        <text transform="translate(10 15)">Buy Your Bear (Step 1 of 3) &bull; Space Teddy Inc.</text>
+        <g transform="translate(333 4)">
+        	<rect x="0" y="9.5" width="10" height="1.5"/>
+	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+        	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+        </g>
       </g>
     </svg>
   </figure>
 </div>
+
 <%= example :end %>
 {:/}
 

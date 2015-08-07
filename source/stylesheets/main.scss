@@ -590,10 +590,13 @@ $wai_grey: #333333;
           font-size: 0.8em;
           fill: $wai_grey;
         }
-        path {
+        .banner {
           stroke: #9d9d9d;
           stroke-width: 0.5;
-          fill: lighten($wai_grey_bg, 8%);;
+          fill: lighten($wai_grey_bg, 8%);
+        }
+        path, rect {
+          fill: lighten($wai_grey, 25%);
         }
       }
     }
