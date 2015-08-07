@@ -426,11 +426,11 @@ Ensure that where action is required, such as on forms, instructions and guidanc
         <p>Provide a username and password to allow your application to be saved.</p>
         <p id="password-desc">Your password should be at least six characters and contain at least one number (0-9).</p>
         <div class="row">
-          <label class="required" for="username">Username</label>
+          <label class="required" for="username">Username ✻</label>
           <input type="text" id="username" name="username" value="superbear">
         </div>
         <div class="row">
-          <label class="required" for="password">Password</label>
+          <label class="required" for="password">Password ✻</label>
           <input aria-describedby="password-desc" type="password" id="username" name="username" value="">
         </div>
       </form>
