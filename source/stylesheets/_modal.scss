@@ -1,0 +1,70 @@
+.modal-overlay {
+  background:rgba(0,0,0,.8) !important;
+  height: 100%;
+  left: 0;
+  display: flex;
+  overflow: auto;
+  padding: 1.5em !important;
+  position: fixed;
+  top: 0;
+  transition: opacity .2s;
+  width: 100%;
+  z-index: -1;
+}
+
+.modal-overlay[aria-hidden="true"] {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-overlay[aria-hidden="false"] {
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+}
+
+/*
+  Modal Content Area
+*/
+.modal-holder {
+  background: #efefef;
+  margin: auto;
+  max-width: 800px;
+  overflow: auto;
+  overflow-x: hidden;
+  padding: 1.5em;
+  position: relative;
+  transform: scale(.8);
+  transition: transform .3s;
+  width: 100%;
+}
+
+.modal-overlay[aria-hidden="false"] .modal-holder {
+  transform: scale(1);
+}
+
+/*
+  General Modal Content
+*/
+.modal-title {
+  margin-top: 0;
+  padding-right: 1.25em;
+}
+
+/*
+  Close Modal Button
+*/
+.btn-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: arial;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0;
+  position: absolute;
+  right: .25em;
+  top: .25em;
+  z-index: 2;
+}
