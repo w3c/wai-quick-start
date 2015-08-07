@@ -24,7 +24,6 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 
 {::nomarkdown}
 <%= example %>
-<%= related_issues 139 %>
 
 <div class="form-labels">
   <figure>
@@ -37,6 +36,7 @@ Associate the `<label>` element with form elements using the *for* and *id* attr
 </div>
 
 <%= example :end %>
+<%= example_issues 139 %>
 {:/}
 
 {::nomarkdown}
@@ -114,7 +114,6 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 
 {::nomarkdown}
 <%= example :start, :plural %>
-<%= related_issues 138 %>
 
 <div class="mark-up">
   <figure>
@@ -150,6 +149,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 </div>
 
 <%= example :end %>
+<%= example_issues 138 %>
 {:/}
 
 {::nomarkdown}
@@ -183,7 +183,6 @@ Be as forgiving of format as possible when accepting information. For example, a
 
 {::nomarkdown}
 <%= example :start, :plural %>
-<%= related_issues 140 %>
 
 <div class="avoid-mistakes">
   <figure>
@@ -205,6 +204,7 @@ Be as forgiving of format as possible when accepting information. For example, a
 </div>
 
 <%= example :end %>
+<%= example_issues 140 %>
 {:/}
 
 {::nomarkdown}
@@ -236,7 +236,6 @@ Ensure that the order of elements in the code matches the logical order of the i
 
 {::nomarkdown}
 <%= example %>
-<%= related_issues 141 %>
 
 <div class="order">
   <figure>
@@ -273,6 +272,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 </div>
 
 <%= example :end %>
+<%= example_issues 141 %>
 {:/}
 
 {::nomarkdown}
@@ -299,11 +299,11 @@ Use responsive design to adapt the display to different zoom states and viewport
 
 {::nomarkdown}
 <%= example %>
-<%= related_issues 136, 137 %>
 
 <p>[ ... Consider example for responsive design, and/or resize text ... ]</p>
 
 <%= example :end %>
+<%= example_issues 136, 137 %>
 {:/}
 
 {::nomarkdown}
