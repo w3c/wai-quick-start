@@ -104,9 +104,9 @@ Use clear and simple headings to group related paragraphs. Headings should usual
 {::nomarkdown}
 <%= example :start, :plural %>
 
-<div class="heading-structure">
+<div class="heading-structure two-column">
   <figure>
-    <figcaption><button id="no-headings-modal" class="modal-open" type="button">Content presented without headings</button></figcaption>
+    <figcaption><a id="no-headings-modal" class="modal-open" href="javascript:return false"><img src="images/headings-poor.png" alt=""><br>Content presented without headings</a></figcaption>
     <div id="no-headings-modal-overlay" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="no-headings-modal-title">
       <div id="no-headings-modal-holder" class="modal-holder">
         <h2 id="no-headings-modal-title" class="modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
@@ -128,7 +128,8 @@ Use clear and simple headings to group related paragraphs. Headings should usual
     </div>
   </figure>
   <figure>
-    <figcaption><button id="headings-modal" class="modal-open" type="button">Headings used to split content and group topics</button></figcaption>
+    <figcaption><a id="headings-modal" class="modal-open" href="javascript: return false"><img src="images/headings-good.png" alt=""><br>Headings used to split content and group topics</a></figcaption>
+    
     <div id="headings-modal-overlay" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="headings-modal-title">
       <div id="headings-modal-holder" class="modal-holder">
         <h2 id="headings-modal-title" class="modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
