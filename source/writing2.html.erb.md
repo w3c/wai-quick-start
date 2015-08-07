@@ -26,15 +26,56 @@ These introductory tips cover the basics of writing web accessible content.
 {:.attach_permalink}
 ## Provide informative, unique page titles
 
-Provide unique titles to each page that simply describes page content or purpose, and distinguishes it from other pages. If including the organization's name in the title, it should usually go at the end. For pages that are part of a group, such as a multi-step process, include the stage in the page title.
+{::nomarkdown}
+<%= related_issues 161 %>
+{:/}
+
+Provide unique titles to describe the page content and purpose, and distinguishes it from other pages. If including the organization's name in the title, it should usually go at the end. For pages that are part of a group, such as a multi-step process, include the stage in the page title.
 
 {::nomarkdown}
 <%= example %>
-{:/}
 
-[... Example of simple title, page title and site title together, and title as part of process ...]
-
-{::nomarkdown}
+<div class="page-title">
+  <figure>
+    <figcaption>Simple page title</figcaption>
+    <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
+      <g transform="scale(1.2)">
+        <title id="page-title-1">Simple page title</title>
+        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+        <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
+        <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
+        <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
+        <text transform="translate(160 15)">Space Teddy Inc.</text>
+      </g>
+    </svg>
+  </figure>
+  <figure>
+    <figcaption>Sub-page title with site title included</figcaption>
+    <svg version="1.1" width="462" height="27" aria-labelledby="page-title-2" role="img">
+      <g transform="scale(1.2)">
+        <title id="page-title-2">Sub-page title with site title included</title>
+        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+        <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
+        <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
+        <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
+        <text transform="translate(124 15)">Latest News &bull; Space Teddy Inc.</text>
+      </g>
+    </svg>
+  </figure>
+  <figure>
+    <figcaption>Title of page in a process</figcaption>
+    <svg version="1.1" width="462" height="27" aria-labelledby="page-title-3" role="img">
+      <g transform="scale(1.2)">
+        <title id="page-title-3">Title of page in a process</title>
+        <path d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+        <ellipse cx="12" cy="11" rx="4" ry="4" fill="#fb4645" stroke="#d92e33" stroke-width=".25"/>
+        <ellipse cx="24" cy="11" rx="4" ry="4" fill="#fdb124" stroke="#d68f1c" stroke-width=".25"/>
+        <ellipse cx="36" cy="11" rx="4" ry="4" fill="#29c331" stroke="#1fa120" stroke-width=".25"/>
+        <text transform="translate(87 15)">Buy Your Bear (Step 1 of 3) &bull; Space Teddy Inc.</text>
+      </g>
+    </svg>
+  </figure>
+</div>
 <%= example :end %>
 {:/}
 
@@ -53,17 +94,62 @@ Provide unique titles to each page that simply describes page content or purpose
 {:.attach_permalink}
 ## Use headings to convey meaning and structure 
 
-Use clear and simple headings to group related paragraphs. Headings should be short and describe or introduce the following section.
-
 {::nomarkdown}
-<%= example %>
+<%= related_issues 131, 62 %>
 {:/}
 
-[... Example of block of text with and without headings to provide clarity and structure ...]
-
-[... May be too long for an example, perhaps examples of using metaphor, or quirky headings ...]
+Use clear and simple headings to group related paragraphs. Headings should usually be short and introduce or summarize a section of text.
 
 {::nomarkdown}
+<%= example :start, :plural %>
+
+<div class="heading-structure">
+  <figure>
+    <figcaption>No headings used</figcaption>
+    <div>
+      <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
+
+      <p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
+      
+      <p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section. Sub-headers proceed through increasing header levels. The lower the number, the smaller and more detailed a section.</p>
+
+      <p>Visual readers identify headers by scanning pages for text of a larger size or a different style. Assistive technology users are not able to see these visual changes, so changing the style is not a sufficient cue.</p>
+
+      <p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. This can be presented to the user as a navigation aid.</p>
+
+      <p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
+      
+      <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>No headings used</figcaption>
+    <div>
+      <h2><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
+      
+      <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
+
+      <h3><span class="visuallyhidden">Example: </span>Purpose of Headings</h3>
+      
+      <p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
+      
+      <h4><span class="visuallyhidden">Example: </span>Heading Levels</h4>
+      
+      <p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section. Sub-headers proceed through increasing header levels. The lower the number, the smaller and more detailed a section.</p>
+
+      <h3><span class="visuallyhidden">Example: </span>Meaning vs. Formatting</h3>
+      
+      <p>Visual readers identify headers by scanning pages for text of a larger size or a different style. Assistive technology users are not able to see these visual changes, so changing the style is not a sufficient cue.</p>
+
+      <p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. This can be presented to the user as a navigation aid.</p>
+
+      <p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
+      
+      <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
+    </div>
+  </figure>
+</div>
+
 <%= example :end %>
 {:/}
 
@@ -97,14 +183,23 @@ Use clear and simple headings to group related paragraphs. Headings should be sh
 Write link text so that it would make sense out of context. Link text should describe the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Indicate the document type and approximate size in the link text when the link target is not HTML. 
 
 {::nomarkdown}
-<%= example %>
-{:/}
+<%= example :start, :plural %>
 
-[... Example of links in context, one with no out of context meaning, one clear out of context ...]
+<div class="meaningful-links two-column">
+  <figure>
+    <figcaption>Link text with no out of context meaning</figcaption>
+    <div>
+      <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Link text that has meaning out of context</figcaption>
+    <div>
+      <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
+    </div>
+  </figure>
+</div>
 
-[... Example of 'click here' in sentence, contrasted with contextually meaningful link ...]
-
-{::nomarkdown}
 <%= example :end %>
 {:/}
 
@@ -136,12 +231,24 @@ Assign alternative text to every image. Text must clearly describe the informati
 
 {::nomarkdown}
 <%= example %>
-{:/}
 
-[... Some examples of images with appropriate alternative text ...]
+<div class="text-alternative two-column">
+  <figure>
+    <figcaption>Poor alternative text</figcaption>
+    <div>
+      <p class="fail"><img src="images/dog.jpg" alt="dog"> Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location.</p>
+      <p><strong>Alternative text for image</strong>: 'dog'</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Good alternative text</figcaption>
+    <div>
+      <p class="pass"><img src="images/dog.jpg" alt="Golden labrador with a bell attached to its collar."> Off-duty guide dogs often wear a bell. Its ring helps the blind owner keep track of the dog’s location.</p>
+      <p><strong>Alternative text for image</strong>: 'Golden labrador with a bell attached to its collar.'</p>
+    </div>
+  </figure>
+</div>
 
-[... Probably worth using a couple of examples from the tutorials and then linking directly there ...]
-{::nomarkdown}
 <%= example :end %>
 {:/}
 
@@ -166,17 +273,11 @@ Assign alternative text to every image. Text must clearly describe the informati
 {:.attach_permalink}
 ## Provide transcripts and captions for multimedia
 
+{::nomarkdown}
+<%= related_issues 163 %>
+{:/}
+
 For audio-only content, such a podcast, provide transcripts. Include everything that is spoken, and descriptions of sounds that are important for understanding the content, for example 'squeaking door'. Provide this information, including the audio description, as captions when audio is used to accompany visual content, such as animations and video. The requirements vary for pre-recorded and live content.
-
-{::nomarkdown}
-<%= example %>
-{:/}
-
-[... Could include a link to a video with captions and the associated captions file. Could show a video and then include a transcript below. Both may be quite involved... ]
-
-{::nomarkdown}
-<%= example :end %>
-{:/}
 
 {::nomarkdown}
 <%= learn_more %>
@@ -202,13 +303,50 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 {:.attach_permalink}
 ## Provide clear instructions
 
-Ensure that instructions and guidance where action is required, such as on forms, is clear and simple. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, such as in form errors.
-
 {::nomarkdown}
-<%= example %>
+<%= related_issues 114 %>
 {:/}
 
+Ensure that where action is required, such as on forms, instructions and guidance are clear and simple. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, such as in form errors.
+
 {::nomarkdown}
+<%= example :start %>
+
+<div class="errors">
+  <figure>
+    <figcaption>Example of clear form instructions and errors</figcaption>
+    <div>
+      <div class="error-list">
+        <p>Please correct the following errors.</p>
+        <ol class="fa-ul">
+          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('username').focus()">Unfortunately the username 'superbear' is already in use.</a><br>
+            The following usernames are available:
+            <ul>
+              <li><a href="javascript:var elem = document.getElementById('username'); elem.value = 'superbear10'; elem.focus();">superbear10</a></li>
+              <li><a href="javascript:var elem = document.getElementById('username'); elem.value = 'superbear11'; elem.focus();">superbear11</a></li>
+              <li><a href="javascript:var elem = document.getElementById('username'); elem.value = 'superbear12'; elem.focus();">superbear12</a></li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+      <form action="">
+        <legend>Login details</legend>
+        <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
+        <p>Provide a username and password to allow your application to be saved.</p>
+        <p id="password-desc">Your password should be at least six characters and contain at least one number (0-9).</p>
+        <div class="row">
+          <label class="required" for="username">Username</label>
+          <input type="text" id="username" name="username" value="superbear">
+        </div>
+        <div class="row">
+          <label class="required" for="password">Password</label>
+          <input aria-describedby="password-desc" type="password" id="username" name="username" value="">
+        </div>
+      </form>
+    </div>
+  </figure>
+</div>
+
 <%= example :end %>
 {:/}
 
@@ -233,7 +371,7 @@ Ensure that instructions and guidance where action is required, such as on forms
 {:/}
 
 {:.attach_permalink}
-## Make text readable and understandable
+## Keep content clear and concise
 
 {::nomarkdown}
 <%= related_issues 158 %>
@@ -241,7 +379,7 @@ Ensure that instructions and guidance where action is required, such as on forms
 
 Use simple language and formatting, as appropriate for the context.
 
-* **Keep content clear and concise.** Write in short, clear sentences and paragraphs.
+* **Write in short, clear sentences and paragraphs.**
 
 * **Avoid using overly complex words and phrases.** Consider providing a glossary for terms readers may not know.
 
@@ -249,7 +387,7 @@ Use simple language and formatting, as appropriate for the context.
 
 * **Use list formatting as appropriate.**
 
-* **Provide images to reinforce information presented in text.**
+* **Use images to reinforce information presented in text.**
 
 {::nomarkdown}
 <%= example %>
