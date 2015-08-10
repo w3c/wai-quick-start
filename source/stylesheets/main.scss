@@ -198,7 +198,7 @@ $wai_grey: #333333;
         padding: 1em;
         background: lighten($wai_grey_bg, 8%);
         box-shadow: 0 0 2px 0 $wai_grey_bg;
-        p {
+        p, ol, ul {
           &:first-child {
             margin-top: 0;
           }

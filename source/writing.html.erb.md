@@ -411,35 +411,32 @@ Ensure that where action is required, such as on forms, instructions and guidanc
 
 <div class="errors">
   <figure>
-    <figcaption>Example of clear form instructions and errors</figcaption>
+    <figcaption>Example of clear form instructions</figcaption>
     <div>
-      <div class="error-list">
-        <p>Please correct the following errors.</p>
-        <ol class="fa-ul">
-          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('username').focus()">Unfortunately the username 'superbear' is already in use.</a><br>
-            The following usernames are available:
-            <ul>
-              <li><a href="javascript:var elem = document.getElementById('username'); elem.value = 'superbear10'; elem.focus();">superbear10</a></li>
-              <li><a href="javascript:var elem = document.getElementById('username'); elem.value = 'superbear11'; elem.focus();">superbear11</a></li>
-              <li><a href="javascript:var elem = document.getElementById('username'); elem.value = 'superbear12'; elem.focus();">superbear12</a></li>
-            </ul>
-          </li>
-        </ol>
-      </div>
       <form action="">
         <legend>Login details</legend>
-        <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
         <p>Provide a username and password to allow your application to be saved.</p>
         <p id="password-desc">Your password should be at least six characters and contain at least one number (0-9).</p>
+        <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
         <div class="row">
           <label class="required" for="username">Username ✻</label>
-          <input type="text" id="username" name="username" value="superbear">
+          <input type="text" id="username" name="username" value="">
         </div>
         <div class="row">
           <label class="required" for="password">Password ✻</label>
           <input aria-describedby="password-desc" type="password" id="username" name="username" value="">
         </div>
       </form>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Example of clear error messages</figcaption>
+    <div>
+      <ol class="fa-ul error-list">
+        <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The username 'superbear' is already in use.</a></li>
+        <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The password needs to include at least one number.</a><br>
+        </li>
+      </ol>
     </div>
   </figure>
 </div>
