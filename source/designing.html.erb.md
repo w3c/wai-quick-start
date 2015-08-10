@@ -410,13 +410,13 @@ Use whitespace and proximity to make relationships between content more apparent
           <rect x="0" y="18" width="247" height="3"/>
           <rect x="0" y="24" width="244" height="3"/>
           <rect x="0" y="30" width="249" height="3"/>
-          <rect class="image" x="150" y="36" width="100" height="55"/>
-          <line x1="151" y1="37" x2="249" y2="90" stroke-width="1"/>
-          <line x1="151" y1="90" x2="249" y2="37" stroke-width="1"/>
-          <rect x="0" y="36" width="138" height="3"/>
-          <rect x="0" y="42" width="141" height="3"/>
-          <rect x="0" y="48" width="136" height="3"/>
-          <rect x="0" y="54" width="142" height="3"/>
+          <rect class="image" x="180" y="36" width="70" height="55"/>
+          <line x1="181" y1="37" x2="249" y2="90" stroke-width="1"/>
+          <line x1="181" y1="90" x2="249" y2="37" stroke-width="1"/>
+          <rect x="0" y="36" width="168" height="3"/>
+          <rect x="0" y="42" width="171" height="3"/>
+          <rect x="0" y="48" width="166" height="3"/>
+          <rect x="0" y="54" width="172" height="3"/>
           <rect x="0" y="60" width="120" height="3"/>
           <text class="sub-heading" x="0" y="74">Sub heading</text>
           <rect x="0" y="76" width="144" height="3"/>
