@@ -838,7 +838,6 @@ $wai_grey: #333333;
         position: relative;
         width: 5em;
         height: 2em;
-        border: 2px solid $wai_grey;
         border-radius: 20px;
         color: #ffffff;
         span {
@@ -853,7 +852,6 @@ $wai_grey: #333333;
             background: $wai_grey;
             width: 1.5em;
             height: 1.5em;
-            border: 2px solid lighten($wai_grey, 10%);
             border-radius: 20px;
             position: absolute;
             top: -1px;
