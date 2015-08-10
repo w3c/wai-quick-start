@@ -344,9 +344,17 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
     <% html_example do %>
       <p id="slider-label">Number of tickets:</p>
       <div class="slider">
-        <button id="slider-control" class="slider-control" aria-valuetext="0" aria-valuenow="0" aria-valuemax="10" aria-valuemin="0" aria-labelledby="slider-label" role="slider"></button>
+        <button id="slider-control" class="slider-control"  role="slider" aria-valuetext="0" aria-valuenow="0" aria-valuemax="10" aria-valuemin="0" aria-labelledby="slider-label" tabindex="0"></button>
       </div>
       <input id="slider-value" class="slider-value" type="number" min="0" max="10" step="1" value="0">
+    <% end %>
+  </figure>
+  <figure>
+    <figcaption>Accessible switch control</figcaption>
+    <% html_example do %>
+      <p id="switch-label">Lights:</p>
+      <div id="switch" class="switch" role="checkbox" aria-checked="false" aria-labelledby="switch-label" tabindex="0"><span>Off</span></div>
+    </form>
     <% end %>
   </figure>
 </div>

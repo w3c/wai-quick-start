@@ -834,6 +834,50 @@ $wai_grey: #333333;
       .slider-value {
         width: 2em;
       }
+      .switch {
+        position: relative;
+        width: 5em;
+        height: 2em;
+        border: 2px solid $wai_grey;
+        border-radius: 20px;
+        color: #ffffff;
+        span {
+          box-sizing: border-box;
+          position: absolute;
+          top: 0.4em;
+          text-transform: uppercase;
+          font-size: 90%;
+          &:before {
+            box-sizing: border-box;
+            content: ' ';
+            background: $wai_grey;
+            width: 1.5em;
+            height: 1.5em;
+            border: 2px solid lighten($wai_grey, 10%);
+            border-radius: 20px;
+            position: absolute;
+            top: -1px;
+          }
+        }
+      }
+      .switch[aria-checked=false] {
+        background: $wai_red;
+        span {
+          right: 12px;
+          &:before {
+            left: -2.5em;
+          }
+        }
+      }
+      .switch[aria-checked=true] {
+        background: green;
+        span {
+          left: 12px;
+          &:before {
+            right: -2.5em;
+          }
+        }
+      }
     }
   }
 }
