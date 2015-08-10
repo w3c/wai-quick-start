@@ -323,9 +323,9 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 {:/}
 
 {:.attach_permalink}
-## Provide clear feedback
+## Provide easily identifiable feedback
 
-Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Important feedback that requires user action should be presented in a prominent style. Instructions should be clear and easy to follow. 
+Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Instructions should be easy to identify. Important feedback that requires user action should be presented in a prominent style. 
  
 {::nomarkdown}
 <%= example :start %>
