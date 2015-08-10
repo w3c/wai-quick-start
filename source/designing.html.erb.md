@@ -557,15 +557,38 @@ Provide text which describes the purpose of each image. Images might convey info
 
 {::nomarkdown}
 <%= example %>
-{:/}
 
-* [... Home icon with functional text 'Home' ...]
-* For example, appropriate text alternative for a search button would be "search", not "magnifying glass".
-* maybe use an example from BAD. Could use the "logo"and show both the too detailed bad alt and the good alt.
-* http://www.w3.org/WAI/intro/cycle.png alt = illustration with arrow going from content at the top through authoring tools at left to content at the bottom, and an arrow going from the content at the bottom through assistive technologies and user agents at the right and back to content at the top" -- but maybe too complex
-* http://www.w3.org/WAI/intro/iui-scroll.png alt="Illustration of 4 scroll down user actions (described in the main content) going into a filter labeled IndieUI Events. Under filter is 'scrollrequest(x/y)', and an arrow pointing to it from a Web App." -- but maybe too complex
+<div class="text-alternative">
+  <figure>
+    <figcaption>Example where alternative text indicates function</figcaption>
+    <div>
+      <ul class="course-select">
+        <li class="closed"><img src="images/arrow-right.png" alt="Open">English <span class="number" title="Number of clasess">10</span></li>
+        <li class="closed"><img src="images/arrow-right.png" alt="Open">Maths <span class="number" title="Number of clasess">14</span></li>
+        <li class="open"><img src="images/arrow-down.png" alt="Close">Languages <span class="number" title="Number of clasess">4</span>
+          <ul>
+            <li>French</li>
+            <li>German</li>
+            <li>Spanish</li>
+            <li>Mandarin</li>
+          </ul>
+        </li>
+        <li class="closed"><img class="closed" src="images/arrow-right.png" alt="Open">Social Sciences <span class="number" title="Number of clasess">8</span></li>
+        <li><span class="etc">...</span></li>
+      </ul>
+      <p>Alternative text for the arrows specifies their purpose within the interface, that is 'open' and 'close'.</p>
+    </div>
+  </figure>
 
-{::nomarkdown}
+  <figure>
+    <figcaption>Example where alternative text conveys meaning</figcaption>
+    <div>
+      <button type="button"><img src="images/padlock.png" alt="Secure">Proceed to Checkout</button>
+      <p>Alternative text for the padlock image indicates a secure purchasing process.</p>
+    </div>
+  </figure>
+</div>
+
 <%= example :end %>
 {:/}
 
