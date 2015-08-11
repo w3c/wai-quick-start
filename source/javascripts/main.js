@@ -1,6 +1,8 @@
 (function () {
 	'use strict';
 
+  // Note that this is not generalized code for dealing with custom interactive elements
+  // and is not recommended for production use
   function flickSwitch(el) {
     if(el.getAttribute('aria-checked') == 'true' ) {
       el.setAttribute('aria-checked', 'false');
