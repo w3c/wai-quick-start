@@ -547,7 +547,7 @@ Consider how page information is presented in different sized viewports, such as
 {:/}
 
 {:.attach_permalink}
-## Provide text alternatives for images
+## Provide alternative text for images
 
 {::nomarkdown}
 <%= related_issues 78 %>
