@@ -553,7 +553,7 @@ Consider how page information is presented in different sized viewports, such as
 <%= related_issues 78 %>
 {:/}
 
-Provide text which describes the purpose of each image. Images might convey information, provide decorative support, or support functionality. Alternative text is not needed for purely decorative images that don't add information to the page.
+Provide text which describes the purpose of each image. Images might convey information, provide decoration, or support functionality. Alternative text is not needed for purely decorative images that don't add information to the page.
 
 {::nomarkdown}
 <%= example %>
