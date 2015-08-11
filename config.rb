@@ -150,6 +150,24 @@ helpers do
       </div>
     EOC
   end
+  
+  def javascript_example(&code)
+    return unless block_given?
+    
+    content = capture_html(&code).encode(Encoding::UTF_8).strip_heredoc
+    highlighted = Middleman::Syntax::Highlighter.highlight(content, 'javascript').html_safe
+
+    concat_content <<-EOC
+      <script type="text/javascript">
+        // Note that this is not generalized code
+        // and is not recommended for production use
+        #{content}
+      </script>
+      <div class="javascript code">
+        <p>Code Snippet:</p>#{highlighted}
+      </div>
+    EOC
+  end
 end
 
 set :markdown_engine, :kramdown

@@ -387,16 +387,53 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 <%= related_issues 155 %>
 {:/}
 
-Think about keyboard access when developing new interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex='0'` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order.
+Think about keyboard access when developing new interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex='0'` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
 <%= example %>
+
+<div class="keyboard-accessible">
+  <figure>
+    <figcaption>Accessible menu icon</figcaption>
+    <% html_example do %>
+      <div id="example-button" class="menu-button" role="button" tabindex="0"><i class="fa fa-bars"></i> Menu</div>
+      <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
+        <ul>
+          <li><a href="javascript:return false">About</a></li>
+          <li><a href="javascript:return false">News</a></li>
+          <li><a href="javascript:return false">Tickets</a></li>
+          <li><a href="javascript:return false">Fun</a></li>
+        </ul>
+      </div>
+    <% end %>
+    
+    <% javascript_example do %>
+      function toggleMenu(el) {
+        if( el.getAttribute('aria-hidden') == 'true' ) {
+          el.setAttribute('aria-hidden', 'false');
+          el.focus();
+        } else {
+          el.setAttribute('aria-hidden', 'true');
+        }
+      }
+    
+      var menuButton = document.getElementById('example-button');
+      
+      menuButton.addEventListener('keydown', function(e) {
+        // Toggle the menu when SPACE or RETURN are pressed
+        if(e.keyCode && (e.keyCode == 32 || e.keyCode == 13)) {
+          toggleMenu(document.getElementById('example-button-menu'));
+        }
+      });
+      
+      menuButton.addEventListener('click', function(e) {
+        toggleMenu(document.getElementById('example-button-menu'));
+      });
+    <% end %>
+  </figure>
+</div>
+
 <%= related_issues 143 %>
-{:/}
-
-[... **Note:** May be too complex to create an example for ...]
-
-{::nomarkdown}
 <%= example :end %>
 {:/}
 

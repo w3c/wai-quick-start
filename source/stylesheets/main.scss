@@ -877,6 +877,55 @@ $wai_grey: #333333;
         }
       }
     }
+    .keyboard-accessible {
+      .menu {
+        position: relative;
+        border: 1px solid darken($wai_grey_bg, 20%);
+        border-radius: 2px;
+        background: darken($wai_grey_bg, 10%);
+        box-shadow: 0px 0px 2px darken($wai_grey_bg, 15%);
+        padding: 1em;
+        margin-top: 0.5em;
+        width: 10em;
+        &[aria-hidden=true] {
+          display: none;
+        }
+        &[aria-hidden=false] {
+          display: block;
+        }
+        &:before, &:after {
+          content: "";
+          position: absolute;
+          height: 0;
+          width: 0;
+        }
+        &:before {
+          border-bottom: 12px solid darken($wai_grey_bg, 20%);
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          left: 20px;
+          top: -12px;
+        }
+        &:after {
+          border-bottom: 9px solid darken($wai_grey_bg, 10%);
+          border-left: 6px solid transparent;
+          border-right: 6px solid transparent;
+          left: 22px;
+          top: -9px;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          li {
+            margin-left: 0;
+            a {
+              text-decoration:none;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
