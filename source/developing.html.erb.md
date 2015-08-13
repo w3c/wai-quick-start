@@ -179,7 +179,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 <%= related_issues 157 %>
 {:/}
 
-Be as forgiving of format as possible when accepting information. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Provide an in-page link for easy access from the error to the field. Work with content writers to agree on content for instructions and messages.
+Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Provide an in-page link for easy access from the error to the field. Work with content writers to agree on content for instructions and messages.
 
 {::nomarkdown}
 <%= example :start, :plural %>
