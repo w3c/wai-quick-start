@@ -400,11 +400,10 @@ Use whitespace and proximity to make relationships between content more apparent
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption>Poor use of spacing and headings</figcaption>
+    <figcaption id="inaccessible-headings-title">Poor use of spacing and headings</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
-          <title id="inaccessible-headings-title">Poor use of headings and space</title>
           <desc id="inaccessible-headings-desc">Single heading with large blocks of text, poor separation of sub-headings, and unclear image relationship</desc>
           <text class="heading" x="0" y="14">Main heading</text>
           <rect x="0" y="18" width="247" height="3"/>
@@ -438,11 +437,10 @@ Use whitespace and proximity to make relationships between content more apparent
     </div>
   </figure>
   <figure class="pass">
-    <figcaption>Good use of spacing and headings</figcaption>
+    <figcaption id="accessible-headings-title">Good use of spacing and headings</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
-          <title id="accessible-headings-title">Good use of headings</title>
           <desc id="accessible-headings-desc">Main heading, multiple sub headings, lists, and no large text blocks</desc>
           <text class="heading" x="0" y="14">Main heading</text>
           <rect x="0" y="21" width="175" height="3"/>

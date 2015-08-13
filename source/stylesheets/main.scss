@@ -545,18 +545,9 @@ $wai_grey: #333333;
         .image {
           fill: lighten($wai_grey, 65%);
         }
-      }
-      .fail {
         text {
           &.sub-heading {
             font-size: 0.8em;
-          }
-        }
-      }
-      .pass {
-        text {
-          &.sub-heading {
-            font-size: 0.6em;
           }
         }
       }
