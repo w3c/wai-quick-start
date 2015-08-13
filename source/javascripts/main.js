@@ -3,6 +3,30 @@
 
   // Note that this is not generalized code for dealing with custom interactive elements
   // and is not recommended for production use
+  function toggleMenu(el) {
+    if( el.getAttribute('aria-hidden') == 'true' ) {
+      el.setAttribute('aria-hidden', 'false');
+      el.focus();
+    } else {
+      el.setAttribute('aria-hidden', 'true');
+    }
+  }
+
+  var buttonExample = document.getElementById('example-button');
+  
+  if(buttonExample) {
+    buttonExample.addEventListener('keydown', function(e) {
+      // Toggle the menu when SPACE or RETURN are pressed
+      if(e.keyCode && (e.keyCode == 32 || e.keyCode == 13)) {
+        toggleMenu(document.getElementById('example-button-menu'));
+      }
+    });
+  
+    buttonExample.addEventListener('click', function(e) {
+      toggleMenu(document.getElementById('example-button-menu'));
+    });
+  }
+  
   function flickSwitch(el) {
     if(el.getAttribute('aria-checked') == 'true' ) {
       el.setAttribute('aria-checked', 'false');

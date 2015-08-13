@@ -383,41 +383,37 @@ Think about keyboard access when developing new interactive elements, such as me
 <div class="keyboard-accessible">
   <figure>
     <figcaption>Accessible menu icon</figcaption>
-    <% html_example do %>
-      <div id="example-button" class="menu-button" role="button" tabindex="0"><i class="fa fa-bars"></i> Menu</div>
-      <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
-        <ul>
-          <li><a href="javascript:return false">About</a></li>
-          <li><a href="javascript:return false">News</a></li>
-          <li><a href="javascript:return false">Tickets</a></li>
-          <li><a href="javascript:return false">Fun</a></li>
-        </ul>
+    <div class="html-example">
+      <div class="rendered">
+        <p>Rendered:</p>
+        <div id="example-button" class="menu-button" role="button" tabindex="0"><i class="fa fa-bars"></i> Menu</div>
+        <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
+          <ul>
+            <li><a href="javascript:return false">About</a></li>
+            <li><a href="javascript:return false">News</a></li>
+            <li><a href="javascript:return false">Tickets</a></li>
+            <li><a href="javascript:return false">Fun</a></li>
+          </ul>
+        </div>
       </div>
-    <% end %>
-    
-    <% javascript_example do %>
-      function toggleMenu(el) {
-        if( el.getAttribute('aria-hidden') == 'true' ) {
-          el.setAttribute('aria-hidden', 'false');
-          el.focus();
-        } else {
-          el.setAttribute('aria-hidden', 'true');
-        }
-      }
-    
-      var menuButton = document.getElementById('example-button');
-      
-      menuButton.addEventListener('keydown', function(e) {
-        // Toggle the menu when SPACE or RETURN are pressed
-        if(e.keyCode && (e.keyCode == 32 || e.keyCode == 13)) {
-          toggleMenu(document.getElementById('example-button-menu'));
-        }
-      });
-      
-      menuButton.addEventListener('click', function(e) {
-        toggleMenu(document.getElementById('example-button-menu'));
-      });
-    <% end %>
+      <div class="code">
+        <p>Code Snippet:</p>
+        <% code 'javascript' do %>
+var buttonExample = document.getElementById('example-button');
+
+buttonExample.addEventListener('keydown', function(e) {
+  // Toggle the menu when SPACE or RETURN are pressed
+  if(e.keyCode && (e.keyCode == 32 || e.keyCode == 13)) {
+    toggleMenu(document.getElementById('example-button-menu'));
+  }
+});
+
+buttonExample.addEventListener('click', function(e) {
+  toggleMenu(document.getElementById('example-button-menu'));
+});
+      <% end %>
+      </div>
+    </div>
   </figure>
 </div>
 

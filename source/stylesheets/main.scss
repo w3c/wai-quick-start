@@ -707,7 +707,6 @@ $wai_grey: #333333;
       display: inline-block;     
     }
     .html-example {
-      display: inline-block;
       overflow: hidden;
       @include mq($small) {
         .rendered, .code {
