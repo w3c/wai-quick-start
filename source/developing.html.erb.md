@@ -242,9 +242,9 @@ Ensure that the order of elements in the code matches the logical order of the i
     <figcaption>Product presentation</figcaption>
     <div>
       <article class="product">
-        <h3 class="name">All star trainers</h3>
+        <h3 class="name">Space trainers</h3>
         <img src="images/trainer.png" alt="Red high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
-        <p class="desc">All star trainer for a classic and stylish look.</p>
+        <p class="desc">Space trainer for a classic and stylish look.</p>
         <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
       </article>
       <div class="two-column">
@@ -252,17 +252,17 @@ Ensure that the order of elements in the code matches the logical order of the i
           <p><b>Approach 1:</b> Code order matches visual presentation, but is not logical.</p>
           <% code('html') do %>
 <img src="images/trainer.png" alt="...">
-<h3>All star trainers</h3>
-<p>All star...</p>
+<h3>Space trainers</h3>
+<p>Space...</p>
 <a href="...">Add to cart</a>
           <% end %>
         </div>
         <div class="pass">
           <p><b>Approach 2:</b> Product title is logically viewed first, so presented first in code.</p>
           <% code('html') do %>
-<h3>All star trainers</h3>
+<h3>Space trainers</h3>
 <img src="images/trainer.png" alt="...">
-<p>All star...</p>
+<p>Space...</p>
 <a href="...">Add to cart</a>
           <% end %>
         </div>
