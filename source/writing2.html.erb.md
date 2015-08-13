@@ -321,7 +321,7 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 <%= related_issues 114 %>
 {:/}
 
-Ensure that where action is required, such as on forms, instructions and guidance are clear and simple. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, such as in form errors.
+Ensure that instructions and guidance are clear and simple when action is required, such as on forms. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, for example, in form errors.
 
 {::nomarkdown}
 <%= example :start %>
