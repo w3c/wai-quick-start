@@ -17,29 +17,78 @@ status: editors-draft
   #examples span {
     margin-right: 1em;
   }
+  #examples img {
+    margin-right: 2em;
+  }
 </style>
 
 <p>The different sizes reflect how the icon will look on the overview page, as a heading in a tip page, and in the section navigation within a tip page.</p>
 
 <ul id="examples">
-  <% {'designing' => ['fa fa-paint-brush', 'flaticon-compass56', 'flaticon-design21', 'flaticon-graphicseditor8', 'flaticon-paintbrush2'],
-      'evaluating' => ['fa fa-bug', 'fa fa-clipboard', 'flaticon-screen124', 'flaticon-desktop20',  'flaticon-magnifier24', 'fa fa-heartbeat'],
-      'writing' => ['fa fa-pencil'],
-      'developing' => ['fa fa-code'],
-      'managing' => ['fa fa-cogs'],
-      'advocating' => ['flaticon-megaphone18']
-    }.each do |guide, icons| %>
-  <li><%= guide.capitalize %>
+  <li>Designing
     <ol>
-      <% icons.each do |icon| %>
-      <li>Overview: <span class="<%= icon %>" style="font-size: 260%"></span>
-          Heading: <span class="<%= icon %>" style="font-size: 145%"></span>
-          Section Nav: <span class="<%= icon %>" style="font-size: 100%"></span>
+      <li>Overview: <span class="fa fa-paint-brush" style="font-size: 260%"></span>
+          Heading: <span class="fa fa-paint-brush" style="font-size: 145%"></span>
+          Section Nav: <span class="fa fa-paint-brush" style="font-size: 100%"></span>
       </li>
-      <% end %>
+      <li>Overview: <img width="37" src="images/designing-large.png" alt="">
+          Heading: <img width="22" src="images/designing-large.png" alt="">
+          Section Nav: <img width="15" src="images/designing-small.png" alt="">
+      </li>
+      <li>Overview: <img width="37" src="images/designing-2-large.png" alt="">
+          Heading: <img width="22" src="images/designing-2-large.png" alt="">
+          Section Nav: <img width="15" src="images/designing-2-large.png" alt="">
+      </li>
     </ol>
   </li>
-  <% end %>
+  <li>Evaluating
+    <ol>
+      <li>Overview: <span class="fa fa-bug" style="font-size: 260%"></span>
+          Heading: <span class="fa fa-bug" style="font-size: 145%"></span>
+          Section Nav: <span class="fa fa-bug" style="font-size: 100%"></span>
+      </li>
+      <li>Overview: <span class="fa fa-clipboard" style="font-size: 260%"></span>
+          Heading: <span class="fa fa-clipboard" style="font-size: 145%"></span>
+          Section Nav: <span class="fa fa-clipboard" style="font-size: 100%"></span>
+      </li>
+      <li>Overview: <span class="flaticon-desktop20" style="font-size: 260%"></span>
+          Heading: <span class="flaticon-desktop20" style="font-size: 145%"></span>
+          Section Nav: <span class="flaticon-desktop20" style="font-size: 100%"></span>
+      </li>
+    </ol>
+  </li>
+  <li>Writing
+    <ol>
+      <li>Overview: <span class="fa fa-pencil" style="font-size: 260%"></span>
+          Heading: <span class="fa fa-pencil" style="font-size: 145%"></span>
+          Section Nav: <span class="fa fa-pencil" style="font-size: 100%"></span>
+      </li>
+    </ol>
+  </li>
+  <li>Developing
+    <ol>
+      <li>Overview: <span class="fa fa-code" style="font-size: 260%"></span>
+          Heading: <span class="fa fa-code" style="font-size: 145%"></span>
+          Section Nav: <span class="fa fa-code" style="font-size: 100%"></span>
+      </li>
+    </ol>
+  </li>
+  <li>Managing
+    <ol>
+      <li>Overview: <span class="fa fa-cogs" style="font-size: 260%"></span>
+          Heading: <span class="fa fa-cogs" style="font-size: 145%"></span>
+          Section Nav: <span class="fa fa-cogs" style="font-size: 100%"></span>
+      </li>
+    </ol>
+  </li>
+  <li>Advocating
+    <ol>
+      <li>Overview: <span class="flaticon-megaphone18" style="font-size: 260%"></span>
+          Heading: <span class="flaticon-megaphone18" style="font-size: 145%"></span>
+          Section Nav: <span class="flaticon-megaphone18" style="font-size: 100%"></span>
+      </li>
+    </ol>
+  </li>
 </ul>
 
 <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/abhimanyu-rana" title="Abhimanyu Rana">Abhimanyu Rana</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
