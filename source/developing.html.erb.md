@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible front-end web development
 {:.attach_permalink}
 ## Associate all form elements with labels
 
-Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using <abbr>CSS</abbr> when the design does not include a visible label. 
+Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using <abbr>CSS</abbr> when the design does not include a visible label. Beware of doing this as many sighted people may still misinterpret the required input without an obvious label.
 
 {::nomarkdown}
 <%= example %>
