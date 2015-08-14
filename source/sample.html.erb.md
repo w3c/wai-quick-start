@@ -3,6 +3,8 @@ title: Icon Samples
 status: editors-draft
 ---
 
+{::nomarkdown}
+
 <%= stylesheet_link_tag 'icons/flaticon.css'  %>
 
 <style>
@@ -81,7 +83,8 @@ status: editors-draft
           Heading: <span class="fa fa-bug" style="font-size: 145%"></span>
           Section Nav: <span class="fa fa-bug" style="font-size: 100%"></span>
           <p><b>Pros</b>: Simple, clean, works well at all sizes, common icon for QA activities</p>
-          <p><b>Cons</b>: May not be immediately understood by non-QA readers</p>
+          <p><b>Cons</b>: May not be immediately understood by non-QA readers
+          </p>
       </li>
     </ol>
     <p>Other icons considered:<br><br></p>
@@ -148,3 +151,5 @@ status: editors-draft
 </ul>
 
 <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/abhimanyu-rana" title="Abhimanyu Rana">Abhimanyu Rana</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+
+{:/}
