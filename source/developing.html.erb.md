@@ -117,18 +117,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 
 <div class="mark-up">
   <figure>
-    <figcaption>Search field using <abbr>WAI-ARIA</abbr></figcaption>
-    <% html_example do %>
-    <form action="" role="search">
-      <label for="search">Search</label>
-      <input type="search" aria-describedby="search-help">
-      <div id="search-help">Search records by customer id or name</div>
-      <input type="submit" value="Go">
-    </form>
-    <% end %>
-  </figure>
-  <figure>
-    <figcaption>HTML5 elements provide additional meaning and structure</figcaption>
+    <figcaption>Basic HTML adds structure to content; HTML5 elements provide additional meaning</figcaption>
     <% html_example do %>
     <section>
       <article>
@@ -144,6 +133,17 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
         </aside>
       </article>
     </section>
+    <% end %>
+  </figure>
+  <figure>
+    <figcaption>Search field using <abbr>WAI-ARIA</abbr></figcaption>
+    <% html_example do %>
+    <form action="" role="search">
+      <label for="search">Search</label>
+      <input type="search" aria-describedby="search-help">
+      <div id="search-help">Search records by customer id or name</div>
+      <input type="submit" value="Go">
+    </form>
     <% end %>
   </figure>
 </div>
@@ -185,6 +185,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 <%= example :start, :plural %>
 
 <div class="avoid-mistakes">
+  @@@Remove date example and use less nerdy phone example@@@
   <figure>
     <figcaption>Date field with formatting instructions</figcaption>
     <% html_example do %>
@@ -239,17 +240,17 @@ Ensure that the order of elements in the code matches the logical order of the i
 
 <div class="order">
   <figure>
-    <figcaption>Product presentation</figcaption>
+    <figcaption>Two approaches to coding presentation of a product</figcaption>
     <div>
       <article class="product">
         <h3 class="name">Space trainers</h3>
-        <img src="images/trainer.png" alt="Red high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
+        <img src="images/trainer.png" alt="Green high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
         <p class="desc">Space trainer for a classic and stylish look.</p>
         <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
       </article>
       <div class="two-column">
         <div class="fail">
-          <p><b>Approach 1:</b> Code order matches visual presentation, but is not logical.</p>
+          <p><b>Code order does not reflect reading order:</b> Order matches visual presentation, but is not logical.</p>
           <% code('html') do %>
 <img src="images/trainer.png" alt="...">
 <h3>Space trainers</h3>
@@ -258,7 +259,7 @@ Ensure that the order of elements in the code matches the logical order of the i
           <% end %>
         </div>
         <div class="pass">
-          <p><b>Approach 2:</b> Product title is logically viewed first, so presented first in code.</p>
+          <p><b>Code order reflects reading order:</b> Product title is logically viewed first, so presented first in code.</p>
           <% code('html') do %>
 <h3>Space trainers</h3>
 <img src="images/trainer.png" alt="...">
