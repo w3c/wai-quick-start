@@ -185,21 +185,12 @@ Be as forgiving of format as possible when processing user input. For example, a
 <%= example :start, :plural %>
 
 <div class="avoid-mistakes">
-  @@@Remove date example and use less nerdy phone example@@@
   <figure>
-    <figcaption>Date field with formatting instructions</figcaption>
+    <figcaption>Australian phone number field with forgiving validation</figcaption>
     <% html_example do %>
-      <label id="dob-label" for="dob" tabindex="-1">Date of birth:</label>
-      <input id="dob" type="date" name="dob" aria-labelledby="dob-label dob-format">
-      <p id="dob-format" tabindex="-1">dd/MMM/YYYY</p>
-    <% end %>
-  </figure>
-  <figure>
-    <figcaption>Phone number field with forgiving validation</figcaption>
-    <% html_example do %>
-      <label for="phone">Phone:</label>
-      <input id="phone" name="phone" type="tel" pattern="^[2-9]\d{2}[- ]?\d{3}[- ]?\d{4}$" aria-describedby="phone-desc">
-      <p id="phone-desc">US phone number, of the form ANN-NNN-NNNN, where the first digit is not 0 or 1</p>
+      <label for="phone">phone:</label>
+      <input id="phone" name="phone" type="tel" pattern="^(\(0[1-9]{1}\))?[0-9 -]{8}$" aria-describedby="phone-desc">
+      <p id="phone-desc">For example, (02) 1234 1234</p>
     <% end %>
   </figure>
 </div>
