@@ -100,7 +100,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="question fail">
-    <figcaption>Inaccessible test question using only color</figcaption>
+    <figcaption>Inaccessible test question using color only</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>

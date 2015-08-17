@@ -450,8 +450,7 @@ Ensure that instructions and guidance are clear and simple when action is requir
     <div>
       <ol class="fa-ul error-list">
         <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The username 'superbear' is already in use.</a></li>
-        <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The password needs to include at least one number.</a><br>
-        </li>
+        <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The password needs to include at least one number.</a></li>
       </ol>
     </div>
   </figure>
