@@ -35,7 +35,7 @@ Provide unique titles to describe the page content and purpose, and distinguishe
     <figcaption>Home page title</figcaption>
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
       <g transform="scale(1.2)">
-        <title id="page-title-1">Simple page title</title>
+        <title id="page-title-1">Home page title</title>
         <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
         <text transform="translate(10 15)">Space Teddy Inc.</text>
         <g transform="translate(333 4)">
