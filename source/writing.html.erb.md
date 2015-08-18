@@ -340,7 +340,7 @@ Assign alternative text to every image. Text must clearly describe the informati
   <figure>
     <figcaption>Good alternative text</figcaption>
     <div>
-      <p class="pass"><img src="images/goal.jpg" alt="Keeper dives left as the ball sails into the top right corner."> Raumbear SC win 3-2 against defending champions, with a last minute penalty goal clinching the victory.</p>
+      <p class="pass"><img src="images/goal.jpg" alt="Keeper dives to his left as the ball sails into the top right corner."> Raumbear SC win 3-2 against defending champions, with a last minute penalty goal clinching the victory.</p>
       <p><strong>Alternative text for image</strong>: 'Keeper dives left as the ball sails into the top right corner.'</p>
     </div>
   </figure>
