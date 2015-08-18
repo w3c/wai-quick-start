@@ -32,7 +32,7 @@ Provide unique titles to describe the page content and purpose, and distinguishe
 
 <div class="page-title">
   <figure>
-    <figcaption>Simple page title</figcaption>
+    <figcaption>Home page title</figcaption>
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
       <g transform="scale(1.2)">
         <title id="page-title-1">Simple page title</title>
