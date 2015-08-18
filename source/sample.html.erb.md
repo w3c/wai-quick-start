@@ -40,20 +40,20 @@ status: editors-draft
       <li>Overview: <span class="fa fa-paint-brush" style="font-size: 260%"></span>
           Heading: <span class="fa fa-paint-brush" style="font-size: 145%"></span>
           Section Nav: <span class="fa fa-paint-brush" style="font-size: 100%"></span>
-          <p><b>Pros</b>: Simple, clean, works well at all sizes, conveys visual design</p>
-          <p><b>Cons</b>: Does not covey interaction design</p>
+          <p><b>Pros</b>: Simple, clean, works well at all sizes</p>
+          <p><b>Cons</b>: Conveys only art/visual design; Does not covey interaction design at all, which is a significant part of this page</p>
       </li>
       <li>Overview: <img width="37" src="images/designing-large.png" alt="">
           Heading: <img width="22" src="images/designing-large.png" alt="">
           Section Nav: <img width="15" src="images/designing-small.png" alt="">
           <p><b>Pros</b>: Conveys design for a digital platform</p>
-          <p><b>Cons</b>: More complicated, difficult to understand at small sizes</p>
+          <p><b>Cons</b>: Not as clear at smallest size</p>
       </li>
       <li>Overview: <img width="37" src="images/designing-2-large.png" alt="">
           Heading: <img width="22" src="images/designing-2-large.png" alt="">
           Section Nav: <img width="15" src="images/designing-2-large.png" alt="">
-          <p><b>Pros</b>: Conveys interaction design</p>
-          <p><b>Cons</b>: More complicated, difficult to understand at small sizes, may not too much about interaction design</p>
+          <p><b>Pros</b>: Conveys page design</p>
+          <p><b>Cons</b>: More complicated, not clear at small sizes</p>
       </li>
     </ol>
     <p>Other icons considered:<br><br></p>
@@ -82,9 +82,8 @@ status: editors-draft
       <li>Overview: <span class="fa fa-bug" style="font-size: 260%"></span>
           Heading: <span class="fa fa-bug" style="font-size: 145%"></span>
           Section Nav: <span class="fa fa-bug" style="font-size: 100%"></span>
-          <p><b>Pros</b>: Simple, clean, works well at all sizes, common icon for QA activities</p>
-          <p><b>Cons</b>: May not be immediately understood by non-QA readers
-          </p>
+          <p><b>Pros</b>: Simple, clean, works well at all sizes; "bug" is common icon for programmer and QA</p>
+          <p><b>Cons</b>: Won't be immediately understood by all (some in EOWG thought of it as crawling through a website)          </p>
       </li>
     </ol>
     <p>Other icons considered:<br><br></p>
