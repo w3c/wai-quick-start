@@ -335,9 +335,9 @@ Provide feedback for interactions, such as confirming form submission, alerting 
     <figcaption>Example of prominent errors</figcaption>
     <div>
       <div class="error-list">
-        <p>Please correct the following errors.</p>
+        <p>Please correct the following errors:</p>
         <ol class="fa-ul">
-          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">You entered an invalid email</a></li>
+          <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('email5').focus()">Email address is invalid</a></li>
           <li id="error_comment"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
         </ol>
       </div>
