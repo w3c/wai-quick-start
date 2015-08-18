@@ -333,15 +333,15 @@ Assign alternative text to every image. Text must clearly describe the informati
   <figure>
     <figcaption>Poor alternative text</figcaption>
     <div>
-      <p class="fail"><img src="images/weather.jpg" alt="Umbrella in the sun"> Our insurance products provide you with comprehensive cover, whatever life brings.</p>
-      <p><strong>Alternative text for image</strong>: 'Umbrella in the sun'</p>
+      <p class="fail"><img src="images/goal.jpg" alt="goal.jpg"> Raumbear SC win 3-2 against defending champions, with a last minute penalty goal clinching the victory.</p>
+      <p><strong>Alternative text for image</strong>: 'goal.jpg'</p>
     </div>
   </figure>
   <figure>
     <figcaption>Good alternative text</figcaption>
     <div>
-      <p class="pass"><img src="images/weather.jpg" alt="Protecting you, come rain or shine"> Our insurance products provide you with comprehensive cover, whatever life brings.</p>
-      <p><strong>Alternative text for image</strong>: 'Protecting you, come rain or shine'</p>
+      <p class="pass"><img src="images/goal.jpg" alt="Keeper dives left as the ball sails into the top right corner."> Raumbear SC win 3-2 against defending champions, with a last minute penalty goal clinching the victory.</p>
+      <p><strong>Alternative text for image</strong>: 'Keeper dives left as the ball sails into the top right corner.'</p>
     </div>
   </figure>
 </div>
