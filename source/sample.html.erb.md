@@ -28,6 +28,10 @@ status: editors-draft
   #examples p:first-of-type {
     margin-top: 1em;
   }
+  #examples .other {
+    margin-left: 2em;
+    color: #595959;
+  }
 </style>
 
 <p>The different sizes reflect how the icon will look on the overview page, as a heading in a tip page, and in the section navigation within a tip page.</p>
@@ -56,25 +60,27 @@ status: editors-draft
           <p><b>Cons</b>: More complicated, not clear at small sizes</p>
       </li>
     </ol>
-    <p>Other icons considered:<br><br></p>
-    <ul>
-      <li>Overview: <span class="flaticon-compass56" style="font-size: 260%"></span>
-          Heading: <span class="flaticon-compass56" style="font-size: 145%"></span>
-          Section Nav: <span class="flaticon-compass56" style="font-size: 100%"></span>
-      </li>
-      <li>Overview: <span class="flaticon-design21" style="font-size: 260%"></span>
-          Heading: <span class="flaticon-design21" style="font-size: 145%"></span>
-          Section Nav: <span class="flaticon-design21" style="font-size: 100%"></span>
-      </li>
-      <li>Overview: <span class="flaticon-graphicseditor8" style="font-size: 260%"></span>
-          Heading: <span class="flaticon-graphicseditor8" style="font-size: 145%"></span>
-          Section Nav: <span class="flaticon-graphicseditor8" style="font-size: 100%"></span>
-      </li>
-      <li>Overview: <span class="flaticon-paintbrush2" style="font-size: 260%"></span>
-          Heading: <span class="flaticon-paintbrush2" style="font-size: 145%"></span>
-          Section Nav: <span class="flaticon-paintbrush2" style="font-size: 100%"></span>
-      </li>
-    </ul>
+    <div class="other">
+      <p>Other icons considered:<br><br></p>
+      <ul>
+        <li>Overview: <span class="flaticon-compass56" style="font-size: 260%"></span>
+            Heading: <span class="flaticon-compass56" style="font-size: 145%"></span>
+            Section Nav: <span class="flaticon-compass56" style="font-size: 100%"></span>
+        </li>
+        <li>Overview: <span class="flaticon-design21" style="font-size: 260%"></span>
+            Heading: <span class="flaticon-design21" style="font-size: 145%"></span>
+            Section Nav: <span class="flaticon-design21" style="font-size: 100%"></span>
+        </li>
+        <li>Overview: <span class="flaticon-graphicseditor8" style="font-size: 260%"></span>
+            Heading: <span class="flaticon-graphicseditor8" style="font-size: 145%"></span>
+            Section Nav: <span class="flaticon-graphicseditor8" style="font-size: 100%"></span>
+        </li>
+        <li>Overview: <span class="flaticon-paintbrush2" style="font-size: 260%"></span>
+            Heading: <span class="flaticon-paintbrush2" style="font-size: 145%"></span>
+            Section Nav: <span class="flaticon-paintbrush2" style="font-size: 100%"></span>
+        </li>
+      </ul>
+    </div>
   </li>
   <li>Evaluating
     <p>The bug icon </p>
@@ -86,34 +92,35 @@ status: editors-draft
           <p><b>Cons</b>: Won't be immediately understood by all (some in EOWG thought of it as crawling through a website)          </p>
       </li>
     </ol>
-    <p>Other icons considered:<br><br></p>
-    <ul>
-    
-      <li>Overview: <span class="fa fa-clipboard" style="font-size: 260%"></span>
-          Heading: <span class="fa fa-clipboard" style="font-size: 145%"></span>
-          Section Nav: <span class="fa fa-clipboard" style="font-size: 100%"></span>
-      </li>
-      <li>Overview: <span class="fa fa-clipboard" style="font-size: 260%"></span>
-          Heading: <span class="fa fa-clipboard" style="font-size: 145%"></span>
-          Section Nav: <span class="fa fa-clipboard" style="font-size: 100%"></span>
-      </li>
-      <li>Overview: <span class="flaticon-screen124" style="font-size: 260%"></span>
-          Heading: <span class="flaticon-screen124" style="font-size: 145%"></span>
-          Section Nav: <span class="flaticon-screen124" style="font-size: 100%"></span>
-      </li>
-      <li>Overview: <span class="flaticon-desktop20" style="font-size: 260%"></span>
-          Heading: <span class="flaticon-desktop20" style="font-size: 145%"></span>
-          Section Nav: <span class="flaticon-desktop20" style="font-size: 100%"></span>
-      </li>
-      <li>Overview: <span class="flaticon-magnifier24" style="font-size: 260%"></span>
-          Heading: <span class="flaticon-magnifier24" style="font-size: 145%"></span>
-          Section Nav: <span class="flaticon-magnifier24" style="font-size: 100%"></span>
-      </li>
-      <li>Overview: <span class="fa fa-heartbeat" style="font-size: 260%"></span>
-          Heading: <span class="fa fa-heartbeat" style="font-size: 145%"></span>
-          Section Nav: <span class="fa fa-heartbeat" style="font-size: 100%"></span>
-      </li>
-    </ul>
+    <div class="other">
+      <p>Other icons considered:<br><br></p>
+      <ul>
+        <li>Overview: <span class="fa fa-clipboard" style="font-size: 260%"></span>
+            Heading: <span class="fa fa-clipboard" style="font-size: 145%"></span>
+            Section Nav: <span class="fa fa-clipboard" style="font-size: 100%"></span>
+        </li>
+        <li>Overview: <span class="fa fa-clipboard" style="font-size: 260%"></span>
+            Heading: <span class="fa fa-clipboard" style="font-size: 145%"></span>
+            Section Nav: <span class="fa fa-clipboard" style="font-size: 100%"></span>
+        </li>
+        <li>Overview: <span class="flaticon-screen124" style="font-size: 260%"></span>
+            Heading: <span class="flaticon-screen124" style="font-size: 145%"></span>
+            Section Nav: <span class="flaticon-screen124" style="font-size: 100%"></span>
+        </li>
+        <li>Overview: <span class="flaticon-desktop20" style="font-size: 260%"></span>
+            Heading: <span class="flaticon-desktop20" style="font-size: 145%"></span>
+            Section Nav: <span class="flaticon-desktop20" style="font-size: 100%"></span>
+        </li>
+        <li>Overview: <span class="flaticon-magnifier24" style="font-size: 260%"></span>
+            Heading: <span class="flaticon-magnifier24" style="font-size: 145%"></span>
+            Section Nav: <span class="flaticon-magnifier24" style="font-size: 100%"></span>
+        </li>
+        <li>Overview: <span class="fa fa-heartbeat" style="font-size: 260%"></span>
+            Heading: <span class="fa fa-heartbeat" style="font-size: 145%"></span>
+            Section Nav: <span class="fa fa-heartbeat" style="font-size: 100%"></span>
+        </li>
+      </ul>
+    </div>
   </li>
   <li>Writing
     <ol>
