@@ -846,7 +846,7 @@ $wai_grey: #333333;
         }
       }
       .switch[aria-checked=false] {
-        background: $wai_red;
+        background: #bb0000;
         span {
           right: 12px;
           &:before {
