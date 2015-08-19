@@ -333,8 +333,8 @@ Assign alternative text to every image. Text must clearly describe the informati
   <figure>
     <figcaption>Poor alternative text</figcaption>
     <div>
-      <p class="fail"><img src="images/goal.jpg" alt="goal.jpg"> Raumbear SC win 3-2 against defending champions, with a last minute penalty goal clinching the victory.</p>
-      <p><strong>Alternative text for image</strong>: 'goal.jpg'</p>
+      <p class="fail"><img src="images/goal.jpg" alt="Goal!"> Raumbear SC win 3-2 against defending champions, with a last minute penalty goal clinching the victory.</p>
+      <p><strong>Alternative text for image</strong>: 'Goal!'</p>
     </div>
   </figure>
   <figure>
