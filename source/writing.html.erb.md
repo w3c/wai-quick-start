@@ -414,13 +414,7 @@ Ensure that instructions and guidance are clear and simple when action is requir
     <figcaption>Example of clear form instructions</figcaption>
     <div>
       <form action="">
-        <legend>Login details</legend>
-        <p>Provide a username and password to allow your application to be saved.</p>
         <p id="password-desc">Password should be at least six characters with at least one number (0-9).</p>
-        <div class="row">
-          <label for="username">Username</label>
-          <input type="text" id="username" name="username" value="">
-        </div>
         <div class="row">
           <label for="password">Password</label>
           <input aria-describedby="password-desc" type="password" id="username" name="username" value="">
