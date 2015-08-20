@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible user interface design and
 {:.attach_permalink}
 ## Provide sufficient contrast between foreground and background
 
-Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
+Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr>WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -47,9 +47,9 @@ Foreground text needs to have sufficient contrast with background colors. This i
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.4.3 Contrast (Minimum)](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
+* **<abbr>WCAG</abbr> Requirement**: [<abbr>SC</abbr> 1.4.3 Contrast (Minimum)](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
 * **How To**: [How to check contrast ratio](/WAI/eval/preliminary.html#contrast)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.4.3 Contrast (Minimum)](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
+* **Background**: [Understanding <abbr>SC</abbr> 1.4.3 Contrast (Minimum)](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
 * **User Story**: [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 * **Support Tools**: [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
@@ -156,8 +156,8 @@ While color can be useful to convey information, color should not be the only wa
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
+* **<abbr>WCAG</abbr> Requirement**: [<abbr>SC</abbr> 1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
+* **Background**: [Understanding <abbr>SC</abbr> 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
 * **User Story**: [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 
 {::nomarkdown}
@@ -217,12 +217,12 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
-  * [<abbr title="Success Criteria">SC</abbr> 2.4.7 Focus Visible](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible)
-  * [<abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality)
+* **<abbr>WCAG</abbr> Requirement**:
+  * [<abbr>SC</abbr> 2.4.7 Focus Visible](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible)
+  * [<abbr>SC</abbr> 3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality)
 * **Background**:
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html)
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
+  * [Understanding <abbr>SC</abbr> 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html)
+  * [Understanding <abbr>SC</abbr> 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
 * **User Story**:
   * [Challenges faced by someone with a limited ability to use a mouse](/WAI/intro/people-use-web/stories#reporter)
   * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#reporter)
@@ -245,12 +245,12 @@ Ensure that navigation across pages within a website has consistent naming, styl
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
-  * [<abbr title="Success Criteria">SC</abbr> 3.2.3 Consistent Navigation](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations)
-  * [<abbr title="Success Criteria">SC</abbr> 2.4.5 Multiple Ways](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc)
+* **<abbr>WCAG</abbr> Requirement**:
+  * [<abbr>SC</abbr> 3.2.3 Consistent Navigation](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations)
+  * [<abbr>SC</abbr> 2.4.5 Multiple Ways](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc)
 * **Background**:
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html)
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 2.4.5 Multiple Ways](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html)
+  * [Understanding <abbr>SC</abbr> 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html)
+  * [Understanding <abbr>SC</abbr> 2.4.5 Multiple Ways](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html)
 * **User Story**: [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
@@ -304,12 +304,12 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: 
-  * [<abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
-  * [<abbr title="Success Criteria">SC</abbr> 2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
+* **<abbr>WCAG</abbr> Requirement**: 
+  * [<abbr>SC</abbr> 3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
+  * [<abbr>SC</abbr> 2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
 * **Background**:
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
+  * [Understanding <abbr>SC</abbr> 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
+  * [Understanding <abbr>SC</abbr> 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
 * **Tutorial**: [Visual position of label text](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
 * **User Story**: [How clear labelling can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
@@ -372,9 +372,9 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.3.1 Error Identification](/WAI/WCAG20/quickref/#minimize-error-identified)
+* **<abbr>WCAG</abbr> Requirement**: [<abbr>SC</abbr> 3.3.1 Error Identification](/WAI/WCAG20/quickref/#minimize-error-identified)
 * **Tutorial**: [User Notifications](/WAI/tutorials/forms/notifications/)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.3.1 Error Identification](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html)
+* **Background**: [Understanding <abbr>SC</abbr> 3.3.1 Error Identification](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html)
 * **User Story**: [How making important content easily identifiable can help](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
@@ -488,9 +488,9 @@ Use whitespace and proximity to make relationships between content more apparent
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
+* **<abbr>WCAG</abbr> Requirement**: [<abbr>SC</abbr> 2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
 * **Tutorial**: [Headings](/WAI/tutorials/page-structure/headings/)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
+* **Background**: [Understanding <abbr>SC</abbr> 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
 * **User Story**: [Describes how headings can be helpful for navigation](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
@@ -595,9 +595,9 @@ Provide text which describes the purpose of each image. Images might convey info
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
+* **<abbr>WCAG</abbr> Requirement**: [<abbr>SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
 * **Tutorial**: [Images](/WAI/tutorials/images/)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
+* **Background**: [Understanding <abbr>SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
 * **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
@@ -632,13 +632,13 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
-  * [<abbr title="Success Criteria">SC</abbr> 1.4.2 Audio Control](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio)
-  * [<abbr title="Success Criteria">SC</abbr> 2.2.2 Pause, Stop, Hide](/WAI/WCAG20/quickref/#qr-time-limits-pause)
+* **<abbr>WCAG</abbr> Requirement**:
+  * [<abbr>SC</abbr> 1.4.2 Audio Control](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio)
+  * [<abbr>SC</abbr> 2.2.2 Pause, Stop, Hide](/WAI/WCAG20/quickref/#qr-time-limits-pause)
 * **Tutorial**: [Carousel Concepts](/WAI/tutorials/carousels/)
 * **Background**:
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 1.4.2 Audio Control](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html)
-  * [Understanding <abbr title="Success Criteria">SC</abbr> 2.2.2 Pause, Stop, Hide](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
+  * [Understanding <abbr>SC</abbr> 1.4.2 Audio Control](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html)
+  * [Understanding <abbr>SC</abbr> 2.2.2 Pause, Stop, Hide](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
 
 {::nomarkdown}
 <%= learn_more :end %>
