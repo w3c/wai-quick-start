@@ -451,9 +451,6 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 {:/}
 
 * **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#text-equiv-all)
-* **How To**:
-  * [Ensure keyboard control for all functionality](/TR/2014/NOTE-WCAG20-TECHS-20140916/G202)
-  * [Provide keyboard-triggered event handlers](/TR/2014/NOTE-WCAG20-TECHS-20140916/G90)
 * **Background**:
   * [Understanding <abbr title="Success Criteria">SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
   * [Note on CAPTCHA](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#text-equiv-all-8-head)
