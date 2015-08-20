@@ -333,20 +333,6 @@ Assign alternative text to every image. Text must clearly describe the informati
   <figure>
     <figcaption>Poor alternative text</figcaption>
     <div>
-      <p class="fail"><img src="images/goal.jpg" alt="Goal!"> Penalty clinches victory for Raumbear SC.</p>
-      <p><strong>Alternative text for image</strong>: 'Goal!'</p>
-    </div>
-  </figure>
-  <figure>
-    <figcaption>Good alternative text</figcaption>
-    <div>
-      <p class="pass"><img src="images/goal.jpg" alt="Keeper dives to his right as the ball sails into the top left corner."> Penalty clinches victory for Raumbear SC.</p>
-      <p><strong>Alternative text for image</strong>: 'Keeper dives to his right as the ball sails into the top left corner.'</p>
-    </div>
-  </figure>
-  <figure>
-    <figcaption>Poor alternative text</figcaption>
-    <div>
       <p class="fail"><img src="images/phone_charging.png" alt="Charging phone" title="Image temporarily borrowed from Apple iPhone user manual"> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
       <p><strong>Alternative text for image</strong>: 'Charging phone'</p>
     </div>
