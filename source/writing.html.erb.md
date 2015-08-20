@@ -112,10 +112,10 @@ Use clear and simple headings to group related paragraphs. Headings should usual
 
 <div class="heading-structure two-column">
   <figure>
-    <figcaption><a id="no-headings-modal" class="modal-open" href="javascript:return false"><img src="images/headings-poor.png" alt=""><br>Content presented without headings</a></figcaption>
-    <div id="no-headings-modal-overlay" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="no-headings-modal-title">
-      <div id="no-headings-modal-holder" class="modal-holder">
-        <h2 id="no-headings-modal-title" class="modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
+    <figcaption><a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><img src="images/headings-poor.png" alt=""><br>Content presented without headings</a></figcaption>
+    <div id="no-headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="no-headings-modal-title">
+      <div id="no-headings-modal-holder">
+        <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
 
         <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
 
@@ -134,11 +134,11 @@ Use clear and simple headings to group related paragraphs. Headings should usual
     </div>
   </figure>
   <figure>
-    <figcaption><a id="headings-modal" class="modal-open" href="javascript: return false"><img src="images/headings-good.png" alt=""><br>Headings used to split content and group topics</a></figcaption>
+    <figcaption><a id="headings-modal" class="modal-open" href="#headings-modal-holder"><img src="images/headings-good.png" alt=""><br>Headings used to split content and group topics</a></figcaption>
     
-    <div id="headings-modal-overlay" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="headings-modal-title">
-      <div id="headings-modal-holder" class="modal-holder">
-        <h2 id="headings-modal-title" class="modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
+    <div id="headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="headings-modal-title">
+      <div id="headings-modal-holder">
+        <h2 id="headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
       
         <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
 

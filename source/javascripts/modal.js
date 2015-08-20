@@ -27,11 +27,37 @@ swap();
   closeButtonTemplate.setAttribute('aria-label', 'close');
   closeButtonTemplate.innerHTML = '&times;';
   
-  // Let's cut down on what we need to type to get an ID
+  // Cut down on what we need to type to get an ID
   function getById ( id ) {
     return document.getElementById(id);
   }
   
+  // Class list manipulation functions
+  function addclass(el, className) {
+    if (el.classList) {
+      el.classList.add(className);
+    } else {
+      if(! hasclass(el, className)){
+        el.className += ' ' + className;
+      }
+    }
+  }
+
+  function removeclass(el, className) {
+    if (el.classList) {
+      el.classList.remove(className);
+    } else {
+      el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    }
+  }
+
+  function hasclass(el, className) {
+    if (el.classList) {
+      return el.classList.contains(className);
+    } else {
+      return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+    }
+  }
 
   // Get the modal root id
   function getModalId ( id ) {
@@ -80,9 +106,15 @@ swap();
   }
 
 
-  // Add a modal open event to any tagged item
+  // Add a modal open event to any tagged item and set up the classes
   var mOpens = document.querySelectorAll('.modal-open');
-  Array.prototype.forEach.call(mOpens, function(el, i) {  
+  Array.prototype.forEach.call(mOpens, function(el, i) {
+    // Add modal classes to various containters
+    addclass(getById(el.id+'-overlay'), 'modal-overlay');
+    addclass(getById(el.id+'-holder'), 'modal-holder');
+    addclass(getById(el.id+'-title'), 'modal-title');
+
+    // Add a event listener to show the modal
     el.addEventListener('click', modalShow);
     
     // Add in a close button
