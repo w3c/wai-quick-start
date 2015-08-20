@@ -344,6 +344,20 @@ Assign alternative text to every image. Text must clearly describe the informati
       <p><strong>Alternative text for image</strong>: 'Keeper dives to his right as the ball sails into the top left corner.'</p>
     </div>
   </figure>
+  <figure>
+    <figcaption>Poor alternative text</figcaption>
+    <div>
+      <p class="fail"><img src="images/phone_charging.png" alt="Phone on charge" title="Image temporarily borrowed from Apple iPhone user manual"> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor.</p>
+      <p><strong>Alternative text for image</strong>: 'Goal!'</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>Good alternative text</figcaption>
+    <div>
+      <p class="pass"><img src="images/phone_charging.png" alt="Charger fits into the bottom edge of the phone." title="Image temporarily borrowed from Apple iPhone user manual"> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor.</p>
+      <p><strong>Alternative text for image</strong>: 'Charger fits into the bottom edge of the phone.'</p>
+    </div>
+  </figure>
 </div>
 
 <%= example :end %>
