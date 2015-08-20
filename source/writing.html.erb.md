@@ -415,8 +415,7 @@ Ensure that instructions and guidance are clear and simple when action is requir
     <div>
       <form action="">
         <legend>Login details</legend>
-        <p>Provide a username and password to allow your application to be saved.</p>
-        <p id="password-desc">Your password should be at least six characters and contain at least one number (0-9).</p>
+        <p id="password-desc">Select a password with at least six characters and at least one number (0-9).</p>
         <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
         <div class="row">
           <label class="required" for="username">Username ✻</label>
