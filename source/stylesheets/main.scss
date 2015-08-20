@@ -784,11 +784,6 @@ $wai_grey: #333333;
       .two-column {
         margin-top: 2em;
       }
-      .fail, .pass {
-        b {
-          color: $wai_red;
-        }
-      }
       @include mq($medium) {
         .fail {
           margin-right: 3em;
