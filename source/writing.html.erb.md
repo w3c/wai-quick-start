@@ -416,14 +416,13 @@ Ensure that instructions and guidance are clear and simple when action is requir
       <form action="">
         <legend>Login details</legend>
         <p>Provide a username and password to allow your application to be saved.</p>
-        <p id="password-desc">Your password should be at least six characters and contain at least one number (0-9).</p>
-        <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
+        <p id="password-desc">Password should be at least six characters with at least one number (0-9).</p>
         <div class="row">
-          <label class="required" for="username">Username ✻</label>
+          <label for="username">Username</label>
           <input type="text" id="username" name="username" value="">
         </div>
         <div class="row">
-          <label class="required" for="password">Password ✻</label>
+          <label for="password">Password</label>
           <input aria-describedby="password-desc" type="password" id="username" name="username" value="">
         </div>
       </form>
