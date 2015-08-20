@@ -22,9 +22,27 @@ These tips will help you improve your accessibility evaluation process.
 {:/}
 
 {:.attach_permalink}
-## Perform initial cursory check to identify obvious issues
+## Evaluate early and throughout the process
 
-Begin with a quick accessibility check to identify obvious issues. Results of such an evaluation will help determine the extent of any accessibility issues. Aim to identify accessibility issues as early as possible to reduce the cost of implementing solutions.
+Evaluate accessibility from the earliest inception and redesign stages of a website. For example, evaluate the inclusion of accessibility considerations in the mission statement, target audience, personas, and other planning resources. Evaluate accessibility implementation throughout the remaining design and development process using a combination of cursory and comprehensive checks. The later an issue is identified, the more difficult it will be to address it, especially when issues relate to the principal design.
+
+{::nomarkdown}
+<%= learn_more %>
+{:/}
+
+{::nomarkdown}
+<%= learn_more :end %>
+{:/}
+
+{::nomarkdown}
+<%= tip :end %>
+<%= tip %>
+{:/}
+
+{:.attach_permalink}
+## Perform cursory checks
+
+Many accessibility checks can be carried out right away, also by non-technical people such as content writers. While such cursory checking does not substitute for more comprehensive evaluation, it helps to understand the overall situation and plan for accessibility. Cursory checks also help identify key issues and avoid obvious mistakes during the design and development process. Everyone involved in the process should perform cursory checks.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -42,13 +60,16 @@ Begin with a quick accessibility check to identify obvious issues. Results of su
 {:/}
 
 {:.attach_permalink}
-## Select tools to assist in testing
+## Carry out comprehensive evaluation
 
-Software tools can help assist in determining compliance with assistive technologies, and support large-scale content reviews across an entire website. Tools are often specialized, such as a color contrast checker, and may not cover every aspect of accessibility. Avoid misrepresenting results by understanding the limitations and strengths of selected tools.
+Carry out comprehensive evaluation at key stages, such as before go-live, and periodically, to ensure that it meets the set accessibility requirements. Use a standard reporting template for evaluations, to allow for easy comparison throughout a project and across similar projects. Also capture and communicate commonly identified issues to support development teams in avoiding errors.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* http://www.w3.org/WAI/eval/report-tool/
+* http://www.w3.org/WAI/eval/template.html
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -60,13 +81,16 @@ Software tools can help assist in determining compliance with assistive technolo
 {:/}
 
 {:.attach_permalink}
-## Use a standard reporting template for evaluations
+## Use web accessibility evaluation tools
 
-Develop a standard report template so that repeated evaluations are comparable. Include a summary of findings, to allow for easy comparison throughout a project and across similar projects. Ensure that any report template covers every point in the accessibility guidelines accepted by the organization. Include space to capture details of what was evaluated and how the evaluation was performed, for example tools used, specific test data.
+While most accessibility aspects cannot be automatically checked, evaluation tools can assist throughout the design, development, and maitainance process. For example, some evaluation tools specialize on specific aspects, such as color contrast checking, while others focus on large-scale evaluation of entire websites. It is important to understand the strengths and limitation of such tools, and how they fit into your workflow.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* http://www.w3.org/WAI/eval/selectingtools
+* http://www.w3.org/WAI/ER/tools/index.html
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -78,13 +102,15 @@ Develop a standard report template so that repeated evaluations are comparable. 
 {:/}
 
 {:.attach_permalink}
-## Maintain a record of commonly identified issues
+## Involve users with disabilities
 
-Seek to capture commonly identified issues and suggested solutions to aide subsequent development efforts. Provide a learning tool for development teams so that repetition of errors is reduced.
+Seek feedback from people with disabilities. This includes informal checking by individual users and formal usability testing with a panel of users. This helps identify subtle issues that are not easy to identify, even by experienced accessibility evaluators. Beware that processing feedback from users can be difficult and misleading without the involvement of usability professionals.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* http://www.w3.org/WAI/eval/users.html
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -96,13 +122,15 @@ Seek to capture commonly identified issues and suggested solutions to aide subse
 {:/}
 
 {:.attach_permalink}
-## Evaluate early and throughout development
+## Use combined expertise
 
-Run evaluations as early as possible, even during the design phase. This will not identify all issues but should aim to catch relevant issues early to reduce the cost to fix. Perform thorough evaluations at key development milestones or when functional components are completed.
+Evaluating web accessibility requires diverse kinds of skills and expertise. For example, some requirements relate to the design, writing, and development aspects of a website, while others relate to assistive technologies and their use by people with disabilities. Sharing evaluation tasks in a team of reviewers can help make evaluation more effective and efficient.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* http://www.w3.org/WAI/eval/reviewteams
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -114,27 +142,9 @@ Run evaluations as early as possible, even during the design phase. This will no
 {:/}
 
 {:.attach_permalink}
-## Run evaluation sessions with real people
+## Seek external help where necessary
 
-Seek feedback from people with disabilities on any materials being evaluated. This will help identify subtle issues and will highlight the impact of any barriers. Be aware that every user is different. A problem for one user may just be due to their technology or skill level. Encourage members of the project team to observe sessions as it helps build understanding of the importance of accessibility.
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Ensure final comprehensive evaluation
-
-Run a full, comprehensive evaluation before go-live. Aim to cover all key website functions, all templates, and a reasonable sample of general content pages. Evaluation should check each point in the accessibility guidelines accepted by the organization. Ensure that there is sufficient development time to address any issues with key content.
+In some cases development teams might not have the full skilset needed to carry out evaluation during each stage of the design and development process, so that it might be more effective to seek external help for these steps. For example, accessibility consultants could carry out an initial comprehensive evaluation as input into a resign project.
 
 {::nomarkdown}
 <%= learn_more %>
