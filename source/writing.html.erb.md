@@ -192,89 +192,6 @@ Use clear and simple headings to group related paragraphs. Headings should usual
 {:/}
 
 {:.attach_permalink}
-##  Keep content clear and concise 
-
-{::nomarkdown}
-<%= related_issues 129 %>
-{:/}
-
-Write in short, clear sentences and paragraphs, as appropriate for the context. Front-load important messages. Split complex prose into a few short sentences. Try and keep paragraphs to a single idea.
- 
-{::nomarkdown}
-<%= example %>
-
-<div class="clear-concise two-column">
-  <figure>
-    <figcaption>Complex text</figcaption>
-    <div>
-      <p class="fail">In the event of a vehicular collision, a company assigned representative will investigate to ascertain the cause and extent of damages to property belonging to the parties involved. Once cause, damages, and responsibility have been established, we will assign monetary remuneration accordingly.</p>
-    </div>
-  </figure>
-  <figure>
-    <figcaption>Clear and simple text</figcaption>
-    <div>
-      <p class="pass">If you are involved in a car accident, an agent will investigate. Those findings will determine the payment of claims.</p>
-    </div>
-  </figure>
-</div>
-
-<%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.1.5 Reading Level](/WAI/WCAG20/quickref/#meaning-supplements)
-* **How To**: [Make the text easier to read](/TR/2014/NOTE-WCAG20-TECHS-20140916/G153)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.1.5 Reading Level](/TR/UNDERSTANDING-WCAG20/meaning-supplements.html)
-* **User Story**: [User with reading disabilities benefits from easy to read text](/WAI/intro/people-use-web/stories#classroomstudent)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
-## Avoid using overly complex words and phrases
-
-{::nomarkdown}
-<%= related_issues 130 %>
-{:/}
-
-Avoid using words more complicated than the audience needs. Some topics may require complex terminology, such as medical or engineering texts, but simpler forms may still be possible. Provide a glossary when content includes unfamiliar terms. 
-
-{::nomarkdown}
-<%= example %>
-{:/}
-
-[... Example using medical terminology against layman terminology... ]
-
-{::nomarkdown}
-<%= example :end %>
-{:/}
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
-
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.1.3 Unusual Words](/WAI/WCAG20/quickref/#meaning-idioms)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.1.3 Unusual Words](/TR/UNDERSTANDING-WCAG20/meaning-idioms.html)
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
-
-{::nomarkdown}
-<%= tip :end %>
-<%= tip %>
-{:/}
-
-{:.attach_permalink}
 ## Make link text meaningful
 
 Write link text so that it would make sense out of context. Link text should describe the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Indicate the document type and approximate size in the link text when the link target is not HTML. 
@@ -457,19 +374,47 @@ Ensure that instructions and guidance are clear and simple when action is requir
 {:/}
 
 {:.attach_permalink}
-## Expand acronyms on first use
+## Keep content clear and concise
 
-Expand acronyms the first time they are used on a page. Follow the expansion with the acronym. Some extremely common acronyms may be better known than the expanded form, for example, BBC, or HTML. In such cases, an expansion may not be necessary. Avoid assuming internal organizational acronyms are as well known.
+{::nomarkdown}
+<%= related_issues 158 %>
+{:/}
+
+Use simple language and formatting, as appropriate for the context.
+
+* **Write in short, clear sentences and paragraphs.**
+
+* **Avoid using overly complex words and phrases.** Consider providing a glossary for terms readers may not know.
+
+* **Expand acronyms on first use.** For example, Web Content Accessibility Guidelines (WCAG).
+
+* **Use list formatting as appropriate.**
+
+* **Use images to reinforce information presented in text.**
 
 {::nomarkdown}
 <%= example %>
 {:/}
 
-<div class="">
+
+<div class="two-column">
   <figure>
-    <figcaption>Example paragraph introducing and then referencing an acronym</figcaption>
+    <figcaption>Less readable and understandable text</figcaption>
     <div>
-      <p>Since the passage of the Communications and Video Accessibility Act (CVAA), we have seen increased use of auto generated captions. While this may be well-intentioned, auto-captioning is still quite unreliable and error-prone and does not usually fulfill the intention of the <abbr title="Communications and Video Accessibility Act">CVAA</abbr> legislation.</p>
+      <p class="fail">CPPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to the parties involved. Once we obtain information that causes us to understand the causality, we will assign monetary remuneration accordingly. The resulting decision may result in one of the following options: claim is rejected, claim requires additional information for further processing, claim is partially approved and payment is issued, or claim in approved and payment is issued.</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>More readable and understandable text</figcaption>
+    <div>
+      <p class="pass">Claims Processing and Payment Procedure (CPPP): If you are involved in a car accident, an agent will investigate. Those findings will determine the payment of claims. The decision may result in:</p>
+      <ul>
+        <li>claim is rejected</li>
+        <li>claim requires additional information for further processing</li>
+        <li>claim is partially approved and payment is issued</li>
+        <li>claim in approved and payment is issued</li>
+      </ul>
+      <p>[... include image to show process ...]</p>
     </div>
   </figure>
 </div>
@@ -482,9 +427,18 @@ Expand acronyms the first time they are used on a page. Follow the expansion wit
 <%= learn_more %>
 {:/}
 
-* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**: [<abbr title="Success Criteria">SC</abbr> 3.1.4 Abbreviations](/WAI/WCAG20/quickref/#meaning-located)
-* **How To**: [Provide abbreviations](/TR/2014/NOTE-WCAG20-TECHS-20140916/G97)
-* **Background**: [Understanding <abbr title="Success Criteria">SC</abbr> 3.1.4 Abbreviations](/TR/UNDERSTANDING-WCAG20/meaning-located.html)
+* **<abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Requirement**:
+  * [<abbr title="Success Criteria">SC</abbr> 3.1.5 Reading Level](/WAI/WCAG20/quickref/#meaning-supplements)
+  * [<abbr title="Success Criteria">SC</abbr> 3.1.3 Unusual Words](/WAI/WCAG20/quickref/#meaning-idioms)
+  * [<abbr title="Success Criteria">SC</abbr> 3.1.4 Abbreviations](/WAI/WCAG20/quickref/#meaning-located)
+* **How To**:
+  * [Make the text easier to read](/TR/2014/NOTE-WCAG20-TECHS-20140916/G153)
+  * [Provide abbreviations](/TR/2014/NOTE-WCAG20-TECHS-20140916/G97)
+* **Background**:
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.1.5 Reading Level](/TR/UNDERSTANDING-WCAG20/meaning-supplements.html)
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.1.3 Unusual Words](/TR/UNDERSTANDING-WCAG20/meaning-idioms.html)
+  * [Understanding <abbr title="Success Criteria">SC</abbr> 3.1.4 Abbreviations](/TR/UNDERSTANDING-WCAG20/meaning-located.html)
+* **User Story**: [User with reading disabilities benefits from easy to read text](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
 <%= learn_more :end %>
