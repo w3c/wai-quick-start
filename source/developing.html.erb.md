@@ -117,7 +117,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 
 <div class="mark-up">
   <figure>
-    <figcaption>Provide structure and meaning with HTML5 elements</figcaption>
+    <figcaption>Provide structure and meaning with HTML elements</figcaption>
     <% html_example do %>
     <section>
       <article>
