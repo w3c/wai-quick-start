@@ -25,7 +25,7 @@ These introductory tips cover the basics of writing web accessible content.
 <%= related_issues 161 %>
 {:/}
 
-Provide unique titles to describe the page content and purpose, and distinguishes it from other pages. If including the organization's name in the title, it should usually go at the end. For pages that are part of a group, such as a multi-step process, include the stage in the page title.
+Provide unique titles to describe the page content and purpose, and to distinguish it from other pages. Lead with the most relevant information. For example, provide the name of the particular page ahead of the name of the organization. Also, include in the page title the current step in multi-step forms, and the current page in multi-page resources.
 
 {::nomarkdown}
 <%= example %>
@@ -105,7 +105,7 @@ Provide unique titles to describe the page content and purpose, and distinguishe
 <%= related_issues 131, 62 %>
 {:/}
 
-Use clear and simple headings to group related paragraphs. Headings should usually be short and introduce or summarize a section of text.
+Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline and structure of the information presented.
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -194,7 +194,7 @@ Use clear and simple headings to group related paragraphs. Headings should usual
 {:.attach_permalink}
 ## Make link text meaningful
 
-Write link text so that it would make sense out of context. Link text should describe the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Indicate the document type and approximate size in the link text when the link target is not HTML. 
+Write link text so that it describes the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Indicate the document type and approximate size in the link text where relevant. 
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -241,7 +241,7 @@ Write link text so that it would make sense out of context. Link text should des
 {:.attach_permalink}
 ## Provide text alternatives for images
 
-Assign alternative text to every image. Text must clearly describe the information or function represented by the image. Use empty alternative text when an image is purely decorative.
+Assign alternative text to every image, to clearly describe the information or function represented by the image. Use empty alternative text when an image is purely decorative.
 
 {::nomarkdown}
 <%= example %>
@@ -291,7 +291,7 @@ Assign alternative text to every image. Text must clearly describe the informati
 <%= related_issues 163 %>
 {:/}
 
-For audio-only content, such a podcast, provide transcripts. Include everything that is spoken, and descriptions of sounds that are important for understanding the content, for example 'squeaking door'. Provide this information, including the audio description, as captions when audio is used to accompany visual content, such as animations and video. The requirements vary for pre-recorded and live content.
+For audio-only content, such a podcast, provide transcripts. Include everything that is spoken, and descriptions of sounds that are important for understanding the content, for example 'squeaking door'. Provide this information, including the description of sounds, as captions when audio is used to accompany visual content, such as animations and video. The requirements vary for pre-recorded and live content.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -321,7 +321,7 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 <%= related_issues 114 %>
 {:/}
 
-Ensure that instructions and guidance are clear and simple when action is required, such as on forms. Provide links to related activities to help readers who may be lost. Avoid technical language when problems arise, for example, in form errors.
+Ensure that instructions and guidance, such as on forms, are clear and simple to understand. Provide information about any input requirements, such as date formats. Clearly indicate any errors and link to them, and avoid using technical language in error messages and feedback.
 
 {::nomarkdown}
 <%= example :start %>
