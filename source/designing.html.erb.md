@@ -389,10 +389,6 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 {:.attach_permalink}
 ## Use spacing and headings to group related content
 
-{::nomarkdown}
-<%= related_issues 107 %>
-{:/}
-
 Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand.
 
 {::nomarkdown}
@@ -546,10 +542,6 @@ Consider how page information is presented in different sized viewports, such as
 
 {:.attach_permalink}
 ## Provide alternative text for images
-
-{::nomarkdown}
-<%= related_issues 78 %>
-{:/}
 
 Provide text which describes the purpose of each image. Images might convey information, provide decoration, or support functionality. Alternative text is not needed for purely decorative images that don't add information to the page.
 

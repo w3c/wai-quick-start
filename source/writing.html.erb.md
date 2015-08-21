@@ -21,10 +21,6 @@ These introductory tips cover the basics of writing web accessible content.
 {:.attach_permalink}
 ## Provide informative, unique page titles
 
-{::nomarkdown}
-<%= related_issues 161 %>
-{:/}
-
 Provide unique titles to describe the page content and purpose, and to distinguish it from other pages. Lead with the most relevant information. For example, provide the name of the particular page ahead of the name of the organization. Also, include in the page title the current step in multi-step forms, and the current page in multi-page resources.
 
 {::nomarkdown}
@@ -100,10 +96,6 @@ Provide unique titles to describe the page content and purpose, and to distingui
 
 {:.attach_permalink}
 ## Use headings to convey meaning and structure 
-
-{::nomarkdown}
-<%= related_issues 131, 62 %>
-{:/}
 
 Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline and structure of the information presented.
 
@@ -287,10 +279,6 @@ Assign alternative text to every image, to clearly describe the information or f
 {:.attach_permalink}
 ## Provide transcripts and captions for multimedia
 
-{::nomarkdown}
-<%= related_issues 163 %>
-{:/}
-
 For audio-only content, such a podcast, provide transcripts. Include everything that is spoken, and descriptions of sounds that are important for understanding the content, for example 'squeaking door'. Provide this information, including the description of sounds, as captions when audio is used to accompany visual content, such as animations and video. The requirements vary for pre-recorded and live content.
 
 {::nomarkdown}
@@ -316,10 +304,6 @@ For audio-only content, such a podcast, provide transcripts. Include everything 
 
 {:.attach_permalink}
 ## Provide clear instructions
-
-{::nomarkdown}
-<%= related_issues 114 %>
-{:/}
 
 Ensure that instructions and guidance, such as on forms, are clear and simple to understand. Provide information about any input requirements, such as date formats. Clearly indicate any errors and link to them, and avoid using technical language in error messages and feedback.
 

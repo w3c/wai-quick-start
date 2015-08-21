@@ -119,19 +119,6 @@ helpers do
     end
   end
 
-  def example_issues(*issues)
-    if issues.length > 0
-      issues_links = issues.collect { |issue_id|
-        '<a href="https://github.com/w3c/wai-quick-start/issues/' + issue_id.to_s + '">' + issue_id.to_s + '</a>'
-      }
-      if issues.length > 1
-        issues_links[-1] = 'and ' + issues_links[-1]
-      end
-
-      '<div class="related-issue"><i class="fa fa-github"></i><strong>Comment on Example in GitHub:</strong> ' + (issues.length == 2 ? issues_links.join(' ') : issues_links.join(', ')) + '</div>'
-    end
-  end
-
   def html_example(&code)
     return unless block_given?
     
