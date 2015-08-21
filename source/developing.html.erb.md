@@ -90,13 +90,19 @@ Ensure that alternative text for images is added to all informative and function
 <%= related_issues 146 %>
 {:/}
 
-Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs the rest of the page.
+Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs from the rest of the page.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
 
+* **<abbr>WCAG</abbr> Requirement**:
+  * [<abbr>SC</abbr> 3.1.1 Language of Page](/WAI/WCAG20/quickref/#meaning-doc-lang-id)
+  * [<abbr>SC</abbr> 3.1.2 Language of Parts](/WAI/WCAG20/quickref/#meaning-other-lang-id)
 * **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
+* **Background**:
+  * [Understanding <abbr>SC</abbr> 3.1.1 Language of Page](/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html)
+  * [Understanding <abbr>SC</abbr> 3.1.2 Language of Parts](/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html)
 
 {::nomarkdown}
 <%= learn_more :end %>
