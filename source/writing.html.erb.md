@@ -5,7 +5,7 @@ icon: pencil
 layout: guide
 ---
 
-This page helps you get started writing web content that is more accessible to people with disabilities. These tips introduce some basic accessibility considerations. Each tip includes links to related <a href="@@ linke to 'About WCAG' section on this page">WCAG</a> requirements and resources to help you understand and implement the tip.
+This page helps you get started writing web content that is more accessible to people with disabilities. These tips introduce some basic accessibility considerations. Each tip includes links to related <a href="#what-is-wcag"><abbr>WCAG</abbr></a> requirements and resources to help you understand and implement the tip.
 
 
 {:.toc .no_toc}
