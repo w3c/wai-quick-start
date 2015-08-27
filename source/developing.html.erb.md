@@ -186,7 +186,7 @@ Be as forgiving of format as possible when processing user input. For example, a
     <figcaption>Australian phone number field with forgiving validation</figcaption>
     <% html_example do %>
       <label for="phone">Phone:</label>
-      <input id="phone" name="phone" type="tel" pattern="^(\(0[1-9]{1}\))?[0-9 -]{8}$" aria-describedby="phone-desc">
+      <input id="phone" name="phone" type="tel" pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$" aria-describedby="phone-desc">
       <p id="phone-desc">For example, (02) 1234 1234</p>
     <% end %>
   </figure>
