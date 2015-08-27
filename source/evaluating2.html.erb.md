@@ -7,10 +7,6 @@ layout: guide
 
 These tips will help you improve your accessibility evaluation process.
 
-{::nomarkdown}
-<%= related_issues 50 %>
-{:/}
-
 {:.toc .no_toc}
 ## On this page
 
@@ -22,9 +18,9 @@ These tips will help you improve your accessibility evaluation process.
 {:/}
 
 {:.attach_permalink}
-## Perform initial cursory check to identify obvious issues
+## Begin with coarse accessibility checks to gain first impressions and experiences
 
-Begin with a quick accessibility check to identify obvious issues. Results of such an evaluation will help determine the extent of any accessibility issues. Aim to identify accessibility issues as early as possible to reduce the cost of implementing solutions.
+Many accessibility checks can be carried out right away with experience in web accessibility, also by non-technical people such as content writers. While such cursory checking does not substitute for more comprehensive evaluation, it helps to understand the overall situation and plan for accessibility. Cursory checks also help identify key issues and avoid obvious mistakes during the design and development process.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -42,13 +38,15 @@ Begin with a quick accessibility check to identify obvious issues. Results of su
 {:/}
 
 {:.attach_permalink}
-## Select tools to assist in testing
+## Involve and learn from real users with disabilities
 
-Software tools can help assist in determining compliance with assistive technologies, and support large-scale content reviews across an entire website. Tools are often specialized, such as a color contrast checker, and may not cover every aspect of accessibility. Avoid misrepresenting results by understanding the limitations and strengths of selected tools.
+Seek feedback from people with disabilities. This includes informal checking by individual users and formal usability testing with a panel of users. This helps identify subtle issues that are not easy to identify, even by experienced accessibility evaluators. Beware that processing feedback from users can be difficult and misleading without the involvement of usability professionals.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* [Involving users](/WAI/users/involving): Provides advice on involving users with disability in design and development
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -60,13 +58,15 @@ Software tools can help assist in determining compliance with assistive technolo
 {:/}
 
 {:.attach_permalink}
-## Use a standard reporting template for evaluations
+## Use How To Meet WCAG 2.0 customizable quick reference to check your implementations
 
-Develop a standard report template so that repeated evaluations are comparable. Include a summary of findings, to allow for easy comparison throughout a project and across similar projects. Ensure that any report template covers every point in the accessibility guidelines accepted by the organization. Include space to capture details of what was evaluated and how the evaluation was performed, for example tools used, specific test data.
+@@@ TBD
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* [How to Meet WCAG 2.0](/WAI/WCAG20/quickref/): Customizable quick reference for WCAG 2.0
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -78,13 +78,16 @@ Develop a standard report template so that repeated evaluations are comparable. 
 {:/}
 
 {:.attach_permalink}
-## Maintain a record of commonly identified issues
+## Use evaluation tools to support your work and to learn from
 
-Seek to capture commonly identified issues and suggested solutions to aide subsequent development efforts. Provide a learning tool for development teams so that repetition of errors is reduced.
+While most accessibility aspects cannot be checked automatically, evaluation tools can assist throughout the design, development, and maitainance process. For example, some evaluation tools specialize on specific aspects, such as color contrast checking, while others focus on large-scale evaluation of entire websites. It is important to understand the strengths and limitation of such tools, and how they fit into your workflow.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* [Selecting Tools](/WAI/eval/selectingtools): Advice on selecting web accessibility evaluation tools for your particular needs
+* [Tools List](/WAI/ER/tools/): Sortable list of web accessibility evaluation tools
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -96,13 +99,17 @@ Seek to capture commonly identified issues and suggested solutions to aide subse
 {:/}
 
 {:.attach_permalink}
-## Evaluate early and throughout development
+## Perform comprehensive checks at key stages
 
-Run evaluations as early as possible, even during the design phase. This will not identify all issues but should aim to catch relevant issues early to reduce the cost to fix. Perform thorough evaluations at key development milestones or when functional components are completed.
+Carry out comprehensive evaluation at key stages, such as before go-live, and periodically, to ensure that it meets the set accessibility requirements. Use a standard reporting template for evaluations, to allow for easy comparison throughout a project and across similar projects. Also capture and communicate commonly identified issues to support development teams in avoiding errors.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* [WCAG-EM](/WAI/eval/conformance): Conformance evaluation using the Website Accessibility Conformance Evaluation Methodology (WCAG-EM)
+* [Report Tool](/WAI/eval/report-tool/): WCAG-EM report tool
+* [Template](/WAI/eval/template): Template for web accessibility evaluation
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -114,13 +121,15 @@ Run evaluations as early as possible, even during the design phase. This will no
 {:/}
 
 {:.attach_permalink}
-## Run evaluation sessions with real people
+## Evaluate usability of accessibility features with people with disabilities
 
-Seek feedback from people with disabilities on any materials being evaluated. This will help identify subtle issues and will highlight the impact of any barriers. Be aware that every user is different. A problem for one user may just be due to their technology or skill level. Encourage members of the project team to observe sessions as it helps build understanding of the importance of accessibility.
+@@@ TBD
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* [Easy Checks](/WAI/eval/users): Guidance on involving users with disabilities for web accessibility evaluation
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -132,13 +141,15 @@ Seek feedback from people with disabilities on any materials being evaluated. Th
 {:/}
 
 {:.attach_permalink}
-## Ensure final comprehensive evaluation
+## Ensure accessibility reviews across the team (review teams)
 
-Run a full, comprehensive evaluation before go-live. Aim to cover all key website functions, all templates, and a reasonable sample of general content pages. Evaluation should check each point in the accessibility guidelines accepted by the organization. Ensure that there is sufficient development time to address any issues with key content.
+Evaluating web accessibility requires diverse kinds of skills and expertise. For example, some requirements relate to the design, writing, and development aspects of a website, while others relate to assistive technologies and their use by people with disabilities. Sharing evaluation tasks in a team of reviewers can help make evaluation more effective and efficient.
 
 {::nomarkdown}
 <%= learn_more %>
 {:/}
+
+* [Combined Expertise](/WAI/eval/reviewteams): Guidance on building teams of reviewers to leverage combined expertise
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -153,7 +164,6 @@ Run a full, comprehensive evaluation before go-live. Aim to cover all key websit
 ## Learn more about accessibility
 
 These tips are just some of the important accessibility points to address when evaluating websites. There are more things to consider. The following resources will help you learn more about accessibility — why it is important for people with disabilities, for designers, and for organizations; about web accessibility guidelines; and much more. 
-
 
 {::nomarkdown}
 <%= learn_more %>
