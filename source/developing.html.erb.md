@@ -237,7 +237,7 @@ Ensure that the order of elements in the code matches the logical order of the i
       </article>
       <div class="two-column">
         <div class="fail">
-          <p><b>Code order does not reflect reading order:</b> Order matches visual presentation, but is not logical.</p>
+          <p><b>Code order does not reflect logical reading order</b> - image is before product name.</p>
           <% code('html') do %>
 <img src="images/trainer.png" alt="...">
 <h3>Space trainers</h3>
@@ -246,7 +246,7 @@ Ensure that the order of elements in the code matches the logical order of the i
           <% end %>
         </div>
         <div class="pass">
-          <p><b>Code order reflects reading order:</b> Product title is logically viewed first, so presented first in code.</p>
+          <p><b>Code order reflects logical reading order</b> - product name is before image.</p>
           <% code('html') do %>
 <h3>Space trainers</h3>
 <img src="images/trainer.png" alt="...">
