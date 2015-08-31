@@ -463,6 +463,7 @@ These tips are important points to consider when developing accessible websites,
 * [Web Accessibility Tutorials](/WAI/tutorials/): Shows you how to develop web content that is accessible to people with disabilities
 * [Before and After Demonstration](/WAI/demos/bad/): Example accessible and inaccessible websites that share the same visual design, with annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr>WCAG</abbr> 2.0
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/): Provides a range of tools to help explore the accessibility of code
+* [<abbr>WAI-ARIA</abbr> Overview](/WAI/intro/aria): Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
 
 
 {::nomarkdown}
