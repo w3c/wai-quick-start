@@ -589,6 +589,11 @@ $wai_grey: #333333;
         }
       }
     }
+    .autoplay {
+      div {
+        display: inline-block;
+      }
+    }
     .page-title {
       display: inline-block;
       svg {
