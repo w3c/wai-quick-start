@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible front-end web development
 {:.attach_permalink}
 ## Associate all form elements with labels
 
-Associate every form control with a `<label>` element, ideally using the *for* and *id* attributes. In specific situations it may be acceptable to hide `<label>` elements visually, but in most cases labels are needed to help readers understand the required input.
+Associate every form control with a label. This can be achieved using the `<label>` element with linked `for` and `id` attributes, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide `<label>` elements visually, but in most cases labels are needed to help readers understand the required input.
 
 {::nomarkdown}
 <%= example %>
@@ -111,7 +111,7 @@ Indicate the primary language of every page by using the `lang` attribute in the
 {:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
-Mark-up headings, lists, tables, and other page structures. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
+Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
 <%= example :start, :plural %>
