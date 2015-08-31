@@ -231,7 +231,7 @@ Write link text so that it describes the content of the link target in a meaning
 {:/}
 
 {:.attach_permalink}
-## Provide text alternatives for images
+## Write meaningful text alternatives for images
 
 Assign alternative text to every image, to clearly describe the information or function represented by the image. Use empty alternative text when an image is purely decorative.
 
@@ -277,7 +277,7 @@ Assign alternative text to every image, to clearly describe the information or f
 {:/}
 
 {:.attach_permalink}
-## Provide transcripts and captions for multimedia
+## Create transcripts and captions for multimedia
 
 For audio-only content, such a podcast, provide transcripts. Include everything that is spoken, and descriptions of sounds that are important for understanding the content, for example 'squeaking door'. Provide this information, including the description of sounds, as captions when audio is used to accompany visual content, such as animations and video. The requirements vary for pre-recorded and live content.
 
