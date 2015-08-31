@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible front-end web development
 {:.attach_permalink}
 ## Associate all form elements with labels
 
-Associate the `<label>` element with form elements using the *for* and *id* attributes. Position the `<label>` element offscreen using <abbr>CSS</abbr> when the design does not include a visible label. Beware of doing this as many sighted people may still misinterpret the required input without an obvious label.
+Associate every form control with a label. This can be achieved using the `<label>` element with linked `for` and `id` attributes, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide `<label>` elements visually, but in most cases labels are needed to help readers understand the required input.
 
 {::nomarkdown}
 <%= example %>
@@ -85,7 +85,7 @@ Ensure that alternative text for images is added to all informative and function
 {:.attach_permalink}
 ## Identify page language and language changes
 
-Provide an indication of language in the `html` tag using the `lang` attribute. Use the `lang` attribute on specific elements when the language of element differs from the rest of the page.
+Indicate the primary language of every page by using the `lang` attribute in the `html` tag. Use the `lang` attribute on specific elements when the language of element differs from the rest of the page.
 
 {::nomarkdown}
 <%= learn_more %>
@@ -111,7 +111,7 @@ Provide an indication of language in the `html` tag using the `lang` attribute. 
 {:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
-Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your documents. <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
+Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -175,8 +175,7 @@ Use structural elements to mark-up headings, lists, tables, etc. HTML5 provides 
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
-
-Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Provide an in-page link for easy access from the error to the field. Work with content writers to agree on content for instructions and messages.
+Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Work with content writers to agree on content for instructions and messages.
 
 {::nomarkdown}
 <%= example :start, :plural %>
@@ -220,7 +219,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 <%= related_issues 153 %>
 {:/}
 
-Ensure that the order of elements in the code matches the logical order of the information when presented visually. One way to check this is to remove <abbr>CSS</abbr> styling and comparing the order of the content with the visual hierarchy of the page.
+Ensure that the order of elements in the code matches the logical order of the information when presented visually. One way to check this is to remove <abbr>CSS</abbr> styling and compare the order of the content with the visual hierarchy of the page.
 
 {::nomarkdown}
 <%= example %>
@@ -356,7 +355,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
-Think about keyboard access when developing new interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex='0'` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order. Use scripting to capture and respond to keyboard events.
+Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex='0'` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order, when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
 <%= example %>
