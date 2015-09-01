@@ -21,7 +21,7 @@ This page helps you get started writing web content that is more accessible to p
 {:.attach_permalink}
 ## Provide informative, unique page titles
 
-Provide unique titles to describe the page content and purpose, and to distinguish it from other pages. Lead with the most relevant information. For example, provide the name of the particular page ahead of the name of the organization. Also, include in the page title the current step in multi-step forms, and the current page in multi-page resources.
+For each web page, provide a short title that describes the page content and distinguishes it from other pages. The page title is often the same as the main heading of the page. Put the unique and most relevant information first; for example, put the name of the page before the name of the organization. For pages that are part of a multi-step process, include the current step in the page title.
 
 {::nomarkdown}
 <%= example %>
