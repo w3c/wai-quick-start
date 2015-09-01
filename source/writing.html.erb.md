@@ -317,7 +317,7 @@ Ensure that instructions and guidance, such as on forms, are clear and simple to
       <form action="">
         <p id="password-desc">Password should be at least six characters with at least one number (0-9).</p>
         <div class="row">
-          <label for="password">Password</label>
+          <label for="password">Password:</label>
           <input aria-describedby="password-desc" type="password" id="username" name="username" value="">
         </div>
       </form>
