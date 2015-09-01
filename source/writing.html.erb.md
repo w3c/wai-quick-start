@@ -43,7 +43,7 @@ Provide unique titles to describe the page content and purpose, and to distingui
     </svg>
   </figure>
   <figure>
-    <figcaption>Sub-page title with site title included</figcaption>
+    <figcaption>Page name followed by organization name</figcaption>
     <svg version="1.1" width="462" height="27" aria-labelledby="page-title-2" role="img">
       <g transform="scale(1.2)">
         <title id="page-title-2">Sub-page title with site title included</title>
