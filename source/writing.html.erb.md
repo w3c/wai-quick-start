@@ -440,8 +440,7 @@ These tips are just some of the important accessibility points to address when w
 
 * [<abbr>W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles): An introduction to the <abbr>WCAG</abbr> requirements
-* [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the benefits of accessibility for people with disabilities
-* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/): Includes tools to help explore readability of content
+* [How people with disabilities use the web](/WAI/intro/people-use-web): Real-life examples of the importance of accessibility for people with disabilities
 
 {::nomarkdown}
 <%= learn_more :end %>
