@@ -97,7 +97,7 @@ Provide unique titles to describe the page content and purpose, and to distingui
 {:.attach_permalink}
 ## Use headings to convey meaning and structure 
 
-Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline and structure of the information presented.
+Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline of the content.
 
 {::nomarkdown}
 <%= example :start, :plural %>
