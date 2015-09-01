@@ -193,7 +193,7 @@ Write link text so that it describes the content of the link target in a meaning
 
 <div class="meaningful-links two-column">
   <figure>
-    <figcaption>Link text with no out of context meaning</figcaption>
+    <figcaption>Link text that is not meaningful by itself</figcaption>
     <div>
       <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
     </div>
