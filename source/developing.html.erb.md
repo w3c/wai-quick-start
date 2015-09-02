@@ -62,7 +62,7 @@ Associate every form control with a label. This can be achieved using the `<labe
 <%= related_issues 151 %>
 {:/}
 
-Ensure that alternative text for images is added to all informative and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>.
+Ensure that alternative text for images is added to all informational and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>.
 
 {::nomarkdown}
 <%= learn_more %>
