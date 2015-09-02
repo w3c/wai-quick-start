@@ -233,7 +233,7 @@ Write link text so that it describes the content of the link target in a meaning
 {:.attach_permalink}
 ## Write meaningful text alternatives for images
 
-For every image, write alternative text that provides the information or function of the image. For images that are just decorative, use empty alternative text.
+For every image, write alternative text that provides the information or function of the image. For images that are purely decorative, use empty alternative text.
 
 {::nomarkdown}
 <%= example %>
