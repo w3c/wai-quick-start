@@ -199,7 +199,7 @@ Write link text so that it describes the content of the link target in a meaning
     </div>
   </figure>
   <figure>
-    <figcaption>Link text that has meaning out of context</figcaption>
+    <figcaption>Link text that has meaning by itself</figcaption>
     <div>
       <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
     </div>
