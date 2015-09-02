@@ -305,7 +305,7 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 {:.attach_permalink}
 ## Provide clear instructions
 
-Ensure that instructions and guidance, such as on forms, are clear and simple to understand. Provide information about any input requirements, such as date formats. Clearly indicate any errors and link to them, and avoid using technical language in error messages and feedback.
+Ensure that instructions, guidance, and error messages are clear, easy to understand, and avoid unnecessarily technical language. Describe input requirements, such as date formats.
 
 {::nomarkdown}
 <%= example :start %>
