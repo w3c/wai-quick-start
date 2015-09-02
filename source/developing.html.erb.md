@@ -20,7 +20,7 @@ These introductory tips cover the basics of accessible front-end web development
 {:.attach_permalink}
 ## Associate all form elements with labels
 
-Associate every form control with a label. This can be achieved using the `<label>` element with linked `for` and `id` attributes, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide `<label>` elements visually, but in most cases labels are needed to help readers understand the required input.
+Associate a label with every form control. This can be achieved using the `<label>` element with linked `for` and `id` attributes, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide `<label>` elements visually, but in most cases labels are needed to help all readers understand the required input.
 
 {::nomarkdown}
 <%= example %>
