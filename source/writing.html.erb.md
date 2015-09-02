@@ -279,7 +279,7 @@ Assign alternative text to every image, to clearly describe the information or f
 {:.attach_permalink}
 ## Create transcripts and captions for multimedia
 
-For audio-only content, such a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door closes'.
+For audio-only content, such a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door creaks'. For video, also include in the transript a description of the imoportant visual content, for example 'Athan sits behind the desk'.
 
 {::nomarkdown}
 <%= learn_more %>
