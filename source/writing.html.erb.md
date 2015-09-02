@@ -253,6 +253,7 @@ Assign alternative text to every image, to clearly describe the information or f
       <p><strong>Alternative text for image</strong>: 'Plug cable into the bottom edge of the phone.'</p>
     </div>
   </figure>
+  <p class="note">Note that alternative text is normally not visible. It is presented here for illustration only.</p>
 </div>
 
 <%= example :end %>
