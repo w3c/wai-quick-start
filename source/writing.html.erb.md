@@ -186,7 +186,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 {:.attach_permalink}
 ## Make link text meaningful
 
-Write link text so that it describes the content of the link target in a meaningful way. Avoid using link text such as 'click here', 'find out more', or 'read more'. Indicate the document type and approximate size in the link text where relevant. 
+Write link text so that it clearly describes the content of the link target. Avoid using meaningless link text such as 'click here', 'find out more', or 'read more'. Indicate the document type and approximate size in the link text, when relevant, for example, 'Proposal Documents (RTF, 20MB)'. 
 
 {::nomarkdown}
 <%= example :start, :plural %>
