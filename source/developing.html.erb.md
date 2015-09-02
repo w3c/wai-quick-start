@@ -85,7 +85,7 @@ Ensure that alternative text for images is added to all informative and function
 {:.attach_permalink}
 ## Identify page language and language changes
 
-Indicate the primary language of every page by using the `lang` attribute in the `html` tag. Use the `lang` attribute on specific elements when the language of element differs from the rest of the page.
+Indicate the primary language of every page by using the `lang` attribute in the `html` tag. Use the `lang` attribute on specific elements when the language of the element differs from the rest of the page.
 
 {::nomarkdown}
 <%= learn_more %>
