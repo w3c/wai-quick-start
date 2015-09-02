@@ -305,7 +305,7 @@ Create transcripts for audio-only content, such as podcasts or radio recordings.
 {:.attach_permalink}
 ## Provide clear instructions
 
-Ensure that instructions and guidance are clear, easy to understand, and avoid unnecessarily technical language. Describe input requirements, such as date formats. Clearly indicate any errors and link to them.
+Ensure that instructions, guidance, and error messages are clear, easy to understand, and avoid unnecessarily technical language. Describe input requirements, such as date formats.
 
 {::nomarkdown}
 <%= example :start %>
