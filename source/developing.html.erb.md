@@ -230,7 +230,7 @@ Ensure that the order of elements in the code matches the logical order of the i
     <div>
       <article class="product">
         <h3 class="name">Space trainers</h3>
-        <img src="images/trainer.png" alt="Green high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
+        <img src="images/trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
         <p class="desc">Space trainer for a classic and stylish look.</p>
         <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
       </article>
