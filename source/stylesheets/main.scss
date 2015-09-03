@@ -248,7 +248,7 @@ $wai_grey: #333333;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        figure {
+        figure, pre {
           width: 49%;
         }
       }
@@ -815,6 +815,11 @@ $wai_grey: #333333;
         .fail, .pass {
           width: 45%;
         }
+      }
+    }
+    .adapt-code {
+      pre {
+        margin: 0;
       }
     }
     .non-standard {

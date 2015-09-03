@@ -286,7 +286,40 @@ Use responsive design to adapt the display to different zoom states and viewport
 {::nomarkdown}
 <%= example %>
 
-<p>[ ... Consider example for responsive design, and/or resize text ... ]</p>
+<div class="adapt-code">
+  <figure>
+    <figcaption>Using media queries to adapt navigation</figcaption>
+    <div class="code">
+      <p>Code Snippet:</p>
+      <div class="two-column">
+        <% code 'css' do %>
+/* On narrow viewports, make the navigation full width */
+@media screen and (min-width: 25em) {
+  #nav {
+    float: none;
+    width: auto;
+  }
+  #main {
+    margin-left: 0;
+  }
+}
+      <% end %>
+      <% code 'css' do %>
+/* On wider viewports, put the navigation on the left */
+@media screen and (min-width: 43em) {
+  #nav {
+    float: left;
+    width: 24%;
+  }
+  #main {
+    margin-left: 27%;
+  }
+}
+      <% end %>
+    </div>
+  </div>
+  </figure>
+</div>
 
 <%= example :end %>
 {:/}
