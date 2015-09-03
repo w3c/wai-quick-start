@@ -143,7 +143,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
       <label for="search">Search</label>
       <input type="search" aria-describedby="search-help">
       <div id="search-help">Search records by customer id or name</div>
-      <input type="submit" value="Go">
+      <button>Go</button>
     </form>
     <% end %>
   </figure>
