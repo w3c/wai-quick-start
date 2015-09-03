@@ -368,8 +368,9 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 Use simple language and formatting, as appropriate for the context.
 
 * Write in short, clear sentences and paragraphs.
-* Avoid using overly complex words and phrases. Consider providing a glossary for terms readers may not know.
+* Avoid using unnecessarily complex words and phrases. Consider providing a glossary for terms readers may not know.
 * Expand acronyms on first use. For example, Web Content Accessibility Guidelines (WCAG).
+* Consider providing a glossary for terms readers may not know.
 * Use list formatting as appropriate.
 * Consider using images, illustrations, video, audio, and symbols to help clarify meaning.
 
@@ -377,25 +378,24 @@ Use simple language and formatting, as appropriate for the context.
 <%= example %>
 {:/}
 
-<div class="related-issue">Note: this example is not yet complete</div>
 <div class="two-column">
   <figure>
     <figcaption>Less readable and understandable text</figcaption>
     <div>
-      <p class="fail">CPPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to the parties involved. Once our representative obtains information that allows us to understand the causality, we will assign monetary remuneration accordingly. The resulting decision may occasion one of the following options: claim is not approved and is assigned a rejected status, claim is ambiguous and will require additional information before further processing can occur, claim is partially approved and reduced payment is assigned and issued, or claim is fully approved and total claim payment is assigned and issued.</p>
+      <p class="fail">CPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to all parties involved. Once our representative obtains information that allows us to understand the causality, we may or may not assign appropriate monetary compensation. The resulting decision may occasion one of the following options: the claim is not approved and is assigned a rejected status, the status of the claim is ambiguous and will require additional information before further processing can occur, the claim is partially approved and reduced payment is assigned and issued, or claim is fully approved and total claim payment is assigned and issued.</p>
     </div>
   </figure>
   <figure>
     <figcaption>More readable and understandable text</figcaption>
     <div>
-      <p class="pass">Claims Processing and Payment Procedure (CPPP): If you are involved in a car accident, an agent will investigate. Those findings will determine the payment of claims. The decision may result in:</p>
+      <p class="pass">Claims Processing Procedure (CPP): If you have a car accident, our agent will investigate. Findings will determine any claim payment. This could result in:</p>
       <ul>
+        <li>Approved claim - full payment</li>
+        <li>Partially approved claim - reduced payment</li>
+        <li>Undetermined claim - more information needed</li>
         <li>Rejected claim - no payment</li>
-        <li>Undetermined claim - more information required</li>
-        <li>Partially approved claim - reduced payment issued</li>
-        <li>Approved claim - full payment issued</li>
       </ul>
-      <p>[... include image to show process ...]</p>
+      <p><img src="images/clear_text_diagram.png" alt=""></p>
     </div>
   </figure>
 </div>
