@@ -116,7 +116,6 @@ $wai_grey: #333333;
       padding: 0;
     }
   }
-  
   .tips-grid {
     margin-left: 0;
     display: flex;
@@ -162,6 +161,109 @@ $wai_grey: #333333;
         }
       }
     }
+  }
+  .contribute {
+    border: 1px solid #666 !important;
+    background-color: darken($wai_bg, 1%);
+    border-radius: .5em;
+    padding: 1em;
+    margin: 2em auto;
+    width: 60%;
+    .heading {
+      @extend .font-secondary;
+      color: #333333 !important;
+      border-bottom: none !important;
+      font-weight: bold;
+      font-size: 1em;
+      margin: 0 !important;
+      padding: 0 !important;
+      + p {
+        margin-top: 0.5em;
+      }
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 1em;
+      padding: .5em 0 0;
+      border-top: 1px solid #ccc;
+
+      .btn-primary {
+        background: linear-gradient(#8add6d, #60b044);
+        border-color: #4a993e;
+        &:hover, &:focus {
+          background: linear-gradient(#79d858, #569e3d);
+        }
+      }
+    }
+  }
+  
+  // Buttons
+  .btn {
+    background: linear-gradient(to bottom, lighten(#ccc, 10%), #ccc);
+    color: #333;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: percentage(44/18);
+    padding: .5em .75em;
+    text-decoration: none;
+    border: {
+      color: #ccc;
+      width: 1px;
+      style: solid;
+      radius: .25em;
+    }
+    &:hover, &:focus {
+      color: #333;
+      text-decoration: none;
+      background: linear-gradient(to bottom, #ccc, darken(#ccc, 10%));
+    }
+  }
+  .btn-primary {
+    @extend .btn;
+    background: linear-gradient(to bottom, lighten($w3c_purple, 10%), $w3c_purple);
+    color: #fff;
+    border-color: darken($w3c_purple, 10%);
+    &:hover, &:focus {
+      color: #fff;
+      background: linear-gradient(to bottom, $w3c_purple, darken($w3c_purple, 10%));
+    }
+  }
+  .btn-small {
+    @extend .btn;
+    padding: .15em .2em;
+    line-height: 1.75;
+  }
+  .btn-flat {
+    font-weight: normal;
+    font-size: 1em;
+    color: #333333;
+    text-shadow: 0 1px 5px rgba(255, 255, 255, 0.25);
+    line-height: percentage(44/18);
+    padding: .25em .5em;
+    background: darken($w3c_paleblue, 5%);
+    box-shadow: inset 0 -2px darken($w3c_paleblue, 10%);
+    border-bottom: 2px solid darken($w3c_paleblue, 15%);
+    cursor: pointer;
+    &:hover, &:focus {
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+      background: lighten($w3c_blue, 10%);
+      border-bottom: 2px solid lighten($w3c_blue, 5%);
+      box-shadow: inset 0 -2px $w3c_blue;
+    }
+  }
+  .btn-icon {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  .btn-next {
+    float: right;
+  }
+  .btn-jump {
+    display: block;
+    margin: 0 1em 1em;
+    text-align: center;
   }
   
   .inner {
