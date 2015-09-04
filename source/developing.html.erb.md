@@ -23,13 +23,12 @@ These introductory tips cover the basics of accessible front-end web development
 Associate a label with every form control. This can be achieved using the `<label>` element with linked `for` and `id` attributes, or using <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> attributes. In specific situations it may be acceptable to hide `<label>` elements visually, but in most cases labels are needed to help all readers understand the required input.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Using <code>for</code> and <code>id</code> attributes' %>
 
 <div class="form-labels">
   <figure>
-    <figcaption>Form field with associated label</figcaption>
     <% html_example do %>
-      <label for="username">Username:</label>
+      <label for="username">Username</label>
       <input id="username" type="text">
     <% end %>
   </figure>
@@ -114,11 +113,10 @@ Indicate the primary language of every page by using the `lang` attribute in the
 Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Using HTML to provide structure and meaning' %>
 
 <div class="mark-up">
   <figure>
-    <figcaption>Provide structure and meaning with HTML elements</figcaption>
     <% html_example do %>
     <section>
       <article>
@@ -136,8 +134,11 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
     </section>
     <% end %>
   </figure>
+</div>
+<%= example :end %>
+<%= example 'Search field using <abbr>WAI-ARIA</abbr>' %>
+<div class="mark-up">
   <figure>
-    <figcaption>Search field using <abbr>WAI-ARIA</abbr></figcaption>
     <% html_example do %>
     <form action="" role="search">
       <label for="search">Search</label>
@@ -178,13 +179,12 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Work with content writers to agree on content for instructions and messages.
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Australian phone number field with forgiving validation' %>
 
 <div class="avoid-mistakes">
   <figure>
-    <figcaption>Australian phone number field with forgiving validation</figcaption>
     <% html_example do %>
-      <label for="phone">Phone:</label>
+      <label for="phone">Phone</label>
       <input id="phone" name="phone" type="tel" pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$" aria-describedby="phone-desc">
       <p id="phone-desc">For example, (02) 1234 1234</p>
     <% end %>
@@ -222,11 +222,10 @@ Be as forgiving of format as possible when processing user input. For example, a
 Ensure that the order of elements in the code matches the logical order of the information when presented visually. One way to check this is to remove <abbr>CSS</abbr> styling and compare the order of the content with the visual hierarchy of the page.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Two approaches to coding presentation of a product' %>
 
 <div class="order">
   <figure>
-    <figcaption>Two approaches to coding presentation of a product</figcaption>
     <div>
       <article class="product">
         <h3 class="name">Space trainers</h3>
@@ -284,11 +283,10 @@ Ensure that the order of elements in the code matches the logical order of the i
 Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. Avoid clipping and horizontal scrolling when font size is increased. A progressive enhancement approach will help ensure that core functionality and content is available regardless of technology being used.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Using media queries to adapt navigation' %>
 
 <div class="adapt-code">
   <figure>
-    <figcaption>Using media queries to adapt navigation</figcaption>
     <div class="code">
       <p>Code Snippet:</p>
       <div class="two-column">
@@ -352,13 +350,12 @@ Use responsive design to adapt the display to different zoom states and viewport
 Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role='slider'` and `aria-expanded='true'`. Additional code is required to implement the behavior of such widgets, such as pressing interaction.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Accessible switch control' %>
 
 <div class="non-standard">
   <figure>
-    <figcaption>Accessible switch control</figcaption>
     <% html_example do %>
-      <p id="switch-label">Lights:</p>
+      <p id="switch-label">Lights</p>
       <div id="switch" class="switch" role="checkbox" aria-checked="false" aria-labelledby="switch-label" tabindex="0"><span>Off</span></div>
     </form>
     <% end %>
@@ -391,11 +388,10 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex='0'` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order, when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Keyboard accessible menu icon' %>
 
 <div class="keyboard-accessible">
   <figure>
-    <figcaption>Accessible menu icon</figcaption>
     <div class="html-example">
       <div class="rendered">
         <p>Rendered:</p>
@@ -430,7 +426,6 @@ buttonExample.addEventListener('click', function(e) {
   </figure>
 </div>
 
-<%= related_issues 143 %>
 <%= example :end %>
 {:/}
 

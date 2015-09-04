@@ -23,17 +23,17 @@ These introductory tips cover the basics of accessible user interface design and
 Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr>WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Contrast ratio'  %>
 
 <div class="contrast two-column">
   <figure>
-    <figcaption>Text with insufficient contrast</figcaption>
+    <figcaption>Insufficient</figcaption>
     <div>
       <p class="fail">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>Text with sufficient contrast</figcaption>
+    <figcaption>Sufficient</figcaption>
     <div>
       <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
@@ -68,39 +68,44 @@ Foreground text needs to have sufficient contrast with background colors. This i
 While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. For example, use an asterisk in addition to color to indicate required form fields, and use labels to distinguish areas on graphs.
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Using color to convey meaning' %>
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption>Inaccessible instruction using color only</figcaption>
+    <figcaption>Incorrectly referencing by color alone</figcaption>
     <div>
       <form action="">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
         <div class='row'>
-          <label for="name1">Name:</label> <input type="text" id="name1" name="name">
+          <label for="name1">Name</label> <input type="text" id="name1" name="name">
         </div>
         <div class="row">
-          <label class="required" for="email1">Email:</label> <input type="text" id="email1" name="email">
+          <label class="required" for="email1">Email</label> <input type="text" id="email1" name="email">
         </div>
       </form>
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption>Accessible instruction using color and symbol</figcaption>
+    <figcaption>Correctly using color and symbol to reference</figcaption>
     <div>
       <form action="">
         <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
         <div class='row'>
-          <label for="name2">Name:</label> <input type="text" id="name2" name="name"><br>
+          <label for="name2">Name</label> <input type="text" id="name2" name="name"><br>
         </div>
         <div class="row">
-          <label class="required" for="email2">Email ✻:</label> <input type="text" id="email2" name="email">
+          <label class="required" for="email2">Email ✻</label> <input type="text" id="email2" name="email">
         </div>
       </form>
     </div>
   </figure>
+</div>
+<%= example :end%>
+  
+<%= example 'Referencing using color alone' %>
+<div class="color-alone two-column">
   <figure class="question fail">
-    <figcaption>Inaccessible test question using color only</figcaption>
+    <figcaption>Must perceive color to be able to answer question</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
@@ -122,7 +127,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="question pass">
-    <figcaption>Accessible test question with numbers and color</figcaption>
+    <figcaption>Color and number make question more accessible</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="accessible-triangles-title" role="img">
         <g>
@@ -175,7 +180,7 @@ While color can be useful to convey information, color should not be the only wa
 Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation. Ensure that styles and naming for interactive elements are used consistently throughout the website.
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Unique styles for different link states' %>
 
 <div class="focus two-column">
   <div>
@@ -184,6 +189,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
       <div>
         <p>Some people can't use a mouse and use only a <a href="javascript:return false;">keyboard to navigate</a> through web pages.</p>
         <p>It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
+        <p>Visible keyboard focus could be a border or highlight that moves as you tab through the web page.</p>
         <p></p>
       </div>
     </figure>
@@ -268,11 +274,11 @@ Ensure that navigation across pages within a website has consistent naming, styl
 Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Clear association between label and form fields' %>
 
 <div class="labels">
   <figure class="pass">
-    <figcaption>Good example of associated labels</figcaption>
+    <figcaption>Right aligning label makes association clear</figcaption>
     <div>
       <form action="">
         <legend>Add a comment</legend>
@@ -328,11 +334,11 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Instructions should be easy to identify. Important feedback that requires user action should be presented in a prominent style. 
  
 {::nomarkdown}
-<%= example :start %>
+<%= example 'Making errors easy to identify' %>
 
 <div class="errors">
   <figure>
-    <figcaption>Example of prominent errors</figcaption>
+    <figcaption>Error list, icon, and background color make errors extremely obvious</figcaption>
     <div>
       <div class="error-list">
         <p>Please correct the following errors:</p>
@@ -392,11 +398,11 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand.
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Grouping content with spacing and headings' %>
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption id="inaccessible-headings-title">Poor use of spacing and headings</figcaption>
+    <figcaption id="inaccessible-headings-title">Harder to see relationships without spacing</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
@@ -433,7 +439,7 @@ Use whitespace and proximity to make relationships between content more apparent
     </div>
   </figure>
   <figure class="pass">
-    <figcaption id="accessible-headings-title">Good use of spacing and headings</figcaption>
+    <figcaption id="accessible-headings-title">Spacing helps to group related content</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
@@ -508,11 +514,11 @@ Use whitespace and proximity to make relationships between content more apparent
 Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Content displayed in different viewport sizes' %>
 
 <div class="responsive">
   <figure>
-    <figcaption>Example of content displayed in different viewport sizes</figcaption>
+    <figcaption>Flow of content and navigation adapt to smaller mobile screen</figcaption>
     <div>
       <img src="images/content_in_browser.png" alt="Example of content in a standard browser">
       <img src="images/content_in_phone.png" alt="Example of content displayed in a phone">
@@ -546,11 +552,11 @@ Consider how page information is presented in different sized viewports, such as
 Provide text which describes the purpose of each image. Images might convey information, provide decoration, or support functionality. Alternative text is not needed for purely decorative images that don't add information to the page.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Functional images' %>
 
 <div class="text-alternative">
   <figure>
-    <figcaption>Example where alternative text indicates function</figcaption>
+    <figcaption>Alternative text indicates functional purpose</figcaption>
     <div>
       <ul class="course-select">
         <li class="closed"><img src="images/arrow-right.png" alt="Open">English <span class="number" title="Number of clasess">10</span></li>
@@ -569,9 +575,13 @@ Provide text which describes the purpose of each image. Images might convey info
       <p><strong>Alternative text for image</strong>: 'Open' or 'Close'</p>
     </div>
   </figure>
+</div>
+<%= example :end %>
 
+<%= example 'Informational image' %>
+<div class="text-alternative">
   <figure>
-    <figcaption>Example where alternative text conveys meaning</figcaption>
+    <figcaption>Alternative text conveys meaning</figcaption>
     <div>
       <button type="button"><img src="images/padlock.png" alt="Secure">Proceed to Checkout</button>
       <p>Alternative text for the padlock image indicates a secure purchasing process.</p>
@@ -579,6 +589,7 @@ Provide text which describes the purpose of each image. Images might convey info
     </div>
   </figure>
 </div>
+<p class="note">Note that alternative text is normally not visible. It is presented here for illustration only.</p>
 
 <%= example :end %>
 {:/}
@@ -607,12 +618,13 @@ Provide text which describes the purpose of each image. Images might convey info
 Provide visible controls to allow users to stop any animations or auto-playing sound. This applies to carousels, image sliders, background sound, and videos.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Controls included in design' %>
 
 <div class="autoplay">
   <figure>
-    <figcaption></figcaption>
+    <figcaption>Carousel design including play/stop and slide selection controls</figcaption>
     <div>
+      <img src="images/carousel_controls.png" alt="Example of carousel with play and slide selection controls">
     </div>
   </figure>
 </div>

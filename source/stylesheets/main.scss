@@ -180,30 +180,42 @@ $wai_grey: #333333;
     
     h3 {
       color: $wai_fg;
-      margin: 0 0 0.25em 0;
-      font-size: 1.2em;
+      margin: 0 0 0.5em 0;
+      font-size: 115%;
       +ul, +ol {
         margin-top: 0;
       }
+      span {
+        font-weight: normal;
+      }
     }
     
-    figure {
-      clear: both;
-      margin-bottom: 1em;
-      figcaption {
-        color: $wai_fg;
-        padding-bottom: 0.5em;
-      }
+    .example {
       &>div {
+        margin-left: 2em;
+      }
+      figure {
+        box-sizing: border-box;
+        clear: both;
+        margin-bottom: 1em;
         padding: 1em;
-        background: lighten($wai_grey_bg, 8%);
+        background: #fffdfa;
         box-shadow: 0 0 2px 0 $wai_grey_bg;
-        p, ol, ul {
-          &:first-child {
-            margin-top: 0;
-          }
-          &:last-child {
-            margin-bottom: 0;
+        figcaption {
+          color: $wai_fg;
+          padding-bottom: 0.5em;
+          border-bottom: 1px solid darken($wai_grey_bg, 25%);
+          margin-bottom: 1em;
+          font-weight: bold;
+        }
+        &>div {
+          p, ol, ul {
+            &:first-child {
+              margin-top: 0;
+            }
+            &:last-child {
+              margin-bottom: 0;
+            }
           }
         }
       }
@@ -278,13 +290,6 @@ $wai_grey: #333333;
     }
     .color-alone {
       figure {
-        figcaption {
-          padding: 1em 0 0 1em;
-          b {
-            color: $w3c_purple;
-            font-variant: small-caps;
-          }
-        }
         @include mq($large) {
           &.question {
             margin-bottom: 0;
@@ -572,14 +577,8 @@ $wai_grey: #333333;
     }
     .responsive {
       figure {
-        margin-bottom: 0;
         div {
-          background: none;
-          box-shadow: none;
           padding: 0;
-          &:last-child {
-            margin-bottom: 1em;
-          }
         }
       }
       @include mq($medium) {
@@ -594,12 +593,15 @@ $wai_grey: #333333;
       }
     }
     .autoplay {
-      div {
+      figure {
         display: inline-block;
       }
     }
     .page-title {
-      display: inline-block;
+      figure {
+        display: inline-block;
+        padding: 1em 1em 1em 1.04em;
+      }
       svg {
         text {
           font-size: 0.8em;
@@ -616,11 +618,24 @@ $wai_grey: #333333;
       }
     }
     .heading-structure {
-      figcaption {
-        background: #f4f4f4 none repeat scroll 0 0;
-        box-shadow: 0 0 2px 0 #e0e0e0;
-        padding: 1em;
-        width: 60%;
+      figure {
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 0;
+        display: inline-block;
+        > a {
+          display: block;
+          background: #fffdfa none repeat scroll 0 0;
+          box-shadow: 0 0 2px 0 #e0e0e0;
+          padding: 1em;
+          border: none;
+          margin-bottom: 1em;
+          text-decoration: none;
+          figcaption {
+            color: $w3c_purple;
+          }
+        }
       }
       h2, h3, h4 {
         color: $wai_fg;
@@ -644,7 +659,7 @@ $wai_grey: #333333;
       }
     }
     .text-alternative {
-      div {
+      figure {
         display: inline-block;
         overflow: hidden;
       }
@@ -771,12 +786,14 @@ $wai_grey: #333333;
       }
     }
     .order {
-      div {
+      figure {
         overflow: hidden;
         display: inline-block;
       }
       article {
         position: relative;
+        overflow: hidden;
+        margin: 1em 0 2em 1em;
         h3, .desc, .buy {
           margin-left: 210px;
         }

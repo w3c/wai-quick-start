@@ -24,7 +24,7 @@ This page helps you get started writing web content that is more accessible to p
 For each web page, provide a short title that describes the page content and distinguishes it from other pages. The page title is often the same as the main heading of the page. Put the unique and most relevant information first; for example, put the name of the page before the name of the organization. For pages that are part of a multi-step process, include the current step in the page title.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Page titles' %>
 
 <div class="page-title">
   <figure>
@@ -100,11 +100,11 @@ For each web page, provide a short title that describes the page content and dis
 Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline of the content.
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Providing headings and subheadings' %>
 
 <div class="heading-structure two-column">
   <figure>
-    <figcaption><a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><img src="images/headings-poor.png" alt=""><br>Content presented without headings</a></figcaption>
+    <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><figcaption>Content presented without headings</figcaption><img src="images/headings-poor.png" alt=""></a>
     <div id="no-headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="no-headings-modal-title">
       <div id="no-headings-modal-holder">
         <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
@@ -126,7 +126,7 @@ Use short headings to group related paragraphs and clearly describe the sections
     </div>
   </figure>
   <figure>
-    <figcaption><a id="headings-modal" class="modal-open" href="#headings-modal-holder"><img src="images/headings-good.png" alt=""><br>Headings used to split content and group topics</a></figcaption>
+    <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><figcaption>Headings used to split content and group topics</figcaption><img src="images/headings-good.png" alt=""></a>
     
     <div id="headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="headings-modal-title">
       <div id="headings-modal-holder">
@@ -189,17 +189,17 @@ Use short headings to group related paragraphs and clearly describe the sections
 Write link text so that it clearly describes the content of the link target. Avoid using meaningless link text such as 'click here', 'find out more', or 'read more'. Indicate the document type and approximate size in the link text, when relevant, for example, 'Proposal Documents (RTF, 20MB)'. 
 
 {::nomarkdown}
-<%= example :start, :plural %>
+<%= example 'Link text' %>
 
 <div class="meaningful-links two-column">
   <figure>
-    <figcaption>Link text that is not meaningful by itself</figcaption>
+    <figcaption>Text is not meaningful by itself</figcaption>
     <div>
       <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>Link text that has meaning by itself</figcaption>
+    <figcaption>Text has meaning by itself</figcaption>
     <div>
       <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
     </div>
@@ -236,18 +236,18 @@ Write link text so that it clearly describes the content of the link target. Avo
 Assign alternative text to every image, to clearly describe the information or function represented by the image. For purely decorative images, there is no need to write alternative text.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Writing alternative text'%>
 
 <div class="text-alternative two-column">
   <figure>
-    <figcaption>Poor alternative text</figcaption>
+    <figcaption>Information in image is not communicated</figcaption>
     <div>
       <p class="fail"><img src="images/phone_charging.png" alt="Charging phone"> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
       <p><strong>Alternative text for image</strong>: 'Charging phone'</p>
     </div>
   </figure>
   <figure>
-    <figcaption>Good alternative text</figcaption>
+    <figcaption>Information in image is communicated</figcaption>
     <div>
       <p class="pass"><img src="images/phone_charging.png" alt="Plug cable into the bottom edge of the phone."> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
       <p><strong>Alternative text for image</strong>: 'Plug cable into the bottom edge of the phone.'</p>
@@ -309,11 +309,11 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 Ensure that instructions, guidance, and error messages are clear, easy to understand, and avoid unnecessarily technical language. Describe input requirements, such as date formats.
 
 {::nomarkdown}
-<%= example :start %>
+<%= example 'Clear form instructions' %>
 
 <div class="errors">
   <figure>
-    <figcaption>Example of clear form instructions</figcaption>
+    <figcaption>Instructions communicate what information the user should provide</figcaption>
     <div>
       <form action="">
         <p id="password-desc">Password should be at least six characters with at least one number (0-9).</p>
@@ -324,8 +324,12 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
       </form>
     </div>
   </figure>
+</div>
+<%= example :end %>
+<%= example 'Clear, non-technical error messages' %>
+<div class="errors">
   <figure>
-    <figcaption>Example of clear error messages</figcaption>
+    <figcaption>Message indicates what the problem is and, possibly, how to fix it</figcaption>
     <div>
       <ol class="fa-ul error-list">
         <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The username 'superbear' is already in use.</a></li>
@@ -375,7 +379,7 @@ Use simple language and formatting, as appropriate for the context.
 * Consider using images, illustrations, video, audio, and symbols to help clarify meaning.
 
 {::nomarkdown}
-<%= example %>
+<%= example 'Communicate based on audience needs' %>
 {:/}
 
 <div class="two-column">

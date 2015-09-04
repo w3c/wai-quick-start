@@ -92,15 +92,13 @@ helpers do
     end
   end
   
-  def example(start_end = :start, plural = nil)
-    if start_end == :start
-      if plural
-        '<aside class="example"><h3>Examples</h3>'
-      else
-        '<aside class="example"><h3>Example</h3>'
-      end
-    elsif start_end == :end
+  def example(start_end = nil)
+    if start_end == :end 
       '</aside>'
+    elsif start_end.is_a? String
+      "<aside class=\"example\"><h3>Example: <span>#{start_end}</span></h3>"
+    else
+      '<aside class="example"><h3>Example</h3>'
     end
   end
   
