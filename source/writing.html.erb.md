@@ -81,9 +81,9 @@ For each web page, provide a short title that describes the page content and dis
 <%= learn_more %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [<abbr>SC</abbr> 2.4.2 Page Titled](/WAI/WCAG20/quickref/#navigation-mechanisms-title)
+* **<abbr>WCAG</abbr> Requirement**: [2.4.2 Page Titled](/WAI/WCAG20/quickref/#navigation-mechanisms-title)
 * **How To**: [Provide descriptive titles for Web pages](/TR/WCAG-TECHS/G88)
-* **Background**: [Understanding <abbr>SC</abbr> 2.4.2 Page Titled](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html)
+* **Background**: [Understanding 2.4.2 Page Titled](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -164,14 +164,14 @@ Use short headings to group related paragraphs and clearly describe the sections
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
-  * [<abbr>SC</abbr> 2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
-  * [<abbr>SC</abbr> 1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic)
+  * [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
+  * [1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic)
 * **How To**:
   * [Provide descriptive headings](/TR/WCAG-TECHS/G130)
   * [Organize a page using headings](/TR/WCAG-TECHS/G141)
 * **Background**:
-  * [Understanding <abbr>SC</abbr> 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
-  * [Understanding <abbr>SC</abbr> 1.3.1 Info and Relationships](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
+  * [Understanding 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
+  * [Understanding 1.3.1 Info and Relationships](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
 * **User Story**: [How a screen reader user uses headings to navigate](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
@@ -214,12 +214,12 @@ Write link text so that it clearly describes the content of the link target. Avo
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
-  * [<abbr>SC</abbr> 2.4.4 Link Purpose (In Context)](/WAI/WCAG20/quickref/#navigation-mechanisms-refs)
-  * [<abbr>SC</abbr> 2.4.9 Link Purpose (Link Only)](/WAI/WCAG20/quickref/#navigation-mechanisms-link)
+  * [2.4.4 Link Purpose (In Context)](/WAI/WCAG20/quickref/#navigation-mechanisms-refs)
+  * [2.4.9 Link Purpose (Link Only)](/WAI/WCAG20/quickref/#navigation-mechanisms-link)
 * **How To**: [Provide link text that describes the purpose of a link](/TR/WCAG-TECHS/G91)
 * **Background**:
-  * [Understanding <abbr>SC</abbr> 2.4.4 Link Purpose (In Context)](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html)
-  * [Understanding <abbr>SC</abbr> 2.4.9 Link Purpose (Link Only)](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html)
+  * [Understanding 2.4.4 Link Purpose (In Context)](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html)
+  * [Understanding 2.4.9 Link Purpose (Link Only)](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html)
 
 {::nomarkdown}
 <%= learn_more :end %>
@@ -263,9 +263,9 @@ Assign alternative text to every image, to clearly describe the information or f
 <%= learn_more %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [<abbr>SC</abbr> 1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
+* **<abbr>WCAG</abbr> Requirement**: [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
 * **Tutorial**: [Images](/WAI/tutorials/images/)
-* **Background**: [Understanding <abbr>SC</abbr> 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
+* **Background**: [Understanding 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
 * **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
@@ -287,11 +287,11 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
-  * [<abbr>SC</abbr> 1.2.2 Captions (Prerecorded)](/WAI/WCAG20/quickref/#media-equiv-captions)
-  * [<abbr>SC</abbr> 1.2.3 Audio Description or Media Alternative (Prerecorded)](/WAI/WCAG20/quickref/#media-equiv-audio-desc)
+  * [1.2.2 Captions (Prerecorded)](/WAI/WCAG20/quickref/#media-equiv-captions)
+  * [1.2.3 Audio Description or Media Alternative (Prerecorded)](/WAI/WCAG20/quickref/#media-equiv-audio-desc)
 * **Background**:
-  * [Understanding <abbr>SC</abbr> 1.2.2 Captions (Prerecorded)](/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html)
-  * [Understanding <abbr>SC</abbr> 1.2.3 Audio Description or Media Alternative (Prerecorded)](/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html)
+  * [Understanding 1.2.2 Captions (Prerecorded)](/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html)
+  * [Understanding 1.2.3 Audio Description or Media Alternative (Prerecorded)](/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html)
 * **User Story**: [Describes how captions help a deaf student](/WAI/intro/people-use-web/stories#onlinestudent)
 
 {::nomarkdown}
@@ -346,11 +346,11 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 <%= learn_more %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [<abbr>SC</abbr> 3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
+* **<abbr>WCAG</abbr> Requirement**: [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
 * **How To**:
   * [Provide text instructions for forms](/TR/WCAG-TECHS/G184)
   * [Provide expected data format and example](/TR/WCAG-TECHS/G89)
-* **Background**: [Understanding <abbr>SC</abbr> 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
+* **Background**: [Understanding 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
 * **User Story**: [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
@@ -413,16 +413,16 @@ Use simple language and formatting, as appropriate for the context.
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
-  * [<abbr>SC</abbr> 3.1.5 Reading Level](/WAI/WCAG20/quickref/#meaning-supplements)
-  * [<abbr>SC</abbr> 3.1.3 Unusual Words](/WAI/WCAG20/quickref/#meaning-idioms)
-  * [<abbr>SC</abbr> 3.1.4 Abbreviations](/WAI/WCAG20/quickref/#meaning-located)
+  * [3.1.5 Reading Level](/WAI/WCAG20/quickref/#meaning-supplements)
+  * [3.1.3 Unusual Words](/WAI/WCAG20/quickref/#meaning-idioms)
+  * [3.1.4 Abbreviations](/WAI/WCAG20/quickref/#meaning-located)
 * **How To**:
   * [Make the text easier to read](/TR/WCAG-TECHS/G153)
   * [Provide abbreviations](/TR/WCAG-TECHS/G97)
 * **Background**:
-  * [Understanding <abbr>SC</abbr> 3.1.5 Reading Level](/TR/UNDERSTANDING-WCAG20/meaning-supplements.html)
-  * [Understanding <abbr>SC</abbr> 3.1.3 Unusual Words](/TR/UNDERSTANDING-WCAG20/meaning-idioms.html)
-  * [Understanding <abbr>SC</abbr> 3.1.4 Abbreviations](/TR/UNDERSTANDING-WCAG20/meaning-located.html)
+  * [Understanding 3.1.5 Reading Level](/TR/UNDERSTANDING-WCAG20/meaning-supplements.html)
+  * [Understanding 3.1.3 Unusual Words](/TR/UNDERSTANDING-WCAG20/meaning-idioms.html)
+  * [Understanding 3.1.4 Abbreviations](/TR/UNDERSTANDING-WCAG20/meaning-located.html)
 * **User Story**: [User with reading disabilities benefits from easy to read text](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
