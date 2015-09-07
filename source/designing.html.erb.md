@@ -278,7 +278,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 
 <div class="labels">
   <figure class="pass">
-    <figcaption>Right aligning label makes association clear</figcaption>
+    <figcaption>Proximity between label and field makes association clear</figcaption>
     <div>
       <form action="">
         <legend>Add a comment</legend>
