@@ -981,7 +981,6 @@ $wai_grey: #333333;
           &:before {
             box-sizing: border-box;
             content: ' ';
-            background: $wai_grey;
             width: 1.5em;
             height: 1.5em;
             border-radius: 20px;
@@ -989,7 +988,17 @@ $wai_grey: #333333;
             top: -1px;
           }
         }
-      }
+        &[aria-checked=true] {
+          span:before {
+            background: #d7f7e3;
+          }
+        }
+        &[aria-checked=false] {
+          span:before {
+            background: #ffc7c7;
+          }
+        }
+       }
       .switch[aria-checked=false] {
         background: #bb0000;
         span {
