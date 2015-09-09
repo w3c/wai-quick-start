@@ -92,7 +92,7 @@ $wai_grey: #333333;
   }
   nav.section {
     margin-bottom: 1em;
-    background: $wai_grey_bg none repeat scroll 0 0;
+    background: lighten($wai_grey_bg, 5%);
     font-weight: bold;
     padding: 1em;
     border-radius: 3px;
@@ -107,8 +107,18 @@ $wai_grey: #333333;
       margin: 0.5em 0 0 0;
       list-style: none;
       padding-left: 1.3em;
+      position: relative;
       li {
         padding: 0;
+        &.current {
+          &:before {
+            color: $wai_red;
+            content: "»";
+            font-size: 150%;
+            left: 0;
+            position: absolute;
+          }
+        }
       }
     }
     a {
