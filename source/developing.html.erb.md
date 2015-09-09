@@ -409,8 +409,8 @@ Think about keyboard access, especially when developing interactive elements, su
 var buttonExample = document.getElementById('example-button');
 
 buttonExample.addEventListener('keydown', function(e) {
-  // Toggle the menu when SPACE or RETURN are pressed
-  if(e.keyCode && (e.keyCode == 32 || e.keyCode == 13)) {
+  // Toggle the menu when RETURN is pressed
+  if(e.keyCode && e.keyCode == 13) {
     toggleMenu(document.getElementById('example-button-menu'));
   }
 });
