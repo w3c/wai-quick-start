@@ -345,21 +345,35 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:.attach_permalink}
 ## Provide meaning for non-standard interactive elements 
 
-Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role='slider'` and `aria-expanded='true'`. Additional code is required to implement the behavior of such widgets, such as pressing interaction.
+Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role='navigation'` and `aria-expanded='true'`. Additional code is required to implement the behavior of such widgets, such as pressing interaction.
 
 {::nomarkdown}
-<%= example 'Accessible switch control' %>
+<%= example 'Menu function and state identified using WAI-ARIA' %>
 
 <div class="non-standard">
   <figure>
-    <% html_example do %>
-      <p id="switch-label">Lights</p>
-      <div id="switch" class="switch" role="checkbox" aria-checked="false" aria-labelledby="switch-label" tabindex="0"><span>Off</span></div>
-    </form>
-    <% end %>
+      <div class="code">
+        <p>Code Snippet:</p>
+        <% code 'html' do %>
+<nav aria-label="Main Navigation" role="navigation">
+	<ul>
+		<li><a href="...">Home</a></li>
+		<li><a href="...">Shop</a></li>
+		<li class="has-submenu">
+			<a aria-expanded="false" aria-haspopup="true" href="#">SpaceBears</a>
+			<ul>
+					<li><a href="...">SpaceBear 6</a></li>
+					<li><a href="...">SpaceBear 6 Plus</a></li>
+			</ul>
+		</li>
+		<li><a href="...">MarsCars</a></li>
+		<li><a href="...">Contact</a></li>
+	</ul>
+</nav>
+      <% end %>
+      </div>
   </figure>
 </div>
-
 <%= example :end %>
 {:/}
 
