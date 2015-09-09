@@ -1,10 +1,10 @@
 <nav class="section">
   <h2>Section Navigation</h2>
   <p><%= nav_link('Tips for Getting Started with Web Accessibility', 'index.html') %></p>
-  <ul class="fa-ul">
-    <% {'designing' => 'paint-brush', 'writing' => 'pencil', 'developing' => 'code', 'evaluating' => 'bug', 'managing' => 'cogs', 'advocating' => 'bullhorn'}.each do |guide, icon| %>
+  <ul>
+    <% {'designing' => 'designing-small', 'writing' => 'writing', 'developing' => 'developing', 'evaluating' => 'evaluating', 'managing' => 'managing', 'advocating' => 'advocating'}.each do |guide, icon| %>
       <li>
-        <span class="fa fa-li fa-<%= icon %>"></span>
+        <svg><use xlink:href="#<%= icon %>"></svg>
       <% if is_current(guide + '.html') %>
         <%= guide.capitalize %>
       <% else %>

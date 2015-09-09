@@ -1,6 +1,5 @@
 ---
 title: Tips on Advocating for Web Accessibility
-icon: bullhorn
 status: editors-draft
 layout: guide
 ---

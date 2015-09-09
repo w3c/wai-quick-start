@@ -1,6 +1,5 @@
 ---
 title: Tips on Evaluating Web Accessibility
-icon: bug
 status: editors-draft
 layout: guide
 ---

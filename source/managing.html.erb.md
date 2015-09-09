@@ -1,6 +1,5 @@
 ---
 title: Tips on Managing Web Accessibility
-icon: cogs
 status: editors-draft
 layout: guide
 ---

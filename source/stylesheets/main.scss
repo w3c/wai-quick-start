@@ -27,6 +27,10 @@ $wai_grey: #333333;
   }
 }
 
+.icon-definitions {
+  display: none;
+}
+
 // Adjust navigation for small viewports
 @include mq($small) {
   #nav {
@@ -60,6 +64,15 @@ $wai_grey: #333333;
         padding: 1.3em 0 0 0;
       }
     }
+    h1 {
+      svg {
+        stroke: black;
+        height: 21px;
+        width: 23px;
+        position: relative;
+        top: 3px;
+      }
+    }
     .subtitle {
       @extend .font-secondary;
       color: $wai_fg;
@@ -91,7 +104,12 @@ $wai_grey: #333333;
       @extend .visuallyhidden;
     }
     ul {
-      margin: 0.5em 0 0 3em;
+      margin: 0.5em 0 0 0;
+      list-style: none;
+      padding-left: 1.3em;
+      li {
+        padding: 0;
+      }
     }
     a {
       text-decoration: none;
@@ -99,6 +117,14 @@ $wai_grey: #333333;
       &:hover, &:focus {
         text-decoration: underline;
       }
+    }
+    svg {
+      width: 16px;
+      height: 15px;
+      stroke: black;
+      margin-right: 0.2em;
+      position: relative;
+      top: 2px;
     }
   }
   aside.what-is-wcag {
@@ -139,6 +165,10 @@ $wai_grey: #333333;
       margin: 0;
       padding: 0 1em 2em 1em;
       text-align: center;
+      svg {
+        width: 44px;
+        height: 40px;
+      }
       a {
         display: block;
         font-size: 105%;
@@ -148,16 +178,22 @@ $wai_grey: #333333;
         font-weight: bold;
         text-decoration: none;
         border-bottom: 2px solid transparent;
+        stroke: $wai_link;
+        fill: $wai_link;
         span {
           display: block;
           font-size: 140%;
         }
         &:visited {
           color: $wai_link;
+          stroke: $wai_link;
+          fill: $wai_link;
         }
         &:hover, &:focus {
-          border-bottom: 2px solid $wai-red;
+          border-bottom: 2px solid $wai_red;
           color: $wai_red;
+          stroke: $wai_red;
+          fill: $wai_red;
         }
       }
     }

@@ -1,6 +1,5 @@
 ---
 title: Tips on Designing for Web Accessibility
-icon: paint-brush
 status: editors-draft
 layout: guide
 ---
