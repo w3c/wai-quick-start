@@ -81,7 +81,6 @@ For each web page, provide a short title that describes the page content and dis
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [2.4.2 Page Titled](/WAI/WCAG20/quickref/#navigation-mechanisms-title)
-* **How To**: [Provide descriptive titles for Web pages](/TR/WCAG-TECHS/G88)
 * **Background**: [Understanding 2.4.2 Page Titled](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html)
 
 {::nomarkdown}
@@ -165,9 +164,6 @@ Use short headings to group related paragraphs and clearly describe the sections
 * **<abbr>WCAG</abbr> Requirement**:
   * [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
   * [1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic)
-* **How To**:
-  * [Provide descriptive headings](/TR/WCAG-TECHS/G130)
-  * [Organize a page using headings](/TR/WCAG-TECHS/G141)
 * **Background**:
   * [Understanding 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
   * [Understanding 1.3.1 Info and Relationships](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
@@ -215,7 +211,6 @@ Write link text so that it clearly describes the content of the link target. Avo
 * **<abbr>WCAG</abbr> Requirement**:
   * [2.4.4 Link Purpose (In Context)](/WAI/WCAG20/quickref/#navigation-mechanisms-refs)
   * [2.4.9 Link Purpose (Link Only)](/WAI/WCAG20/quickref/#navigation-mechanisms-link)
-* **How To**: [Provide link text that describes the purpose of a link](/TR/WCAG-TECHS/G91)
 * **Background**:
   * [Understanding 2.4.4 Link Purpose (In Context)](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html)
   * [Understanding 2.4.9 Link Purpose (Link Only)](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html)
@@ -346,9 +341,6 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
-* **How To**:
-  * [Provide text instructions for forms](/TR/WCAG-TECHS/G184)
-  * [Provide expected data format and example](/TR/WCAG-TECHS/G89)
 * **Background**: [Understanding 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
 * **User Story**: [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
@@ -415,9 +407,6 @@ Use simple language and formatting, as appropriate for the context.
   * [3.1.5 Reading Level](/WAI/WCAG20/quickref/#meaning-supplements)
   * [3.1.3 Unusual Words](/WAI/WCAG20/quickref/#meaning-idioms)
   * [3.1.4 Abbreviations](/WAI/WCAG20/quickref/#meaning-located)
-* **How To**:
-  * [Make the text easier to read](/TR/WCAG-TECHS/G153)
-  * [Provide abbreviations](/TR/WCAG-TECHS/G97)
 * **Background**:
   * [Understanding 3.1.5 Reading Level](/TR/UNDERSTANDING-WCAG20/meaning-supplements.html)
   * [Understanding 3.1.3 Unusual Words](/TR/UNDERSTANDING-WCAG20/meaning-idioms.html)

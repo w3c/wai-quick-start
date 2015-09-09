@@ -264,7 +264,6 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [1.3.2 Meaningful Sequence](/WAI/WCAG20/quickref/#qr-minimize-error-identified)
-* **How To**: [Order the content in a meaningful sequence](/TR/WCAG-TECHS/G57)
 * **Background**: [Understanding 1.3.2 Meaningful Sequence](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html)
 
 {::nomarkdown}
@@ -433,9 +432,6 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [2.1.1 Keyboard](/WAI/WCAG20/quickref/#keyboard-operation-keyboard-operable)
-* **How To**:
-  * [Ensure keyboard control for all functionality](/TR/WCAG-TECHS/G202)
-  * [Provide keyboard-triggered event handlers](/TR/WCAG-TECHS/G90)
 * **Background**: [Understanding 2.1.1 Keyboard](/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html)
 * **User Story**: [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
 
