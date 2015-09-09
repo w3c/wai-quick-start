@@ -2,6 +2,8 @@ $permalink_fg: #666;
 $permalink_bg: #f5f5f5;
 
 .permalink {
+  background-color: $wai_bg;
+  
   &.h4 {
   	margin-top: .75em;
   }

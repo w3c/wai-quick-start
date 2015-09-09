@@ -1,0 +1,77 @@
+// Modifications to existing WAI stylesheet
+#tagline {
+  display: block;
+  overflow: hidden;/* Let height include floats */
+  margin: 0;
+  padding: 0;
+  color: $w3c_fg;
+  background: $wai_red;
+  min-height: 23px;/* Height of rounded corner */
+  border-radius: 0 28px 0 0;
+  p {
+    margin: 0;
+    padding: 0.3em 20px 0.3em 0.3em; /* 20px makes room for rounded corner */
+    text-align: right;
+  }
+}
+
+#footer {
+  ul {
+    margin-left: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+ul.inline {
+  display: inline;
+  li {
+    display: inline;
+    &:before {
+      content: ", "
+    }
+    &:first-child {
+      &:before {
+        content: '';
+      }
+    }
+    &:last-child {
+      &:before {
+        content: ', and ';
+      }
+      &:after {
+        content: '.';
+      }
+    }
+    &:last-child {
+      &:nth-child(2) {
+        &:before {
+          content: " and ";
+        }
+      }
+      &:first-child {
+        &:before {
+          content: '';
+        }
+      }
+    }
+  }
+}
+
+.status {
+	padding: .25em;
+  margin-bottom: 1em;
+	h3, p {
+		display:inline;
+		color: inherit;
+		font-size: 1em;
+	}
+	.draft & {
+		background-color: #CFC;
+	}
+	.editors-draft & {
+		background-color:#FCC;
+	}
+}

@@ -66,14 +66,6 @@ html {
     -ms-text-size-adjust: 100%; /* 2 */
 }
 
-/*
- * Removes default margin.
- */
-
-body {
-    margin: 0;
-}
-
 /* ==========================================================================
    Links
    ========================================================================== */
@@ -106,14 +98,6 @@ a:hover {
 
 h1 {
     font-size: 2em;
-}
-
-/*
- * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
- */
-
-abbr[title] {
-    border-bottom: 1px dotted;
 }
 
 /*

@@ -1,20 +1,38 @@
 @-ms-viewport { width: device-width; } @-o-viewport { width: device-width; } @viewport { width: device-width; }
 
-@import "wai_style";
-@import "syntax_highlight";
-@import "modal";
-
 // Media query variables
 $small:  25em; //* 400px */
 $medium: 43em; //* 700px */
 $big:    56em; //* 900px */
 $large:  81em; //* 1300px */
 
+// W3C Colours
+$w3c_paleblue: #f1f7fb;
+$w3c_blue: #005A9C;
+$w3c_purple: #003366;
+$w3c_fg: #ffffff;
+$wai_bg: #fffaf5;
+$wai_fg: black;
+$wai_link: #003366;
+$wai_link_visited: #660033;
+$wai_link_active: #003366;
+$wai_red: #993300;
 $wai_grey_bg: #e0e0e0;
 $wai_grey: #333333;
 
-.permalink {
-  background-color: $wai_bg;
+@import "normalize";
+@import "compass/css3";
+@import "helpers";
+@import "wai_style_changes";
+@import "permalink";
+@import "syntax_highlight";
+@import "modal";
+
+.font-primary {
+	font-family: "Trebuchet MS", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+}
+.font-secondary {
+	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .related-issue {
@@ -84,6 +102,11 @@ $wai_grey: #333333;
   }
   .right-inset {
     @include mq($small) {
+      float: none;
+      width: auto;
+      padding: 0 0 2em 0;
+    }
+    @include mq($medium) {
       float: right;
       width: 27%;
       padding: 2em 0 1em 1em;
