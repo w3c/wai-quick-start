@@ -3,7 +3,7 @@ title: "Tips for Getting Started with Web Accessibility"
 status: editors-draft
 ---
 
-Follow these introductory tips to help you get started with web accessibility. The tips are not all directly related to requirements but represent best practice that will help improve accessibility generally. The tips also provide links to further guidance, such as the WAI guidelines, tutorials, and educational resources.
+These introductory tips provide guiance for getting started making your website more accessible to people with disabilities. Tips are grouped by activity and each includes links to more comprehensive information. 
 
 {:.tips-grid .fa-ul}
 * [<span class="fa fa-li fa-paint-brush"></span><span>Designing</span> for Web Accessibility](designing.html)<span class="visuallyhidden">: </span>Tips for user interface and visual design.
