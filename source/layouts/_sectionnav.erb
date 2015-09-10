@@ -6,7 +6,7 @@
       <li<% if is_current(guide + '.html') %> class="current"<% end %>>
         <svg><use xlink:href="#<%= icon %>"></svg>
       <% if is_current(guide + '.html') %>
-        <%= guide.capitalize %>
+        <span>Current Page </span><%= guide.capitalize %>
       <% else %>
         <a href="<%= guide %>.html"><%= guide.capitalize %></a>
       <% end %>

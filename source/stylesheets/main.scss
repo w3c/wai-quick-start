@@ -141,6 +141,9 @@ $wai_grey: #333333;
             left: 0;
             position: absolute;
           }
+          span {
+            @extend .visuallyhidden;
+          }
         }
       }
     }
