@@ -658,11 +658,8 @@ These tips are only a part of web accessibility. The following resources will he
 * [How people with disabilities use the web](/WAI/intro/people-use-web) &mdash; explores the impact of accessible design with real-life examples
 * [Web Accessibility Tutorials](/WAI/tutorials/) &mdash; includes some guidance related to designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
 * [Before and After Demonstration](/WAI/demos/bad/) &mdash; shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
+* [<abbr>WCAG</abbr> Quick Reference](/WAI/WCAG20/quickref/) &mdash; customizable reference of all <abbr>WCAG</abbr> 2.0 requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) &mdash; includes tools to help explore contrast ratio
-
-{::nomarkdown}
-<%= learn_more :end %>
-{:/}
 
 {::nomarkdown}
 <%= tip :end %>
