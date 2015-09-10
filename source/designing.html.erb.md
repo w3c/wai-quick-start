@@ -651,11 +651,6 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 {:.attach_permalink}
 ## Learn more about accessibility
 
-These tips are just some of the important accessibility points to address when designing websites. There are more things to consider. The following resources will help you learn more about accessibility — why it is important for people with disabilities, for designers, and for organizations; about web accessibility guidelines; and much more. 
-
-{::nomarkdown}
-<%= learn_more %>
-{:/}
 
 * [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; covers broad issues, such as the business case, and links to helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; introduces the concepts behind the web accessibility requirements

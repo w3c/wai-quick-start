@@ -420,7 +420,6 @@ Use simple language and formatting, as appropriate for the context.
 {:.attach_permalink}
 ## Learn more about accessibility
 
-These tips are just some of the important accessibility points to address when writing for websites. There are more things to consider. The following resources will help you learn more about accessibility — why it is important for people with disabilities, for writers, and for organizations; about web accessibility guidelines; and much more. 
 
 {::nomarkdown}
 <%= learn_more %>

@@ -480,7 +480,6 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 {:.attach_permalink}
 ## Learn more about accessibility
 
-These tips are important points to consider when developing accessible websites, but there is always more to learn. The following resources will help you find out more about accessibility, why it is important, and what guidelines exist to help support people with disabilities accessing the web.
 
 {::nomarkdown}
 <%= learn_more %>
