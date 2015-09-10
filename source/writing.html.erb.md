@@ -420,6 +420,7 @@ Use simple language and formatting, as appropriate for the context.
 {:.attach_permalink}
 ## Learn more about accessibility
 
+These tips are only a part of web accessibility. The following resources will help you learn more about why accessibility is important, and what guidelines exist to help support people with disabilities accessing the web.
 
 {::nomarkdown}
 <%= learn_more %>

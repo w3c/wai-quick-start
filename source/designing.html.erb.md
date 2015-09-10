@@ -651,6 +651,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 {:.attach_permalink}
 ## Learn more about accessibility
 
+These tips are only a part of web accessibility. The following resources will help you learn more about why accessibility is important, and what guidelines exist to help support people with disabilities accessing the web.
 
 * [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; covers broad issues, such as the business case, and links to helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; introduces the concepts behind the web accessibility requirements
