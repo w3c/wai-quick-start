@@ -227,7 +227,7 @@ Write link text so that it clearly describes the content of the link target. Avo
 {:.attach_permalink}
 ## Write meaningful text alternatives for images
 
-Assign alternative text to every image, to clearly describe the information or function represented by the image. For purely decorative images, there is no need to write alternative text.
+For every image, write alternative text that provides the information or function of the image. For purely decorative images, there is no need to write alternative text.
 
 {::nomarkdown}
 <%= example 'Writing alternative text'%>
