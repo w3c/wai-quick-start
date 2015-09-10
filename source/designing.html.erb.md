@@ -4,7 +4,7 @@ status: editors-draft
 layout: guide
 ---
 
-These introductory tips cover the basics of accessible user interface design and visual design.
+These tips introduce some basic considerations to help you get started designing web content that is more accessible to people with disabilities. The tips are written as good practice rather than actual requirements. Refer to the related [<abbr>WCAG</abbr>](#what-is-wcag) Success Criteria linked from each tip to understand the requirements, and refer to the background and training material to learn more about web accessibility. 
 
 {:.toc .no_toc}
 ## On this page
