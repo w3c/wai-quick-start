@@ -56,11 +56,7 @@ Associate a label with every form control. This can be achieved using the `<labe
 {:.attach_permalink}
 ## Include alternative text for images
 
-{::nomarkdown}
-<%= related_issues 151 %>
-{:/}
-
-Ensure that alternative text for images is added to all informational and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>.
+Ensure that alternative text for images is added to all informational and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>. Text alternatives are usually provided by those responsible for written content. 
 
 {::nomarkdown}
 <%= learn_more %>
