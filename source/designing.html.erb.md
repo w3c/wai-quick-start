@@ -506,10 +506,6 @@ Use whitespace and proximity to make relationships between content more apparent
 {:.attach_permalink}
 ## Create designs for different viewport sizes
 
-{::nomarkdown}
-<%= related_issues 69 %>
-{:/}
-
 Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}

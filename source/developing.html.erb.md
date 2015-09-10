@@ -210,10 +210,6 @@ Be as forgiving of format as possible when processing user input. For example, a
 {:.attach_permalink}
 ## Reflect the reading order in the code order
 
-{::nomarkdown}
-<%= related_issues 153 %>
-{:/}
-
 Ensure that the order of elements in the code matches the logical order of the information when presented visually. One way to check this is to remove <abbr>CSS</abbr> styling and compare the order of the content with the visual hierarchy of the page.
 
 {::nomarkdown}

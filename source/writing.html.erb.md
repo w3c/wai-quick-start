@@ -355,10 +355,6 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 {:.attach_permalink}
 ## Keep content clear and concise
 
-{::nomarkdown}
-<%= related_issues 180 %>
-{:/}
-
 Use simple language and formatting, as appropriate for the context.
 
 * Write in short, clear sentences and paragraphs.
