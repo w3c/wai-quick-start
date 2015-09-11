@@ -28,7 +28,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
   <figure>
     <% html_example do %>
       <label for="username">Username</label>
-      <input id="username" type="text">
+      <input id="username" type="text" name="username">
     <% end %>
   </figure>
 </div>
