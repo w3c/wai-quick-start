@@ -465,11 +465,6 @@ $wai_grey: #333333;
     }
     .color-alone {
       figure {
-        @include mq($large) {
-          &.question {
-            margin-bottom: 0;
-          }
-        }
         svg {
           @include mq($small) {
             float: left;
