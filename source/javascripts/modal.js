@@ -17,7 +17,7 @@ swap();
 
   // list out the vars
   var openModalId,
-      allNodes = document.querySelectorAll("*"),
+      allNodes = document.querySelectorAll("a,input,select,textarea,button"),
       lastFocus,
       i;
 
