@@ -2,12 +2,6 @@
 
 <main id="main" role="main">
   <%= partial "layouts/status" %>
-  <% if current_page.data.layout == 'guide' %>
-    <div class="right-inset">
-      <%= partial "layouts/sectionnav" %>
-      <%= partial "layouts/what_is_wcag" %>
-    </div>
-  <% end %>
   <header class="heading">
     <% if current_page.data.heading == 'option1'  %>
       <h1><svg><use xlink:href="#<%= File.basename(current_page.path, '.html') %>"></svg> <%= current_page.data.title %><% if current_page.data.subtitle %>: <%= current_page.data.subtitle %><% end %></h1>
@@ -18,6 +12,13 @@
       <% end %>
     <% end %>
   </header>
+
+  <% if current_page.data.layout == 'guide' %>
+    <div class="right-inset">
+      <%= partial "layouts/sectionnav" %>
+      <%= partial "layouts/what_is_wcag" %>
+    </div>
+  <% end %>
 
   <div class="inner">
     <%= yield %>
