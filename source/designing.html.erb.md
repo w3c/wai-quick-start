@@ -4,7 +4,7 @@ status: editors-draft
 layout: guide
 ---
 
-These tips introduce some basic considerations to help you get started designing web content that is more accessible to people with disabilities. The tips are written as good practice rather than actual requirements. Refer to the related [<abbr>WCAG</abbr>](#what-is-wcag) Success Criteria linked from each tip to understand the requirements, and refer to the background and training material to learn more about web accessibility. 
+These tips introduce some basic considerations to help you get started designing web content that is more accessible to people with disabilities. The tips are written as good practice rather than actual requirements. Refer to the related Web Content Accessibility Guidelines (WCAG) Success Criteria linked from each tip to understand the requirements, and refer to the background and training material to learn more about web accessibility. 
 
 {:.toc .no_toc}
 ## On this page
@@ -26,13 +26,13 @@ Foreground text needs to have sufficient contrast with background colors. This i
 
 <div class="contrast two-column">
   <figure>
-    <figcaption>Insufficient</figcaption>
+    <figcaption>✘ Insufficient</figcaption>
     <div>
       <p class="fail">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>Sufficient</figcaption>
+    <figcaption>✓ Sufficient</figcaption>
     <div>
       <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
@@ -74,7 +74,7 @@ While color can be useful to convey information, color should not be the only wa
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption>Incorrectly referencing by color alone</figcaption>
+    <figcaption>✘ Indicate meaning with color only</figcaption>
     <div>
       <form action="">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
@@ -88,7 +88,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption>Correctly using color and symbol to reference</figcaption>
+    <figcaption>✓ Indicate meaning with color and symbol</figcaption>
     <div>
       <form action="">
         <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
@@ -104,10 +104,10 @@ While color can be useful to convey information, color should not be the only wa
 </div>
 <%= example :end%>
   
-<%= example 'Referencing using color alone' %>
+<%= example 'Refer to something using color alone' %>
 <div class="color-alone two-column">
   <figure class="question fail">
-    <figcaption>Must perceive color to be able to answer question</figcaption>
+    <figcaption>✘ Objects are referred to with color only</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
@@ -129,7 +129,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="question pass">
-    <figcaption>Color and number make question more accessible</figcaption>
+    <figcaption>✓ Objects are referred to with color and number</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="accessible-triangles-title" role="img">
         <g>
