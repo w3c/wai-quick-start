@@ -43,17 +43,20 @@ Foreground text needs to have sufficient contrast with background colors. This i
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [1.4.3 Contrast (Minimum)](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
-* **How To**: [How to check contrast ratio](/WAI/eval/preliminary.html#contrast)
-* **Background**: [Understanding 1.4.3 Contrast (Minimum)](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
-* **User Story**: [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
-* **Support Tools**: [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
+* **Related Requirement**
+  * [1.4.3 Contrast (Minimum)](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color) ([Understanding 1.4.3](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html))
+* **User Story**
+  * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
+* **Easy Check**
+  * [How to check contrast ratio](/WAI/eval/preliminary.html#contrast)
+* **Support Tools**
+  * [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -157,7 +160,7 @@ While color can be useful to convey information, color should not be the only wa
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
@@ -165,7 +168,7 @@ While color can be useful to convey information, color should not be the only wa
 * **User Story**: [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -219,7 +222,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -233,7 +236,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -247,7 +250,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 Ensure that navigation across pages within a website has consistent naming, styling, and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs and clear headings.
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -259,7 +262,7 @@ Ensure that navigation across pages within a website has consistent naming, styl
 * **User Story**: [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -273,7 +276,7 @@ Ensure that navigation across pages within a website has consistent naming, styl
 Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.
 
 {::nomarkdown}
-<%= example 'Clear association between label and form fields' %>
+<%= example 'Using proximity to associate label with fields' %>
 
 <div class="labels">
   <figure class="pass">
@@ -306,20 +309,19 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: 
-  * [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
-  * [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
-* **Background**:
-  * [Understanding 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
-  * [Understanding 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
-* **Tutorial**: [Visual position of label text](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
-* **User Story**: [How clear labelling can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
+* **Related Requirement**
+  * [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
+  * [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive) ([Understanding 2.4.6](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html))
+* **Tutorial**
+  * [Visual position of label text](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
+* **User Story**
+  * [How clear labelling can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -374,7 +376,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [3.3.1 Error Identification](/WAI/WCAG20/quickref/#minimize-error-identified)
@@ -383,7 +385,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 * **User Story**: [How making important content easily identifiable can help](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -486,7 +488,7 @@ Use whitespace and proximity to make relationships between content more apparent
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
@@ -495,7 +497,7 @@ Use whitespace and proximity to make relationships between content more apparent
 * **User Story**: [Describes how headings can be helpful for navigation](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -527,13 +529,13 @@ Consider how page information is presented in different sized viewports, such as
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -590,7 +592,7 @@ Provide text which describes the purpose of each image. Images might convey info
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
@@ -599,7 +601,7 @@ Provide text which describes the purpose of each image. Images might convey info
 * **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -628,7 +630,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -640,7 +642,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
   * [Understanding 2.2.2 Pause, Stop, Hide](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}

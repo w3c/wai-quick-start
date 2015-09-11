@@ -37,7 +37,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
@@ -45,7 +45,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 * **Background**: [Understanding 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -59,7 +59,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 Ensure that alternative text for images is added to all informational and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>. Text alternatives are usually provided by those responsible for written content. 
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
@@ -68,7 +68,7 @@ Ensure that alternative text for images is added to all informational and functi
 * **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -82,7 +82,7 @@ Ensure that alternative text for images is added to all informational and functi
 Indicate the primary language of every page by using the `lang` attribute in the `html` tag. Use the `lang` attribute on specific elements when the language of the element differs from the rest of the page.
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -94,7 +94,7 @@ Indicate the primary language of every page by using the `lang` attribute in the
   * [Understanding 3.1.2 Language of Parts](/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -149,7 +149,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic)
@@ -160,7 +160,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 * **User Story**: [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -190,7 +190,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [3.3.1 Error Identifications](/WAI/WCAG20/quickref/#qr-minimize-error-identified)
@@ -199,7 +199,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 * **User Story**: [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -252,14 +252,14 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [1.3.2 Meaningful Sequence](/WAI/WCAG20/quickref/#qr-minimize-error-identified)
 * **Background**: [Understanding 1.3.2 Meaningful Sequence](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -313,7 +313,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -326,7 +326,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 * **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -370,7 +370,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [4.1.2 Name, Role, Value](/WAI/WCAG20/quickref/#ensure-compat-rsv)
@@ -378,7 +378,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 * **Note**: [Notes on Using ARIA in HTML](/TR/aria-in-html/)  
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -434,7 +434,7 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [2.1.1 Keyboard](/WAI/WCAG20/quickref/#keyboard-operation-keyboard-operable)
@@ -442,7 +442,7 @@ buttonExample.addEventListener('click', function(e) {
 * **User Story**: [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -460,7 +460,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 * Not requiring CAPTCHAs for authorized users. 
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#text-equiv-all)
@@ -469,7 +469,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
   * [Note on CAPTCHA](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#text-equiv-all-8-head)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}

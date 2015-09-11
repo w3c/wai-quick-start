@@ -76,14 +76,14 @@ For each web page, provide a short title that describes the page content and dis
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [2.4.2 Page Titled](/WAI/WCAG20/quickref/#navigation-mechanisms-title)
 * **Background**: [Understanding 2.4.2 Page Titled](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -157,7 +157,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -169,7 +169,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 * **User Story**: [How a screen reader user uses headings to navigate](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -204,7 +204,7 @@ Write link text so that it describes the content of the link target. Avoid using
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -215,7 +215,7 @@ Write link text so that it describes the content of the link target. Avoid using
   * [Understanding 2.4.9 Link Purpose (Link Only)](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -253,7 +253,7 @@ For every image, write alternative text that provides the information or functio
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
@@ -262,7 +262,7 @@ For every image, write alternative text that provides the information or functio
 * **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -276,7 +276,7 @@ For every image, write alternative text that provides the information or functio
 For audio-only content, such a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door creaks'. For video transcripts, also include a description of the important visual content, for example 'Athan leaves the room'.
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -288,7 +288,7 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 * **User Story**: [Describes how captions help a deaf student](/WAI/intro/people-use-web/stories#onlinestudent)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -336,7 +336,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**: [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
@@ -344,7 +344,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 * **User Story**: [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
@@ -395,7 +395,7 @@ Use simple language and formatting, as appropriate for the context.
 {:/}
 
 {::nomarkdown}
-<%= learn_more %>
+<%= related_resources %>
 {:/}
 
 * **<abbr>WCAG</abbr> Requirement**:
@@ -409,7 +409,7 @@ Use simple language and formatting, as appropriate for the context.
 * **User Story**: [User with reading disabilities benefits from easy to read text](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-<%= learn_more :end %>
+<%= related_resources :end %>
 {:/}
 
 {::nomarkdown}
