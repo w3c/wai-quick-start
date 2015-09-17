@@ -272,11 +272,10 @@ Ensure that navigation across pages within a website has consistent naming, styl
 Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.
 
 {::nomarkdown}
-<%= example 'Using proximity to associate label with fields' %>
+<%= example 'Proximity between label and field makes association clear' %>
 
 <div class="labels">
   <figure class="pass">
-    <figcaption>Proximity between label and field makes association clear</figcaption>
     <div>
       <form action="">
         <legend>Add a comment</legend>
@@ -331,11 +330,11 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Instructions should be easy to identify. Important feedback that requires user action should be presented in a prominent style. 
  
 {::nomarkdown}
-<%= example 'Making errors easy to identify' %>
+<%= example 'Use error list, icon, and background color to make errors extremely obvious' %>
 
 <div class="errors">
   <figure>
-    <figcaption>Error list, icon, and background color make errors extremely obvious</figcaption>
+    <figcaption></figcaption>
     <div>
       <div class="error-list">
         <p>Please correct the following errors:</p>
@@ -401,7 +400,7 @@ Use whitespace and proximity to make relationships between content more apparent
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption id="inaccessible-headings-title">Harder to see relationships without spacing</figcaption>
+    <figcaption id="inaccessible-headings-title">✘ Harder to see relationships without spacing</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
@@ -438,7 +437,7 @@ Use whitespace and proximity to make relationships between content more apparent
     </div>
   </figure>
   <figure class="pass">
-    <figcaption id="accessible-headings-title">Spacing helps to group related content</figcaption>
+    <figcaption id="accessible-headings-title">✓ Spacing helps to group related content</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
@@ -511,11 +510,10 @@ Use whitespace and proximity to make relationships between content more apparent
 Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
-<%= example 'Content displayed in different viewport sizes' %>
+<%= example 'Flow of content and navigation adapt to smaller mobile screen' %>
 
 <div class="responsive">
   <figure>
-    <figcaption>Flow of content and navigation adapt to smaller mobile screen</figcaption>
     <div>
       <img src="images/content_in_browser.png" alt="Example of content in a standard browser">
       <img src="images/content_in_phone.png" alt="Example of content displayed in a phone">
@@ -552,11 +550,10 @@ Consider how page information is presented in different sized viewports, such as
 Provide text which describes the purpose of each image. Images might convey information, provide decoration, or support functionality. Alternative text is not needed for purely decorative images that don't add information to the page.
 
 {::nomarkdown}
-<%= example 'Functional images' %>
+<%= example 'Alternative text indicates functional purpose' %>
 
 <div class="text-alternative">
   <figure>
-    <figcaption>Alternative text indicates functional purpose</figcaption>
     <div>
       <ul class="course-select">
         <li class="closed"><img src="images/arrow-right.png" alt="Open">English <span class="number" title="Number of clasess">10</span></li>
@@ -578,10 +575,9 @@ Provide text which describes the purpose of each image. Images might convey info
 </div>
 <%= example :end %>
 
-<%= example 'Informational image' %>
+<%= example 'Alternative text conveys meaning' %>
 <div class="text-alternative">
   <figure>
-    <figcaption>Alternative text conveys meaning</figcaption>
     <div>
       <button type="button"><img src="images/padlock.png" alt="Secure">Proceed to Checkout</button>
       <p>Alternative text for the padlock image indicates a secure purchasing process.</p>
@@ -620,11 +616,10 @@ Provide text which describes the purpose of each image. Images might convey info
 Provide visible controls to allow users to stop any animations or auto-playing sound. This applies to carousels, image sliders, background sound, and videos.
 
 {::nomarkdown}
-<%= example 'Controls included in design' %>
+<%= example 'Carousel design including play/stop and slide selection controls' %>
 
 <div class="autoplay">
   <figure>
-    <figcaption>Carousel design including play/stop and slide selection controls</figcaption>
     <div>
       <img src="images/carousel_controls.png" alt="Example of carousel with play and slide selection controls">
     </div>

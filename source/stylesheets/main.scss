@@ -385,18 +385,18 @@ $wai_grey: #333333;
         box-sizing: border-box;
         clear: both;
         margin-bottom: 1em;
-        padding: 1em;
-        background: #fffdfa;
-        box-shadow: 0 0 2px 0 darken($wai_grey_bg, 30%);
-        border-radius: 2px;
         figcaption {
           color: $wai_fg;
           padding-bottom: 0.5em;
-          border-bottom: 1px solid darken($wai_grey_bg, 25%);
-          margin-bottom: 1em;
+          margin: 0.5em 0 0 0.25em;
           font-weight: bold;
         }
         &>div {
+          padding: 1em;
+          background: #fffdfa;
+          box-shadow: 0 0 2px 0 darken($wai_grey_bg, 30%);
+          border-radius: 2px;
+          overflow: hidden;
           p, ol, ul {
             &:first-child {
               margin-top: 0;
@@ -406,6 +406,9 @@ $wai_grey: #333333;
             }
           }
         }
+      }
+      pre {
+        margin-bottom: 0;
       }
     }
 
@@ -448,7 +451,7 @@ $wai_grey: #333333;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        figure, pre {
+        figure {
           width: 49%;
         }
       }
@@ -477,20 +480,7 @@ $wai_grey: #333333;
       }
     }
     .color-alone {
-      figure > div {
-        background: #fffdfa none repeat scroll 0 0;
-        box-shadow: 0 0 2px 0 #949494;
-        padding: 1em;
-        border-radius: 2px;
-      }
       figure {
-        background: none;
-        box-shadow: none;
-        padding: 0;
-        figcaption {
-          margin-bottom: 0.5em;
-          border-bottom: none;
-        }
         svg {
           @include mq($small) {
             float: left;
@@ -555,9 +545,12 @@ $wai_grey: #333333;
       }
       figure {
         width: auto;
-      }
-      figcaption {
-        padding-right: 1em;
+        figcaption {
+          padding-right: 1em;
+        }
+        &>div {
+          overflow: visible;
+        }
       }
       p {
         position: relative;
@@ -772,14 +765,6 @@ $wai_grey: #333333;
       }
     }
     .responsive {
-      figure {
-        div {
-          padding: 0;
-        }
-      }
-      @include mq($medium) {
-        width: 91%;
-      }
       img {
         @include mq($medium) {
           &:first-child {
@@ -796,7 +781,9 @@ $wai_grey: #333333;
     .page-title {
       figure {
         display: inline-block;
-        padding: 1em 1em 1em 1.04em;
+        &>div {
+          padding-left: 1.05em;
+        }
       }
       svg {
         text {
@@ -815,21 +802,22 @@ $wai_grey: #333333;
     }
     .heading-structure {
       figure {
-        background: none;
-        box-shadow: none;
-        padding: 0;
-        margin-bottom: 0;
         display: inline-block;
         > a {
           display: block;
-          background: #fffdfa none repeat scroll 0 0;
-          box-shadow: 0 0 2px 0 #e0e0e0;
-          padding: 1em;
-          border: none;
-          margin-bottom: 1em;
           text-decoration: none;
+          &:hover, &focus {
+            text-decoration: underline;
+          }
           figcaption {
             color: $w3c_purple;
+          }
+          div {
+            padding: 1em;
+            background: #fffdfa;
+            box-shadow: 0 0 2px 0 darken($wai_grey_bg, 30%);
+            border-radius: 2px;
+            overflow: hidden;
           }
         }
       }
@@ -857,7 +845,6 @@ $wai_grey: #333333;
     .text-alternative {
       figure {
         display: inline-block;
-        overflow: hidden;
       }
       img {
         float: left;
@@ -983,7 +970,6 @@ $wai_grey: #333333;
     }
     .order {
       figure {
-        overflow: hidden;
         display: inline-block;
       }
       article {
@@ -1019,15 +1005,8 @@ $wai_grey: #333333;
         }
       }
       .two-column {
-        margin-top: 2em;
-      }
-      @include mq($medium) {
-        .fail {
-          margin-right: 3em;
-        }
-        .fail, .pass {
-          width: 45%;
-        }
+        margin-top: 0;
+        display: flex;
       }
     }
     .adapt-code {

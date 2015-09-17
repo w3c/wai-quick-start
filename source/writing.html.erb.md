@@ -27,48 +27,54 @@ For each web page, provide a short title that describes the page content and dis
 <div class="page-title">
   <figure>
     <figcaption>Home page title</figcaption>
-    <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
-      <g transform="scale(1.2)">
-        <title id="page-title-1">Home page title</title>
-        <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
-        <text transform="translate(10 15)">Space Teddy Inc.</text>
-        <g transform="translate(333 4)">
-        	<rect x="0" y="9.5" width="10" height="1.5"/>
-	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
-        	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+    <div>
+      <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
+        <g transform="scale(1.2)">
+          <title id="page-title-1">Home page title</title>
+          <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+          <text transform="translate(10 15)">Space Teddy Inc.</text>
+          <g transform="translate(333 4)">
+          	<rect x="0" y="9.5" width="10" height="1.5"/>
+  	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+          	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+          </g>
         </g>
-      </g>
-    </svg>
+      </svg>
+    </div>
   </figure>
   <figure>
     <figcaption>Page name followed by organization name</figcaption>
-    <svg version="1.1" width="462" height="27" aria-labelledby="page-title-2" role="img">
-      <g transform="scale(1.2)">
-        <title id="page-title-2">Page name followed by organization name</title>
-        <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
-        <text transform="translate(10 15)">Latest News &bull; Space Teddy Inc.</text>
-        <g transform="translate(333 4)">
-        	<rect x="0" y="9.5" width="10" height="1.5"/>
-	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
-        	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+    <div>
+      <svg version="1.1" width="462" height="27" aria-labelledby="page-title-2" role="img">
+        <g transform="scale(1.2)">
+          <title id="page-title-2">Page name followed by organization name</title>
+          <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+          <text transform="translate(10 15)">Latest News &bull; Space Teddy Inc.</text>
+          <g transform="translate(333 4)">
+          	<rect x="0" y="9.5" width="10" height="1.5"/>
+  	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+          	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+          </g>
         </g>
-      </g>
-    </svg>
+      </svg>
+    </div>
   </figure>
   <figure>
     <figcaption>Page name including step in a process</figcaption>
-    <svg version="1.1" width="462" height="27" aria-labelledby="page-title-3" role="img">
-      <g transform="scale(1.2)">
-        <title id="page-title-3">Page name including step in a process</title>
-        <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
-        <text transform="translate(10 15)">Buy Your Bear (Step 1 of 3) &bull; Space Teddy Inc.</text>
-        <g transform="translate(333 4)">
-        	<rect x="0" y="9.5" width="10" height="1.5"/>
-	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
-        	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+    <div>
+      <svg version="1.1" width="462" height="27" aria-labelledby="page-title-3" role="img">
+        <g transform="scale(1.2)">
+          <title id="page-title-3">Page name including step in a process</title>
+          <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+          <text transform="translate(10 15)">Buy Your Bear (Step 1 of 3) &bull; Space Teddy Inc.</text>
+          <g transform="translate(333 4)">
+          	<rect x="0" y="9.5" width="10" height="1.5"/>
+  	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+          	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+          </g>
         </g>
-      </g>
-    </svg>
+      </svg>
+    </div>
   </figure>
 </div>
 
@@ -101,7 +107,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 
 <div class="heading-structure two-column">
   <figure>
-    <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><figcaption>Content presented without headings</figcaption><img src="images/headings-poor.png" alt=""></a>
+    <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><figcaption>✘ Content presented without headings</figcaption><div><img src="images/headings-poor.png" alt=""></div></a>
     <div id="no-headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="no-headings-modal-title">
       <div id="no-headings-modal-holder">
         <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
@@ -123,7 +129,7 @@ Use short headings to group related paragraphs and clearly describe the sections
     </div>
   </figure>
   <figure>
-    <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><figcaption>Headings used to split content and group topics</figcaption><img src="images/headings-good.png" alt=""></a>
+    <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><figcaption>✓ Headings used to split content and group topics</figcaption><div><img src="images/headings-good.png" alt=""></div></a>
     
     <div id="headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="headings-modal-title">
       <div id="headings-modal-holder">
@@ -185,13 +191,13 @@ Write link text so that it describes the content of the link target. Avoid using
 
 <div class="meaningful-links two-column">
   <figure>
-    <figcaption>Text is not meaningful by itself</figcaption>
+    <figcaption>✘ Text is not meaningful by itself</figcaption>
     <div>
       <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>Text has meaning by itself</figcaption>
+    <figcaption>✓ Text has meaning by itself</figcaption>
     <div>
       <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
     </div>
@@ -228,14 +234,14 @@ For every image, write alternative text that provides the information or functio
 
 <div class="text-alternative two-column">
   <figure>
-    <figcaption>Information in image is not communicated</figcaption>
+    <figcaption>✘ Information in image is not communicated</figcaption>
     <div>
       <p class="fail"><img src="images/phone_charging.png" alt="Charging phone"> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
       <p><strong>Alternative text for image</strong>: 'Charging phone'</p>
     </div>
   </figure>
   <figure>
-    <figcaption>Information in image is communicated</figcaption>
+    <figcaption>✓ Information in image is communicated</figcaption>
     <div>
       <p class="pass"><img src="images/phone_charging.png" alt="Plug cable into the bottom edge of the phone."> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
       <p><strong>Alternative text for image</strong>: 'Plug cable into the bottom edge of the phone.'</p>
@@ -297,11 +303,10 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 Ensure that instructions, guidance, and error messages are clear, easy to understand, and avoid unnecessarily technical language. Describe input requirements, such as date formats.
 
 {::nomarkdown}
-<%= example 'Clear form instructions' %>
+<%= example 'Instructions communicate what information the user should provide' %>
 
 <div class="errors">
   <figure>
-    <figcaption>Instructions communicate what information the user should provide</figcaption>
     <div>
       <form action="">
         <p id="password-desc">Password should be at least six characters with at least one number (0-9).</p>
@@ -314,10 +319,9 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
   </figure>
 </div>
 <%= example :end %>
-<%= example 'Clear, non-technical error messages' %>
+<%= example 'Error indicates what the problem is and, possibly, how to fix it' %>
 <div class="errors">
   <figure>
-    <figcaption>Message indicates what the problem is and, possibly, how to fix it</figcaption>
     <div>
       <ol class="fa-ul error-list">
         <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The username 'superbear' is already in use.</a></li>
@@ -366,13 +370,13 @@ Use simple language and formatting, as appropriate for the context.
 
 <div class="two-column">
   <figure>
-    <figcaption>Less readable and understandable text</figcaption>
+    <figcaption>✘ Less readable and understandable text</figcaption>
     <div>
       <p class="fail">CPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to all parties involved. Once our representative obtains information that allows us to understand the causality, we may or may not assign appropriate monetary compensation. The resulting decision may occasion one of the following options: the claim is not approved and is assigned a rejected status, the status of the claim is ambiguous and will require additional information before further processing can occur, the claim is partially approved and reduced payment is assigned and issued, or claim is fully approved and total claim payment is assigned and issued.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>More readable and understandable text</figcaption>
+    <figcaption>✓ More readable and understandable text</figcaption>
     <div>
       <p class="pass">Claims Processing Procedure (CPP): If you have a car accident, our agent will investigate. Findings will determine any claim payment. This could result in:</p>
       <ul>

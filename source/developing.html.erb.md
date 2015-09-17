@@ -219,36 +219,39 @@ Ensure that the order of elements in the code matches the logical order of the i
 <%= example 'Two approaches to coding presentation of a product' %>
 
 <div class="order">
-  <figure>
-    <div>
-      <article class="product">
-        <h3 class="name">Space trainers</h3>
-        <img src="images/trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
-        <p class="desc">Space trainer for a classic and stylish look.</p>
-        <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
-      </article>
-      <div class="two-column">
-        <div class="fail">
-          <p><b>Code order does not reflect logical reading order</b> - image is before product name.</p>
-          <% code('html') do %>
+  <article class="product">
+    <h3 class="name">Space trainers</h3>
+    <img src="images/trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
+    <p class="desc">Space trainer for a classic and stylish look.</p>
+    <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
+  </article>
+  <div class="two-column">
+    <figure>
+      <figcaption>✘ Code order does not reflect logical reading order</figcaption>
+      <div class="fail code">
+        <p>Code Snippet:</p>
+        <% code('html') do %>
 <img src="images/trainer.png" alt="...">
 <h3>Space trainers</h3>
 <p>Space...</p>
 <a href="...">Add to cart</a>
-          <% end %>
-        </div>
-        <div class="pass">
-          <p><b>Code order reflects logical reading order</b> - product name is before image.</p>
-          <% code('html') do %>
-<h3>Space trainers</h3>
-<img src="images/trainer.png" alt="...">
-<p>Space...</p>
-<a href="...">Add to cart</a>
-          <% end %>
-        </div>
+        <% end %>
       </div>
-    </div>
-  </figure>
+    </figure>
+    
+    <figure>
+      <figcaption>✓ Code order reflects logical reading order</figcaption>
+      <div class="pass code">
+        <p>Code Snippet:</p>
+        <% code('html') do %>
+<h3>Space trainers</h3>
+<img src="images/trainer.png" alt="...">
+<p>Space...</p>
+<a href="...">Add to cart</a>
+        <% end %>
+      </div>
+    </figure>
+  </div>
 </div>
 
 <%= example :end %>
