@@ -422,6 +422,7 @@ buttonExample.addEventListener('keydown', function(e) {
 });
 
 buttonExample.addEventListener('click', function(e) {
+// Toggle the menu on mouse click
   toggleMenu(document.getElementById('example-button-menu'));
 });
       <% end %>
