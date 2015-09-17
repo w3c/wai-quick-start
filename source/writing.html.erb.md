@@ -247,7 +247,7 @@ For every image, write alternative text that provides the information or functio
       <p><strong>Alternative text for image</strong>: 'Plug cable into the bottom edge of the phone.'</p>
     </div>
   </figure>
-  <p class="note">Note that alternative text is normally not visible. It is presented here for illustration only.</p>
+  <p class="note"><em>(Alternative text is usually not visible; it is included in this example just so you can see it.)</em></p>
 </div>
 
 <%= example :end %>
