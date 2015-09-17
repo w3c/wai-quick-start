@@ -119,7 +119,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
         <time>7 Aug 2015</time>
         <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
         <aside>
-          <h3>Related</h3>
+          <h3>Related Articles</h3>
           <ul>
             <li><a href="#">Bear receives key to city</a></li>
             <li><a href="#">Superbear stands for mayor</a></li>
