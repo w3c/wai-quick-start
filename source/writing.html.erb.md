@@ -417,7 +417,7 @@ Use simple language and formatting, as appropriate for the context.
 {:.attach_permalink}
 ## Learn more about accessibility
 
-These tips are only a part of web accessibility. The following resources will help you learn more about why accessibility is important, and what guidelines exist to help support people with disabilities accessing the web.
+These tips are some things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
 * [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; Introduces accessibility and provides links to many helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; An introduction to the <abbr>WCAG</abbr> requirements
