@@ -213,7 +213,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 {:.attach_permalink}
 ## Reflect the reading order in the code order
 
-Ensure that the order of elements in the code matches the logical order of the information when presented visually. One way to check this is to remove <abbr>CSS</abbr> styling and compare the order of the content with the visual hierarchy of the page.
+Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove <abbr>CSS</abbr> styling and review the the order of the content makes sense.
 
 {::nomarkdown}
 <%= example 'Two approaches to coding presentation of a product' %>
@@ -395,6 +395,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
+Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex="0"` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
 <%= example 'Keyboard accessible menu icon' %>
