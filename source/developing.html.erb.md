@@ -274,7 +274,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:/}
 
 {:.attach_permalink}
-## Write code that adapts to user's technology
+## Write code that adapts to the user's technology
 
 Use responsive design to adapt the display to different zoom states and viewport sizes, such as on mobile devices and tablets. Avoid clipping and horizontal scrolling when font size is increased. Use progressive enhancement to help ensure that core functionality and content is available regardless of technology being used.
 
