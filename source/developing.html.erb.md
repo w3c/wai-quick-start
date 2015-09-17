@@ -40,7 +40,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
 * **Tutorial**
   * [Labelling Controls](/WAI/tutorials/forms/labels/)
@@ -63,7 +63,7 @@ Ensure that alternative text for images is added to all informational and functi
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/qr-text-equiv-all.html))
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
@@ -88,7 +88,7 @@ Indicate the primary language of every page by using the `lang` attribute in the
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [3.1.1 Language of Page](/WAI/WCAG20/quickref/#meaning-doc-lang-id) ([Understanding 3.1.1](/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html))
   * [3.1.2 Language of Parts](/WAI/WCAG20/quickref/#meaning-other-lang-id) ([Understanding 3.1.2](/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html))
 * **How To**
@@ -155,7 +155,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic) ([Understanding 1.3.1](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html))
 * **Tutorial**
   * [Page Structure](/WAI/tutorials/page-structure/)
@@ -197,7 +197,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [3.3.1 Error Identifications](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/qr-minimize-error-identified.html))
 * **Tutorial**
   * [Validating Input](/WAI/tutorials/forms/validation/)
@@ -264,7 +264,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.3.2 Meaningful Sequence](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 1.3.2](/TR/UNDERSTANDING-WCAG20/qr-minimize-error-identified.html))
 
 {::nomarkdown}
@@ -325,7 +325,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.4.4 Resize text](/WAI/WCAG20/quickref/#visual-audio-contrast-scale) ([Understanding 1.4.4](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html))
   * [3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
 * **Background**
@@ -381,7 +381,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [4.1.2 Name, Role, Value](/WAI/WCAG20/quickref/#ensure-compat-rsv) ([Understanding 4.1.2](/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html))
 * **Background**
   * [Notes on Using ARIA in HTML](/TR/aria-in-html/)  
@@ -447,7 +447,7 @@ buttonExample.addEventListener('click', function(e) {
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [2.1.1 Keyboard](/WAI/WCAG20/quickref/#keyboard-operation-keyboard-operable) ([Understanding 2.1.1](/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html))
 * **User Story**
   * [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
@@ -474,7 +474,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
 
 {::nomarkdown}

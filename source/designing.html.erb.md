@@ -46,7 +46,7 @@ Foreground text needs to have sufficient contrast with background colors. This i
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.4.3 Contrast (Minimum)](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color) ([Understanding 1.4.3](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html))
 * **User Story**
   * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
@@ -163,7 +163,7 @@ While color can be useful to convey information, color should not be the only wa
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color) ([Understanding 1.4.1](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html))
 * **User Story**
   * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
@@ -226,7 +226,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [2.4.7 Focus Visible](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible) ([Understanding 2.4.7](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html))
   * [3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
 * **User Story**:
@@ -251,7 +251,7 @@ Ensure that navigation across pages within a website has consistent naming, styl
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [3.2.3 Consistent Navigation](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations) ([Understanding 3.2.3](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html))
   * [2.4.5 Multiple Ways](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc) ([Understanding 2.4.5](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html))
 * **User Story**
@@ -307,7 +307,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
   * [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive) ([Understanding 2.4.6](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html))
 * **Tutorial**
@@ -374,7 +374,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [3.3.1 Error Identification](/WAI/WCAG20/quickref/#minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html))
 * **Tutorial**
   * [User Notifications](/WAI/tutorials/forms/notifications/)
@@ -488,7 +488,7 @@ Use whitespace and proximity to make relationships between content more apparent
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive) ([Understanding 2.4.6](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html))
 * **Tutorial**
   * [Headings](/WAI/tutorials/page-structure/headings/)
@@ -594,7 +594,7 @@ Provide text which describes the purpose of each image. Images might convey info
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/qr-text-equiv-all.html))
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
@@ -633,7 +633,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 <%= related_resources %>
 {:/}
 
-* **Related Requirement**
+* **Related WCAG Requirement**
   * [1.4.2 Audio Control](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio) ([Understanding 1.4.2](/TR/UNDERSTANDING-WCAG20/qr-visual-audio-contrast-dis-audio.html))
   * [2.2.2 Pause, Stop, Hide](/WAI/WCAG20/quickref/#qr-time-limits-pause) ([Understanding 2.2.2](/TR/UNDERSTANDING-WCAG20/qr-time-limits-pause.html))
 * **Tutorial**
