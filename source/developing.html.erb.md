@@ -57,7 +57,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 {:.attach_permalink}
 ## Include alternative text for images
 
-Ensure that alternative text for images is added to all informational and functional images. Decorative images should have empty alternative text, `alt=''`, or should be included using <abbr>CSS</abbr>. Text alternatives are usually provided by those responsible for written content. 
+Ensure that alternative text for images is added to all informational and functional images. Decorative images should have empty alternative text, `alt=""`, or should be included using <abbr>CSS</abbr>. Text alternatives are usually provided by those responsible for written content. 
 
 {::nomarkdown}
 <%= related_resources %>
@@ -105,7 +105,7 @@ Indicate the primary language of every page by using the `lang` attribute in the
 {:.attach_permalink}
 ## Use mark-up to convey meaning and structure
 
-Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role='search'` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
+Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additional elements, such as `<nav>` and `<aside>`, to better structure your content. <abbr>WAI-ARIA</abbr> roles can provide additional meaning, for example, using `role="search"` to identify search functionality. Work with designers and content writers to agree on meanings and then use them consistently.
 
 {::nomarkdown}
 <%= example 'Using HTML to provide structure and meaning' %>
@@ -342,7 +342,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:.attach_permalink}
 ## Provide meaning for non-standard interactive elements 
 
-Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role='navigation'` and `aria-expanded='true'`. Additional code is required to implement the behavior of such widgets, such as expanding/collapsing content or how the widget responds to keyboard events.
+Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role="navigation"` and `aria-expanded="true"`. Additional code is required to implement the behavior of such widgets, such as expanding/collapsing content or how the widget responds to keyboard events.
 
 {::nomarkdown}
 <%= example 'Menu function and state identified using WAI-ARIA' %>
@@ -395,7 +395,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
-Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex='0'` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order, when it is being used for interaction. Use scripting to capture and respond to keyboard events.
+Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex="0"` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order, when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
 <%= example 'Keyboard accessible menu icon' %>

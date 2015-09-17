@@ -78,7 +78,7 @@ While color can be useful to convey information, color should not be the only wa
     <div>
       <form action="">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
-        <div class='row'>
+        <div class="row">
           <label for="name1">Name</label> <input type="text" id="name1" name="name">
         </div>
         <div class="row">
@@ -91,8 +91,8 @@ While color can be useful to convey information, color should not be the only wa
     <figcaption>✓ Indicate meaning with color and symbol</figcaption>
     <div>
       <form action="">
-        <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
-        <div class='row'>
+        <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
+        <div class="row">
           <label for="name2">Name</label> <input type="text" id="name2" name="name"><br>
         </div>
         <div class="row">
@@ -120,11 +120,11 @@ While color can be useful to convey information, color should not be the only wa
       </svg>
       <form action="">
         <legend>Which is the right-angled triangle?</legend>
-        <input id='answer-green1' name='answer1' name='green' type='radio'> <label for='answer-green1'>Green</label><br>
-        <input id='answer-blue1' name='answer1' name='blue' type='radio'> <label for='answer-blue1'>Blue</label><br>
-        <input id='answer-red1' name='answer1' name='red' type='radio'> <label for='answer-red1'>Red</label><br>
-        <input id='answer-yellow1' name='answer1' name='yellow' type='radio'> <label for='answer-yellow1'>Yellow</label><br>
-        <input id='answer-pass1' name='answer1' name='pass' type='radio'> <label for='answer-pass1'>Don't know</label>
+        <input id="answer-green1" name="answer1" name="green" type="radio"> <label for="answer-green1">Green</label><br>
+        <input id="answer-blue1" name="answer1" name="blue" type="radio"> <label for="answer-blue1">Blue</label><br>
+        <input id="answer-red1" name="answer1" name="red" type="radio"> <label for="answer-red1">Red</label><br>
+        <input id="answer-yellow1" name="answer1" name="yellow" type="radio"> <label for="answer-yellow1">Yellow</label><br>
+        <input id="answer-pass1" name="answer1" name="pass" type="radio"> <label for="answer-pass1">Don't know</label>
       </form>
     </div>
   </figure>
@@ -146,11 +146,11 @@ While color can be useful to convey information, color should not be the only wa
       </svg>
       <form action="">
         <legend>Which is the right-angled triangle?</legend>
-        <input id='answer-green2' name='answer2' name='green' type='radio'> <label for='answer-green2'>Green (1)</label><br>
-        <input id='answer-blue2' name='answer2' name='blue' type='radio'> <label for='answer-blue2'>Blue (2)</label><br>
-        <input id='answer-red2' name='answer2' name='red' type='radio'> <label for='answer-red2'>Red (3)</label><br>
-        <input id='answer-yellow2' name='answer2' name='yellow' type='radio'> <label for='answer-yellow2'>Yellow (4)</label><br>
-        <input id='answer-pass2' name='answer2' name='pass' type='radio'> <label for='answer-pass2'>Don't know</label>
+        <input id="answer-green2" name="answer2" name="green" type="radio"> <label for="answer-green2">Green (1)</label><br>
+        <input id="answer-blue2" name="answer2" name="blue" type="radio"> <label for="answer-blue2">Blue (2)</label><br>
+        <input id="answer-red2" name="answer2" name="red" type="radio"> <label for="answer-red2">Red (3)</label><br>
+        <input id="answer-yellow2" name="answer2" name="yellow" type="radio"> <label for="answer-yellow2">Yellow (4)</label><br>
+        <input id="answer-pass2" name="answer2" name="pass" type="radio"> <label for="answer-pass2">Don't know</label>
       </form>
     </div>
   </figure>
@@ -345,7 +345,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
       </div>
       <form action="">
         <legend>Add a comment</legend>
-        <p class="instruction"><span class='required'>Required fields</span> are in red and marked with an <span class='required'>✻</span></p>
+        <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
         <div class="row">
           <label for="name5">Name</label>
           <input type="text" id="name5" name="name" value="Superbear">
