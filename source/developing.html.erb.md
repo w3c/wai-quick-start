@@ -395,7 +395,6 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:.attach_permalink}
 ## Ensure that all interactive elements are keyboard accessible
 
-Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex="0"` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order, when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
 <%= example 'Keyboard accessible menu icon' %>
