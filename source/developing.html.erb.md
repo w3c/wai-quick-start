@@ -40,9 +40,10 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues)
-* **Tutorial**: [Labelling Controls](/WAI/tutorials/forms/labels/)
-* **Background**: [Understanding 3.3.2 Labels or Instructions](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html)
+* **Related Requirement**
+  * [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
+* **Tutorial**
+  * [Labelling Controls](/WAI/tutorials/forms/labels/)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -62,10 +63,12 @@ Ensure that alternative text for images is added to all informational and functi
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
-* **Tutorial**: [Images](/WAI/tutorials/images/)
-* **Background**: [Understanding 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
-* **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+* **Related Requirement**
+  * [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/qr-text-equiv-all.html))
+* **Tutorial**
+  * [Images](/WAI/tutorials/images/)
+* **User Story**
+  * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -85,13 +88,10 @@ Indicate the primary language of every page by using the `lang` attribute in the
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**:
-  * [3.1.1 Language of Page](/WAI/WCAG20/quickref/#meaning-doc-lang-id)
-  * [3.1.2 Language of Parts](/WAI/WCAG20/quickref/#meaning-other-lang-id)
+* **Related Requirement**
+  * [3.1.1 Language of Page](/WAI/WCAG20/quickref/#meaning-doc-lang-id) ([Understanding 3.1.1](/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html))
+  * [3.1.2 Language of Parts](/WAI/WCAG20/quickref/#meaning-other-lang-id) ([Understanding 3.1.2](/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html))
 * **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
-* **Background**:
-  * [Understanding 3.1.1 Language of Page](/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html)
-  * [Understanding 3.1.2 Language of Parts](/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -152,12 +152,13 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic)
-* **Tutorial**:
+* **Related Requirement**
+  * [1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic) ([Understanding 1.3.1](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html))
+* **Tutorial**
   * [Page Structure](/WAI/tutorials/page-structure/)
   * [Tables](/WAI/tutorials/tables/)
-* **Background**: [Understanding 1.3.1 Info and Relationships](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)
-* **User Story**: [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
+* **User Story**
+  * [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -193,10 +194,12 @@ Be as forgiving of format as possible when processing user input. For example, a
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [3.3.1 Error Identifications](/WAI/WCAG20/quickref/#qr-minimize-error-identified)
-* **Tutorial**: [Validating Input](/WAI/tutorials/forms/validation/)
-* **Background**: [Understanding 3.3.1 Error Identifications](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html)
-* **User Story**: [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
+* **Related Requirement**
+  * [3.3.1 Error Identifications](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/qr-minimize-error-identified.html))
+* **Tutorial**
+  * [Validating Input](/WAI/tutorials/forms/validation/)
+* **User Story**
+  * [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -255,8 +258,8 @@ Ensure that the order of elements in the code matches the logical order of the i
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [1.3.2 Meaningful Sequence](/WAI/WCAG20/quickref/#qr-minimize-error-identified)
-* **Background**: [Understanding 1.3.2 Meaningful Sequence](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html)
+* **Related Requirement**
+  * [1.3.2 Meaningful Sequence](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 1.3.2](/TR/UNDERSTANDING-WCAG20/qr-minimize-error-identified.html))
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -316,14 +319,13 @@ Use responsive design to adapt the display to different zoom states and viewport
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**:
-  * [1.4.4 Resize text](/WAI/WCAG20/quickref/#visual-audio-contrast-scale)
-  * [3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality)
-* **Background**:
-  * [Understanding 1.4.4 Resize text](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html)
-  * [Understanding 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
+* **Related Requirement**
+  * [1.4.4 Resize text](/WAI/WCAG20/quickref/#visual-audio-contrast-scale) ([Understanding 1.4.4](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html))
+  * [3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
+* **Background**
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
-* **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
+* **User Story**
+  * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -373,9 +375,10 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [4.1.2 Name, Role, Value](/WAI/WCAG20/quickref/#ensure-compat-rsv)
-* **Background**: [Understanding 4.1.2 Name, Role, Value](/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html)
-* **Note**: [Notes on Using ARIA in HTML](/TR/aria-in-html/)  
+* **Related Requirement**
+  * [4.1.2 Name, Role, Value](/WAI/WCAG20/quickref/#ensure-compat-rsv) ([Understanding 4.1.2](/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html))
+* **Background**
+  * [Notes on Using ARIA in HTML](/TR/aria-in-html/)  
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -437,9 +440,10 @@ buttonExample.addEventListener('click', function(e) {
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [2.1.1 Keyboard](/WAI/WCAG20/quickref/#keyboard-operation-keyboard-operable)
-* **Background**: [Understanding 2.1.1 Keyboard](/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html)
-* **User Story**: [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
+* **Related Requirement**
+  * [2.1.1 Keyboard](/WAI/WCAG20/quickref/#keyboard-operation-keyboard-operable) ([Understanding 2.1.1](/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html))
+* **User Story**
+  * [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -463,10 +467,8 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#text-equiv-all)
-* **Background**:
-  * [Understanding 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
-  * [Note on CAPTCHA](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html#text-equiv-all-8-head)
+* **Related Requirement**
+  * [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
 
 {::nomarkdown}
 <%= related_resources :end %>

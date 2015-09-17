@@ -163,9 +163,10 @@ While color can be useful to convey information, color should not be the only wa
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color)
-* **Background**: [Understanding 1.4.1 Use of Color](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html)
-* **User Story**: [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
+* **Related Requirement**
+  * [1.4.1 Use of Color](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color) ([Understanding 1.4.1](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html))
+* **User Story**
+  * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -225,12 +226,9 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**:
-  * [2.4.7 Focus Visible](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible)
-  * [3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality)
-* **Background**:
-  * [Understanding 2.4.7 Focus Visible](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html)
-  * [Understanding 3.2.4 Consistent Identification](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html)
+* **Related Requirement**
+  * [2.4.7 Focus Visible](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible) ([Understanding 2.4.7](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html))
+  * [3.2.4 Consistent Identification](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
 * **User Story**:
   * [Challenges faced by someone with a limited ability to use a mouse](/WAI/intro/people-use-web/stories#reporter)
   * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#reporter)
@@ -253,13 +251,11 @@ Ensure that navigation across pages within a website has consistent naming, styl
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**:
-  * [3.2.3 Consistent Navigation](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations)
-  * [2.4.5 Multiple Ways](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc)
-* **Background**:
-  * [Understanding 3.2.3 Consistent Navigation](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html)
-  * [Understanding 2.4.5 Multiple Ways](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html)
-* **User Story**: [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#reporter)
+* **Related Requirement**
+  * [3.2.3 Consistent Navigation](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations) ([Understanding 3.2.3](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html))
+  * [2.4.5 Multiple Ways](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc) ([Understanding 2.4.5](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html))
+* **User Story**
+  * [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -379,10 +375,12 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [3.3.1 Error Identification](/WAI/WCAG20/quickref/#minimize-error-identified)
-* **Tutorial**: [User Notifications](/WAI/tutorials/forms/notifications/)
-* **Background**: [Understanding 3.3.1 Error Identification](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html)
-* **User Story**: [How making important content easily identifiable can help](/WAI/intro/people-use-web/stories#classroomstudent)
+* **Related Requirement**
+  * [3.3.1 Error Identification](/WAI/WCAG20/quickref/#minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html))
+* **Tutorial**
+  * [User Notifications](/WAI/tutorials/forms/notifications/)
+* **User Story**
+  * [How making important content easily identifiable can help](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -491,10 +489,12 @@ Use whitespace and proximity to make relationships between content more apparent
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive)
-* **Tutorial**: [Headings](/WAI/tutorials/page-structure/headings/)
-* **Background**: [Understanding 2.4.6 Headings and Labels](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)
-* **User Story**: [Describes how headings can be helpful for navigation](/WAI/intro/people-use-web/stories#accountant)
+* **Related Requirement**
+  * [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive) ([Understanding 2.4.6](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html))
+* **Tutorial**
+  * [Headings](/WAI/tutorials/page-structure/headings/)
+* **User Story**
+  * [Describes how headings can be helpful for navigation](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -532,7 +532,10 @@ Consider how page information is presented in different sized viewports, such as
 <%= related_resources %>
 {:/}
 
-* **User Story**: [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
+* **Background**
+  * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
+* **User Story**
+  * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -595,10 +598,12 @@ Provide text which describes the purpose of each image. Images might convey info
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**: [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all)
-* **Tutorial**: [Images](/WAI/tutorials/images/)
-* **Background**: [Understanding 1.1.1 Non-text Content](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
-* **User Story**: [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+* **Related Requirement**
+  * [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/qr-text-equiv-all.html))
+* **Tutorial**
+  * [Images](/WAI/tutorials/images/)
+* **User Story**
+  * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -633,10 +638,11 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 <%= related_resources %>
 {:/}
 
-* **<abbr>WCAG</abbr> Requirement**:
-  * [1.4.2 Audio Control](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio)
-  * [2.2.2 Pause, Stop, Hide](/WAI/WCAG20/quickref/#qr-time-limits-pause)
-* **Tutorial**: [Carousel Concepts](/WAI/tutorials/carousels/)
+* **Related Requirement**
+  * [1.4.2 Audio Control](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio) ([Understanding 1.4.2](/TR/UNDERSTANDING-WCAG20/qr-visual-audio-contrast-dis-audio.html))
+  * [2.2.2 Pause, Stop, Hide](/WAI/WCAG20/quickref/#qr-time-limits-pause) ([Understanding 2.2.2](/TR/UNDERSTANDING-WCAG20/qr-time-limits-pause.html))
+* **Tutorial**
+  * [Carousel Concepts](/WAI/tutorials/carousels/)
 * **Background**:
   * [Understanding 1.4.2 Audio Control](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html)
   * [Understanding 2.2.2 Pause, Stop, Hide](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
