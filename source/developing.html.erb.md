@@ -342,7 +342,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:.attach_permalink}
 ## Provide meaning for non-standard interactive elements 
 
-Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role='navigation'` and `aria-expanded='true'`. Additional code is required to implement the behavior of such widgets, such as pressing interaction.
+Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role='navigation'` and `aria-expanded='true'`. Additional code is required to implement the behavior of such widgets, such as expanding/collapsing content or how the widget responds to keyboard events.
 
 {::nomarkdown}
 <%= example 'Menu function and state identified using WAI-ARIA' %>
