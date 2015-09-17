@@ -1097,8 +1097,9 @@ $wai_grey: #333333;
         padding: 0.4em 0.8em;
         border-radius: 2px;
         &:hover, &:focus {
-          background: darken($wai_grey_bg, 10%);
+          background: darken($wai_grey_bg, 15%);
           outline: 0;
+          text-decoration: underline;
         }
         &:active {
           margin-top: 1px;
