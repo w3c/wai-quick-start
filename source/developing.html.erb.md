@@ -135,11 +135,13 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 <div class="mark-up">
   <figure>
     <% html_example do %>
-    <form action="" role="search">
-      <label for="search">Search</label>
-      <input type="search" aria-describedby="search-help">
-      <div id="search-help">Search records by customer id or name</div>
-      <button type="submit">Go</button>
+    <form action="">
+      <div role="search">
+        <label for="search">Search</label>
+        <input type="search" id="search" aria-describedby="search-help">
+        <div id="search-help">Search records by customer id or name</div>
+        <button type="submit">Go</button>
+      </div>
     </form>
     <% end %>
   </figure>
