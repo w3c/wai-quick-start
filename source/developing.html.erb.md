@@ -215,7 +215,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 {:.attach_permalink}
 ## Reflect the reading order in the code order
 
-Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove <abbr>CSS</abbr> styling and review the the order of the content makes sense.
+Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove <abbr>CSS</abbr> styling and review that the order of the content makes sense.
 
 {::nomarkdown}
 <%= example 'Two approaches to coding presentation of a product' %>
