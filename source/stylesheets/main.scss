@@ -693,11 +693,7 @@ $wai_grey: #333333;
       .row {
         padding: 0.25em 0;
         &.error {
-          background: #992929;
-          color: #ffffff;
-          label {
-            color: #ffffff;
-          }
+          background: #ffc0cb;
         }
       }
       label {
