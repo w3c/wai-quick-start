@@ -335,7 +335,6 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 
 <div class="errors">
   <figure>
-    <figcaption></figcaption>
     <div>
       <div class="error-list">
         <p>Please correct the following errors:</p>
