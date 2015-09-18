@@ -175,7 +175,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
-Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed. Clearly identify errors that cannot be auto-corrected. Work with content writers to agree on content for instructions and messages.
+Provide clear instructions, error messages, and notifications, to help users. When an error occurs, help users find where the problem is, make the message as specific as possible, and indicate how to fix the problem. Try to reduce the chances of errors occurring in the first place, for example, be as forgiving of format as possible when processing user input.
 
 {::nomarkdown}
 <%= example 'Australian phone number field with forgiving validation' %>
