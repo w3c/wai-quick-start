@@ -586,7 +586,7 @@ Provide text which describes the purpose of each image. Images might convey info
     </div>
   </figure>
 </div>
-<p class="note">Note that alternative text is normally not visible. It is presented here for illustration only.</p>
+<p class="note">Alternative text is usually not visible; it is included in this example just so you can see what it is.</p>
 
 <%= example :end %>
 {:/}
