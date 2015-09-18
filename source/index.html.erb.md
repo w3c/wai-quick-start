@@ -3,7 +3,7 @@ title: "Tips for Getting Started with Web Accessibility"
 status: editors-draft
 ---
 
-Get started with web accessibility, even if you only know little about it. These tips introduce some basic considerations and link to further guidance to help you learn about and implement web accessibility for people with disabilities. Depending on your role, you may find useful tips in more than one category.
+Get started with accessibility. These tips introduce some basic considerations for making your website more accessible to people with disabilities, and provide links to additional guidance. There may be tips relevant to your work in more than one category below.
 
 {:.tips-grid}
 * [{::nomarkdown}<svg><use xlink:href="#designing"></svg>{:/}<span>Designing</span> for Web Accessibility](designing.html)<span class="visuallyhidden">: </span>Tips for user interface and visual design.
