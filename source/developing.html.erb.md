@@ -216,10 +216,10 @@ Provide clear instructions, error messages, and notifications, to help users. Wh
 {:.attach_permalink}
 ## Reflect the reading order in the code order
 
-Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove <abbr>CSS</abbr> styling and review that the order of the content makes sense.
+Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove CSS styling and review that the order of the content makes sense.
 
 {::nomarkdown}
-<%= example 'Two approaches to coding presentation of a product' %>
+<%= example 'Reflecting the logical reading order in the code' %>
 
 <div class="order">
   <article class="product">
@@ -230,7 +230,7 @@ Ensure that the order of elements in the code matches the logical order of the i
   </article>
   <div class="two-column">
     <figure>
-      <figcaption>✘ Code order does not reflect logical reading order</figcaption>
+      <figcaption>✘ Image before heading may be missed</figcaption>
       <div class="fail code">
         <p>Code Snippet:</p>
         <% code('html') do %>
@@ -243,7 +243,7 @@ Ensure that the order of elements in the code matches the logical order of the i
     </figure>
     
     <figure>
-      <figcaption>✓ Code order reflects logical reading order</figcaption>
+      <figcaption>✓ Heading marks the start of the section</figcaption>
       <div class="pass code">
         <p>Code Snippet:</p>
         <% code('html') do %>
