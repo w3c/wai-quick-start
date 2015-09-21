@@ -85,7 +85,7 @@ For each web page, provide a short title that describes the page content and dis
 <%= more_information %>
 {:/}
 
-* **Related WCAG Requirement**
+* **WCAG**
   * [2.4.2 Page Titled](/WAI/WCAG20/quickref/#navigation-mechanisms-title) ([Understanding 2.4.2](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html))
 
 {::nomarkdown}
@@ -166,7 +166,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 <%= more_information %>
 {:/}
 
-* **Related WCAG Requirement**
+* **WCAG**
   * [2.4.6 Headings and Labels](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive) ([Understanding 2.4.6](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html))
   * [1.3.1 Info and Relationships](/WAI/WCAG20/quickref/#content-structure-separation-programmatic) ([Understanding 1.3.1](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html))
 * **User Story**
@@ -211,7 +211,7 @@ Write link text so that it describes the content of the link target. Avoid using
 <%= more_information %>
 {:/}
 
-* **Related WCAG Requirement**
+* **WCAG**
   * [2.4.4 Link Purpose (In Context)](/WAI/WCAG20/quickref/#navigation-mechanisms-refs) ([Understanding 2.4.4](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html))
   * [2.4.9 Link Purpose (Link Only)](/WAI/WCAG20/quickref/#navigation-mechanisms-link) ([Understanding 2.4.9](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html))
 
@@ -257,7 +257,7 @@ For every image, write alternative text that provides the information or functio
 <%= more_information %>
 {:/}
 
-* **Related WCAG Requirement**
+* **WCAG**
   * [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/qr-text-equiv-all.html))
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
@@ -282,7 +282,7 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 <%= more_information %>
 {:/}
 
-* **Related WCAG Requirement**
+* **WCAG**
   * [1.2.2 Captions (Prerecorded)](/WAI/WCAG20/quickref/#media-equiv-captions) ([Understanding 1.2.2](/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html))
   * [1.2.3 Audio Description or Media Alternative (Prerecorded)](/WAI/WCAG20/quickref/#media-equiv-audio-desc) ([Understanding 1.2.3](/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html))
 * **User Story**
@@ -338,7 +338,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 <%= more_information %>
 {:/}
 
-* **Related WCAG Requirement**
+* **WCAG**
   * [3.3.2 Labels or Instructions](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
 * **User Story**
   * [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
@@ -398,7 +398,7 @@ Use simple language and formatting, as appropriate for the context.
 <%= more_information %>
 {:/}
 
-* **Related WCAG Requirement**
+* **WCAG**
   * [3.1.5 Reading Level](/WAI/WCAG20/quickref/#meaning-supplements) ([Understanding 3.1.5](/TR/UNDERSTANDING-WCAG20/meaning-supplements.html))
   * [3.1.3 Unusual Words](/WAI/WCAG20/quickref/#meaning-idioms) ([Understanding 3.1.3](/TR/UNDERSTANDING-WCAG20/meaning-idioms.html))
   * [3.1.4 Abbreviations](/WAI/WCAG20/quickref/#meaning-located) ([Understanding 3.1.4](/TR/UNDERSTANDING-WCAG20/meaning-located.html))
