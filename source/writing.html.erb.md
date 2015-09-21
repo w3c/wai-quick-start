@@ -4,7 +4,7 @@ status: editors-draft
 layout: guide
 ---
 
-These tips introduce some basic considerations to help you get started writing web content that is more accessible to people with disabilities. These tips are good practice; some are Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.
+This page introduces some basic considerations to help you get started writing web content that is more accessible to people with disabilities. These tips are good practice; some are Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.
 
 {:.toc .no_toc}
 ## On this page
