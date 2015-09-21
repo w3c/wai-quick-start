@@ -50,15 +50,15 @@ $wai_grey: #333333;
 }
 
 // Adjust navigation for small viewports
-@include mq($small) {
-  #nav {
-    float: none;
-    width: auto;
-  }
-  #main {
-    margin: 0;
-  }
+#nav {
+  float: none;
+  width: auto;
 }
+#main {
+  margin: 0;
+}
+
+// And then move the navigation to the left when things get bigger
 @include mq($medium) {
   #nav {
     float: left;
@@ -793,11 +793,10 @@ $wai_grey: #333333;
       }
     }
     .page-title {
+      overflow: scroll;
+      max-width: 100%;
       figure {
         display: inline-block;
-        &>div {
-          padding-left: 1.05em;
-        }
       }
       svg {
         text {
