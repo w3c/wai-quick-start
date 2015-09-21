@@ -1,4 +1,6 @@
-@-ms-viewport { width: device-width; } @-o-viewport { width: device-width; } @viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
 
 // Media query variables
 $small:  25em; //* 400px */
