@@ -112,7 +112,7 @@ Use short headings to group related paragraphs and clearly describe the sections
       <div id="no-headings-modal-holder">
         <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
 
-        <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
+        <p>HTML elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
 
         <p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
       
@@ -237,14 +237,14 @@ For every image, write alternative text that provides the information or functio
     <figcaption>✘ Information in image is not communicated</figcaption>
     <div>
       <p class="fail"><img src="images/phone_charging.png" alt="Charging phone"> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
-      <p><strong>Alternative text for image</strong>: 'Charging phone'</p>
+      <p><strong>Alternative text for image</strong>: "Charging phone"</p>
     </div>
   </figure>
   <figure>
     <figcaption>✓ Information in image is communicated</figcaption>
     <div>
       <p class="pass"><img src="images/phone_charging.png" alt="Plug cable into the bottom edge of the phone."> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
-      <p><strong>Alternative text for image</strong>: 'Plug cable into the bottom edge of the phone.'</p>
+      <p><strong>Alternative text for image</strong>: "Plug cable into the bottom edge of the phone."</p>
     </div>
   </figure>
   <p class="note">Alternative text is usually not visible; it is included in this example just so you can see what it is.</p>

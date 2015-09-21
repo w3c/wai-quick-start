@@ -569,7 +569,7 @@ Provide text which describes the purpose of each image. Images might convey info
         <li class="closed"><img class="closed" src="images/arrow-right.png" alt="Open">Social Sciences <span class="number" title="Number of clasess">8</span></li>
       </ul>
       <p>Alternative text for the arrows specifies their purpose within the interface.</p>
-      <p><strong>Alternative text for image</strong>: 'Open' or 'Close'</p>
+      <p><strong>Alternative text for image</strong>: "Open" or "Close"</p>
     </div>
   </figure>
 </div>
@@ -581,7 +581,7 @@ Provide text which describes the purpose of each image. Images might convey info
     <div>
       <button type="button"><img src="images/padlock.png" alt="Secure">Proceed to Checkout</button>
       <p>Alternative text for the padlock image indicates a secure purchasing process.</p>
-      <p><strong>Alternative text for image</strong>: 'Secure'</p>
+      <p><strong>Alternative text for image</strong>: "Secure"</p>
     </div>
   </figure>
 </div>
