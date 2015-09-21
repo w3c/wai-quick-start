@@ -103,11 +103,11 @@ For each web page, provide a short title that describes the page content and dis
 Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline of the content.
 
 {::nomarkdown}
-<%= example 'Providing headings and subheadings' %>
+<%= example 'Using headings to organize content' %>
 
 <div class="heading-structure two-column">
   <figure>
-    <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><figcaption>✘ Content presented without headings</figcaption><div><img src="images/headings-poor.png" alt=""></div></a>
+    <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><figcaption>✘ Without headings</figcaption><div><img src="images/headings-poor.png" alt=""></div></a>
     <div id="no-headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="no-headings-modal-title">
       <div id="no-headings-modal-holder">
         <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
@@ -129,7 +129,7 @@ Use short headings to group related paragraphs and clearly describe the sections
     </div>
   </figure>
   <figure>
-    <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><figcaption>✓ Headings used to split content and group topics</figcaption><div><img src="images/headings-good.png" alt=""></div></a>
+    <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><figcaption>✓ Using headings and subheadings</figcaption><div><img src="images/headings-good.png" alt=""></div></a>
     
     <div id="headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="headings-modal-title">
       <div id="headings-modal-holder">
