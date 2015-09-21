@@ -77,7 +77,7 @@ While color can be useful to convey information, color should not be the only wa
   <figure class="reference fail">
     <figcaption>✘ Indicate meaning with color only</figcaption>
     <div>
-      <form action="">
+      <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
         <div class="row">
           <label for="name1">Name</label> <input type="text" id="name1" name="name">
@@ -91,7 +91,7 @@ While color can be useful to convey information, color should not be the only wa
   <figure class="reference pass">
     <figcaption>✓ Indicate meaning with color and symbol</figcaption>
     <div>
-      <form action="">
+      <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
         <div class="row">
           <label for="name2">Name</label> <input type="text" id="name2" name="name"><br>
@@ -119,13 +119,15 @@ While color can be useful to convey information, color should not be the only wa
           <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" class="yellow"/>
         </g>
       </svg>
-      <form action="">
-        <legend>Which is the right-angled triangle?</legend>
-        <input id="answer-green1" name="answer1" name="green" type="radio"> <label for="answer-green1">Green</label><br>
-        <input id="answer-blue1" name="answer1" name="blue" type="radio"> <label for="answer-blue1">Blue</label><br>
-        <input id="answer-red1" name="answer1" name="red" type="radio"> <label for="answer-red1">Red</label><br>
-        <input id="answer-yellow1" name="answer1" name="yellow" type="radio"> <label for="answer-yellow1">Yellow</label><br>
-        <input id="answer-pass1" name="answer1" name="pass" type="radio"> <label for="answer-pass1">Don't know</label>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Which is the right-angled triangle?</legend>
+          <input id="answer-green1" name="answer1" value="green" type="radio"> <label for="answer-green1">Green</label><br>
+          <input id="answer-blue1" name="answer1" value="blue" type="radio"> <label for="answer-blue1">Blue</label><br>
+          <input id="answer-red1" name="answer1" value="red" type="radio"> <label for="answer-red1">Red</label><br>
+          <input id="answer-yellow1" name="answer1" value="yellow" type="radio"> <label for="answer-yellow1">Yellow</label><br>
+          <input id="answer-pass1" name="answer1" value="pass" type="radio"> <label for="answer-pass1">Don't know</label>
+        </fieldset>
       </form>
     </div>
   </figure>
@@ -135,23 +137,25 @@ While color can be useful to convey information, color should not be the only wa
       <svg version="1.1" width="153" height="154" aria-labelledby="accessible-triangles-title" role="img">
         <g>
           <title id="accessible-triangles-title">Accessible triangle question</title>
-          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green" title="1. Green triangle"/>
-          <text class="green" y="51" x="44"><tspan>1</tspan><tspan dx="100">: Angles are 30°, 60°, 90°</tspan></text>
-          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue" title="2. Blue triangle"/>
-          <text class="blue" y="54" x="132"><tspan>2</tspan><tspan dx="100">: Angles are 30°, 30°, 120°</tspan></text>
-          <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red" title="3. Red triangle"/>
-          <text class="red" y="114" x="110"><tspan>3</tspan><tspan dx="100">: Angles are 30°, 60°, 90°</tspan></text>
-          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" class="yellow" title="4. Yellow triangle"/>
-          <text class="yellow" y="118" x="48"><tspan>4</tspan><tspan dx="100">: Angles are 40°, 70°, 70°</tspan></text>
+          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green"/>
+          <text class="green" y="51" x="44"><tspan>1</tspan><tspan dx="100"> Green: Angles are 30°, 60°, 90°</tspan></text>
+          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue"/>
+          <text class="blue" y="54" x="132"><tspan>2</tspan><tspan dx="100"> Blue: Angles are 30°, 30°, 120°</tspan></text>
+          <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red"/>
+          <text class="red" y="114" x="110"><tspan>3</tspan><tspan dx="100"> Red: Angles are 30°, 60°, 90°</tspan></text>
+          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" class="yellow"/>
+          <text class="yellow" y="118" x="48"><tspan>4</tspan><tspan dx="100"> Yellow: Angles are 40°, 70°, 70°</tspan></text>
         </g>
       </svg>
-      <form action="">
-        <legend>Which is the right-angled triangle?</legend>
-        <input id="answer-green2" name="answer2" name="green" type="radio"> <label for="answer-green2">Green (1)</label><br>
-        <input id="answer-blue2" name="answer2" name="blue" type="radio"> <label for="answer-blue2">Blue (2)</label><br>
-        <input id="answer-red2" name="answer2" name="red" type="radio"> <label for="answer-red2">Red (3)</label><br>
-        <input id="answer-yellow2" name="answer2" name="yellow" type="radio"> <label for="answer-yellow2">Yellow (4)</label><br>
-        <input id="answer-pass2" name="answer2" name="pass" type="radio"> <label for="answer-pass2">Don't know</label>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Which is the right-angled triangle?</legend>
+          <input id="answer-green2" name="answer2" value="green" type="radio"> <label for="answer-green2">Green (1)</label><br>
+          <input id="answer-blue2" name="answer2" value="blue" type="radio"> <label for="answer-blue2">Blue (2)</label><br>
+          <input id="answer-red2" name="answer2" value="red" type="radio"> <label for="answer-red2">Red (3)</label><br>
+          <input id="answer-yellow2" name="answer2" value="yellow" type="radio"> <label for="answer-yellow2">Yellow (4)</label><br>
+          <input id="answer-pass2" name="answer2" value="pass" type="radio"> <label for="answer-pass2">Don't know</label>
+        </fieldset>
       </form>
     </div>
   </figure>
@@ -278,24 +282,26 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 <div class="labels">
   <figure class="pass">
     <div>
-      <form action="">
-        <legend>Add a comment</legend>
-        <div class="row">
-          <label for="email4">Your E-mail</label>
-          <input type="text" id="email4" name="email">
-        </div>
-        <div class="row checkbox">
-          <input type="checkbox" id="contact1" name="contact">
-          <label for="contact1">I am happy for you to contact me</label>
-        </div>
-        <div class="row">
-          <label for="website2">Your Website</label>
-          <input type="text" id="website2" name="website">
-        </div>
-        <div class="row">
-          <label for="comment2">Comment</label>
-          <textarea name="comment" id="comment2"></textarea>
-        </div>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Add a comment</legend>
+          <div class="row">
+            <label for="email4">Your E-mail</label>
+            <input type="text" id="email4" name="email">
+          </div>
+          <div class="row checkbox">
+            <input type="checkbox" id="contact1" name="contact">
+            <label for="contact1">I am happy for you to contact me</label>
+          </div>
+          <div class="row">
+            <label for="website2">Your Website</label>
+            <input type="text" id="website2" name="website">
+          </div>
+          <div class="row">
+            <label for="comment2">Comment</label>
+            <textarea name="comment" id="comment2"></textarea>
+          </div>
+        </fieldset>
       </form>
     </div>
   </figure>
@@ -343,25 +349,27 @@ Provide feedback for interactions, such as confirming form submission, alerting 
           <li id="error_comment"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
         </ol>
       </div>
-      <form action="">
-        <legend>Add a comment</legend>
-        <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
-        <div class="row">
-          <label for="name5">Name</label>
-          <input type="text" id="name5" name="name" value="Superbear">
-        </div>
-        <div class="row error">
-          <label class="required" for="email5"><span class="fa fa-exclamation-triangle"></span> E-mail ✻</label>
-          <input type="text" id="email5" name="email" value="superbear@@hq.example.com" aria-invalid="true" aria-describedby="error_email">
-        </div>
-        <div class="row">
-          <label for="website3">Website</label>
-          <input type="text" id="website3" name="website">
-        </div>
-        <div class="row error">
-          <label class="required" for="comment3"><span class="fa fa-exclamation-triangle"></span> Comment ✻</label>
-          <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
-        </div>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Add a comment</legend>
+          <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
+          <div class="row">
+            <label for="name5">Name</label>
+            <input type="text" id="name5" name="name" value="Superbear">
+          </div>
+          <div class="row error">
+            <label class="required" for="email5"><span class="fa fa-exclamation-triangle"></span> E-mail ✻</label>
+            <input type="text" id="email5" name="email" value="superbear@@hq.example.com" aria-invalid="true" aria-describedby="error_email">
+          </div>
+          <div class="row">
+            <label for="website3">Website</label>
+            <input type="text" id="website3" name="website">
+          </div>
+          <div class="row error">
+            <label class="required" for="comment3"><span class="fa fa-exclamation-triangle"></span> Comment ✻</label>
+            <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
+          </div>
+        </fieldset>
       </form>
     </div>
   </figure>

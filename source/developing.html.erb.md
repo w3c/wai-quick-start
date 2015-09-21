@@ -117,7 +117,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
     <section>
       <article>
         <h2>Superbear saves the day</h2>
-        <time>7 Aug 2015</time>
+        <time datetime="2015-08-07">7 Aug 2015</time>
         <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
         <aside>
           <h3>Related Articles</h3>
@@ -136,7 +136,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 <div class="mark-up">
   <figure>
     <% html_example do %>
-    <form action="">
+    <form action="#" method="post">
       <div role="search">
         <label for="search">Search for</label>
         <input type="search" id="search" aria-describedby="search-help">

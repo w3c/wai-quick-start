@@ -4,7 +4,7 @@
   <ul>
     <% {'designing' => 'designing-small', 'writing' => 'writing', 'developing' => 'developing', 'evaluating' => 'evaluating', 'managing' => 'managing', 'advocating' => 'advocating'}.each do |guide, icon| %>
       <li<% if is_current(guide + '.html') %> class="current"<% end %>>
-        <svg><use xlink:href="#<%= icon %>"></svg>
+        <svg><use xlink:href="#<%= icon %>"/></svg>
       <% if is_current(guide + '.html') %>
         <span>Current Page </span><%= guide.capitalize %>
       <% else %>

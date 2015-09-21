@@ -107,7 +107,10 @@ Use short headings to group related paragraphs and clearly describe the sections
 
 <div class="heading-structure two-column">
   <figure>
-    <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><figcaption>✘ Without headings</figcaption><div><img src="images/headings-poor.png" alt=""></div></a>
+    <figcaption>✘ Without headings</figcaption>
+    <div>
+      <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><img src="images/headings-poor.png" alt=""><br>View example in pop-up</a>
+    </div>
     <div id="no-headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="no-headings-modal-title">
       <div id="no-headings-modal-holder">
         <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
@@ -129,8 +132,10 @@ Use short headings to group related paragraphs and clearly describe the sections
     </div>
   </figure>
   <figure>
-    <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><figcaption>✓ Using headings and subheadings</figcaption><div><img src="images/headings-good.png" alt=""></div></a>
-    
+    <figcaption>✓ Using headings and subheadings</figcaption>
+    <div>
+      <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><img src="images/headings-good.png" alt=""><br>View example in pop-up</a>
+    </div>
     <div id="headings-modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="headings-modal-title">
       <div id="headings-modal-holder">
         <h2 id="headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
@@ -308,11 +313,11 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 <div class="errors">
   <figure>
     <div>
-      <form action="">
+      <form action="#" method="post">
         <p id="password-desc">Password should be at least six characters with at least one number (0-9).</p>
         <div class="row">
           <label for="password">Password</label>
-          <input aria-describedby="password-desc" type="password" id="username" name="username" value="">
+          <input aria-describedby="password-desc" type="password" id="password" name="password" value="">
         </div>
       </form>
     </div>
@@ -325,7 +330,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
     <div>
       <ol class="fa-ul error-list">
         <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The username 'superbear' is already in use.</a></li>
-        <li id="error_email"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The password needs to include at least one number.</a></li>
+        <li id="error_password"><span class="fa fa-li fa-exclamation-triangle"></span><a href="javascript:return false">The password needs to include at least one number.</a></li>
       </ol>
     </div>
   </figure>
