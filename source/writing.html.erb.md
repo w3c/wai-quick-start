@@ -82,14 +82,14 @@ For each web page, provide a short title that describes the page content and dis
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
   * [2.4.2 Page Titled](/WAI/WCAG20/quickref/#navigation-mechanisms-title) ([Understanding 2.4.2](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html))
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -163,7 +163,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -173,7 +173,7 @@ Use short headings to group related paragraphs and clearly describe the sections
   * [How a screen reader user uses headings to navigate](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -208,7 +208,7 @@ Write link text so that it describes the content of the link target. Avoid using
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -216,7 +216,7 @@ Write link text so that it describes the content of the link target. Avoid using
   * [2.4.9 Link Purpose (Link Only)](/WAI/WCAG20/quickref/#navigation-mechanisms-link) ([Understanding 2.4.9](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html))
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -254,7 +254,7 @@ For every image, write alternative text that provides the information or functio
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -265,7 +265,7 @@ For every image, write alternative text that provides the information or functio
   * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -279,7 +279,7 @@ For every image, write alternative text that provides the information or functio
 For audio-only content, such a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door creaks'. For video transcripts, also include a description of the important visual content, for example 'Athan leaves the room'.
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -289,7 +289,7 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
   * [Describes how captions help a deaf student](/WAI/intro/people-use-web/stories#onlinestudent)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -335,7 +335,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -344,7 +344,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
   * [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -395,7 +395,7 @@ Use simple language and formatting, as appropriate for the context.
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -406,7 +406,7 @@ Use simple language and formatting, as appropriate for the context.
   * [User with reading disabilities benefits from easy to read text](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}

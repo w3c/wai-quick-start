@@ -22,13 +22,13 @@ These tips will help you improve your accessibility evaluation process.
 Many accessibility checks can be carried out right away with experience in web accessibility, also by non-technical people such as content writers. While such cursory checking does not substitute for more comprehensive evaluation, it helps to understand the overall situation and plan for accessibility. Cursory checks also help identify key issues and avoid obvious mistakes during the design and development process.
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * [Easy Checks](/WAI/eval/preliminary): Provides simple steps to help determine if a web page addresses accessibility
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -42,13 +42,13 @@ Many accessibility checks can be carried out right away with experience in web a
 Seek feedback from people with disabilities. This includes informal checking by individual users and formal usability testing with a panel of users. This helps identify subtle issues that are not easy to identify, even by experienced accessibility evaluators. Beware that processing feedback from users can be difficult and misleading without the involvement of usability professionals.
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * [Involving users](/WAI/users/involving): Provides advice on involving users with disability in design and development
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -62,13 +62,13 @@ Seek feedback from people with disabilities. This includes informal checking by 
 @@@ TBD
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * [How to Meet WCAG 2.0](/WAI/WCAG20/quickref/): Customizable quick reference for WCAG 2.0
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -82,14 +82,14 @@ Seek feedback from people with disabilities. This includes informal checking by 
 While most accessibility aspects cannot be checked automatically, evaluation tools can assist throughout the design, development, and maitainance process. For example, some evaluation tools specialize on specific aspects, such as color contrast checking, while others focus on large-scale evaluation of entire websites. It is important to understand the strengths and limitation of such tools, and how they fit into your workflow.
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * [Selecting Tools](/WAI/eval/selectingtools): Advice on selecting web accessibility evaluation tools for your particular needs
 * [Tools List](/WAI/ER/tools/): Sortable list of web accessibility evaluation tools
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -103,7 +103,7 @@ While most accessibility aspects cannot be checked automatically, evaluation too
 Carry out comprehensive evaluation at key stages, such as before go-live, and periodically, to ensure that it meets the set accessibility requirements. Use a standard reporting template for evaluations, to allow for easy comparison throughout a project and across similar projects. Also capture and communicate commonly identified issues to support development teams in avoiding errors.
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * [WCAG-EM](/WAI/eval/conformance): Conformance evaluation using the Website Accessibility Conformance Evaluation Methodology (WCAG-EM)
@@ -111,7 +111,7 @@ Carry out comprehensive evaluation at key stages, such as before go-live, and pe
 * [Template](/WAI/eval/template): Template for web accessibility evaluation
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -125,13 +125,13 @@ Carry out comprehensive evaluation at key stages, such as before go-live, and pe
 @@@ TBD
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * [Easy Checks](/WAI/eval/users): Guidance on involving users with disabilities for web accessibility evaluation
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -145,13 +145,13 @@ Carry out comprehensive evaluation at key stages, such as before go-live, and pe
 Evaluating web accessibility requires diverse kinds of skills and expertise. For example, some requirements relate to the design, writing, and development aspects of a website, while others relate to assistive technologies and their use by people with disabilities. Sharing evaluation tasks in a team of reviewers can help make evaluation more effective and efficient.
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * [Combined Expertise](/WAI/eval/reviewteams): Guidance on building teams of reviewers to leverage combined expertise
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -165,7 +165,7 @@ Evaluating web accessibility requires diverse kinds of skills and expertise. For
 These tips are just some of the important accessibility points to address when evaluating websites. There are more things to consider. The following resources will help you learn more about accessibility — why it is important for people with disabilities, for designers, and for organizations; about web accessibility guidelines; and much more. 
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * [<abbr title="World Wide Web Consortium">W3C</abbr> Accessibility](/standards/webdesign/accessibility): Introduces accessibility and provides links to many helpful resources
@@ -177,7 +177,7 @@ These tips are just some of the important accessibility points to address when e
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/): Provides a range of tools to help automated and manual evaluations
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}

@@ -44,7 +44,7 @@ Foreground text needs to have sufficient contrast with background colors. This i
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -57,7 +57,7 @@ Foreground text needs to have sufficient contrast with background colors. This i
   * [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -161,7 +161,7 @@ While color can be useful to convey information, color should not be the only wa
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -170,7 +170,7 @@ While color can be useful to convey information, color should not be the only wa
   * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -224,7 +224,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -235,7 +235,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -249,7 +249,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 Ensure that navigation across pages within a website has consistent naming, styling, and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs and clear headings.
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -259,7 +259,7 @@ Ensure that navigation across pages within a website has consistent naming, styl
   * [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -305,7 +305,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -317,7 +317,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
   * [How clear labelling can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -371,7 +371,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -382,7 +382,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
   * [How making important content easily identifiable can help](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -485,7 +485,7 @@ Use whitespace and proximity to make relationships between content more apparent
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -496,7 +496,7 @@ Use whitespace and proximity to make relationships between content more apparent
   * [Describes how headings can be helpful for navigation](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -527,7 +527,7 @@ Consider how page information is presented in different sized viewports, such as
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Background**
@@ -536,7 +536,7 @@ Consider how page information is presented in different sized viewports, such as
   * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -591,7 +591,7 @@ Provide text which describes the purpose of each image. Images might convey info
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -602,7 +602,7 @@ Provide text which describes the purpose of each image. Images might convey info
   * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -630,7 +630,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -643,7 +643,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
   * [Understanding 2.2.2 Pause, Stop, Hide](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}

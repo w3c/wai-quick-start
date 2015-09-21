@@ -37,7 +37,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -46,7 +46,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
   * [Labelling Controls](/WAI/tutorials/forms/labels/)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -60,7 +60,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 Ensure that alternative text for images is added to all informational and functional images. Decorative images should have empty alternative text, `alt=""`, or should be included using <abbr>CSS</abbr>. Text alternatives are usually provided by those responsible for written content. 
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -71,7 +71,7 @@ Ensure that alternative text for images is added to all informational and functi
   * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -85,7 +85,7 @@ Ensure that alternative text for images is added to all informational and functi
 Indicate the primary language of every page by using the `lang` attribute in the `html` tag, for example `<html lang="en">`. Use the `lang` attribute on specific elements when the language of the element differs from the rest of the page.
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -95,7 +95,7 @@ Indicate the primary language of every page by using the `lang` attribute in the
   * [Declaring language in HTML](/International/questions/qa-html-language-declarations)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -152,7 +152,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -164,7 +164,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   * [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -194,7 +194,7 @@ Provide clear instructions, error messages, and notifications, to help users. Wh
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -205,7 +205,7 @@ Provide clear instructions, error messages, and notifications, to help users. Wh
   * [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -261,14 +261,14 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
   * [1.3.2 Meaningful Sequence](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 1.3.2](/TR/UNDERSTANDING-WCAG20/qr-minimize-error-identified.html))
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -322,7 +322,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -334,7 +334,7 @@ Use responsive design to adapt the display to different zoom states and viewport
   * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -378,7 +378,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -387,7 +387,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
   * [Notes on Using ARIA in HTML](/TR/aria-in-html/)  
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -444,7 +444,7 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
@@ -453,7 +453,7 @@ buttonExample.addEventListener('click', function(e) {
   * [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}
@@ -471,14 +471,14 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 * Not requiring CAPTCHAs for authorized users. 
 
 {::nomarkdown}
-<%= related_resources %>
+<%= more_information %>
 {:/}
 
 * **Related WCAG Requirement**
   * [1.1.1 Non-text Content](/WAI/WCAG20/quickref/#text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
 
 {::nomarkdown}
-<%= related_resources :end %>
+<%= more_information :end %>
 {:/}
 
 {::nomarkdown}

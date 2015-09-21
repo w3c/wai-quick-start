@@ -84,9 +84,9 @@ helpers do
     end
   end
 
-  def related_resources(start_end = :start)
+  def more_information(start_end = :start)
     if start_end == :start
-      '<aside class="related_resources"><h3>Related resources</h3>'
+      '<aside class="more_information"><h3>For more information</h3>'
     elsif start_end == :end
       '</aside>'
     end
