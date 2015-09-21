@@ -175,7 +175,13 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {:.attach_permalink}
 ## Help users avoid and correct mistakes
 
-Provide clear instructions, error messages, and notifications, to help users. When an error occurs, help users find where the problem is, make the message as specific as possible, and indicate how to fix the problem. Try to reduce the chances of errors occurring in the first place, for example, be as forgiving of format as possible when processing user input.
+Provide clear instructions, error messages, and notifications to help users complete forms on your site. When an error occurs:
+
+* Help users find where the problem is
+* Provide specific, understandable explanations
+* Suggest corrections
+
+Be as forgiving of format as possible when processing user input. For example, accept phone numbers that include spaces and delete the spaces as needed.
 
 {::nomarkdown}
 <%= example 'Australian phone number field with forgiving validation' %>
