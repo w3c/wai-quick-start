@@ -826,11 +826,9 @@ $wai_grey: #333333;
             color: $w3c_purple;
           }
           div {
-            padding: 1em;
+            padding: .5em;
             background: #fffdfa;
-            box-shadow: 0 0 2px 0 darken($wai_grey_bg, 30%);
-            border-radius: 2px;
-            overflow: hidden;
+            border: 1px solid $wai_grey_bg;
           }
         }
       }
@@ -944,14 +942,12 @@ $wai_grey: #333333;
     }
     .html-example {
       overflow: hidden;
-      @include mq($small) {
-        .rendered, .code {
-          float: none;
-          width: auto;
-        }
-        .code {
-          margin-top: 1em;
-        }
+      .rendered, .code {
+        float: none;
+        width: auto;
+      }
+      .code {
+        margin-top: 1em;
       }
       @include mq($medium) {
         .rendered {
@@ -1018,10 +1014,6 @@ $wai_grey: #333333;
             }
           }
         }
-      }
-      .two-column {
-        margin-top: 0;
-        display: flex;
       }
     }
     .adapt-code {
