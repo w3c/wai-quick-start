@@ -24,13 +24,11 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 {::nomarkdown}
 <%= example 'Using <code>for</code> and <code>id</code> attributes' %>
 
-<div class="form-labels">
-  <figure>
-    <% html_example do %>
-      <label for="username">Username</label>
-      <input id="username" type="text" name="username">
-    <% end %>
-  </figure>
+<div class="form-labels html-example">
+  <% html_example do %>
+    <label for="username">Username</label>
+    <input id="username" type="text" name="username">
+  <% end %>
 </div>
 
 <%= example :end %>
@@ -111,41 +109,37 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {::nomarkdown}
 <%= example 'Using HTML to provide structure and meaning' %>
 
-<div class="mark-up">
-  <figure>
-    <% html_example do %>
-    <section>
-      <article>
-        <h2>Superbear saves the day</h2>
-        <time datetime="2015-08-07">7 Aug 2015</time>
-        <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
-        <aside>
-          <h3>Related Articles</h3>
-          <ul>
-            <li><a href="#">Bear receives key to city</a></li>
-            <li><a href="#">Superbear stands for mayor</a></li>
-          </ul>
-        </aside>
-      </article>
-    </section>
-    <% end %>
-  </figure>
+<div class="mark-up html-example">
+  <% html_example do %>
+  <section>
+    <article>
+      <h2>Superbear saves the day</h2>
+      <time datetime="2015-08-07">7 Aug 2015</time>
+      <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
+      <aside>
+        <h3>Related Articles</h3>
+        <ul>
+          <li><a href="#">Bear receives key to city</a></li>
+          <li><a href="#">Superbear stands for mayor</a></li>
+        </ul>
+      </aside>
+    </article>
+  </section>
+  <% end %>
 </div>
 <%= example :end %>
 <%= example 'Search field using <abbr>WAI-ARIA</abbr>' %>
-<div class="mark-up">
-  <figure>
-    <% html_example do %>
-    <form action="#" method="post">
-      <div role="search">
-        <label for="search">Search for</label>
-        <input type="search" id="search" aria-describedby="search-help">
-        <div id="search-help">Search records by customer id or name</div>
-        <button type="submit">Go</button>
-      </div>
-    </form>
-    <% end %>
-  </figure>
+<div class="mark-up html-example">
+  <% html_example do %>
+  <form action="#" method="post">
+    <div role="search">
+      <label for="search">Search for</label>
+      <input type="search" id="search" aria-describedby="search-help">
+      <div id="search-help">Search records by customer id or name</div>
+      <button type="submit">Go</button>
+    </div>
+  </form>
+  <% end %>
 </div>
 
 <%= example :end %>
@@ -186,14 +180,12 @@ Be as forgiving of format as possible when processing user input. For example, a
 {::nomarkdown}
 <%= example 'Australian phone number field with forgiving validation' %>
 
-<div class="avoid-mistakes">
-  <figure>
-    <% html_example do %>
-      <label for="phone">Phone</label>
-      <input id="phone" name="phone" type="tel" pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$" aria-describedby="phone-desc">
-      <p id="phone-desc">For example, (02) 1234 1234</p>
-    <% end %>
-  </figure>
+<div class="avoid-mistakes html-example">
+  <% html_example do %>
+    <label for="phone">Phone</label>
+    <input id="phone" name="phone" type="tel" pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$" aria-describedby="phone-desc">
+    <p id="phone-desc">For example, (02) 1234 1234</p>
+  <% end %>
 </div>
 
 <%= example :end %>
@@ -236,9 +228,8 @@ Ensure that the order of elements in the code matches the logical order of the i
   </article>
   <div class="two-column">
     <figure>
-      <figcaption>✘ Image before heading may be missed</figcaption>
+      <figcaption><span class="cross">✘</span> Image before heading may be missed</figcaption>
       <div class="fail code">
-        <p>Code Snippet:</p>
         <% code('html') do %>
 <img src="images/trainer.png" alt="...">
 <h3>Space trainers</h3>
@@ -246,18 +237,49 @@ Ensure that the order of elements in the code matches the logical order of the i
 <a href="...">Add to cart</a>
         <% end %>
       </div>
+      <a id="order-fail-fullcode" class="modal-open" href="#order-fail-fullcode-holder">View full source code</a>
+      <div id="order-fail-fullcode-overlay" aria-hidden="true" role="dialog" aria-labelledby="order-fail-fullcode-title">
+        <div id="order-fail-fullcode-holder">
+          <h4 id="order-fail-fullcode-title">Full source code for Image before heading may be missed</h4>
+
+          <p>HTML:</p>
+            <% code('html') do %>
+<article class="product">
+  <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
+  <h3 class="name">Space trainers</h3>
+  <p class="desc">Space trainer for a classic and stylish look.</p>
+  <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
+</article>
+            <% end %>
+        </div>
+      </div>    
     </figure>
     
     <figure>
-      <figcaption>✓ Heading marks the start of the section</figcaption>
+      <figcaption><span class="tick">✓</span> Heading marks the start of the section</figcaption>
       <div class="pass code">
-        <p>Code Snippet:</p>
         <% code('html') do %>
 <h3>Space trainers</h3>
 <img src="images/trainer.png" alt="...">
 <p>Space...</p>
 <a href="...">Add to cart</a>
         <% end %>
+      </div>
+      <a id="order-pass-fullcode" class="modal-open" href="#order-pass-fullcode-holder">View full source code</a>
+      <div id="order-pass-fullcode-overlay" aria-hidden="true" role="dialog" aria-labelledby="order-pass-fullcode-title">
+        <div id="order-pass-fullcode-holder">
+          <h4 id="order-pass-fullcode-title">Full source code for Heading marks the start of the section</h4>
+
+          <p>HTML:</p>
+            <% code('html') do %>
+<article class="product">
+  <h3 class="name">Space trainers</h3>
+  <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
+  <p class="desc">Space trainer for a classic and stylish look.</p>
+  <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
+</article>
+            <% end %>
+        </div>
       </div>
     </figure>
   </div>
@@ -293,7 +315,6 @@ Use responsive design to adapt the display to different zoom states and viewport
 <div class="adapt-code">
   <figure>
     <div class="code">
-      <p>Code Snippet:</p>
       <div class="two-column">
         <% code 'css' do %>
 /* On narrow viewports, make the navigation full width */
@@ -351,7 +372,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:.attach_permalink}
 ## Provide meaning for non-standard interactive elements 
 
-Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role="navigation"` and `aria-expanded="true"`. Additional code is required to implement the behavior of such widgets, such as expanding/collapsing content or how the widget responds to keyboard events.
+Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provide information on function and state for custom widgets, such as accordions and custom-made buttons. For example, `role="navigation"` and `aria-expanded="true"`. Additional code is required to implement the behavior of such widgets, such as expanding and collapsing content or how the widget responds to keyboard events.
 
 {::nomarkdown}
 <%= example 'Menu function and state identified using WAI-ARIA' %>
@@ -359,14 +380,13 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 <div class="non-standard">
   <figure>
       <div class="code">
-        <p>Code Snippet:</p>
         <% code 'html' do %>
 <nav aria-label="Main Navigation" role="navigation">
 	<ul>
 		<li><a href="...">Home</a></li>
 		<li><a href="...">Shop</a></li>
 		<li class="has-submenu">
-			<a aria-expanded="false" aria-haspopup="true" href="#">SpaceBears</a>
+			<a aria-expanded="false" aria-haspopup="true" href="...">SpaceBears</a>
 			<ul>
 					<li><a href="...">SpaceBear 6</a></li>
 					<li><a href="...">SpaceBear 6 Plus</a></li>
@@ -407,26 +427,27 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 Think about keyboard access, especially when developing interactive elements, such as menus, mouseover information, collapsable accordions, or media players. Use `tabindex="0"` to add an element that does not normally receive focus, such as `<div>` or `<span>`, into the navigation order when it is being used for interaction. Use scripting to capture and respond to keyboard events.
 
 {::nomarkdown}
-<%= example 'Keyboard accessible menu icon' %>
+<%= example 'Keyboard accessible menu button' %>
 
-<div class="keyboard-accessible">
-  <figure>
-    <div class="html-example">
-      <div class="rendered">
-        <p>Rendered:</p>
-        <div id="example-button" class="menu-button" role="button" tabindex="0"><i class="fa fa-bars"></i> Menu</div>
-        <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
-          <ul>
-            <li><a href="javascript:return false">About</a></li>
-            <li><a href="javascript:return false">News</a></li>
-            <li><a href="javascript:return false">Tickets</a></li>
-            <li><a href="javascript:return false">Fun</a></li>
-          </ul>
-        </div>
+<div class="keyboard-accessible html-example">
+  <figure class="rendered">
+    <figcaption><span class="info">𝒊</span> Rendered</figcaption>
+    <div class="rendered">
+      <div id="example-button" class="menu-button" role="button" tabindex="0"><i class="fa fa-bars"></i> Menu</div>
+      <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
+        <ul>
+          <li><a href="javascript:return false">About</a></li>
+          <li><a href="javascript:return false">News</a></li>
+          <li><a href="javascript:return false">Tickets</a></li>
+          <li><a href="javascript:return false">Fun</a></li>
+        </ul>
       </div>
-      <div class="code">
-        <p>Code Snippet:</p>
-        <% code 'javascript' do %>
+    </div>
+  </figure>
+  <figure class="code">
+    <figcaption><span class="info">𝒊</span> Code</figcaption>
+    <div>
+      <% code 'javascript' do %>
 var buttonExample = document.getElementById('example-button');
 
 buttonExample.addEventListener('keydown', function(e) {
@@ -441,7 +462,6 @@ buttonExample.addEventListener('click', function(e) {
   toggleMenu(document.getElementById('example-button-menu'));
 });
       <% end %>
-      </div>
     </div>
   </figure>
 </div>

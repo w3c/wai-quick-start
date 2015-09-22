@@ -124,15 +124,18 @@ helpers do
     highlighted = Middleman::Syntax::Highlighter.highlight(content, 'html').html_safe
 
     concat_content <<-EOC
-      <div class="html-example">
-        <div class="rendered">
-          <p>Rendered:</p>
+      <figure class="rendered">
+        <figcaption><span class="info">𝒊</span> Rendered</figcaption>
+        <div>
           #{content}
         </div>
-        <div class="code">
-          <p>Code Snippet:</p>#{highlighted}
+      </figure>
+      <figure class="code">
+        <figcaption><span class="info">𝒊</span> Code Snippet</figcaption>
+        <div>
+          #{highlighted}
         </div>
-      </div>
+      </figure>
     EOC
   end
   

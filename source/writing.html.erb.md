@@ -26,7 +26,7 @@ For each web page, provide a short title that describes the page content and dis
 
 <div class="page-title">
   <figure>
-    <figcaption>Home page title</figcaption>
+    <figcaption><span class="info">𝒊</span> Home page title</figcaption>
     <div>
       <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
         <g transform="scale(1.2)">
@@ -43,7 +43,7 @@ For each web page, provide a short title that describes the page content and dis
     </div>
   </figure>
   <figure>
-    <figcaption>Page name followed by organization name</figcaption>
+    <figcaption><span class="info">𝒊</span> Page name followed by organization name</figcaption>
     <div>
       <svg version="1.1" width="462" height="27" aria-labelledby="page-title-2" role="img">
         <g transform="scale(1.2)">
@@ -60,7 +60,7 @@ For each web page, provide a short title that describes the page content and dis
     </div>
   </figure>
   <figure>
-    <figcaption>Page name including step in a process</figcaption>
+    <figcaption><span class="info">𝒊</span> Page name including step in a process</figcaption>
     <div>
       <svg version="1.1" width="462" height="27" aria-labelledby="page-title-3" role="img">
         <g transform="scale(1.2)">
@@ -107,7 +107,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 
 <div class="heading-structure two-column">
   <figure>
-    <figcaption>✘ Without headings</figcaption>
+    <figcaption><span class="cross">✘</span> Without headings</figcaption>
     <div>
       <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><img src="images/headings-poor.png" alt=""><br>View example in pop-up</a>
     </div>
@@ -132,7 +132,7 @@ Use short headings to group related paragraphs and clearly describe the sections
     </div>
   </figure>
   <figure>
-    <figcaption>✓ Using headings and subheadings</figcaption>
+    <figcaption><span class="tick">✓</span> Using headings and subheadings</figcaption>
     <div>
       <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><img src="images/headings-good.png" alt=""><br>View example in pop-up</a>
     </div>
@@ -192,17 +192,17 @@ Use short headings to group related paragraphs and clearly describe the sections
 Write link text so that it describes the content of the link target. Avoid using ambiguous link text, such as 'click here' or 'read more'. Indicate relevant information about the link target, such as document type and size, for example, 'Proposal Documents (RTF, 20MB)'.
 
 {::nomarkdown}
-<%= example 'Link text' %>
+<%= example 'Using link text to describe target page' %>
 
 <div class="meaningful-links two-column">
   <figure>
-    <figcaption>✘ Text is not meaningful by itself</figcaption>
+    <figcaption><span class="cross">✘</span> No information</figcaption>
     <div>
       <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>✓ Text has meaning by itself</figcaption>
+    <figcaption><span class="tick">✓</span> Meaningful information</figcaption>
     <div>
       <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
     </div>
@@ -235,18 +235,18 @@ Write link text so that it describes the content of the link target. Avoid using
 For every image, write alternative text that provides the information or function of the image. For purely decorative images, there is no need to write alternative text.
 
 {::nomarkdown}
-<%= example 'Writing alternative text'%>
+<%= example 'Using alternative text to communicate important information'%>
 
 <div class="text-alternative two-column">
   <figure>
-    <figcaption>✘ Information in image is not communicated</figcaption>
+    <figcaption><span class="cross">✘</span> Uninformative</figcaption>
     <div>
       <p class="fail"><img src="images/phone_charging.png" alt="Charging phone"> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
       <p><strong>Alternative text for image</strong>: "Charging phone"</p>
     </div>
   </figure>
   <figure>
-    <figcaption>✓ Information in image is communicated</figcaption>
+    <figcaption><span class="tick">✓</span> Informative</figcaption>
     <div>
       <p class="pass"><img src="images/phone_charging.png" alt="Plug cable into the bottom edge of the phone."> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
       <p><strong>Alternative text for image</strong>: "Plug cable into the bottom edge of the phone."</p>
@@ -370,18 +370,18 @@ Use simple language and formatting, as appropriate for the context.
 * Consider using images, illustrations, video, audio, and symbols to help clarify meaning.
 
 {::nomarkdown}
-<%= example 'Communicate based on audience needs' %>
+<%= example 'Making content readable and understandable' %>
 {:/}
 
 <div class="two-column">
   <figure>
-    <figcaption>✘ Less readable and understandable text</figcaption>
+    <figcaption><span class="cross">✘</span> Unnecessarily complex</figcaption>
     <div>
       <p class="fail">CPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to all parties involved. Once our representative obtains information that allows us to understand the causality, we may or may not assign appropriate monetary compensation. The resulting decision may occasion one of the following options: the claim is not approved and is assigned a rejected status, the status of the claim is ambiguous and will require additional information before further processing can occur, the claim is partially approved and reduced payment is assigned and issued, or claim is fully approved and total claim payment is assigned and issued.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>✓ More readable and understandable text</figcaption>
+    <figcaption><span class="tick">✓</span> Easier to understand</figcaption>
     <div>
       <p class="pass">Claims Processing Procedure (CPP): If you have a car accident, our agent will investigate. Findings will determine any claim payment. This could result in:</p>
       <ul>

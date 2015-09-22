@@ -27,13 +27,13 @@ Foreground text needs to have sufficient contrast with background colors. This i
 
 <div class="contrast two-column">
   <figure>
-    <figcaption>✘ Insufficient</figcaption>
+    <figcaption><span class="cross">✘</span> Insufficient</figcaption>
     <div>
       <p class="fail">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>✓ Sufficient</figcaption>
+    <figcaption><span class="tick">✓</span> Sufficient</figcaption>
     <div>
       <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
@@ -75,7 +75,7 @@ While color can be useful to convey information, color should not be the only wa
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption>✘ Indicate meaning with color only</figcaption>
+    <figcaption><span class="cross">✘</span> Color only</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
@@ -89,7 +89,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption>✓ Indicate meaning with color and symbol</figcaption>
+    <figcaption><span class="tick">✓</span> Color and symbol</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
@@ -108,7 +108,7 @@ While color can be useful to convey information, color should not be the only wa
 <%= example 'Refer to something using color alone' %>
 <div class="color-alone two-column">
   <figure class="question fail">
-    <figcaption>✘ Objects are referred to with color only</figcaption>
+    <figcaption><span class="cross">✘</span> Color only</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
@@ -132,7 +132,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="question pass">
-    <figcaption>✓ Objects are referred to with color and number</figcaption>
+    <figcaption><span class="tick">✓</span> Color and number</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="accessible-triangles-title" role="img">
         <g>
@@ -193,7 +193,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 <div class="focus two-column">
   <div>
     <figure>
-      <figcaption>Style links to stand out from text</figcaption>
+      <figcaption><span class="info">𝒊</span> Style links to stand out from text</figcaption>
       <div>
         <p>Some people can't use a mouse and use only a <a href="javascript:return false;">keyboard to navigate</a> through web pages.</p>
         <p>It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
@@ -204,19 +204,19 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   </div>
   <div>
     <figure class="hover">
-      <figcaption>Mouse hover style</figcaption>
+      <figcaption><span class="info">𝒊</span> Mouse hover style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
-      <figcaption>Keyboard focus style</figcaption>
+      <figcaption><span class="info">𝒊</span> Keyboard focus style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
-      <figcaption>Touch or click style</figcaption>
+      <figcaption><span class="info">𝒊</span> Touch or click style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
@@ -277,7 +277,7 @@ Ensure that navigation across pages within a website has consistent naming, styl
 Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.
 
 {::nomarkdown}
-<%= example 'Proximity between label and field makes association clear' %>
+<%= example 'Labels and input fields associated by proximity' %>
 
 <div class="labels">
   <figure class="pass">
@@ -337,7 +337,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Instructions should be easy to identify. Important feedback that requires user action should be presented in a prominent style. 
  
 {::nomarkdown}
-<%= example 'Use error list, icon, and background color to make errors extremely obvious' %>
+<%= example 'Using error list, icon, and background color to make errors stand out' %>
 
 <div class="errors">
   <figure>
@@ -404,11 +404,11 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand.
 
 {::nomarkdown}
-<%= example 'Grouping content with spacing and headings' %>
+<%= example 'Spacing highlights relationship between content' %>
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption id="inaccessible-headings-title">✘ Harder to see relationships without spacing</figcaption>
+    <figcaption id="inaccessible-headings-title"><span class="cross">✘</span> Little spacing</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
@@ -445,7 +445,7 @@ Use whitespace and proximity to make relationships between content more apparent
     </div>
   </figure>
   <figure class="pass">
-    <figcaption id="accessible-headings-title">✓ Spacing helps to group related content</figcaption>
+    <figcaption id="accessible-headings-title"><span class="tick">✓</span> More spacing</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
@@ -518,7 +518,7 @@ Use whitespace and proximity to make relationships between content more apparent
 Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
-<%= example 'Flow of content and navigation adapt to smaller mobile screen' %>
+<%= example 'Content and navigation adapt to smaller mobile screen' %>
 
 <div class="responsive">
   <figure>
@@ -624,7 +624,7 @@ Provide text which describes the purpose of each image. Images might convey info
 Provide visible controls to allow users to stop any animations or auto-playing sound. This applies to carousels, image sliders, background sound, and videos.
 
 {::nomarkdown}
-<%= example 'Carousel design including play/stop and slide selection controls' %>
+<%= example 'Show play/stop and selection controls in carousel design' %>
 
 <div class="autoplay">
   <figure>
