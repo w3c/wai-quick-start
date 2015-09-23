@@ -4,7 +4,7 @@ status: editors-draft
 layout: guide
 ---
 
-This page introduces some basic considerations to help you get started writing web content that is more accessible to people with disabilities. These tips are good practice; some are Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.
+This page introduces some basic considerations to help you get started writing web content that is more accessible to people with disabilities. These tips are good practice; most are Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements (called "success criteria"), guidance from Tutorials, user stories, and more. The first WCAG links go to a section of "How to Meet WCAG 2.0: A customizable quick reference" that shows the WCAG success criteria and lists <a href=" http://www.w3.org/TR/UNDERSTANDING-WCAG20/understanding-techniques.html">Techniques<a/> to meet the success criteria. The links in parenthesis go to the "Understanding WCAG" page that provides additional information about the success criteria.
 
 {:.toc .no_toc}
 ## On this page
