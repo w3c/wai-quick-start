@@ -408,7 +408,7 @@ Use whitespace and proximity to make relationships between content more apparent
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption id="inaccessible-headings-title"><span class="cross">✘</span> Little spacing</figcaption>
+    <figcaption id="inaccessible-headings-title"><span class="cross">✘</span> Little spacing and unclear relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
@@ -445,7 +445,7 @@ Use whitespace and proximity to make relationships between content more apparent
     </div>
   </figure>
   <figure class="pass">
-    <figcaption id="accessible-headings-title"><span class="tick">✓</span> More spacing</figcaption>
+    <figcaption id="accessible-headings-title"><span class="tick">✓</span> More spacing and clearer relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
