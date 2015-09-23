@@ -237,19 +237,25 @@ For every image, write alternative text that provides the information or functio
 {::nomarkdown}
 <%= example 'Using alternative text to communicate important information'%>
 
-<div class="text-alternative two-column">
+<div class="text-alt two-column">
   <figure>
     <figcaption><span class="cross">✘</span> Uninformative</figcaption>
     <div>
-      <p class="fail"><img src="images/phone_charging.png" alt="Charging phone"> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
-      <p><strong>Alternative text for image</strong>: "Charging phone"</p>
+      <img src="images/phone_charging.png" alt="Charging phone">
+      <div>
+        <p> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
+        <p><strong>Alternative text for image</strong>: "Charging phone"</p>
+      </div>
     </div>
   </figure>
   <figure>
     <figcaption><span class="tick">✓</span> Informative</figcaption>
     <div>
-      <p class="pass"><img src="images/phone_charging.png" alt="Plug cable into the bottom edge of the phone."> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
-      <p><strong>Alternative text for image</strong>: "Plug cable into the bottom edge of the phone."</p>
+      <img src="images/phone_charging.png" alt="Plug cable into the bottom edge of the phone.">
+      <div>
+        <p>Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
+        <p><strong>Alternative text for image</strong>: "Plug cable into the bottom edge of the phone."</p>
+      </div>
     </div>
   </figure>
   <p class="note">Alternative text is usually not visible; it is included in this example just so you can see what it is.</p>

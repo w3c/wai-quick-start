@@ -456,7 +456,7 @@ $wai_grey: #333333;
     }
 
     .note {
-      margin-top: 0;
+      margin-bottom: 0;
       font-style: italic;
     }
 
@@ -489,7 +489,15 @@ $wai_grey: #333333;
         color: #992929;
       }
     }
-    
+
+    .two-column {
+      figure {
+        margin-bottom: 1em;
+      }
+      figure:last-of-type {
+        margin-bottom: 0;
+      }
+    }
     @include mq($medium) {
       .two-column {
         display: flex;
@@ -898,87 +906,149 @@ $wai_grey: #333333;
         font-size: 1.4em;
       }
     }
-    .text-alternative {
+    .designing & .text-alt {
       figure {
         display: inline-block;
+        width: 100%;
+        div {
+          button {
+            float: left;
+            margin: 0 0 1em 0;
+            background: #2f521b;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 1em 1.5em;
+            width: 15em;
+            img {
+              display: inline;
+              margin-bottom: 0;
+              margin-right: 0.5em;
+            }
+          }
+          .course-select {
+            float: left;
+            box-sizing: border-box;
+            border-radius: 10px;
+            margin: 0 0 1em 0;
+            padding: 0.2em;
+            width: 15em;
+            list-style: none;
+            ul {
+              list-style: none;          
+            }
+            li {
+              box-sizing: border-box;
+              margin: 0;
+              padding: 0.3em 0.5em;
+              background: linear-gradient(to top, rgba(77,78,83,1) 0%,rgba(124,125,130,1) 100%);
+              color: #ffffff;
+              .number {
+                  background: #404146;
+                  border-radius: 12px;
+                  float: right;
+                  font-size: 75%;
+                  padding: 0 0.8em;
+                  box-shadow: inset 0 0 1px 0px rgba(180, 180, 180, 0.75);
+              }
+              &.open {
+                background: #53586E;
+                .number {
+                  background: darken(#53586E, 10%);
+                }
+              }
+              ul {
+                li {
+                  background: #53586E;
+                }
+              }
+            }
+            img {
+              float: none;
+              display: inline;
+              margin-right: 0.5em;
+              margin-bottom: 0;
+            }
+          }
+          div {
+            float: none;
+            width: 100%;
+          }
+        }
       }
-      img {
-        float: left;
-        margin-right: 1em;
+      @include mq($small) {
+        figure {
+          div {
+            button, .course-select {
+              margin-bottom: 0;
+            }
+            div {
+              float: right;
+              width: 50%;
+            }
+          }
+        }
       }
       @include mq($medium) {
+        figure {
+          width: 80%;
+          div {
+            button, .course-select {
+              width: 45%;
+              margin-bottom: 0;
+            }
+            div {
+              float: right;
+              width: 52%;
+            }
+          }
+        }
+      }
+      @include mq($large) {
+        figure {
+          width: 45em;
+        }
+      }
+    }
+    .writing & .text-alt {
+      figure {
         img {
-          float: none;
-          margin-right: 0;
-          margin-bottom: 1em;
           display: block;
+          margin-bottom: 1em;
+        }
+      }
+      @include mq($small) {
+        figure {
+          img {
+            float: left;
+            margin-right: 1em;
+            display: inline-block;
+          }
+        }
+      }
+      @include mq($medium) {
+        figure {
+          img {
+            float: none;
+            margin-right: 0;
+            display: block;
+          }
         }
       }
       @include mq($big) {
-        img {
-          float: left;
-          margin-bottom: 0;
-          margin-right: 1em;
-        }
-      }
-      .designing & p {
-        margin-top: 0;
-      }
-
-      .course-select {
-        float: left;
-        box-sizing: border-box;
-        border-radius: 10px;
-        margin: 0 1em 0 0;
-        padding: 0.2em;
-        width: 14em;
-        list-style: none;
-        ul {
-          list-style: none;          
-        }
-        li {
-          box-sizing: border-box;
-          margin: 0;
-          padding: 0.3em 0.5em;
-          background: linear-gradient(to top, rgba(77,78,83,1) 0%,rgba(124,125,130,1) 100%);
-          color: #ffffff;
-          .number {
-              background: #404146;
-              border-radius: 12px;
+        figure {
+          img {
+            float: left;
+            margin-right: 0;
+            display: inline-block;
+            width: 30%;
+          }
+          div {
+            div {
               float: right;
-              font-size: 75%;
-              padding: 0 0.8em;
-              box-shadow: inset 0 0 1px 0px rgba(180, 180, 180, 0.75);
-          }
-          &.open {
-            background: #53586E;
-            .number {
-              background: darken(#53586E, 10%);
+              width: 65%;
             }
           }
-          ul {
-            li {
-              background: #53586E;
-            }
-          }
-        }
-        img {
-          float: none;
-          display: inline;
-          margin-right: 0.5em;
-          margin-bottom: 0;
-        }
-      }
-      button {
-        float: left;
-        margin-right: 1em;
-        background: #2f521b;
-        color: #ffffff;
-        border: none;
-        border-radius: 5px;
-        padding: 1em 1.5em;
-        img {
-          margin-bottom: 0;
         }
       }
     }
