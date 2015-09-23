@@ -232,7 +232,7 @@ Ensure that the order of elements in the code matches the logical order of the i
     <h3 class="name">Space trainers</h3>
     <img src="images/trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap">
     <p class="desc">Space trainer for a classic and stylish look.</p>
-    <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
+    <p class="buy"><a href="javascript:return false"><svg  class="icon"><use xlink:href="#cart-plus"/></svg> Add to cart</a></p>
   </article>
   <div class="two-column">
     <figure>
@@ -256,7 +256,7 @@ Ensure that the order of elements in the code matches the logical order of the i
   <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
   <h3 class="name">Space trainers</h3>
   <p class="desc">Space trainer for a classic and stylish look.</p>
-  <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
+  <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> Add to cart</a></p>
 </article>
             <% end %>
         </div>
@@ -284,7 +284,7 @@ Ensure that the order of elements in the code matches the logical order of the i
   <h3 class="name">Space trainers</h3>
   <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
   <p class="desc">Space trainer for a classic and stylish look.</p>
-  <p class="buy"><a href="javascript:return false"><i class="fa fa-cart-plus"></i> Add to cart</a></p>
+  <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> Add to cart</a></p>
 </article>
             <% end %>
         </div>
@@ -442,7 +442,7 @@ Think about keyboard access, especially when developing interactive elements, su
     <figure class="rendered">
       <figcaption><span class="info">𝒊</span> Rendered</figcaption>
       <div class="rendered">
-        <div id="example-button" class="menu-button" role="button" tabindex="0"><i class="fa fa-bars"></i> Menu</div>
+        <div id="example-button" class="menu-button" role="button" tabindex="0"><svg class="icon"><use xlink:href="#bars"/></svg> Menu</div>
         <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
           <ul>
             <li><a href="javascript:return false">About</a></li>

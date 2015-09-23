@@ -345,8 +345,8 @@ Provide feedback for interactions, such as confirming form submission, alerting 
       <div class="error-list">
         <p>Please correct the following errors:</p>
         <ol class="fa-ul">
-          <li id="error_email"><svg><use xlink:href="#exclamation-triangle"/></svg><a href="javascript:document.getElementById('email5').focus()">Email address is invalid</a></li>
-          <li id="error_comment"><svg><use xlink:href="#exclamation-triangle"/></svg><a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
+          <li id="error_email"><svg class="icon"><use xlink:href="#exclamation-triangle"/></svg><a href="javascript:document.getElementById('email5').focus()">Email address is invalid</a></li>
+          <li id="error_comment"><svg class="icon"><use xlink:href="#exclamation-triangle"/></svg><a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
         </ol>
       </div>
       <form action="#" method="post">
@@ -358,7 +358,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
             <input type="text" id="name5" name="name" value="Superbear">
           </div>
           <div class="row error">
-            <label class="required" for="email5"><svg><use xlink:href="#exclamation-triangle"/></svg> E-mail ✻</label>
+            <label class="required" for="email5"><svg class="icon"><use xlink:href="#exclamation-triangle"/></svg> E-mail ✻</label>
             <input type="text" id="email5" name="email" value="superbear@@hq.example.com" aria-invalid="true" aria-describedby="error_email">
           </div>
           <div class="row">
@@ -366,7 +366,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
             <input type="text" id="website3" name="website">
           </div>
           <div class="row error">
-            <label class="required" for="comment3"><svg><use xlink:href="#exclamation-triangle"/></svg> Comment ✻</label>
+            <label class="required" for="comment3"><svg class="icon"><use xlink:href="#exclamation-triangle"/></svg> Comment ✻</label>
             <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
           </div>
         </fieldset>
