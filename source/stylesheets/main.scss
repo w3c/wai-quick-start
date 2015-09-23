@@ -411,19 +411,24 @@ $wai_grey: #333333;
           border-bottom: none;
           border-radius: 3px 3px 0 0;
           span {
-            background: lighten($wai_grey, 20%);
+            background: #ffffff;
             border-radius: 1em;
             color: #ffffff;
             display: inline-block;
             font-size: 100%;
             margin: 0.1em 0.1em 0.1em 0;
             padding: 0.1em 0.47em;
+            &.cross {
+              color: #af1700;
+            }
             &.tick {
               font-weight: bold;
               padding: 0.1em 0.45em 0.1em 0.35em;
+              color: #03651a;
             }
             &.info {
               font-size: 120%;
+              color: #3447d5;
             }
           }
         }
