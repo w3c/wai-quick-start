@@ -731,12 +731,31 @@ $wai_grey: #333333;
           span {
             color: #992929;
           }
+          svg {
+            width: 1em;
+            height: 1em;
+            top: 2px;
+            position: relative;
+            margin-right: 0.5em;
+            path {
+              fill: #992929;
+            }
+          }
         }
       }
       .row {
         padding: 0.25em 0;
         &.error {
           background: #ffc0cb;
+          svg {
+            width: 1em;
+            height: 1em;
+            top: 1px;
+            position: relative;
+            path {
+              fill: #992929;
+            }
+          }
         }
       }
       label {
