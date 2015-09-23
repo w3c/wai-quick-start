@@ -25,10 +25,12 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 <%= example 'Using <code>for</code> and <code>id</code> attributes' %>
 
 <div class="form-labels html-example">
-  <% html_example do %>
-    <label for="username">Username</label>
-    <input id="username" type="text" name="username">
-  <% end %>
+  <div>
+    <% html_example do %>
+      <label for="username">Username</label>
+      <input id="username" type="text" name="username">
+    <% end %>
+  </div>
 </div>
 
 <%= example :end %>
@@ -110,36 +112,40 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 <%= example 'Using HTML to provide structure and meaning' %>
 
 <div class="mark-up html-example">
-  <% html_example do %>
-  <section>
-    <article>
-      <h2>Superbear saves the day</h2>
-      <time datetime="2015-08-07">7 Aug 2015</time>
-      <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
-      <aside>
-        <h3>Related Articles</h3>
-        <ul>
-          <li><a href="#">Bear receives key to city</a></li>
-          <li><a href="#">Superbear stands for mayor</a></li>
-        </ul>
-      </aside>
-    </article>
-  </section>
-  <% end %>
+  <div>
+    <% html_example do %>
+    <section>
+      <article>
+        <h2>Superbear saves the day</h2>
+        <time datetime="2015-08-07">7 Aug 2015</time>
+        <p>The city's favorite bear yet again proves his mettle by rescuing a young cat from a tree. Witnesses say that Superbear's efforts were not appreciated by the feline, who inflicted some minor scratch wounds on his rescuer.</p>
+        <aside>
+          <h3>Related Articles</h3>
+          <ul>
+            <li><a href="#">Bear receives key to city</a></li>
+            <li><a href="#">Superbear stands for mayor</a></li>
+          </ul>
+        </aside>
+      </article>
+    </section>
+    <% end %>
+  </div>
 </div>
 <%= example :end %>
 <%= example 'Search field using <abbr>WAI-ARIA</abbr>' %>
 <div class="mark-up html-example">
-  <% html_example do %>
-  <form action="#" method="post">
-    <div role="search">
-      <label for="search">Search for</label>
-      <input type="search" id="search" aria-describedby="search-help">
-      <div id="search-help">Search records by customer id or name</div>
-      <button type="submit">Go</button>
-    </div>
-  </form>
-  <% end %>
+  <div>
+    <% html_example do %>
+    <form action="#" method="post">
+      <div role="search">
+        <label for="search">Search for</label>
+        <input type="search" id="search" aria-describedby="search-help">
+        <div id="search-help">Search records by customer id or name</div>
+        <button type="submit">Go</button>
+      </div>
+    </form>
+    <% end %>
+  </div>
 </div>
 
 <%= example :end %>
@@ -181,11 +187,13 @@ Be as forgiving of format as possible when processing user input. For example, a
 <%= example 'Australian phone number field with forgiving validation' %>
 
 <div class="avoid-mistakes html-example">
-  <% html_example do %>
-    <label for="phone">Phone</label>
-    <input id="phone" name="phone" type="tel" pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$" aria-describedby="phone-desc">
-    <p id="phone-desc">For example, (02) 1234 1234</p>
-  <% end %>
+  <div>
+    <% html_example do %>
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="tel" pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$" aria-describedby="phone-desc">
+      <p id="phone-desc">For example, (02) 1234 1234</p>
+    <% end %>
+  </div>
 </div>
 
 <%= example :end %>
@@ -430,40 +438,42 @@ Think about keyboard access, especially when developing interactive elements, su
 <%= example 'Keyboard accessible menu button' %>
 
 <div class="keyboard-accessible html-example">
-  <figure class="rendered">
-    <figcaption><span class="info">𝒊</span> Rendered</figcaption>
-    <div class="rendered">
-      <div id="example-button" class="menu-button" role="button" tabindex="0"><i class="fa fa-bars"></i> Menu</div>
-      <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
-        <ul>
-          <li><a href="javascript:return false">About</a></li>
-          <li><a href="javascript:return false">News</a></li>
-          <li><a href="javascript:return false">Tickets</a></li>
-          <li><a href="javascript:return false">Fun</a></li>
-        </ul>
+  <div>
+    <figure class="rendered">
+      <figcaption><span class="info">𝒊</span> Rendered</figcaption>
+      <div class="rendered">
+        <div id="example-button" class="menu-button" role="button" tabindex="0"><i class="fa fa-bars"></i> Menu</div>
+        <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
+          <ul>
+            <li><a href="javascript:return false">About</a></li>
+            <li><a href="javascript:return false">News</a></li>
+            <li><a href="javascript:return false">Tickets</a></li>
+            <li><a href="javascript:return false">Fun</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </figure>
-  <figure class="code">
-    <figcaption><span class="info">𝒊</span> Code</figcaption>
-    <div>
-      <% code 'javascript' do %>
-var buttonExample = document.getElementById('example-button');
+    </figure>
+    <figure class="code">
+      <figcaption><span class="info">𝒊</span> Code</figcaption>
+      <div>
+        <% code 'javascript' do %>
+  var buttonExample = document.getElementById('example-button');
 
-buttonExample.addEventListener('keydown', function(e) {
-  // Toggle the menu when RETURN is pressed
-  if(e.keyCode && e.keyCode == 13) {
+  buttonExample.addEventListener('keydown', function(e) {
+    // Toggle the menu when RETURN is pressed
+    if(e.keyCode && e.keyCode == 13) {
+      toggleMenu(document.getElementById('example-button-menu'));
+    }
+  });
+
+  buttonExample.addEventListener('click', function(e) {
+  // Toggle the menu on mouse click
     toggleMenu(document.getElementById('example-button-menu'));
-  }
-});
-
-buttonExample.addEventListener('click', function(e) {
-// Toggle the menu on mouse click
-  toggleMenu(document.getElementById('example-button-menu'));
-});
-      <% end %>
-    </div>
-  </figure>
+  });
+        <% end %>
+      </div>
+    </figure>
+  </div>
 </div>
 
 <%= example :end %>
