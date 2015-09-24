@@ -57,7 +57,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 {:.attach_permalink}
 ## Include alternative text for images
 
-Ensure that alternative text for images is added to all informational and functional images. Decorative images should have empty alternative text, `alt=""`, or should be included using <abbr>CSS</abbr>. Text alternatives are usually provided by those responsible for written content. 
+Ensure that alternative text for images is added to all informational and functional images. Use empty alternative text, `alt=""` for decorative images, or include them in the CSS instead. Text alternatives are usually provided by those responsible for written content. 
 
 {::nomarkdown}
 <%= more_information %>
