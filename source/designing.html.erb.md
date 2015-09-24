@@ -49,7 +49,7 @@ Foreground text needs to have sufficient contrast with background colors. This i
 {:/}
 
 * **WCAG**
-  * [Contrast (Minimum) 1.4.3](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast) ([Understanding 1.4.3](/TR/UNDERSTANDING-WCAG20/qr-visual-audio-contrast-contrast.html))
+  * [Contrast (Minimum) 1.4.3](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast) ([Understanding 1.4.3](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html))
 * **User Story**
   * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
 * **Easy Check**
@@ -237,7 +237,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   * [Consistent Identification 3.2.4](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
 * **User Story**:
   * [Challenges faced by someone with a limited ability to use a mouse](/WAI/intro/people-use-web/stories#reporter)
-  * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#reporter)
+  * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#retiree)
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -261,7 +261,7 @@ Ensure that navigation across pages within a website has consistent naming, styl
   * [Consistent Navigation 3.2.3](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations) ([Understanding 3.2.3](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html))
   * [Multiple Ways 2.4.5](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc) ([Understanding 2.4.5](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html))
 * **User Story**
-  * [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#reporter)
+  * [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -608,7 +608,7 @@ Provide text which describes the purpose of each image. Images might convey info
 {:/}
 
 * **WCAG**
-  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/qr-text-equiv-all.html))
+  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
@@ -647,13 +647,10 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 {:/}
 
 * **WCAG**
-  * [Audio Control 1.4.2](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio) ([Understanding 1.4.2](/TR/UNDERSTANDING-WCAG20/qr-visual-audio-contrast-dis-audio.html))
-  * [Pause, Stop, Hide 2.2.2](/WAI/WCAG20/quickref/#qr-time-limits-pause) ([Understanding 2.2.2](/TR/UNDERSTANDING-WCAG20/qr-time-limits-pause.html))
+  * [Audio Control 1.4.2](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio) ([Understanding 1.4.2](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html))
+  * [Pause, Stop, Hide 2.2.2](/WAI/WCAG20/quickref/#qr-time-limits-pause) ([Understanding 2.2.2](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html))
 * **Tutorial**
   * [Carousel Concepts](/WAI/tutorials/carousels/)
-* **Background**:
-  * [Understanding 1.4.2 Audio Control](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html)
-  * [Understanding 2.2.2 Pause, Stop, Hide](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
 
 {::nomarkdown}
 <%= more_information :end %>

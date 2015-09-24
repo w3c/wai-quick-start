@@ -270,7 +270,7 @@ For every image, write alternative text that provides the information or functio
 {:/}
 
 * **WCAG**
-  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/qr-text-equiv-all.html))
+  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**

@@ -65,7 +65,7 @@ Ensure that alternative text for images is added to all informational and functi
 {:/}
 
 * **WCAG**
-  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/qr-text-equiv-all.html))
+  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
@@ -205,7 +205,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 {:/}
 
 * **WCAG**
-  * [Error Identifications 3.3.1](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/qr-minimize-error-identified.html))
+  * [Error Identifications 3.3.1](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html))
 * **Tutorial**
   * [Validating Input](/WAI/tutorials/forms/validation/)
 * **User Story**
@@ -302,7 +302,7 @@ Ensure that the order of elements in the code matches the logical order of the i
 {:/}
 
 * **WCAG**
-  * [Meaningful Sequence 1.3.2](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 1.3.2](/TR/UNDERSTANDING-WCAG20/qr-minimize-error-identified.html))
+  * [Meaningful Sequence 1.3.2](/WAI/WCAG20/quickref/#qr-content-structure-separation-sequence) ([Understanding 1.3.2](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html))
 
 {::nomarkdown}
 <%= more_information :end %>
