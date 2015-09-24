@@ -2,6 +2,7 @@
 title: Tips on Designing for Web Accessibility
 status: editors-draft
 layout: guide
+first_published: September 2015
 ---
 
 This page introduces some basic considerations to help you get started making your user interface design and visual design more accessible to people with disabilities. These tips are good practice; some are Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.

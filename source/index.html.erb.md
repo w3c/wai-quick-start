@@ -1,6 +1,7 @@
 ---
 title: "Tips for Getting Started with Web Accessibility"
 status: editors-draft
+first_published: September 2015
 ---
 
 Get started with accessibility. These tips introduce some basic considerations for making your website more accessible to people with disabilities, and provide links to additional guidance. Tips are grouped by activity; information relevant to your work might be in more than one page.
