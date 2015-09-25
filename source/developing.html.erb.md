@@ -237,7 +237,7 @@ Ensure that the order of elements in the code matches the logical order of the i
   </article>
   <div class="two-column">
     <figure>
-      <figcaption><span class="cross">✘</span> Image before heading may be missed</figcaption>
+      <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Image before heading may be missed</figcaption>
       <div class="fail code">
         <% code('html') do %>
 <img src="images/trainer.png" alt="...">
@@ -265,7 +265,7 @@ Ensure that the order of elements in the code matches the logical order of the i
     </figure>
     
     <figure>
-      <figcaption><span class="tick">✓</span> Heading marks the start of the section</figcaption>
+      <figcaption><svg class="tick"><use xlink:href="#tick"/></svg> Heading marks the start of the section</figcaption>
       <div class="pass code">
         <% code('html') do %>
 <h3>Space trainers</h3>
@@ -441,7 +441,7 @@ Think about keyboard access, especially when developing interactive elements, su
 <div class="keyboard-accessible html-example">
   <div>
     <figure class="rendered">
-      <figcaption><span class="info">𝒊</span> Rendered</figcaption>
+      <figcaption><svg class="info"><use xlink:href="#info"/></svg> Rendered</figcaption>
       <div class="rendered">
         <div id="example-button" class="menu-button" role="button" tabindex="0"><svg class="icon"><use xlink:href="#bars"/></svg> Menu</div>
         <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
@@ -455,7 +455,7 @@ Think about keyboard access, especially when developing interactive elements, su
       </div>
     </figure>
     <figure class="code">
-      <figcaption><span class="info">𝒊</span> Code</figcaption>
+      <figcaption><svg class="info"><use xlink:href="#info"/></svg> Code</figcaption>
       <div>
         <% code 'javascript' do %>
   var buttonExample = document.getElementById('example-button');

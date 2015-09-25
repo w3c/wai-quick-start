@@ -405,30 +405,28 @@ $wai_grey: #333333;
         figcaption {
           color: inherit;
           background-color: lighten($wai_grey_bg, 7%);
-          padding-bottom: .2em;
-          padding: .2em .5em;
+          padding: 0 0.5em 0.5em;
           border: 1px solid $wai_grey_bg;
           border-bottom: none;
           border-radius: 3px 3px 0 0;
-          span {
+          svg {
             background: #ffffff;
             border-radius: 1em;
             color: #ffffff;
             display: inline-block;
             font-size: 100%;
-            margin: 0.1em 0.1em 0.1em 0;
-            padding: 0.1em 0.47em;
+            padding: 0.3em;
+            @extend .icon;
+            float: none;
+            margin: 0;
             &.cross {
-              color: #af1700;
+              fill: #c43938;
             }
             &.tick {
-              font-weight: bold;
-              padding: 0.1em 0.45em 0.1em 0.35em;
-              color: #03651a;
+              fill: #03651a;
             }
             &.info {
-              font-size: 120%;
-              color: #3447d5;
+              fill: #3447d5;
             }
           }
         }
@@ -459,7 +457,7 @@ $wai_grey: #333333;
         width: 1em;
         height: 1em;
         position: relative;
-        top: 1px;
+        top: 6px;
       }
     }
     .more_information {
@@ -756,9 +754,7 @@ $wai_grey: #333333;
             top: 2px;
             position: relative;
             margin-right: 0.5em;
-            path {
-              fill: #992929;
-            }
+            fill: #992929;
           }
         }
       }
@@ -771,9 +767,7 @@ $wai_grey: #333333;
             height: 1em;
             top: 1px;
             position: relative;
-            path {
-              fill: #992929;
-            }
+            fill: #992929;
           }
         }
       }

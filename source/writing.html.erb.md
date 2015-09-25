@@ -27,7 +27,7 @@ For each web page, provide a short title that describes the page content and dis
 
 <div class="page-title">
   <figure>
-    <figcaption><span class="info">𝒊</span> Home page title</figcaption>
+    <figcaption><svg class="info"><use xlink:href="#info"/></svg> Home page title</figcaption>
     <div>
       <svg version="1.1" width="462" height="27" aria-labelledby="page-title-1" role="img">
         <g transform="scale(1.2)">
@@ -44,7 +44,7 @@ For each web page, provide a short title that describes the page content and dis
     </div>
   </figure>
   <figure>
-    <figcaption><span class="info">𝒊</span> Page name followed by organization name</figcaption>
+    <figcaption><svg class="info"><use xlink:href="#info"/></svg> Page name followed by organization name</figcaption>
     <div>
       <svg version="1.1" width="462" height="27" aria-labelledby="page-title-2" role="img">
         <g transform="scale(1.2)">
@@ -61,7 +61,7 @@ For each web page, provide a short title that describes the page content and dis
     </div>
   </figure>
   <figure>
-    <figcaption><span class="info">𝒊</span> Page name including step in a process</figcaption>
+    <figcaption><svg class="info"><use xlink:href="#info"/></svg> Page name including step in a process</figcaption>
     <div>
       <svg version="1.1" width="462" height="27" aria-labelledby="page-title-3" role="img">
         <g transform="scale(1.2)">
@@ -108,7 +108,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 
 <div class="heading-structure two-column">
   <figure>
-    <figcaption><span class="cross">✘</span> Without headings</figcaption>
+    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Without subheadings</figcaption>
     <div>
       <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><img src="images/headings-poor.png" alt=""><br>View example in pop-up</a>
     </div>
@@ -133,7 +133,7 @@ Use short headings to group related paragraphs and clearly describe the sections
     </div>
   </figure>
   <figure>
-    <figcaption><span class="tick">✓</span> Using headings and subheadings</figcaption>
+    <figcaption><svg class="tick"><use xlink:href="#tick"/></svg> Using headings and subheadings</figcaption>
     <div>
       <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><img src="images/headings-good.png" alt=""><br>View example in pop-up</a>
     </div>
@@ -197,13 +197,13 @@ Write link text so that it describes the content of the link target. Avoid using
 
 <div class="meaningful-links two-column">
   <figure>
-    <figcaption><span class="cross">✘</span> No information</figcaption>
+    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> No information</figcaption>
     <div>
       <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
     </div>
   </figure>
   <figure>
-    <figcaption><span class="tick">✓</span> Meaningful information</figcaption>
+    <figcaption><svg class="tick"><use xlink:href="#tick"/></svg> Meaningful information</figcaption>
     <div>
       <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
     </div>
@@ -240,7 +240,7 @@ For every image, write alternative text that provides the information or functio
 
 <div class="text-alt two-column">
   <figure>
-    <figcaption><span class="cross">✘</span> Uninformative</figcaption>
+    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Uninformative</figcaption>
     <div>
       <img src="images/phone_charging.png" alt="Charging phone">
       <div>
@@ -250,7 +250,7 @@ For every image, write alternative text that provides the information or functio
     </div>
   </figure>
   <figure>
-    <figcaption><span class="tick">✓</span> Informative</figcaption>
+    <figcaption><svg class="tick"><use xlink:href="#tick"/></svg> Informative</figcaption>
     <div>
       <img src="images/phone_charging.png" alt="Plug cable into the bottom edge of the phone.">
       <div>
@@ -382,13 +382,13 @@ Use simple language and formatting, as appropriate for the context.
 
 <div class="two-column">
   <figure>
-    <figcaption><span class="cross">✘</span> Unnecessarily complex</figcaption>
+    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Unnecessarily complex</figcaption>
     <div>
       <p class="fail">CPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to all parties involved. Once our representative obtains information that allows us to understand the causality, we may or may not assign appropriate monetary compensation. The resulting decision may occasion one of the following options: the claim is not approved and is assigned a rejected status, the status of the claim is ambiguous and will require additional information before further processing can occur, the claim is partially approved and reduced payment is assigned and issued, or claim is fully approved and total claim payment is assigned and issued.</p>
     </div>
   </figure>
   <figure>
-    <figcaption><span class="tick">✓</span> Easier to understand</figcaption>
+    <figcaption><svg class="tick"><use xlink:href="#tick"/></svg> Easier to understand</figcaption>
     <div>
       <p class="pass">Claims Processing Procedure (CPP): If you have a car accident, our agent will investigate. Findings will determine any claim payment. This could result in:</p>
       <ul>
