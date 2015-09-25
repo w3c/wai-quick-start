@@ -499,6 +499,7 @@ Use whitespace and proximity to make relationships between content more apparent
 
 * **WCAG**
   * [Headings and Labels 2.4.6](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive) ([Understanding 2.4.6](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html))
+  * [Section Headings 2.4.10](/WAI/WCAG20/quickref/#qr-navigation-mechanisms-headings) ([Understanding 2.4.10](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html))
 * **Tutorial**
   * [Headings](/WAI/tutorials/page-structure/headings/)
 * **User Story**
