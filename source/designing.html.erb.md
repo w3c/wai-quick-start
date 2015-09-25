@@ -542,7 +542,7 @@ Consider how page information is presented in different sized viewports, such as
 
 * **Background**
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
-  * [Mobile considerations related to Understandability](TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
+  * [Mobile considerations related to Understandability](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
 * **User Story**
   * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
 
