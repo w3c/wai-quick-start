@@ -108,7 +108,7 @@ Use short headings to group related paragraphs and clearly describe the sections
 
 <div class="heading-structure two-column">
   <figure>
-    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Without subheadings</figcaption>
+    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Lack of headings</figcaption>
     <div>
       <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><img src="images/headings-poor.png" alt=""><br>View example in pop-up</a>
     </div>
