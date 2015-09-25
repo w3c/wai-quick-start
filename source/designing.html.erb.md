@@ -400,7 +400,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 {:/}
 
 {:.attach_permalink}
-## Use spacing and headings to group related content
+## Use headings and spacing to group related content
 
 Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand.
 
