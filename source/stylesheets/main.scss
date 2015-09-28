@@ -273,6 +273,7 @@ $wai_grey: #333333;
       margin-top: 1em;
       padding: .5em 0 0;
       border-top: 1px solid #ccc;
+      line-height: 300%;
 
       .btn-primary {
         background: linear-gradient(#8add6d, #60b044);
@@ -293,6 +294,7 @@ $wai_grey: #333333;
     line-height: percentage(44/18);
     padding: .5em .75em;
     text-decoration: none;
+    white-space: nowrap;
     border: {
       color: #ccc;
       width: 1px;
