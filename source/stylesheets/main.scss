@@ -411,24 +411,38 @@ $wai_grey: #333333;
           border: 1px solid $wai_grey_bg;
           border-bottom: none;
           border-radius: 3px 3px 0 0;
-          svg {
+          span {
             background: #ffffff;
             border-radius: 1em;
             color: #ffffff;
             display: inline-block;
-            font-size: 100%;
             padding: 0.3em;
             @extend .icon;
             float: none;
-            margin: 0;
+            margin-top: 2px;
+            position: relative;
+            vertical-align: bottom;
+            svg {
+              width: 1em;
+              height: 1em;
+              position: absolute;
+              top: 0.5ex;
+              left: 0.5ex;
+            }
             &.cross {
-              fill: #c43938;
+                fill: #c43938;
             }
             &.tick {
               fill: #03651a;
             }
-            &.info {
+            &.info, &.desktop {
               fill: #3447d5;
+            }
+            &.desktop {
+              svg {
+                top: 0.8ex;
+                left: 0.8ex;
+              }
             }
           }
         }
@@ -459,7 +473,7 @@ $wai_grey: #333333;
         width: 1em;
         height: 1em;
         position: relative;
-        top: 6px;
+        top: 3px;
       }
     }
     .more_information {
@@ -544,41 +558,43 @@ $wai_grey: #333333;
     }
     .color-alone {
       figure {
-        svg {
-          @include mq($small) {
-            float: left;
-            margin: 0 1em 1.5em 0;
-          }
-          @include mq($medium) {
-            float: none;
-            margin: 0;
-          }
-          @include mq($big) {
-            float: left;
-            margin: 0 1em 0 0;
-          }
-          text {
-            fill: #f4f4f4;
-            tspan {
-              @extend .visuallyhidden;
+        div {
+          svg {
+            @include mq($small) {
+              float: left;
+              margin: 0 1em 1.5em 0;
             }
-            &.yellow {
-              fill: $wai_grey;
+            @include mq($medium) {
+              float: none;
+              margin: 0;
             }
-          }
-          path {
-            stroke-width: 0;
-            &.blue {
-              fill: #0000CC;
+            @include mq($big) {
+              float: left;
+              margin: 0 1em 0 0;
             }
-            &.green {
-              fill: #09610D;
+            text {
+              fill: #f4f4f4;
+              tspan {
+                @extend .visuallyhidden;
+              }
+              &.yellow {
+                fill: $wai_grey;
+              }
             }
-            &.red {
-              fill: #AA0402;
-            }
-            &.yellow {
-              fill: #DDDD00;
+            path {
+              stroke-width: 0;
+              &.blue {
+                fill: #0000CC;
+              }
+              &.green {
+                fill: #09610D;
+              }
+              &.red {
+                fill: #AA0402;
+              }
+              &.yellow {
+                fill: #DDDD00;
+              }
             }
           }
         }
@@ -858,18 +874,20 @@ $wai_grey: #333333;
       figure {
         display: inline-block;
       }
-      svg {
-        text {
-          font-size: 0.8em;
-          fill: $wai_grey;
-        }
-        .banner {
-          stroke: #9d9d9d;
-          stroke-width: 0.5;
-          fill: lighten($wai_grey_bg, 8%);
-        }
-        path, rect {
-          fill: lighten($wai_grey, 25%);
+      div {
+        svg {
+          text {
+            font-size: 0.8em;
+            fill: $wai_grey;
+          }
+          .banner {
+            stroke: #9d9d9d;
+            stroke-width: 0.5;
+            fill: lighten($wai_grey_bg, 8%);
+          }
+          path, rect {
+            fill: lighten($wai_grey, 25%);
+          }
         }
       }
     }
@@ -1257,6 +1275,9 @@ $wai_grey: #333333;
         }
         &:active {
           margin-top: 1px;
+        }
+        svg {
+          top: 2px;
         }
       }
       .menu {

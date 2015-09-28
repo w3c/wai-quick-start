@@ -28,13 +28,13 @@ Foreground text needs to have sufficient contrast with background colors. This i
 
 <div class="contrast two-column">
   <figure>
-    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Insufficient</figcaption>
+    <figcaption><span class="cross"><svg><use xlink:href="#cross"/></svg></span> Insufficient</figcaption>
     <div>
       <p class="fail">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
   <figure>
-    <figcaption><svg class="tick"><use xlink:href="#tick"/></svg> Sufficient</figcaption>
+    <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Sufficient</figcaption>
     <div>
       <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
@@ -76,7 +76,7 @@ While color can be useful to convey information, color should not be the only wa
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Color only</figcaption>
+    <figcaption><span class="cross"><svg><use xlink:href="#cross"/></svg></span> Color only</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
@@ -90,7 +90,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption><svg class="tick"><use xlink:href="#tick"/></svg> Color and symbol</figcaption>
+    <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Color and symbol</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
@@ -109,7 +109,7 @@ While color can be useful to convey information, color should not be the only wa
 <%= example 'Refer to something using color alone' %>
 <div class="color-alone two-column">
   <figure class="question fail">
-    <figcaption><svg class="cross"><use xlink:href="#cross"/></svg> Color only</figcaption>
+    <figcaption><span class="cross"><svg><use xlink:href="#cross"/></svg></span> Color only</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
@@ -133,7 +133,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="question pass">
-    <figcaption><svg class="tick"><use xlink:href="#tick"/></svg> Color and number</figcaption>
+    <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Color and number</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="accessible-triangles-title" role="img">
         <g>
@@ -194,7 +194,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 <div class="focus two-column">
   <div>
     <figure>
-      <figcaption><svg class="info"><use xlink:href="#info"/></svg> Style links to stand out from text</figcaption>
+      <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Style links to stand out from text</figcaption>
       <div>
         <p>Some people can't use a mouse and use only a <a href="javascript:return false;">keyboard to navigate</a> through web pages.</p>
         <p>It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
@@ -205,19 +205,19 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   </div>
   <div>
     <figure class="hover">
-      <figcaption><svg class="info"><use xlink:href="#info"/></svg> Mouse hover style</figcaption>
+      <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Mouse hover style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
-      <figcaption><svg class="info"><use xlink:href="#info"/></svg> Keyboard focus style</figcaption>
+      <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Keyboard focus style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
-      <figcaption><svg class="info"><use xlink:href="#info"/></svg> Touch or click style</figcaption>
+      <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Touch or click style</figcaption>
       <div>
         <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
@@ -409,7 +409,7 @@ Use whitespace and proximity to make relationships between content more apparent
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption id="inaccessible-headings-title"><svg class="cross"><use xlink:href="#cross"/></svg> Little spacing and unclear relationship</figcaption>
+    <figcaption id="inaccessible-headings-title"><span class="cross"><svg><use xlink:href="#cross"/></svg></span> Little spacing and unclear relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
@@ -446,7 +446,7 @@ Use whitespace and proximity to make relationships between content more apparent
     </div>
   </figure>
   <figure class="pass">
-    <figcaption id="accessible-headings-title"><svg class="tick"><use xlink:href="#tick"/></svg> More spacing and clearer relationship</figcaption>
+    <figcaption id="accessible-headings-title"><span class="tick"><svg><use xlink:href="#tick"/></svg></span> More spacing and clearer relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
