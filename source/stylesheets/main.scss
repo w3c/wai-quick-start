@@ -869,10 +869,14 @@ $wai_grey: #333333;
       }
     }
     .page-title {
-      overflow: scroll;
-      max-width: 100%;
       figure {
-        display: inline-block;
+        display: block;
+        margin-bottom: 1em;
+      }
+      @include mq($medium) {
+        figure {
+          display: inline-block;
+        }
       }
       div {
         svg {
