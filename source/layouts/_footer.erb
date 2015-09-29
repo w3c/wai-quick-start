@@ -22,7 +22,9 @@
 	      <% end %>
 				</li>
 	      <%= partial "layouts/contributors" %>
-        <li>Megaphone icon from <a href="http://www.flaticon.com" title="Flaticon">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></li>
+        <% if current_page.path != 'acknowledgements.html' %>
+          <li>See <a href="acknowledgements.html">Acknowledgements</a> for a full list of contributors.</li>
+        <% end %>
 	    </ul>
 	    <p class="footer-nav">
 	    	[<a href="/WAI/sitemap.html">WAI Site Map</a>]

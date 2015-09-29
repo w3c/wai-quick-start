@@ -2,6 +2,7 @@
 title: Tips on Advocating for Web Accessibility
 status: editors-draft
 layout: guide
+icon: advocating
 ---
 
 These tips will help you understand and promote web accessibility.

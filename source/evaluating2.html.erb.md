@@ -2,6 +2,7 @@
 title: Tips on Evaluating Web Accessibility
 status: editors-draft
 layout: guide
+icon: evaluating
 ---
 
 These tips will help you improve your accessibility evaluation process.

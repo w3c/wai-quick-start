@@ -2,6 +2,7 @@
 title: Tips on Writing for Web Accessibility
 status: editors-draft
 layout: guide
+icon: writing
 first_published: September 2015
 ---
 

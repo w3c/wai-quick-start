@@ -2,6 +2,7 @@
 title: Tips on Managing Web Accessibility
 status: editors-draft
 layout: guide
+icon: managing
 ---
 
 These tips will help you plan and manage the accessibility of your website.
