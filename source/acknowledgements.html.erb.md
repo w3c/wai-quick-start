@@ -1,6 +1,7 @@
 ---
 title: "Acknowledgements"
 status: editors-draft
+no_contributions: true
 first_published: September 2015
 ---
 
