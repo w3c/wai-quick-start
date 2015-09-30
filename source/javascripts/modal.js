@@ -51,6 +51,12 @@ var openModalId;
     
     // Add a listener to deal with opening the modal
     el.addEventListener('click', showModal)
+    
+    // Move the modal holder to the bottom of the document. This prevents screen readers
+    // from reading forward beyond the end of the modal. It is unclear if this is
+    // necessary as a result of a limitation of screen readers in dealing with
+    // elements marked with role='dialog'
+    document.getElementsByTagName("body")[0].appendChild(modalHolder);
   });
 }).call(this);
 
