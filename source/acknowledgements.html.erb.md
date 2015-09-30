@@ -39,6 +39,7 @@ first_published: September 2015
 * James Green
 * Jonathan Metz
 * Lydia Harkey
+* Sharron Rush, Knowbility, Inc
 * Sylvie Duchateau
 * Vicki Menezes Miller
 * Wayne Dick, Knowbility, Inc
