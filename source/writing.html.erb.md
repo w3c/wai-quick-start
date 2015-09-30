@@ -113,7 +113,7 @@ Use short headings to group related paragraphs and clearly describe the sections
     <div>
       <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><img src="images/headings-poor.png" alt=""><br>View example in pop-up</a>
     </div>
-    <div id="no-headings-modal-holder">
+    <div id="no-headings-modal-holder" class="heading-structure">
       <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
 
       <p>HTML elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
@@ -136,7 +136,7 @@ Use short headings to group related paragraphs and clearly describe the sections
     <div>
       <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><img src="images/headings-good.png" alt=""><br>View example in pop-up</a>
     </div>
-    <div id="headings-modal-holder">
+    <div id="headings-modal-holder" class="heading-structure">
       <h2 id="headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
     
       <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>

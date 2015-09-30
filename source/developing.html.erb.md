@@ -248,21 +248,19 @@ Ensure that the order of elements in the code matches the logical order of the i
         <% end %>
       </div>
       <a id="order-fail-fullcode" class="modal-open" href="#order-fail-fullcode-holder">View full source code</a>
-      <div id="order-fail-fullcode-overlay" aria-hidden="true" role="dialog" aria-labelledby="order-fail-fullcode-title">
-        <div id="order-fail-fullcode-holder">
-          <h4 id="order-fail-fullcode-title">Full source code for Image before heading may be missed</h4>
+      <div id="order-fail-fullcode-holder">
+        <h4 id="order-fail-fullcode-title">Full source code for Image before heading may be missed</h4>
 
-          <p>HTML:</p>
-            <% code('html') do %>
+        <p>HTML:</p>
+          <% code('html') do %>
 <article class="product">
   <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
   <h3 class="name">Space trainers</h3>
   <p class="desc">Space trainer for a classic and stylish look.</p>
   <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> Add to cart</a></p>
 </article>
-            <% end %>
-        </div>
-      </div>    
+          <% end %>
+      </div>
     </figure>
     
     <figure>
@@ -276,20 +274,18 @@ Ensure that the order of elements in the code matches the logical order of the i
         <% end %>
       </div>
       <a id="order-pass-fullcode" class="modal-open" href="#order-pass-fullcode-holder">View full source code</a>
-      <div id="order-pass-fullcode-overlay" aria-hidden="true" role="dialog" aria-labelledby="order-pass-fullcode-title">
-        <div id="order-pass-fullcode-holder">
-          <h4 id="order-pass-fullcode-title">Full source code for Heading marks the start of the section</h4>
+      <div id="order-pass-fullcode-holder">
+        <h4 id="order-pass-fullcode-title">Full source code for Heading marks the start of the section</h4>
 
-          <p>HTML:</p>
-            <% code('html') do %>
+        <p>HTML:</p>
+          <% code('html') do %>
 <article class="product">
   <h3 class="name">Space trainers</h3>
   <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
   <p class="desc">Space trainer for a classic and stylish look.</p>
   <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> Add to cart</a></p>
 </article>
-            <% end %>
-        </div>
+          <% end %>
       </div>
     </figure>
   </div>
