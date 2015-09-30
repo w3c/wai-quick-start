@@ -274,14 +274,9 @@ $wai_grey: #333333;
       padding: .5em 0 0;
       border-top: 1px solid #ccc;
       line-height: 300%;
-
-      .btn-primary {
-        background: linear-gradient(#8add6d, #60b044);
-        border-color: #4a993e;
-        &:hover, &:focus {
-          background: linear-gradient(#79d858, #569e3d);
-        }
-      }
+    }
+    .index & {
+      margin-top: 8em;
     }
   }
   
