@@ -377,6 +377,9 @@ $wai_grey: #333333;
       span {
         font-weight: normal;
       }
+      .acknowledgements & {
+        margin-top: 1em;
+      }
     }
     cite {
       padding: 1em 0;

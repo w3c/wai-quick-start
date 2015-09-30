@@ -5,7 +5,6 @@
     <% current_page.data.editors.each do |editor| %><li><% if editor.is_a? String %><%=editor%><% else %><% editor.map do |key, value| %><a href="<%=value%>"><%=key%></a><% end %><% end %></li><% end %>
 <% else %>
     <li><a href="http://w3.org/People/#kevin">Kevin White</a></li>
-		<li><a href="http://w3.org/People/shadi/">Shadi Abou-Zahra</a></li>
   </ul>
 <% end %>
 
