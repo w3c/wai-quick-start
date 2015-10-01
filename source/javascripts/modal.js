@@ -17,6 +17,9 @@ var openModalId;
   modalOverlay.setAttribute('id', 'modal-overlay');
   modalOverlay.setAttribute('class', 'modal-overlay');
   document.getElementsByTagName("body")[0].appendChild(modalOverlay);
+  
+  // Any clicks on the modal overlay will close the modal window
+  modalOverlay.addEventListener('click', hideModal);
 
   // For each trigger...
   Array.prototype.forEach.call(modalTriggers, function(el, i) {
