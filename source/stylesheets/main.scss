@@ -1137,12 +1137,20 @@ $wai_grey: #333333;
         overflow: hidden;
         margin: 1em 0 2em 1em;
         h3, .desc, .buy {
-          margin-left: 210px;
+          margin-left: 130px;
         }
         img {
           float: left;
           margin-top: -2em;
-          width: 200px;
+          width: 120px;
+        }
+        @include mq($medium) {
+          img {
+            width: 200px;
+          }
+          h3, .desc, .buy {
+            margin-left: 210px;
+          }
         }
         .buy {
           a {
