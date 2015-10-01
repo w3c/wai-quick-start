@@ -238,7 +238,7 @@ Ensure that the order of elements in the code matches the logical order of the i
   </article>
   <div class="two-column">
     <figure>
-      <figcaption><span class="cross"><svg><use xlink:href="#cross"/></svg></span> Image before heading may be missed</figcaption>
+      <figcaption><img src="images/cross.svg" alt="Bad"> Image before heading may be missed</figcaption>
       <div class="fail code">
         <% code('html') do %>
 <img src="images/trainer.png" alt="...">
@@ -264,7 +264,7 @@ Ensure that the order of elements in the code matches the logical order of the i
     </figure>
     
     <figure>
-      <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Heading marks the start of the section</figcaption>
+      <figcaption><img src="images/tick.svg" alt="Good"> Heading marks the start of the section</figcaption>
       <div class="pass code">
         <% code('html') do %>
 <h3>Space trainers</h3>
@@ -438,7 +438,7 @@ Think about keyboard access, especially when developing interactive elements, su
 <div class="keyboard-accessible html-example">
   <div>
     <figure class="rendered">
-      <figcaption><span class="desktop"><svg><use xlink:href="#desktop"/></svg></span> Rendered</figcaption>
+      <figcaption><img src="images/rendered.svg" alt=""> Rendered</figcaption>
       <div class="rendered">
         <div id="example-button" class="menu-button" role="button" aria-expanded="false" aria-controls="example-button-menu" tabindex="0"><svg class="icon"><use xlink:href="#bars"/></svg> Menu</div>
         <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
@@ -452,7 +452,7 @@ Think about keyboard access, especially when developing interactive elements, su
       </div>
     </figure>
     <figure class="code">
-      <figcaption><span class="info"><svg><use xlink:href="#developing"/></svg></span> Code</figcaption>
+      <figcaption><img src="images/code.svg" alt=""> Code</figcaption>
       <div>
         <% code 'javascript' do %>
 var buttonExample = document.getElementById('example-button');

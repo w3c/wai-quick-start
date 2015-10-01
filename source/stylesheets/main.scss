@@ -408,43 +408,14 @@ $wai_grey: #333333;
         figcaption {
           color: inherit;
           background-color: lighten($wai_grey_bg, 7%);
-          padding: 0 0.5em 0.5em;
+          padding: 0.2em 0.5em 0.2em;
           border: 1px solid $wai_grey_bg;
           border-bottom: none;
           border-radius: 3px 3px 0 0;
-          span {
-            background: #ffffff;
-            border-radius: 1em;
-            color: #ffffff;
-            display: inline-block;
-            padding: 0.3em;
-            @extend .icon;
-            float: none;
-            margin-top: 2px;
-            position: relative;
+          img {
+            width: 1.5em;
+            height: 1.5em;
             vertical-align: bottom;
-            svg {
-              width: 1em;
-              height: 1em;
-              position: absolute;
-              top: 0.5ex;
-              left: 0.5ex;
-            }
-            &.cross {
-                fill: #c43938;
-            }
-            &.tick {
-              fill: #03651a;
-            }
-            &.info, &.desktop {
-              fill: #3447d5;
-            }
-            &.desktop {
-              svg {
-                top: 0.8ex;
-                left: 0.8ex;
-              }
-            }
           }
         }
         &>div {
@@ -461,6 +432,12 @@ $wai_grey: #333333;
             }
           }
         }
+        .icon {
+          height: 1em;
+          width: 1em;
+          position: relative;
+          top: 3px;
+        }
       }
       pre {
         margin: 0;
@@ -469,12 +446,6 @@ $wai_grey: #333333;
         border: 0;
         padding: 0;
         margin: 0;
-      }
-      .icon {
-        width: 1em;
-        height: 1em;
-        position: relative;
-        top: 3px;
       }
     }
     .more_information {
@@ -677,10 +648,12 @@ $wai_grey: #333333;
             color: #f4f4f4;
           }
         }
-        img {
-          position: absolute;
-          top: 1em;
-          left: 50%;
+        div {
+          img {
+            position: absolute;
+            top: 1em;
+            left: 50%;
+          }
         }
       }
       .keyboard {
@@ -704,10 +677,12 @@ $wai_grey: #333333;
           background: #850BAC;
           color: #f4f4f4;
         }
-        img {
-          position: absolute;
-          top: 1em;
-          left: 50%;
+        div {
+          img {
+            position: absolute;
+            top: 1em;
+            left: 50%;
+          }
         }
       }
     }
@@ -1032,38 +1007,44 @@ $wai_grey: #333333;
     }
     .writing & .text-alt {
       figure {
-        img {
-          display: block;
-          margin-bottom: 1em;
+        div{
+          img {
+            display: block;
+            margin-bottom: 1em;
+          }
         }
       }
       @include mq($small) {
         figure {
-          img {
-            float: left;
-            margin-right: 1em;
-            display: inline-block;
+          div {
+            img {
+              float: left;
+              margin-right: 1em;
+              display: inline-block;
+            }
           }
         }
       }
       @include mq($medium) {
         figure {
-          img {
-            float: none;
-            margin-right: 0;
-            display: block;
+          div {
+            img {
+              float: none;
+              margin-right: 0;
+              display: block;
+            }
           }
         }
       }
       @include mq($big) {
         figure {
-          img {
-            float: left;
-            margin-right: 0;
-            display: inline-block;
-            width: 30%;
-          }
           div {
+            img {
+              float: left;
+              margin-right: 0;
+              display: inline-block;
+              width: 30%;
+            }
             div {
               float: right;
               width: 65%;
@@ -1164,6 +1145,10 @@ $wai_grey: #333333;
           }
         }
         .buy {
+          svg {
+            height: 1em;
+            width: 1em;
+          }
           a {
           	background-color: #44c767;
           	border-radius: 19px;

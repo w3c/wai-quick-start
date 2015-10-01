@@ -125,13 +125,13 @@ helpers do
 
     concat_content <<-EOC
       <figure class="rendered">
-        <figcaption><span class="desktop"><svg><use xlink:href="#desktop"/></svg></span> Rendered</figcaption>
+        <figcaption><img src="images/rendered.svg" alt=""> Rendered</figcaption>
         <div>
           #{content}
         </div>
       </figure>
       <figure class="code">
-        <figcaption><span class="info"><svg><use xlink:href="#developing"/></svg></span> Code Snippet</figcaption>
+        <figcaption><img src="images/code.svg" alt=""> Code Snippet</figcaption>
         <div>
           #{highlighted}
         </div>
