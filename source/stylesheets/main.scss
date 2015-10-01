@@ -614,15 +614,6 @@ $wai_grey: #333333;
     }
     .focus {
       justify-content: flex-start;
-      @include mq($medium) {
-        &>div:first-child {
-          width: 21em;
-          margin-right: 1.5em;
-        }
-        &>div:last-child {
-          width: 15em;
-        }
-      }
       figure {
         width: auto;
         figcaption {
@@ -631,9 +622,26 @@ $wai_grey: #333333;
         &>div {
           overflow: visible;
         }
+        &:first-of-type {
+          margin-bottom: 1em;
+        }
       }
       p {
         position: relative;
+      }
+      @include mq($medium) {
+        &>div:first-child {
+          width: 21em;
+          margin-right: 1.5em;
+        }
+        &>div:last-child {
+          width: 15em;
+        }
+        figure {
+          &:first-of-type {
+            margin-bottom: 0;
+          }
+        }
       }
       a {
         text-decoration: underline;
