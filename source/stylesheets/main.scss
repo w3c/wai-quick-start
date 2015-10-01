@@ -1339,6 +1339,12 @@ $wai_grey: #333333;
   h4 {
     font-size: 1.4em;
   }
+  &.modal-holder {
+    font-size: 80%;
+    @include mq($medium) {
+      font-size: 100%;
+    }
+  }
 }
 
 @media print {
