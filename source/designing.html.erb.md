@@ -94,12 +94,12 @@ While color can be useful to convey information, color should not be the only wa
     <figcaption><img src="images/tick.svg" alt="Good"> Color and symbol</figcaption>
     <div>
       <form action="#" method="post">
-        <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
+        <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">*</span></p>
         <div class="row">
           <label for="name2">Name</label> <input type="text" id="name2" name="name"><br>
         </div>
         <div class="row">
-          <label class="required" for="email2">Email ✻</label> <input type="text" id="email2" name="email">
+          <label class="required" for="email2">Email *</label> <input type="text" id="email2" name="email">
         </div>
       </form>
     </div>
@@ -353,13 +353,13 @@ Provide feedback for interactions, such as confirming form submission, alerting 
       <form action="#" method="post">
         <fieldset>
           <legend>Add a comment</legend>
-          <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">✻</span></p>
+          <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">*</span></p>
           <div class="row">
             <label for="name5">Name</label>
             <input type="text" id="name5" name="name" value="Superbear">
           </div>
           <div class="row error">
-            <label class="required" for="email5"><svg class="icon"><use xlink:href="#exclamation-triangle"/></svg> E-mail ✻</label>
+            <label class="required" for="email5"><svg class="icon" role="img"><title>Error</title><use xlink:href="#error"/></svg> E-mail *</label>
             <input type="text" id="email5" name="email" value="superbear@@hq.example.com" aria-invalid="true" aria-describedby="error_email">
           </div>
           <div class="row">
@@ -367,7 +367,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
             <input type="text" id="website3" name="website">
           </div>
           <div class="row error">
-            <label class="required" for="comment3"><svg class="icon"><use xlink:href="#exclamation-triangle"/></svg> Comment ✻</label>
+            <label class="required" for="comment3"><svg class="icon" role="img"><title>Error</title><use xlink:href="#error"/></svg> Comment *</label>
             <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
           </div>
         </fieldset>
