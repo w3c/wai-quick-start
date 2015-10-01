@@ -114,7 +114,7 @@ While color can be useful to convey information, color should not be the only wa
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
-          <title id="inaccessible-triangles-title">Inaccessible triangle question</title>
+          <title id="inaccessible-triangles-title">Four triangles with different angles</title>
           <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green"/>
           <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue"/>
           <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red"/>
@@ -136,17 +136,16 @@ While color can be useful to convey information, color should not be the only wa
   <figure class="question pass">
     <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Color and number</figcaption>
     <div>
-      <svg version="1.1" width="153" height="154" aria-labelledby="accessible-triangles-title" role="img">
+      <svg version="1.1" width="153" height="154">
         <g>
-          <title id="accessible-triangles-title">Accessible triangle question</title>
           <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green"/>
-          <text class="green" y="51" x="44"><tspan>1</tspan><tspan dx="100"> Green: Angles are 30°, 60°, 90°</tspan></text>
+          <text class="green" y="51" x="44"><tspan>1</tspan><tspan dx="100"> Green triangle: Angles are 30°, 60°, 90°</tspan></text>
           <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue"/>
-          <text class="blue" y="54" x="132"><tspan>2</tspan><tspan dx="100"> Blue: Angles are 30°, 30°, 120°</tspan></text>
+          <text class="blue" y="54" x="132"><tspan>2</tspan><tspan dx="100"> Blue triangle: Angles are 30°, 30°, 120°</tspan></text>
           <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red"/>
-          <text class="red" y="114" x="110"><tspan>3</tspan><tspan dx="100"> Red: Angles are 30°, 60°, 90°</tspan></text>
+          <text class="red" y="114" x="110"><tspan>3</tspan><tspan dx="100"> Red triangle: Angles are 30°, 60°, 90°</tspan></text>
           <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" class="yellow"/>
-          <text class="yellow" y="118" x="48"><tspan>4</tspan><tspan dx="100"> Yellow: Angles are 40°, 70°, 70°</tspan></text>
+          <text class="yellow" y="118" x="48"><tspan>4</tspan><tspan dx="100"> Yellow triangle: Angles are 40°, 70°, 70°</tspan></text>
         </g>
       </svg>
       <form action="#" method="post">
