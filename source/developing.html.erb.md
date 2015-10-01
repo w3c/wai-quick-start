@@ -440,7 +440,7 @@ Think about keyboard access, especially when developing interactive elements, su
     <figure class="rendered">
       <figcaption><span class="desktop"><svg><use xlink:href="#desktop"/></svg></span> Rendered</figcaption>
       <div class="rendered">
-        <div id="example-button" class="menu-button" role="button" tabindex="0"><svg class="icon"><use xlink:href="#bars"/></svg> Menu</div>
+        <div id="example-button" class="menu-button" role="button" aria-expanded="false" aria-controls="example-button-menu" tabindex="0"><svg class="icon"><use xlink:href="#bars"/></svg> Menu</div>
         <div id="example-button-menu" class="menu" aria-hidden="true" tabindex="-1">
           <ul>
             <li><a href="javascript:return false">About</a></li>
@@ -455,19 +455,19 @@ Think about keyboard access, especially when developing interactive elements, su
       <figcaption><span class="info"><svg><use xlink:href="#developing"/></svg></span> Code</figcaption>
       <div>
         <% code 'javascript' do %>
-  var buttonExample = document.getElementById('example-button');
+var buttonExample = document.getElementById('example-button');
 
-  buttonExample.addEventListener('keydown', function(e) {
-    // Toggle the menu when RETURN is pressed
-    if(e.keyCode && e.keyCode == 13) {
-      toggleMenu(document.getElementById('example-button-menu'));
-    }
-  });
-
-  buttonExample.addEventListener('click', function(e) {
-  // Toggle the menu on mouse click
+buttonExample.addEventListener('keydown', function(e) {
+  // Toggle the menu when RETURN is pressed
+  if(e.keyCode && e.keyCode == 13) {
     toggleMenu(document.getElementById('example-button-menu'));
-  });
+  }
+});
+
+buttonExample.addEventListener('click', function(e) {
+// Toggle the menu on mouse click
+  toggleMenu(document.getElementById('example-button-menu'));
+});
         <% end %>
       </div>
     </figure>

@@ -19,11 +19,21 @@
       // Toggle the menu when RETURN is pressed
       if(e.keyCode && e.keyCode == 13) {
         toggleMenu(document.getElementById('example-button-menu'));
+        if(e.target.getAttribute('aria-expanded') == 'true') {
+          e.target.setAttribute('aria-expanded', 'false');
+        } else {
+          e.target.setAttribute('aria-expanded', 'true');
+        }
       }
     });
   
     buttonExample.addEventListener('click', function(e) {
       toggleMenu(document.getElementById('example-button-menu'));
+      if(e.target.getAttribute('aria-expanded') == 'true') {
+        e.target.setAttribute('aria-expanded', 'false');
+      } else {
+        e.target.setAttribute('aria-expanded', 'true');
+      }
     });
   }
   
