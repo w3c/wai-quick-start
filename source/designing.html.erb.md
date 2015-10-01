@@ -197,7 +197,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
     <figure>
       <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Style links to stand out from text</figcaption>
       <div>
-        <p>Some people can't use a mouse and use only a <a href="javascript:return false;">keyboard to navigate</a> through web pages.</p>
+        <p>Some people can't use a mouse and use only a <a href="javascript:return false;" aria-label="Link is styled to stand out from main text">keyboard to navigate</a> through web pages.</p>
         <p>It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
         <p>Visible keyboard focus could be a border or highlight that moves as you tab through the web page.</p>
         <p></p>
@@ -208,19 +208,19 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
     <figure class="hover">
       <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Mouse hover style</figcaption>
       <div>
-        <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
+        <p><a href="javascript:return false;" aria-label="Link is styled with a subtle background to highlight hover state">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
       <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Keyboard focus style</figcaption>
       <div>
-        <p><a href="javascript:return false;">keyboard to navigate</a></p>
+        <p><a href="javascript:return false;" aria-label="Link is styled with a stronger version of the hover style to make it stand out">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
       <figcaption><span class="tick"><svg><use xlink:href="#tick"/></svg></span> Touch or click style</figcaption>
       <div>
-        <p><a href="javascript:return false;">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
+        <p><a href="javascript:return false;" aria-label="Link is given a strong styling to show an action will occur">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
   </div>
