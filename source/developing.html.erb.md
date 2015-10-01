@@ -1,6 +1,5 @@
 ---
 title: Tips on Developing for Web Accessibility
-status: editors-draft
 layout: guide
 icon: developing
 first_published: September 2015

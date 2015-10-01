@@ -1,6 +1,5 @@
 ---
 title: "Tips for Getting Started with Web Accessibility"
-status: editors-draft
 first_published: September 2015
 ---
 

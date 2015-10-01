@@ -1,6 +1,5 @@
 ---
 title: Tips on Designing for Web Accessibility
-status: editors-draft
 layout: guide
 icon: designing
 first_published: September 2015
