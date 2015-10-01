@@ -60,7 +60,7 @@
     // Clone the share element and add it to the DOM
     var clone_pl = permalink_element.cloneNode(true);
     clone_pl.setAttribute('href', '#' + el.id);
-    clone_pl.setAttribute('aria-label', 'Share link to the section "' + el.textContent + '"');
+    clone_pl.setAttribute('aria-label', 'Share link to this section');
     
     var clone_sb_text = shareboxtext.replace(/%s/g, url + '#' + el.id);
     var clone_sb = sharebox.cloneNode(true);
@@ -71,7 +71,17 @@
     clone_pl_wrapdiv.appendChild(clone_sb);
     clone_pl_wrapdiv.classList.add(el.localName);
 
-		el.parentNode.insertBefore(clone_pl_wrapdiv, el);
+    // Create a wrapper around the element to be marked with the permalink
+    var wrapper = document.createElement('div');
+    wrapper.setAttribute('class', 'permalink-wrapper');
+    wrapper.innerHTML = el.outerHTML;
+
+    // Add the share button inside the wrapper
+		wrapper.appendChild(clone_pl_wrapdiv, wrapper);
+
+    console.log(wrapper);
+    // Replace the permalinked element with the wrapper
+    el.outerHTML = wrapper.outerHTML;
   });
 
   // Add in open/close functionality for the permalink button

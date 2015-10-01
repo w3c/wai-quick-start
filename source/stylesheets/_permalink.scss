@@ -1,22 +1,24 @@
 $permalink_fg: #666;
 $permalink_bg: #f5f5f5;
 
+.permalink-wrapper {
+  position: relative;
+}
+
 .permalink {
-  background-color: $wai_bg;
-  
+	position: absolute;
+	margin: 0 0 -0.3em 0.5em;
+  bottom: 0;
+  right: 0;
+  font-size: 0.6em;
   &.h4 {
   	margin-top: .75em;
   }
-	display: inline;
-	position: relative;
-	font-size: .7em;
-	float: right;
-	margin: 0 0 -0.5em 0.5em;
 	> a {
 		color: $permalink_fg !important;
     border: 1px solid transparent;
     text-decoration: none;
-		padding: .5em;
+		padding: 0.5em 0.5em 0.3em;
 		display: inline-block;
 		vertical-align: middle;
 		margin-left: .5em;
@@ -25,8 +27,8 @@ $permalink_bg: #f5f5f5;
 		svg {
 			vertical-align: middle;
 			display: inline-block;
-      height: 1.6em;
-      width: 1.6em;
+      height: 1.8em;
+      width: 1.8em;
       fill: currentcolor;
       background-size: contain;
       background-repeat: no-repeat;

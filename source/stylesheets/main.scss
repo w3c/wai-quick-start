@@ -379,6 +379,24 @@ $wai_grey: #333333;
     cite {
       padding: 1em 0;
     }
+
+    article {
+      @include mq($medium) {
+        &:first-of-type {
+          .permalink-wrapper {
+            margin-right: 28%;
+          }
+        }
+      }
+      .permalink-wrapper {
+        h2 {
+          padding-right: 2.8em;
+        }
+        .permalink {
+          background: $wai_bg;
+        }
+      }
+    }
     
     .example {
     	padding: 0.2em 0.5em 0.5em 1em;
