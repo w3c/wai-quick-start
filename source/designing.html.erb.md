@@ -281,7 +281,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 <%= example 'Labels and input fields associated by proximity' %>
 
 <div class="labels">
-  <figure class="pass">
+  <figure>
     <div>
       <form action="#" method="post">
         <fieldset>
@@ -345,7 +345,6 @@ Provide feedback for interactions, such as confirming form submission, alerting 
     <div>
       <div class="error-list">
         <p>Please correct the following errors:</p>
-        <ol class="fa-ul">
         <ol>
           <li id="error_email"><img class="icon" src="images/error.svg" alt="Error"> <a href="javascript:document.getElementById('email5').focus()">Email address is invalid</a></li>
           <li id="error_comment"><img class="icon" src="images/error.svg" alt="Error"> <a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
