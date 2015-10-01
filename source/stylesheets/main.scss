@@ -495,6 +495,12 @@ $wai_grey: #333333;
         text-align: right;
         padding-right: 0.25em;
       }
+      .row.checkbox {
+        label {
+          text-align: left;
+          padding-right: 0;
+        }
+      }
       legend {
         font-weight: bold;
       }
@@ -759,9 +765,6 @@ $wai_grey: #333333;
       }
     }
     .errors {
-      @include mq($medium) {
-        width: 35em;
-      }
       input, textarea {
         border: 1px solid #bfbfbf;
         padding: 2px 4px;
@@ -786,7 +789,7 @@ $wai_grey: #333333;
         }
       }
       .row {
-        padding: 0.25em 0;
+        padding: 0.25em;
         &.error {
           background: #ffc0cb;
           svg {
@@ -799,19 +802,22 @@ $wai_grey: #333333;
         }
       }
       label {
-        width: 33%;
-        display: inline-block;
+        width: 100%;
+        display: block;
+        text-align: left;
       }
       input {
-        width: 65.5%;
+        width: 100%;
       }
       textarea {
-        width: 65.5%;
+        width: 100%;
         height: 5em;
       }
       @include mq($medium) {
+        width: 35em;
         label {
           width: 23%;
+          display: inline-block;
         }
         input, textarea {
           width: 75.5%;
