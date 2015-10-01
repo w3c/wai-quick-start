@@ -568,9 +568,9 @@ Provide text which describes the purpose of each image. Images might convey info
   <figure>
     <div>
       <ul class="course-select">
-        <li class="closed"><img src="images/arrow-right.png" alt="Open">English <span class="number" title="Number of clasess">10</span></li>
-        <li class="closed"><img src="images/arrow-right.png" alt="Open">Maths <span class="number" title="Number of clasess">14</span></li>
-        <li class="open"><img src="images/arrow-down.png" alt="Close">Languages <span class="number" title="Number of clasess">4</span>
+        <li class="closed">English <span class="number" title="Number of clasess">10</span><img src="images/arrow-right.png" alt="Expand group"></li>
+        <li class="closed">Maths <span class="number" title="Number of clasess">14</span><img src="images/arrow-right.png" alt="Expand group"></li>
+        <li class="open">Languages <span class="number" title="Number of clasess">4</span><img src="images/arrow-down.png" alt="Collapse group">
           <ul>
             <li>French</li>
             <li>German</li>
@@ -578,7 +578,7 @@ Provide text which describes the purpose of each image. Images might convey info
             <li>Mandarin</li>
           </ul>
         </li>
-        <li class="closed"><img class="closed" src="images/arrow-right.png" alt="Open">Social Sciences <span class="number" title="Number of clasess">8</span></li>
+        <li class="closed">Social Sciences <span class="number" title="Number of clasess">8</span><img class="closed" src="images/arrow-right.png" alt="Expand group"></li>
       </ul>
       <div>
         <p>Alternative text for the arrows specifies their purpose within the interface.</p>
