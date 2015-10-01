@@ -331,8 +331,8 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
   <figure>
     <div>
       <ol class="fa-ul error-list">
-        <li id="error_email"><svg class="icon"><use xlink:href="#exclamation-triangle"/></svg> <a href="javascript:return false">The username 'superbear' is already in use.</a></li>
-        <li id="error_password"><svg class="icon"><use xlink:href="#exclamation-triangle"/></svg> <a href="javascript:return false">The password needs to include at least one number.</a></li>
+        <li id="error_email"><img class="icon" src="images/error.svg" alt="Error"> <a href="javascript:return false">The username 'superbear' is already in use.</a></li>
+        <li id="error_password"><img class="icon" src="images/error.svg" alt="Error"> <a href="javascript:return false">The password needs to include at least one number.</a></li>
       </ol>
     </div>
   </figure>
