@@ -25,7 +25,7 @@ var openModalId;
   Array.prototype.forEach.call(modalTriggers, function(el, i) {
     // Add class and aria attributes to the modal holder
     modalHolder = getById(el.id + '-holder');
-    addclass(modalHolder, 'modal-holder');
+    modalHolder.classList.add('modal-holder');
     modalHolder.setAttribute('role','dialog');
     modalHolder.setAttribute('aria-labelledby', el.id + '-title');
     modalHolder.setAttribute('aria-describedby', el.id + '-desc');
@@ -41,7 +41,7 @@ var openModalId;
     
     // Add class for the modal title
     modalTitle = getById(el.id + '-title');
-    addclass(modalTitle, 'modal-title');
+    modalTitle.classList.add('modal-title');
 
     // Add a close button, with an click trigger to close
     var closeButton = document.createElement('button');
@@ -66,31 +66,6 @@ var openModalId;
 // Write less code
 function getById ( id ) {
   return document.getElementById(id);
-}
-
-// Class list manipulation functions
-function addclass(el, className) {
-  if (el.classList) {
-    el.classList.add(className);
-  } else {
-    if(! hasclass(el, className)){
-      el.className += ' ' + className;
-    }
-  }
-}
-function removeclass(el, className) {
-  if (el.classList) {
-    el.classList.remove(className);
-  } else {
-    el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-  }
-}
-function hasclass(el, className) {
-  if (el.classList) {
-    return el.classList.contains(className);
-  } else {
-    return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
-  }
 }
 
 // Open the modal window
