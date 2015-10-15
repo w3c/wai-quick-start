@@ -45,4 +45,4 @@ first_published: September 2015
 
 ## Credits
 
-The Designing icon and phone example under [Write meaningful text alternatives for images](writing.html#write-meaningful-text-alternatives-for-images) was created by Jonathan Metz, an EOWG participant. Megaphone icon from [Flaticon](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). All other icons are from [Font Awesome](http://fontawesome.io) by Dave Gandy.
+The Designing icon and phone example under [Write meaningful text alternatives for images](writing.html#write-meaningful-text-alternatives-for-images) were created by Jonathan Metz, an EOWG participant. Megaphone icon from [Flaticon](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). All other icons are from [Font Awesome](http://fontawesome.io) by Dave Gandy.
