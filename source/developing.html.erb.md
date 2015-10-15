@@ -509,6 +509,8 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 
 * **WCAG**
   * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
+* **Background**
+  * [Inaccessibility of CAPTCHA](/TR/turingtest/)
 
 {::nomarkdown}
 <%= more_information :end %>
