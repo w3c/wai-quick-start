@@ -384,6 +384,8 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 
 * **WCAG**
   * [Error Identification 3.3.1](/WAI/WCAG20/quickref/#minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html))
+  * [Labels or Instructions 3.3.2](/WAI/WCAG20/quickref/#qr-minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
+  * [Error Suggestion 3.3.3](/WAI/WCAG20/quickref/#qr-minimize-error-suggestions) ([Understanding 3.3.3](/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html))
 * **Tutorial**
   * [User Notifications](/WAI/tutorials/forms/notifications/)
 * **User Story**
