@@ -582,7 +582,7 @@ Provide text which describes the purpose of each image. Images might convey info
       </ul>
       <div>
         <p>Alternative text for the arrows specifies their purpose within the interface.</p>
-        <p><strong>Alternative text for image</strong>: "Open" or "Close"</p>
+        <p><strong>Alternative text for image</strong>: "Expand group" or "Collapse group"</p>
       </div>
     </div>
   </figure>
