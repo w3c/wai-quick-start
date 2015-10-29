@@ -626,11 +626,11 @@ $wai_grey: #333333;
       }
       @include mq($medium) {
         &>div:first-child {
-          width: 21em;
+          width: 19.5em;
           margin-right: 1.5em;
         }
         &>div:last-child {
-          width: 15em;
+          width: 14em;
         }
         figure {
           &:first-of-type {
@@ -815,25 +815,6 @@ $wai_grey: #333333;
       }
     }
     .headings {
-      &.two-column {
-        figure {
-          width: 19.3em;
-        }
-      }
-      @include mq($medium) {
-        &.two-column {
-          display: block;
-        }
-      }
-      @include mq($big) {
-        &.two-column {
-          display: flex;
-          justify-content: flex-start;
-          figure:first-of-type {
-            margin-right: 2em;
-          }
-        }
-      }
       svg {
         text {
           fill: $wai_grey;
@@ -881,11 +862,6 @@ $wai_grey: #333333;
       figure:last-child {
         margin-bottom: 0;
       }
-      @include mq($medium) {
-        figure {
-          display: inline-block;
-        }
-      }
       div {
         svg {
           text {
@@ -900,6 +876,15 @@ $wai_grey: #333333;
           path, rect {
             fill: lighten($wai_grey, 25%);
           }
+        }
+      }
+      @include mq($medium) {
+        figure {
+          display: inline-block;
+          width: 35em;
+        }
+        div {
+          text-align: center;
         }
       }
     }
@@ -1007,7 +992,7 @@ $wai_grey: #333333;
       }
       @include mq($medium) {
         figure {
-          width: 80%;
+          width: 35em;
           div {
             button, .course-select {
               width: 45%;
