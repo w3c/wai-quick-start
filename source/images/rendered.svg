@@ -4,7 +4,7 @@
   <style type="text/css" >
     <![CDATA[
       path {
-        fill: #3447d5;
+        fill: #000000;
       }
 			circle {
 				fill: #ffffff;
