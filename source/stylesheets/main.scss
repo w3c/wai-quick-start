@@ -878,6 +878,9 @@ $wai_grey: #333333;
         display: block;
         margin-bottom: 1em;
       }
+      figure:last-child {
+        margin-bottom: 0;
+      }
       @include mq($medium) {
         figure {
           display: inline-block;
