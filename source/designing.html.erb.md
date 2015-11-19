@@ -559,7 +559,7 @@ Consider how page information is presented in different sized viewports, such as
 {:.attach_permalink}
 ## Provide alternative text for images
 
-Provide text which describes the purpose of each image. Images might convey information, provide decoration, or support functionality. Alternative text is not needed for purely decorative images that don't add information to the page.
+Consider how imagery, sound, or video will be accessed by users unable to perceive visual or audio content. The design should provide a way to access video or audio transcripts, captions, or audio descriptions. Imagery may be informational (for example, a chart), functional (for example, icons and image buttons), or decorative (for example, 'smiling person' photography). Communicate with writers and developers to convey those needs.
 
 {::nomarkdown}
 <%= example 'Alternative text indicates functional purpose' %>
