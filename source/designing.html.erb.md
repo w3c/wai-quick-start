@@ -557,9 +557,9 @@ Consider how page information is presented in different sized viewports, such as
 {:/}
 
 {:.attach_permalink}
-## Provide alternative text for images
+## Include image and media alternatives in your design
 
-Consider how imagery, sound, or video will be accessed by users unable to perceive visual or audio content. The design should provide a way to access video or audio transcripts, captions, or audio descriptions. Imagery may be informational (for example, a chart), functional (for example, icons and image buttons), or decorative (for example, 'smiling person' photography). Communicate with writers and developers to convey those needs.
+Ensure that your design provides alternatives for images and media as needed. For example, you might need visible links to transcripts of audio or links to audio described versions of video, text with icons or buttons, or captions and descriptions for tables or complex graphs. Work with content authors and developers to provide alternatives for non-text content.
 
 {::nomarkdown}
 <%= example 'Alternative text indicates functional purpose' %>
