@@ -144,7 +144,7 @@ Evaluating web accessibility requires diverse kinds of skills and expertise. For
 {:.attach_permalink}
 ## Seek external help where necessary
 
-In some cases development teams might not have the full skilset needed to carry out evaluation during each stage of the design and development process, so that it might be more effective to seek external help for these steps. For example, accessibility consultants could carry out an initial comprehensive evaluation as input into a resign project.
+In some cases development teams might not have the full skillset needed to carry out evaluation during each stage of the design and development process, so that it might be more effective to seek external help for these steps. For example, accessibility consultants could carry out an initial comprehensive evaluation as input into a resign project.
 
 {::nomarkdown}
 <%= more_information %>
