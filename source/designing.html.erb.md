@@ -559,49 +559,27 @@ Consider how page information is presented in different sized viewports, such as
 {:.attach_permalink}
 ## Include image and media alternatives in your design
 
-Ensure that your design provides alternatives for images and media as needed. For example, you might need visible links to transcripts of audio or links to audio described versions of video, text with icons or buttons, or captions and descriptions for tables or complex graphs. Work with content authors and developers to provide alternatives for non-text content.
+Ensure that your design provides alternatives for images and media as needed. For example, you might need:
+
+* Visible links to transcripts of audio
+* Links to audio described versions of video
+* Text with icons or buttons
+* Captions and descriptions for tables or complex graphs
+
+Work with content authors and developers to provide alternatives for non-text content.
 
 {::nomarkdown}
-<%= example 'Alternative text indicates functional purpose' %>
+<%= example 'Design shows alternative format options' %>
 
 <div class="text-alt">
   <figure>
     <div>
-      <ul class="course-select">
-        <li class="closed">English <span class="number" title="Number of clasess">10</span><img src="images/arrow-right.png" alt="Expand group"></li>
-        <li class="closed">Maths <span class="number" title="Number of clasess">14</span><img src="images/arrow-right.png" alt="Expand group"></li>
-        <li class="open">Languages <span class="number" title="Number of clasess">4</span><img src="images/arrow-down.png" alt="Collapse group">
-          <ul>
-            <li>French</li>
-            <li>German</li>
-            <li>Spanish</li>
-            <li>Mandarin</li>
-          </ul>
-        </li>
-        <li class="closed">Social Sciences <span class="number" title="Number of clasess">8</span><img class="closed" src="images/arrow-right.png" alt="Expand group"></li>
-      </ul>
-      <div>
-        <p>Alternative text for the arrows specifies their purpose within the interface.</p>
-        <p><strong>Alternative text for image</strong>: "Expand group" or "Collapse group"</p>
-      </div>
+      <img src="images/example_media_player.png" alt=""><br>
+      <a href="#">Transcript</a>
+      <a href="#">Video with audio description</a>
     </div>
   </figure>
 </div>
-<%= example :end %>
-
-<%= example 'Alternative text conveys meaning' %>
-<div class="text-alt">
-  <figure>
-    <div>
-      <button type="button"><img src="images/padlock.png" alt="Secure">Proceed to Checkout</button>
-      <div>
-        <p>Alternative text for the padlock image indicates a secure purchasing process.</p>
-        <p><strong>Alternative text for image</strong>: "Secure"</p>
-      </div>
-    </div>
-  </figure>
-</div>
-<p class="note">Alternative text is usually not visible; it is included in this example just so you can see what it is.</p>
 
 <%= example :end %>
 {:/}
