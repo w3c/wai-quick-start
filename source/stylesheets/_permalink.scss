@@ -10,7 +10,6 @@ $permalink_bg: #f5f5f5;
 	margin: 0 0 -0.3em 0.5em;
   bottom: 0;
   right: 0;
-  font-size: 0.6em;
   &.h4 {
   	margin-top: .75em;
   }
@@ -23,6 +22,7 @@ $permalink_bg: #f5f5f5;
 		vertical-align: middle;
 		margin-left: .5em;
 		font-weight: bold;
+    font-size: 60%;
 		white-space: nowrap;
 		svg {
 			vertical-align: middle;
@@ -39,6 +39,7 @@ $permalink_bg: #f5f5f5;
     }
 	}
 	.sharebox {
+    font-size: 90%;
 		display: none;
 		&.open {
 			display: block;
