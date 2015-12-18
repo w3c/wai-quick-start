@@ -559,7 +559,7 @@ Consider how page information is presented in different sized viewports, such as
 {:.attach_permalink}
 ## Include image and media alternatives in your design
 
-Ensure that your design provides alternatives for images and media as needed. For example, you might need:
+Provide space in your design for alternatives for images and media as needed. For example, you might need:
 
 * Visible links to transcripts of audio
 * Links to audio described versions of video
