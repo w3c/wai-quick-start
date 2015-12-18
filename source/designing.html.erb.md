@@ -562,7 +562,7 @@ Consider how page information is presented in different sized viewports, such as
 Provide space in your design for alternatives for images and media as needed. For example, you might need:
 
 * Visible links to transcripts of audio
-* Links to audio described versions of video
+* Visible links to audio described versions of video
 * Text with icons or buttons
 * Captions and descriptions for tables or complex graphs
 
