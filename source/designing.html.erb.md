@@ -559,23 +559,23 @@ Consider how page information is presented in different sized viewports, such as
 {:.attach_permalink}
 ## Include image and media alternatives in your design
 
-Provide space in your design for alternatives for images and media as needed. For example, you might need:
+Provide a place in your design for alternatives for images and media. For example, you might need:
 
 * Visible links to transcripts of audio
-* Visible links to audio described versions of video
+* Visible links to audio described versions of videos
 * Text with icons or buttons
 * Captions and descriptions for tables or complex graphs
 
 Work with content authors and developers to provide alternatives for non-text content.
 
 {::nomarkdown}
-<%= example 'Design shows alternative format options' %>
+<%= example 'Design includes links to transcript and alternative video' %>
 
 <div class="text-alt">
   <figure>
     <div>
       <img src="images/example_media_player.png" alt=""><br>
-      <a href="#">Transcript</a>
+      <a href="#">Transcript</a>,
       <a href="#">Video with audio description</a>
     </div>
   </figure>
