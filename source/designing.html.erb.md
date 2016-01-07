@@ -574,9 +574,11 @@ Work with content authors and developers to provide alternatives for non-text co
 <div class="text-alt">
   <figure>
     <div>
-      <img src="images/example_media_player.png" alt=""><br>
-      <a href="#">Transcript</a>,
-      <a href="#">Video with audio description</a>
+      <img src="images/example_media_player.png" alt="">
+      <ul>
+        <li class="first"><a href="#">Transcript</a></li>
+        <li class="last"><a href="#">Video with audio description</a></li>
+      </ul>
     </div>
   </figure>
 </div>

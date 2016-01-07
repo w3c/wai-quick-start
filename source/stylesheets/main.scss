@@ -909,6 +909,22 @@ $wai_grey: #333333;
       }
     }
     .designing & .text-alt {
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+          display: inline;
+          &:after {
+            content: '|';
+            margin-left: 0.5em;
+            margin-right: 0.2em;
+          }
+          &.last:after {
+            content: '';
+          }
+        }
+      }
       @include mq($medium) {
         width: 35em;
       }
