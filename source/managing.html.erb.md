@@ -43,6 +43,12 @@ Support from management helps ensure budget and resources are available for acce
 
 Integrate accessibility throughout all stages of design, development, and on-going maintenance. For example, consider people with disabilities as consumers during requirements planning of the website. Ensure reviews of these accessibility considerations at key phases, such as design and development sprints. Also integrate accessibility throughout your design and development resources, such as brand guidelines and code libraries.
 
+/* Consider accessibility early and throughout your project
+Integrate accessibility in all stages
+Eye-opener that it can be done earlier
+
+Aim to integrate accessibility considerations throughout any web project. For example, during requirements planning consider people with disabilities as target audiences, ANOTHER EXAMPLE OF DOING SOMETHING, include accessibility reviews at key phases such as design and development. Consider how well accessibility is included into design and development resources, such as brand guidelines and code libraries. */
+
 {::nomarkdown}
 <%= tip :end %>
 <%= tip %>
