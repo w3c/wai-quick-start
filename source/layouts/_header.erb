@@ -9,21 +9,21 @@
   Tips for Getting Started &bull; WAI
   </title>
   <meta name="viewport" content="width=device-width">
-  <%= stylesheet_link_tag "http://www.w3.org/WAI/wai-main.css" %>
+  <%= stylesheet_link_tag "/WAI/wai-main.css" %>
   <%= stylesheet_link_tag "main" %>
-	<!--[if IE 7]><%= stylesheet_link_tag "http://www.w3.org/WAI/ie-old.css" %><![endif]-->
+	<!--[if IE 7]><%= stylesheet_link_tag "/WAI/ie-old.css" %><![endif]-->
   <%= javascript_include_tag "modernizr" %>
 </head>
 <body class="<%= page_classes %> <%= current_page.data.layout %> <%= current_page.data.status %>">
 
   <header>
   	<ul id="controls">
-  		<li><a href="#skip"><%= image_tag 'http://www.w3.org/Icons/downinpage.png', :alt => '' %> Skip to Content</a></li>
-  		<li> | <a href="http://www.w3.org/WAI/changedesign">Change text size or colors</a></li>
+  		<li><a href="#skip"><%= image_tag '/Icons/downinpage.png', :alt => '' %> Skip to Content</a></li>
+  		<li> | <a href="/WAI/changedesign">Change text size or colors</a></li>
   	</ul>
   	<div id="masthead">
       <p id="logos">
-        <a href="http://w3.org/" title="W3C Home"><%= image_tag 'http://w3.org/Icons/w3c_home', :alt => 'W3C Logo' %></a><a href="http://w3.org/WAI/" title="WAI Home"><%= image_tag 'http://w3.org/WAI/images/wai-temp', :alt => 'Web Accessibility initiative' %></a>
+        <a href="/" title="W3C Home"><%= image_tag '/Icons/w3c_home', :alt => 'W3C Logo' %></a><a href="/WAI/" title="WAI Home"><%= image_tag '/WAI/images/wai-temp', :alt => 'Web Accessibility initiative' %></a>
       </p>
     </div>
   	<div id="tagline">

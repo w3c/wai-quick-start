@@ -68,8 +68,8 @@ Carry out comprehensive evaluation at key stages, such as before go-live, and pe
 <%= more_information %>
 {:/}
 
-* http://www.w3.org/WAI/eval/report-tool/
-* http://www.w3.org/WAI/eval/template.html
+* /WAI/eval/report-tool/
+* /WAI/eval/template.html
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -89,8 +89,8 @@ While most accessibility aspects cannot be automatically checked, evaluation too
 <%= more_information %>
 {:/}
 
-* http://www.w3.org/WAI/eval/selectingtools
-* http://www.w3.org/WAI/ER/tools/index.html
+* /WAI/eval/selectingtools
+* /WAI/ER/tools/index.html
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -110,7 +110,7 @@ Seek feedback from people with disabilities. This includes informal checking by 
 <%= more_information %>
 {:/}
 
-* http://www.w3.org/WAI/eval/users.html
+* /WAI/eval/users.html
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -130,7 +130,7 @@ Evaluating web accessibility requires diverse kinds of skills and expertise. For
 <%= more_information %>
 {:/}
 
-* http://www.w3.org/WAI/eval/reviewteams
+* /WAI/eval/reviewteams
 
 {::nomarkdown}
 <%= more_information :end %>

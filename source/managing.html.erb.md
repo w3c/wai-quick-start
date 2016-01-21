@@ -26,8 +26,8 @@ Support from management helps ensure budget and resources are available for acce
 <%= more_information %>
 {:/}
 
-* [Developing a Web Accessibility Business Case for Your Organization](http://www.w3.org/WAI/bcase/Overview.html): Provides information on how to create a business case
-* [Determine Your Goal and Gather Support](http://www.w3.org/WAI/impl/#goal): Section of Strategic Planning document that discusses broad area of securing management support.
+* [Developing a Web Accessibility Business Case for Your Organization](/WAI/bcase/Overview.html): Provides information on how to create a business case
+* [Determine Your Goal and Gather Support](/WAI/impl/#goal): Section of Strategic Planning document that discusses broad area of securing management support.
 
 {::nomarkdown}
 <%= more_information :end %>
