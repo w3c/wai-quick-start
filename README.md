@@ -47,8 +47,8 @@ The following elements are available:
     <dd>This helper outputs a segment of formated HTML as part of an example. It is used as:</dd>
     <dd><pre><code>{::nomarkdown}
   <% html_example do %>
-    <label for="username">Username</label>
-    <input id="username" type="text" name="username">
+    &lt;label for="username"&gt;Username&lt;/label&gt;
+    &lt;input id="username" type="text" name="username"&gt;
   <% end %>
 {:/}</code></pre></dd>
 
