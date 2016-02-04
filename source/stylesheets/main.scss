@@ -925,6 +925,9 @@ $wai_grey: #333333;
           }
         }
       }
+      .audio-description {
+        vertical-align: bottom;
+      }
       @include mq($medium) {
         width: 35em;
       }

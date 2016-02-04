@@ -569,7 +569,7 @@ Provide a place in your design for alternatives for images and media. For exampl
 Work with content authors and developers to provide alternatives for non-text content.
 
 {::nomarkdown}
-<%= example 'Design includes links to transcript and alternative video' %>
+<%= example 'Design includes links to a transcript and to an alternative video' %>
 
 <div class="text-alt">
   <figure>
@@ -577,7 +577,7 @@ Work with content authors and developers to provide alternatives for non-text co
       <img src="images/example_media_player.png" alt="">
       <ul>
         <li class="first"><a href="#">Transcript</a></li>
-        <li class="last"><a href="#">Video with audio description</a></li>
+        <li class="last"><a href="#"><img class="audio-description" src="images/audio-description.svg" alt="Video with audio description" width="28"></a></li>
       </ul>
     </div>
   </figure>
