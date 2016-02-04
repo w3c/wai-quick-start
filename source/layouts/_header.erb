@@ -14,7 +14,7 @@
 	<!--[if IE 7]><%= stylesheet_link_tag "/WAI/ie-old.css" %><![endif]-->
   <%= javascript_include_tag "modernizr" %>
 </head>
-<body class="<%= page_classes %> <%= current_page.data.layout.gsub('/', ' ') %> <%= current_page.data.status %>">
+<body class="<%= page_classes %> <%= current_page.data.layout %> <%= current_page.data.status %>">
   <header>
   	<ul id="controls">
   		<li><a href="#skip"><%= image_tag (w3url "/Icons/downinpage.png"), :alt => '' %> Skip to Content</a></li>
