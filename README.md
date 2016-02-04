@@ -45,14 +45,12 @@ The following elements are available:
 
   <dt>html_example</dt>
     <dd>This helper outputs a segment of formated HTML as part of an example. It is used as:</dd>
-    <dd><pre><code>
-      {::nomarkdown}
-        <% html_example do %>
-          <label for="username">Username</label>
-          <input id="username" type="text" name="username">
-        <% end %>
-      {:/}
-    </code></pre></dd>
+    <dd><pre><code>{::nomarkdown}
+<% html_example do %>
+  <label for="username">Username</label>
+  <input id="username" type="text" name="username">
+<% end %>
+      {:/}</code></pre></dd>
 
   <dt>w3url</dt>
     <dd>Creates a link to a W3C page so that when this resource is hosted on GitHub Pages, the links work as expected, but when it is deployed into w3.org, the links are all relative. Use this in combination with the <code>link_to</code> helper:</dd>
