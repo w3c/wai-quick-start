@@ -1,12 +1,12 @@
 <% if current_page.data.no_contributions != true  %>
 <aside class="side-box contribute" role="complementary">
   <h2 class="heading">Help improve this page</h2>
-  <p>Please share your ideas, suggestions, or comments via email to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=%5bGetting%20Started%20Tips%20Input%5d">wai-eo-editors@w3.org</a> or via GitHub.</p>
+  <p>Please share your ideas, suggestions, or comments via email to the publicly-archived list <a href="mailto:<%= site['email'] %>?subject=%5b<%= site['title'].gsub(' ', '%20') %>%20Input%20%3a%20<%= current_page.data.title.gsub(' ', '%20') %>%5d"><%= site['email'] %></a> or via GitHub.</p>
 
 	<div class="buttons">
-  	<a class="btn" title="Publicly archived list" href="mailto:wai-eo-editors@w3.org?subject=%5bGetting%20Started%20Tips%20Input%5d">E-mail</a>
-    <a class="btn" href="https://github.com/w3c/wai-quick-start/blob/master/source/<%= current_page.path %>.erb.md">Fork &amp; edit on GitHub</a>
-  	<a class="btn" href="https://github.com/w3c/wai-quick-start/issues/new">New GitHub Issue</a>
+  	<a class="btn" title="Publicly archived list" href="mailto:<%= site['email'] %>?subject=%5b<%= site['title'].gsub(' ', '%20') %>%20Input%20%3a%20<%= current_page.data.title.gsub(' ', '%20') %>%5d">E-mail</a>
+    <a class="btn" href="https://github.com/w3c/<%= site['github'] %>/blob/master<%= current_page.source_file.gsub(Dir.pwd, '') %>">Fork &amp; edit on GitHub</a>
+  	<a class="btn" href="https://github.com/w3c/<%= site['github'] %>/issues/new?title=[<%= current_page.data.title.gsub(' ', '%20') %>]&body=This%20is%20a%20comment%20related%20to%20the%20page%20[<%= current_page.data.title.gsub(' ', '%20') %>](//w3c.github.io/<%= site['github'] %>/<%= current_page.path %>)">New GitHub Issue</a>
 	</div>
 </aside>
 <% end %>

@@ -30,6 +30,17 @@
 
 require 'active_support/core_ext'
 
+##
+# Define site-wide variables and make them visible for templates
+##
+@site = {
+  'title'         => 'Tips for Getting Started',
+  'github'        => 'wai-quick-start',
+  'email'         => 'wai-eo-editors@w3.org',
+  'email-private' => 'wai@w3.org'
+}
+set :site, @site
+
 ###
 # Helpers
 ###
@@ -44,6 +55,14 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def w3url(uri)
+    if development? || ENV['BUILD_FOR_GITHUB']
+      'https://www.w3.org' + uri.to_s
+    else
+      uri
+    end
+  end
+
   def x_link_to(link_text, url, options = {})
     options[:class] ||= ""
     if url == '/' + current_page.path
