@@ -430,10 +430,23 @@ $wai_grey: #333333;
           border: 1px solid $wai_grey_bg;
           border-bottom: none;
           border-radius: 3px 3px 0 0;
-          img {
+          svg {
             width: 1.5em;
             height: 1.5em;
             vertical-align: bottom;
+      			circle {
+      				fill: #ffffff;
+      			}
+            &.tick {
+              path {
+                fill: #03651a;
+              }
+            }
+            &.cross {
+              path {
+                fill: #c43938;
+              }
+            }
           }
         }
         &>div {
@@ -1075,6 +1088,9 @@ $wai_grey: #333333;
           svg {
             height: 1em;
             width: 1em;
+            padding-bottom: 0.2em;
+            padding-right: 0.2em;
+            vertical-align: bottom;
           }
           a {
           	background-color: #44c767;
@@ -1193,6 +1209,11 @@ $wai_grey: #333333;
         }
         svg {
           top: 2px;
+          height: 1em;
+          width: 1em;
+          padding-bottom: 0.2em;
+          padding-right: 0.2em;
+          vertical-align: bottom;
         }
       }
       .menu {

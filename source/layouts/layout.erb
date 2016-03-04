@@ -4,7 +4,7 @@
   <%= partial "layouts/status" %>
   <header class="heading">
     <% if current_page.data.icon %>
-      <h1 id="skip" class="has-icon"><svg><use xlink:href="#<%= current_page.data.icon %>"/></svg>  <%= current_page.data.title %></h1>
+      <h1 id="skip" class="has-icon"><%= svg_icon current_page.data.icon %>  <%= current_page.data.title %></h1>
     <% else %>
       <h1 id="skip"><%= current_page.data.title %></h1>
     <% end %>

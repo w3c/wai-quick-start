@@ -28,13 +28,13 @@ Foreground text needs to have sufficient contrast with background colors. This i
 
 <div class="contrast two-column">
   <figure>
-    <figcaption><img src="images/cross.svg" alt="Bad"> Insufficient</figcaption>
+    <figcaption><%= svg_icon 'cross' %> Insufficient</figcaption>
     <div>
       <p class="fail">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
   <figure>
-    <figcaption><img src="images/tick.svg" alt="Good"> Sufficient</figcaption>
+    <figcaption><%= svg_icon 'tick' %> Sufficient</figcaption>
     <div>
       <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
@@ -76,7 +76,7 @@ While color can be useful to convey information, color should not be the only wa
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption><img src="images/cross.svg" alt="Bad"> Color only</figcaption>
+    <figcaption><%= svg_icon 'cross' %> Color only</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields are in red</span></p>
@@ -90,7 +90,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption><img src="images/tick.svg" alt="Good"> Color and symbol</figcaption>
+    <figcaption><%= svg_icon 'tick' %> Color and symbol</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">*</span></p>
@@ -109,7 +109,7 @@ While color can be useful to convey information, color should not be the only wa
 <%= example 'Refer to something using color alone' %>
 <div class="color-alone two-column">
   <figure class="question fail">
-    <figcaption><img src="images/cross.svg" alt="Bad"> Color only</figcaption>
+    <figcaption><%= svg_icon 'cross' %> Color only</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
@@ -133,7 +133,7 @@ While color can be useful to convey information, color should not be the only wa
     </div>
   </figure>
   <figure class="question pass">
-    <figcaption><img src="images/tick.svg" alt="Good"> Color and number</figcaption>
+    <figcaption><%= svg_icon 'tick' %> Color and number</figcaption>
     <div>
       <svg version="1.1" width="153" height="154">
         <g>
@@ -193,7 +193,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 <div class="focus two-column">
   <div>
     <figure>
-      <figcaption><img src="images/tick.svg" alt="Good"> Style links to stand out from text</figcaption>
+      <figcaption><%= svg_icon 'tick' %> Style links to stand out from text</figcaption>
       <div>
         <p>Some people can't use a mouse and use only a <a href="javascript:return false;" aria-label="Link is styled to stand out from main text">keyboard to navigate</a> through web pages.</p>
         <p>It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
@@ -204,19 +204,19 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   </div>
   <div>
     <figure class="hover">
-      <figcaption><img src="images/tick.svg" alt="Good"> Mouse hover style</figcaption>
+      <figcaption><%= svg_icon 'tick' %> Mouse hover style</figcaption>
       <div>
         <p><a href="javascript:return false;" aria-label="Link is styled with a subtle background to highlight hover state">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
-      <figcaption><img src="images/tick.svg" alt="Good"> Keyboard focus style</figcaption>
+      <figcaption><%= svg_icon 'tick' %> Keyboard focus style</figcaption>
       <div>
         <p><a href="javascript:return false;" aria-label="Link is styled with a stronger version of the hover style to make it stand out">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
-      <figcaption><img src="images/tick.svg" alt="Good"> Touch or click style</figcaption>
+      <figcaption><%= svg_icon 'tick' %> Touch or click style</figcaption>
       <div>
         <p><a href="javascript:return false;" aria-label="Link is given a strong styling to show an action will occur">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
       </div>
@@ -345,8 +345,8 @@ Provide feedback for interactions, such as confirming form submission, alerting 
       <div class="error-list">
         <p>Please correct the following errors:</p>
         <ol>
-          <li id="error_email"><img class="icon" src="images/error.svg" alt="Error"> <a href="javascript:document.getElementById('email5').focus()">Email address is invalid</a></li>
-          <li id="error_comment"><img class="icon" src="images/error.svg" alt="Error"> <a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
+          <li id="error_email"><%= svg_icon 'error' %> <a href="javascript:document.getElementById('email5').focus()">Email address is invalid</a></li>
+          <li id="error_comment"><%= svg_icon 'error' %> <a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
         </ol>
       </div>
       <form action="#" method="post">
@@ -358,7 +358,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
             <input type="text" id="name5" name="name" value="Superbear">
           </div>
           <div class="row error">
-            <label class="required" for="email5"><img class="icon" src="images/error.svg" alt="Error"> E-mail *</label>
+            <label class="required" for="email5"><%= svg_icon 'error' %> E-mail *</label>
             <input type="text" id="email5" name="email" value="superbear@@hq.example.com" aria-invalid="true" aria-describedby="error_email">
           </div>
           <div class="row">
@@ -366,7 +366,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
             <input type="text" id="website3" name="website">
           </div>
           <div class="row error">
-            <label class="required" for="comment3"><img class="icon" src="images/error.svg" alt="Error"> Comment *</label>
+            <label class="required" for="comment3"><%= svg_icon 'error' %> Comment *</label>
             <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
           </div>
         </fieldset>
@@ -410,7 +410,7 @@ Use whitespace and proximity to make relationships between content more apparent
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption id="inaccessible-headings-title"><img src="images/cross.svg" alt="Bad"> Little spacing and unclear relationship</figcaption>
+    <figcaption id="inaccessible-headings-title"><%= svg_icon 'cross' %> Little spacing and unclear relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
@@ -447,7 +447,7 @@ Use whitespace and proximity to make relationships between content more apparent
     </div>
   </figure>
   <figure class="pass">
-    <figcaption id="accessible-headings-title"><img src="images/tick.svg" alt="Good"> More spacing and clearer relationship</figcaption>
+    <figcaption id="accessible-headings-title"><%= svg_icon 'tick' %> More spacing and clearer relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>

@@ -144,13 +144,13 @@ helpers do
 
     concat_content <<-EOC
       <figure class="rendered">
-        <figcaption><img src="images/rendered.svg" alt=""> Rendered</figcaption>
+        <figcaption>#{svg_icon 'screen'} Rendered</figcaption>
         <div>
           #{content}
         </div>
       </figure>
       <figure class="code">
-        <figcaption><img src="images/code.svg" alt=""> Code Snippet</figcaption>
+        <figcaption>#{svg_icon 'markup'} Code Snippet</figcaption>
         <div>
           #{highlighted}
         </div>
@@ -174,6 +174,12 @@ helpers do
         <p>Code Snippet:</p>#{highlighted}
       </div>
     EOC
+  end
+  
+  def svg_icon(id)
+    return unless id
+    
+    '<svg class="' + id + '" aria-hidden="true"><use xlink:href="images/icons.svg#' + id + '"/></svg>'
   end
 end
 
