@@ -434,19 +434,7 @@ $wai_grey: #333333;
             width: 1.5em;
             height: 1.5em;
             vertical-align: bottom;
-      			circle {
-      				fill: #ffffff;
-      			}
-            &.tick {
-              path {
-                fill: #03651a;
-              }
-            }
-            &.cross {
-              path {
-                fill: #c43938;
-              }
-            }
+            fill: #ffffff;
           }
         }
         &>div {
