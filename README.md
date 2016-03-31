@@ -78,4 +78,49 @@ This resource uses GitHub Pages to display the current draft version. If you wis
   
 The environment variable, `BUILD_FOR_GITHUB`, is used to configure URLs. So when the resource is deployed on GitHub Pages the URLs are absolute, and when built for production deployment in w3.org they are relative.
 
+## Deploying to live
+
+The following steps are required in order to deploy this to the live w3.org environment. In order to deploy you will need the permissions to update content on w3.org.
+
+1. Build deployable version.
+
+    `middleman build`
+
+    This builds the content into the local `build` directory. Removing the `BUILD_FOR_GITHUB` means that the URLs in the pages built will be relative rather than absolute.
+
+2. CVS update the `/WAI/gettingstarted`, `/WAI/users`, `/WAI/intro`, and `/WAI/bcase` directories in your local version of the repository.
+
+3. Until the Evaluating, Managing, and Advocating are ready for publication, reference to them will need to be removed. Edit the following files and remove links to these pages from the navigation:
+
+    * build/index.html
+    * build/designing.html
+    * build/developing.html
+    * build/writing.html
+
+4. Copy the following from the `build` directory to the local CVS `impl` directory:
+
+    * index.html
+    * acknowledgements.html
+    * designing.html
+    * developing.html
+    * writing.html
+    * images/*
+    * stylesheets/*
+    * javascripts/*
+
+5. If necessary, edit the Getting Started overview and make changes to the `/WAI/gettingstarted/Overview.html` page.
+
+6. If necessary, edit the following pages and update the navigation to change the label and URL for this resource:
+
+    * /WAI/gettingstarted/Overview.html
+    * /WAI/users/browsing.html
+    * /WAI/users/inaccessible.html
+    * /WAI/intro/accessibility.php
+    * /WAI/intro/components.php
+    * /WAI/bcase/Overview.html
+
+7. Commit all the changes to the w3.org CVS repository.
+
+8. Check all the pages to find the typo that you accidentally left in.
+
 [GHPage]: https://w3c.github.io/wai-quick-start/
