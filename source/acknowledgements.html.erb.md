@@ -10,7 +10,7 @@ first_published: September 2015
 
 ### Lead editor
 
-* [Kevin White](/People/#kevin), W3C WAI
+* [Kevin White](/People/kevin), W3C WAI
 
 ### Supporting editors
 
