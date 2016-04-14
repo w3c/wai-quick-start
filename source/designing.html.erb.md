@@ -563,7 +563,7 @@ Provide a place in your design for alternatives for images and media. For exampl
 
 * Visible links to transcripts of audio
 * Visible links to audio described versions of videos
-* Text with icons or buttons
+* Text along with icons and graphical buttons
 * Captions and descriptions for tables or complex graphs
 
 Work with content authors and developers to provide alternatives for non-text content.
