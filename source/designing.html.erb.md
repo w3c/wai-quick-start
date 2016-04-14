@@ -574,11 +574,7 @@ Work with content authors and developers to provide alternatives for non-text co
 <div class="text-alt">
   <figure>
     <div>
-      <img src="images/example_media_player.png" alt="">
-      <ul>
-        <li class="first"><a href="#">Transcript</a></li>
-        <li class="last"><a href="#"><img class="audio-description" src="images/audio-description.svg" alt="Video with audio description" width="28"></a></li>
-      </ul>
+      <img src="images/example_media_player.png" alt="A media player is shown. In additon to the standard play/pause buttons, progress bar and volume, a closed captions (CC) button is available as well as links to a transcript and a version with audio description.">
     </div>
   </figure>
 </div>
