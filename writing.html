@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+      Tips on Writing for Web Accessibility &bull;
+    Tips for Getting Started &bull; WAI
+  </title>
+  <meta name="viewport" content="width=device-width">
+  <link href="WAI/wai-main.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 7]><link href="WAI/ie-old.css" rel="stylesheet" type="text/css" /><![endif]-->
+  <script src="javascripts/modernizr.js" type="text/javascript"></script>
+</head>
+<body class="writing guide ">
+  <header>
+  	<ul id="controls">
+  		<li><a href="#skip"><img alt="" src="Icons/downinpage.png" /> Skip to Content</a></li>
+  		<li> | <a href="/WAI/changedesign">Change text size or colors</a></li>
+  	</ul>
+  	<div id="masthead">
+      <p id="logos">
+        <a href="/" title="W3C Home"><img alt="W3C Logo" src="Icons/w3c_home" /></a><a href="/WAI/" title="WAI Home"><img alt="Web Accessibility initiative" src="WAI/images/wai-temp" /></a>
+      </p>
+    </div>
+  	<div id="tagline">
+      <p>WAI: Strategies, guidelines, resources to make the Web accessible to people with disabilities</p>
+    </div>
+  </header>
+
+  <nav id="nav">
+	<h2>Site Navigation</h2>
+	<p id="w3cnav"><a href="/">W3Cc Home</a></p>
+	<p id="subhomenav"><a href="/WAI/">Web Accessibility Initiative (WAI) Home</a></p>
+  <ol id="nav1">
+    <li class="current-nav"><a href="/WAI/gettingstarted/Overview.html">Getting Started</a>
+      <ul>
+        <li class="nav-head">Using the Web
+          <ol>
+            <li><a href="/WAI/users/browsing.html">Better Web Browsing Tips</a></li>
+            <li><a href="/WAI/users/inaccessible.html">Contact Inaccessible Websites</a></li>
+          </ol>
+        </li>
+        <li class="nav-head">Accessibility Basics
+          <ol>
+            <li><a href="/standards/webdesign/accessibility">Accessibility - W3C <img src="/Icons/tr.png" alt="W3C website"></a></li>
+            <li><a href="/WAI/intro/accessibility.php">Introduction to Accessibility</a></li>
+            <li><a href="/WAI/intro/components.php">Essential Components</a></li>
+            <li><a href="/WAI/bcase/Overview.html">Business Case</a></li>
+            <li ><a class="" href="./">Tips for Getting Started</a>
+              <ol type="i">
+                <li><a href="designing.html">Designing</a></li>
+                <li id="current-node" class="current-nav"><span class="label"><span id="current-icon">»</span>Writing</span></li>
+                <li><a href="developing.html">Developing</a></li>
+                <li><a href="evaluating.html">Evaluating</a></li>
+                <li><a href="managing.html">Managing</a></li>
+                <li><a href="advocating.html">Advocating</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+    <li><a href="/WAI/users/Overview.html">Designing for Inclusion</a></li>
+    <li><a href="/WAI/guid-tech.html">Guidelines &amp; Techniques</a></li>
+    <li><a href="/WAI/managing.html">Planning &amp; Implementing</a></li>
+    <li><a href="/WAI/eval/Overview.html">Evaluating Accessibility</a></li>
+    <li><a href="/WAI/train.html">Tutorials &amp; Presentations</a></li>
+    <li><a href="/WAI/about-links.html">Getting Involved with WAI</a></li>
+  </ol>
+
+  <div id="nav-static">
+    <div class="nav-discover">
+      <p>
+        <a href="/WAI/yourWAI"><strong><u>Discover new resources</u></strong> for people with disabilities, policy makers, managers, and you!</a>
+      </p>
+    </div>
+    <p class="translations">
+      <a href="/WAI/wai-translations"><img src="/WAI/images/translations-med-1" alt="characters from different languages"> Translations</a>
+    </p>
+  </div>
+</nav>
+
+
+<main id="main" role="main">
+  
+  <header class="heading">
+      <h1 id="skip" class="has-icon"><svg class="writing" aria-hidden="true"><use xlink:href="images/icons.svg#writing"/></svg>  Tips on Writing for Web Accessibility</h1>
+  </header>
+
+    <div class="right-inset">
+      <nav class="section">
+  <h2>Section Navigation</h2>
+  <p><a class="" href="./">Tips for Getting Started with Web Accessibility</a></p>
+  <ul>
+      <li>
+        <svg class="designing-small" aria-hidden="true"><use xlink:href="images/icons.svg#designing-small"/></svg>
+        <a href="designing.html">Designing</a>
+      </li>
+      <li class="current">
+        <svg class="writing" aria-hidden="true"><use xlink:href="images/icons.svg#writing"/></svg>
+        <span>Current Page </span>Writing
+      </li>
+      <li>
+        <svg class="developing" aria-hidden="true"><use xlink:href="images/icons.svg#developing"/></svg>
+        <a href="developing.html">Developing</a>
+      </li>
+      <li>
+        <svg class="evaluating" aria-hidden="true"><use xlink:href="images/icons.svg#evaluating"/></svg>
+        <a href="evaluating.html">Evaluating</a>
+      </li>
+      <li>
+        <svg class="managing" aria-hidden="true"><use xlink:href="images/icons.svg#managing"/></svg>
+        <a href="managing.html">Managing</a>
+      </li>
+      <li>
+        <svg class="advocating" aria-hidden="true"><use xlink:href="images/icons.svg#advocating"/></svg>
+        <a href="advocating.html">Advocating</a>
+      </li>
+  </ul>
+</nav>
+      <aside id="what-is-wcag" class="what-is-wcag">
+  <h2>About WCAG</h2>
+  <p>Web Content Accessibility Guidelines is the international standard for making web content more accessible to people with disabilities. The WCAG requirements are called "success criteria".</p>
+  <p>Learn more from the <a href="/WAI/intro/wcag.php">WCAG Overview</a>.</p>
+</aside>
+
+    </div>
+
+  <div class="inner">
+      <p>This page introduces some basic considerations to help you get started writing web content that is more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.</p>
+
+<h2 class="toc no_toc" id="on-this-page">On this page</h2>
+
+<ul class="toc" id="markdown-toc">
+  <li><a href="#provide-informative-unique-page-titles">Provide informative, unique page titles</a></li>
+  <li><a href="#use-headings-to-convey-meaning-and-structure">Use headings to convey meaning and structure</a></li>
+  <li><a href="#make-link-text-meaningful">Make link text meaningful</a></li>
+  <li><a href="#write-meaningful-text-alternatives-for-images">Write meaningful text alternatives for images</a></li>
+  <li><a href="#create-transcripts-and-captions-for-multimedia">Create transcripts and captions for multimedia</a></li>
+  <li><a href="#provide-clear-instructions">Provide clear instructions</a></li>
+  <li><a href="#keep-content-clear-and-concise">Keep content clear and concise</a></li>
+  <li><a href="#learn-more-about-accessibility">Learn more about accessibility</a></li>
+</ul>
+
+<article class="tip ">
+
+<h2 class="attach_permalink" id="provide-informative-unique-page-titles">Provide informative, unique page titles</h2>
+
+<p>For each web page, provide a short title that describes the page content and distinguishes it from other pages. The page title is often the same as the main heading of the page. Put the unique and most relevant information first; for example, put the name of the page before the name of the organization. For pages that are part of a multi-step process, include the current step in the page title.</p>
+
+<aside class="example"><h3>Example: <span>Page titles</span></h3>
+
+<div class="page-title">
+  <figure>
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Home page title</figcaption>
+    <div>
+      <svg version="1.1" width="462" height="27">
+        <g transform="scale(1.2)">
+          <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+          <text transform="translate(10 15)">Space Teddy Inc.</text>
+          <g transform="translate(333 4)">
+          	<rect x="0" y="9.5" width="10" height="1.5"/>
+  	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+          	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </figure>
+  <figure>
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Page name followed by organization name</figcaption>
+    <div>
+      <svg version="1.1" width="462" height="27">
+        <g transform="scale(1.2)">
+          <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+          <text transform="translate(10 15)">Latest News &bull; Space Teddy Inc.</text>
+          <g transform="translate(333 4)">
+          	<rect x="0" y="9.5" width="10" height="1.5"/>
+  	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+          	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </figure>
+  <figure>
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Page name including step in a process</figcaption>
+    <div>
+      <svg version="1.1" width="462" height="27">
+        <g transform="scale(1.2)">
+          <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
+          <text transform="translate(10 15)">Buy Your Bear (Step 1 of 3) &bull; Space Teddy Inc.</text>
+          <g transform="translate(333 4)">
+          	<rect x="0" y="9.5" width="10" height="1.5"/>
+  	        <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
+          	<path d="M 41 3 L 40 2 L 36 6 L 32 2 L 31 3 L 35 7 L 31 11 L 32 12 L 36 8 L 40 12 L 41 11 L 37 7 Z"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#navigation-mechanisms-title">Page Titled 2.4.2</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">Understanding 2.4.2</a>)</li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="use-headings-to-convey-meaning-and-structure">Use headings to convey meaning and structure</h2>
+
+<p>Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline of the content.</p>
+
+<aside class="example"><h3>Example: <span>Using headings to organize content</span></h3>
+
+<div class="heading-structure two-column">
+  <figure>
+    <figcaption><svg class="cross" aria-hidden="true"><use xlink:href="images/icons.svg#cross"/></svg> Lack of headings</figcaption>
+    <div>
+      <a id="no-headings-modal" class="modal-open" href="#no-headings-modal-holder"><img src="images/headings-poor.png" alt=""><br>View example in pop-up</a>
+    </div>
+    <div id="no-headings-modal-holder" class="heading-structure">
+      <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
+
+      <p>HTML elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
+
+      <p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
+    
+      <p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section. Sub-headers proceed through increasing header levels. The lower the number, the smaller and more detailed a section.</p>
+
+      <p>Visual readers identify headers by scanning pages for text of a larger size or a different style. Assistive technology users are not able to see these visual changes, so changing the style is not a sufficient cue.</p>
+
+      <p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. This can be presented to the user as a navigation aid.</p>
+
+      <p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
+    
+      <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
+    </div>
+  </figure>
+  <figure>
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Using headings and subheadings</figcaption>
+    <div>
+      <a id="headings-modal" class="modal-open" href="#headings-modal-holder"><img src="images/headings-good.png" alt=""><br>View example in pop-up</a>
+    </div>
+    <div id="headings-modal-holder" class="heading-structure">
+      <h2 id="headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
+    
+      <p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
+
+      <h3><span class="visuallyhidden">Example: </span>Purpose of Headings</h3>
+    
+      <p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
+    
+      <h4><span class="visuallyhidden">Example: </span>Heading Levels</h4>
+    
+      <p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section. Sub-headers proceed through increasing header levels. The lower the number, the smaller and more detailed a section.</p>
+
+      <h3><span class="visuallyhidden">Example: </span>Meaning vs. Formatting</h3>
+    
+      <p>Visual readers identify headers by scanning pages for text of a larger size or a different style. Assistive technology users are not able to see these visual changes, so changing the style is not a sufficient cue.</p>
+
+      <p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. This can be presented to the user as a navigation aid.</p>
+
+      <p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
+    
+      <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive">Headings and Labels 2.4.6</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">Understanding 2.4.6</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#qr-navigation-mechanisms-headings">Section Headings 2.4.10</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">Understanding 2.4.10</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#content-structure-separation-programmatic">Info and Relationships 1.3.1</a> (<a href="/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">Understanding 1.3.1</a>)</li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#accountant">How a screen reader user uses headings to navigate</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="make-link-text-meaningful">Make link text meaningful</h2>
+
+<p>Write link text so that it describes the content of the link target. Avoid using ambiguous link text, such as 'click here' or 'read more'. Indicate relevant information about the link target, such as document type and size, for example, 'Proposal Documents (RTF, 20MB)'.</p>
+
+<aside class="example"><h3>Example: <span>Using link text to describe target page</span></h3>
+
+<div class="meaningful-links two-column">
+  <figure>
+    <figcaption><svg class="cross" aria-hidden="true"><use xlink:href="images/icons.svg#cross"/></svg> No information</figcaption>
+    <div>
+      <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Meaningful information</figcaption>
+    <div>
+      <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#navigation-mechanisms-refs">Link Purpose (In Context) 2.4.4</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html">Understanding 2.4.4</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#navigation-mechanisms-link">Link Purpose (Link Only) 2.4.9</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html">Understanding 2.4.9</a>)</li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="write-meaningful-text-alternatives-for-images">Write meaningful text alternatives for images</h2>
+
+<p>For every image, write alternative text that provides the information or function of the image. For purely decorative images, there is no need to write alternative text.</p>
+
+<aside class="example"><h3>Example: <span>Using alternative text to communicate important information</span></h3>
+
+<div class="text-alt two-column">
+  <figure>
+    <figcaption><svg class="cross" aria-hidden="true"><use xlink:href="images/icons.svg#cross"/></svg> Uninformative</figcaption>
+    <div>
+      <img src="images/phone_charging.png" alt="Charging phone">
+      <div>
+        <p> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
+        <p><strong>Alternative text for image</strong>: "Charging phone"</p>
+      </div>
+    </div>
+  </figure>
+  <figure>
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Informative</figcaption>
+    <div>
+      <img src="images/phone_charging.png" alt="Plug cable into the bottom edge of the phone.">
+      <div>
+        <p>Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
+        <p><strong>Alternative text for image</strong>: "Plug cable into the bottom edge of the phone."</p>
+      </div>
+    </div>
+  </figure>
+  <p class="note">Alternative text is usually not visible; it is included in this example just so you can see what it is.</p>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#qr-text-equiv-all">Non-text Content 1.1.1</a> (<a href="/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Understanding 1.1.1</a>)</li>
+    </ul>
+  </li>
+  <li><strong>Tutorial</strong>
+    <ul>
+      <li><a href="/WAI/tutorials/images/">Images</a></li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#accountant">Describes the value of text alternatives to a blind user</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="create-transcripts-and-captions-for-multimedia">Create transcripts and captions for multimedia</h2>
+
+<p>For audio-only content, such a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door creaks'. For video transcripts, also include a description of the important visual content, for example 'Athan leaves the room'.</p>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#media-equiv-captions">Captions (Prerecorded) 1.2.2</a> (<a href="/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html">Understanding 1.2.2</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#media-equiv-audio-desc">Audio Description or Media Alternative (Prerecorded) 1.2.3</a> (<a href="/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html">Understanding 1.2.3</a>)</li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#onlinestudent">Describes how captions help a deaf student</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="provide-clear-instructions">Provide clear instructions</h2>
+
+<p>Ensure that instructions, guidance, and error messages are clear, easy to understand, and avoid unnecessarily technical language. Describe input requirements, such as date formats.</p>
+
+<aside class="example"><h3>Example: <span>Instructions communicate what information the user should provide</span></h3>
+
+<div class="errors">
+  <figure>
+    <div>
+      <form action="#" method="post">
+        <p id="password-desc">Password should be at least six characters with at least one number (0-9).</p>
+        <div class="row">
+          <label for="password">Password</label>
+          <input aria-describedby="password-desc" type="password" id="password" name="password" value="">
+        </div>
+      </form>
+    </div>
+  </figure>
+</div>
+</aside>
+<aside class="example"><h3>Example: <span>Error indicates what the problem is and, possibly, how to fix it</span></h3>
+<div class="errors">
+  <figure>
+    <div>
+      <ol class="fa-ul error-list">
+        <li id="error_email"><svg class="error" aria-hidden="true"><use xlink:href="images/icons.svg#error"/></svg> <a href="javascript:return false">The username 'superbear' is already in use.</a></li>
+        <li id="error_password"><svg class="error" aria-hidden="true"><use xlink:href="images/icons.svg#error"/></svg> <a href="javascript:return false">The password needs to include at least one number.</a></li>
+      </ol>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#minimize-error-cues">Labels or Instructions 3.3.2</a> (<a href="/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">Understanding 3.3.2</a>)</li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#supermarketassistant">Describes simple instructions help someone with learning difficulties</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="keep-content-clear-and-concise">Keep content clear and concise</h2>
+
+<p>Use simple language and formatting, as appropriate for the context.</p>
+
+<ul>
+  <li>Write in short, clear sentences and paragraphs.</li>
+  <li>Avoid using unnecessarily complex words and phrases. Consider providing a glossary for terms readers may not know.</li>
+  <li>Expand acronyms on first use. For example, Web Content Accessibility Guidelines (WCAG).</li>
+  <li>Consider providing a glossary for terms readers may not know.</li>
+  <li>Use list formatting as appropriate.</li>
+  <li>Consider using images, illustrations, video, audio, and symbols to help clarify meaning.</li>
+</ul>
+
+<aside class="example"><h3>Example: <span>Making content readable and understandable</span></h3>
+
+<div class="two-column">
+  <figure>
+    <figcaption><svg class="cross" aria-hidden="true"><use xlink:href="images/icons.svg#cross"/></svg> Unnecessarily complex</figcaption>
+    <div>
+      <p class="fail">CPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to all parties involved. Once our representative obtains information that allows us to understand the causality, we may or may not assign appropriate monetary compensation. The resulting decision may occasion one of the following options: the claim is not approved and is assigned a rejected status, the status of the claim is ambiguous and will require additional information before further processing can occur, the claim is partially approved and reduced payment is assigned and issued, or claim is fully approved and total claim payment is assigned and issued.</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Easier to understand</figcaption>
+    <div>
+      <p class="pass">Claims Processing Procedure (CPP): If you have a car accident, our agent will investigate. Findings will determine any claim payment. This could result in:</p>
+      <ul>
+        <li>Approved claim - full payment</li>
+        <li>Partially approved claim - reduced payment</li>
+        <li>Undetermined claim - more information needed</li>
+        <li>Rejected claim - no payment</li>
+      </ul>
+      <p><img src="images/clear_text_diagram.png" alt=""></p>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#meaning-supplements">Reading Level 3.1.5</a> (<a href="/TR/UNDERSTANDING-WCAG20/meaning-supplements.html">Understanding 3.1.5</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#meaning-idioms">Unusual Words 3.1.3</a> (<a href="/TR/UNDERSTANDING-WCAG20/meaning-idioms.html">Understanding 3.1.3</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#meaning-located">Abbreviations 3.1.4</a> (<a href="/TR/UNDERSTANDING-WCAG20/meaning-located.html">Understanding 3.1.4</a>)</li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#classroomstudent">User with reading disabilities benefits from easy to read text</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="learn-more-about-accessibility">Learn more about accessibility</h2>
+
+<p>These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.</p>
+
+<ul>
+  <li><a href="/standards/webdesign/accessibility">Accessibility Introduction</a> — Introduces accessibility and provides links to many helpful resources</li>
+  <li><a href="/WAI/intro/people-use-web/principles">Accessibility Principles</a> — An introduction to the <abbr>WCAG</abbr> requirements</li>
+  <li><a href="/WAI/intro/people-use-web">How people with disabilities use the web</a> — Real-life examples showing the importance of accessibility for people with disabilities</li>
+  <li><a href="/WAI/WCAG20/quickref/"><abbr>WCAG</abbr> Quick Reference</a> — customizable reference of all <abbr>WCAG</abbr> 2.0 requirements and techniques</li>
+</ul>
+
+</article>
+
+
+  </div>
+
+  <aside class="side-box contribute" role="complementary">
+  <h2 class="heading">Help improve this page</h2>
+  <p>Please share your ideas, suggestions, or comments via email to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=%5bTips%20for%20Getting%20Started%20Input%20%3a%20Tips%20on%20Writing%20for%20Web%20Accessibility%5d">wai-eo-editors@w3.org</a> or via GitHub.</p>
+
+	<div class="buttons">
+  	<a class="btn" title="Publicly archived list" href="mailto:wai-eo-editors@w3.org?subject=%5bTips%20for%20Getting%20Started%20Input%20%3a%20Tips%20on%20Writing%20for%20Web%20Accessibility%5d">E-mail</a>
+    <a class="btn" href="https://github.com/w3c/wai-quick-start/blob/master/source/writing.html.erb.md">Fork &amp; edit on GitHub</a>
+  	<a class="btn" href="https://github.com/w3c/wai-quick-start/issues/new?title=[Tips%20on%20Writing%20for%20Web%20Accessibility]&body=This%20is%20a%20comment%20related%20to%20the%20page%20[Tips%20on%20Writing%20for%20Web%20Accessibility](//w3c.github.io/wai-quick-start/writing.html)">New GitHub Issue</a>
+	</div>
+</aside>
+
+</main>
+
+	<footer id="footer" role="contentinfo">
+    <div>
+			<h2>Document Information</h2>
+			<p>
+				<strong>Status:</strong>
+	      	Updated
+  	      15 April 2016
+	      (first published September 2015)
+        <br>
+	      <strong>Editors:</strong>
+<a href="/People/#kevin">Kevin White</a>,
+<a href="/People/shadi">Shadi About-Zahra</a>, and
+<a href="/People/Shawn">Shawn Lawton Henry</a>.
+
+  <a href="acknowledgements.html">Acknowledgements</a>.
+
+Developed by the <a href="/WAI/EO/">Education and Outreach Working Group (EOWG)</a>.
+
+Developed with support from the <a href="/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+	    </p>
+	    <p class="footer-nav">
+	    	[<a href="/WAI/sitemap.html">WAI Site Map</a>]
+	    	[<a href="/WAI/sitehelp.html">Help with WAI Website</a>]
+	    	[<a href="/WAI/search.php">Search</a>]
+	    	[<a href="/WAI/contacts">Contacting WAI</a>]
+        <br>
+        <strong>Feedback welcome to <a href="mailto:wai-eo-editors@w3.org?subject=%5bTips%20for%20Getting%20Started%20Input%20%3a%20Tips%20on%20Writing%20for%20Web%20Accessibility%5d">wai-eo-editors@w3.org</a></strong> (a publicly archived list) or <a href="mailto:wai@w3.org?subject=%5bTips%20for%20Getting%20Started%20Input%20%3a%20Tips%20on%20Writing%20for%20Web%20Accessibility%5d">wai@w3.org</a> (a WAI staff-only list).</p>
+	    <div class="copyright">
+	      <p>Copyright © 2016 W3C <sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.
+				</p>
+			</div>
+    </div>
+	</footer>
+	<script src="javascripts/main.js" type="text/javascript"></script>
+  <script src="javascripts/permalink.js" type="text/javascript"></script>
+  <script src="javascripts/modal.js" type="text/javascript"></script>  
+</body>
+</html>

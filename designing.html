@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+      Tips on Designing for Web Accessibility &bull;
+    Tips for Getting Started &bull; WAI
+  </title>
+  <meta name="viewport" content="width=device-width">
+  <link href="WAI/wai-main.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 7]><link href="WAI/ie-old.css" rel="stylesheet" type="text/css" /><![endif]-->
+  <script src="javascripts/modernizr.js" type="text/javascript"></script>
+</head>
+<body class="designing guide ">
+  <header>
+  	<ul id="controls">
+  		<li><a href="#skip"><img alt="" src="Icons/downinpage.png" /> Skip to Content</a></li>
+  		<li> | <a href="/WAI/changedesign">Change text size or colors</a></li>
+  	</ul>
+  	<div id="masthead">
+      <p id="logos">
+        <a href="/" title="W3C Home"><img alt="W3C Logo" src="Icons/w3c_home" /></a><a href="/WAI/" title="WAI Home"><img alt="Web Accessibility initiative" src="WAI/images/wai-temp" /></a>
+      </p>
+    </div>
+  	<div id="tagline">
+      <p>WAI: Strategies, guidelines, resources to make the Web accessible to people with disabilities</p>
+    </div>
+  </header>
+
+  <nav id="nav">
+	<h2>Site Navigation</h2>
+	<p id="w3cnav"><a href="/">W3Cc Home</a></p>
+	<p id="subhomenav"><a href="/WAI/">Web Accessibility Initiative (WAI) Home</a></p>
+  <ol id="nav1">
+    <li class="current-nav"><a href="/WAI/gettingstarted/Overview.html">Getting Started</a>
+      <ul>
+        <li class="nav-head">Using the Web
+          <ol>
+            <li><a href="/WAI/users/browsing.html">Better Web Browsing Tips</a></li>
+            <li><a href="/WAI/users/inaccessible.html">Contact Inaccessible Websites</a></li>
+          </ol>
+        </li>
+        <li class="nav-head">Accessibility Basics
+          <ol>
+            <li><a href="/standards/webdesign/accessibility">Accessibility - W3C <img src="/Icons/tr.png" alt="W3C website"></a></li>
+            <li><a href="/WAI/intro/accessibility.php">Introduction to Accessibility</a></li>
+            <li><a href="/WAI/intro/components.php">Essential Components</a></li>
+            <li><a href="/WAI/bcase/Overview.html">Business Case</a></li>
+            <li ><a class="" href="./">Tips for Getting Started</a>
+              <ol type="i">
+                <li id="current-node" class="current-nav"><span class="label"><span id="current-icon">»</span>Designing</span></li>
+                <li><a href="writing.html">Writing</a></li>
+                <li><a href="developing.html">Developing</a></li>
+                <li><a href="evaluating.html">Evaluating</a></li>
+                <li><a href="managing.html">Managing</a></li>
+                <li><a href="advocating.html">Advocating</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+    <li><a href="/WAI/users/Overview.html">Designing for Inclusion</a></li>
+    <li><a href="/WAI/guid-tech.html">Guidelines &amp; Techniques</a></li>
+    <li><a href="/WAI/managing.html">Planning &amp; Implementing</a></li>
+    <li><a href="/WAI/eval/Overview.html">Evaluating Accessibility</a></li>
+    <li><a href="/WAI/train.html">Tutorials &amp; Presentations</a></li>
+    <li><a href="/WAI/about-links.html">Getting Involved with WAI</a></li>
+  </ol>
+
+  <div id="nav-static">
+    <div class="nav-discover">
+      <p>
+        <a href="/WAI/yourWAI"><strong><u>Discover new resources</u></strong> for people with disabilities, policy makers, managers, and you!</a>
+      </p>
+    </div>
+    <p class="translations">
+      <a href="/WAI/wai-translations"><img src="/WAI/images/translations-med-1" alt="characters from different languages"> Translations</a>
+    </p>
+  </div>
+</nav>
+
+
+<main id="main" role="main">
+  
+  <header class="heading">
+      <h1 id="skip" class="has-icon"><svg class="designing" aria-hidden="true"><use xlink:href="images/icons.svg#designing"/></svg>  Tips on Designing for Web Accessibility</h1>
+  </header>
+
+    <div class="right-inset">
+      <nav class="section">
+  <h2>Section Navigation</h2>
+  <p><a class="" href="./">Tips for Getting Started with Web Accessibility</a></p>
+  <ul>
+      <li class="current">
+        <svg class="designing-small" aria-hidden="true"><use xlink:href="images/icons.svg#designing-small"/></svg>
+        <span>Current Page </span>Designing
+      </li>
+      <li>
+        <svg class="writing" aria-hidden="true"><use xlink:href="images/icons.svg#writing"/></svg>
+        <a href="writing.html">Writing</a>
+      </li>
+      <li>
+        <svg class="developing" aria-hidden="true"><use xlink:href="images/icons.svg#developing"/></svg>
+        <a href="developing.html">Developing</a>
+      </li>
+      <li>
+        <svg class="evaluating" aria-hidden="true"><use xlink:href="images/icons.svg#evaluating"/></svg>
+        <a href="evaluating.html">Evaluating</a>
+      </li>
+      <li>
+        <svg class="managing" aria-hidden="true"><use xlink:href="images/icons.svg#managing"/></svg>
+        <a href="managing.html">Managing</a>
+      </li>
+      <li>
+        <svg class="advocating" aria-hidden="true"><use xlink:href="images/icons.svg#advocating"/></svg>
+        <a href="advocating.html">Advocating</a>
+      </li>
+  </ul>
+</nav>
+      <aside id="what-is-wcag" class="what-is-wcag">
+  <h2>About WCAG</h2>
+  <p>Web Content Accessibility Guidelines is the international standard for making web content more accessible to people with disabilities. The WCAG requirements are called "success criteria".</p>
+  <p>Learn more from the <a href="/WAI/intro/wcag.php">WCAG Overview</a>.</p>
+</aside>
+
+    </div>
+
+  <div class="inner">
+      <p>This page introduces some basic considerations to help you get started making your user interface design and visual design more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.</p>
+
+<h2 class="toc no_toc" id="on-this-page">On this page</h2>
+
+<ul class="toc" id="markdown-toc">
+  <li><a href="#provide-sufficient-contrast-between-foreground-and-background">Provide sufficient contrast between foreground and background</a></li>
+  <li><a href="#dont-use-color-alone-to-convey-information">Don't use color alone to convey information</a></li>
+  <li><a href="#ensure-that-interactive-elements-are-easy-to-identify">Ensure that interactive elements are easy to identify</a></li>
+  <li><a href="#provide-clear-and-consistent-navigation-options">Provide clear and consistent navigation options</a></li>
+  <li><a href="#ensure-that-form-elements-include-clearly-associated-labels">Ensure that form elements include clearly associated labels</a></li>
+  <li><a href="#provide-easily-identifiable-feedback">Provide easily identifiable feedback</a></li>
+  <li><a href="#use-headings-and-spacing-to-group-related-content">Use headings and spacing to group related content</a></li>
+  <li><a href="#create-designs-for-different-viewport-sizes">Create designs for different viewport sizes</a></li>
+  <li><a href="#include-image-and-media-alternatives-in-your-design">Include image and media alternatives in your design</a></li>
+  <li><a href="#provide-controls-for-content-that-starts-automatically">Provide controls for content that starts automatically</a></li>
+  <li><a href="#learn-more-about-accessibility">Learn more about accessibility</a></li>
+</ul>
+
+<article class="tip ">
+
+<h2 class="attach_permalink" id="provide-sufficient-contrast-between-foreground-and-background">Provide sufficient contrast between foreground and background</h2>
+
+<p>Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr>WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".</p>
+
+<aside class="example"><h3>Example: <span>Contrast ratio</span></h3>
+
+<div class="contrast two-column">
+  <figure>
+    <figcaption><svg class="cross" aria-hidden="true"><use xlink:href="images/icons.svg#cross"/></svg> Insufficient</figcaption>
+    <div>
+      <p class="fail">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
+    </div>
+  </figure>
+  <figure>
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Sufficient</figcaption>
+    <div>
+      <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast">Contrast (Minimum) 1.4.3</a> (<a href="/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">Understanding 1.4.3</a>)</li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#shopper">How a user with "color blindness" experiences the Web</a></li>
+    </ul>
+  </li>
+  <li><strong>Easy Check</strong>
+    <ul>
+      <li><a href="/WAI/eval/preliminary.html#contrast">How to check contrast ratio</a></li>
+    </ul>
+  </li>
+  <li><strong>Support Tools</strong>
+    <ul>
+      <li><a href="/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head">List of tools to help determine contrast ratio</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="dont-use-color-alone-to-convey-information">Don't use color alone to convey information</h2>
+
+<p>While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. For example, use an asterisk in addition to color to indicate required form fields, and use labels to distinguish areas on graphs.</p>
+
+<aside class="example"><h3>Example: <span>Using color to convey meaning</span></h3>
+
+<div class="color-alone two-column">
+  <figure class="reference fail">
+    <figcaption><svg class="cross" aria-hidden="true"><use xlink:href="images/icons.svg#cross"/></svg> Color only</figcaption>
+    <div>
+      <form action="#" method="post">
+        <p class="instruction"><span class="required">Required fields are in red</span></p>
+        <div class="row">
+          <label for="name1">Name</label> <input type="text" id="name1" name="name">
+        </div>
+        <div class="row">
+          <label class="required" for="email1">Email</label> <input type="text" id="email1" name="email">
+        </div>
+      </form>
+    </div>
+  </figure>
+  <figure class="reference pass">
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Color and symbol</figcaption>
+    <div>
+      <form action="#" method="post">
+        <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">*</span></p>
+        <div class="row">
+          <label for="name2">Name</label> <input type="text" id="name2" name="name"><br>
+        </div>
+        <div class="row">
+          <label class="required" for="email2">Email *</label> <input type="text" id="email2" name="email">
+        </div>
+      </form>
+    </div>
+  </figure>
+</div>
+</aside>
+  
+<aside class="example"><h3>Example: <span>Refer to something using color alone</span></h3>
+<div class="color-alone two-column">
+  <figure class="question fail">
+    <figcaption><svg class="cross" aria-hidden="true"><use xlink:href="images/icons.svg#cross"/></svg> Color only</figcaption>
+    <div>
+      <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
+        <g>
+          <title id="inaccessible-triangles-title">Four triangles with different angles</title>
+          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green"/>
+          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue"/>
+          <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red"/>
+          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" class="yellow"/>
+        </g>
+      </svg>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Which is the right-angled triangle?</legend>
+          <input id="answer-green1" name="answer1" value="green" type="radio"> <label for="answer-green1">Green</label><br>
+          <input id="answer-blue1" name="answer1" value="blue" type="radio"> <label for="answer-blue1">Blue</label><br>
+          <input id="answer-red1" name="answer1" value="red" type="radio"> <label for="answer-red1">Red</label><br>
+          <input id="answer-yellow1" name="answer1" value="yellow" type="radio"> <label for="answer-yellow1">Yellow</label><br>
+          <input id="answer-pass1" name="answer1" value="pass" type="radio"> <label for="answer-pass1">Don't know</label>
+        </fieldset>
+      </form>
+    </div>
+  </figure>
+  <figure class="question pass">
+    <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Color and number</figcaption>
+    <div>
+      <svg version="1.1" width="153" height="154">
+        <g>
+          <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" class="green"/>
+          <text class="green" y="51" x="44"><tspan>1</tspan><tspan dx="100"> Green triangle: Angles are 30°, 60°, 90°</tspan></text>
+          <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" class="blue"/>
+          <text class="blue" y="54" x="132"><tspan>2</tspan><tspan dx="100"> Blue triangle: Angles are 30°, 30°, 120°</tspan></text>
+          <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" class="red"/>
+          <text class="red" y="114" x="110"><tspan>3</tspan><tspan dx="100"> Red triangle: Angles are 30°, 60°, 90°</tspan></text>
+          <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" class="yellow"/>
+          <text class="yellow" y="118" x="48"><tspan>4</tspan><tspan dx="100"> Yellow triangle: Angles are 40°, 70°, 70°</tspan></text>
+        </g>
+      </svg>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Which is the right-angled triangle?</legend>
+          <input id="answer-green2" name="answer2" value="green" type="radio"> <label for="answer-green2">Green (1)</label><br>
+          <input id="answer-blue2" name="answer2" value="blue" type="radio"> <label for="answer-blue2">Blue (2)</label><br>
+          <input id="answer-red2" name="answer2" value="red" type="radio"> <label for="answer-red2">Red (3)</label><br>
+          <input id="answer-yellow2" name="answer2" value="yellow" type="radio"> <label for="answer-yellow2">Yellow (4)</label><br>
+          <input id="answer-pass2" name="answer2" value="pass" type="radio"> <label for="answer-pass2">Don't know</label>
+        </fieldset>
+      </form>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#visual-audio-contrast-without-color">Use of Color 1.4.1</a> (<a href="/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">Understanding 1.4.1</a>)</li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#shopper">How a user with "color blindness" experiences the Web</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="ensure-that-interactive-elements-are-easy-to-identify">Ensure that interactive elements are easy to identify</h2>
+
+<p>Provide distinct styles for interactive elements, such as links and buttons, to make them easy to identify. For example, change the appearance of links on mouse hover, keyboard focus, and touch-screen activation. Ensure that styles and naming for interactive elements are used consistently throughout the website.</p>
+
+<aside class="example"><h3>Example: <span>Unique styles for different link states</span></h3>
+
+<div class="focus two-column">
+  <div>
+    <figure>
+      <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Style links to stand out from text</figcaption>
+      <div>
+        <p>Some people can't use a mouse and use only a <a href="javascript:return false;" aria-label="Link is styled to stand out from main text">keyboard to navigate</a> through web pages.</p>
+        <p>It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
+        <p>Visible keyboard focus could be a border or highlight that moves as you tab through the web page.</p>
+        <p></p>
+      </div>
+    </figure>
+  </div>
+  <div>
+    <figure class="hover">
+      <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Mouse hover style</figcaption>
+      <div>
+        <p><a href="javascript:return false;" aria-label="Link is styled with a subtle background to highlight hover state">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
+      </div>
+    </figure>
+    <figure class="keyboard">
+      <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Keyboard focus style</figcaption>
+      <div>
+        <p><a href="javascript:return false;" aria-label="Link is styled with a stronger version of the hover style to make it stand out">keyboard to navigate</a></p>
+      </div>
+    </figure>
+    <figure class="active">
+      <figcaption><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> Touch or click style</figcaption>
+      <div>
+        <p><a href="javascript:return false;" aria-label="Link is given a strong styling to show an action will occur">keyboard to navigate</a><img src="images/pointer.png" width="20" alt=""></p>
+      </div>
+    </figure>
+  </div>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible">Focus Visible 2.4.7</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">Understanding 2.4.7</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality">Consistent Identification 3.2.4</a> (<a href="/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html">Understanding 3.2.4</a>)</li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>:
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#reporter">Challenges faced by someone with a limited ability to use a mouse</a></li>
+      <li><a href="/WAI/intro/people-use-web/stories#retiree">Challenges faced by an older user with hand tremors</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="provide-clear-and-consistent-navigation-options">Provide clear and consistent navigation options</h2>
+
+<p>Ensure that navigation across pages within a website has consistent naming, styling, and positioning. Provide more than one method of website navigation, such as a site search or a site map. Help users understand where they are in a website or page by providing orientation cues, such as breadcrumbs and clear headings.</p>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations">Consistent Navigation 3.2.3</a> (<a href="/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html">Understanding 3.2.3</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc">Multiple Ways 2.4.5</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html">Understanding 2.4.5</a>)</li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#supermarketassistant">How consistency and navigation can help someone with cognitive difficulties</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="ensure-that-form-elements-include-clearly-associated-labels">Ensure that form elements include clearly associated labels</h2>
+
+<p>Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages, labels are usually positioned to the left or above the field, except for checkboxes and radio buttons where they are usually to the right. Avoid having too much space between labels and fields.</p>
+
+<aside class="example"><h3>Example: <span>Labels and input fields associated by proximity</span></h3>
+
+<div class="labels">
+  <figure>
+    <div>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Add a comment</legend>
+          <div class="row">
+            <label for="email4">Your E-mail</label>
+            <input type="text" id="email4" name="email">
+          </div>
+          <div class="row checkbox">
+            <input type="checkbox" id="contact1" name="contact">
+            <label for="contact1">I am happy for you to contact me</label>
+          </div>
+          <div class="row">
+            <label for="website2">Your Website</label>
+            <input type="text" id="website2" name="website">
+          </div>
+          <div class="row">
+            <label for="comment2">Comment</label>
+            <textarea name="comment" id="comment2"></textarea>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#minimize-error-cues">Labels or Instructions 3.3.2</a> (<a href="/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">Understanding 3.3.2</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive">Headings and Labels 2.4.6</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">Understanding 2.4.6</a>)</li>
+    </ul>
+  </li>
+  <li><strong>Tutorial</strong>
+    <ul>
+      <li><a href="/WAI/tutorials/forms/labels/#visual-position-of-label-text">Visual position of label text</a></li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#supermarketassistant">How clear labelling can help someone with cognitive difficulties</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="provide-easily-identifiable-feedback">Provide easily identifiable feedback</h2>
+
+<p>Provide feedback for interactions, such as confirming form submission, alerting the user when something goes wrong, or notifying the user of changes on the page. Instructions should be easy to identify. Important feedback that requires user action should be presented in a prominent style. </p>
+
+<aside class="example"><h3>Example: <span>Using error list, icon, and background color to make errors stand out</span></h3>
+
+<div class="errors">
+  <figure>
+    <div>
+      <div class="error-list">
+        <p>Please correct the following errors:</p>
+        <ol>
+          <li id="error_email"><svg class="error" aria-hidden="true"><use xlink:href="images/icons.svg#error"/></svg> <a href="javascript:document.getElementById('email5').focus()">Email address is invalid</a></li>
+          <li id="error_comment"><svg class="error" aria-hidden="true"><use xlink:href="images/icons.svg#error"/></svg> <a href="javascript:document.getElementById('comment3').focus()">A Comment is required</a></li>
+        </ol>
+      </div>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Add a comment</legend>
+          <p class="instruction"><span class="required">Required fields</span> are in red and marked with an <span class="required">*</span></p>
+          <div class="row">
+            <label for="name5">Name</label>
+            <input type="text" id="name5" name="name" value="Superbear">
+          </div>
+          <div class="row error">
+            <label class="required" for="email5"><svg class="error" aria-hidden="true"><use xlink:href="images/icons.svg#error"/></svg> E-mail *</label>
+            <input type="text" id="email5" name="email" value="superbear@@hq.example.com" aria-invalid="true" aria-describedby="error_email">
+          </div>
+          <div class="row">
+            <label for="website3">Website</label>
+            <input type="text" id="website3" name="website">
+          </div>
+          <div class="row error">
+            <label class="required" for="comment3"><svg class="error" aria-hidden="true"><use xlink:href="images/icons.svg#error"/></svg> Comment *</label>
+            <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#minimize-error-identified">Error Identification 3.3.1</a> (<a href="/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html">Understanding 3.3.1</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#qr-minimize-error-cues">Labels or Instructions 3.3.2</a> (<a href="/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html">Understanding 3.3.2</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#qr-minimize-error-suggestions">Error Suggestion 3.3.3</a> (<a href="/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html">Understanding 3.3.3</a>)</li>
+    </ul>
+  </li>
+  <li><strong>Tutorial</strong>
+    <ul>
+      <li><a href="/WAI/tutorials/forms/notifications/">User Notifications</a></li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#classroomstudent">How making important content easily identifiable can help</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="use-headings-and-spacing-to-group-related-content">Use headings and spacing to group related content</h2>
+
+<p>Use whitespace and proximity to make relationships between content more apparent. Style headings to group content, reduce clutter, and make it easier to scan and understand.</p>
+
+<aside class="example"><h3>Example: <span>Spacing highlights relationship between content</span></h3>
+
+<div class="headings two-column">
+  <figure class="fail">
+    <figcaption id="inaccessible-headings-title"><svg class="cross" aria-hidden="true"><use xlink:href="images/icons.svg#cross"/></svg> Little spacing and unclear relationship</figcaption>
+    <div>
+      <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
+        <g>
+          <desc id="inaccessible-headings-desc">Single heading with large blocks of text, poor separation of sub-headings, and unclear image relationship</desc>
+          <text class="heading" x="0" y="14">Main heading</text>
+          <rect x="0" y="18" width="247" height="3"/>
+          <rect x="0" y="24" width="244" height="3"/>
+          <rect x="0" y="30" width="249" height="3"/>
+          <rect class="image" x="180" y="36" width="70" height="55"/>
+          <line x1="181" y1="37" x2="249" y2="90" stroke-width="1"/>
+          <line x1="181" y1="90" x2="249" y2="37" stroke-width="1"/>
+          <rect x="0" y="36" width="168" height="3"/>
+          <rect x="0" y="42" width="171" height="3"/>
+          <rect x="0" y="48" width="166" height="3"/>
+          <rect x="0" y="54" width="172" height="3"/>
+          <rect x="0" y="60" width="120" height="3"/>
+          <text class="sub-heading" x="0" y="74">Sub heading</text>
+          <rect x="0" y="76" width="144" height="3"/>
+          <rect x="0" y="82" width="136" height="3"/>
+          <rect x="0" y="88" width="142" height="3"/>
+          <rect x="0" y="94" width="236" height="3"/>
+          <rect x="0" y="100" width="249" height="3"/>
+          <rect x="0" y="106" width="239" height="3"/>
+          <rect x="0" y="112" width="205" height="3"/>
+          <text class="sub-heading" x="0" y="126">Sub heading</text>
+          <rect x="0" y="128" width="236" height="3"/>
+          <rect x="0" y="134" width="242" height="3"/>
+          <rect x="0" y="140" width="243" height="3"/>
+          <rect x="0" y="146" width="250" height="3"/>
+          <rect x="0" y="152" width="245" height="3"/>
+          <rect x="0" y="158" width="187" height="3"/>
+        </g>
+      </svg>
+    </div>
+  </figure>
+  <figure class="pass">
+    <figcaption id="accessible-headings-title"><svg class="tick" aria-hidden="true"><use xlink:href="images/icons.svg#tick"/></svg> More spacing and clearer relationship</figcaption>
+    <div>
+      <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
+        <g>
+          <desc id="accessible-headings-desc">Main heading, multiple sub headings, lists, and no large text blocks</desc>
+          <text class="heading" x="0" y="14">Main heading</text>
+          <rect x="0" y="21" width="175" height="3"/>
+          <rect x="0" y="27" width="170" height="3"/>
+          <rect x="0" y="33" width="159" height="3"/>
+          <rect x="0" y="39" width="95" height="3"/>
+          <rect x="0" y="51" width="175" height="3"/>
+          <rect x="0" y="57" width="170" height="3"/>
+          <rect x="0" y="63" width="159" height="3"/>
+          <rect x="0" y="69" width="172" height="3"/>
+          <rect x="0" y="75" width="143" height="3"/>
+          <rect class="image" x="180" y="21" width="70" height="55"/>
+          <line x1="181" y1="22" x2="249" y2="75"/>
+          <line x1="181" y1="75" x2="249" y2="22"/>
+          <text class="sub-heading" x="0" y="98">Sub heading</text>
+          <rect x="0" y="103" width="106" height="3"/>
+          <rect x="0" y="109" width="99" height="3"/>
+          <rect x="0" y="115" width="114" height="3"/>
+          <rect x="0" y="121" width="110" height="3"/>
+          <rect x="0" y="127" width="110" height="3"/>
+          <rect x="0" y="139" width="99" height="3"/>
+          <rect x="0" y="145" width="114" height="3"/>
+          <rect x="0" y="151" width="110" height="3"/>
+          <rect x="0" y="157" width="84" height="3"/>
+          <text class="sub-heading" x="135" y="98">Sub heading</text>
+          <rect x="135" y="103" width="106" height="3"/>
+          <rect x="135" y="109" width="99" height="3"/>
+          <rect x="135" y="115" width="114" height="3"/>
+          <rect x="135" y="127" width="114" height="3"/>
+          <rect x="135" y="133" width="110" height="3"/>
+          <rect x="135" y="139" width="99" height="3"/>
+          <rect x="135" y="145" width="108" height="3"/>
+          <rect x="135" y="151" width="110" height="3"/>
+          <rect x="135" y="157" width="62" height="3"/>
+        </g>
+      </svg>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive">Headings and Labels 2.4.6</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">Understanding 2.4.6</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#qr-navigation-mechanisms-headings">Section Headings 2.4.10</a> (<a href="/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html">Understanding 2.4.10</a>)</li>
+    </ul>
+  </li>
+  <li><strong>Tutorial</strong>
+    <ul>
+      <li><a href="/WAI/tutorials/page-structure/headings/">Headings</a></li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#accountant">Describes how headings can be helpful for navigation</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="create-designs-for-different-viewport-sizes">Create designs for different viewport sizes</h2>
+
+<p>Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.</p>
+
+<aside class="example"><h3>Example: <span>Content and navigation adapt to smaller mobile screen</span></h3>
+
+<div class="responsive">
+  <figure>
+    <div>
+      <img src="images/content_in_browser.png" alt="">
+      <img src="images/content_in_phone.png" alt="">
+      <p>Display in a wide window with small text uses multiple columns for primary content, visible navigation options, and visible secondary information.</p>
+      <p>Display in a narrow window, such as a mobile phone, or with large text uses single column for primary content, navigation options are revealed using an icon, and secondary information is also revealed via icon.</p>
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>Background</strong>
+    <ul>
+      <li><a href="/TR/mobile-accessibility-mapping/#h-small-screen-size">Small Screen Size</a></li>
+      <li><a href="/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable">Mobile considerations related to Understandability</a></li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#retiree">Describes how alternative views of zoomed pages can be helpful</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="include-image-and-media-alternatives-in-your-design">Include image and media alternatives in your design</h2>
+
+<p>Provide a place in your design for alternatives for images and media. For example, you might need:</p>
+
+<ul>
+  <li>Visible links to transcripts of audio</li>
+  <li>Visible links to audio described versions of videos</li>
+  <li>Text along with icons and graphical buttons</li>
+  <li>Captions and descriptions for tables or complex graphs</li>
+</ul>
+
+<p>Work with content authors and developers to provide alternatives for non-text content.</p>
+
+<aside class="example"><h3>Example: <span>Design includes links to a transcript and to an alternative video</span></h3>
+
+<div class="text-alt">
+  <figure>
+    <div>
+      <img src="images/example_media_player.png" alt="A media player is shown. In additon to the standard play/pause buttons, progress bar and volume, a closed captions (CC) button is available as well as links to a transcript and a version with audio description.">
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#qr-text-equiv-all">Non-text Content 1.1.1</a> (<a href="/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">Understanding 1.1.1</a>)</li>
+    </ul>
+  </li>
+  <li><strong>Tutorial</strong>
+    <ul>
+      <li><a href="/WAI/tutorials/images/">Images</a></li>
+    </ul>
+  </li>
+  <li><strong>User Story</strong>
+    <ul>
+      <li><a href="/WAI/intro/people-use-web/stories#accountant">Describes the value of text alternatives to a blind user</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="provide-controls-for-content-that-starts-automatically">Provide controls for content that starts automatically</h2>
+
+<p>Provide visible controls to allow users to stop any animations or auto-playing sound. This applies to carousels, image sliders, background sound, and videos.</p>
+
+<aside class="example"><h3>Example: <span>Show play/stop and selection controls in carousel design</span></h3>
+
+<div class="autoplay">
+  <figure>
+    <div>
+      <img src="images/carousel_controls.png" alt="Example of carousel with play and slide selection controls">
+    </div>
+  </figure>
+</div>
+
+</aside>
+
+<aside class="more_information"><h3>For more information</h3>
+
+<ul>
+  <li><strong>WCAG</strong>
+    <ul>
+      <li><a href="/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio">Audio Control 1.4.2</a> (<a href="/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html">Understanding 1.4.2</a>)</li>
+      <li><a href="/WAI/WCAG20/quickref/#qr-time-limits-pause">Pause, Stop, Hide 2.2.2</a> (<a href="/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">Understanding 2.2.2</a>)</li>
+    </ul>
+  </li>
+  <li><strong>Tutorial</strong>
+    <ul>
+      <li><a href="/WAI/tutorials/carousels/">Carousel Concepts</a></li>
+    </ul>
+  </li>
+</ul>
+
+</aside>
+
+</article>
+<article class="tip ">
+
+<h2 class="attach_permalink" id="learn-more-about-accessibility">Learn more about accessibility</h2>
+
+<p>These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.</p>
+
+<ul>
+  <li><a href="/standards/webdesign/accessibility">Accessibility Introduction</a> — covers broad issues, such as the business case, and links to helpful resources</li>
+  <li><a href="/WAI/intro/people-use-web/principles">Accessibility Principles</a> — introduces the concepts behind the web accessibility requirements</li>
+  <li><a href="/WAI/intro/people-use-web">How people with disabilities use the web</a> — explores the impact of accessible design with real-life examples</li>
+  <li><a href="/WAI/tutorials/">Web Accessibility Tutorials</a> — includes some guidance related to designing, for example, <a href="/WAI/tutorials/images/">providing alternative text for images</a></li>
+  <li><a href="/WAI/demos/bad/">Before and After Demonstration</a> — shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs</li>
+  <li><a href="/WAI/WCAG20/quickref/"><abbr>WCAG</abbr> Quick Reference</a> — customizable reference of all <abbr>WCAG</abbr> 2.0 requirements and techniques</li>
+  <li><a href="/WAI/ER/tools/">Web Accessibility Evaluation Tools List</a> — includes tools to help explore contrast ratio</li>
+</ul>
+
+</article>
+
+
+  </div>
+
+  <aside class="side-box contribute" role="complementary">
+  <h2 class="heading">Help improve this page</h2>
+  <p>Please share your ideas, suggestions, or comments via email to the publicly-archived list <a href="mailto:wai-eo-editors@w3.org?subject=%5bTips%20for%20Getting%20Started%20Input%20%3a%20Tips%20on%20Designing%20for%20Web%20Accessibility%5d">wai-eo-editors@w3.org</a> or via GitHub.</p>
+
+	<div class="buttons">
+  	<a class="btn" title="Publicly archived list" href="mailto:wai-eo-editors@w3.org?subject=%5bTips%20for%20Getting%20Started%20Input%20%3a%20Tips%20on%20Designing%20for%20Web%20Accessibility%5d">E-mail</a>
+    <a class="btn" href="https://github.com/w3c/wai-quick-start/blob/master/source/designing.html.erb.md">Fork &amp; edit on GitHub</a>
+  	<a class="btn" href="https://github.com/w3c/wai-quick-start/issues/new?title=[Tips%20on%20Designing%20for%20Web%20Accessibility]&body=This%20is%20a%20comment%20related%20to%20the%20page%20[Tips%20on%20Designing%20for%20Web%20Accessibility](//w3c.github.io/wai-quick-start/designing.html)">New GitHub Issue</a>
+	</div>
+</aside>
+
+</main>
+
+	<footer id="footer" role="contentinfo">
+    <div>
+			<h2>Document Information</h2>
+			<p>
+				<strong>Status:</strong>
+	      	Updated
+  	      15 April 2016
+	      (first published September 2015)
+        <br>
+	      <strong>Editors:</strong>
+<a href="/People/#kevin">Kevin White</a>,
+<a href="/People/shadi">Shadi About-Zahra</a>, and
+<a href="/People/Shawn">Shawn Lawton Henry</a>.
+
+  <a href="acknowledgements.html">Acknowledgements</a>.
+
+Developed by the <a href="/WAI/EO/">Education and Outreach Working Group (EOWG)</a>.
+
+Developed with support from the <a href="/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+	    </p>
+	    <p class="footer-nav">
+	    	[<a href="/WAI/sitemap.html">WAI Site Map</a>]
+	    	[<a href="/WAI/sitehelp.html">Help with WAI Website</a>]
+	    	[<a href="/WAI/search.php">Search</a>]
+	    	[<a href="/WAI/contacts">Contacting WAI</a>]
+        <br>
+        <strong>Feedback welcome to <a href="mailto:wai-eo-editors@w3.org?subject=%5bTips%20for%20Getting%20Started%20Input%20%3a%20Tips%20on%20Designing%20for%20Web%20Accessibility%5d">wai-eo-editors@w3.org</a></strong> (a publicly archived list) or <a href="mailto:wai@w3.org?subject=%5bTips%20for%20Getting%20Started%20Input%20%3a%20Tips%20on%20Designing%20for%20Web%20Accessibility%5d">wai@w3.org</a> (a WAI staff-only list).</p>
+	    <div class="copyright">
+	      <p>Copyright © 2016 W3C <sup>®</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.
+				</p>
+			</div>
+    </div>
+	</footer>
+	<script src="javascripts/main.js" type="text/javascript"></script>
+  <script src="javascripts/permalink.js" type="text/javascript"></script>
+  <script src="javascripts/modal.js" type="text/javascript"></script>  
+</body>
+</html>
