@@ -2,7 +2,7 @@
   <h2>Section Navigation</h2>
   <p><%= nav_link('Tips for Getting Started with Web Accessibility', 'index.html') %></p>
   <ul>
-    <% {'designing' => 'designing-small', 'writing' => 'writing', 'developing' => 'developing', 'evaluating' => 'evaluating', 'managing' => 'managing', 'advocating' => 'advocating'}.each do |guide, icon| %>
+    <% {'designing' => 'designing-small', 'writing' => 'writing', 'developing' => 'developing', 'evaluating' => 'evaluating', 'managing' => 'managing', 'directing' => 'directing', 'advocating' => 'advocating'}.each do |guide, icon| %>
       <li<% if is_current(guide + '.html') %> class="current"<% end %>>
         <%= svg_icon icon %>
       <% if is_current(guide + '.html') %>

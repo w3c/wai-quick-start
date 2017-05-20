@@ -198,7 +198,6 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
         <p>Some people can't use a mouse and use only a <a href="javascript:return false;" aria-label="Link is styled to stand out from main text">keyboard to navigate</a> through web pages.</p>
         <p>It is important that users can reach all interactive elements using the keyboard, and that it is clear which element has focus.</p>
         <p>Visible keyboard focus could be a border or highlight that moves as you tab through the web page.</p>
-        <p></p>
       </div>
     </figure>
   </div>

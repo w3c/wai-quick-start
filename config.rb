@@ -34,7 +34,7 @@ require 'active_support/core_ext'
 # Define site-wide variables and make them visible for templates
 ##
 @site = {
-  'title'         => 'Tips for Getting Started',
+  'title'         => 'Tips for Getting Started with Web Accessibility',
   'github'        => 'wai-quick-start',
   'email'         => 'wai-eo-editors@w3.org',
   'email-private' => 'wai@w3.org'
