@@ -1,22 +1,21 @@
 <nav id="nav">
 	<h2>Site Navigation</h2>
-	<p id="w3cnav"><a href="<%= w3url '/' %>">W3Cc Home</a></p>
+	<p id="w3cnav"><a href="<%= w3url '/' %>">W3C Home</a></p>
 	<p id="subhomenav"><a href="<%= w3url '/WAI/' %>">Web Accessibility Initiative (WAI) Home</a></p>
   <ol id="nav1">
     <li class="current-nav"><a href="<%= w3url '/WAI/gettingstarted/Overview.html' %>">Getting Started</a>
       <ul>
-        <li class="nav-head">Using the Web
-          <ol>
-            <li><a href="<%= w3url '/WAI/users/browsing.html' %>">Better Web Browsing Tips</a></li>
-            <li><a href="<%= w3url '/WAI/users/inaccessible.html' %>">Contact Inaccessible Websites</a></li>
-          </ol>
-        </li>
         <li class="nav-head">Accessibility Basics
           <ol>
             <li><a href="<%= w3url '/standards/webdesign/accessibility' %>">Accessibility - W3C <img src="<%= w3url '/Icons/tr.png' %>" alt="W3C website"></a></li>
             <li><a href="<%= w3url '/WAI/intro/accessibility.php' %>">Introduction to Accessibility</a></li>
             <li><a href="<%= w3url '/WAI/intro/components.php' %>">Essential Components</a></li>
+            <li><a href="<%= w3url '/WAI/perspectives/' %>">Perspectives Videos</a></li>
             <li><a href="<%= w3url '/WAI/bcase/Overview.html' %>">Business Case</a></li>
+          </ol>
+        </li>
+        <li class="nav-head">Accessibility Tips
+          <ol>
             <li <% if is_current('index.html') %>id="current-node" class="current-nav"<% end %>><%= nav_link('Tips for Getting Started', 'index.html') %>
               <ol type="i">
                 <%= list_nav_link('Designing', 'designing.html') %>
@@ -27,6 +26,12 @@
                 <%= list_nav_link('Advocating', 'advocating.html') %>
               </ol>
             </li>
+          </ol>
+        </li>
+        <li class="nav-head">Using the Web
+          <ol>
+            <li><a href="<%= w3url '/WAI/users/browsing.html' %>">Better Web Browsing Tips</a></li>
+            <li><a href="<%= w3url '/WAI/users/inaccessible.html' %>">Contact Inaccessible Websites</a></li>
           </ol>
         </li>
       </ul>
