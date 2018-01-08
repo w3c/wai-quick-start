@@ -33,8 +33,7 @@ repository: w3c/wai-quick-start
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
-includes_dir: _external/wai-website-jekyll-templates/_includes
-layouts_dir: _external/wai-website-jekyll-templates/_layouts
+theme: wai-website-theme
 
 collections:
   tips:
