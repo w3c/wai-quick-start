@@ -2,6 +2,7 @@
 title: "Tips on Advocating for Web Accessibility"
 nav_title: Advocating
 order: 6
+title_icon: /tips/img/icons.svg#advocating
 ---
 
 {::options toc_levels="2" /}

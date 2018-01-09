@@ -229,7 +229,7 @@ GEM
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
     unicode-display_width (1.3.0)
-    wai-website-theme (0.1.1)
+    wai-website-theme (0.1.2.6)
       jekyll (~> 3.6)
 
 PLATFORMS

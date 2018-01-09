@@ -3,6 +3,7 @@ title: Tips on Designing for Web Accessibility
 nav_title: Designing
 order: 1
 ext_css: tips.css
+title_icon: /tips/img/icons.svg#designing
 ---
 
 This page introduces some basic considerations to help you get started making your user interface design and visual design more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.

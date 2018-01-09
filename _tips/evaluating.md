@@ -2,6 +2,7 @@
 title: Tips on Evaluating Web Accessibility
 nav_title: Evaluating
 order: 4
+title_icon: /tips/img/icons.svg#evaluating
 ---
 
 {::options toc_levels="2" /}
