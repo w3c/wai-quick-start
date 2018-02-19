@@ -33,7 +33,7 @@ repository: w3c/wai-quick-start
 
 ytkey: AIzaSyCiZ9uToWu9jb7BTx47NtzCvmGGXKXp8nI
 
-remote_theme: wai-website-theme
+remote_theme: w3c/wai-website-theme
 
 collections:
   tips:
