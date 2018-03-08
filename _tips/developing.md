@@ -4,6 +4,21 @@ nav_title: Developing
 order: 3
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#developing
+footer: >
+  <p>
+    <strong>Status:</strong>
+      Updated
+      15 April 2016
+    (first published September 2015)
+    <br>
+    <strong>Editors:</strong>
+    <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
+    <a href="https://www.w3.org/People/shadi">Shadi About-Zahra</a>, and
+    <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
+    <a href="../acknowledgements/">Acknowledgements</a>.
+    Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>.
+    Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+      </p>
 ---
 This page introduces some basic considerations to help you get started developing web content that is more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.
 
