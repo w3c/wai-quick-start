@@ -188,7 +188,7 @@ View inline example
   * [Section Headings 2.4.10](/WAI/WCAG20/quickref/#qr-navigation-mechanisms-headings) ([Understanding 2.4.10](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html))
   * [Info and Relationships 1.3.1](/WAI/WCAG20/quickref/#content-structure-separation-programmatic) ([Understanding 1.3.1](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html))
 * **User Story**
-  * [How a screen reader user uses headings to navigate](/WAI/intro/people-use-web/stories#accountant)
+  * [How a screen reader user uses headings to navigate]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -278,7 +278,7 @@ For every image, write alternative text that provides the information or functio
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+  * [Describes the value of text alternatives to a blind user]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -298,7 +298,7 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 * **Guide**
   * [Accessible Audio and Video](https://w3c.github.io/wai-website/media-intro/)
 * **User Story**
-  * [Describes how captions help a deaf student](/WAI/intro/people-use-web/stories#onlinestudent)
+  * [Describes how captions help a deaf student]({{ "/people-use-web/user-stories/" | relative_url }}#onlinestudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -356,7 +356,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 * **WCAG**
   * [Labels or Instructions 3.3.2](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
 * **User Story**
-  * [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
+  * [Describes simple instructions help someone with learning difficulties]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -412,7 +412,7 @@ Use simple language and formatting, as appropriate for the context.
   * [Unusual Words 3.1.3](/WAI/WCAG20/quickref/#meaning-idioms) ([Understanding 3.1.3](/TR/UNDERSTANDING-WCAG20/meaning-idioms.html))
   * [Abbreviations 3.1.4](/WAI/WCAG20/quickref/#meaning-located) ([Understanding 3.1.4](/TR/UNDERSTANDING-WCAG20/meaning-located.html))
 * **User Story**
-  * [User with reading disabilities benefits from easy to read text](/WAI/intro/people-use-web/stories#classroomstudent)
+  * [User with reading disabilities benefits from easy to read text]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

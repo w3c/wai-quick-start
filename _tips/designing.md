@@ -69,9 +69,9 @@ Foreground text needs to have sufficient contrast with background colors. This i
 * **WCAG**
   * [Contrast (Minimum) 1.4.3](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast) ([Understanding 1.4.3](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html))
 * **User Story**
-  * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
+  * [How a user with "color blindness" experiences the Web]({{ "/people-use-web/user-stories/" | relative_url }}#shopper)
 * **Easy Check**
-  * [How to check contrast ratio](https://www.w3.org/WAI/eval/preliminary#contrast)
+  * [How to check contrast ratio]({{ "/test-evaluation/preliminary/" | relative_url }}#contrast)
 * **Support Tools**
   * [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
@@ -189,7 +189,7 @@ While color can be useful to convey information, color should not be the only wa
 * **WCAG**
   * [Use of Color 1.4.1](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color) ([Understanding 1.4.1](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html))
 * **User Story**
-  * [How a user with "color blindness" experiences the Web](/WAI/intro/people-use-web/stories#shopper)
+  * [How a user with "color blindness" experiences the Web]({{ "/people-use-web/user-stories/" | relative_url }}#shopper)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -249,8 +249,8 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   * [Focus Visible 2.4.7](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible) ([Understanding 2.4.7](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html))
   * [Consistent Identification 3.2.4](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
 * **User Story**:
-  * [Challenges faced by someone with a limited ability to use a mouse](/WAI/intro/people-use-web/stories#reporter)
-  * [Challenges faced by an older user with hand tremors](/WAI/intro/people-use-web/stories#retiree)
+  * [Challenges faced by someone with a limited ability to use a mouse]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
+  * [Challenges faced by an older user with hand tremors]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -268,7 +268,7 @@ Ensure that navigation across pages within a website has consistent naming, styl
   * [Consistent Navigation 3.2.3](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations) ([Understanding 3.2.3](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html))
   * [Multiple Ways 2.4.5](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc) ([Understanding 2.4.5](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html))
 * **User Story**
-  * [How consistency and navigation can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
+  * [How consistency and navigation can help someone with cognitive difficulties]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -324,7 +324,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 * **Tutorial**
   * [Visual position of label text](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
 * **User Story**
-  * [How clear labelling can help someone with cognitive difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
+  * [How clear labelling can help someone with cognitive difficulties]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -389,7 +389,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 * **Tutorial**
   * [User Notifications](/WAI/tutorials/forms/notifications/)
 * **User Story**
-  * [How making important content easily identifiable can help](/WAI/intro/people-use-web/stories#classroomstudent)
+  * [How making important content easily identifiable can help]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -500,7 +500,7 @@ Use whitespace and proximity to make relationships between content more apparent
 * **Tutorial**
   * [Headings](/WAI/tutorials/page-structure/headings/)
 * **User Story**
-  * [Describes how headings can be helpful for navigation](/WAI/intro/people-use-web/stories#accountant)
+  * [Describes how headings can be helpful for navigation]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -537,7 +537,7 @@ Consider how page information is presented in different sized viewports, such as
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
   * [Mobile considerations related to Understandability](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
 * **User Story**
-  * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
+  * [Describes how alternative views of zoomed pages can be helpful]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -579,7 +579,7 @@ Work with content authors and developers to provide alternatives for non-text co
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+  * [Describes the value of text alternatives to a blind user]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

@@ -91,7 +91,7 @@ Ensure that alternative text for images is added to all informational and functi
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+  * [Describes the value of text alternatives to a blind user]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -213,7 +213,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   * [Page Structure](/WAI/tutorials/page-structure/)
   * [Tables](/WAI/tutorials/tables/)
 * **User Story**
-  * [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
+  * [Describes how structural information helps a screen reader user]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -266,7 +266,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 * **Tutorial**
   * [Validating Input](/WAI/tutorials/forms/validation/)
 * **User Story**
-  * [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
+  * [Describes how helpful errors help a user with dyslexia]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -424,7 +424,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 * **Background**
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **User Story**
-  * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
+  * [Describes how alternative views of zoomed pages can be helpful]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -559,7 +559,7 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [Keyboard 2.1.1](/WAI/WCAG20/quickref/#keyboard-operation-keyboard-operable) ([Understanding 2.1.1](/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html))
 * **User Story**
-  * [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
+  * [Describes how a user with RSI needs keyboard support]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
