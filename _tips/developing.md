@@ -20,7 +20,16 @@ footer: >
     Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
       </p>
 ---
+
+{::nomarkdown}
+{% include box.html type="start" h="2" title="Summary" class="full" %}
+{:/}
+
 This page introduces some basic considerations to help you get started developing web content that is more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
 
 {::options toc_levels="2" /}
 
