@@ -1,6 +1,6 @@
 ---
-title: Tips on Getting Started Writing for Web Accessibility
-title_html: "Tips on Getting Started<br>Writing for Web Accessibility"
+title: Tips for Getting Started Writing for Web Accessibility
+title_html: "Tips for Getting Started<br>Writing for Web Accessibility"
 nav_title: Writing Tips
 order: 2
 ext_css: tips.css
