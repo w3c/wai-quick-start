@@ -1,6 +1,6 @@
 ---
-title: Tips on Getting Started Developing for Web Accessibility
-title_html: "Tips on Getting Started<br>Developing for Web Accessibility"
+title: Tips for Getting Started Developing for Web Accessibility
+title_html: "Tips for Getting Started<br>Developing for Web Accessibility"
 nav_title: Developing Tips
 order: 3
 ext_css: tips.css
