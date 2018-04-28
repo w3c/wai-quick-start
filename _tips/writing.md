@@ -121,9 +121,9 @@ Use short headings to group related paragraphs and clearly describe the sections
     <div>
       {% include_cached img.html src="headings-poor.png" alt="Illustration of no headings, see below for detailed example" %}
     </div>
-    {% include_cached excol.html type="start" id="no-headings" %}
+{% include_cached excol.html type="start" id="no-headings" %}
 View inline example
-    {% include_cached excol.html type="middle" %}
+{% include_cached excol.html type="middle" %}
 <h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
 
 <p>HTML elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
@@ -139,7 +139,7 @@ View inline example
 <p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
 
 <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
-    {% include_cached excol.html type="end" %}
+{% include_cached excol.html type="end" %}
   </figure>
   <figure>
     <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Using headings and subheadings</figcaption>
