@@ -568,7 +568,7 @@ Provide a place in your design for alternatives for images and media. For exampl
 Work with content authors and developers to provide alternatives for non-text content.
 
 {::nomarkdown}
-<%= example 'Design includes links to a transcript and to an alternative video' %>
+<%= example 'Design includes links to a transcript and to an audio described video' %>
 
 <div class="text-alt">
   <figure>
