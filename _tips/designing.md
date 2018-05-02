@@ -555,7 +555,7 @@ Provide a place in your design for alternatives for images and media. For exampl
 Work with content authors and developers to provide alternatives for non-text content.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Design includes links to a transcript and to an alternative video" class="example" %}
+{% include_cached box.html type="start" title="Example: Design includes links to a transcript and to an audio described video" class="example" %}
 {:/}
 
 <div class="text-alt">
