@@ -44,13 +44,13 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Using <code>for</code> and <code>id</code> attributes" class="example" %}
 
-<div class="grid-4">
-<figure class="grid-line-right from-col1 to-col2">
+<div class="two-column">
+<figure>
 <figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
 <label for="username">Username</label>
 <input id="username" type="text" name="username">
 </figure>
-<figure class="from-col3 to-col4">
+<figure>
 <figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
 {:/}
 
@@ -122,8 +122,8 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Using HTML to provide structure and meaning" class="example" %}
 
-<div class="grid-4">
-<figure class="grid-line-right from-col1 to-col2">
+<div class="two-column">
+<figure>
 <figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
 <section>
   <article>
@@ -140,7 +140,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   </article>
 </section>
 </figure>
-<figure class="from-col3 to-col4">
+<figure>
 <figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
 {:/}
 
@@ -170,8 +170,8 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Search field using <abbr>WAI-ARIA</abbr>" class="example" %}
 
-<div class="grid-4">
-<figure class="grid-line-right from-col1 to-col2">
+<div class="two-column">
+<figure>
 <figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
 <form action="#" method="post">
   <div role="search">
@@ -182,7 +182,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   </div>
 </form>
 </figure>
-<figure class="from-col3 to-col4">
+<figure>
 <figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
 {:/}
 
@@ -232,14 +232,14 @@ Be as forgiving of format as possible when processing user input. For example, a
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Australian phone number field with forgiving validation" class="example" %}
 
-<div class="grid-4">
-<figure class="grid-line-right from-col1 to-col1">
+<div class="two-column">
+<figure>
 <figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
 <label for="phone">Phone</label>
 <input id="phone" name="phone" type="tel" pattern="^(\(?0[1-9]{1}\)?)?[0-9 -]*$" aria-describedby="phone-desc">
 <p id="phone-desc">For example, (02) 1234 1234</p>
 </figure>
-<figure class="from-col2 to-col4">
+<figure>
 <figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
 {:/}
 
@@ -279,8 +279,8 @@ Ensure that the order of elements in the code matches the logical order of the i
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Reflecting the logical reading order in the code" class="example" %}
 
-<div class="grid-4">
-<div class="order from-col1 to-col4">
+<div class="two-column">
+<div class="order">
   <article class="product">
     <h3 class="name">Space trainers</h3>
     {% include_cached img.html src="trainer.png" alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" %}
@@ -288,7 +288,7 @@ Ensure that the order of elements in the code matches the logical order of the i
     <p class="buy"><a href="javascript:return false" class="button button-icon"><span>{% include_cached icon.html name="cart-plus" %} Add to cart</span></a></p>
   </article>
 </div>
-<figure class="grid-line-right from-col1 to-col2">
+<figure>
 <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Image before heading may be missed</figcaption>
 {:/}
 
@@ -316,7 +316,7 @@ View complete code example
 
 {::nomarkdown}
 </figure>
-<figure class="from-col3 to-col4">
+<figure>
 <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Heading marks the start of the section</figcaption>
 {:/}
 
@@ -488,8 +488,8 @@ Think about keyboard access, especially when developing interactive elements, su
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Keyboard accessible menu button" class="example" %}
 
-<div class="grid-4 keyboard-accessible">
-<figure class="grid-line-right from-col1 to-col1">
+<div class="two-column keyboard-accessible">
+<figure>
 <figcaption>{% include_cached icon.html name="desktop" %} Rendered</figcaption>
 <div class="rendered">
   <div id="example-button" class="menu-button" role="button" aria-expanded="false" aria-controls="example-button-menu" tabindex="0">{% include_cached icon.html name="menu" %} Menu</div>
@@ -526,7 +526,7 @@ Think about keyboard access, especially when developing interactive elements, su
 }();
 </script>
 </figure>
-<figure class="from-col2 to-col4">
+<figure>
 <figcaption>{% include_cached icon.html name="code" %} Code Snippet</figcaption>
 {:/}
 
