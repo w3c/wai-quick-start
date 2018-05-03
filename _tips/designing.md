@@ -43,14 +43,14 @@ Foreground text needs to have sufficient contrast with background colors. This i
 {% include_cached box.html type="start" title="<strong>Example:</strong> Contrast ratio" class="example" %}
 {:/}
 
-<div class="grid-4">
-  <figure class="from-col1 to-col2 grid-line-right">
+<div class="two-column">
+  <figure>
     <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Insufficient</figcaption>
     <div>
       <p style="color: #999;">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
     </div>
   </figure>
-  <figure class="from-col3 to-col4">
+  <figure>
     <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Sufficient</figcaption>
     <div>
       <p class="pass">Some people cannot read text if there is not sufficient contrast between the text and background. For others, bright colors (high luminance) are not readable; they need low luminance.</p>
@@ -86,8 +86,8 @@ While color can be useful to convey information, color should not be the only wa
 {% include_cached box.html type="start" title="Example: Using color to convey meaning" class="example" %}
 {:/}
 
-<div class="color-alone grid-4">
-  <figure class="reference fail from-col1 to-col2 grid-line-right">
+<div class="color-alone two-column">
+  <figure class="reference fail">
     <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Color only</figcaption>
     <div>
       <form action="#" method="post">
@@ -101,7 +101,7 @@ While color can be useful to convey information, color should not be the only wa
       </form>
     </div>
   </figure>
-  <figure class="reference pass from-col3 to-col4">
+  <figure class="reference pass">
     <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Color and symbol</figcaption>
     <div>
       <form action="#" method="post">
@@ -124,8 +124,8 @@ While color can be useful to convey information, color should not be the only wa
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Refer to something using color alone" class="example" %}
 {:/}
-<div class="color-alone grid-4">
-  <figure class="question fail from-col1 to-col2 grid-line-right">
+<div class="color-alone two-column">
+  <figure class="question fail">
     <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Color only</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
@@ -139,7 +139,7 @@ While color can be useful to convey information, color should not be the only wa
       </svg>
       <form action="#" method="post">
         <fieldset>
-          <legend>Which is the right-angled triangle?</legend>
+          <legend style="width: 100%;">Which is the right-angled triangle?</legend>
           <input id="answer-green1" name="answer1" value="green" type="radio"> <label for="answer-green1">Green</label><br>
           <input id="answer-blue1" name="answer1" value="blue" type="radio"> <label for="answer-blue1">Blue</label><br>
           <input id="answer-red1" name="answer1" value="red" type="radio"> <label for="answer-red1">Red</label><br>
@@ -149,24 +149,24 @@ While color can be useful to convey information, color should not be the only wa
       </form>
     </div>
   </figure>
-  <figure class="question pass from-col3 to-col4">
+  <figure class="question pass">
     <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Color and number</figcaption>
     <div>
       <svg version="1.1" width="153" height="154">
         <g>
           <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" fill="#09610D" />
-          <text fill="#f4f4f4" y="51" x="44"><tspan>1</tspan><tspan dx="100"> Green triangle: Angles are 30°, 60°, 90°</tspan></text>
+          <text fill="#f4f4f4" y="51" x="44"><tspan>1</tspan><tspan dx="100" style="opacity:0">Green triangle: Angles are 30°, 60°, 90°</tspan></text>
           <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" fill="#0000CC"/>
-          <text fill="#f4f4f4" y="54" x="132"><tspan>2</tspan><tspan dx="100"> Blue triangle: Angles are 30°, 30°, 120°</tspan></text>
+          <text fill="#f4f4f4" y="54" x="132"><tspan>2</tspan><tspan dx="100" style="opacity:0"> Blue triangle: Angles are 30°, 30°, 120°</tspan></text>
           <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" fill="#AA0402"/>
-          <text fill="#f4f4f4" y="114" x="110"><tspan>3</tspan><tspan dx="100"> Red triangle: Angles are 30°, 60°, 90°</tspan></text>
+          <text fill="#f4f4f4" y="114" x="110"><tspan>3</tspan><tspan dx="100" style="opacity:0"> Red triangle: Angles are 30°, 60°, 90°</tspan></text>
           <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" fill="#DDDD00"/>
-          <text fill="#333" y="118" x="48"><tspan>4</tspan><tspan dx="100"> Yellow triangle: Angles are 40°, 70°, 70°</tspan></text>
+          <text fill="#333" y="118" x="48"><tspan>4</tspan><tspan dx="100" style="opacity:0"> Yellow triangle: Angles are 40°, 70°, 70°</tspan></text>
         </g>
       </svg>
       <form action="#" method="post">
         <fieldset>
-          <legend>Which is the right-angled triangle?</legend>
+          <legend style="width: 100%;">Which is the right-angled triangle?</legend>
           <input id="answer-green2" name="answer2" value="green" type="radio"> <label for="answer-green2">Green (1)</label><br>
           <input id="answer-blue2" name="answer2" value="blue" type="radio"> <label for="answer-blue2">Blue (2)</label><br>
           <input id="answer-red2" name="answer2" value="red" type="radio"> <label for="answer-red2">Red (3)</label><br>
@@ -204,8 +204,8 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 {% include_cached box.html type="start" title="Example: Unique styles for different link states" class="example" %}
 {:/}
 
-<div class="focus grid-4">
-  <div class="from-col1 to-col3 grid-line-right">
+<div class="focus two-column">
+  <div>
     <figure>
       <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Style links to stand out from text</figcaption>
       <div>
@@ -215,7 +215,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
       </div>
     </figure>
   </div>
-  <div class="col4">
+  <div>
     <figure class="hover">
       <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Mouse hover style</figcaption>
       <div>
@@ -403,8 +403,8 @@ Use whitespace and proximity to make relationships between content more apparent
 {% include_cached box.html type="start" title="Example: Spacing highlights relationship between content" class="example" %}
 {:/}
 
-<div class="headings grid-4">
-  <figure class="fail from-col1 to-col2">
+<div class="headings two-column">
+  <figure class="fail">
     <figcaption id="inaccessible-headings-title">{% include_cached icon.html name="ex-circle" label="Wrong" %} Little spacing and unclear relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
@@ -441,7 +441,7 @@ Use whitespace and proximity to make relationships between content more apparent
       </svg>
     </div>
   </figure>
-  <figure class="pass from-col3 to-col4">
+  <figure class="pass">
     <figcaption id="accessible-headings-title">{% include_cached icon.html name="check-circle" label="OK" %} More spacing and clearer relationship</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">

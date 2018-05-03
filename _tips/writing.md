@@ -240,8 +240,8 @@ For every image, write alternative text that provides the information or functio
 {% include_cached box.html type="start" title="Example: Using alternative text to communicate important information" class="example" %}
 {:/}
 
-<div class="text-alt grid-4">
-  <figure class="from-col1 to-col2">
+<div class="text-alt two-column">
+  <figure>
     <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Uninformative</figcaption>
     <div>
       {% include_cached img.html src="phone_charging.png" alt="Charging phone"  float="left" %}
@@ -251,7 +251,7 @@ For every image, write alternative text that provides the information or functio
       </div>
     </div>
   </figure>
-  <figure class="from-col3 to-col4">
+  <figure>
     <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Informative</figcaption>
     <div>
       {% include_cached img.html src="phone_charging.png" alt="Plug cable into the bottom edge of the phone." float="left" %}
@@ -261,8 +261,8 @@ For every image, write alternative text that provides the information or functio
       </div>
     </div>
   </figure>
-  <p class="note from-col1 to-col4">Alternative text is usually not visible; it is included in this example just so you can see what it is.</p>
 </div>
+<p class="note">Alternative text is usually not visible; it is included in this example just so you can see what it is.</p>
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -376,7 +376,7 @@ Use simple language and formatting, as appropriate for the context.
 {% include_cached box.html type="start" title="Example: Making content readable and understandable" class="example" %}
 {:/}
 
-<div class="grid-4">
+<div class="two-column">
   <figure class="from-col1 to-col2">
     <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Unnecessarily complex</figcaption>
     <div>
@@ -393,7 +393,7 @@ Use simple language and formatting, as appropriate for the context.
         <li>Undetermined claim - more information needed</li>
         <li>Rejected claim - no payment</li>
       </ul>
-      <p>{% include_cached img.html src="clear_text_diagram.png" alt="" %}</p>
+      <p>{% include_cached img.html src="clear_text_diagram.png" alt="" style="max-width:100%" %}</p>
     </div>
   </figure>
 </div>

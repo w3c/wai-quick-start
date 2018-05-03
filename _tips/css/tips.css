@@ -419,11 +419,13 @@
     color: #992929
 }
 
-.resource-tips .two-column figure {
+.resource-tips .two-column figure,
+.resource-tips .two-column > div {
     margin-bottom: 1em
 }
 
-.resource-tips .two-column figure:last-of-type {
+.resource-tips .two-column figure:last-of-type,
+.resource-tips .two-column > div:last-of-type {
     margin-bottom: 0
 }
 
@@ -440,7 +442,8 @@
         justify-content: space-between
     }
 
-    .resource-tips .two-column figure {
+    .resource-tips .two-column figure,
+    .resource-tips .two-column > div {
         width: 49%
     }
 
