@@ -187,7 +187,7 @@ View inline example
   * [Section Headings 2.4.10](/WAI/WCAG20/quickref/#qr-navigation-mechanisms-headings) ([Understanding 2.4.10](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html))
   * [Info and Relationships 1.3.1](/WAI/WCAG20/quickref/#content-structure-separation-programmatic) ([Understanding 1.3.1](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html))
 * **User Story**
-  * [How a screen reader user uses headings to navigate](/WAI/intro/people-use-web/stories#accountant)
+  * [How a screen reader user uses headings to navigate]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -277,7 +277,7 @@ For every image, write alternative text that provides the information or functio
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+  * [Describes the value of text alternatives to a blind user]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -295,7 +295,7 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
   * [Captions (Prerecorded) 1.2.2](/WAI/WCAG20/quickref/#media-equiv-captions) ([Understanding 1.2.2](/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html))
   * [Audio Description or Media Alternative (Prerecorded) 1.2.3](/WAI/WCAG20/quickref/#media-equiv-audio-desc) ([Understanding 1.2.3](/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html))
 * **User Story**
-  * [Describes how captions help a deaf student](/WAI/intro/people-use-web/stories#onlinestudent)
+  * [Describes how captions help a deaf student]({{ "/people-use-web/user-stories/#onlinestudent" | relative_url }})
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -353,7 +353,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 * **WCAG**
   * [Labels or Instructions 3.3.2](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
 * **User Story**
-  * [Describes simple instructions help someone with learning difficulties](/WAI/intro/people-use-web/stories#supermarketassistant)
+  * [Describes simple instructions help someone with learning difficulties]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -409,7 +409,7 @@ Use simple language and formatting, as appropriate for the context.
   * [Unusual Words 3.1.3](/WAI/WCAG20/quickref/#meaning-idioms) ([Understanding 3.1.3](/TR/UNDERSTANDING-WCAG20/meaning-idioms.html))
   * [Abbreviations 3.1.4](/WAI/WCAG20/quickref/#meaning-located) ([Understanding 3.1.4](/TR/UNDERSTANDING-WCAG20/meaning-located.html))
 * **User Story**
-  * [User with reading disabilities benefits from easy to read text](/WAI/intro/people-use-web/stories#classroomstudent)
+  * [User with reading disabilities benefits from easy to read text]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -421,9 +421,9 @@ Use simple language and formatting, as appropriate for the context.
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
-* [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; An introduction to the <abbr>WCAG</abbr> requirements
-* [How people with disabilities use the web](/WAI/intro/people-use-web) &mdash; Real-life examples showing the importance of accessibility for people with disabilities
+* [Accessibility Introduction]({{ "/fundamentals/accessibility-intro/" | relative_url }}) &mdash; Introduces accessibility and provides links to many helpful resources
+* [Accessibility Principles]({{ "/fundamentals/accessibility-intro/" | relative_url }}) &mdash; An introduction to the <abbr>WCAG</abbr> requirements
+* [How people with disabilities use the web]({{ "/people-use-web/" | relative_url }}) &mdash; Real-life examples showing the importance of accessibility for people with disabilities
 * [<abbr>WCAG</abbr> Quick Reference](/WAI/WCAG20/quickref/) &mdash; customizable reference of all <abbr>WCAG</abbr> 2.0 requirements and techniques
 
 {::nomarkdown}
