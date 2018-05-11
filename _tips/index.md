@@ -2,6 +2,7 @@
 title: Tips for Getting Started
 nav_title: Overview
 permalink: /tips/
+parent: "/"
 order: 0
 footer: >
   <p>
