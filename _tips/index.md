@@ -22,6 +22,6 @@ footer: >
 
 Get started with accessibility. These tips introduce some basic considerations for making your website more accessible to people with disabilities, and provide links to additional guidance. Tips are grouped by activity; information relevant to your work might be in more than one page.
 
-* [<span>Designing</span> for Web Accessibility]({% link _tips/designing.md %})<span class="">: </span>Tips for user interface and visual design.
-* [<span>Writing</span> for Web Accessibility]({% link _tips/writing.md %})<span class="">: </span>Tips for writing and presenting content.
-* [<span>Developing</span> for Web Accessibility]({% link _tips/developing.md %})<span class="">: </span>Tips for markup and coding.
+* [<span>Designing</span> for Web Accessibility]({{ "/tips/designing/" | relative_url }})<span class="">: </span>Tips for user interface and visual design.
+* [<span>Writing</span> for Web Accessibility]({{ "/tips/writing/" | relative_url }})<span class="">: </span>Tips for writing and presenting content.
+* [<span>Developing</span> for Web Accessibility]({{ "/tips/developing/" | relative_url }})<span class="">: </span>Tips for markup and coding.
