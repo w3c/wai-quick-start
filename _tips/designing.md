@@ -6,7 +6,7 @@ order: 1
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#designing
 footer: >
-  <p><strong>Date:</strong> Updated 15 April 2016. First published September 2015.</p>
+  <p><strong>Date:</strong> Minor update 24 May 2018. Updated 15 April 2016. First published September 2015.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi About-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
   <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 
@@ -630,7 +630,7 @@ These tips are a few of the things you need to consider for web accessibility. T
 * [How people with disabilities use the web](/WAI/intro/people-use-web) &mdash; explores the impact of accessible design with real-life examples
 * [Web Accessibility Tutorials](/WAI/tutorials/) &mdash; includes some guidance related to designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
 * [Before and After Demonstration](/WAI/demos/bad/) &mdash; shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
-* [<abbr>WCAG</abbr> Quick Reference](/WAI/WCAG20/quickref/) &mdash; customizable reference of all <abbr>WCAG</abbr> 2.0 requirements and techniques
+* [How to Meet <abbr>WCAG</abbr> 2 (Quick Reference)](/WAI/WCAG20/quickref/) – customizable reference of all <abbr>WCAG</abbr> 2 requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) &mdash; includes tools to help explore contrast ratio
 
 {::nomarkdown}
