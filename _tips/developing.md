@@ -72,7 +72,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 * **WCAG**
   * [Labels or Instructions 3.3.2](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
 * **Tutorial**
-  * [Labelling Controls](/WAI/tutorials/forms/labels/)
+  * [Labeling Controls](/WAI/tutorials/forms/labels/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
