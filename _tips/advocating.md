@@ -12,7 +12,7 @@ footer: >
     <br>
     <strong>Editors:</strong>
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
-    <a href="https://www.w3.org/People/shadi">Shadi About-Zahra</a>, and
+    <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
     <a href="./acknowledgements/">Acknowledgements</a>.
     Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>.
