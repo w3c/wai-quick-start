@@ -248,7 +248,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 * **WCAG**
   * [Focus Visible 2.4.7](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible) ([Understanding 2.4.7](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html))
   * [Consistent Identification 3.2.4](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
-* **User Story**:
+* **User Story**
   * [Challenges faced by someone with a limited ability to use a mouse]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
   * [Challenges faced by an older user with hand tremors]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
 
