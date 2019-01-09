@@ -625,7 +625,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
-* [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; covers broad issues, such as the business case, and links to helpful resources
+* [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) &mdash; covers broad issues, such as the business case, and links to helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; introduces the concepts behind the web accessibility requirements
 * [How people with disabilities use the web](/WAI/intro/people-use-web) &mdash; explores the impact of accessible design with real-life examples
 * [Web Accessibility Tutorials](/WAI/tutorials/) &mdash; includes some guidance related to designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
