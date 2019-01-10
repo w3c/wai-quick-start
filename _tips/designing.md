@@ -6,7 +6,7 @@ order: 1
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#designing
 footer: >
-  <p><strong>Date:</strong> Minor update 24 May 2018. Updated 15 April 2016. First published September 2015.</p>
+  <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
   <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 
@@ -248,7 +248,7 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 * **WCAG**
   * [Focus Visible 2.4.7](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible) ([Understanding 2.4.7](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html))
   * [Consistent Identification 3.2.4](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
-* **User Story**:
+* **User Story**
   * [Challenges faced by someone with a limited ability to use a mouse]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
   * [Challenges faced by an older user with hand tremors]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
 
@@ -625,12 +625,12 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
-* [Accessibility Introduction](/standards/webdesign/accessibility) &mdash; covers broad issues, such as the business case, and links to helpful resources
+* [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) &mdash; covers broad issues, such as the business case, and links to helpful resources
 * [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; introduces the concepts behind the web accessibility requirements
 * [How people with disabilities use the web](/WAI/intro/people-use-web) &mdash; explores the impact of accessible design with real-life examples
 * [Web Accessibility Tutorials](/WAI/tutorials/) &mdash; includes some guidance related to designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
 * [Before and After Demonstration](/WAI/demos/bad/) &mdash; shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
-* [How to Meet <abbr>WCAG</abbr> 2 (Quick Reference)](/WAI/WCAG20/quickref/) &mdash; customizable reference of all <abbr>WCAG</abbr> 2 requirements and techniques
+* [How to Meet WCAG (Quick Reference)](/WAI/WCAG20/quickref/) &mdash; customizable reference of all WCAG requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) &mdash; includes tools to help explore contrast ratio
 
 {::nomarkdown}

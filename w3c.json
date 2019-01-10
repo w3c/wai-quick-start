@@ -1,5 +1,10 @@
 {
-      "group":      35532
-  ,   "contacts":   ["slhenry", "yatil"]
-  ,   "shortName":  "wai-quick-start"
-  }
+  "group": 35532,
+  "contacts": [
+    "slhenry",
+    "yatil"
+  ],
+  "shortName": "wai-quick-start",
+  "repo-type": "article",
+  "policy": "open"
+}
