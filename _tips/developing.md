@@ -70,7 +70,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 {:/}
 
 * **WCAG**
-  * [Labels or Instructions 3.3.2](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
+  * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Tutorial**
   * [Labeling Controls](/WAI/tutorials/forms/labels/)
 
@@ -87,7 +87,7 @@ Ensure that alternative text for images is added to all informational and functi
 {:/}
 
 * **WCAG**
-  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
+  * [Non-text Content 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
@@ -106,8 +106,8 @@ Indicate the primary language of every page by using the `lang` attribute in the
 {:/}
 
 * **WCAG**
-  * [Language of Page 3.1.1](/WAI/WCAG20/quickref/#meaning-doc-lang-id) ([Understanding 3.1.1](/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html))
-  * [Language of Parts 3.1.2](/WAI/WCAG20/quickref/#meaning-other-lang-id) ([Understanding 3.1.2](/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html))
+  * [Language of Page 3.1.1](/WAI/WCAG21/quickref/#language-of-page) ([Understanding 3.1.1](/WAI/WCAG21/Understanding/language-of-page))
+  * [Language of Parts 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([Understanding 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
 * **How To**
   * [Declaring language in HTML](/International/questions/qa-html-language-declarations)
 
@@ -208,7 +208,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 {:/}
 
 * **WCAG**
-  * [Info and Relationships 1.3.1](/WAI/WCAG20/quickref/#content-structure-separation-programmatic) ([Understanding 1.3.1](/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html))
+  * [Info and Relationships 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **Tutorial**
   * [Page Structure](/WAI/tutorials/page-structure/)
   * [Tables](/WAI/tutorials/tables/)
@@ -262,7 +262,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 {:/}
 
 * **WCAG**
-  * [Error Identifications 3.3.1](/WAI/WCAG20/quickref/#qr-minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html))
+  * [Error Identifications 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([Understanding 3.3.1](/WAI/WCAG21/Understanding/error-identification))
 * **Tutorial**
   * [Validating Input](/WAI/tutorials/forms/validation/)
 * **User Story**
@@ -353,7 +353,7 @@ View complete code example
 {:/}
 
 * **WCAG**
-  * [Meaningful Sequence 1.3.2](/WAI/WCAG20/quickref/#qr-content-structure-separation-sequence) ([Understanding 1.3.2](/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html))
+  * [Meaningful Sequence 1.3.2](/WAI/WCAG21/quickref/#meaningful-sequence) ([Understanding 1.3.2](/WAI/WCAG21/Understanding/meaningful-sequence))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -419,8 +419,8 @@ Use responsive design to adapt the display to different zoom states and viewport
 {:/}
 
 * **WCAG**
-  * [Resize text 1.4.4](/WAI/WCAG20/quickref/#visual-audio-contrast-scale) ([Understanding 1.4.4](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html))
-  * [Consistent Identification 3.2.4](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
+  * [Resize text 1.4.4](/WAI/WCAG21/quickref/#resize-text) ([Understanding 1.4.4](/WAI/WCAG21/Understanding/resize-text))
+  * [Consistent Identification 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **Background**
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **User Story**
@@ -473,7 +473,7 @@ Use <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> to provi
 {:/}
 
 * **WCAG**
-  * [Name, Role, Value 4.1.2](/WAI/WCAG20/quickref/#ensure-compat-rsv) ([Understanding 4.1.2](/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html))
+  * [Name, Role, Value 4.1.2](/WAI/WCAG21/quickref/#name-role-value) ([Understanding 4.1.2](/WAI/WCAG21/Understanding/name-role-value))
 * **Background**
   * [Notes on Using ARIA in HTML](/TR/aria-in-html/)
 
@@ -557,7 +557,7 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 * **WCAG**
-  * [Keyboard 2.1.1](/WAI/WCAG20/quickref/#keyboard-operation-keyboard-operable) ([Understanding 2.1.1](/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html))
+  * [Keyboard 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Understanding 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **User Story**
   * [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
 
@@ -578,7 +578,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 {:/}
 
 * **WCAG**
-  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
+  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#text-equiv-all) ([Understanding 1.1.1](/WAI/WCAG21/quickref/#non-text-content))
 * **Background**
   * [Inaccessibility of CAPTCHA](/TR/turingtest/)
 
@@ -597,7 +597,7 @@ These tips are a few of the things you need to consider for web accessibility. T
 * [How people with disabilities use the web](/WAI/intro/people-use-web) – Real-life examples of the benefits of accessibility for people with disabilities
 * [Web Accessibility Tutorials](/WAI/tutorials/) – Shows you how to develop web content that is accessible to people with disabilities
 * [Before and After Demonstration](/WAI/demos/bad/) – Example accessible and inaccessible websites that share the same visual design, with annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr>WCAG</abbr>
-* [How to Meet WCAG (Quick Reference)](/WAI/WCAG20/quickref/) – customizable reference of all WCAG requirements and techniques
+* [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) – customizable reference of all WCAG requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) – Provides a range of tools to help explore the accessibility of code
 * [<abbr>WAI-ARIA</abbr> Overview](/WAI/intro/aria) – Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
 
