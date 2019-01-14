@@ -424,7 +424,7 @@ These tips are a few of the things you need to consider for web accessibility. T
 * [Accessibility Introduction]({{ "/fundamentals/accessibility-intro/" | relative_url }}) &mdash; Introduces accessibility and provides links to many helpful resources
 * [Accessibility Principles]({{ "/fundamentals/accessibility-principles/" | relative_url }}) &mdash; An introduction to the <abbr>WCAG</abbr> requirements
 * [How people with disabilities use the web]({{ "/people-use-web/" | relative_url }}) &mdash; Real-life examples showing the importance of accessibility for people with disabilities
-* [How to Meet WCAG (Quick Reference)](/WAI/WCAG20/quickref/) &mdash; customizable reference of all WCAG requirements and techniques
+* [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) &mdash; customizable reference of all WCAG requirements and techniques
 
 {::nomarkdown}
 {% include box.html type="end" %}
