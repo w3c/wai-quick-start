@@ -67,7 +67,7 @@ Foreground text needs to have sufficient contrast with background colors. This i
 {:/}
 
 * **WCAG**
-  * [Contrast (Minimum) 1.4.3](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast) ([Understanding 1.4.3](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html))
+  * [Contrast (Minimum) 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([Understanding 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
 * **User Story**
   * [How a user with "color blindness" experiences the Web]({{ "/people-use-web/user-stories/" | relative_url }}#shopper)
 * **Easy Check**
@@ -187,7 +187,7 @@ While color can be useful to convey information, color should not be the only wa
 {:/}
 
 * **WCAG**
-  * [Use of Color 1.4.1](/WAI/WCAG20/quickref/#visual-audio-contrast-without-color) ([Understanding 1.4.1](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html))
+  * [Use of Color 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([Understanding 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
 * **User Story**
   * [How a user with "color blindness" experiences the Web]({{ "/people-use-web/user-stories/" | relative_url }}#shopper)
 
@@ -246,8 +246,8 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
 {:/}
 
 * **WCAG**
-  * [Focus Visible 2.4.7](/WAI/WCAG20/quickref/#navigation-mechanisms-focus-visible) ([Understanding 2.4.7](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html))
-  * [Consistent Identification 3.2.4](/WAI/WCAG20/quickref/#consistent-behavior-consistent-functionality) ([Understanding 3.2.4](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html))
+  * [Focus Visible 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([Understanding 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
+  * [Consistent Identification 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **User Story**
   * [Challenges faced by someone with a limited ability to use a mouse]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
   * [Challenges faced by an older user with hand tremors]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
@@ -265,8 +265,8 @@ Ensure that navigation across pages within a website has consistent naming, styl
 {:/}
 
 * **WCAG**
-  * [Consistent Navigation 3.2.3](/WAI/WCAG20/quickref/#consistent-behavior-consistent-locations) ([Understanding 3.2.3](/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html))
-  * [Multiple Ways 2.4.5](/WAI/WCAG20/quickref/#navigation-mechanisms-mult-loc) ([Understanding 2.4.5](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html))
+  * [Consistent Navigation 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([Understanding 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
+  * [Multiple Ways 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([Understanding 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
 * **User Story**
   * [How consistency and navigation can help someone with cognitive difficulties]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
 
@@ -319,8 +319,8 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 {:/}
 
 * **WCAG**
-  * [Labels or Instructions 3.3.2](/WAI/WCAG20/quickref/#minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
-  * [Headings and Labels 2.4.6](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive) ([Understanding 2.4.6](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html))
+  * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
+  * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
 * **Tutorial**
   * [Visual position of label text](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
 * **User Story**
@@ -383,9 +383,9 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 {:/}
 
 * **WCAG**
-  * [Error Identification 3.3.1](/WAI/WCAG20/quickref/#minimize-error-identified) ([Understanding 3.3.1](/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html))
-  * [Labels or Instructions 3.3.2](/WAI/WCAG20/quickref/#qr-minimize-error-cues) ([Understanding 3.3.2](/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html))
-  * [Error Suggestion 3.3.3](/WAI/WCAG20/quickref/#qr-minimize-error-suggestions) ([Understanding 3.3.3](/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html))
+  * [Error Identification 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([Understanding 3.3.1](/WAI/WCAG21/Understanding/error-identification))
+  * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
+  * [Error Suggestion 3.3.3](/WAI/WCAG21/quickref/#error-suggestion) ([Understanding 3.3.3](/WAI/WCAG21/Understanding/error-suggestion))
 * **Tutorial**
   * [User Notifications](/WAI/tutorials/forms/notifications/)
 * **User Story**
@@ -495,8 +495,8 @@ Use whitespace and proximity to make relationships between content more apparent
 {:/}
 
 * **WCAG**
-  * [Headings and Labels 2.4.6](/WAI/WCAG20/quickref/#navigation-mechanisms-descriptive) ([Understanding 2.4.6](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html))
-  * [Section Headings 2.4.10](/WAI/WCAG20/quickref/#qr-navigation-mechanisms-headings) ([Understanding 2.4.10](/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-headings.html))
+  * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
+  * [Section Headings 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
 * **Tutorial**
   * [Headings](/WAI/tutorials/page-structure/headings/)
 * **User Story**
@@ -575,7 +575,7 @@ Work with content authors and developers to provide alternatives for non-text co
 {:/}
 
 * **WCAG**
-  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#qr-text-equiv-all) ([Understanding 1.1.1](/TR/UNDERSTANDING-WCAG20/text-equiv-all.html))
+  * [Non-text Content 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
@@ -610,8 +610,8 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 {:/}
 
 * **WCAG**
-  * [Audio Control 1.4.2](/WAI/WCAG20/quickref/#qr-visual-audio-contrast-dis-audio) ([Understanding 1.4.2](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html))
-  * [Pause, Stop, Hide 2.2.2](/WAI/WCAG20/quickref/#qr-time-limits-pause) ([Understanding 2.2.2](/TR/UNDERSTANDING-WCAG20/time-limits-pause.html))
+  * [Audio Control 1.4.2](/WAI/WCAG21/quickref/#audio-control) ([Understanding 1.4.2](/WAI/WCAG21/Understanding/audio-control))
+  * [Pause, Stop, Hide 2.2.2](/WAI/WCAG21/quickref/#pause-stop-hide) ([Understanding 2.2.2](/WAI/WCAG21/Understanding/pause-stop-hide))
 * **Tutorial**
   * [Carousel Concepts](/WAI/tutorials/carousels/)
 
