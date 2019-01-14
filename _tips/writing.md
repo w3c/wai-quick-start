@@ -102,7 +102,7 @@ For each web page, provide a short title that describes the page content and dis
 {:/}
 
 * **WCAG**
-  * [Page Titled 2.4.2]( /WAI/WCAG21/quickref/#page-titled) ([Understanding 2.4.2](/WAI/WCAG21/Understanding/page-titled))
+  * [Page Titled 2.4.2](/WAI/WCAG21/quickref/#page-titled) ([Understanding 2.4.2](/WAI/WCAG21/Understanding/page-titled))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
