@@ -592,14 +592,14 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
-* [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) – Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles) – An introduction to the <abbr>WCAG</abbr> requirements
-* [How people with disabilities use the web](/WAI/intro/people-use-web) – Real-life examples of the benefits of accessibility for people with disabilities
-* [Web Accessibility Tutorials](/WAI/tutorials/) – Shows you how to develop web content that is accessible to people with disabilities
-* [Before and After Demonstration](/WAI/demos/bad/) – Example accessible and inaccessible websites that share the same visual design, with annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr>WCAG</abbr>
-* [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) – customizable reference of all WCAG requirements and techniques
-* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) – Provides a range of tools to help explore the accessibility of code
-* [<abbr>WAI-ARIA</abbr> Overview](/WAI/intro/aria) – Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
+* [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — Introduces accessibility and provides links to many helpful resources
+* [Accessibility Principles](/WAI/intro/people-use-web/principles) — An introduction to the <abbr>WCAG</abbr> requirements
+* [How people with disabilities use the web](/WAI/intro/people-use-web) — Real-life examples of the benefits of accessibility for people with disabilities
+* [Web Accessibility Tutorials](/WAI/tutorials/) — Shows you how to develop web content that is accessible to people with disabilities
+* [Before and After Demonstration](/WAI/demos/bad/) — Example accessible and inaccessible websites that share the same visual design, with annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr>WCAG</abbr>
+* [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) — customizable reference of all WCAG requirements and techniques
+* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) — Provides a range of tools to help explore the accessibility of code
+* [<abbr>WAI-ARIA</abbr> Overview](/WAI/intro/aria) — Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
 
 {::nomarkdown}
 {% include box.html type="end" %}

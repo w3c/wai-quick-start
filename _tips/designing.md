@@ -625,13 +625,13 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
-* [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) &mdash; covers broad issues, such as the business case, and links to helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles) &mdash; introduces the concepts behind the web accessibility requirements
-* [How people with disabilities use the web](/WAI/intro/people-use-web) &mdash; explores the impact of accessible design with real-life examples
-* [Web Accessibility Tutorials](/WAI/tutorials/) &mdash; includes some guidance related to designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
-* [Before and After Demonstration](/WAI/demos/bad/) &mdash; shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
-* [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) &mdash; customizable reference of all WCAG requirements and techniques
-* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) &mdash; includes tools to help explore contrast ratio
+* [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — covers broad issues, such as the business case, and links to helpful resources
+* [Accessibility Principles](/WAI/intro/people-use-web/principles) — introduces the concepts behind the web accessibility requirements
+* [How people with disabilities use the web](/WAI/intro/people-use-web) — explores the impact of accessible design with real-life examples
+* [Web Accessibility Tutorials](/WAI/tutorials/) — includes some guidance related to designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
+* [Before and After Demonstration](/WAI/demos/bad/) — shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
+* [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) — customizable reference of all WCAG requirements and techniques
+* [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) — includes tools to help explore contrast ratio
 
 {::nomarkdown}
 {% include box.html type="end" %}
