@@ -308,7 +308,6 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
       </form>
     </div>
   </figure>
-  
 </div>
 
 {::nomarkdown}
@@ -321,8 +320,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 
 * **WCAG**
   * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
-  * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#
-  ) ([Understanding 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels))
+  * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
 * **Tutorial**
   * [Visual position of label text](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
 * **User Story**
