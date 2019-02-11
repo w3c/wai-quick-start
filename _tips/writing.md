@@ -183,7 +183,7 @@ View inline example
 {:/}
 
 * **WCAG**
-  * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels/) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
+  * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
   * [Section Headings 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
   * [Info and Relationships 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **User Story**
