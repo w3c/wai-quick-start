@@ -578,7 +578,7 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 {:/}
 
 * **WCAG**
-  * [Non-text Content 1.1.1](/WAI/WCAG20/quickref/#text-equiv-all) ([Understanding 1.1.1](/WAI/WCAG21/quickref/#non-text-content))
+  * [Non-text Content 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Background**
   * [Inaccessibility of CAPTCHA](/TR/turingtest/)
 
