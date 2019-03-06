@@ -27,5 +27,3 @@ Get started with accessibility. These tips introduce some basic considerations f
 * [<span>Writing</span> for Web Accessibility]({{ "/tips/writing/" | relative_url }})<span class="">: </span>Tips for writing and presenting content.
 * [<span>Developing</span> for Web Accessibility]({{ "/tips/developing/" | relative_url }})<span class="">: </span>Tips for markup and coding.
 * [<span>Evaluating</span> Web Accessibility]({{ "/tips/evaluating/" | relative_url }})<span class="">: </span>Tips on checking and assessing.
-* [<span>Procuring</span> Web Accessibility]({{ "/tips/procuring/" | relative_url }})<span class="">: </span>Tips on @@@@.
-* [<span>Advocating</span> for Web Accessibility]({{ "/tips/advocating/" | relative_url }})<span class="">: </span>Tips for understanding and promoting accessibility.
