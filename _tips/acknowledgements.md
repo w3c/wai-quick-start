@@ -12,13 +12,13 @@ footer: >
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
-    <a href="./acknowledgements/">Acknowledgements</a>.
+    <a href=".">Acknowledgements</a>.
     Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>.
     Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
       </p>
 ---
 
-[Tips for Getting Started with Web Accessibility]({{ "/tipls/" | relative_urls }}) are developed by
+[Tips for Getting Started with Web Accessibility](/tips/) are developed by
 the [Education Outreach Working Group (EOWG)](https://www.w3.org/WAI/EO/). They were
 initially developed with support from the [WAI-DEV](https://www.w3.org/WAI/DEV/) project,
 co-funded by the European Commission IST Programme.
