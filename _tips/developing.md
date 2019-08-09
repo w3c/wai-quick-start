@@ -16,7 +16,7 @@ last_updated: 2019-01-09   # change to date of translation
 # - name: "Other Name"
 
 layout: default
-order: 2
+order: 3
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#developing
 
