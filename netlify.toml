@@ -1,0 +1,11 @@
+[Settings]
+
+ID = "wai-quick-start"
+
+[build]
+
+command = "bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
+
+[[redirects]]
+  from = "/"
+  to = "/tips/"
