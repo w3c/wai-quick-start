@@ -51,7 +51,7 @@ defaults:
     scope:
       path: "_tips"
     values:
-      layout: "sidenav"
+      layout: "default"
 
 plugins:
   - jekyll-seo-tag
