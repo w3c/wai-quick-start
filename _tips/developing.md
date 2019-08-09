@@ -1,22 +1,24 @@
 ---
-title: Tips for Getting Started Developing for Web Accessibility
-title_html: "Tips for Getting Started<br> Developing for Web Accessibility"
+title: Developing for Web Accessibility
 nav_title: Developing Tips
 
 ref: /tips/developing/   # Do not change this
 permalink: /tips/developing/   # add language code  /tips/developing/@@
 lang: en   # change language code
 github:
-   repository: w3c/wai-quick-start/
-   path: developing.md'   # add language code developing.@@.md
+   repository: w3c/wai-quick-start
+   path: '_tips/developing.md'   # add language code developing.@@.md
 last_updated: 2019-01-09   # change to date of translation
 # translators: 
 # - name: "Your Name"
 # contributors:
 # - name: "Other Name"
 
-layout: default
-order: 3
+resource:
+  ref: /tips/
+navigation:
+  previous: /tips/writing/
+  
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#developing
 
