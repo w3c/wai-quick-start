@@ -1,14 +1,29 @@
 ---
 title: Tips for Getting Started Designing for Web Accessibility
-title_html: "Tips for Getting Started<br>Designing for Web Accessibility"
+title_html: "Tips for Getting Started<br> Designing for Web Accessibility"
 nav_title: Designing Tips
+
+ref: /tips/designing/   # Do not change this
+permalink: /tips/designing/   # add language code  /tips/designing/@@
+lang: en   # change language code
+github:
+   repository: w3c/wai-quick-start/
+   path: 'designing.md'   # add language code designing.@@.md
+last_updated: 2019-01-09   # change to date of translation
+# translators: 
+# - name: "Your Name"
+# contributors:
+# - name: "Other Name"
+
+layout: default
 order: 1
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#designing
-footer: >
+
+footer: >   # translate text and dates; do not update dates
   <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
-  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
+  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 
 ---
 
