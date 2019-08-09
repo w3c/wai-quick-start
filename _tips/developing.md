@@ -18,7 +18,7 @@ last_updated: 2019-01-09   # change to date of translation
 layout: default
 order: 2
 ext_css: tips.css
-title_icon: /tips/img/icons.svg# developing
+title_icon: /tips/img/icons.svg#developing
 
 footer: >   # translate text and dates; do not update dates
   <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
