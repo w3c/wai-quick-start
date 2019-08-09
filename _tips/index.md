@@ -5,6 +5,8 @@ permalink: /tips/
 ref: /tips/
 parent: "/"
 
+lang: en
+
 resource:
   title: "Tips for Getting Started"
   ref: /tips/
