@@ -1,6 +1,6 @@
 # Tips for Getting Started
 
-Preview: https://w3c.github.io/wai-quick-start/tips/
+Preview: https://wai-quick-start.netlify.com
 
 Formerly at https://www.w3.org/WAI/gettingstarted/tips/
 
