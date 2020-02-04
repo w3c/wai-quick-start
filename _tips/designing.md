@@ -1,8 +1,15 @@
 ---
-title: Tips for Getting Started Designing for Web Accessibility
-title_html: "Tips for Getting Started<br>Designing for Web Accessibility"
-nav_title: Designing Tips
-order: 1
+title: "Designing for Web Accessibility – Tips for Getting Started"
+title_html: "Designing for Web Accessibility"
+nav_title: Tips for Designing
+permalink: /tips/designing/
+ref: /tips/designing/
+lang: en
+navigation:
+  previous: /tips/writing/
+  next: /tips/developing/
+resource:
+  ref: /tips/
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#designing
 footer: >

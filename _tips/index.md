@@ -2,8 +2,10 @@
 title: Tips for Getting Started
 nav_title: Overview
 permalink: /tips/
-parent: "/"
-order: 0
+ref: /tips/
+lang: en
+navigation:
+  next: /tips/writing/
 footer: >
   <p>
     <strong>Status:</strong>
