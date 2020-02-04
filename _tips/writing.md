@@ -2,20 +2,38 @@
 title: "Writing for Web Accessibility – Tips for Getting Started"
 title_html: "Writing for Web Accessibility"
 nav_title: Tips for Writing
-permalink: /tips/writing/
-ref: /tips/writing/
+
+ref: /tips/writing/   # Do not change this
+permalink: /tips/writing/   # add language code  /tips/writing/@@
 lang: en
 navigation:
   previous: /tips/
   next: /tips/designing/
 resource:
   ref: /tips/
+navigation:
+  previous: /tips/
+  next:     /tips/designing/
+
+lang: en   # change language code
+github:
+   repository: w3c/wai-quick-start
+   path: '_tips/writing.md'   # add language code writing.@@.md
+last_updated: 2019-01-09   # change to date of translation
+# translators:
+# - name: "Your Name"
+# contributors:
+# - name: "Other Name"
+
+layout: default
+order: 2
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#writing
-footer: >
+
+footer: >   # translate text and dates; do not update dates
   <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
-  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
+  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 
 ---
 
@@ -41,6 +59,7 @@ This page introduces some basic considerations to help you get started writing w
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
+
 ## Provide informative, unique page titles
 
 For each web page, provide a short title that describes the page content and distinguishes it from other pages. The page title is often the same as the main heading of the page. Put the unique and most relevant information first; for example, put the name of the page before the name of the organization. For pages that are part of a multi-step process, include the current step in the page title.
@@ -114,6 +133,7 @@ For each web page, provide a short title that describes the page content and dis
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
+
 ## Use headings to convey meaning and structure
 
 Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline of the content.

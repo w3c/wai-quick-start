@@ -2,20 +2,34 @@
 title: "Designing for Web Accessibility – Tips for Getting Started"
 title_html: "Designing for Web Accessibility"
 nav_title: Tips for Designing
-permalink: /tips/designing/
-ref: /tips/designing/
-lang: en
+ref: /tips/designing/   # Do not change this
+permalink: /tips/designing/   # add language code  /tips/designing/@@
+lang: en   # change language code
 navigation:
   previous: /tips/writing/
   next: /tips/developing/
+github:
+   repository: w3c/wai-quick-start
+   path: '_tips/designing.md'   # add language code designing.@@.md
+last_updated: 2019-01-09   # change to date of translation
+# translators:
+# - name: "Your Name"
+# contributors:
+# - name: "Other Name"
+
 resource:
   ref: /tips/
+navigation:
+  previous: /tips/writing/
+  next:     /tips/developing/
+
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#designing
-footer: >
+
+footer: >   # translate text and dates; do not update dates
   <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
-  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
+  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 
 ---
 
@@ -42,6 +56,7 @@ This page introduces some basic considerations to help you get started making yo
 {::nomarkdown}
 {% include_cached toc.html type="end" %}
 {:/}
+
 ## Provide sufficient contrast between foreground and background
 
 Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr>WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
@@ -76,15 +91,16 @@ Foreground text needs to have sufficient contrast with background colors. This i
 * **WCAG**
   * [Contrast (Minimum) 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([Understanding 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
 * **User Story**
-  * [How a user with "color blindness" experiences the Web]({{ "/people-use-web/user-stories/" | relative_url }}#shopper)
+  * [How a user with "color blindness" experiences the Web](/people-use-web/user-stories/#shopper)
 * **Easy Check**
-  * [How to check contrast ratio]({{ "/test-evaluate/preliminary/" | relative_url }}#contrast)
+  * [How to check contrast ratio](/test-evaluate/preliminary/#contrast)
 * **Support Tools**
   * [List of tools to help determine contrast ratio](/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-resources-head)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
+
 ## Don't use color alone to convey information
 
 While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. For example, use an asterisk in addition to color to indicate required form fields, and use labels to distinguish areas on graphs.
@@ -196,7 +212,7 @@ While color can be useful to convey information, color should not be the only wa
 * **WCAG**
   * [Use of Color 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([Understanding 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
 * **User Story**
-  * [How a user with "color blindness" experiences the Web]({{ "/people-use-web/user-stories/" | relative_url }}#shopper)
+  * [How a user with "color blindness" experiences the Web](/people-use-web/user-stories/#shopper)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -256,8 +272,8 @@ Provide distinct styles for interactive elements, such as links and buttons, to 
   * [Focus Visible 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([Understanding 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
   * [Consistent Identification 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **User Story**
-  * [Challenges faced by someone with a limited ability to use a mouse]({{ "/people-use-web/user-stories/" | relative_url }}#reporter)
-  * [Challenges faced by an older user with hand tremors]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
+  * [Challenges faced by someone with a limited ability to use a mouse](/people-use-web/user-stories/#reporter)
+  * [Challenges faced by an older user with hand tremors](/people-use-web/user-stories/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -275,7 +291,7 @@ Ensure that navigation across pages within a website has consistent naming, styl
   * [Consistent Navigation 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([Understanding 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
   * [Multiple Ways 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([Understanding 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
 * **User Story**
-  * [How consistency and navigation can help someone with cognitive difficulties]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
+  * [How consistency and navigation can help someone with cognitive difficulties](/people-use-web/user-stories/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -331,7 +347,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
 * **Tutorial**
   * [Visual position of label text](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
 * **User Story**
-  * [How clear labelling can help someone with cognitive difficulties]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
+  * [How clear labelling can help someone with cognitive difficulties](/people-use-web/user-stories/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -396,7 +412,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 * **Tutorial**
   * [User Notifications](/WAI/tutorials/forms/notifications/)
 * **User Story**
-  * [How making important content easily identifiable can help]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
+  * [How making important content easily identifiable can help](/people-use-web/user-stories/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -507,7 +523,7 @@ Use whitespace and proximity to make relationships between content more apparent
 * **Tutorial**
   * [Headings](/WAI/tutorials/page-structure/headings/)
 * **User Story**
-  * [Describes how headings can be helpful for navigation]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
+  * [Describes how headings can be helpful for navigation](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -544,7 +560,7 @@ Consider how page information is presented in different sized viewports, such as
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
   * [Mobile considerations related to Understandability](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
 * **User Story**
-  * [Describes how alternative views of zoomed pages can be helpful]({{ "/people-use-web/user-stories/" | relative_url }}#retiree)
+  * [Describes how alternative views of zoomed pages can be helpful](/people-use-web/user-stories/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -586,7 +602,7 @@ Work with content authors and developers to provide alternatives for non-text co
 * **Tutorial**
   * [Images](/WAI/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
+  * [Describes the value of text alternatives to a blind user](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
