@@ -20,8 +20,8 @@ last_updated: 2019-01-09   # change to date of translation
 resource:
   ref: /tips/
 navigation:
-  previous: /tips/
-  next:     /tips/writing/
+  previous: /tips/writing/
+  next:     /tips/developing/
 
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#designing
