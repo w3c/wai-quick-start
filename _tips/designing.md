@@ -1,15 +1,18 @@
 ---
-title: Designing for Web Accessibility
-nav_title: Designing Tips
-
+title: "Designing for Web Accessibility – Tips for Getting Started"
+title_html: "Designing for Web Accessibility"
+nav_title: Tips for Designing
 ref: /tips/designing/   # Do not change this
 permalink: /tips/designing/   # add language code  /tips/designing/@@
 lang: en   # change language code
+navigation:
+  previous: /tips/writing/
+  next: /tips/developing/
 github:
    repository: w3c/wai-quick-start
    path: '_tips/designing.md'   # add language code designing.@@.md
 last_updated: 2019-01-09   # change to date of translation
-# translators: 
+# translators:
 # - name: "Your Name"
 # contributors:
 # - name: "Other Name"

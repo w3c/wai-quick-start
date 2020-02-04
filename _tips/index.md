@@ -3,15 +3,17 @@ title: Tips for Getting Started
 nav_title: Overview
 permalink: /tips/
 ref: /tips/
-parent: "/"
-
 lang: en
 
 resource:
   title: "Tips for Getting Started"
   ref: /tips/
 navigation:
-  next: /tips/designing/
+  next: /tips/writing/
+
+github:
+   repository: w3c/wai-quick-start
+   path: '_tips/index.md'   # add language code index.@@.md
 
 footer: >
   <p>

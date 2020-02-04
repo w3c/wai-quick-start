@@ -1,22 +1,26 @@
 ---
-title: Writing for Web Accessibility
-nav_title: Writing Tips 
+title: "Writing for Web Accessibility – Tips for Getting Started"
+title_html: "Writing for Web Accessibility"
+nav_title: Tips for Writing
 
 ref: /tips/writing/   # Do not change this
 permalink: /tips/writing/   # add language code  /tips/writing/@@
-
+lang: en
+navigation:
+  previous: /tips/
+  next: /tips/designing/
 resource:
   ref: /tips/
 navigation:
-  previous: /tips/designing/
-  next:     /tips/developing/
+  previous: /tips/
+  next:     /tips/designing/
 
 lang: en   # change language code
 github:
    repository: w3c/wai-quick-start
    path: '_tips/writing.md'   # add language code writing.@@.md
 last_updated: 2019-01-09   # change to date of translation
-# translators: 
+# translators:
 # - name: "Your Name"
 # contributors:
 # - name: "Other Name"
