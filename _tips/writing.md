@@ -19,7 +19,7 @@ lang: en   # change language code
 github:
    repository: w3c/wai-quick-start
    path: '_tips/writing.md'   # add language code writing.@@.md
-last_updated: 2019-01-09   # change to date of translation
+last_updated: 2020-12-01   # change to date of translation
 # translators:
 # - name: "Your Name"
 # contributors:
@@ -31,7 +31,7 @@ ext_css: tips.css
 title_icon: /tips/img/icons.svg#writing
 
 footer: >   # translate text and dates; do not update dates
-  <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
+  <p><strong>Date:</strong> Updated 1 December 2020. First published September 2015.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
   <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 
@@ -157,13 +157,13 @@ View inline example
 
 <p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
 
-<p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section. Sub-headers proceed through increasing header levels.</p>
+<p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section.</p>
 
 <p>Visual readers identify headers by scanning pages for text of a larger size or a different style. Assistive technology users are not able to see these visual changes, so changing the style is not a sufficient cue.</p>
 
-<p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. This can be presented to the user as a navigation aid.</p>
+<p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. Then headings can also be used for navigation.</p>
 
-<p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
+<p>This makes adding headings one of the most important tools for screen reader users, so that they can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
 
 <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
 {% include_cached excol.html type="end" %}
@@ -186,15 +186,15 @@ View inline example
 
 <h4><span class="visuallyhidden">Example: </span>Heading Levels</h4>
 
-<p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section. Sub-headers proceed through increasing header levels.</p>
+<p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section.</p>
 
 <h3><span class="visuallyhidden">Example: </span>Meaning vs. Formatting</h3>
 
 <p>Visual readers identify headers by scanning pages for text of a larger size or a different style. Assistive technology users are not able to see these visual changes, so changing the style is not a sufficient cue.</p>
 
-<p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. This can be presented to the user as a navigation aid.</p>
+<p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. Then headings can also be used for navigation.</p>
 
-<p>This makes adding headings one of the most important tools for a screen reader user so that he or she can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
+<p>This makes adding headings one of the most important tools for screen reader users, so that they can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
 
 <cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
 {% include_cached excol.html type="end" %}
@@ -317,6 +317,8 @@ For audio-only content, such a podcast, provide a transcript. For audio and visu
 {::nomarkdown}
 {% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
+
+* **[[Making Audio and Video Media Accessible]](/media/av/)**
 
 * **WCAG**
   * [Captions (Prerecorded) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Understanding 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
