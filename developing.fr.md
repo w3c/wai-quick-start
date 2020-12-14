@@ -831,7 +831,7 @@ Utilisez <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> pou
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
