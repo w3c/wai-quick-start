@@ -4,7 +4,7 @@ ID = "wai-quick-start"
 
 [build]
 
-command = "bundle exec jekyll build --config '_config.yml,_config_staging.yml'"
+command = "bundle exec jekyll build -V --config '_config.yml,_config_staging.yml'"
 publish = "_site"
 
 [[redirects]]
