@@ -88,7 +88,7 @@ Le texte du premier plan doit offrir un contraste suffisant par rapport aux coul
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -209,7 +209,7 @@ Bien que la couleur peut servir à véhiculer des informations, elle ne devrait 
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -268,7 +268,7 @@ Fournissez des styles différents pour les éléments interactifs, tels que les 
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -287,7 +287,7 @@ Fournissez des styles différents pour les éléments interactifs, tels que les 
 Veillez à ce que le nom, le style et le positionnement de la navigation dans les pages de votre site Web soient cohérents. Fournissez plusieurs modes de navigation dans le site Web, tels qu'une option de recherche au sein du site ou un plan du site. Aidez les utilisateurs à comprendre où ils se trouvent sur le site ou la page en fournissant des indices d'orientation, comme des fils d'Ariane et des titres clairs.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -341,7 +341,7 @@ Veillez à ce que tous les champs aient une étiquette descriptive adjacente au 
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -361,7 +361,7 @@ Veillez à ce que tous les champs aient une étiquette descriptive adjacente au 
 Fournissez un feedback pour les interactions, tel que la confirmation de la soumission d'un formulaire, avertir l'utilisateur en cas de problème, ou informer l'utilisateur des modifications survenues sur une page. Les instructions doivent être faciles à identifier. Un feedback important nécessitant l'action de l'utilisateur doit s'afficher dans un style bien visible.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : utiliser une liste d\'erreurs, des icônes, et des couleurs d\'arrière-plan pour faire ressortir les erreurs" class="example" icon="check-circle" %}
+{% include_cached box.html type="start" title="Exemple : utiliser une liste d'erreurs, des icônes, et des couleurs d'arrière-plan pour faire ressortir les erreurs" class="example" icon="check-circle" %}
 {:/}
 
 <div class="errors">
@@ -405,7 +405,7 @@ Fournissez un feedback pour les interactions, tel que la confirmation de la soum
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -426,7 +426,7 @@ Fournissez un feedback pour les interactions, tel que la confirmation de la soum
 Utilisez des blancs et la proximité pour faire ressortir les relations entre les différents contenus. Appliquez des styles aux titres pour regrouper les contenus, mieux les organiser, et en faciliter la lecture et la compréhension.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : l\'espacement met en exergue la relation entre les contenus" class="example" %}
+{% include_cached box.html type="start" title="Exemple : l'espacement met en exergue la relation entre les contenus" class="example" %}
 {:/}
 
 <div class="headings two-column">
@@ -517,7 +517,7 @@ Utilisez des blancs et la proximité pour faire ressortir les relations entre le
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -556,7 +556,7 @@ Prêtez attention à l'agencement des informations contenues dans les pages dans
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **Arrière-plan**
@@ -597,7 +597,7 @@ Travaillez avec les auteurs et les développeurs du contenu pour fournir des éq
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -616,7 +616,7 @@ Travaillez avec les auteurs et les développeurs du contenu pour fournir des éq
 Fournissez des boutons de commande visibles pour permettre aux utilisateurs d'arrêter toute animation ou tout son qui démarre automatiquement. Cela s'applique aux carrousels, aux diaporamas d'images, au son de fond, et aux vidéos.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : afficher les boutons de commande de démarrage, d\'arrêt, et de sélection dans le design du carrousel." class="example" %}
+{% include_cached box.html type="start" title="Exemple : afficher les boutons de commande de démarrage, d'arrêt, et de sélection dans le design du carrousel." class="example" %}
 {:/}
 
 <div class="autoplay">
@@ -632,7 +632,7 @@ Fournissez des boutons de commande visibles pour permettre aux utilisateurs d'ar
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -646,7 +646,7 @@ Fournissez des boutons de commande visibles pour permettre aux utilisateurs d'ar
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="En savoir plus sur l\'accessibilité" class="large" icon="readmore" %}
+{% include box.html type="start" title="En savoir plus sur l'accessibilité" class="large" icon="readmore" %}
 {:/}
 
 Ces conseils sont quelques-uns des éléments à prendre en compte pour l'accessibilité Web. Les ressources suivantes vous aident à comprendre l'importance de l'accessibilité, et à prendre connaissance des recommandations pour rendre le Web plus accessible pour les personnes handicapées.
