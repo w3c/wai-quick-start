@@ -209,7 +209,7 @@ Bien que la couleur peut servir à véhiculer des informations, elle ne devrait 
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations class="simple" %}
+{% include_cached box.html type="start" title="Plus d\'informations class="simple" %}
 {:/}
 
 * **WCAG**
@@ -405,7 +405,7 @@ Fournissez un feedback pour les interactions, tel que la confirmation de la soum
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d\'informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -426,7 +426,7 @@ Fournissez un feedback pour les interactions, tel que la confirmation de la soum
 Utilisez des blancs et la proximité pour faire ressortir les relations entre les différents contenus. Appliquez des styles aux titres pour regrouper les contenus, mieux les organiser, et en faciliter la lecture et la compréhension.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : l'espacement met en exergue la relation entre les contenus" class="example" %}
+{% include_cached box.html type="start" title="Exemple : l\'espacement met en exergue la relation entre les contenus" class="example" %}
 {:/}
 
 <div class="headings two-column">
