@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'github-pages'
 gem 'jekyll-github-metadata'
 gem 'jekyll-relative-links'
 gem 'jekyll-seo-tag'
