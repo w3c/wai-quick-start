@@ -1,7 +1,3 @@
-[Settings]
-
-ID = "wai-quick-start"
-
 [build]
 
 command = "bundle exec jekyll build -V --config '_config.yml,_config_staging.yml'"
