@@ -1,6 +1,6 @@
 ---
-title: "L'écriture pour l'accessibilité Web – Conseils pour démarrer"
-title_html: "L'écriture pour l'accessibilité Web"
+title: "Un texte accessible – Conseils pour démarrer"
+title_html: "Un texte accessible"
 nav_title: Conseils pour démarrer
 
 ref: /tips/writing/   # Do not change this
@@ -20,10 +20,10 @@ github:
    repository: w3c/wai-quick-start
    path: '_tips/writing.fr.md'   # add language code writing.@@.md
 last_updated: 2020-11-09   # change to date of translation
-Translators:
--name: Sofia Ahmed
-# contributors:
-# - name: "Other Name"
+Traducteurs :
+-nom : Sofia Ahmed
+# contributeurs :
+# - nom : "Sandra Velazquez Gonzalez"
 
 layout: default
 order: 2
@@ -31,9 +31,9 @@ ext_css: tips.css
 title_icon: /tips/img/icons.svg#writing
 
 footer: >   # translate text and dates; do not update dates
-  <p><strong>Date :</strong> Mise à jour mineure : 9 janvier 2019. Mise à jour : 15 April 2016. Première publication en septembre 2015.</p>
-  <p><strong>Auteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Remerciements</a>.</p>
-  <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et promotion (EOWG)</a>.
+  <p><strong>Date :</strong> Mise à jour mineure : 9 janvier 2019. Mise à jour : 15 avril 2016. Première publication en septembre 2015.</p>
+  <p><strong>Rédacteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Remerciements</a>.</p>
+  <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion (EOWG)</a>.
   Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l'information">IST</abbr> de la Commission européenne.</p>
 
 ---
@@ -42,7 +42,7 @@ footer: >   # translate text and dates; do not update dates
 {% include box.html type="start" h="2" title="Résumé" class="full" %}
 {:/}
 
-Cette page présente certaines considérations fondamentales pour vous aider à démarrer dans l'écriture de contenu Web plus accessible pour les personnes en situation de handicap. Ces conseils sont de bonnes pratiques pour vous aider à satisfaire aux exigences des Règles pour l'accessibilité des contenus Web (WCAG). Retrouvez plus d'informations via les liens vers les recommandations des WCAG correspondantes, les documents intitulés "Comprendre" qui comprennent des informations complémentaires détaillées, les tutoriels pour vous accompagner, les témoignages d'utilisateurs, et plus encore.
+Cette page présente certaines considérations fondamentales pour vous aider à démarrer dans la rédaction de contenu Web plus accessible pour les personnes en situation de handicap. Ces conseils sont de bonnes pratiques pour vous aider à satisfaire aux exigences des Règles pour l'accessibilité des contenus Web (WCAG). Retrouvez plus d'informations via les liens vers les recommandations des WCAG correspondantes, les documents intitulés "Comprendre" qui comprennent des informations complémentaires détaillées, les tutoriels pour vous accompagner, les témoignages d'utilisateurs, et plus encore.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -154,7 +154,7 @@ Voir un exemple de page en ligne
 {% include_cached excol.html type="middle" %}
 <h2 id="no-headings-modal-title"><span class="visuallyhidden">Exemple : </span>Titres et sous-titres</h2>
 
-<p>Les éléments HTML fournissent des informations sur la hiérarchie structurelle d'un document. Utiliser correctement les élements permet de donner plus de sens aux technologies d'assistance. Dans de nombreux cas, cela va également rendre l'édition de votre document plus facile..</p>
+<p>Les éléments HTML fournissent des informations sur la hiérarchie structurelle d'un document. Utiliser correctement les élements permet de donner plus de sens aux technologies d'assistance. Dans de nombreux cas, cela va également rendre l'édition de votre document plus facile.</p>
 
 <p>Pour les documents plus longs que trois ou quatre paragraphes, les titres et les sous-titres sont importants pour faciliter l'utilisation et l'accessibilité. Ils permettent aux utilisateurs de déterminer les grandes lignes d'un document et d'orienter leur navigation vers des informations spécifiques en fonction de leurs intérêts.</p>
 
@@ -226,7 +226,7 @@ Voir un exemple de page en ligne
 Écrivez le texte du lien de manière à décrire le contenu relatif au lien. Évitez un texte de lien ambigu, tel que "cliquez ici" ou "en savoir plus". Indiquez les informations pertinentes du contenu relatif au lien, comme le type et la taille du document, par exemple, "Document de proposition (RTF, 20Mo)".
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple: utiliser le texte du lien pour décrire la page relative" class="example" %}
+{% include_cached box.html type="start" title="Exemple : utiliser le texte du lien pour décrire la page relative" class="example" %}
 {:/}
 
 <div class="meaningful-links two-column">
@@ -311,7 +311,7 @@ Pour chaque image, rédigez un équivalent textuel qui fournit des informations 
 {% include_cached box.html type="end" %}
 {:/}
 
-## Créez des transcriptions et des sous-titres pour les contenus multimédia
+## Créez des transcriptions et des sous-titres pour les contenus multimédias
 
 Pour du contenu uniquement audio, tel qu'un podcast, fournissez une transcription. Pour du contenu audio et visuel, tel que les vidéos de formation, fournissez également des sous-titres. Incluez dans les transcriptions et les sous-titres les informations parlées et les sons importants à la compréhension du contenu, par exemple, "la porte grince". Pour les transcriptions de vidéo, incluez également une description du contenu visuel important, par exemple "Athan quitte la pièce".
 
@@ -321,7 +321,7 @@ Pour du contenu uniquement audio, tel qu'un podcast, fournissez une transcriptio
 
 * **WCAG**
   * [Sous-titres (pré-enregistrés) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Comprendre 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
-  * [Audio-description ou version de remplacement pour un média temporel (pré-enregistré) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Comprendre 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
+  * [Audiodescription ou version de remplacement pour un média temporel (pré-enregistré) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Comprendre 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **Témoignage d'utilisateur**
   * [Décrit de quelle manière les sous-titres aident un étudiant sourd]({{ "/people-use-web/user-stories/#onlinestudent" | relative_url }})
 
@@ -392,7 +392,7 @@ Assurez-vous que les instructions, l'aide, et les messages d'erreur sont clairs,
 Utilisez un langage et une mise en forme simples, adaptés au contexte.
 
 * Rédigez des phrases et des paragraphes à la fois courts et clairs.
-* Éviter l'utilisation de mots et de phrases trop compliqués. Envisagez de fournir un glossaire pour les termes que les utilisateurs pourraient ne pas connaître.
+* Évitez l'utilisation de mots et de phrases trop compliqués. Envisagez de fournir un glossaire pour les termes que les utilisateurs pourraient ne pas connaître.
 * Décrivez les acronymes à la première apparition. Par exemple, Les règles pour l'accessibilité des contenus Web (WCAG).
 * Envisagez de fournir un glossaire pour les termes que les utilisateurs pourraient ne pas connaître.
 * Utilisez un formatage de liste si nécessaire.
@@ -452,7 +452,7 @@ Ces conseils sont quelques-uns des éléments à prendre en compte pour l'access
 * [Introduction à l'accessibilité]({{ "/fundamentals/accessibility-intro/" | relative_url }}) — Introduit l'accessibilité et fournit des liens vers de nombreuses ressources utiles
 * [Principes d'accessibilité]({{ "/fundamentals/accessibility-intro/" | relative_url }}) — Une introduction aux recommandations des <abbr>WCAG</abbr>
 * [Comment les personnes en sitution de handicap utilisent le Web]({{ "/people-use-web/" | relative_url }}) — Exemples concrets soulignant l'importance de l'accessibilité pour les personnes en situation de handicap
-* [Comment répondres aux exigences des WCAG (Référence rapide)](/WAI/WCAG21/quickref/) — référence personnalisable de toutes recommandations et techniques des WCAG
+* [Comment répondre aux exigences des WCAG (Référence rapide)](/WAI/WCAG21/quickref/) — référence personnalisable de toutes recommandations et techniques des WCAG
 
 {::nomarkdown}
 {% include box.html type="end" %}
