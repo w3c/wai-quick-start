@@ -1,6 +1,6 @@
 ---
-title: "Le design pour l'accessibilité Web – Conseils pour démarrer"
-title_html: "Le design pour l'accessibilité Web"
+title: "Un design accessible – Conseils pour démarrer"
+title_html: "Un design accessible"
 nav_title: Conseils pour démarrer
 ref: /tips/designing/   # Do not change this
 permalink: /tips/designing/fr   # add language code  /tips/designing/@@
@@ -12,12 +12,10 @@ github:
    repository: w3c/wai-quick-start
    path: '_tips/designing.fr.md'   # add language code designing.@@.md
 last_updated: 2020-11-17   # change to date of translation
-# translators:
-Translators:
--name: Sofia Ahmed
-# - name: "Your Name"
-# contributors:
-# - name: "Other Name"
+translators:
+- name: "Sofia Ahmed"
+contributors:
+- name: "Sandra Velarde Gonzalez (ETNIC)"
 
 resource:
   ref: /tips/
@@ -30,8 +28,8 @@ title_icon: /tips/img/icons.svg#designing
 
 footer: >   # translate text and dates; do not update dates
   <p><strong>Date :</strong> Mise à jour mineure : 9 janvier 2019. Mise à jour : 15 avril 2016. Première publication en septembre 2015.</p>
-  <p><strong>Auteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Remerciements</a>.</p>
-  <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et promotion (EOWG)</a>.
+  <p><strong>Rédacteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Remerciements</a>.</p>
+  <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion (EOWG)</a>.
   Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l'information">IST</abbr> de la Commission européenne.</p>
 
 ---
