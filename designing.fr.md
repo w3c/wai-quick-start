@@ -1,6 +1,6 @@
 ---
-title: "Le design pour l'accessibilité Web – Conseils pour démarrer"
-title_html: "Le design pour l'accessibilité Web"
+title: "Un design accessible – Conseils pour démarrer"
+title_html: "Un design accessible"
 nav_title: Conseils pour démarrer
 ref: /tips/designing/   # Do not change this
 permalink: /tips/designing/fr   # add language code  /tips/designing/@@
@@ -12,12 +12,10 @@ github:
    repository: w3c/wai-quick-start
    path: '_tips/designing.fr.md'   # add language code designing.@@.md
 last_updated: 2020-11-17   # change to date of translation
-# translators:
-Translators:
--name: Sofia Ahmed
-# - name: "Your Name"
-# contributors:
-# - name: "Other Name"
+traducteurs :
+- nom : Sofia Ahmed
+contributeurs :
+- nom : "Sandra vela"
 
 resource:
   ref: /tips/
