@@ -18,8 +18,8 @@ footer: >
       </p>
 ---
 
-[Conseils pour démarrer dans l'accessibilité Web](/tips/) sont développés par
-le [Groupe de travail Éducation et promotion (EOWG)](https://www.w3.org/WAI/EO/). Ils ont été
+Les [Conseils pour démarrer dans l'accessibilité Web](/tips/) sont développés par
+le [Groupe de travail Éducation et Promotion (EOWG)](https://www.w3.org/WAI/EO/). Ils ont été
 initialement développés avec le soutien du projet [WAI-DEV](https://www.w3.org/WAI/DEV/),
 co-financé par le programme IST de la Commission européenne.
 
