@@ -8,12 +8,12 @@ footer: >
       15 avril 2016
     (première publication en septembre 2015)
     <br>
-    <strong>Auteurs :</strong>
+    <strong>Rédacteurs :</strong>
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
     <a href=".">Rerciements</a>.
-    Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et promotion (EOWG)</a>.
+    Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion (EOWG)</a>.
     Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l'information">IST</abbr> de la Commission européenne.
       </p>
 ---
@@ -26,11 +26,11 @@ co-financé par le programme IST de la Commission européenne.
 Direction du projet
 ------------------
 
-### Auteur principal
+### Rédacteur principal
 
 -   [Kevin White](https://www.w3.org/People/kevin), WAI du W3C
 
-### Auteurs contributeurs
+### Rédacteurs contributeurs
 
 -   [Shadi Abou-Zahra](https://www.w3.org/People/shadi), WAI du W3C
 -   [Shawn Lawton Henry](https://www.w3.org/People/shawn), WAI du W3C
