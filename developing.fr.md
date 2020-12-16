@@ -1,6 +1,6 @@
 ---
-title: "Le design pour l'accessibilité Web – Conseils pour démarrer"
-title_html: "Le design pour l'accessibilité Web"
+title: "Une conception accessible – Conseils pour démarrer"
+title_html: "Une conception accessible"
 nav_title: Conseils pour démarrer
 ref: /tips/designing/   # Do not change this
 permalink: /tips/designing/fr   # add language code  /tips/designing/@@
@@ -12,12 +12,10 @@ github:
    repository: w3c/wai-quick-start
    path: '_tips/designing.fr.md'   # add language code designing.@@.md
 last_updated: 2020-11-17   # change to date of translation
-# translators:
-Translators:
--name: Sofia Ahmed
-# - name: "Your Name"
-# contributors:
-# - name: "Other Name"
+translators:
+- name: "Sofia Ahmed"
+contributors:
+- name: "Sandra Velarde Gonzalez (ETNIC)"
 
 resource:
   ref: /tips/
@@ -30,8 +28,8 @@ title_icon: /tips/img/icons.svg#designing
 
 footer: >   # translate text and dates; do not update dates
   <p><strong>Date :</strong> Mise à jour mineure : 9 janvier 2019. Mise à jour : 15 avril 2016. Première publication en septembre 2015.</p>
-  <p><strong>Auteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Remerciements</a>.</p>
-  <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et promotion (EOWG)</a>.
+  <p><strong>Rédacteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Remerciements</a>.</p>
+  <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion (EOWG)</a>.
   Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l'information">IST</abbr> de la Commission européenne.</p>
 
 ---
@@ -40,7 +38,7 @@ footer: >   # translate text and dates; do not update dates
 {% include box.html type="start" h="2" title="Résumé" class="full" %}
 {:/}
 
-Cette page présente quelques considérations fondamentales à prendre en compte pour démarrer dans la création de design d'interface utilisateur et visuel plus accessible aux personnes en situation de handicap. Ces conseils constituent de bonnes pratiques pour vous aider à satisfaire aux exigences des Règles pour l'accessibilité des contenus Web (WCAG). Retrouvez plus d'informations via les liens vers les recommandations des WCAG correspondantes, les documents intitulés "comprendre" qui comprennent des informations complémentaires détaillées, les tutoriels pour vous accompagner, les témoignages d'utilisateurs, et plus encore.
+Cette page présente quelques considérations fondamentales à prendre en compte pour démarrer dans la création de conception d'interface utilisateur et visuel plus accessible aux personnes en situation de handicap. Ces conseils constituent de bonnes pratiques pour vous aider à satisfaire aux exigences des Règles pour l'accessibilité des contenus Web (WCAG). Retrouvez plus d'informations via les liens vers les recommandations des WCAG correspondantes, les documents intitulés "comprendre" qui comprennent des informations complémentaires détaillées, les tutoriels pour vous accompagner, les témoignages d'utilisateurs, et plus encore.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -62,7 +60,7 @@ Cette page présente quelques considérations fondamentales à prendre en compte
 
 ## Fournir du contraste en suffisance entre le premier plan et l'arrière-plan
 
-Le texte du premier plan doit offrir un contraste suffisant par rapport aux couleurs de l'arrière-plan. Cela comprend le texte sur les images, les dégradés de couleur d'arrière-plan, les boutons, et d'autres éléments. Cela ne s'applique pas pour les logos, ou le texte accessoire, tel que du texte dans une photographie. Les liens ci-dessous fournissent des informations sur le rapport de contraste minimum tel que recommandé par les et sur comment vérifier le contraste. Le "rapport de contraste" est une version abrégée du terme plus techniquement correct "rapport de contraste de la luminance".
+Le texte du premier plan doit offrir un contraste suffisant par rapport aux couleurs de l'arrière-plan. Cela comprend le texte sur les images, les dégradés de couleur d'arrière-plan, les boutons, et d'autres éléments. Cela ne s'applique pas pour les logos, ou le texte accessoire, tel que du texte dans une photographie. Les liens ci-dessous fournissent des informations sur le rapport de contraste minimum tel que recommandé par les et sur comment vérifier le contraste. Le "rapport de contraste" est une version abrégée du terme plus techniquement correct "rapport de contraste de luminance".
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="<strong>Exemple :</strong> Rapport de contraste" class="example" %}
@@ -401,7 +399,7 @@ Cette page présente certaines considérations fondamentales pour vous aider à 
 
 ## Associez une étiquette à chaque commande d'un formulaire
 
-Utilisez un attribut `for` sur l'élément `<label>` relatif à l'attribut `id` de l'élément de formulaire, ou utilisez les attributs <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr>. Dans des situations particulières, il serait acceptable de masquer visuellement les éléments `<label>`, mais la plupart du temps, les étiquettes sont nécessaires pour permettre à tous lecteurs de comprendre la saisie obligatoire.
+Utilisez un attribut `for` sur l'élément `<label>` relatif à l'attribut `id` de l'élément de formulaire, ou utilisez les attributs <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr>. Dans certaines situations particulières, il serait acceptable de masquer visuellement les éléments `<label>`, mais la plupart du temps, les étiquettes sont nécessaires pour permettre à tous les lecteurs de comprendre la saisie obligatoire.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Exemple : utiliser les attributs <code>for</code> et <code>id</code>" class="example" %}
@@ -957,7 +955,7 @@ Ces conseils sont quelques-uns des éléments à prendre en compte pour l'access
 * [Introduction à l'accessibilité Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — introduit à l'accessibilité, et fournit des liens vers de nombreuses ressources utiles
 * [Principes d'accessibilité](/WAI/intro/people-use-web/principles) — présente les concepts liés aux recommandations en matière d'accessibilité Web
 * [Comment les personnes handicapées utilisent le Web](/WAI/intro/people-use-web) — vous explique comment développer un contenu Web accessible aux personnes handicapées
-* [Tutoriels sur l'accessibilité Web](/WAI/tutorials/) — comprend des recommandations relatives au design, par exemple, [fournir un équivalent textuel pour les images](/WAI/tutorials/images/)
+* [Tutoriels sur l'accessibilité Web](/WAI/tutorials/) — comprend des recommandations relatives à la conception, par exemple, [fournir un équivalent textuel pour les images](/WAI/tutorials/images/)
 * [Démonstration avant/après](/WAI/demos/bad/) — montre une version accessible et inaccessible d'un même site Web, ainsi que des commentaires sur les principaux obstacles à l'accessibilité et les moyens pour les éviter, et enfin des rapports d'évaluation pour les WCAG
 * [Comment satisfaire aux WCAG (référence rapide)](/WAI/WCAG21/quickref/) — liste personnalisable de références rapides qui contient toutes les régles et les techniques des WCAG
 * [Liste d'outils d'évaluation de l'accessibilité Web](/WAI/ER/tools/) — comprend des outils pour en savoir plus sur le rapport de contraste
@@ -1161,7 +1159,7 @@ Utilisez des blancs et la proximité pour faire ressortir les relations entre le
 {% include_cached box.html type="end" %}
 {:/}
 
-## Créez des designs pour différentes tailles de fenêtres d'affichage
+## Des conceptions pour différentes tailles de fenêtres d'affichage
 
 Prêtez attention à l'agencement des informations contenues dans les pages dans des fenêtres de tailles différentes, tels que les téléphones mobiles ou des fenêtres de navigateur agrandies. La position et la présentation des éléments principaux, tels que les en-têtes et la navigation, peuvent être modifiés pour mieux utiliser l'espace. Veillez à ce que la taille du texte et la largeur des lignes soient définies de manière à optimiser la lisibilité et la clarté.
 
@@ -1198,9 +1196,9 @@ Prêtez attention à l'agencement des informations contenues dans les pages dans
 {% include_cached box.html type="end" %}
 {:/}
 
-## Incluez des contenus multimédia et des images équivalents dans votre design
+## Incluez des contenus multimédia et des images équivalents dans votre conception
 
-Prévoyez une zone dans votre design pour inclure des contenus multimédia et des images équivalents. Par exemple, vous pourriez avoir besoin :
+Prévoyez une zone dans votre conception pour inclure des contenus multimédia et des images équivalents. Par exemple, vous pourriez avoir besoin :
 
 * Des liens visibles vers les transcriptions de l'audio
 * Des liens visibles vers les versions des vidéos avec audiodescription
@@ -1210,7 +1208,7 @@ Prévoyez une zone dans votre design pour inclure des contenus multimédia et de
 Travaillez avec les auteurs et les développeurs du contenu pour fournir des équivalents pour le contenu non textuel.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : le design comprend des liens vers une transcription et une vidéo avec audiodescription" class="example" %}
+{% include_cached box.html type="start" title="Exemple : la conception comprend des liens vers une transcription et une vidéo avec audiodescription" class="example" %}
 {:/}
 
 <div class="text-alt">
@@ -1245,7 +1243,7 @@ Travaillez avec les auteurs et les développeurs du contenu pour fournir des éq
 Fournissez des boutons de commande visibles pour permettre aux utilisateurs d'arrêter toute animation ou tout son qui démarre automatiquement. Cela s'applique aux carrousels, aux diaporamas d'images, au son de fond, et aux vidéos.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : afficher les boutons de commande de démarrage, d'arrêt, et de sélection dans le design du carrousel." class="example" %}
+{% include_cached box.html type="start" title="Exemple : afficher les boutons de commande de démarrage, d'arrêt, et de sélection dans la conception du carrousel." class="example" %}
 {:/}
 
 <div class="autoplay">
@@ -1282,8 +1280,8 @@ Ces conseils sont quelques-uns des éléments à prendre en compte pour l'access
 
 * [Introduction à l'accessibilité Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — concerne des questions générales, telles que les cas d'affaire, et les liens vers des ressources utiles
 * [Principes d'accessibilité](/WAI/intro/people-use-web/principles) — présente les concepts liés aux recommandations en matière d'accessibilité Web
-* [Comment les personnes handicapées utilisent le Web](/WAI/intro/people-use-web) — examine les effets d'un design accessible à l'aide d'exemples concrets
-* [Tutoriels sur l'accessibilité Web](/WAI/tutorials/) — comprend des recommandations relatives au design, par exemple, [fournir un équivalent textuel pour les images](/WAI/tutorials/images/)
+* [Comment les personnes handicapées utilisent le Web](/WAI/intro/people-use-web) — examine les effets d'une conception accessible à l'aide d'exemples concrets
+* [Tutoriels sur l'accessibilité Web](/WAI/tutorials/) — comprend des recommandations relatives à la conception, par exemple, [fournir un équivalent textuel pour les images](/WAI/tutorials/images/)
 * [Démonstration avant/après](/WAI/demos/bad/) — montre une version accessible et inaccessible d'un même site Web, et des commentaires sur les obstacles à l'accessibilité et les moyens pour les éviter
 * [Comment satisfaire aux WCAG (Référence rapide)](/WAI/WCAG21/quickref/) — liste personnalisable de références rapides qui contient toutes les règles et les techniques des WCAG
 * [Liste d'outils d'évaluation de l'accessibilité Web](/WAI/ER/tools/) — comprend des outils pour en savoir plus sur le rapport de contraste
