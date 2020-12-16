@@ -12,10 +12,10 @@ github:
    repository: w3c/wai-quick-start
    path: '_tips/designing.fr.md'   # add language code designing.@@.md
 last_updated: 2020-11-17   # change to date of translation
-traducteurs :
-- nom : "Sofia Ahmed"
-contributeurs :
-- nom : "Sandra Velarde Gonzalez"
+translators:
+- name: "Sofia Ahmed"
+contributors:
+- name: "Sandra Velarde Gonzalez"
 
 resource:
   ref: /tips/
