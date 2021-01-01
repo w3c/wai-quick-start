@@ -15,7 +15,7 @@ last_updated: 2020-11-17   # change to date of translation
 translators:
 - name: "Sofia Ahmed"
 contributors:
-- name: "Sandra Velarde Gonzalez"
+- name: "Sandra Velarde Gonzalez (ETNIC)"
 
 resource:
   ref: /tips/
