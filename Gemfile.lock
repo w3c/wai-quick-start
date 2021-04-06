@@ -6,6 +6,7 @@ PATH
       jekyll-include-cache
       jekyll-redirect-from
       jekyll-relative-links
+      jekyll-paginate
       jekyll-remote-theme
       jekyll-seo-tag
       jekyll-sitemap
@@ -50,6 +51,7 @@ GEM
       octokit (~> 4.0, != 4.4.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-relative-links (0.6.1)
