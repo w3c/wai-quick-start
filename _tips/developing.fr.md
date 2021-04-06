@@ -10,7 +10,7 @@ navigation:
   next: /tips/developing/
 github:
    repository: w3c/wai-quick-start
-   path: '_tips/designing.fr.md'   # add language code designing.@@.md
+   path: '_tips/developing.fr.md'   # add language code designing.@@.md
 last_updated: 2020-11-17   # change to date of translation
 translators:
 - name: "Sofia Ahmed"
