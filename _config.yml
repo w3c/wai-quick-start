@@ -59,4 +59,5 @@ plugins:
   - jekyll-redirect-from
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-paginate
   - wai-website-plugin
