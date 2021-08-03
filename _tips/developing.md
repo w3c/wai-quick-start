@@ -1,34 +1,48 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+
 title: "Developing for Web Accessibility – Tips for Getting Started"
 title_html: "Developing for Web Accessibility"
-nav_title: Tips for Developing
-ref: /tips/developing/   # Do not change this
-permalink: /tips/developing/   # add language code  /tips/developing/@@
-lang: en   # change language code
-navigation:
-  previous: /tips/designing/
-#  next: /tips/…/
-github:
-   repository: w3c/wai-quick-start
-   path: '_tips/developing.md'   # add language code developing.@@.md
-last_updated: 2019-01-09   # change to date of translation
-# translators:
-# - name: "Your Name"
+nav_title: "Tips for Developing"
+
+title_icon: /tips/img/icons.svg#developing
+ext_css: tips.css
+
+lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+last_updated: 2019-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
+# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
-# - name: "Other Name"
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  repository: w3c/wai-quick-start
+  path: _tips/developing.md    # Add the language shortcode to the middle of the filename, for example: _tips/developing.fr.md
+permalink: /tips/developing/   # Add the language shortcode to the end, with no slash at end, for example: /tips/developing/fr
 
 resource:
   ref: /tips/
 navigation:
   previous: /tips/designing/
+#next: /tips/…/
 
-ext_css: tips.css
-title_icon: /tips/img/icons.svg#developing
+ref: /tips/developing/   # Translators, do not change this
+# changelog: /@@/changelog/
+acknowledgements: /tips/acknowledgements/ 
 
-footer: >   # translate text and dates; do not update dates
+# In the footer below:
+# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
+# Translate the other words below, including "Date:" and "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+# Do not change the dates in the footer below.
+footer: >
   <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
-  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="/tips/acknowledgements/">Acknowledgements</a> lists contributors and credits.</p>
+  <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission.</p>
 
 ---
 
