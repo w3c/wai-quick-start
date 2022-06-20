@@ -59,7 +59,7 @@ This page introduces some basic considerations to help you get started making yo
 
 ## Provide sufficient contrast between foreground and background
 
-Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not apply for logos, or incidental text, such as text that happens to be in a photograph. The links below provide more information on the minimum contrast ratio as required by the <abbr>WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
+Foreground text needs to have sufficient contrast with background colors. This includes text on images, background gradients, buttons, and other elements. This does not include logos or incidental text, such as text in a photograph. The links below provide more information on the minimum contrast ratio as specified by the <abbr>WCAG</abbr> and how to check contrast. "Contrast ratio" is a short version of the more technically correct term "luminance contrast ratio".
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="<strong>Example:</strong> Contrast ratio" class="example" %}
@@ -531,7 +531,7 @@ Use whitespace and proximity to make relationships between content more apparent
 
 ## Create designs for different viewport sizes
 
-Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
+Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. The position and presentation of the main elements, such as the header and navigation, can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Example: Content and navigation adapt to smaller mobile screen" class="example" %}
@@ -542,8 +542,8 @@ Consider how page information is presented in different sized viewports, such as
     <div>
       {% include_cached img.html src="content_in_browser.png" %}
       {% include_cached img.html src="content_in_phone.png" %}
-      <p>Display in a wide window with small text uses multiple columns for primary content, visible navigation options, and visible secondary information.</p>
-      <p>Display in a narrow window, such as a mobile phone, or with large text uses single column for primary content, navigation options are revealed using an icon, and secondary information is also revealed via icon.</p>
+      <p>Display in a wide window with small text using multiple columns for primary content, visible navigation options, and visible secondary information.</p>
+      <p>Display in a narrow window, such as a mobile phone, or in a wide window with large text using a single column for primary content. Navigation options are revealed using an icon, and secondary information is also revealed using an icon.</p>
     </div>
   </figure>
 </div>
