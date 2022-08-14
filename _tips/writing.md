@@ -19,7 +19,7 @@ lang: en   # change language code
 github:
    repository: w3c/wai-quick-start
    path: '_tips/writing.md'   # add language code writing.@@.md
-last_updated: 2020-12-01   # change to date of translation
+last_updated: 2022-08-05   # change to date of translation
 # translators:
 # - name: "Your Name"
 # contributors:
@@ -31,7 +31,7 @@ ext_css: tips.css
 title_icon: /tips/img/icons.svg#writing
 
 footer: >   # translate text and dates; do not update dates
-  <p><strong>Date:</strong> Updated 1 December 2020. First published September 2015.</p>
+  <p><strong>Date:</strong> Updated 5 August 2022. First published September 2015.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
   <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 
@@ -448,7 +448,9 @@ Use simple language and formatting, as appropriate for the context.
 {% include box.html type="start" title="Learn More About Accessibility" class="large" icon="readmore" %}
 {:/}
 
-These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
+These tips are a few of the things you need to consider for web accessibility. Additional guidance on writing that meets the accessibility needs of people with cognitive and learning disabilities is in **[Use Clear and Understandable Content](https://www.w3.org/WAI/WCAG2/supplemental/objectives/o3-clear-content/)**.
+
+The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
 * [Accessibility Introduction]({{ "/fundamentals/accessibility-intro/" | relative_url }}) — Introduces accessibility and provides links to many helpful resources
 * [Accessibility Principles]({{ "/fundamentals/accessibility-intro/" | relative_url }}) — An introduction to the <abbr>WCAG</abbr> requirements
