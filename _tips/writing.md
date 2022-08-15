@@ -312,7 +312,7 @@ For every image, write alternative text that provides the information or functio
 
 ## Create transcripts and captions for multimedia
 
-For audio-only content, such a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door creaks'. For video transcripts, also include a description of the important visual content, for example 'Athan leaves the room'.
+For audio-only content, such as a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door creaks'. For video transcripts, also include a description of the important visual content, for example 'Athan leaves the room'.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="More Information" class="simple" %}
@@ -393,7 +393,7 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 Use simple language and formatting, as appropriate for the context.
 
 * Write in short, clear sentences and paragraphs.
-* Avoid using unnecessarily complex words and phrases. Consider providing a glossary for terms readers may not know.
+* Avoid using unnecessarily complex words and phrases.
 * Expand acronyms on first use. For example, Web Content Accessibility Guidelines (WCAG).
 * Consider providing a glossary for terms readers may not know.
 * Use list formatting as appropriate.
