@@ -31,13 +31,15 @@ ref: /tips/designing/   # Do not change this
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#designing
 
+acknowledgements: /tips/acknowledgements/
+
 # In the footer below:
 # Do not change the dates
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >   # translate text and dates; do not update dates
   <p><strong>Date :</strong> Mise à jour mineure : 9 janvier 2019. Mise à jour : 15 avril 2016. Première publication en septembre 2015.</p>
-  <p><strong>Rédacteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Remerciements</a>.</p>
+  <p><strong>Rédacteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
   <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion (EOWG)</a>.
   Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l'information">IST</abbr> de la Commission européenne.</p>
 ---
@@ -354,7 +356,7 @@ Veillez à ce que tous les champs aient une étiquette descriptive adjacente au 
   * [Étiquettes ou instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Comprendre 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
   * [En-têtes et étiquettes 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Comprendre 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
 * **Tutoriel**
-  * [Position visuelle du texte de l'étiquette](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
+  * [Position visuelle du texte de l'étiquette](/tutorials/forms/labels/#visual-position-of-label-text)
 * **Témoignage d'utilisateur**
   * [Comment une étiquette claire peut aider une personne avec des troubles cognitifs](/people-use-web/user-stories/#supermarketassistant)
 
@@ -419,7 +421,7 @@ Prévoyez un retour pour les interactions, tel que confirmer la soumission d'un 
   * [Étiquettes ou instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Comprendre 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
   * [Suggestion après une erreur 3.3.3](/WAI/WCAG21/quickref/#error-suggestion) ([Comprendre 3.3.3](/WAI/WCAG21/Understanding/error-suggestion))
 * **Tutoriel**
-  * [Notification des utilisateurs](/WAI/tutorials/forms/notifications/)
+  * [Notification des utilisateurs](/tutorials/forms/notifications/)
 * **Témoignage d'utilisateur**
   * [Comment rendre un contenu important facilement identifiable peut aider](/people-use-web/user-stories/#classroomstudent)
 
@@ -530,7 +532,7 @@ Utilisez des blancs et la proximité pour faire mieux ressortir les relations en
   * [En-têtes et étiquettes 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Comprendre 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
   * [En-têtes de section 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Comprendre 2.4.10](/WAI/WCAG21/Understanding/section-headings))
 * **Tutoriel**
-  * [En-têtes](/WAI/tutorials/page-structure/headings/)
+  * [En-têtes](/tutorials/page-structure/headings/)
 * **Témoignage d'utilisateur**
   * [Décrit de quelle manière les en-têtes peuvent être utiles à la navigation](/people-use-web/user-stories/#accountant)
 
@@ -609,7 +611,7 @@ Travaillez avec les auteurs de contenu et les développeurs pour fournir des éq
 * **WCAG**
   * [Contenu non textuel 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Comprendre 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Tutoriel**
-  * [Images](/WAI/tutorials/images/)
+  * [Images](/tutorials/images/)
 * **Témoignage d'utilisateur**
   * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/#accountant)
 
@@ -645,7 +647,7 @@ Fournissez des boutons de commande visibles pour permettre aux utilisateurs d'ar
   * [Contrôle du son 1.4.2](/WAI/WCAG21/quickref/#audio-control) ([Comprendre 1.4.2](/WAI/WCAG21/Understanding/audio-control))
   * [Mettre en pause, arrêter, masquer 2.2.2](/WAI/WCAG21/quickref/#pause-stop-hide) ([Comprendre 2.2.2](/WAI/WCAG21/Understanding/pause-stop-hide))
 * **Tutoriel**
-  * [Conceptions d'un carrousel](/WAI/tutorials/carousels/)
+  * [Conceptions d'un carrousel](/tutorials/carousels/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -657,10 +659,10 @@ Fournissez des boutons de commande visibles pour permettre aux utilisateurs d'ar
 
 Ces conseils sont quelques-uns des éléments à prendre en compte pour l'accessibilité Web. Les ressources suivantes vous aident à comprendre l'importance de l'accessibilité, et à prendre connaissance des recommandations pour rendre le Web plus accessible aux personnes en situation de handicap.
 
-* [Introduction à l'accessibilité Web](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — concerne des questions générales, telles que les bénéfices business, et des liens vers des ressources utiles
-* [Principes d'accessibilité](/WAI/intro/people-use-web/principles) — introduit les concepts derrière les exigences en matière d'accessibilité Web
-* [Comment les personnes handicapées utilisent le Web](/WAI/intro/people-use-web) — explore les effets d'un design accessible à l'aide d'exemples concrets
-* [Tutoriels sur l'accessibilité Web](/WAI/tutorials/) — comprend des conseils sur le design, par exemple, [fournir un équivalent textuel pour les images](/WAI/tutorials/images/)
+* [Introduction à l'accessibilité Web](/fundamentals/accessibility-intro/) — concerne des questions générales, telles que les bénéfices business, et des liens vers des ressources utiles
+* [Principes d'accessibilité](/fundamentals/accessibility-principles/) — introduit les concepts derrière les exigences en matière d'accessibilité Web
+* [Comment les personnes handicapées utilisent le Web](/people-use-web/) — explore les effets d'un design accessible à l'aide d'exemples concrets
+* [Tutoriels sur l'accessibilité Web](/tutorials/) — comprend des conseils sur le design, par exemple, [fournir un équivalent textuel pour les images](/tutorials/images/)
 * [Démonstration avant/après](/WAI/demos/bad/) — montre une version accessible et inaccessible d'un même site Web, et des commentaires sur les obstacles à l'accessibilité et les moyens d'y remédier.
 * [Comment répondre aux exigences des WCAG (Référence rapide)](/WAI/WCAG21/quickref/) — liste personnalisable de toutes les exigences et les techniques des WCAG
 * [Liste d'outils d'évaluation de l'accessibilité Web](/WAI/ER/tools/) — comprend des outils pour en savoir plus sur le rapport de contraste

@@ -31,13 +31,15 @@ ref: /tips/writing/   # Do not change this
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#writing
 
+acknowledgements: /tips/acknowledgements/
+
 # In the footer below:
 # Do not change the dates
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p><strong>Date :</strong> Mise à jour : 5 août 2022. Première publication en septembre 2015.</p>
-  <p><strong>Rédacteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Remerciements</a>.</p>
+  <p><strong>Rédacteurs :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
   <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion (EOWG)</a>.
   Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l'information">IST</abbr> de la Commission européenne.</p>
 
@@ -47,7 +49,7 @@ footer: >
 {% include box.html type="start" h="2" title="Résumé" class="full" %}
 {:/}
 
-Cette page présente quelques considérations de base pour vous aider dans la rédaction de contenus Web plus accessibles aux personnes en situation de handicap. Ces conseils sont des bonnes pratiques qui vous aident à satisfaire aux exigences des Règles pour l'accessibilité des contenus Web (WCAG). uivez les liens vers les recommandations WCAG correspondantes, du contexte détaillée dans les documents «&nbsp;Comprendre&nbsp;», des instructions dans les tutoriels, des témoignages d’utilisateurs, et plus encore.
+Cette page présente quelques considérations de base pour vous aider dans la rédaction de contenus Web plus accessibles aux personnes en situation de handicap. Ces conseils sont des bonnes pratiques qui vous aident à satisfaire aux exigences des Règles pour l'accessibilité des contenus Web (WCAG). Suivez les liens vers les recommandations WCAG correspondantes, du contexte détaillée dans les documents «&nbsp;Comprendre&nbsp;», des instructions dans les tutoriels, des témoignages d’utilisateurs, et plus encore.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -220,7 +222,7 @@ Voir l'exemple sous forme de texte
   * [En-têtes de section 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Comprendre 2.4.10](/WAI/WCAG21/Understanding/section-headings))
   * [Information et relations 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Comprendre 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **Témoignage d'utilisateur**
-  * [Comment un utilisateur de lecteur d'écran utilise les en-têtes pour naviguer]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
+  * [Comment un utilisateur de lecteur d'écran utilise les en-têtes pour naviguer](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -308,9 +310,9 @@ Pour chaque image, rédigez un équivalent textuel qui fournit des informations 
 * **WCAG**
   * [Contenu non textuel 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Comprendre 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Tutoriel**
-  * [Images](/WAI/tutorials/images/)
+  * [Images](/tutorials/images/)
 * **Témoignage d'utilisateur**
-  * [Importance des équivalents textuels pour un utilisateur aveugle]({{ "/people-use-web/user-stories/" | relative_url }}#accountant)
+  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -328,7 +330,7 @@ Pour du contenu seulement audio, comme un podcast, fournissez une transcription.
   * [Sous-titres (pré-enregistrés) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Comprendre 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
   * [Audiodescription ou version de remplacement pour un média temporel (pré-enregistré) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Comprendre 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **Témoignage d'utilisateur**
-  * [Comment les sous-titres aident un étudiant sourd]({{ "/people-use-web/user-stories/#onlinestudent" | relative_url }})
+  * [Comment les sous-titres aident un étudiant sourd](/people-use-web/user-stories/#onlinestudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -386,7 +388,7 @@ Assurez-vous que les instructions, l'aide, et les messages d'erreur sont clairs,
 * **WCAG**
   * [Étiquettes ou instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Comprendre 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Témoignage d'utilisateur**
-  * [Comment des instructions simples aident les personnes avec des troubles d'apprentissage]({{ "/people-use-web/user-stories/" | relative_url }}#supermarketassistant)
+  * [Comment des instructions simples aident les personnes avec des troubles d'apprentissage](/people-use-web/user-stories/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -442,7 +444,7 @@ Utilisez un langage et une mise en forme simples, adaptés au contexte.
   * [Mots rares 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Comprendre 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
   * [Abréviations 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Comprendre 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
 * **Témoignage d'utilisateur**
-  * [Un texte facile à lire profite à un utilisateur avec des troubles de lecture]({{ "/people-use-web/user-stories/" | relative_url }}#classroomstudent)
+  * [Un texte facile à lire profite à un utilisateur avec des troubles de lecture](/people-use-web/user-stories/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -456,9 +458,9 @@ Ces conseils sont quelques-uns des éléments à prendre en compte pour l'access
 
 Les ressources suivantes vous aident à en savoir plus sur l'importance de l'accessibilité, et sur les recommandations pour rendre le Web plus accessible aux personnes en situation de handicap.
 
-* [Introduction à l'accessibilité]({{ "/fundamentals/accessibility-intro/" | relative_url }}) — Introduit l'accessibilité et fournit des liens vers de nombreuses ressources utiles
-* [Principes d'accessibilité]({{ "/fundamentals/accessibility-intro/" | relative_url }}) — Une introduction aux exigences des <abbr>WCAG</abbr>
-* [Comment les personnes en situation de handicap utilisent le Web]({{ "/people-use-web/" | relative_url }}) — Exemples concrets soulignant l'importance de l'accessibilité pour les personnes en situation de handicap
+* [Introduction à l'accessibilité](/fundamentals/accessibility-intro/) — Introduit l'accessibilité et fournit des liens vers de nombreuses ressources utiles
+* [Principes d'accessibilité](/fundamentals/accessibility-principles/) — Une introduction aux exigences des <abbr>WCAG</abbr>
+* [Comment les personnes en situation de handicap utilisent le Web](/people-use-web/) — Exemples concrets soulignant l'importance de l'accessibilité pour les personnes en situation de handicap
 * [Comment répondre aux exigences des WCAG (Référence rapide)](/WAI/WCAG21/quickref/) — liste personnalisable de toutes les recommandations et techniques des WCAG
 
 {::nomarkdown}

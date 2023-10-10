@@ -30,7 +30,7 @@ ref: /tips/developing/  # Do not change this
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#developing
 
-acknowledgements: /tips/acknowledgements/fr
+acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
 # Do not change the dates

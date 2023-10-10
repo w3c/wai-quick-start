@@ -26,6 +26,8 @@ github:
 permalink: /tips/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /tips/ # Do not change this
 
+acknowledgements: /tips/acknowledgements/
+
 # In the footer below:
 # Do not change the dates
 # Translate the other words, including "Status:" and "Editors:"
@@ -41,7 +43,7 @@ footer: >
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
-    <a href="./acknowledgements/">Remerciements</a>.
+    ACKNOWLEDGEMENTS.
     Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et Promotion (EOWG)</a>.
     Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l'information">IST</abbr> de la Commission européenne.
   </p>
