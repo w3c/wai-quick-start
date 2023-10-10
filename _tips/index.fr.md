@@ -1,28 +1,43 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".title: Tips for Getting Started
 title: Conseils pour démarrer
 nav_title: Vue d'ensemble
-permalink: /tips/fr
-ref: /tips/
-lang: fr
+lang: fr # Change "en" to the translated-language shortcode
+last_updated: 2020-12-15 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 resource:
   title: "Conseils pour démarrer"
-  ref: /tips/
+  ref: /tips/ # Do not change this
+
 navigation:
-  next: /tips/writing/
+  next: /tips/writing/ # Do not change this
+
+translators:
+- name: "Sofia Ahmed"
+contributors:
+- name: "Sandra Velarde Gonzalez (ETNIC)"
+- name: "Rémi Bétin"
 
 github:
    repository: w3c/wai-quick-start
-   path: '_tips/index.fr.md'   # add language code index.@@.md
+   path: '_tips/index.fr.md' # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 
+permalink: /tips/fr # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /tips/ # Do not change this
+
+# In the footer below:
+# Do not change the dates
+# Translate the other words, including "Status:" and "Editors:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>
     <strong>Statut :</strong>
       Mise à jour :
-      07 juillet 2016
+      7 juillet 2016
     (première publication en septembre 2015)
     <br>
-    <strong>Rédacteurs :</strong>
+    <strong>Rédaction :</strong>
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
@@ -32,8 +47,8 @@ footer: >
   </p>
 ---
 
-Démarrez dans l'accessibilité. Ces conseils introduisent quelques considérations essentielles pour rendre votre site Web plus accessible pour les personnes handicapées, et fournissent des liens vers de l'aide supplémentaire. Les conseils sont regroupés par domaine d'activité ; vous pourriez trouver les informations pertinentes pour votre projet sur plusieurs pages.
+Démarrez dans l'accessibilité. Ces conseils présentent quelques considérations de base pour rendre votre site Web plus accessible aux personnes en situation de handicap, et fournissent des liens vers des conseils additionnels. Les conseils sont regroupés par domaine d'activité&nbsp;; vous pourriez trouver des informations pertinentes pour votre travail sur plusieurs pages.
 
-* [[Un design accessible](/tips/designing/): Conseils pour l'inteface utilisateur et le design visuel.
-* [[Un texte accessible]](/tips/writing/): Conseils pour la rédaction de texte et la présentation de contenu.
-* [[Un développement accessible]](/tips/developing/): Conseils pour le balisage et le code.
+* [[Concevoir pour l'accessibilité Web]](/tips/designing/)&nbsp;: Conseils pour l'interface utilisateur et le design visuel.
+* [[Écrire pour l'accessibilité Web]](/tips/writing/)&nbsp;: Conseils pour la rédaction de texte et la présentation de contenu.
+* [[Développer pour l'accessibilité Web]](/tips/developing/)&nbsp;: Conseils pour le balisage et le code.
