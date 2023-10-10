@@ -1,20 +1,39 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".title: Tips for Getting Started
+
 title: Tips for Getting Started
 nav_title: Overview
-permalink: /tips/
-ref: /tips/
-lang: en
+lang: en # Change "en" to the translated-language shortcode
+last_updated: 2016-07-07 # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 resource:
   title: "Tips for Getting Started"
-  ref: /tips/
+  ref: /tips/ # Do not change this
+
 navigation:
-  next: /tips/writing/
+  next: /tips/writing/ # Do not change this
+
+# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
    repository: w3c/wai-quick-start
-   path: '_tips/index.md'   # add language code index.@@.md
+   path: '_tips/index.md' # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 
+permalink: /tips/ # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /tips/ # Do not change this
+
+acknowledgements: /tips/acknowledgements/
+
+# In the footer below:
+# Do not change the dates
+# Translate the other words, including "Status:" and "Editors:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
   <p>
     <strong>Status:</strong>
@@ -26,7 +45,7 @@ footer: >
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
-    <a href="./acknowledgements/">Acknowledgements</a>.
+    ACKNOWLEDGEMENTS.
     Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>.
     Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
   </p>
