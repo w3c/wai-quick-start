@@ -1,6 +1,6 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
-# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".title: Tips for Getting Started
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
 title: "Développer pour l'accessibilité Web – Conseils pour démarrer"
 title_html: "Développer pour l'accessibilité Web"
@@ -122,7 +122,7 @@ Veillez à ce qu'un équivalent textuel pour les images soit ajouté à toutes l
 * **Tutoriel**
   * [Images](/tutorials/images/)
 * **Témoignage d'utilisateur**
-  * [Importance des équivalents textuels pour un utilisateur aveugle](//people-use-web/stories#accountant)
+  * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -244,7 +244,7 @@ Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, et
   * [Structure de page](/tutorials/page-structure/)
   * [Tableaux](/tutorials/tables/)
 * **Témoignage d'utilisateur**
-  * [Comment les informations structurées aident les utilisateurs de lecteur d'écran](//people-use-web/stories#accountant)
+  * [Comment les informations structurées aident les utilisateurs de lecteur d'écran](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -297,7 +297,7 @@ Soyez aussi flexibles que possible vis-à-vis du format lors du traitement des d
 * **Tutoriel**
   * [Valider la saisie](/tutorials/forms/validation/)
 * **Témoignage d'utilisateur**
-  * [Comment des erreurs utiles aident un utilisateur dyslexique](//people-use-web/stories#classroomstudent)
+  * [Comment des erreurs utiles aident un utilisateur dyslexique](/people-use-web/user-stories/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -455,7 +455,7 @@ Utilisez un design réactif pour adapter l'affichage à différents niveaux d'ag
 * **Contexte**
   * [Écran de petite taille](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **Témoignage d'utilisateur**
-  * [Comment les vues équivalentes des pages agrandies peuvent être utiles](//people-use-web/stories#retiree)
+  * [Comment les vues équivalentes des pages agrandies peuvent être utiles](/people-use-web/user-stories/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -590,7 +590,7 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [Clavier 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Comprendre 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **Témoignage d'utilisateur**
-  * [Comment un utilisateur avec un trouble musculosquelettique a besoin du support du clavier](//people-use-web/stories#reporter)
+  * [Comment un utilisateur avec un trouble musculosquelettique a besoin du support du clavier](/people-use-web/user-stories/#reporter)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
