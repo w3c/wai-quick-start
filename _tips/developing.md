@@ -1,6 +1,6 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
-# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".title: Tips for Getting Started
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 
 title: "Developing for Web Accessibility – Tips for Getting Started"
 title_html: "Developing for Web Accessibility"
@@ -123,7 +123,7 @@ Ensure that alternative text for images is added to all informational and functi
 * **Tutorial**
   * [Images](/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user](//people-use-web/stories#accountant)
+  * [Describes the value of text alternatives to a blind user](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -245,7 +245,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
   * [Page Structure](/tutorials/page-structure/)
   * [Tables](/tutorials/tables/)
 * **User Story**
-  * [Describes how structural information helps a screen reader user](//people-use-web/stories#accountant)
+  * [Describes how structural information helps a screen reader user](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -298,7 +298,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 * **Tutorial**
   * [Validating Input](/tutorials/forms/validation/)
 * **User Story**
-  * [Describes how helpful errors help a user with dyslexia](//people-use-web/stories#classroomstudent)
+  * [Describes how helpful errors help a user with dyslexia](/people-use-web/user-stories/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -456,7 +456,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 * **Background**
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **User Story**
-  * [Describes how alternative views of zoomed pages can be helpful](//people-use-web/stories#retiree)
+  * [Describes how alternative views of zoomed pages can be helpful](/people-use-web/user-stories/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -591,7 +591,7 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [Keyboard 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Understanding 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **User Story**
-  * [Describes how a user with RSI needs keyboard support](//people-use-web/stories#reporter)
+  * [Describes how a user with RSI needs keyboard support](/people-use-web/user-stories/#reporter)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -631,7 +631,7 @@ These tips are a few of the things you need to consider for web accessibility. T
 * [Before and After Demonstration](/WAI/demos/bad/) — Example accessible and inaccessible websites that share the same visual design, with annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr>WCAG</abbr>
 * [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) — customizable reference of all WCAG requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) — Provides a range of tools to help explore the accessibility of code
-* [<abbr>WAI-ARIA</abbr> Overview](/WAI/intro/aria) — Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
+* [<abbr>WAI-ARIA</abbr> Overview](/standards-guidelines/aria/) — Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
 
 {::nomarkdown}
 {% include box.html type="end" %}
