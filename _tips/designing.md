@@ -1,36 +1,48 @@
 ---
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
+
 title: "Designing for Web Accessibility – Tips for Getting Started"
 title_html: "Designing for Web Accessibility"
 nav_title: Tips for Designing
-ref: /tips/designing/   # Do not change this
-permalink: /tips/designing/   # add language code  /tips/designing/@@
-lang: en   # change language code
-navigation:
-  previous: /tips/writing/
-  next: /tips/developing/
-github:
-   repository: w3c/wai-quick-start
-   path: '_tips/designing.md'   # add language code designing.@@.md
-last_updated: 2019-01-09   # change to date of translation
-# translators:
-# - name: "Your Name"
-# contributors:
-# - name: "Other Name"
+lang: en  # Change "en" to the translated-language shortcode
+last_updated: 2019-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 resource:
-  ref: /tips/
+  ref: /tips/  # Do not change this
+
 navigation:
-  previous: /tips/writing/
-  next:     /tips/developing/
+  previous: /tips/writing/ # Do not change this
+  next: /tips/developing/ # Do not change this
+
+# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# - name: "Jan Doe"   # Replace Jan Doe with translator name
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# contributors:
+# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+
+github:
+  repository: w3c/wai-quick-start
+  path: '_tips/designing.md'   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+
+permalink: /tips/designing/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /tips/designing/   # Do not change this
 
 ext_css: tips.css
 title_icon: /tips/img/icons.svg#designing
 
-footer: >   # translate text and dates; do not update dates
-  <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="https://w3c.github.io/wai-website/tips/acknowledgements/">Acknowledgements</a>.</p>
-  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
+acknowledgements: /tips/acknowledgements/
 
+# In the footer below:
+# Do not change the dates
+# Do not translate ACKNOWLEDGEMENTS
+# Translate the other words, including "Date:" and "Editors:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
+  <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
+  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
 ---
 
 {::nomarkdown}
@@ -345,7 +357,7 @@ Ensure that all fields have a descriptive label adjacent to the field. For left-
   * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
   * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
 * **Tutorial**
-  * [Visual position of label text](/WAI/tutorials/forms/labels/#visual-position-of-label-text)
+  * [Visual position of label text](/tutorials/forms/labels/#visual-position-of-label-text)
 * **User Story**
   * [How clear labelling can help someone with cognitive difficulties](/people-use-web/user-stories/#supermarketassistant)
 
@@ -410,7 +422,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
   * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
   * [Error Suggestion 3.3.3](/WAI/WCAG21/quickref/#error-suggestion) ([Understanding 3.3.3](/WAI/WCAG21/Understanding/error-suggestion))
 * **Tutorial**
-  * [User Notifications](/WAI/tutorials/forms/notifications/)
+  * [User Notifications](/tutorials/forms/notifications/)
 * **User Story**
   * [How making important content easily identifiable can help](/people-use-web/user-stories/#classroomstudent)
 
@@ -521,7 +533,7 @@ Use whitespace and proximity to make relationships between content more apparent
   * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
   * [Section Headings 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
 * **Tutorial**
-  * [Headings](/WAI/tutorials/page-structure/headings/)
+  * [Headings](/tutorials/page-structure/headings/)
 * **User Story**
   * [Describes how headings can be helpful for navigation](/people-use-web/user-stories/#accountant)
 
@@ -600,7 +612,7 @@ Work with content authors and developers to provide alternatives for non-text co
 * **WCAG**
   * [Non-text Content 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Tutorial**
-  * [Images](/WAI/tutorials/images/)
+  * [Images](/tutorials/images/)
 * **User Story**
   * [Describes the value of text alternatives to a blind user](/people-use-web/user-stories/#accountant)
 
@@ -636,7 +648,7 @@ Provide visible controls to allow users to stop any animations or auto-playing s
   * [Audio Control 1.4.2](/WAI/WCAG21/quickref/#audio-control) ([Understanding 1.4.2](/WAI/WCAG21/Understanding/audio-control))
   * [Pause, Stop, Hide 2.2.2](/WAI/WCAG21/quickref/#pause-stop-hide) ([Understanding 2.2.2](/WAI/WCAG21/Understanding/pause-stop-hide))
 * **Tutorial**
-  * [Carousel Concepts](/WAI/tutorials/carousels/)
+  * [Carousel Concepts](/tutorials/carousels/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -648,10 +660,10 @@ Provide visible controls to allow users to stop any animations or auto-playing s
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
-* [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — covers broad issues, such as the business case, and links to helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles) — introduces the concepts behind the web accessibility requirements
-* [How people with disabilities use the web](/WAI/intro/people-use-web) — explores the impact of accessible design with real-life examples
-* [Web Accessibility Tutorials](/WAI/tutorials/) — includes some guidance related to designing, for example, [providing alternative text for images](/WAI/tutorials/images/)
+* [Introduction to Web Accessibility](/fundamentals/accessibility-intro/) — covers broad issues, such as the business case, and links to helpful resources
+* [Accessibility Principles](/fundamentals/accessibility-principles/) — introduces the concepts behind the web accessibility requirements
+* [How people with disabilities use the web](/people-use-web/) — explores the impact of accessible design with real-life examples
+* [Web Accessibility Tutorials](/tutorials/) — includes some guidance related to designing, for example, [providing alternative text for images](/tutorials/images/)
 * [Before and After Demonstration](/WAI/demos/bad/) — shows an inaccessible and accessible version of the same website, with annotations on accessibility barriers and repairs
 * [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) — customizable reference of all WCAG requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) — includes tools to help explore contrast ratio

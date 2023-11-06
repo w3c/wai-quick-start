@@ -1,6 +1,20 @@
 ---
+# Do not translate Acknowledgements page for now.
 title: Acknowledgements
+nav_title: Acknowledgements
+lang: en
+last_updated: 2016-04-15
+
+github:
+  repository: w3c/wai-quick-start
+  path: '_tips/acknowledgements.md'
+
+permalink: /tips/acknowledgements/
+ref: /tips/acknowledgements/
+
 nosidenav: true
+
+acknowledgements: /tips/acknowledgements/
 footer: >
   <p>
     <strong>Status:</strong>
@@ -12,7 +26,7 @@ footer: >
     <a href="https://www.w3.org/People/#kevin">Kevin White</a>,
     <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and
     <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>.
-    <a href=".">Acknowledgements</a>.
+    ACKNOWLEDGEMENTS.
     Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>.
     Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
       </p>

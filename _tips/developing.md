@@ -1,18 +1,20 @@
 ---
-# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
-# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:"
 
 title: "Developing for Web Accessibility – Tips for Getting Started"
 title_html: "Developing for Web Accessibility"
 nav_title: "Tips for Developing"
-
-title_icon: /tips/img/icons.svg#developing
-ext_css: tips.css
-
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+lang: en  # Change "en" to the translated-language shortcode
 last_updated: 2019-01-09   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+resource:
+  ref: /tips/
+
+navigation:
+  previous: /tips/designing/
+
+# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -21,29 +23,25 @@ last_updated: 2019-01-09   # Put the date of this translation YYYY-MM-DD (with m
 
 github:
   repository: w3c/wai-quick-start
-  path: _tips/developing.md    # Add the language shortcode to the middle of the filename, for example: _tips/developing.fr.md
-permalink: /tips/developing/   # Add the language shortcode to the end, with no slash at end, for example: /tips/developing/fr
+  path: _tips/developing.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+  
+permalink: /tips/developing/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /tips/developing/  # Do not change this
 
-resource:
-  ref: /tips/
-navigation:
-  previous: /tips/designing/
-#next: /tips/…/
+ext_css: tips.css
+title_icon: /tips/img/icons.svg#developing
 
-ref: /tips/developing/   # Translators, do not change this
-# changelog: /@@/changelog/
-# acknowledgements: /tips/acknowledgements/ 
+acknowledgements: /tips/acknowledgements/
 
 # In the footer below:
-# Do not translate or change CHANGELOG or ACKNOWLEDGEMENTS.
-# Translate the other words below, including "Date:" and "Editor:"
+# Do not change the dates
+# Do not translate ACKNOWLEDGEMENTS
+# Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
-# Do not change the dates in the footer below.
 footer: >
   <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. <a href="/wai/tips/acknowledgements/">Acknowledgements</a> lists contributors and credits.</p>
+  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
   <p>Developed by the Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>). Developed as part of the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission.</p>
-
 ---
 
 {::nomarkdown}
@@ -106,7 +104,7 @@ Use a `for` attribute on the `<label>` element linked to the `id` attribute of t
 * **WCAG**
   * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Tutorial**
-  * [Labeling Controls](/WAI/tutorials/forms/labels/)
+  * [Labeling Controls](/tutorials/forms/labels/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -123,9 +121,9 @@ Ensure that alternative text for images is added to all informational and functi
 * **WCAG**
   * [Non-text Content 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Tutorial**
-  * [Images](/WAI/tutorials/images/)
+  * [Images](/tutorials/images/)
 * **User Story**
-  * [Describes the value of text alternatives to a blind user](/WAI/intro/people-use-web/stories#accountant)
+  * [Describes the value of text alternatives to a blind user](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -244,10 +242,10 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
 * **WCAG**
   * [Info and Relationships 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **Tutorial**
-  * [Page Structure](/WAI/tutorials/page-structure/)
-  * [Tables](/WAI/tutorials/tables/)
+  * [Page Structure](/tutorials/page-structure/)
+  * [Tables](/tutorials/tables/)
 * **User Story**
-  * [Describes how structural information helps a screen reader user](/WAI/intro/people-use-web/stories#accountant)
+  * [Describes how structural information helps a screen reader user](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -298,9 +296,9 @@ Be as forgiving of format as possible when processing user input. For example, a
 * **WCAG**
   * [Error Identifications 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([Understanding 3.3.1](/WAI/WCAG21/Understanding/error-identification))
 * **Tutorial**
-  * [Validating Input](/WAI/tutorials/forms/validation/)
+  * [Validating Input](/tutorials/forms/validation/)
 * **User Story**
-  * [Describes how helpful errors help a user with dyslexia](/WAI/intro/people-use-web/stories#classroomstudent)
+  * [Describes how helpful errors help a user with dyslexia](/people-use-web/user-stories/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -458,7 +456,7 @@ Use responsive design to adapt the display to different zoom states and viewport
 * **Background**
   * [Small Screen Size](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **User Story**
-  * [Describes how alternative views of zoomed pages can be helpful](/WAI/intro/people-use-web/stories#retiree)
+  * [Describes how alternative views of zoomed pages can be helpful](/people-use-web/user-stories/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -593,7 +591,7 @@ buttonExample.addEventListener('click', function(e) {
 * **WCAG**
   * [Keyboard 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Understanding 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **User Story**
-  * [Describes how a user with RSI needs keyboard support](/WAI/intro/people-use-web/stories#reporter)
+  * [Describes how a user with RSI needs keyboard support](/people-use-web/user-stories/#reporter)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -626,14 +624,14 @@ CAPTCHAs create problems for many people. There are other means of verifying tha
 
 These tips are a few of the things you need to consider for web accessibility. The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
 
-* [Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/WAI/intro/people-use-web/principles) — An introduction to the <abbr>WCAG</abbr> requirements
-* [How people with disabilities use the web](/WAI/intro/people-use-web) — Real-life examples of the benefits of accessibility for people with disabilities
-* [Web Accessibility Tutorials](/WAI/tutorials/) — Shows you how to develop web content that is accessible to people with disabilities
+* [Introduction to Web Accessibility](/fundamentals/accessibility-intro/) — Introduces accessibility and provides links to many helpful resources
+* [Accessibility Principles](/fundamentals/accessibility-principles/) — An introduction to the <abbr>WCAG</abbr> requirements
+* [How people with disabilities use the web](/people-use-web/) — Real-life examples of the benefits of accessibility for people with disabilities
+* [Web Accessibility Tutorials](/tutorials/) — Shows you how to develop web content that is accessible to people with disabilities
 * [Before and After Demonstration](/WAI/demos/bad/) — Example accessible and inaccessible websites that share the same visual design, with annotations that highlight key accessibility barriers and repairs, and evaluation reports for <abbr>WCAG</abbr>
 * [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) — customizable reference of all WCAG requirements and techniques
 * [Web Accessibility Evaluation Tools List](/WAI/ER/tools/) — Provides a range of tools to help explore the accessibility of code
-* [<abbr>WAI-ARIA</abbr> Overview](/WAI/intro/aria) — Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
+* [<abbr>WAI-ARIA</abbr> Overview](/standards-guidelines/aria/) — Introduction to <abbr>WAI-ARIA</abbr> with links to all the specifications
 
 {::nomarkdown}
 {% include box.html type="end" %}
