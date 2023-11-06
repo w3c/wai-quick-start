@@ -625,7 +625,7 @@ Ces conseils sont quelques-uns des éléments à prendre en compte pour l'access
 
 * [Introduction à l'accessibilité](/fundamentals/accessibility-intro/) — introduit l'accessibilité et fournit des liens vers de nombreuses ressources utiles
 * [Principes d'accessibilité](/fundamentals/accessibility-principles/) — une introduction aux exigences des <abbr>WCAG</abbr>
-* [Comment les personnes en situation de handicap utilisent le Web](/people-use-web) — des exemples concrets des bénéfices de l'accessibilité pour les personnes en situation de handicap
+* [Comment les personnes en situation de handicap utilisent le Web](/people-use-web/) — des exemples concrets des bénéfices de l'accessibilité pour les personnes en situation de handicap
 * [Tutoriels sur l'accessibilité Web](/tutorials/) — vous montre comment développer du contenu Web accessible aux personnes en situation de handicap
 * [Démonstration avant/après](/WAI/demos/bad/) — un exemple de sites Web accessible et inaccessible qui partagent le même design visuel, avec des commentaires sur les principaux obstacles à l'accessibilité et les moyens d'y remedier, et des rapports d'évaluation pour les WCAG
 * [Comment répondre aux exigences des WCAG (Référence rapide)](/WAI/WCAG21/quickref/) — une liste personnalisable de toutes les exigences et les techniques des WCAG
