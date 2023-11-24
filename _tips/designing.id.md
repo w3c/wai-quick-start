@@ -81,13 +81,13 @@ Teks pada latar depan harus memiliki kontras yang cukup dengan warna latar belak
   <figure>
     <figcaption>{% include_cached icon.html name="ex-circle" label="Salah" %} Tidak mencukupi</figcaption>
     <div>
-      <p style="color: #999;">Beberapa orang tidak dapat membaca teks jika kontras antara teks dan latar belakang tidak mencukupi. Bagi yang lain, warna terang (pencahayaan yang tinggi) membuat tidak terbaca; mereka membutuhkan pencahayaan yang rendah.</p>
+      <p style="color: #999;">Beberapa orang tidak dapat membaca teks jika kontras antara teks dan latar belakangnya tidak mencukupi. Bagi yang lain, warna terang (pencahayaan yang tinggi) membuat tidak terbaca; mereka membutuhkan pencahayaan yang rendah.</p>
     </div>
   </figure>
   <figure>
     <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Mencukupi</figcaption>
     <div>
-      <p class="pass">Beberapa orang tidak dapat membaca teks jika kontras antara teks dan latar belakang tidak mencukupi. Bagi yang lain, warna cerah (luminansi tinggi) tidak terbaca; mereka membutuhkan pencahayaan rendah.</p>
+      <p class="pass">Beberapa orang tidak dapat membaca teks jika kontras antara teks dan latar belakangnya tidak mencukupi. Bagi yang lain, warna terang (pencahayaan yang tinggi) membuat tidak terbaca; mereka membutuhkan pencahayaan yang rendah.</p>
     </div>
   </figure>
 </div>
