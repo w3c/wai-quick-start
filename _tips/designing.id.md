@@ -115,7 +115,7 @@ Teks pada latar depan harus memiliki kontras yang cukup dengan warna latar belak
 
 ## Jangan hanya menggunakan warna untuk menyampaikan informasi
 
-Meskipun warna dapat berguna untuk menyampaikan informasi, warna tidak boleh menjadi satu-satunya cara penyampaian informasi. Saat menggunakan warna untuk membedakan elemen satu dan lainnya, berikan juga identifikasi tambahan yang tidak bergantung pada persepsi warna. Misalnya, selain warna gunakan pula asteris untuk menunjukkan kolom isian yang harus diisi, dan gunakan label untuk membedakan area pada sebuah grafik.
+Meskipun warna dapat berguna untuk menyampaikan informasi, warna seharusnya tidak menjadi satu-satunya cara dalam penyampaian informasi. Ketika menggunakan warna untuk membedakan elemen satu dan lainnya, berikan juga identifikasi tambahan yang tidak bergantung pada warna. Misalnya, selain warna gunakan pula asteris untuk menunjukkan kolom isian yang harus diisi, dan gunakan label untuk membedakan area pada sebuah grafik.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Gunakan warna untuk menyampaikan makna" class="example" %}
@@ -201,7 +201,7 @@ Meskipun warna dapat berguna untuk menyampaikan informasi, warna tidak boleh men
       </svg>
       <form action="#" method="post">
         <fieldset>
-          <legend style="width: 100%;">>Manakah yang merupakan segitiga siku-siku?</legend>
+          <legend style="width: 100%;">Manakah yang merupakan segitiga siku-siku?</legend>
           <input id="answer-green2" name="answer2" value="green" type="radio"> <label for="answer-green2">Hijau (1)</label><br>
           <input id="answer-blue2" name="answer2" value="blue" type="radio"> <label for="answer-blue2">Biru (2)</label><br>
           <input id="answer-red2" name="answer2" value="red" type="radio"> <label for="answer-red2">Merah (3)</label><br>
@@ -233,7 +233,7 @@ Meskipun warna dapat berguna untuk menyampaikan informasi, warna tidak boleh men
 
 ## Pastikan elemen interaktif mudah diidentifikasi
 
-Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, agar mudah diidentifikasi. Misalnya dengan mengubah tampilan tautan ketika disoroti tetikus, fokus kibor, dan aktivasi layar sentuh. Pastikan gaya dan penamaan elemen interaktif digunakan secara konsisten di seluruh situs web.
+Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, agar mudah diidentifikasi. Misalnya dengan mengubah tampilan tautan ketika disoroti tetikus, difokuskan via kibor, dan diaktivasi via layar sentuh. Pastikan gaya dan penamaan elemen interaktif digunakan secara konsisten di seluruh situs web.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Gaya yang unik dan berbeda untuk beragam kondisi tautan" class="example" %}
@@ -244,27 +244,27 @@ Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, ag
     <figure>
       <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya tautan tampak menonjol dari teks</figcaption>
       <div>
-        <p>Beberapa orang tidak bisa menggunakan tetikus dan hanya menggunakan <a href="javascript:return false;" aria-label="Tautan diberi gaya yang menonjol dari teks utama">navigasi dengan kibor</a> halaman web.</p>
-        <p>Penting agar pengguna dapat menjangkau semua elemen interaktif menggunakan kibor, dan jelas elemen mana yang sedang menjadi fokus.</p>
-        <p>Fokus keyboard yang tampak jelas bisa berupa garis batas atau sorotan yang bergerak ketika Anda menelusuri halaman web dengan Tab.</p>
+        <p>Beberapa orang tidak bisa menggunakan tetikus dan hanya menggunakan <a href="javascript:return false;" aria-label="Tautan diberi gaya yang menonjol dari teks utama">navigasi dengan kibor</a> pada halaman web.</p>
+        <p>Penting agar pengguna dapat menjangkau semua elemen interaktif dengan menggunakan kibor, dan jelas elemen mana yang sedang menjadi fokus.</p>
+        <p>Fokus kibor yang tampak jelas bisa berupa garis batas atau sorotan yang akan berpindah sembari Anda menelusuri halaman web dengan Tab.</p>
       </div>
     </figure>
   </div>
   <div>
     <figure class="hover">
-      <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya disoroti tetikus</figcaption>
+      <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya ketika disoroti tetikus</figcaption>
       <div>
         <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya dengan latar belakang yang halus untuk menyorot saat disoroti" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">navigasi dengan kibor</a><img src="../img/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
-      <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Gaya fokus kibor</figcaption>
+      <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Gaya ketika difokuskan via kibor</figcaption>
       <div>
         <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya dengan versi gaya disoroti yang lebih kuat untuk membuatnya menonjol" style="color: #850BAC; background-color: #fdf70f">>navigasi dengan kibor</a></p>
       </div>
     </figure>
     <figure class="active">
-      <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya klik atau sentuh</figcaption>
+      <figcaption>{% include_cached icon.html name="check-circle" label="Oke" %} Gaya ketika diklik atau disentuh</figcaption>
       <div>
         <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya yang kuat untuk menunjukkan bahwa suatu tindakan akan terjadi" style="background: #850BAC; color: #f4f4f4">navigasi dengan kibor</a><img src="../img/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
@@ -309,9 +309,9 @@ Pastikan navigasi di seluruh halaman dalam situs web memiliki penamaan, pemberia
 {% include_cached box.html type="end" %}
 {:/}
 
-## Pastikan elemen isian menyertakan label terkait yang jelas
+## Pastikan elemen isian disertai label yang jelas
 
-Pastikan semua bidang memiliki label deskriptif yang bersebelahan dengan bidang tersebut. Untuk bahasa dari kiri ke kanan, label biasanya diposisikan di kiri atau di atas bidang, kecuali untuk kotak centang dan tombol radio yang biasanya berada di kanan elemen. Hindari memberikan terlalu banyak ruang antara label dan bidangnya.
+Pastikan semua bidang memiliki label deskriptif yang bersebelahan dengan bidang tersebut. Untuk bahasa dari kiri ke kanan, label biasanya diposisikan di kiri atau di atas bidang, kecuali untuk kotak centang dan tombol radio yang biasanya diletakkan di kanan elemen. Hindari memberikan terlalu banyak ruang antara label dan bidangnya.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Label dan bidang input dikaitkan berdasarkan kedekatan posisi" class="example" icon="check-circle" %}
@@ -329,7 +329,7 @@ Pastikan semua bidang memiliki label deskriptif yang bersebelahan dengan bidang 
           </div>
           <div class="row checkbox">
             <input type="checkbox" id="contact1" name="contact">
-            <label for="contact1">Saya senang Anda menghubungi saya</label>
+            <label for="contact1">Saya senang jika Anda menghubungi saya</label>
           </div>
           <div class="row">
             <label for="website2">Situs Anda</label>
@@ -400,7 +400,7 @@ Berikan umpan balik untuk interaksi, seperti mengkonfirmasi pengiriman isian, me
             <input type="text" id="website3" name="website">
           </div>
           <div class="row error">
-            <label class="required" for="comment3">{% include_cached icon.html name="warning" label="Eror" %} Comment *</label>
+            <label class="required" for="comment3">{% include_cached icon.html name="warning" label="Eror" %} Komentar *</label>
             <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
           </div>
         </fieldset>
@@ -424,7 +424,7 @@ Berikan umpan balik untuk interaksi, seperti mengkonfirmasi pengiriman isian, me
 * **Tutorial**
   * [Notifikasi Pengguna](/tutorials/forms/notifications/)
 * **Kisah Pengguna**
-  * [Bagaimana membuat konten penting mudah diidentifikasi dapat membantu](/people-use-web/user-stories/#classroomstudent)
+  * [Bagaimana membuat konten yang penting mudah diidentifikasi dapat membantu](/people-use-web/user-stories/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -432,7 +432,7 @@ Berikan umpan balik untuk interaksi, seperti mengkonfirmasi pengiriman isian, me
 
 ## Gunakan judul dan spasi untuk mengelompokkan konten yang berhubungan
 
-Gunakan spasi dan kedekatan posisi untuk membuat hubungan antar konten menjadi lebih jelas. Tata judul guna mengelompokkan konten, mengurangi kekusutan, dan membuat kontenlebih mudah untuk dipindai dan dipahami.
+Gunakan spasi dan kedekatan posisi untuk membuat hubungan antar konten menjadi lebih jelas. Tatalah posisi judul untuk mengelompokkan konten, mengurangi kekusutan, dan membuat konten lebih mudah untuk dipindai dan dipahami.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Spasi dapat menyoroti hubungan antar konten" class="example" %}
@@ -543,7 +543,7 @@ Gunakan spasi dan kedekatan posisi untuk membuat hubungan antar konten menjadi l
 
 ## Buat desain untuk ukuran area-pandang yang berbeda
 
-Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran area-pandang, seperti ponsel atau jendela browser yang diperbesar. Posisi dan penyajian elemen utama, seperti tajuk dan navigasi dapat diubah untuk memanfaatkan ruang sebaik-baiknya. Pastikan ukuran teks dan lebar baris diatur untuk memaksimalkan keterbacaan dan legibilitas (huruf mudah dibedakan).
+Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran area-pandang, seperti ponsel atau jendela browser yang diperbesar. Posisi dan penyajian elemen utama, seperti tajuk dan navigasi dapat diubah untuk memanfaatkan ruang sebaik-baiknya. Pastikan ukuran teks dan lebar baris diatur untuk memaksimalkan keterbacaan dan kejelasan huruf (legibilitas).
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Konten dan navigasi menyesuaikan dengan layar ponsel yang lebih kecil" class="example" %}
@@ -583,11 +583,11 @@ Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran area-p
 Sediakan tempat dalam desain Anda untuk alternatif dari gambar dan media. Misalnya, Anda mungkin memerlukan:
 
 * Tautan yang tampak jelas ke transkrip audio
-* Tautan yang tampak jelas ke versi video dengan deskripsi audio
-* Teks beserta ikon dan tombol grafis
+* Tautan yang tampak jelas ke versi dengan deskripsi audio
+* Teks yang menyertai ikon dan tombol grafis
 * Takarir dan deskripsi untuk tabel atau grafik yang kompleks
 
-Bekerjalah bersama penulis dan pengembang konten untuk memberikan alternatif bagi konten bukan teks.
+Bekerjalah bersama penulis dan pengembang konten untuk memberikan alternatif untuk konten nonteks.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Desain menyertakan tautan ke transkripsi dan ke video dengan deskripsi audio" class="example" %}
@@ -610,7 +610,7 @@ Bekerjalah bersama penulis dan pengembang konten untuk memberikan alternatif bag
 {:/}
 
 * **WCAG**
-  * [Konten Bukan Teks 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Memahami 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
+  * [Konten Nonteks 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Memahami 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Tutorial**
   * [Gambar](/tutorials/images/)
 * **Kisah Pengguna**
@@ -622,16 +622,16 @@ Bekerjalah bersama penulis dan pengembang konten untuk memberikan alternatif bag
 
 ## Sediakan kontrol untuk konten yang dimulai secara otomatis
 
-Berikan kontrol yang tampak jelas untuk memungkinkan pengguna menghentikan animasi atau suara yang diputar secara otomatis. Ini berlaku untuk korsel, gambar bergeser, suara latar belakang, dan video.
+Tampilkan kontrol untuk memungkinkan pengguna menghentikan animasi atau suara yang diputar secara otomatis. Ini berlaku untuk korsel, gambar bergeser, suara latar belakang, dan video.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Contoh: Tampilkan tombol putar/berhenti dan kontrol pemilihan dalam desain korsel" class="example" %}
+{% include_cached box.html type="start" title="Contoh: Tampilkan tombol putar/berhenti dan kontrol seleksi dalam desain korsel" class="example" %}
 {:/}
 
 <div class="autoplay">
   <figure>
     <div>
-      {% include_cached img.html src="carousel_controls.png" alt="Contoh korsel dengan tombol putar dan pemilihan *slide*" %}
+      {% include_cached img.html src="carousel_controls.png" alt="Contoh korsel dengan tombol putar dan seleksi *slide*" %}
     </div>
   </figure>
 </div>
@@ -655,16 +655,16 @@ Berikan kontrol yang tampak jelas untuk memungkinkan pengguna menghentikan anima
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Pelajari Lebih Lanjut Terkait Aksesibilitas" class="large" icon="readmore" %}
+{% include box.html type="start" title="Pelajari Lebih Lanjut terkait Aksesibilitas" class="large" icon="readmore" %}
 {:/}
 
-Kiat-kiat ini adalah beberapa hal yang perlu Anda pertimbangkan untuk aksesibilitas web. Sumber informasi berikut membantu Anda mempelajari mengapa aksesibilitas itu penting, dan tentang pedoman untuk menjadikan web lebih mudah diakses oleh penyandang disabilitas.
+Kiat-kiat ini adalah beberapa hal yang perlu Anda pertimbangkan untuk aksesibilitas web. Sumber informasi berikut membantu Anda mempelajari mengapa aksesibilitas itu penting, dan terkait pedoman untuk menjadikan web lebih mudah diakses oleh penyandang disabilitas.
 
 * [Pengenalan ke Aksesibilitas Web](/fundamentals/accessibility-intro/) — mencakup isu-isu secara meluas, seperti kasus bisnis, dan tautan ke sumber informasi yang bermanfaat
 * [Prinsip Aksesibilitas](/fundamentals/accessibility-principles/) — memperkenalkan konsep di balik persyaratan aksesibilitas web
-* [Bagaimana Penyandang Disabilitas Menggunakan Web](/people-use-web/) — menjelajahi dampak desain yang dapat diakses dengan contoh di kehidupan nyata
+* [Bagaimana Penyandang Disabilitas Menggunakan Web](/people-use-web/) — menjelajahi dampak dari desain aksesibel dengan contoh di kehidupan nyata
 * [Tutorial Aksesibilitas Web](/tutorials/) — mencakup beberapa panduan yang berkaitan dengan proses mendesain, misalnya, [menyediakan alternatif teks untuk gambar](/tutorials/images/)
-* [Demonstrasi Sebelum dan Sesudah](/WAI/demos/bad/) — menunjukkan versi yang tidak dapat diakses dan dapat diakses dari situs yang sama, dengan catatan terkait hambatan dan perbaikan seputar aksesibilitasnya
+* [Demonstrasi Sebelum dan Sesudah](/WAI/demos/bad/) — menunjukkan versi yang tidak dan yang aksesibel dari contoh situs yang sama, dengan catatan terkait hambatan dan perbaikan seputar aksesibilitasnya
 * [Cara Memenuhi Target WCAG (Referensi Singkat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
 * [Daftar Sarana Evaluasi Aksesibilitas Web](/WAI/ER/tools/) — termasuk sarana untuk membantu mengeksplorasi rasio kontras
 
