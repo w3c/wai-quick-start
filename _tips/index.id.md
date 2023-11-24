@@ -55,4 +55,4 @@ Memulai dengan aksesibilitas. Kiat-kiat ini memperkenalkan beberapa pertimbangan
 
 * [[Mendesain untuk Aksesibilitas Web]](/tips/designing/): Kiat dalam mendesain antarmuka pengguna dan desain visual.
 * [[Menulis untuk Aksesibilitas Web]](/tips/writing/): Kiat dalam menulis dan menyajikan konten.
-* [[Developing for Web Accessibility]](/tips/developing/): Kiat dalam membuat markah dan kode.
+* [[Mengembangkan untuk Aksesibilitas Web]](/tips/developing/): Kiat dalam membuat markah dan kode.
