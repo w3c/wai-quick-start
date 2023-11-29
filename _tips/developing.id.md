@@ -123,7 +123,7 @@ Pastikan alternatif teks untuk gambar ditambahkan ke semua gambar yang bersifat 
 * **Tutorial**
   * [Gambar](/tutorials/images/)
 * **Kisah Pengguna**
-  * [Menjelaskan nilai dari alternatif teks bagi pengguna dengan disabilitas netra](/people-use-web/user-stories/#accountant)
+  * [Menjelaskan nilai dari alternatif teks bagi pengguna penyandang disabilitas netra](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}

@@ -658,7 +658,7 @@ Tampilkan kontrol untuk memungkinkan pengguna menghentikan animasi atau suara ya
 {% include box.html type="start" title="Pelajari Lebih Lanjut terkait Aksesibilitas" class="large" icon="readmore" %}
 {:/}
 
-Kiat-kiat ini adalah beberapa hal yang perlu Anda pertimbangkan untuk aksesibilitas web. Sumber informasi berikut membantu Anda mempelajari mengapa aksesibilitas itu penting, dan terkait pedoman untuk menjadikan web lebih mudah diakses oleh penyandang disabilitas.
+Berikut adalah beberapa kiat yang perlu Anda pertimbangkan terkait aksesibilitas web. Sumber informasi berikut membantu Anda mempelajari mengapa aksesibilitas itu penting, dan terkait pedoman untuk menjadikan web lebih mudah diakses oleh penyandang disabilitas.
 
 * [Pengenalan ke Aksesibilitas Web](/fundamentals/accessibility-intro/) — mencakup isu-isu secara meluas, seperti kasus bisnis, dan tautan ke sumber informasi yang bermanfaat
 * [Prinsip Aksesibilitas](/fundamentals/accessibility-principles/) — memperkenalkan konsep di balik persyaratan aksesibilitas web
