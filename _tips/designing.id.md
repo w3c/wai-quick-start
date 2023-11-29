@@ -541,9 +541,9 @@ Gunakan spasi dan kedekatan posisi untuk membuat hubungan antar konten menjadi l
 {% include_cached box.html type="end" %}
 {:/}
 
-## Buat desain untuk ukuran area-pandang yang berbeda
+## Buat desain untuk ukuran porta pandang yang berbeda
 
-Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran area-pandang, seperti ponsel atau jendela browser yang diperbesar. Posisi dan penyajian elemen utama, seperti tajuk dan navigasi dapat diubah untuk memanfaatkan ruang sebaik-baiknya. Pastikan ukuran teks dan lebar baris diatur untuk memaksimalkan keterbacaan dan kejelasan huruf (legibilitas).
+Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran porta pandang, seperti ponsel atau jendela browser yang dizum. Posisi dan penyajian elemen utama, seperti tajuk dan navigasi dapat diubah untuk memanfaatkan ruang sebaik-baiknya. Pastikan ukuran teks dan lebar baris diatur untuk memaksimalkan keterbacaan dan kejelasan huruf (legibilitas).
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Konten dan navigasi menyesuaikan dengan layar ponsel yang lebih kecil" class="example" %}
@@ -572,7 +572,7 @@ Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran area-p
   * [Layar Ukuran Kecil](/TR/mobile-accessibility-mapping/#h-small-screen-size)
   * [Pertimbangan pada perangkat seluler terkait Dapat Dimengerti](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
 * **Kisah Pengguna**
-  * [Menjelaskan bagaimana alternatif tampilan pada halaman yang diperbesar dapat membantu](/people-use-web/user-stories/#retiree)
+  * [Menjelaskan bagaimana alternatif tampilan pada halaman yang dizum dapat membantu](/people-use-web/user-stories/#retiree)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
