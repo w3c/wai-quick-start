@@ -480,7 +480,7 @@ Gunakan <abbr title="Aplikasi Internet yang Kaya dan Aksesibel">WAI-ARIA</abbr> 
     <li><a href="...">Beranda</a></li>
     <li><a href="...">Toko</a></li>
     <li class="has-submenu">
-      <a aria-expanded="false" aria-haspopup="true" href="...">SpaceBears</a>
+      <a aria-expanded="false" aria-haspopup="true" href="...">SpaceBear</a>
       <ul>
           <li><a href="...">SpaceBear 6</a></li>
           <li><a href="...">SpaceBear 6 Plus</a></li>
@@ -603,7 +603,7 @@ CAPTCHA menimbulkan masalah bagi banyak orang. Ada cara-cara lain yang lebih mud
 
 * Menyediakan lebih dari dua cara untuk menyelesaikan CAPTCHA
 * Menyediakan akses ke alternatif bantuan manusia untuk menghindari CAPTCHA
-* Tidak memerlukan CAPTCHA untuk pengguna terautorisasi.
+* Tidak memerlukan CAPTCHA untuk pengguna terotorisasi.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Informasi Lebih Lanjut" class="simple" %}

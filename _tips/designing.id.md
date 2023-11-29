@@ -578,7 +578,7 @@ Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran porta 
 {% include_cached box.html type="end" %}
 {:/}
 
-## Sertakan alternatif gambar dan media dalam desain Anda
+## Sertakan alternatif untuk gambar dan media dalam desain Anda
 
 Sediakan tempat dalam desain Anda untuk alternatif dari gambar dan media. Misalnya, Anda mungkin memerlukan:
 
@@ -614,7 +614,7 @@ Bekerjalah bersama penulis dan pengembang konten untuk memberikan alternatif unt
 * **Tutorial**
   * [Gambar](/tutorials/images/)
 * **Kisah Pengguna**
-  * [Menjelaskan nilai dari alternatif teks bagi pengguna tunanetra](/people-use-web/user-stories/#accountant)
+  * [Menjelaskan nilai dari alternatif teks bagi pengguna disabilitas netra](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -655,7 +655,7 @@ Tampilkan kontrol untuk memungkinkan pengguna menghentikan animasi atau suara ya
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Pelajari Lebih Lanjut terkait Aksesibilitas" class="large" icon="readmore" %}
+{% include box.html type="start" title="Pelajari Lebih Lanjut Terkait Aksesibilitas" class="large" icon="readmore" %}
 {:/}
 
 Berikut adalah beberapa kiat yang perlu Anda pertimbangkan terkait aksesibilitas web. Sumber informasi berikut membantu Anda mempelajari mengapa aksesibilitas itu penting, dan terkait pedoman untuk menjadikan web lebih mudah diakses oleh penyandang disabilitas.

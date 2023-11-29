@@ -172,7 +172,7 @@ Lihat contoh *inline*
 
 <p>Hal ini menjadikan penambahan judul salah satu sarana terpenting bagi pengguna pembaca layar, sehingga mereka dapat mempelajari apa yang ada pada halaman. Perhatikan bahwa pemberian tanda biasanya memicu perubahan format secara visual yang dapat disesuaikan pada banyak dokumen.</p>
 
-<cite>Diadaptasi dari <a href="http://accessibility.psu.edu/headings/">Judul dan Subjudul pada Penn State</a></cite>
+<cite>Diadopsi dari <a href="http://accessibility.psu.edu/headings/">"Judul dan Subjudul" di Penn State</a></cite>
 {% include_cached excol.html type="end" %}
   </figure>
   <figure>
@@ -203,7 +203,7 @@ Lihat comtoh *inline*
 
 <p>Hal ini menjadikan penambahan judul salah satu sarana terpenting bagi pengguna pembaca layar, sehingga mereka dapat mempelajari apa yang ada pada halaman. Perhatikan bahwa pemberian tanda biasanya memicu perubahan format secara visual yang dapat disesuaikan pada banyak dokumen.</p>
 
-<cite>Diadaptasi dari <a href="http://accessibility.psu.edu/headings/">Judul dan Subjudul pada Penn State</a></cite>
+<cite>Diadopsi dari <a href="http://accessibility.psu.edu/headings/">"Judul dan Subjudul" di Penn State</a></cite>
 {% include_cached excol.html type="end" %}
   </figure>
 </div>
@@ -390,7 +390,7 @@ Pastikan instruksi, panduan, dan pesan eror jelas, mudah dipahami, dan hindari b
 * **WCAG**
   * [Label atau Instruksi 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Memahami 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Kisah Pengguna**
-  * [Menjelaskan bahaimana instruksi sederhana membantu orang dengan kesulitan belajar](/people-use-web/user-stories/#supermarketassistant)
+  * [Menjelaskan bagaimana instruksi sederhana membantu orang dengan kesulitan belajar](/people-use-web/user-stories/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
