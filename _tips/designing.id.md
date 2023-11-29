@@ -15,8 +15,8 @@ navigation:
   previous: /tips/writing/ # Do not change this
   next: /tips/developing/ # Do not change this
 
-# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
+translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+- name: "Fri Rasyidi"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
