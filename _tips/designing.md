@@ -194,9 +194,9 @@ While color can be useful to convey information, color should not be the only wa
           <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" fill="#0000CC"/>
           <text fill="#f4f4f4" y="54" x="132"><tspan>2</tspan><tspan dx="100" style="opacity:0"> Blue triangle: Angles are 30°, 30°, 120°</tspan></text>
           <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" fill="#AA0402"/>
-          <text fill="#f4f4f4" y="114" x="110"><tspan>3</tspan><tspan dx="100" style="opacity:0"> Red triangle: Angles are 30°, 60°, 90°</tspan></text>
+          <text fill="#f4f4f4" y="114" x="110"><tspan>3</tspan><tspan dx="100" style="opacity:0"> Red triangle: Angles are 40°, 70°, 70°</tspan></text>
           <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" fill="#DDDD00"/>
-          <text fill="#333" y="118" x="48"><tspan>4</tspan><tspan dx="100" style="opacity:0"> Yellow triangle: Angles are 40°, 70°, 70°</tspan></text>
+          <text fill="#333" y="118" x="48"><tspan>4</tspan><tspan dx="100" style="opacity:0"> Yellow triangle: Angles are 60°, 60°, 60°</tspan></text>
         </g>
       </svg>
       <form action="#" method="post">
