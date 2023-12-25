@@ -554,7 +554,7 @@ Prêtez attention à l’agencement des informations contenues dans les pages da
       {% include_cached img.html src="content_in_browser.png" %}
       {% include_cached img.html src="content_in_phone.png" %}
       <p>L’affichage dans une fenêtre plus large avec un texte de petite taille utilise plusieurs colonnes pour le contenu principal, des options de navigation visibles, et des informations secondaires visibles.</p>
-      <p>L’affichage dans une petite fenêtre, telle qu’un téléphone portable, ou avec un texte en gros caractères utilise une seule colonne pour le contenu principal, les options de navigation sont révélées grâce à une icône, et les informations secondaires sont également révéles par un icône.</p>
+      <p>L’affichage dans une petite fenêtre, telle qu’un téléphone portable, ou avec un texte en gros caractères utilise une seule colonne pour le contenu principal, les options de navigation sont révélées grâce à une icône, et les informations secondaires sont également révéles par une icône.</p>
     </div>
   </figure>
 </div>
