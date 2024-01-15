@@ -463,7 +463,7 @@ Sumber informasi berikut membantu Anda mempelajari mengapa aksesibilitas itu pen
 * [Pengenalan ke Aksesibilitas](/fundamentals/accessibility-intro/) — Memperkenalkan aksesibilitas dan menyediakan tautan ke berbagai sumber informasi yang membantu
 * [Prinsip Aksesibilitas](/fundamentals/accessibility-principles/) — Pengenalan ke persyaratan <abbr>WCAG</abbr>
 * [Bagaimana Penyandang Disabilitas Menggunakan Web](/people-use-web/) — Contoh nyata dari manfaat aksesibilitas bagi pada penyandang disabilitas
-* [Cara Memenuhi Target WCAG (Referensi Singkat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
+* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
 
 {::nomarkdown}
 {% include box.html type="end" %}

@@ -629,7 +629,7 @@ Kiat-kiat ini adalah beberapa hal yang perlu Anda pertimbangkan untuk aksesibili
 * [Bagaimana Penyandang Disabilitas Menggunakan Web](/people-use-web/) — Contoh nyata dari manfaat aksesibilitas bagi pada penyandang disabilitas
 * [Tutorial Aksesibilitas Web](/tutorials/) — Menampikan pada Anda cara untuk mengembangkan konten web yang asesibel untuk pada penyadang disabilitas
 * [Demonstrasi Sebelum dan Sesudah](/WAI/demos/bad/) — Contoh situs web yang aksesibel dan tidak dengan desain visual yang sama, dengan catatan yang menyiritu hambatan dan perbaikan seputar aksesibilitasnya, dan laporan evaluasi untuk <abbr>WCAG</abbr>
-* [Cara Memenuhi Target WCAG (Referensi Singkat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
+* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
 * [Daftar Sarana Evaluasi Aksesibilitas Web](/WAI/ER/tools/) — Menyediakan serangkaian sarana untuk membantu mengeksplorasi aksesibilitas sebuah kode
 * [Gambaran Umum <abbr>WAI-ARIA</abbr>](/standards-guidelines/aria/) — Pengenalan ke <abbr>WAI-ARIA</abbr> dengan tautan ke semua spesifikasinya
 

@@ -665,7 +665,7 @@ Berikut adalah beberapa kiat yang perlu Anda pertimbangkan terkait aksesibilitas
 * [Bagaimana Penyandang Disabilitas Menggunakan Web](/people-use-web/) — menjelajahi dampak dari desain aksesibel dengan contoh di kehidupan nyata
 * [Tutorial Aksesibilitas Web](/tutorials/) — mencakup beberapa panduan yang berkaitan dengan proses mendesain, misalnya, [menyediakan alternatif teks untuk gambar](/tutorials/images/)
 * [Demonstrasi Sebelum dan Sesudah](/WAI/demos/bad/) — menunjukkan versi yang tidak dan yang aksesibel dari contoh situs yang sama, dengan catatan terkait hambatan dan perbaikan seputar aksesibilitasnya
-* [Cara Memenuhi Target WCAG (Referensi Singkat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
+* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
 * [Daftar Sarana Evaluasi Aksesibilitas Web](/WAI/ER/tools/) — termasuk sarana untuk membantu mengeksplorasi rasio kontras
 
 {::nomarkdown}
