@@ -71,7 +71,7 @@ Halaman ini memperkenalkan beberapa pertimbangan mendasar untuk membantu Anda mu
 
 ## Kaitkan label dengan setiap kontrol pada isian
 
-Gunakan atribut `for` pada elemen `<label>` yang dihubungkan ke atribut `id` dari elemen isiannya, atau gunakan atribut <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr>. Dalam situasi tertentu, menyembunyikan elemen `<label>` secara visual mungkin dapat diterima, namun pada sebagian besar kasus, label diperlukan untuk membantu semua pembaca mengerti input apa yang diperlukan.
+Gunakan atribut `for` pada elemen `<label>` yang dihubungkan ke atribut `id` dari elemen isiannya, atau gunakan atribut <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr>. Dalam situasi tertentu, menyembunyikan elemen `<label>` secara visual mungkin bisa diterima, namun pada sebagian besar kasus, label diperlukan untuk membantu semua pembaca mengerti input apa yang diperlukan.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Menggunakan atribut <code>for</code> dan <code>id</code>" class="example" %}
@@ -256,7 +256,7 @@ Gunakan markah yang sesuai untuk judul, daftar, tabel, dll. HTML5 menyediakan el
 Berikan instruksi, pesan eror, dan notifikasi yang jelas untuk membantu pengguna melengkapi isian di situs Anda. Ketika kesalahan terjadi:
 
 * Bantu pengguna menemukan letak masalahnya
-* Berikan penjelasan yang spesifik dan dapat dimengerti
+* Berikan penjelasan yang spesifik dan bisa dimengerti
 * Berikan saran perbaikan
 
 Sebisa mungkin toleransi kesalahan format saat memproses input dari pengguna. Misalnya, menerima nomor telepon dengan spasi dan menghapus spasi tersebut sesuai kebutuhan.
@@ -513,12 +513,12 @@ Gunakan <abbr title="Aplikasi Internet yang Kaya dan Aksesibel">WAI-ARIA</abbr> 
 {% include_cached box.html type="end" %}
 {:/}
 
-## Pastikan semua elemen interaktif dapat diakses melalui kibor
+## Pastikan semua elemen interaktif bisa diakses melalui kibor
 
-Pikirkan tentang akses kibor, terutama saat mengembangkan elemen interaktif, seperti menu, informasi sorotan tetikus, akordeon yang dapat disusutkan, atau pemutar media. Gunakan `tabindex="0"` untuk menambahkan elemen yang biasanya tidak menerima fokus, seperti `<div>` atau `<span>`, ke dalam urutan navigasi untuk digunakan pada saat interaksi. Gunakan skrip untuk menangkap dan merespons aksi dari kibor.
+Pikirkan tentang akses kibor, terutama saat mengembangkan elemen interaktif, seperti menu, informasi sorotan tetikus, akordeon yang bisa disusutkan, atau pemutar media. Gunakan `tabindex="0"` untuk menambahkan elemen yang biasanya tidak menerima fokus, seperti `<div>` atau `<span>`, ke dalam urutan navigasi untuk digunakan pada saat interaksi. Gunakan skrip untuk menangkap dan merespons aksi dari kibor.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Contoh: Tombol menu yang dapat diakses kibor" class="example" %}
+{% include_cached box.html type="start" title="Contoh: Tombol menu yang bisa diakses kibor" class="example" %}
 
 <div class="two-column keyboard-accessible">
 <figure>
@@ -599,7 +599,7 @@ buttonExample.addEventListener('click', function(e) {
 
 ## Hindari CAPTCHA saat memungkinkan
 
-CAPTCHA menimbulkan masalah bagi banyak orang. Ada cara-cara lain yang lebih mudah digunakan untuk memverifikasi bahwa masukan pengguna benar dihasilkan oleh manusia, seperti deteksi otomatis atau interaksi antarmuka. Jika CAPTCHA benar-benar perlu disertakan, pastikan CAPTCHA mudah dipahami dan menyertakan alternatif bagi pengguna penyandang disabilitas, seperti:
+CAPTCHA menimbulkan masalah bagi banyak orang. Ada cara-cara lain yang lebih mudah digunakan untuk memverifikasi bahwa masukan pengguna benar dihasilkan oleh manusia, seperti deteksi otomatis atau interaksi antarmuka. Jika CAPTCHA benar-benar perlu disertakan, pastikan CAPTCHA mudah dimengerti dan menyertakan alternatif bagi pengguna penyandang disabilitas, seperti:
 
 * Menyediakan lebih dari dua cara untuk menyelesaikan CAPTCHA
 * Menyediakan akses ke alternatif bantuan manusia untuk menghindari CAPTCHA
@@ -629,7 +629,7 @@ Kiat-kiat ini adalah beberapa hal yang perlu Anda pertimbangkan untuk aksesibili
 * [Bagaimana Penyandang Disabilitas Menggunakan Web](/people-use-web/) — Contoh nyata dari manfaat aksesibilitas bagi pada penyandang disabilitas
 * [Tutorial Aksesibilitas Web](/tutorials/) — Menampikan pada Anda cara untuk mengembangkan konten web yang asesibel untuk pada penyadang disabilitas
 * [Demonstrasi Sebelum dan Sesudah](/WAI/demos/bad/) — Contoh situs web yang aksesibel dan tidak dengan desain visual yang sama, dengan catatan yang menyiritu hambatan dan perbaikan seputar aksesibilitasnya, dan laporan evaluasi untuk <abbr>WCAG</abbr>
-* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
+* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang bisa disesuaikan untuk semua persyaratan dan teknik WCAG
 * [Daftar Sarana Evaluasi Aksesibilitas Web](/WAI/ER/tools/) — Menyediakan serangkaian sarana untuk membantu mengeksplorasi aksesibilitas sebuah kode
 * [Gambaran Umum <abbr>WAI-ARIA</abbr>](/standards-guidelines/aria/) — Pengenalan ke <abbr>WAI-ARIA</abbr> dengan tautan ke semua spesifikasinya
 

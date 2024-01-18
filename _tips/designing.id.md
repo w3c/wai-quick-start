@@ -432,7 +432,7 @@ Berikan umpan balik untuk interaksi, seperti mengkonfirmasi pengiriman isian, me
 
 ## Gunakan judul dan spasi untuk mengelompokkan konten yang berhubungan
 
-Gunakan spasi dan kedekatan posisi untuk membuat hubungan antar konten menjadi lebih jelas. Tatalah posisi judul untuk mengelompokkan konten, mengurangi kekusutan, dan membuat konten lebih mudah untuk dipindai dan dipahami.
+Gunakan spasi dan kedekatan posisi untuk membuat hubungan antar konten menjadi lebih jelas. Tatalah posisi judul untuk mengelompokkan konten, mengurangi kekusutan, dan membuat konten lebih mudah untuk dipindai dan dimengerti.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Spasi dapat menyoroti hubungan antar konten" class="example" %}
@@ -543,7 +543,7 @@ Gunakan spasi dan kedekatan posisi untuk membuat hubungan antar konten menjadi l
 
 ## Buat desain untuk ukuran porta pandang yang berbeda
 
-Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran porta pandang, seperti ponsel atau jendela browser yang dizum. Posisi dan penyajian elemen utama, seperti tajuk dan navigasi dapat diubah untuk memanfaatkan ruang sebaik-baiknya. Pastikan ukuran teks dan lebar baris diatur untuk memaksimalkan keterbacaan dan kejelasan huruf (legibilitas).
+Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran porta pandang, seperti ponsel atau jendela browser yang dizum. Posisi dan penyajian elemen utama, seperti tajuk dan navigasi bisa diubah untuk memanfaatkan ruang sebaik-baiknya. Pastikan ukuran teks dan lebar baris diatur untuk memaksimalkan keterbacaan dan kejelasan huruf (legibilitas).
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Konten dan navigasi menyesuaikan dengan layar ponsel yang lebih kecil" class="example" %}
@@ -570,7 +570,7 @@ Pertimbangkan bagaimana informasi halaman disajikan dalam berbagai ukuran porta 
 
 * **Latar Belakang**
   * [Layar Ukuran Kecil](/TR/mobile-accessibility-mapping/#h-small-screen-size)
-  * [Pertimbangan pada perangkat seluler terkait Dapat Dimengerti](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
+  * [Pertimbangan pada perangkat seluler terkait Bisa Dimengerti](/TR/mobile-accessibility-mapping/#mobile-accessibility-considerations-related-primarily-to-principle-3-understandable)
 * **Kisah Pengguna**
   * [Menjelaskan bagaimana alternatif tampilan pada halaman yang dizum dapat membantu](/people-use-web/user-stories/#retiree)
 
@@ -665,7 +665,7 @@ Berikut adalah beberapa kiat yang perlu Anda pertimbangkan terkait aksesibilitas
 * [Bagaimana Penyandang Disabilitas Menggunakan Web](/people-use-web/) — menjelajahi dampak dari desain aksesibel dengan contoh di kehidupan nyata
 * [Tutorial Aksesibilitas Web](/tutorials/) — mencakup beberapa panduan yang berkaitan dengan proses mendesain, misalnya, [menyediakan alternatif teks untuk gambar](/tutorials/images/)
 * [Demonstrasi Sebelum dan Sesudah](/WAI/demos/bad/) — menunjukkan versi yang tidak dan yang aksesibel dari contoh situs yang sama, dengan catatan terkait hambatan dan perbaikan seputar aksesibilitasnya
-* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
+* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang bisa disesuaikan untuk semua persyaratan dan teknik WCAG
 * [Daftar Sarana Evaluasi Aksesibilitas Web](/WAI/ER/tools/) — termasuk sarana untuk membantu mengeksplorasi rasio kontras
 
 {::nomarkdown}

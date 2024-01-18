@@ -170,7 +170,7 @@ Lihat contoh *inline*
 
 <p>Alhasil, judul harus "ditandai" secara semantik agar teknologi pendukung dapat mengidentifikasi judul. Kemudian judul juga akan bisa digunakan untuk menavigasi.</p>
 
-<p>Hal ini menjadikan penambahan judul salah satu sarana terpenting bagi pengguna pembaca layar, sehingga mereka dapat mempelajari apa yang ada pada halaman. Perhatikan bahwa pemberian tanda biasanya memicu perubahan format secara visual yang dapat disesuaikan pada banyak dokumen.</p>
+<p>Hal ini menjadikan penambahan judul salah satu sarana terpenting bagi pengguna pembaca layar, sehingga mereka dapat mempelajari apa yang ada pada halaman. Perhatikan bahwa pemberian tanda biasanya memicu perubahan format secara visual yang bisa disesuaikan pada banyak dokumen.</p>
 
 <cite>Diadopsi dari <a href="http://accessibility.psu.edu/headings/">"Judul dan Subjudul" di Penn State</a></cite>
 {% include_cached excol.html type="end" %}
@@ -201,7 +201,7 @@ Lihat comtoh *inline*
 
 <p>Alhasil, judul harus "ditandai" secara semantik agar teknologi pendukung dapat mengidentifikasi judul. Kemudian judul juga akan bisa digunakan untuk menavigasi.</p>
 
-<p>Hal ini menjadikan penambahan judul salah satu sarana terpenting bagi pengguna pembaca layar, sehingga mereka dapat mempelajari apa yang ada pada halaman. Perhatikan bahwa pemberian tanda biasanya memicu perubahan format secara visual yang dapat disesuaikan pada banyak dokumen.</p>
+<p>Hal ini menjadikan penambahan judul salah satu sarana terpenting bagi pengguna pembaca layar, sehingga mereka dapat mempelajari apa yang ada pada halaman. Perhatikan bahwa pemberian tanda biasanya memicu perubahan format secara visual yang bisa disesuaikan pada banyak dokumen.</p>
 
 <cite>Diadopsi dari <a href="http://accessibility.psu.edu/headings/">"Judul dan Subjudul" di Penn State</a></cite>
 {% include_cached excol.html type="end" %}
@@ -340,7 +340,7 @@ Untuk konten audio, seperti podcast, berikan transkripsinya. Untuk konten audiov
 
 ## Sediakan instruksi yang jelas
 
-Pastikan instruksi, panduan, dan pesan eror jelas, mudah dipahami, dan hindari bahasa teknis yang tidak perlu. Jabarkan persyaratan dari input, seperti format tanggal.
+Pastikan instruksi, panduan, dan pesan eror jelas, mudah dimengerti, dan hindari bahasa teknis yang tidak perlu. Jabarkan persyaratan dari input, seperti format tanggal.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Instruksi mengkomunikasikan informasi apa yang harus disediakan oleh pengguna" class="example" %}
@@ -408,14 +408,14 @@ Gunakan bahasa dan format yang sederhana, sesuai dengan konteksnya.
 * Pertimbangkan untuk menggunakan gambar, ilustrasi, video, audio, dan simbol untuk membantu memperjelas makna konten.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Contoh: Membuat konten dapat dibaca dan dimengerti" class="example" %}
+{% include_cached box.html type="start" title="Contoh: Membuat konten bisa dibaca dan dimengerti" class="example" %}
 {:/}
 
 <div class="two-column">
   <figure class="from-col1 to-col2">
     <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Kerumitan yang tidak perlu</figcaption>
     <div>
-      <p class="fail">CPP: Jika terjadi tabrakan kendaraan, perwakilan yang ditunjuk oleh perusahaan akan berupaya memastikan tingkat dan penyebab kerusakan pada properti milik semua pihak yang terlibat. Setelah perwakilan kami memperoleh informasi yang memungkinkan kami memahami hubungan sebab akibat, kami dapat atau tidak memberikan kompensasi uang yang sesuai. Keputusan yang dihasilkan dapat menimbulkan salah satu opsi berikut: klaim tidak disetujui dan diberi status ditolak, status klaim bersifat ambigu dan akan memerlukan informasi tambahan sebelum pemrosesan lebih lanjut dapat dilakukan, klaim disetujui sebagian dan pembayaran dikurangi ditugaskan dan diterbitkan, atau klaim disetujui sepenuhnya dan total pembayaran klaim ditugaskan dan diterbitkan.</p>
+      <p class="fail">CPP: Jika terjadi tabrakan kendaraan, perwakilan yang ditunjuk oleh perusahaan akan berupaya memastikan tingkat dan penyebab kerusakan pada properti milik semua pihak yang terlibat. Setelah perwakilan kami memperoleh informasi yang memungkinkan kami memahami hubungan sebab akibat, kami dapat atau tidak memberikan kompensasi uang yang sesuai. Keputusan yang dihasilkan dapat menimbulkan salah satu opsi berikut: klaim tidak disetujui dan diberi status ditolak, status klaim bersifat ambigu dan akan memerlukan informasi tambahan sebelum pemrosesan lebih lanjut bisa dilakukan, klaim disetujui sebagian dan pembayaran dikurangi ditugaskan dan diterbitkan, atau klaim disetujui sepenuhnya dan total pembayaran klaim ditugaskan dan diterbitkan.</p>
     </div>
   </figure>
   <figure class="from-col3 to-col4">
@@ -456,14 +456,14 @@ Gunakan bahasa dan format yang sederhana, sesuai dengan konteksnya.
 {% include box.html type="start" title="Pelajari Lebih Lanjut Terkait Aksesibilitas" class="large" icon="readmore" %}
 {:/}
 
-Berikut adalah beberapa kiat yang perlu Anda pertimbangkan terkait aksesibilitas web. Panduan tambahan untuk menulis dalam memenuhi kebutuhan aksesibilitas bagi penyangang disabilitas kognitid dan kesulitan belajar ada pada **[Menggunakan Konten yang Jelas dan Dapat Dimengerti](https://www.w3.org/WAI/WCAG2/supplemental/objectives/o3-clear-content/)**.
+Berikut adalah beberapa kiat yang perlu Anda pertimbangkan terkait aksesibilitas web. Panduan tambahan untuk menulis dalam memenuhi kebutuhan aksesibilitas bagi penyangang disabilitas kognitid dan kesulitan belajar ada pada **[Menggunakan Konten yang Jelas dan Bisa Dimengerti](https://www.w3.org/WAI/WCAG2/supplemental/objectives/o3-clear-content/)**.
 
 Sumber informasi berikut membantu Anda mempelajari mengapa aksesibilitas itu penting, dan terkait pedoman untuk menjadikan web lebih mudah diakses oleh penyandang disabilitas.
 
 * [Pengenalan ke Aksesibilitas](/fundamentals/accessibility-intro/) — Memperkenalkan aksesibilitas dan menyediakan tautan ke berbagai sumber informasi yang membantu
 * [Prinsip Aksesibilitas](/fundamentals/accessibility-principles/) — Pengenalan ke persyaratan <abbr>WCAG</abbr>
 * [Bagaimana Penyandang Disabilitas Menggunakan Web](/people-use-web/) — Contoh nyata dari manfaat aksesibilitas bagi pada penyandang disabilitas
-* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang dapat disesuaikan untuk semua persyaratan dan teknik WCAG
+* [Cara Memenuhi Target WCAG (Referensi Cepat)](/WAI/WCAG21/quickref/) — referensi yang bisa disesuaikan untuk semua persyaratan dan teknik WCAG
 
 {::nomarkdown}
 {% include box.html type="end" %}
