@@ -2,8 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Développer pour l'accessibilité Web – Conseils pour démarrer"
-title_html: "Développer pour l'accessibilité Web"
+title: "Développer pour l’accessibilité Web – Conseils pour démarrer"
+title_html: "Développer pour l’accessibilité Web"
 nav_title: Conseils pour le développement
 lang: fr   # Change "en" to the translated-language shortcode
 last_updated: 2023-10-10   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -38,17 +38,17 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date :</strong> Mise à jour mineure : 9 janvier 2019. Mise à jour : 15 avril 2016. Première publication en septembre 2015.</p>
-  <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
+  <p><strong>Date :</strong> Mise à jour mineure : 9 janvier 2019. Mise à jour : 15 avril 2016. Première publication en septembre 2015.</p>
+  <p><strong>Rédaction :</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, et <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
   <p>Développé par le <a href="https://www.w3.org/WAI/EO/">Groupe de travail Éducation et promotion (EOWG)</a>.
-  Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l'information">IST</abbr> de la Commission européenne.</p>
+  Développé avec le soutien du <a href="https://www.w3.org/WAI/DEV/">projet WAI-DEV</a>, co-financé par le programme <abbr title="Technologies de la Société de l’information">IST</abbr> de la Commission européenne.</p>
 ---
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Résumé" class="full" %}
 {:/}
 
-Cette page présente quelques considérations de base pour vous aider dans le développement de contenus Web plus accessibles aux personnes en situation de handicap. Ces conseils sont de bonnes pratiques pour vous aider à satisfaire aux exigences des Règles pour l'accessibilité des contenus Web (WCAG). Suivez les liens vers les recommandations WCAG correspondantes, du contexte détaillée dans les documents « Comprendre », des instructions dans les tutoriels, des témoignages d’utilisateurs, et plus encore.
+Cette page présente quelques considérations de base pour vous aider dans le développement de contenus Web plus accessibles aux personnes en situation de handicap. Ces conseils sont de bonnes pratiques pour vous aider à satisfaire aux exigences des Règles pour l’accessibilité des contenus Web (WCAG). Suivez les liens vers les recommandations WCAG correspondantes, du contexte détaillée dans les documents « Comprendre », des instructions dans les tutoriels, des témoignages d’utilisateurs, et plus encore.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -68,9 +68,9 @@ Cette page présente quelques considérations de base pour vous aider dans le d�
 {:/}
 
 
-## Associez une étiquette à chaque composant d'interface de formulaire
+## Associez une étiquette à chaque composant d’interface de formulaire
 
-Utilisez un attribut `for` sur l'élément `<label>` correspondant à l'attribut `id` de l'élément de formulaire, ou utilisez des attributs <abbr lang="en" title="Accessible Rich Internet Applications">WAI-ARIA</abbr>. Dans certaines situations particulières, il peut être acceptable de masquer visuellement les éléments `<label>`&nbsp;; mais la plupart du temps, les étiquettes sont nécessaires pour permettre à tous les lecteurs de comprendre la saisie requise.
+Utilisez un attribut `for` sur l’élément `<label>` correspondant à l’attribut `id` de l’élément de formulaire, ou utilisez des attributs <abbr lang="en" title="Accessible Rich Internet Applications">WAI-ARIA</abbr>. Dans certaines situations particulières, il peut être acceptable de masquer visuellement les éléments `<label>`&nbsp;; mais la plupart du temps, les étiquettes sont nécessaires pour permettre à tous les lecteurs de comprendre la saisie requise.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Exemple : utiliser les attributs <code>for</code> et <code>id</code>" class="example" %}
@@ -78,7 +78,7 @@ Utilisez un attribut `for` sur l'élément `<label>` correspondant à l'attribut
 <div class="two-column">
 <figure>
 <figcaption>{% include_cached icon.html name="desktop" %} Rendu</figcaption>
-<label for="username">Nom d'utilisateur</label>
+<label for="username">Nom d’utilisateur</label>
 <input id="username" type="text" name="username">
 </figure>
 <figure>
@@ -86,7 +86,7 @@ Utilisez un attribut `for` sur l'élément `<label>` correspondant à l'attribut
 {:/}
 
 ~~~html
-<label for="username">Nom d'utilisateur</label>
+<label for="username">Nom d’utilisateur</label>
 <input id="username" type="text" name="username">
 ~~~
 
@@ -97,7 +97,7 @@ Utilisez un attribut `for` sur l'élément `<label>` correspondant à l'attribut
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -111,17 +111,17 @@ Utilisez un attribut `for` sur l'élément `<label>` correspondant à l'attribut
 
 ## Incluez des équivalents textuels pour les images
 
-Veillez à ce qu'un équivalent textuel pour les images soit ajouté à toutes les images fonctionnelles et informatives. Utilisez un équivalent textuel vide `alt=""` pour les images décoratives, ou incluez-les dans les CSS. Les équivalents textuels sont généralement fournis par les auteurs du contenu écrit.
+Veillez à ce qu’un équivalent textuel pour les images soit ajouté à toutes les images fonctionnelles et informatives. Utilisez un équivalent textuel vide `alt=""` pour les images décoratives, ou incluez-les dans les CSS. Les équivalents textuels sont généralement fournis par les auteurs du contenu écrit.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
   * [Contenu non textuel 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Comprendre 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **Tutoriel**
   * [Images](/tutorials/images/)
-* **Témoignage d'utilisateur**
+* **Témoignage d’utilisateur**
   * [Importance des équivalents textuels pour un utilisateur aveugle](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
@@ -130,15 +130,15 @@ Veillez à ce qu'un équivalent textuel pour les images soit ajouté à toutes l
 
 ## Identifiez la langue de la page et les changements de lange
 
-Indiquez la langue principale de chaque page en utilisant l'attribut `lang` dans la balise `html`, par exemple `<html lang="fr">`. Utilisez l'attribut `lang` sur des éléments spécifiques lorsque la langue de l'élément diffère du reste de la page.
+Indiquez la langue principale de chaque page en utilisant l’attribut `lang` dans la balise `html`, par exemple `<html lang="fr">`. Utilisez l’attribut `lang` sur des éléments spécifiques lorsque la langue de l’élément diffère du reste de la page.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
   * [Langue de la page 3.1.1](/WAI/WCAG21/quickref/#language-of-page) ([Comprendre 3.1.1](/WAI/WCAG21/Understanding/language-of-page))
-  * [Langue d'un passage 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([Comprendre 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
+  * [Langue d’un passage 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([Comprendre 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
 * **Guide pratique**
   * [Déclarer la langue en HTML](/International/questions/qa-html-language-declarations)
 
@@ -148,10 +148,10 @@ Indiquez la langue principale de chaque page en utilisant l'attribut `lang` dans
 
 ## Utilisez le balisage pour fournir du sens et de la structure
 
-Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, etc. Le HTML5 fournit des éléments supplémentaires, tels `<nav>` et `<aside>`, pour mieux structurer votre contenu. Les attributs role <abbr>WAI-ARIA</abbr> peuvent contribuer à donner plus de sens&nbsp;; par exemple, en utilisant l'attribut `role="search"` pour identifier une fonctionnalité de recherche. Travaillez avec les designers et les auteurs des contenus pour vous accorder sur les significations et les utiliser de manière cohérente par la suite.
+Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, etc. Le HTML5 fournit des éléments supplémentaires, tels `<nav>` et `<aside>`, pour mieux structurer votre contenu. Les attributs role <abbr>WAI-ARIA</abbr> peuvent contribuer à donner plus de sens&nbsp;; par exemple, en utilisant l’attribut `role="search"` pour identifier une fonctionnalité de recherche. Travaillez avec les designers et les auteurs des contenus pour vous accorder sur les significations et les utiliser de manière cohérente par la suite.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : utiliser l'HTML pour fournir une structure et du sens" class="example" %}
+{% include_cached box.html type="start" title="Exemple : utiliser l’HTML pour fournir une structure et du sens" class="example" %}
 
 <div class="two-column">
 <figure>
@@ -160,7 +160,7 @@ Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, et
   <article>
     <h2>Superours à la rescousse</h2>
     <time datetime="2015-08-07">7 août 2015</time>
-    <p>Superours, l'ours favori de la ville, a encore une fois prouvé son courage en secourant un chaton coincé dans un arbre. Les témoins de la scène racontent que les efforts de Superours n'ont pas été appréciés par le félin, qui a infligé quelques petits coups de griffes à son sauveteur.</p>
+    <p>Superours, l’ours favori de la ville, a encore une fois prouvé son courage en secourant un chaton coincé dans un arbre. Les témoins de la scène racontent que les efforts de Superours n’ont pas été appréciés par le félin, qui a infligé quelques petits coups de griffes à son sauveteur.</p>
     <aside>
       <h3>Articles connexes</h3>
       <ul>
@@ -180,7 +180,7 @@ Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, et
   <article>
     <h2>Superours à la rescousse</h2>
     <time datetime="2015-08-07">7 août 2015</time>
-    <p>Superours, l'ours favori de la ville, a encore une fois prouvé son courage en secourant un chaton coincé dans un arbre. Les témoins de la scène racontent que les efforts de Superours n'ont pas été appréciés par le félin, qui a infligé quelques petits coups de griffes à son sauveteur.</p>
+    <p>Superours, l’ours favori de la ville, a encore une fois prouvé son courage en secourant un chaton coincé dans un arbre. Les témoins de la scène racontent que les efforts de Superours n’ont pas été appréciés par le félin, qui a infligé quelques petits coups de griffes à son sauveteur.</p>
     <aside>
       <h3>Articles connexes</h3>
       <ul>
@@ -199,7 +199,7 @@ Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, et
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : champ de recherche utilisant <abbr>WAI-ARIA</abbr>" class="example" %}
+{% include_cached box.html type="start" title="Exemple : champ de recherche utilisant <abbr>WAI-ARIA</abbr>" class="example" %}
 
 <div class="two-column">
 <figure>
@@ -235,7 +235,7 @@ Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, et
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -243,8 +243,8 @@ Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, et
 * **Tutoriel**
   * [Structure de page](/tutorials/page-structure/)
   * [Tableaux](/tutorials/tables/)
-* **Témoignage d'utilisateur**
-  * [Comment les informations structurées aident les utilisateurs de lecteur d'écran](/people-use-web/user-stories/#accountant)
+* **Témoignage d’utilisateur**
+  * [Comment les informations structurées aident les utilisateurs de lecteur d’écran](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -252,16 +252,16 @@ Utilisez le balisage approprié pour les en-têtes, les listes, les tableaux, et
 
 ## Aidez les utilisateurs à éviter les erreurs, et à les corriger
 
-Fournissez des instructions claires, des messages d'erreur, et des notifications pour aider les utilisateurs à compléter les formulaires présents sur votre site. Lorsqu'une erreur survient :
+Fournissez des instructions claires, des messages d’erreur, et des notifications pour aider les utilisateurs à compléter les formulaires présents sur votre site. Lorsqu’une erreur survient :
 
 * Aidez les utilisateurs à trouver où est le problème
 * Fournissez des explications précises et compréhensibles
 * Proposez des moyens de correction
 
-Soyez aussi flexibles que possible vis-à-vis du format lors du traitement des données saisies par l'utilisateur. Par exemple, acceptez les numéros de téléphone qui comprennent des espaces et supprimez les espaces au besoin.
+Soyez aussi flexibles que possible vis-à-vis du format lors du traitement des données saisies par l’utilisateur. Par exemple, acceptez les numéros de téléphone qui comprennent des espaces et supprimez les espaces au besoin.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : champ destiné à un numéro de téléphone australien, avec une validation flexible" class="example" %}
+{% include_cached box.html type="start" title="Exemple : champ destiné à un numéro de téléphone australien, avec une validation flexible" class="example" %}
 
 <div class="two-column">
 <figure>
@@ -289,26 +289,26 @@ Soyez aussi flexibles que possible vis-à-vis du format lors du traitement des d
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
   * [Identification des erreurs 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([Comprendre 3.3.1](/WAI/WCAG21/Understanding/error-identification))
 * **Tutoriel**
   * [Valider la saisie](/tutorials/forms/validation/)
-* **Témoignage d'utilisateur**
+* **Témoignage d’utilisateur**
   * [Comment des erreurs utiles aident un utilisateur dyslexique](/people-use-web/user-stories/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Reflétez l'ordre logique de lecture dans l'ordre du code
+## Reflétez l’ordre logique de lecture dans l’ordre du code
 
-Assurez-vous que l'ordre des éléments dans le code corresponde à l'ordre logique des informations présentées. Une des manières de le vérifier consiste à enlever le style CSS et à vérifier si l'ordre du contenu a du sens.
+Assurez-vous que l’ordre des éléments dans le code corresponde à l’ordre logique des informations présentées. Une des manières de le vérifier consiste à enlever le style CSS et à vérifier si l’ordre du contenu a du sens.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : refléter l'ordre logique de lecture dans le code" class="example" %}
+{% include_cached box.html type="start" title="Exemple : refléter l’ordre logique de lecture dans le code" class="example" %}
 
 <div class="two-column">
 <div class="order">
@@ -320,7 +320,7 @@ Assurez-vous que l'ordre des éléments dans le code corresponde à l'ordre logi
   </article>
 </div>
 <figure>
-<figcaption>{% include_cached icon.html name="ex-circle" label="Mauvaise pratique" %} L'image positionnée avant l'en-tête pourrait être manquée</figcaption>
+<figcaption>{% include_cached icon.html name="ex-circle" label="Mauvaise pratique" %} L’image positionnée avant l’en-tête pourrait être manquée</figcaption>
 {:/}
 
 ~~~html
@@ -331,7 +331,7 @@ Assurez-vous que l'ordre des éléments dans le code corresponde à l'ordre logi
 ~~~
 
 {% include excol.html type="start" id="full-code-img-before-heading" %}
-Voir tout l'exemple de code
+Voir tout l’exemple de code
 {% include excol.html type="middle" %}
 
 ~~~html
@@ -348,7 +348,7 @@ Voir tout l'exemple de code
 {::nomarkdown}
 </figure>
 <figure>
-<figcaption>{% include_cached icon.html name="check-circle" label="Bonne pratique" %} L'en-tête marque le début de la section</figcaption>
+<figcaption>{% include_cached icon.html name="check-circle" label="Bonne pratique" %} L’en-tête marque le début de la section</figcaption>
 {:/}
 
 ~~~html
@@ -359,7 +359,7 @@ Voir tout l'exemple de code
 ~~~
 
 {% include excol.html type="start" id="full-code-img-before-heading" %}
-Voir tout l'exemple de code
+Voir tout l’exemple de code
 {% include excol.html type="middle" %}
 
 ~~~html
@@ -380,7 +380,7 @@ Voir tout l'exemple de code
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -390,12 +390,12 @@ Voir tout l'exemple de code
 {% include_cached box.html type="end" %}
 {:/}
 
-## Créez un code qui s'adapte aux technologies des utilisateurs
+## Créez un code qui s’adapte aux technologies des utilisateurs
 
-Utilisez un design réactif pour adapter l'affichage à différents niveaux d'agrandissement et à différentes tailles d'espaces de restitution, tels que sur des appareils mobiles et des tablettes. Lorsque la taille de la police est agrandie d'au moins 200 %, évitez le défilement horizontal et empêcher tout rognage du contenu. Utilisez l'amélioration progressive pour veiller à ce que les fonctionnalités et le contenu soient disponibles quelque soit la technologie utilisée.
+Utilisez un design réactif pour adapter l’affichage à différents niveaux d’agrandissement et à différentes tailles d’espaces de restitution, tels que sur des appareils mobiles et des tablettes. Lorsque la taille de la police est agrandie d’au moins 200 %, évitez le défilement horizontal et empêcher tout rognage du contenu. Utilisez l’amélioration progressive pour veiller à ce que les fonctionnalités et le contenu soient disponibles quelle que soit la technologie utilisée.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : utiliser les requêtes média pour adapter la navigation" class="example" %}
+{% include_cached box.html type="start" title="Exemple : utiliser les requêtes média pour adapter la navigation" class="example" %}
 
 <div class="adapt-code">
   <figure>
@@ -446,7 +446,7 @@ Utilisez un design réactif pour adapter l'affichage à différents niveaux d'ag
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -454,7 +454,7 @@ Utilisez un design réactif pour adapter l'affichage à différents niveaux d'ag
   * [Identification cohérente 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Comprendre 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **Contexte**
   * [Écran de petite taille](/TR/mobile-accessibility-mapping/#h-small-screen-size)
-* **Témoignage d'utilisateur**
+* **Témoignage d’utilisateur**
   * [Comment les vues équivalentes des pages agrandies peuvent être utiles](/people-use-web/user-stories/#retiree)
 
 {::nomarkdown}
@@ -463,10 +463,10 @@ Utilisez un design réactif pour adapter l'affichage à différents niveaux d'ag
 
 ## Transmettez une signification pour les éléments interactifs non standards
 
-Utilisez <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> pour fournir des informations sur l'état et la fonction des widgets personnalisés, tels que les accordéons et les boutons personnalisés. Par exemple, `role="navigation"` et `aria-expanded="true"`. Du code supplémentaire est nécessaire pour implémenter le comportement de ces widgets, comme le développement et la réduction du contenu ou la manière dont le widget répond aux événements du clavier.
+Utilisez <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> pour fournir des informations sur l’état et la fonction des widgets personnalisés, tels que les accordéons et les boutons personnalisés. Par exemple, `role="navigation"` et `aria-expanded="true"`. Du code supplémentaire est nécessaire pour implémenter le comportement de ces widgets, comme le développement et la réduction du contenu ou la manière dont le widget répond aux événements du clavier.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : Fonction et état du menu identifiés en utilisant WAI-ARIA" class="example" %}
+{% include_cached box.html type="start" title="Exemple : Fonction et état du menu identifiés en utilisant WAI-ARIA" class="example" %}
 
 <div class="non-standard">
   <figure>
@@ -500,13 +500,13 @@ Utilisez <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> pou
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
   * [Nom, rôle, et valeur 4.1.2](/WAI/WCAG21/quickref/#name-role-value) ([Comprendre 4.1.2](/WAI/WCAG21/Understanding/name-role-value))
 * **Contexte**
-  * [Commentaires sur l'utilisation d'ARIA en HTML](/TR/aria-in-html/)
+  * [Commentaires sur l’utilisation d’ARIA en HTML](/TR/aria-in-html/)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -514,10 +514,10 @@ Utilisez <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> pou
 
 ## Assurez-vous que tous les éléments interactifs sont accessibles au clavier
 
-Pensez à l'accès au clavier, particulièrement au moment de développer des éléments interactifs, comme des menus, des informations affichées au passage de la souris, des accordéons réductibles, ou des lecteurs multimédia. Utilisez `tabindex="0"` pour ajouter un élément qui ne reçoit normalement pas le focus, tel que `<div>` ou `<span>`, dans l'ordre de navigation&nbsp;; lorsqu'il est utilisé pour l'interaction. Utilisez un script pour capter et répondre aux événements clavier.   
+Pensez à l’accès au clavier, particulièrement au moment de développer des éléments interactifs, comme des menus, des informations affichées au passage de la souris, des accordéons réductibles, ou des lecteurs multimédia. Utilisez `tabindex="0"` pour ajouter un élément qui ne reçoit normalement pas le focus, tel que `<div>` ou `<span>`, dans l’ordre de navigation&nbsp;; lorsqu’il est utilisé pour l’interaction. Utilisez un script pour capter et répondre aux événements clavier.   
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Exemple : bouton de menu accessible au clavier" class="example" %}
+{% include_cached box.html type="start" title="Exemple : bouton de menu accessible au clavier" class="example" %}
 
 <div class="two-column keyboard-accessible">
 <figure>
@@ -584,12 +584,12 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
   * [Clavier 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Comprendre 2.1.1](/WAI/WCAG21/Understanding/keyboard))
-* **Témoignage d'utilisateur**
+* **Témoignage d’utilisateur**
   * [Comment un utilisateur avec un trouble musculosquelettique a besoin du support du clavier](/people-use-web/user-stories/#reporter)
 
 {::nomarkdown}
@@ -598,14 +598,14 @@ buttonExample.addEventListener('click', function(e) {
 
 ## Évitez les CAPTCHAs si possible
 
-Les CAPTCHAs posent problème pour un grand nombre de personnes. Il existe d'autres manières, plus simples à utiliser, de vérifier si les données de l'utilisateur ont été saisies par un humain, comme la détection automatique ou les interactions avec l'interface. Si le CAPTCHA doit absolument être inclus, veillez à ce qu'il soit facile à comprendre et qu'il inclue des alternatives pour les utilisateurs en situation de handicap, telles que :
+Les CAPTCHAs posent problème pour un grand nombre de personnes. Il existe d’autres manières, plus simples à utiliser, de vérifier si les données de l’utilisateur ont été saisies par un humain, comme la détection automatique ou les interactions avec l’interface. Si le CAPTCHA doit absolument être inclus, veillez à ce qu’il soit facile à comprendre et qu’il inclue des alternatives pour les utilisateurs en situation de handicap, telles que :
 
 * Fournir plus de deux moyens de résoudre les CAPTCHAs
-* Fournir l'accès à un interlocuteur humain qui peut contourner le CAPTCHA
+* Fournir l’accès à un interlocuteur humain qui peut contourner le CAPTCHA
 * Ne pas rendre obligatoires les CAPTCHAS pour les utilisateurs autorisés
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Plus d'informations" class="simple" %}
+{% include_cached box.html type="start" title="Plus d’informations" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -618,19 +618,19 @@ Les CAPTCHAs posent problème pour un grand nombre de personnes. Il existe d'aut
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="En savoir plus sur l'accessibilité" class="large" icon="readmore" %}
+{% include box.html type="start" title="En savoir plus sur l’accessibilité" class="large" icon="readmore" %}
 {:/}
 
-Ces conseils sont quelques-uns des éléments à prendre en compte pour l'accessibilité Web. Les ressources suivantes vous aident à comprendre l'importance de l'accessibilité, et à prendre connaissance des recommandations pour rendre le Web plus accessible pour les personnes handicapées.
+Ces conseils sont quelques-uns des éléments à prendre en compte pour l’accessibilité Web. Les ressources suivantes vous aident à comprendre l’importance de l’accessibilité, et à prendre connaissance des recommandations pour rendre le Web plus accessible pour les personnes handicapées.
 
-* [Introduction à l'accessibilité](/fundamentals/accessibility-intro/) — introduit l'accessibilité et fournit des liens vers de nombreuses ressources utiles
-* [Principes d'accessibilité](/fundamentals/accessibility-principles/) — une introduction aux exigences des <abbr>WCAG</abbr>
-* [Comment les personnes en situation de handicap utilisent le Web](/people-use-web/) — des exemples concrets des bénéfices de l'accessibilité pour les personnes en situation de handicap
-* [Tutoriels sur l'accessibilité Web](/tutorials/) — vous montre comment développer du contenu Web accessible aux personnes en situation de handicap
-* [Démonstration avant/après](/WAI/demos/bad/) — un exemple de sites Web accessible et inaccessible qui partagent le même design visuel, avec des commentaires sur les principaux obstacles à l'accessibilité et les moyens d'y remedier, et des rapports d'évaluation pour les WCAG
+* [Introduction à l’accessibilité](/fundamentals/accessibility-intro/) — introduit l’accessibilité et fournit des liens vers de nombreuses ressources utiles
+* [Principes d’accessibilité](/fundamentals/accessibility-principles/) — une introduction aux exigences des <abbr>WCAG</abbr>
+* [Comment les personnes en situation de handicap utilisent le Web](/people-use-web/) — des exemples concrets des bénéfices de l’accessibilité pour les personnes en situation de handicap
+* [Tutoriels sur l’accessibilité Web](/tutorials/) — vous montre comment développer du contenu Web accessible aux personnes en situation de handicap
+* [Démonstration avant/après](/WAI/demos/bad/) — un exemple de sites Web accessible et inaccessible qui partagent le même design visuel, avec des commentaires sur les principaux obstacles à l’accessibilité et les moyens d’y remédier, et des rapports d’évaluation pour les WCAG
 * [Comment répondre aux exigences des WCAG (Référence rapide)](/WAI/WCAG21/quickref/) — une liste personnalisable de toutes les exigences et les techniques des WCAG
-* [Liste d'outils d'évaluation de l'accessibilité Web](/WAI/ER/tools/) — mentionne un éventail d'outils pour aider à explorer l'accessibilité du code
-* [Une vue d'ensemble de <abbr>WAI-ARIA</abbr>](/standards-guidelines/aria/) — une introduction aux <abbr>WAI-ARIA</abbr> avec des liens vers toutes les spécifications
+* [Liste d’outils d’évaluation de l’accessibilité Web](/WAI/ER/tools/) — mentionne un éventail d’outils pour aider à explorer l’accessibilité du code
+* [Une vue d’ensemble de <abbr>WAI-ARIA</abbr>](/standards-guidelines/aria/) — une introduction aux <abbr>WAI-ARIA</abbr> avec des liens vers toutes les spécifications
 
 {::nomarkdown}
 {% include box.html type="end" %}
