@@ -112,7 +112,7 @@ Gunakan atribut `for` pada elemen `<label>` yang dihubungkan ke atribut `id` dar
 
 ## Sediakan alternatif teks untuk gambar
 
-Pastikan alternatif teks untuk gambar ditambahkan ke semua gambar yang bersifat informatif dan fungsional. Gunakan teks alternatif kosong, `alt=""` untuk gambar dekoratif, atau sertakan gambar tersebut pada CSS. Alternatif teks biasanya disediakan oleh mereka yang bertanggung jawab untuk menulis konten.
+Pastikan alternatif teks untuk gambar ditambahkan ke semua gambar yang bersifat informatif mau pun fungsional. Gunakan teks alternatif kosong, `alt=""` untuk gambar dekoratif, atau sertakan gambar tersebut pada CSS. Alternatif teks biasanya disediakan oleh mereka yang bertanggung jawab untuk menulis konten.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Informasi Lebih Lanjut" class="simple" %}
@@ -131,7 +131,7 @@ Pastikan alternatif teks untuk gambar ditambahkan ke semua gambar yang bersifat 
 
 ## Identifikasi bahasa halaman dan perubahan bahasa
 
-Tunjukkan bahasa utama setiap halaman dengan menggunakan atribut `lang` pada tag `html`, misalnya `<html lang="en">`. Gunakan atribut `lang` pada elemen jika bahasa elemen tersebut berbeda dari elemen lainnya pada halaman.
+Tunjukkan bahasa utama setiap halaman dengan menggunakan atribut `lang` pada tag `html`, misalnya `<html lang="id">`. Gunakan atribut `lang` pada elemen jika bahasa elemen tersebut berbeda dari elemen lainnya pada halaman.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Informasi Lebih Lanjut" class="simple" %}
@@ -464,7 +464,7 @@ Gunakan desain responsif untuk menyesuaikan tampilan dengan kondisi zum dan ukur
 
 ## Sediakan makna untuk elemen interaktif yang nonstandar
 
-Gunakan <abbr title="Aplikasi Internet yang Kaya dan Aksesibel">WAI-ARIA</abbr> untuk memberikan informasi tentang fungsi dan status *widget* yang dirancang khusus, seperti akordeon dan tombol yang dirancang khusus. Misalnya, `role="navigation"` dan `aria-expanded="true"`. Kode tambahan diperlukan untuk mengimplementasikan perilaku *widget* tersebut, seperti memperluas dan menyusutkan konten, atau bagaimana *widget* merespons aksi dari kibor.
+Gunakan <abbr title="Aplikasi Internet yang Kaya dan Aksesibel">WAI-ARIA</abbr> untuk memberikan informasi tentang fungsi dan status <span lang="en">widget</span> yang dirancang khusus, seperti akordeon dan tombol yang dirancang khusus. Misalnya, `role="navigation"` dan `aria-expanded="true"`. Kode tambahan diperlukan untuk mengimplementasikan perilaku <span lang="en">widget</span> tersebut, seperti memperluas dan menyusutkan konten, atau bagaimana <span lang="en">widget</span> merespons aksi dari kibor.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Fungsi dan kondisi menu diidentifikasi menggunakan WAI-ARIA" class="example" %}

@@ -260,7 +260,7 @@ Berikan gaya yang berbeda untuk elemen interaktif, seperti tautan dan tombol, ag
     <figure class="keyboard">
       <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Gaya ketika difokuskan via kibor</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya dengan versi gaya disoroti yang lebih kuat untuk membuatnya menonjol" style="color: #850BAC; background-color: #fdf70f">>navigasi dengan kibor</a></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Tautan diberi gaya dengan versi gaya disoroti yang lebih kuat untuk membuatnya menonjol" style="color: #850BAC; background-color: #fdf70f">navigasi dengan kibor</a></p>
       </div>
     </figure>
     <figure class="active">

@@ -156,7 +156,7 @@ Gunakan judul pendek untuk mengelompokkan paragraf terkait dan menerangkan bagia
       {% include_cached img.html src="headings-poor.png" alt="Contoh tidak ada judul, lihat di bawah untuk contoh mendetail" %}
     </div>
 {% include_cached excol.html type="start" id="no-headings" %}
-Lihat contoh *inline*
+Lihat contoh <span lang="en">inline</span>
 {% include_cached excol.html type="middle" %}
 <h2 id="no-headings-modal-title"><span class="visuallyhidden">Contoh: </span>Judul dan Subjudul</h2>
 
@@ -181,7 +181,7 @@ Lihat contoh *inline*
       {% include_cached img.html src="headings-good.png" alt="Ilustrasi struktur judul yang bagi, lihat di bawah untuk contoh mendetail"%}
     </div>
 {% include_cached excol.html type="start" id="headings-good" %}
-Lihat comtoh *inline*
+Lihat comtoh <span lang="en">inline</span>
 {% include_cached excol.html type="middle" %}
 <h2 id="headings-modal-title"><span class="visuallyhidden">Contoh: </span>Judul dan Subjudul</h2>
 
@@ -320,7 +320,7 @@ Untuk setiap gambar, tulislah alternatif teks yang menjelaskan informasi atau fu
 
 ## Buat transkripsi dan takarir untuk multimedia
 
-Untuk konten audio, seperti podcast, berikan transkripsinya. Untuk konten audiovisual, seperti video pelatihan, sediakan pula takarirnya. Cantumkan pada transkripsi dan takarir informasi terkait ucapan lisan dan suara yang penting diketahui untuk memahami konten, misalnya, 'pintu berderit'. Untuk transkripsi video, sertakan juga deskripsi konten visual yang penting, misalnya 'Athan meninggalkan ruangan'.
+Untuk konten hanya audio, seperti podcast, berikan transkripsinya. Untuk konten audiovisual, seperti video pelatihan, sediakan pula takarirnya. Cantumkan pada transkripsi dan takarir informasi terkait ucapan lisan dan suara yang penting diketahui untuk memahami konten, misalnya, 'pintu berderit'. Untuk transkripsi video, sertakan juga deskripsi konten visual yang penting, misalnya 'Athan meninggalkan ruangan'.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Informasi Lebih Lanjut" class="simple" %}
