@@ -6,7 +6,7 @@ title: "Mendesain untuk Aksesibilitas Web – Kiat Memulai"
 title_html: "Mendesain untuk Aksesibilitas Web"
 nav_title: Kiat Mendesain
 lang: id  # Change "en" to the translated-language shortcode
-last_updated: 2023-11-24   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-03-13   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 resource:
   ref: /tips/  # Do not change this
@@ -311,7 +311,7 @@ Pastikan navigasi di seluruh halaman dalam situs web memiliki penamaan, pemberia
 
 ## Pastikan elemen isian disertai label yang jelas
 
-Pastikan semua bidang memiliki label deskriptif yang bersebelahan dengan bidang tersebut. Untuk bahasa dari kiri ke kanan, label biasanya diposisikan di kiri atau di atas bidang, kecuali untuk kotak centang dan tombol radio yang biasanya diletakkan di kanan elemen. Hindari memberikan terlalu banyak ruang antara label dan bidangnya.
+Pastikan semua bidang memiliki label deskriptif yang bersebelahan dengan bidang tersebut. Untuk bahasa yang ditulis dari kiri ke kanan, label biasanya diposisikan di sebelah kiri atau atas bidang, kecuali untuk kotak centang dan tombol radio, label biasanya diletakkan di sebelah kanan. Hindari memberikan terlalu banyak ruang antara label dan bidangnya.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Contoh: Label dan bidang input dikaitkan berdasarkan kedekatan posisi" class="example" icon="check-circle" %}
