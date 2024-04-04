@@ -2,11 +2,11 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Writing for Web Accessibility – Tips for Getting Started"
-title_html: "Writing for Web Accessibility"
-nav_title: Tips for Writing
-lang: en  # Change "en" to the translated-language shortcode
-last_updated: 2022-08-05  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+title: "ウェブ・アクセシビリティを考慮した記述法 – 始めるにあたってのヒント"
+title_html: "ウェブ・アクセシビリティを考慮した記述法"
+nav_title: 始めるためのヒント
+lang: ja  # Change "en" to the translated-language shortcode
+last_updated: 2024-03-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 resource:
   ref: /tips/  # Do not change this
@@ -16,7 +16,7 @@ navigation:
   next: /tips/designing/  # Do not change this
 
 # translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
+- name: "Jay Kishigami"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
@@ -24,9 +24,9 @@ navigation:
 
 github:
   repository: w3c/wai-quick-start
-  path: '_tips/writing.md'  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+  path: '_tips/writing.ja.md'  # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 
-permalink: /tips/writing/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+permalink: /tips/writing/ja   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /tips/writing/   # Do not change this
 
 ext_css: tips.css
@@ -39,16 +39,18 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Updated 5 August 2022. First published September 2015.</p>
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS.</p>
-  <p>Developed by the <a href="https://www.w3.org/WAI/EO/">Education and Outreach Working Group (EOWG)</a>. Developed with support from the <a href="https://www.w3.org/WAI/DEV/">WAI-DEV project</a>, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.</p>
+  <p><strong>月日:</strong> Updated 5 August 2022. First published September 2015.</p>
+  <p><strong>編集者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>ACKNOWLEDGEMENTS</p>
+ <p>    <a href="https://www.w3.org/WAI/EO/">教育と援助のためのWG (EOWG)</a>によって開発され.
+    <a href="https://www.w3.org/WAI/DEV/">WAI-DEV プロジェクト</a>からのサポートを受けるとともに, ヨーロッパ委員会の <abbr title="Information Society Technologies">IST</abbr> プログラムの援助を受けた.</p>
+
 ---
 
 {::nomarkdown}
-{% include box.html type="start" h="2" title="Summary" class="full" %}
+{% include box.html type="start" h="2" title="概要" class="full" %}
 {:/}
 
-This page introduces some basic considerations to help you get started writing web content that is more accessible to people with disabilities. These tips are good practice to help you meet Web Content Accessibility Guidelines (WCAG) requirements. Follow the links to the related WCAG requirements, detailed background in the "Understanding" document, guidance from Tutorials, user stories, and more.
+このページでは､障害者にとってアクセシブルなWebコンテンツを書き始めるための考慮すべき基本的な事項を紹介します｡これらのヒントは､Webコンテンツ・アクセシビリティ・ガイドライン(WCAG)の要件を満たすためのグッドプラクティスです｡関連するWCAG要件､「理解するための」ドキュメントでの詳細な背景､チュートリアルからのガイダンス､ユーザーストーリーなどへのリンクをたどってください｡
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -57,7 +59,7 @@ This page introduces some basic considerations to help you get started writing w
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include_cached toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="目次" class="full" %}
 {:/}
 
 -   TOC is created automatically.
@@ -67,17 +69,17 @@ This page introduces some basic considerations to help you get started writing w
 {% include_cached toc.html type="end" %}
 {:/}
 
-## Provide informative, unique page titles
+## 分かりやすくユニークなページタイトルを
 
-For each web page, provide a short title that describes the page content and distinguishes it from other pages. The page title is often the same as the main heading of the page. Put the unique and most relevant information first; for example, put the name of the page before the name of the organization. For pages that are part of a multi-step process, include the current step in the page title.
+各ウェブページには､ページの内容を説明し､他のページと区別できる短いタイトルを付けます｡ページタイトルは､そのページの大見出しと同じであることが多い｡例えば､組織名の前にページ名を書くなどです｡複数ステップのプロセスの一部であるページでは､現在のステップをページタイトルに含める｡
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Page Titles" class="example" %}
+{% include_cached box.html type="start" title="例: ページのタイトル" class="example" %}
 {:/}
 
 <div class="page-title">
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Home page title</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} ホームページのタイトル</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
@@ -93,12 +95,12 @@ For each web page, provide a short title that describes the page content and dis
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Page name followed by organization name</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} ページ名の後に組織名</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
           <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
-          <text transform="translate(10 15)">Latest News &bull; Space Teddy Inc.</text>
+          <text transform="translate(10 15)">最新のニュース &bull; Space Teddy Inc.</text>
           <g transform="translate(333 4)">
             <rect x="0" y="9.5" width="10" height="1.5"/>
             <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
@@ -109,12 +111,12 @@ For each web page, provide a short title that describes the page content and dis
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Page name including step in a process</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} プロセスのステップを含むページ名</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
           <path class="banner" d="M 0 9.75 L 0 14.8125 L 0 21.625 L 384.5 21.625 L 384.5 14.8125 L 384.5 9.75 L 384.5 3.25 C 384.5 1.59314575 383.15685 .25 381.5 .25 L 3 .25 C 1.34314575 .25 0 1.59314575 0 3.25 Z" fill="#f5f5f5"/>
-          <text transform="translate(10 15)">Buy Your Bear (Step 1 of 3) &bull; Space Teddy Inc.</text>
+          <text transform="translate(10 15)">あなたがテディベアを買う方法 (ステップ 1 / 3) &bull; Space Teddy Inc.</text>
           <g transform="translate(333 4)">
             <rect x="0" y="9.5" width="10" height="1.5"/>
             <path d="M 24 10 L 17 10 L 17 4 L 24 4 Z M 16 11 L 25 11 L 25 3 L 16 3 Z"/>
@@ -135,75 +137,75 @@ For each web page, provide a short title that describes the page content and dis
 {:/}
 
 * **WCAG**
-  * [Page Titled 2.4.2](/WAI/WCAG21/quickref/#page-titled) ([Understanding 2.4.2](/WAI/WCAG21/Understanding/page-titled))
+  * [ページタイトル 2.4.2](/WAI/WCAG21/quickref/#page-titled) ([Understanding 2.4.2](/WAI/WCAG21/Understanding/page-titled))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Use headings to convey meaning and structure
+## 意味と構造を伝えるために見出しを使う
 
-Use short headings to group related paragraphs and clearly describe the sections. Good headings provide an outline of the content.
+短い見出しを使って関連する段落をグループ化し､セクションを明確に説明する｡良い見出しは､内容のアウトラインを提供します｡.
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Using headings to organize content" class="example" %}
+{% include_cached box.html type="start" title="例: 見出しを使ってコンテンツを整理する" class="example" %}
 {:/}
 
 <div class="heading-structure two-column">
   <figure>
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Lack of headings</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %}見出しが欠如している場合</figcaption>
     <div>
-      {% include_cached img.html src="headings-poor.png" alt="Illustration of no headings, see below for detailed example" %}
+      {% include_cached img.html src="headings-poor.png" alt="見出しがない例､詳細は下記を参照" %}
     </div>
 {% include_cached excol.html type="start" id="no-headings" %}
-View inline example
+インラインでの例を表示
 {% include_cached excol.html type="middle" %}
-<h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
+<h2 id="no-headings-modal-title"><span class="visuallyhidden">Example: </span>見出しと小見出し</h2>
 
-<p>HTML elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
+<p>HTML要素は、文書の構造階層に関する情報を提供する。要素を正しく使うことで、支援技術にさらなる意味を伝えることができる。多くの場合、そうすることで文書の編集も容易になる。</p>
 
-<p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
+<p>3、4段落より長い文書では、見出しと小見出しはユーザビリティとアクセシビリティのために重要である。これらの見出しは、読者が文書全体のアウトラインを判断し、関心のある特定の情報にナビゲートするのに役立つ。</p>
 
-<p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section.</p>
+<p>見出しは1から6までのレベルに分類される。最も高いレベルは「レベル1」で、ページのタイトルや文書の主要なセクションに対応することが多い。</p>
 
-<p>Visual readers identify headers by scanning pages for text of a larger size or a different style. Assistive technology users are not able to see these visual changes, so changing the style is not a sufficient cue.</p>
+<p>読者は、より大きなサイズのテキストや異なるスタイルのテキストを探すためにページをスキャンすることで、ヘッダーを識別する。支援技術ユーザーはこのような視覚的な変化を見ることができないので、スタイルを変えても十分な手がかりにはならない。</p>
 
-<p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. Then headings can also be used for navigation.</p>
+<p>その代わりに、支援技術が見出しを識別できるように、見出しは意味的に「タグ付け」されなければならない。そうすれば、見出しをナビゲーションに使うこともできる。</p>
 
-<p>This makes adding headings one of the most important tools for screen reader users, so that they can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
+<p>このため、見出しを追加することは、スクリーン・リーダー・ユーザーにとって最も重要なツールの1つである。タグ付けは通常、視覚的にフォーマットの変更を引き起こすので、多くの文書で調整できることに注意しよう。.</p>
 
-<cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
+<cite>参照 <a href="http://accessibility.psu.edu/headings/">Penn Stateにおける見出しと小見出し</a></cite>
 {% include_cached excol.html type="end" %}
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Using headings and subheadings</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}見出しと小見出しを使用した場合</figcaption>
     <div>
-      {% include_cached img.html src="headings-good.png" alt="Illustration of good heading structure, see below for detailed example"%}
+      {% include_cached img.html src="headings-good.png" alt="よい見出しの使い方､詳細は下記を参照"%}
     </div>
 {% include_cached excol.html type="start" id="headings-good" %}
-View inline example
+インラインでの例を表示
 {% include_cached excol.html type="middle" %}
-<h2 id="headings-modal-title"><span class="visuallyhidden">Example: </span>Headings and Subheadings</h2>
+<h2 id="headings-modal-title"><span class="visuallyhidden">例: </span>見出しと小見出し</h2>
 
-<p><abbr>HTML</abbr> elements provide information on structural hierarchy of a document. Using elements correctly will help convey additional meaning to assistive technology. In many cases, doing so will also make your document easier to edit.</p>
+<p><abbr>HTML</abbr> 要素は、文書の構造的階層に関する情報を提供する。要素を正しく使用することで、支援技術にさらなる意味を伝えることができる。多くの場合、そうすることで文書の編集も容易になる</p>
 
-<h3><span class="visuallyhidden">Example: </span>Purpose of Headings</h3>
+<h3><span class="visuallyhidden">Example: </span>見出しの目的</h3>
 
-<p>For documents longer than three or four paragraphs, headings and subheadings are important for usability and accessibility. They help readers to determine the overall outline of a document and to navigate to specific information of interest.</p>
+<p>3、4段落より長い文書では、見出しと小見出しはユーザビリティとアクセシビリティのために重要である。これらの見出しは、読者が文書全体のアウトラインを判断し、関心のある特定の情報にナビゲートするのに役立つ。</p>
 
-<h4><span class="visuallyhidden">Example: </span>Heading Levels</h4>
+<h4><span class="visuallyhidden">例: </span>見出しのレベル</h4>
 
-<p>Headings are classified into levels from one to six. The highest level is "Level 1" and often corresponds to the title of the page or major document section.</p>
+<p>見出しは1から6までのレベルに分類される。最も高いレベルは「レベル1」で、ページのタイトルや文書の主要なセクションに対応することが多い。</p>
 
-<h3><span class="visuallyhidden">Example: </span>Meaning vs. Formatting</h3>
+<h3><span class="visuallyhidden">例: </span>意味とフォーマット</h3>
 
-<p>Visual readers identify headers by scanning pages for text of a larger size or a different style. Assistive technology users are not able to see these visual changes, so changing the style is not a sufficient cue.</p>
+<p>視覚読者は、より大きなサイズのテキストや異なるスタイルのテキストを探すためにページをスキャンすることで、ヘッダーを識別する。支援技術ユーザーはこのような視覚的な変化を見ることができないので、スタイルを変えても十分な手がかりにはならない。</p>
 
-<p>Instead, the headings must be semantically "tagged" so that assistive technology can identify headings. Then headings can also be used for navigation.</p>
+<p>その代わりに、支援技術が見出しを識別できるように、見出しは意味的に「タグ付け」されなければならない。そうすれば、見出しをナビゲーションに使うこともできる。</p>
 
-<p>This makes adding headings one of the most important tools for screen reader users, so that they can learn what is on the page. Note that tagging usually triggers a formatting change visually which can be adjusted in many documents.</p>
+<p>このため、見出しを追加することは、スクリーン・リーダー・ユーザーにとって最も重要なツールの1つである。タグ付けは通常、視覚的にフォーマットの変更を引き起こすので、多くの文書で調整できることに注意しよう。</p>
 
-<cite>Adapted from <a href="http://accessibility.psu.edu/headings/">Headings and Subheadings at Penn State</a></cite>
+<cite>参照 <a href="http://accessibility.psu.edu/headings/">Penn Stateにおける見出しと小見出し</a></cite>
 {% include_cached excol.html type="end" %}
   </figure>
 </div>
@@ -217,35 +219,36 @@ View inline example
 {:/}
 
 * **WCAG**
-  * [Headings and Labels 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
-  * [Section Headings 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
-  * [Info and Relationships 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
+  * [見出しとラベル 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
+  * [章見出し 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
+  * [情報と関係性 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **User Story**
-  * [How a screen reader user uses headings to navigate](/people-use-web/user-stories/#accountant)
+  * [   スクリーン・リーダー・ユーザーが見出しを使ってナビゲートする方法](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Make link text meaningful
+## リンクテキストに意味を持たせる
 
-Write link text so that it describes the content of the link target. Avoid using ambiguous link text, such as 'click here' or 'read more'. Indicate relevant information about the link target, such as document type and size, for example, 'Proposal Documents (RTF, 20MB)'.
+リンクテキストは､リンク先の内容を説明するように書きましょう｡｢ここをクリック」や「続きを読む」など､あいまいなリンクテキストは使用しないように｡文書の種類やサイズなど､リンク先に関する関連情報を示すこと（例：「提案書類（RTF､20MB）」）｡
+
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Using link text to describe target page" class="example" %}
+{% include_cached box.html type="start" title="例: リンクテキストを使ってターゲットページを説明する" class="example" %}
 {:/}
 
 <div class="meaningful-links two-column">
   <figure>
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} No information</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} 情報なし</figcaption>
     <div>
-      <p class="fail">For more information on device independence, <a href="javascript:return false">click here</a>.</p>
+      <p class="fail">デバイスの独立性についての詳細は, <a href="javascript:return false">ここをクリック</a>.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Meaningful information</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} 意味のある情報</figcaption>
     <div>
-      <p class="pass">Read more <a href="javascript: return false">about device independence</a>.</p>
+      <p class="pass"> <a href="javascript: return false">デバイスの独立性に関して</a>.もっと読む</p>
     </div>
   </figure>
 </div>
@@ -259,99 +262,102 @@ Write link text so that it describes the content of the link target. Avoid using
 {:/}
 
 * **WCAG**
-  * [Link Purpose (In Context) 2.4.4](/WAI/WCAG21/quickref/#link-purpose-in-context) ([Understanding 2.4.4](/WAI/WCAG21/Understanding/link-purpose-in-context))
-  * [Link Purpose (Link Only) 2.4.9](/WAI/WCAG21/quickref/#link-purpose-link-only) ([Understanding 2.4.9](/WAI/WCAG21/Understanding/link-purpose-link-only))
+  * [リンクの目的 (文脈の中で) 2.4.4](/WAI/WCAG21/quickref/#link-purpose-in-context) ([Understanding 2.4.4](/WAI/WCAG21/Understanding/link-purpose-in-context))
+  * [リンクの目的 (リンクのみの場合) 2.4.9](/WAI/WCAG21/quickref/#link-purpose-link-only) ([Understanding 2.4.9](/WAI/WCAG21/Understanding/link-purpose-link-only))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Write meaningful text alternatives for images
+## 画像に代わる意味のあるテキスト
 
-For every image, write alternative text that provides the information or function of the image. For purely decorative images, there is no need to write alternative text.
+すべての画像について､その画像の情報や機能を提供する代替テキストを書きましょう｡純粋に装飾的な画像については､代替テキストを書く必要はありません｡
+
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Using alternative text to communicate important information" class="example" %}
+{% include_cached box.html type="start" title="例: 重要な情報を伝えるための代替テキストの使用" class="example" %}
 {:/}
 
 <div class="text-alt two-column">
   <figure>
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Uninformative</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} 情報不足の場合</figcaption>
     <div>
-      {% include_cached img.html src="phone_charging.png" alt="Charging phone"  float="left" %}
+      {% include_cached img.html src="phone_charging.png" alt="電話への充電"  float="left" %}
       <div>
-        <p> Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
-        <p><strong>Alternative text for image</strong>: "Charging phone"</p>
+        <p> 携帯電話の充電：付属のケーブルと電源アダプターを使用して､携帯電話を電源コンセントに接続します｡</p>
+        <p><strong>画像の代替テキスト</strong>: "電話への充電"</p>
       </div>
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Informative</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}情報に意味のある場合</figcaption>
     <div>
-      {% include_cached img.html src="phone_charging.png" alt="Plug cable into the bottom edge of the phone." float="left" %}
+      {% include_cached img.html src="phone_charging.png" alt="携帯電話の下端にケーブルを差し込みます." float="left" %}
       <div>
-        <p>Charging the phone: Connect the phone to a power outlet using the cable and power adaptor provided.</p>
-        <p><strong>Alternative text for image</strong>: "Plug cable into the bottom edge of the phone."</p>
+        <p>携帯電話をの充電: 付属のケーブルと電源アダプターを使用して､携帯電話を電源コンセントに接続します｡
+</p>
+        <p><strong>画像の代替テキスト</strong>: "携帯電話の下端にケーブルを差し込みます."</p>
       </div>
     </div>
   </figure>
 </div>
-<p class="note">Alternative text is usually not visible; it is included in this example just so you can see what it is.</p>
+<p class="note">代替テキストは通常表示されない; この例ではそれが見えるようにしています</p>
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
 * **WCAG**
-  * [Non-text Content 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
-* **Tutorial**
-  * [Images](/tutorials/images/)
-* **User Story**
-  * [Describes the value of text alternatives to a blind user](/people-use-web/user-stories/#accountant)
+  * [文字ではない情報 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
+* **チュートリアル**
+  * [画像](/tutorials/images/)
+* **ユーザーストーリー**
+  * [視覚障害者にとっての代替テキストの価値を説明](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Create transcripts and captions for multimedia
+## マルチメディア用のトランスクリプトとキャプションの作成
 
-For audio-only content, such as a podcast, provide a transcript. For audio and visual content, such as training videos, also provide captions. Include in the transcripts and captions the spoken information and sounds that are important for understanding the content, for example, 'door creaks'. For video transcripts, also include a description of the important visual content, for example 'Athan leaves the room'.
+ポッドキャストなど音声のみのコンテンツには､トランスクリプトを提供しましょう｡トレーニングビデオのような音声と映像のコンテンツでは､キャプションも提供しましょう｡トランスクリプトとキャプションには､例えば「ドアのきしみ音」のように､コンテンツを理解する上で重要な音声情報と音声を含めるようにしましょう｡ビデオの書き起こしの場合は､重要なビジュアルコンテンツの説明も含めてください（例：「Athanが部屋から出た」）｡
+
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
-* **[[Making Audio and Video Media Accessible]](/media/av/)**
+* **[[ 音声・映像メディアをアクセシブルに]](/media/av/)**
 
 * **WCAG**
-  * [Captions (Prerecorded) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Understanding 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
-  * [Audio Description or Media Alternative (Prerecorded) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Understanding 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
-* **User Story**
-  * [Describes how captions help a deaf student](/people-use-web/user-stories/#onlinestudent)
+  * [字幕 (あらかじめ録音されたもの) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Understanding 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
+  * [音声説明または代替メディア (あらかじめ録音されたもの) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Understanding 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
+* **ユーザーストーリー**
+  * [耳の不自由な生徒のために､キャプションがどのように役立つかを説明](/people-use-web/user-stories/#onlinestudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Provide clear instructions
-
-Ensure that instructions, guidance, and error messages are clear, easy to understand, and avoid unnecessarily technical language. Describe input requirements, such as date formats.
+## 明確な指示
+指示､ガイダンス､エラーメッセージが明確で理解しやすく､不必要に専門的な表現を避けるようにしましょう｡日付の書式など､入力二必要なことを記述しましょう｡
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Instructions communicate what information the user should provide" class="example" %}
+{% include_cached box.html type="start" title="例: 指示は､ユーザーがどのような情報を提供すべきかを伝える" class="example" %}
 {:/}
 
 <div class="errors">
   <figure>
     <div>
       <form action="#" method="post">
-        <p id="password-desc">Password should be at least six characters with at least one number (0-9).</p>
+        <p id="password-desc">パスワードは6文字以上で､数字（0～9）を1文字以上使用してください｡
+</p>
         <div class="row">
-          <label for="password">Password</label>
+          <label for="password">パスワード</label>
           <input aria-describedby="password-desc" type="password" id="password" name="password" value="">
         </div>
       </form>
@@ -364,15 +370,15 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Example: Error indicates what the problem is and, possibly, how to fix it" class="example" %}
+{% include box.html type="start" title="例: エラーは何が問題で､場合によってその解決方法も示す" class="example" %}
 {:/}
 
 <div class="errors">
   <figure>
     <div>
       <ol class="fa-ul error-list">
-        <li id="error_email">{% include_cached icon.html name="warning" label="Error" %} <a href="javascript:return false">The username 'superbear' is already in use.</a></li>
-        <li id="error_password">{% include_cached icon.html name="warning" label="Error" %} <a href="javascript:return false">The password needs to include at least one number.</a></li>
+        <li id="error_email">{% include_cached icon.html name="warning" label="Error" %} <a href="javascript:return false">ユーザー名「superbear」はすでに使用されています｡</a></li>
+        <li id="error_password">{% include_cached icon.html name="warning" label="Error" %} <a href="javascript:return false">パスワードには少なくとも1つの数字を含める必要があります｡</a></li>
       </ol>
     </div>
   </figure>
@@ -383,49 +389,50 @@ Ensure that instructions, guidance, and error messages are clear, easy to unders
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
 * **WCAG**
-  * [Labels or Instructions 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
-* **User Story**
-  * [Describes simple instructions help someone with learning difficulties](/people-use-web/user-stories/#supermarketassistant)
+  * [ラベルと指示 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
+* **ユーザーストーリー**
+  * [学習困難な人を助ける簡単な指示について説明](/people-use-web/user-stories/#supermarketassistant)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
-## Keep content clear and concise
+## 内容は明確かつ簡潔に
 
-Use simple language and formatting, as appropriate for the context.
+文脈に応じて､シンプルな表現と書式を用いる｡
 
-* Write in short, clear sentences and paragraphs.
-* Avoid using unnecessarily complex words and phrases.
-* Expand acronyms on first use. For example, Web Content Accessibility Guidelines (WCAG).
-* Consider providing a glossary for terms readers may not know.
-* Use list formatting as appropriate.
-* Consider using images, illustrations, video, audio, and symbols to help clarify meaning.
-
+*  短く明確な文章と段落で書くこと｡
+*  不必要に複雑な単語や言い回しを使わないようにすること｡
+*  略語は初回使用時に拡大すること｡例えば､ウェブ・コンテンツ・アクセシビリティ・ガイドライン（WCAG）｡
+*  読者が知らない用語については､用語集を提供することを検討すること｡
+*  適宜､リストの書式を使用すること｡
+*  意味を明確にするために､画像､イラスト､ビデオ､音声､記号の使用を検討すること｡
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Making content readable and understandable" class="example" %}
+{% include_cached box.html type="start" title="例: 読みやすく理解しやすいコンテンツ" class="example" %}
 {:/}
 
 <div class="two-column">
   <figure class="from-col1 to-col2">
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} Unnecessarily complex</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} 不必要に複雑な例</figcaption>
     <div>
-      <p class="fail">CPP: In the event of a vehicular collision, a company assigned representative will seek to ascertain the extent and cause of damages to property belonging to all parties involved. Once our representative obtains information that allows us to understand the causality, we may or may not assign appropriate monetary compensation. The resulting decision may occasion one of the following options: the claim is not approved and is assigned a rejected status, the status of the claim is ambiguous and will require additional information before further processing can occur, the claim is partially approved and reduced payment is assigned and issued, or claim is fully approved and total claim payment is assigned and issued.</p>
+      <p class="fail">CPP：車両衝突事故が発生した場合､当社の担当者が関係者全員の所有物に対する損害の程度と原因を確認します｡当社の担当者が因果関係を理解するための情報を得た後､適切な金銭補償を行う場合もあれば､行わない場合もある｡その結果､請求は承認されず却下のステータスとなる､請求のステータスが曖昧で今後の処理に追加情報が必要となる､請求が部分的に承認され､減額された支払いが割り当てられ発行される､請求が完全に承認され､請求の支払い総額が割り当てられ発行される､などのオプションのいずれかが決定される可能性があります｡
+</p>
     </div>
   </figure>
   <figure class="from-col3 to-col4">
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} Easier to understand</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}より理解しやすい例</figcaption>
     <div>
-      <p class="pass">Claims Processing Procedure (CPP): If you have a car accident, our agent will investigate. Findings will determine any claim payment. This could result in:</p>
+      <p class="pass">保険金請求手続き（CPP）：交通事故に遭われた場合､代理店が調査を行います｡調査結果は保険金の支払いを決定します｡その結果は下記のとおりです
+:</p>
       <ul>
-        <li>Approved claim - full payment</li>
-        <li>Partially approved claim - reduced payment</li>
-        <li>Undetermined claim - more information needed</li>
-        <li>Rejected claim - no payment</li>
+        <li> 承認された請求には - 全額払い</li>
+        <li>部分的に承認されたクレームには-減額された支払</li>
+        <li>未確定クレームには-より詳細な情報が必要</li>
+        <li>請求却下の場合は-支払いなし</li>
       </ul>
       <p>{% include_cached img.html src="clear_text_diagram.png" alt="" style="max-width:100%" %}</p>
     </div>
@@ -437,32 +444,35 @@ Use simple language and formatting, as appropriate for the context.
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
 * **WCAG**
-  * [Reading Level 3.1.5](/WAI/WCAG21/quickref/#reading-level) ([Understanding 3.1.5](/WAI/WCAG21/Understanding/reading-level))
-  * [Unusual Words 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Understanding 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
-  * [Abbreviations 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Understanding 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
-* **User Story**
-  * [User with reading disabilities benefits from easy to read text](/people-use-web/user-stories/#classroomstudent)
+  * [読解レベル 3.1.5](/WAI/WCAG21/quickref/#reading-level) ([Understanding 3.1.5](/WAI/WCAG21/Understanding/reading-level))
+  * [普段使わない言葉 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Understanding 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
+  * [略語 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Understanding 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
+* **ユーザーストーリー**
+  * [読書障害のあるユーザーにとって､読みやすいテキストは有益である｡](/people-use-web/user-stories/#classroomstudent)
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
 
 {::nomarkdown}
-{% include box.html type="start" title="Learn More About Accessibility" class="large" icon="readmore" %}
+{% include box.html type="start" title="アクセシビリティについて" class="large" icon="readmore" %}
 {:/}
 
-These tips are a few of the things you need to consider for web accessibility. Additional guidance on writing that meets the accessibility needs of people with cognitive and learning disabilities is in **[Use Clear and Understandable Content](https://www.w3.org/WAI/WCAG2/supplemental/objectives/o3-clear-content/)**.
+これらのヒントは､ウェブ・アクセシビリティのために考慮すべきことのほんの一部です｡認知障害や学習障害のある人のアクセシビリティのニーズを満たす文章を書くための追加ガイダンスは､ **[明確で理解しやすいコンテンツを使用](https://www.w3.org/WAI/WCAG2/supplemental/objectives/o3-clear-content/)**.
 
-The following resources help you learn why accessibility is important, and about guidelines for making the web more accessible to people with disabilities.
+以下のリソースは､アクセシビリティが重要である理由､および障害者にとってWebをより利用しやすくするためのガイドラインを学ぶのに役立ちます｡
 
-* [Accessibility Introduction](/fundamentals/accessibility-intro/) — Introduces accessibility and provides links to many helpful resources
-* [Accessibility Principles](/fundamentals/accessibility-principles/) — An introduction to the <abbr>WCAG</abbr> requirements
-* [How people with disabilities use the web](/people-use-web/) — Real-life examples showing the importance of accessibility for people with disabilities
-* [How to Meet WCAG (Quick Reference)](/WAI/WCAG21/quickref/) — customizable reference of all WCAG requirements and techniques
+
+* [アクセシビリティ入門](/fundamentals/accessibility-intro/) — アクセシビリティを紹介し､多くの有用なリソースへのリンクを提供
+
+* [アクセシビリティ原則](/fundamentals/accessibility-principles/) — <abbr>WCAG</abbr> 要求事項の紹介
+* [障害者はどのようにウェブを利用しているか](/people-use-web/) —  障害者にとってのアクセシビリティの重要性を示す実例
+* [WCAGを満たす方法 (クイックリファレンス)](/WAI/WCAG21/quickref/) — すべてのWCAG要件とテクニックのカスタマイズ可能なリファレンス
+
 
 {::nomarkdown}
 {% include box.html type="end" %}
