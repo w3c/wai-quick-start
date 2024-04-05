@@ -15,7 +15,7 @@ navigation:
   previous: /tips/writing/ # Do not change this
   next: /tips/developing/ # Do not change this
 
-# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Jay Kishigami"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -24,9 +24,9 @@ navigation:
 
 github:
   repository: w3c/wai-quick-start
-  path: '_tips/designing.md'   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+  path: '_tips/designing.ja.md'   # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 
-permalink: /tips/designing/   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+permalink: /tips/designing/ja   # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /tips/designing/   # Do not change this
 
 ext_css: tips.css
@@ -48,7 +48,7 @@ footer: >
 ---
 
 {::nomarkdown}
-{% include box.html type="start" h="2" title="Summary" class="full" %}
+{% include box.html type="start" h="2" title="概要" class="full" %}
 {:/}
 
 このページでは､ユーザーインターフェースの設計およびビジュアルデザインを障害者にとってアクセシブルなものにするため考慮すべき基本的な事項を紹介します｡これらのヒントは､Webコンテンツ・アクセシビリティ・ガイドライン(WCAG)の要件を満たすためのグッドプラクティスです｡関連するWCAG要件､「理解する」ためのドキュメントの詳細な背景､チュートリアルから始まるガイダンス､ユーザーストーリーなどへのリンクをたどってください｡
@@ -61,7 +61,7 @@ footer: >
 {::options toc_levels="2" /}
 
 {::nomarkdown}
-{% include_cached toc.html type="start" title="Page Contents" class="full" %}
+{% include_cached toc.html type="start" title="目次" class="full" %}
 {:/}
 
 -   TOC is created automatically.
@@ -81,13 +81,13 @@ footer: >
 
 <div class="two-column">
   <figure>
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %}不十分な場合t</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="良くない場合" %}不十分な場合t</figcaption>
     <div>
       <p style="color: #999;">文字と背景のコントラストが十分でないと文字が読めない人もいる｡また､明るい色（高輝度）は読めず､低輝度が必要な人もいる｡.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} 十分な場合</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} 十分な場合</figcaption>
     <div>
       <p class="pass">文字と背景のコントラストが十分でないと文字が読めない人もいる｡また､明るい色（高輝度）は読めず､低輝度が必要な人もいる｡.</p>
     </div>
@@ -103,7 +103,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [コントラスト（最小） 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([Understanding 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
+  * [コントラスト（最小） 1.4.3](/WAI/WCAG21/quickref/#contrast-minimum) ([理解のため 1.4.3](/WAI/WCAG21/Understanding/contrast-minimum))
 * **ユーザーストーリー**
   * [｢色覚異常」のユーザーがウェブを体験する方法](/people-use-web/user-stories/#shopper)
 * **簡単なチェック**
@@ -120,12 +120,12 @@ footer: >
 色は情報を伝達するのに役立つが､色だけで情報を伝達すべきではない｡要素を区別するために色を使用する場合は､色の知覚に依存しない追加的な識別も行いましょう｡例えば､フォームの必須項目を示すために色に加えてアスタリスクを使用したり､グラフの領域を区別するためにラベルを使用したりしましょう
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="Example: Using color to convey meaning" class="example" %}
+{% include_cached box.html type="start" title="例: 色で意味を伝える" class="example" %}
 {:/}
 
 <div class="color-alone two-column">
   <figure class="reference fail">
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %}色だけを使った場合</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="良くない場合" %}色だけを使った場合</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required" style="color: #992929;">必要な箇所は赤で表示</span></p>
@@ -139,7 +139,7 @@ footer: >
     </div>
   </figure>
   <figure class="reference pass">
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}色と記号を使った場合</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %}色と記号を使った場合</figcaption>
     <div>
       <form action="#" method="post">
         <p class="instruction"><span class="required" style="color: #992929;">必要な箇所は</span> 赤で記述され <span class="required" style="color: #992929;">*</span>の記号とともに表示</p>
@@ -163,7 +163,7 @@ footer: >
 {:/}
 <div class="color-alone two-column">
   <figure class="question fail">
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %}色だけの場合</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="良くない場合" %}色だけの場合</figcaption>
     <div>
       <svg version="1.1" width="153" height="154" aria-labelledby="inaccessible-triangles-title" role="img">
         <g>
@@ -187,18 +187,18 @@ footer: >
     </div>
   </figure>
   <figure class="question pass">
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}色と数字</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %}色と数字</figcaption>
     <div>
       <svg version="1.1" width="153" height="154">
         <g>
           <path d="m2.06902,49.92402l91.82715,-48.2264l-42.35869,75.85164l-49.46846,-27.62524z" fill="#09610D" />
-          <text fill="#f4f4f4" y="51" x="44"><tspan>1</tspan><tspan dx="100" style="opacity:0">Green triangle: Angles are 30°, 60°, 90°</tspan></text>
+          <text fill="#f4f4f4" y="51" x="44"><tspan>1</tspan><tspan dx="100" style="opacity:0">緑の三角形:各角度は 30°, 60°, 90°</tspan></text>
           <path d="m147.18413,95.39555l-41.64554,-80.62148l43.24728,27.76369l-1.60175,52.85779z" fill="#0000CC"/>
-          <text fill="#f4f4f4" y="54" x="132"><tspan>2</tspan><tspan dx="100" style="opacity:0"> Blue triangle: Angles are 30°, 30°, 120°</tspan></text>
+          <text fill="#f4f4f4" y="54" x="132"><tspan>2</tspan><tspan dx="100" style="opacity:0"> 青い三角形: 各角度は 30°, 30°, 120°</tspan></text>
           <path d="m110.9136,148.01692l-27.57392,-82.3039l69.97661,50.70448l-42.40269,31.59943z" fill="#AA0402"/>
-          <text fill="#f4f4f4" y="114" x="110"><tspan>3</tspan><tspan dx="100" style="opacity:0"> Red triangle: Angles are 40°, 70°, 70°</tspan></text>
+          <text fill="#f4f4f4" y="114" x="110"><tspan>3</tspan><tspan dx="100" style="opacity:0"> 赤い三角形: 各角度は 40°, 70°, 70°</tspan></text>
           <path d="m21.07534,112.17733l48.69831,-22.53485l-4.90304,52.17411l-43.79528,-29.63926z" fill="#DDDD00"/>
-          <text fill="#333" y="118" x="48"><tspan>4</tspan><tspan dx="100" style="opacity:0"> Yellow triangle: Angles are 60°, 60°, 60°</tspan></text>
+          <text fill="#333" y="118" x="48"><tspan>4</tspan><tspan dx="100" style="opacity:0"> 黄色の三角形: 各角度は 60°, 60°, 60°</tspan></text>
         </g>
       </svg>
       <form action="#" method="post">
@@ -224,7 +224,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [色の使用 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([Understanding 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
+  * [色の使用 1.4.1](/WAI/WCAG21/quickref/#use-of-color) ([理解のため 1.4.1](/WAI/WCAG21/Understanding/use-of-color))
 * **ユーザーストーリー**
   * [｢色覚異常」のユーザーがウェブを体験する方法](/people-use-web/user-stories/#shopper)
 
@@ -246,7 +246,7 @@ footer: >
     <figure>
       <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}テキストからリンクを目立たせる</figcaption>
       <div>
-        <p>マウスが使えず､ウェブページを<a href="javascript:return false;" aria-label="Link is styled to stand out from main text">キーボードだけで操作</a>する人もいる｡</p>
+        <p>マウスが使えず､ウェブページを<a href="javascript:return false;" aria-label="リンクは本文より目立つようにスタイルされている">キーボードだけで操作</a>する人もいる｡</p>
         <p>ユーザーがキーボードを使ってすべてのインタラクティブな要素に到達でき､どの要素にフォーカスされているかが明確に分かることが重要です｡</p>
         <p>目に見えるキーボード・フォーカスは､ウェブ・ページをタブで移動するときに移動するボーダーやハイライトで示される｡</p>
       </div>
@@ -254,21 +254,21 @@ footer: >
   </div>
   <div>
     <figure class="hover">
-      <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} マウスホーバースタイル</figcaption>
+      <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} マウスホーバースタイル</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Link is styled with a subtle background to highlight hover state" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">keyboard to navigate</a><img src="../img/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="リンクは、ホバー状態を強調するために微妙な背景でスタイルされている。" style="color: #850BAC; background-color: rgba(253, 247, 15, 0.3)">keyboard to navigate</a><img src="../img/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
     <figure class="keyboard">
-      <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}キーボードフォーカスのスタイル</figcaption>
+      <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %}キーボードフォーカスのスタイル</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Link is styled with a stronger version of the hover style to make it stand out" style="color: #850BAC; background-color: #fdf70f">keyboard to navigate</a></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="リンクは目立つようにホバースタイルの強いバージョンでスタイルされている。" style="color: #850BAC; background-color: #fdf70f">keyboard to navigate</a></p>
       </div>
     </figure>
     <figure class="active">
-      <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} タッチまたはクリックスタイル</figcaption>
+      <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} タッチまたはクリックスタイル</figcaption>
       <div>
-        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="Link is given a strong styling to show an action will occur" style="background: #850BAC; color: #f4f4f4">keyboard to navigate</a><img src="../img/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
+        <p style="text-align: center; position:relative;"><a href="javascript:return false;" aria-label="リンクには、アクションが起こることを示す強いスタイリングが与えられている。" style="background: #850BAC; color: #f4f4f4">keyboard to navigate</a><img src="../img/pointer.png" style="position: absolute; left: 50%; top:1em;" width="20" alt=""></p>
       </div>
     </figure>
   </div>
@@ -283,8 +283,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [目に見えるフォーカス方法 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([Understanding 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
-  * [一貫した識別 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
+  * [目に見えるフォーカス方法 2.4.7](/WAI/WCAG21/quickref/#focus-visible) ([理解のため 2.4.7](/WAI/WCAG21/Understanding/focus-visible))
+  * [一貫した識別 3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([理解のため 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **ユーザーストーリー**
   * [マウス操作に制限のある人が直面する課題](/people-use-web/user-stories/#reporter)
   * [手の震えを持つ高齢ユーザーが直面する課題](/people-use-web/user-stories/#retiree)
@@ -301,8 +301,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [一貫性のあるナビゲーション 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([Understanding 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
-  * [様々な方法 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([Understanding 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
+  * [一貫性のあるナビゲーション 3.2.3](/WAI/WCAG21/quickref/#consistent-navigation) ([理解のため 3.2.3](/WAI/WCAG21/Understanding/consistent-identification))
+  * [様々な方法 2.4.5](/WAI/WCAG21/quickref/#multiple-ways) ([理解のため 2.4.5](/WAI/WCAG21/Understanding/multiple-ways))
 * **ユーザーストーリー**
   * [一貫性とナビゲーションが認知障害を持つ人の助けになる](/people-use-web/user-stories/#supermarketassistant)
 
@@ -355,8 +355,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [ラベルまたは説明書 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
-  * [見出しとラベル 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
+  * [ラベルまたは説明書 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解のため 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
+  * [見出しとラベル 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([理解のため 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
 * **チュートリアル**
   * [ラベルテキストの視覚的位置](/tutorials/forms/labels/#visual-position-of-label-text)
 * **ユーザーストーリー**
@@ -380,8 +380,8 @@ footer: >
       <div class="error-list">
         <p>以下のエラーを修正してください：</p>
         <ol>
-          <li id="error_email">{% include_cached icon.html name="warning" label="Error" %} <a href="javascript:document.getElementById('email5').focus()">メールアドレスが無効です</a></li>
-          <li id="error_comment">{% include_cached icon.html name="warning" label="Error" %} <a href="javascript:document.getElementById('comment3').focus()">コメントは必須です</a></li>
+          <li id="error_email">{% include_cached icon.html name="warning" label="エラー" %} <a href="javascript:document.getElementById('email5').focus()">メールアドレスが無効です</a></li>
+          <li id="error_comment">{% include_cached icon.html name="warning" label="エラー" %} <a href="javascript:document.getElementById('comment3').focus()">コメントは必須です</a></li>
         </ol>
       </div>
       <form action="#" method="post">
@@ -393,7 +393,7 @@ footer: >
             <input type="text" id="name5" name="name" value="Superbear">
           </div>
           <div class="row error">
-            <label class="required" for="email5">{% include_cached icon.html name="warning" label="Error" %} メールアドレス *</label>
+            <label class="required" for="email5">{% include_cached icon.html name="warning" label="エラー" %} メールアドレス *</label>
             <input type="text" id="email5" name="email" value="superbear@@hq.example.com" aria-invalid="true" aria-describedby="error_email">
           </div>
           <div class="row">
@@ -401,7 +401,7 @@ footer: >
             <input type="text" id="website3" name="website">
           </div>
           <div class="row error">
-            <label class="required" for="comment3">{% include_cached icon.html name="warning" label="Error" %} コメント *</label>
+            <label class="required" for="comment3">{% include_cached icon.html name="warning" label="エラー" %} コメント *</label>
             <textarea name="comment" id="comment3" aria-invalid="true" aria-describedby="error_comment"></textarea>
           </div>
         </fieldset>
@@ -419,9 +419,9 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [エラー識別 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([Understanding 3.3.1](/WAI/WCAG21/Understanding/error-identification))
-  * [ラベルまたは説明書 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
-  * [エラーのコメント 3.3.3](/WAI/WCAG21/quickref/#error-suggestion) ([Understanding 3.3.3](/WAI/WCAG21/Understanding/error-suggestion))
+  * [エラー識別 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([理解のため 3.3.1](/WAI/WCAG21/Understanding/error-identification))
+  * [ラベルまたは説明書 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解のため 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
+  * [エラーのコメント 3.3.3](/WAI/WCAG21/quickref/#error-suggestion) ([理解のため 3.3.3](/WAI/WCAG21/Understanding/error-suggestion))
 * **チュートリアル**
   * [ユーザーへの通知](/tutorials/forms/notifications/)
 * **ユーザーストーリー**
@@ -441,12 +441,12 @@ footer: >
 
 <div class="headings two-column">
   <figure class="fail">
-    <figcaption id="inaccessible-headings-title">{% include_cached icon.html name="ex-circle" label="Wrong" %} 間隔が狭く､関係が不明確な場合</figcaption>
+    <figcaption id="inaccessible-headings-title">{% include_cached icon.html name="ex-circle" label="良くない場合" %} 間隔が狭く､関係が不明確な場合</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="inaccessible-headings-title" aria-describedby="inaccessible-headings-desc" role="img">
         <g>
           <desc id="inaccessible-headings-desc">一つの主題で大きなブロックの文､見出しの間隔も狭く図との関係も分かりにくい</desc>
-          <text class="heading" x="0" y="14">Main heading</text>
+          <text class="heading" x="0" y="14">主題</text>
           <rect x="0" y="18" width="247" height="3"/>
           <rect x="0" y="24" width="244" height="3"/>
           <rect x="0" y="30" width="249" height="3"/>
@@ -458,7 +458,7 @@ footer: >
           <rect x="0" y="48" width="166" height="3"/>
           <rect x="0" y="54" width="172" height="3"/>
           <rect x="0" y="60" width="120" height="3"/>
-          <text class="sub-heading" x="0" y="74">Sub heading</text>
+          <text class="sub-heading" x="0" y="74">副題</text>
           <rect x="0" y="76" width="144" height="3"/>
           <rect x="0" y="82" width="136" height="3"/>
           <rect x="0" y="88" width="142" height="3"/>
@@ -466,7 +466,7 @@ footer: >
           <rect x="0" y="100" width="249" height="3"/>
           <rect x="0" y="106" width="239" height="3"/>
           <rect x="0" y="112" width="205" height="3"/>
-          <text class="sub-heading" x="0" y="126">Sub heading</text>
+          <text class="sub-heading" x="0" y="126">副題</text>
           <rect x="0" y="128" width="236" height="3"/>
           <rect x="0" y="134" width="242" height="3"/>
           <rect x="0" y="140" width="243" height="3"/>
@@ -478,12 +478,12 @@ footer: >
     </div>
   </figure>
   <figure class="pass">
-    <figcaption id="accessible-headings-title">{% include_cached icon.html name="check-circle" label="OK" %}  間隔を広げ､関係を明確な場合</figcaption>
+    <figcaption id="accessible-headings-title">{% include_cached icon.html name="check-circle" label="良い場合" %}  間隔を広げ､関係を明確な場合</figcaption>
     <div>
       <svg version="1.1" height="173" aria-labelledby="accessible-headings-title" aria-describedby="accessible-headings-desc" role="img">
         <g>
           <desc id="accessible-headings-desc">主題, 複数の見出し, リスト, 大きくない分のブロック</desc>
-          <text class="heading" x="0" y="14">Main heading</text>
+          <text class="heading" x="0" y="14">主題</text>
           <rect x="0" y="21" width="175" height="3"/>
           <rect x="0" y="27" width="170" height="3"/>
           <rect x="0" y="33" width="159" height="3"/>
@@ -496,7 +496,7 @@ footer: >
           <rect class="image" x="180" y="21" width="70" height="55"/>
           <line x1="181" y1="22" x2="249" y2="75"/>
           <line x1="181" y1="75" x2="249" y2="22"/>
-          <text class="sub-heading" x="0" y="98">Sub heading</text>
+          <text class="sub-heading" x="0" y="98">副題</text>
           <rect x="0" y="103" width="106" height="3"/>
           <rect x="0" y="109" width="99" height="3"/>
           <rect x="0" y="115" width="114" height="3"/>
@@ -506,7 +506,7 @@ footer: >
           <rect x="0" y="145" width="114" height="3"/>
           <rect x="0" y="151" width="110" height="3"/>
           <rect x="0" y="157" width="84" height="3"/>
-          <text class="sub-heading" x="135" y="98">Sub heading</text>
+          <text class="sub-heading" x="135" y="98">副題</text>
           <rect x="135" y="103" width="106" height="3"/>
           <rect x="135" y="109" width="99" height="3"/>
           <rect x="135" y="115" width="114" height="3"/>
@@ -531,8 +531,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [見出しとラベル 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
-  * [章の見出し 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
+  * [見出しとラベル 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([理解のため 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
+  * [章の見出し 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([理解のため 2.4.10](/WAI/WCAG21/Understanding/section-headings))
 * **チュートリアル**
   * [Headings](/tutorials/page-structure/headings/)
 * **ユーザーストーリー**
@@ -606,7 +606,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [文字でないコンテンツ 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
+  * [文字でないコンテンツ 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([理解のため 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **チュートリアル**
   * [Images](/tutorials/images/)
 * **ユーザーストーリー**
@@ -641,8 +641,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [オーディオコントロール 1.4.2](/WAI/WCAG21/quickref/#audio-control) ([Understanding 1.4.2](/WAI/WCAG21/Understanding/audio-control))
-  * [一時停止､停止､離れる 2.2.2](/WAI/WCAG21/quickref/#pause-stop-hide) ([Understanding 2.2.2](/WAI/WCAG21/Understanding/pause-stop-hide))
+  * [オーディオコントロール 1.4.2](/WAI/WCAG21/quickref/#audio-control) ([理解のため 1.4.2](/WAI/WCAG21/Understanding/audio-control))
+  * [一時停止､停止､離れる 2.2.2](/WAI/WCAG21/quickref/#pause-stop-hide) ([理解のため 2.2.2](/WAI/WCAG21/Understanding/pause-stop-hide))
 * **Tutorial**
   * [カルーセルのコンセプト](/tutorials/carousels/)
 
