@@ -40,8 +40,8 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>Date:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
-  <p><strong>Editors:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>謝辞</p>
+  <p><strong>日にち:</strong> マイナーアップデート:2019年1月9日､アップデート:2016年4月15日｡最初の出版:2015年9月</p>
+  <p><strong>編集者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, そして <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>ACKNOWLEDGEMENTS</p>
   <p><a href="https://www.w3.org/WAI/EO/">教育と援助のためのWG (EOWG)</a>によって開発され. <a href="https://www.w3.org/WAI/DEV/">WAI-DEV プロジェクト</a>からのサポートを受けるとともに, ヨーロッパ委員会の <abbr title="Information Society Technologies">IST</abbr> プログラムの援助を受けた｡</p>
 
 ---
