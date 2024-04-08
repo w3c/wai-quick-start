@@ -41,8 +41,7 @@ acknowledgements: /tips/acknowledgements/
 footer: >
   <p><strong>月日:</strong> Updated 5 August 2022. First published September 2015.</p>
   <p><strong>編集者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>ACKNOWLEDGEMENTS</p>
- <p>    <a href="https://www.w3.org/WAI/EO/">教育と援助のためのWG (EOWG)</a>によって開発され.
-    <a href="https://www.w3.org/WAI/DEV/">WAI-DEV プロジェクト</a>からのサポートを受けるとともに, ヨーロッパ委員会の <abbr title="Information Society Technologies">IST</abbr> プログラムの援助を受けた.</p>
+  <p><a href="https://www.w3.org/WAI/EO/">教育と援助のためのWG (EOWG)</a>によって開発され. <a href="https://www.w3.org/WAI/DEV/">WAI-DEV プロジェクト</a>からのサポートを受けるとともに, ヨーロッパ委員会の <abbr title="Information Society Technologies">IST</abbr> プログラムの援助を受けた.</p>
 
 ---
 
