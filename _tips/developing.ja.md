@@ -113,7 +113,7 @@ footer: >
 すべての情報画像と機能画像に画像の代替テキストが追加されていることを確認すること｡装飾的な画像には空の代替テキスト､`alt=""`を使うか､代わりにCSSに含めてください｡代替テキストは通常､文章コンテンツの責任者が提供します｡
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
 * **WCAG**
@@ -179,7 +179,7 @@ footer: >
 <section>
   <article>
     <h2>スーパーベアが窮地を救う</h2>
-    <time datetime="2015-08-07">7 Aug 2015</time>
+    <time datetime="2015-08-07">2015年8月7日</time>
     <p>街の人気者であるクマが､またしても若いネコを木から救い出すという偉業を成し遂げた｡目撃者によると､スーパーベアーの努力はネコには理解されず､救助者に軽い引っかき傷を負わせたという｡</p>
     <aside>
       <h3>Related Articles</h3>
