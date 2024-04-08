@@ -78,7 +78,7 @@ footer: >
 
 <div class="page-title">
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} ホームページのタイトル</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} ホームページのタイトル</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
@@ -94,7 +94,7 @@ footer: >
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} ページ名の後に組織名</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} ページ名の後に組織名</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
@@ -110,7 +110,7 @@ footer: >
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} プロセスのステップを含むページ名</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} プロセスのステップを含むページ名</figcaption>
     <div>
       <svg version="1.1" width="462" height="27">
         <g transform="scale(1.2)">
@@ -132,11 +132,11 @@ footer: >
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
 * **WCAG**
-  * [ページタイトル 2.4.2](/WAI/WCAG21/quickref/#page-titled) ([Understanding 2.4.2](/WAI/WCAG21/Understanding/page-titled))
+  * [ページタイトル 2.4.2](/WAI/WCAG21/quickref/#page-titled) ([理解のため 2.4.2](/WAI/WCAG21/Understanding/page-titled))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -152,7 +152,7 @@ footer: >
 
 <div class="heading-structure two-column">
   <figure>
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %}見出しが欠如している場合</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="良くない場合" %}見出しが欠如している場合</figcaption>
     <div>
       {% include_cached img.html src="headings-poor.png" alt="見出しがない例､詳細は下記を参照" %}
     </div>
@@ -177,7 +177,7 @@ footer: >
 {% include_cached excol.html type="end" %}
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}見出しと小見出しを使用した場合</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %}見出しと小見出しを使用した場合</figcaption>
     <div>
       {% include_cached img.html src="headings-good.png" alt="よい見出しの使い方､詳細は下記を参照"%}
     </div>
@@ -214,14 +214,14 @@ footer: >
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
 * **WCAG**
-  * [見出しとラベル 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([Understanding 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
-  * [章見出し 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([Understanding 2.4.10](/WAI/WCAG21/Understanding/section-headings))
-  * [情報と関係性 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
-* **User Story**
+  * [見出しとラベル 2.4.6](/WAI/WCAG21/quickref/#headings-and-labels) ([理解のため 2.4.6](/WAI/WCAG21/Understanding/headings-and-labels))
+  * [章見出し 2.4.10](/WAI/WCAG21/quickref/#section-headings) ([理解のため 2.4.10](/WAI/WCAG21/Understanding/section-headings))
+  * [情報と関係性 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([理解のため 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
+* **ユーザーストーリー**
   * [   スクリーン・リーダー・ユーザーが見出しを使ってナビゲートする方法](/people-use-web/user-stories/#accountant)
 
 {::nomarkdown}
@@ -239,13 +239,13 @@ footer: >
 
 <div class="meaningful-links two-column">
   <figure>
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} 情報なし</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="良くない場合" %} 情報なし</figcaption>
     <div>
       <p class="fail">デバイスの独立性についての詳細は, <a href="javascript:return false">ここをクリック</a>.</p>
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %} 意味のある情報</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %} 意味のある情報</figcaption>
     <div>
       <p class="pass"> <a href="javascript: return false">デバイスの独立性に関して</a>.もっと読む</p>
     </div>
@@ -257,12 +257,12 @@ footer: >
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="More Information" class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
 * **WCAG**
-  * [リンクの目的 (文脈の中で) 2.4.4](/WAI/WCAG21/quickref/#link-purpose-in-context) ([Understanding 2.4.4](/WAI/WCAG21/Understanding/link-purpose-in-context))
-  * [リンクの目的 (リンクのみの場合) 2.4.9](/WAI/WCAG21/quickref/#link-purpose-link-only) ([Understanding 2.4.9](/WAI/WCAG21/Understanding/link-purpose-link-only))
+  * [リンクの目的 (文脈の中で) 2.4.4](/WAI/WCAG21/quickref/#link-purpose-in-context) ([理解のため 2.4.4](/WAI/WCAG21/Understanding/link-purpose-in-context))
+  * [リンクの目的 (リンクのみの場合) 2.4.9](/WAI/WCAG21/quickref/#link-purpose-link-only) ([理解のため 2.4.9](/WAI/WCAG21/Understanding/link-purpose-link-only))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -279,7 +279,7 @@ footer: >
 
 <div class="text-alt two-column">
   <figure>
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} 情報不足の場合</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="良くない場合" %} 情報不足の場合</figcaption>
     <div>
       {% include_cached img.html src="phone_charging.png" alt="電話への充電"  float="left" %}
       <div>
@@ -289,7 +289,7 @@ footer: >
     </div>
   </figure>
   <figure>
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}情報に意味のある場合</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %}情報に意味のある場合</figcaption>
     <div>
       {% include_cached img.html src="phone_charging.png" alt="携帯電話の下端にケーブルを差し込みます." float="left" %}
       <div>
@@ -311,7 +311,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [文字ではない情報 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
+  * [文字ではない情報 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([理解のため 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **チュートリアル**
   * [画像](/tutorials/images/)
 * **ユーザーストーリー**
@@ -325,7 +325,6 @@ footer: >
 
 ポッドキャストなど音声のみのコンテンツには､トランスクリプトを提供しましょう｡トレーニングビデオのような音声と映像のコンテンツでは､キャプションも提供しましょう｡トランスクリプトとキャプションには､例えば「ドアのきしみ音」のように､コンテンツを理解する上で重要な音声情報と音声を含めるようにしましょう｡ビデオの書き起こしの場合は､重要なビジュアルコンテンツの説明も含めてください（例：「Athanが部屋から出た」）｡
 
-
 {::nomarkdown}
 {% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
@@ -333,8 +332,8 @@ footer: >
 * **[[ 音声・映像メディアをアクセシブルに]](/media/av/)**
 
 * **WCAG**
-  * [字幕 (あらかじめ録音されたもの) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([Understanding 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
-  * [音声説明または代替メディア (あらかじめ録音されたもの) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([Understanding 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
+  * [字幕 (あらかじめ録音されたもの) 1.2.2](/WAI/WCAG21/quickref/#captions-prerecorded) ([理解のため 1.2.2](/WAI/WCAG21/Understanding/captions-prerecorded))
+  * [音声説明または代替メディア (あらかじめ録音されたもの) 1.2.3](/WAI/WCAG21/quickref/#audio-description-or-media-alternative-prerecorded) ([理解のため 1.2.3](/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded))
 * **ユーザーストーリー**
   * [耳の不自由な生徒のために､キャプションがどのように役立つかを説明](/people-use-web/user-stories/#onlinestudent)
 
@@ -392,7 +391,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [ラベルと指示 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
+  * [ラベルと指示 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解のため 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **ユーザーストーリー**
   * [学習困難な人を助ける簡単な指示について説明](/people-use-web/user-stories/#supermarketassistant)
 
@@ -410,20 +409,21 @@ footer: >
 *  読者が知らない用語については､用語集を提供することを検討すること｡
 *  適宜､リストの書式を使用すること｡
 *  意味を明確にするために､画像､イラスト､ビデオ､音声､記号の使用を検討すること｡
+
 {::nomarkdown}
 {% include_cached box.html type="start" title="例: 読みやすく理解しやすいコンテンツ" class="example" %}
 {:/}
 
 <div class="two-column">
   <figure class="from-col1 to-col2">
-    <figcaption>{% include_cached icon.html name="ex-circle" label="Wrong" %} 不必要に複雑な例</figcaption>
+    <figcaption>{% include_cached icon.html name="ex-circle" label="良くない場合" %} 不必要に複雑な例</figcaption>
     <div>
       <p class="fail">CPP：車両衝突事故が発生した場合､当社の担当者が関係者全員の所有物に対する損害の程度と原因を確認します｡当社の担当者が因果関係を理解するための情報を得た後､適切な金銭補償を行う場合もあれば､行わない場合もある｡その結果､請求は承認されず却下のステータスとなる､請求のステータスが曖昧で今後の処理に追加情報が必要となる､請求が部分的に承認され､減額された支払いが割り当てられ発行される､請求が完全に承認され､請求の支払い総額が割り当てられ発行される､などのオプションのいずれかが決定される可能性があります｡
 </p>
     </div>
   </figure>
   <figure class="from-col3 to-col4">
-    <figcaption>{% include_cached icon.html name="check-circle" label="OK" %}より理解しやすい例</figcaption>
+    <figcaption>{% include_cached icon.html name="check-circle" label="良い場合" %}より理解しやすい例</figcaption>
     <div>
       <p class="pass">保険金請求手続き（CPP）：交通事故に遭われた場合､代理店が調査を行います｡調査結果は保険金の支払いを決定します｡その結果は下記のとおりです
 :</p>
@@ -447,9 +447,9 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [読解レベル 3.1.5](/WAI/WCAG21/quickref/#reading-level) ([Understanding 3.1.5](/WAI/WCAG21/Understanding/reading-level))
-  * [普段使わない言葉 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([Understanding 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
-  * [略語 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([Understanding 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
+  * [読解レベル 3.1.5](/WAI/WCAG21/quickref/#reading-level) ([理解のため 3.1.5](/WAI/WCAG21/Understanding/reading-level))
+  * [普段使わない言葉 3.1.3](/WAI/WCAG21/quickref/#unusual-words) ([理解のため 3.1.3](/WAI/WCAG21/Understanding/unusual-words))
+  * [略語 3.1.4](/WAI/WCAG21/quickref/#abbreviations) ([理解のため 3.1.4](/WAI/WCAG21/Understanding/abbreviations))
 * **ユーザーストーリー**
   * [読書障害のあるユーザーにとって､読みやすいテキストは有益である｡](/people-use-web/user-stories/#classroomstudent)
 
