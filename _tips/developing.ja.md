@@ -39,7 +39,7 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>月日:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
+  <p><strong>日にち:</strong> マイナーアップデート:2019年1月9日､アップデート:2016年4月15日｡最初の出版:2015年9月</p>
   <p><strong>編集者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
   <p><a href="https://www.w3.org/WAI/EO/">教育と援助のためのWG (EOWG)</a>によって開発され. <a href="https://www.w3.org/WAI/DEV/">WAI-DEV プロジェクト</a>からのサポートを受けるとともに, ヨーロッパ委員会の援助を受けた｡</p>
 ---
@@ -67,19 +67,16 @@ footer: >
 {% include_cached toc.html type="end" %}
 {:/}
 
-
-
 ## すべてのフォームコントロールにラベルを関連付ける
 
 フォーム要素の `id` 属性にリンクされた `<label>` 要素の `for` 性を使うか､ <abbr title="Accessible Rich Internet Applications">WAI-ARIA</abbr> 属性を使います｡特定の状況では `<label>` 要素を視覚的に隠すことが許容されるかもしれませんが､ほとんどの場合ラベルは全ての読者が必要な入力を理解するのに必要です｡
-
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="例:  <code>for</code>　属性と <code>id</code> 属性の使用" class="example" %}
 
 <div class="two-column">
 <figure>
-<figcaption>{% include_cached icon.html name="デスクトップ" %} 表現</figcaption>
+<figcaption>{% include_cached icon.html name="desktop" %} 表現</figcaption>
 <label for="username">ユーザーネーム</label>
 <input id="username" type="text" name="ユーザーネーム">
 </figure>
@@ -103,7 +100,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [ラベルあるいは説明 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([Understanding 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
+  * [ラベルあるいは説明 3.3.2](/WAI/WCAG21/quickref/#labels-or-instructions) ([理解のため 3.3.2](/WAI/WCAG21/Understanding/labels-or-instructions))
 * **Tutorial**
   * [ラベルの制御](/tutorials/forms/labels/)
 
@@ -113,14 +110,14 @@ footer: >
 
 ## 画像の代替テキストを含める
 
-すべての情報画像と機能画像に画像の代替テキストが追加されていることを確認すること｡装飾的な画像には空の代替テキスト､alt=""を使うか､代わりにCSSに含めてください｡代替テキストは通常､文章コンテンツの責任者が提供します｡
+すべての情報画像と機能画像に画像の代替テキストが追加されていることを確認すること｡装飾的な画像には空の代替テキスト､`alt=""`を使うか､代わりにCSSに含めてください｡代替テキストは通常､文章コンテンツの責任者が提供します｡
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="More Information" class="simple" %}
 {:/}
 
 * **WCAG**
-  * [テキスト以外のコンテンツ 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
+  * [テキスト以外のコンテンツ 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([理解のため 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **チュートリアル**
   * [画像](/tutorials/images/)
 * **ユーザーストーリー**
@@ -140,8 +137,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [ページの言語 3.1.1](/WAI/WCAG21/quickref/#language-of-page) ([Understanding 3.1.1](/WAI/WCAG21/Understanding/language-of-page))
-  * [部分的な言語 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([Understanding 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
+  * [ページの言語 3.1.1](/WAI/WCAG21/quickref/#language-of-page) ([理解のため 3.1.1](/WAI/WCAG21/Understanding/language-of-page))
+  * [部分的な言語 3.1.2](/WAI/WCAG21/quickref/#language-of-parts) ([理解のため 3.1.2](/WAI/WCAG21/Understanding/language-of-parts))
 * **手法**
   * [HTMLでの言語宣言](/International/questions/qa-html-language-declarations)
 
@@ -242,7 +239,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [情報と関係性 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([Understanding 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
+  * [情報と関係性 1.3.1](/WAI/WCAG21/quickref/#info-and-relationships) ([理解のため 1.3.1](/WAI/WCAG21/Understanding/info-and-relationships))
 * **チュートリアル**
   * [ページの構造](/tutorials/page-structure/)
   * [テーブル](/tutorials/tables/)
@@ -296,7 +293,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [エラーの特定 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([Understanding 3.3.1](/WAI/WCAG21/Understanding/error-identification))
+  * [エラーの特定 3.3.1](/WAI/WCAG21/quickref/#error-identification) ([理解のため 3.3.1](/WAI/WCAG21/Understanding/error-identification))
 * **チュートリアル**
   * [入力の検証](/tutorials/forms/validation/)
 * **ユーザーストーリー**
@@ -340,7 +337,7 @@ footer: >
 
 ~~~html
 <article class="product">
-  <img alt="Purple high top trainer with white laces, empty white dot on outside ankle, and white toe cap" src="images/trainer.png">
+  <img alt="パープルのハイトップ・トレーナーに白いシューレース、足首の外側に空白の白いドット、白いトゥキャップがあしらわれている。" src="images/trainer.png">
   <h3 class="name">宇宙トレーナー</h3>
   <p class="desc">クラシックでスタイリッシュな宇宙トレーナー</p>
   <p class="buy"><a href="javascript:return false"><svg class="icon"><use xlink:href="#cart-plus"/></svg> カートに加える</a></p>
@@ -388,7 +385,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [意味のある並び1.3.2](/WAI/WCAG21/quickref/#meaningful-sequence) ([Understanding 1.3.2](/WAI/WCAG21/Understanding/meaningful-sequence))
+  * [意味のある並び1.3.2](/WAI/WCAG21/quickref/#meaningful-sequence) ([理解のため 1.3.2](/WAI/WCAG21/Understanding/meaningful-sequence))
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
@@ -455,8 +452,8 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [テキストサイズの変更 1.4.4](/WAI/WCAG21/quickref/#resize-text) ([Understanding 1.4.4](/WAI/WCAG21/Understanding/resize-text))
-  * [一貫した識別  3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([Understanding 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
+  * [テキストサイズの変更 1.4.4](/WAI/WCAG21/quickref/#resize-text) ([理解のため 1.4.4](/WAI/WCAG21/Understanding/resize-text))
+  * [一貫した識別  3.2.4](/WAI/WCAG21/quickref/#consistent-identification) ([理解のため 3.2.4](/WAI/WCAG21/Understanding/consistent-identification))
 * **背景**
   * [画面が小さい場合](/TR/mobile-accessibility-mapping/#h-small-screen-size)
 * **ユーザーストーリー**
@@ -509,7 +506,7 @@ footer: >
 {:/}
 
 * **WCAG**
-  * [名前､役割､値 4.1.2](/WAI/WCAG21/quickref/#name-role-value) ([Understanding 4.1.2](/WAI/WCAG21/Understanding/name-role-value))
+  * [名前､役割､値 4.1.2](/WAI/WCAG21/quickref/#name-role-value) ([理解のため 4.1.2](/WAI/WCAG21/Understanding/name-role-value))
 * **背景**
   * [HTMLでARIAを使用する際の注意](/TR/aria-in-html/)
 
@@ -594,7 +591,7 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 * **WCAG**
-  * [キーボード 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([Understanding 2.1.1](/WAI/WCAG21/Understanding/keyboard))
+  * [キーボード 2.1.1](/WAI/WCAG21/quickref/#keyboard) ([理解のため 2.1.1](/WAI/WCAG21/Understanding/keyboard))
 * **ユーザーストーリー**
   * [RSI(関節炎)患者がどのようにキーボードサポートを必要としているかを説明](/people-use-web/user-stories/#reporter)
 
@@ -615,7 +612,7 @@ CAPTCHAは多くの人々に問題を引き起こす｡ユーザー入力が人�
 {:/}
 
 * **WCAG**
-  * [テキスト外のコンテンツ 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([Understanding 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
+  * [テキスト外のコンテンツ 1.1.1](/WAI/WCAG21/quickref/#non-text-content) ([理解のため 1.1.1](/WAI/WCAG21/Understanding/non-text-content))
 * **背景**
   * [CAPTCHAのアクセス不能性](/TR/turingtest/)
 
@@ -629,7 +626,7 @@ CAPTCHAは多くの人々に問題を引き起こす｡ユーザー入力が人�
 
 これらのヒントは､Webアクセシビリティのために考慮すべきことのほんの一部です｡アクセシビリティが重要である理由､および障害者がWebをより利用しやすくするためのガイドラインについては､以下のリソースを参照してください｡
 
-* ウェブ・アクセシビリティ入門](/fundamentals/accessibility-intro/) —  アクセシビリティを紹介し､多くの有用なリソースへのリンクを提供
+* [ウェブ・アクセシビリティ入門](/fundamentals/accessibility-intro/) —  アクセシビリティを紹介し､多くの有用なリソースへのリンクを提供
 * [アクセシビリティ原則](/fundamentals/accessibility-principles/) — <abbr>WCAG</abbr> 要求事項の紹介
 * [障害者はどのようにウェブを利用しているか](/people-use-web/) — 障害者にとってのアクセシビリティの利点の実例
 * [ウェブ・アクセシビリティ・チュートリアル](/tutorials/) —障害者がアクセスしやすいウェブコンテンツを開発する方法を紹介
