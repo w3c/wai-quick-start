@@ -14,7 +14,7 @@ resource:
 navigation:
   previous: /tips/designing/
 
-# translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+translators: # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 - name: "Jay Kishigami"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -41,9 +41,7 @@ acknowledgements: /tips/acknowledgements/
 footer: >
   <p><strong>月日:</strong> Minor update 9 January 2019. Updated 15 April 2016. First published September 2015.</p>
   <p><strong>編集者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
-  
-<p>    <a href="https://www.w3.org/WAI/EO/">教育と援助のためのWG (EOWG)</a>によって開発され.
-    <a href="https://www.w3.org/WAI/DEV/">WAI-DEV プロジェクト</a>からのサポートを受けるとともに, ヨーロッパ委員会の援助を受けた｡</p>
+  <p><a href="https://www.w3.org/WAI/EO/">教育と援助のためのWG (EOWG)</a>によって開発され. <a href="https://www.w3.org/WAI/DEV/">WAI-DEV プロジェクト</a>からのサポートを受けるとともに, ヨーロッパ委員会の援助を受けた｡</p>
 ---
 
 {::nomarkdown}
@@ -592,7 +590,7 @@ buttonExample.addEventListener('click', function(e) {
 {:/}
 
 {::nomarkdown}
-{% include_cached box.html type="start" title="詳細情報class="simple" %}
+{% include_cached box.html type="start" title="詳細情報" class="simple" %}
 {:/}
 
 * **WCAG**
