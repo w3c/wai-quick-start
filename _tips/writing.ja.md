@@ -39,7 +39,7 @@ acknowledgements: /tips/acknowledgements/
 # Translate the other words, including "Date:" and "Editors:"
 # Translate the Working Group name. Leave the Working Group acronym in English.
 footer: >
-  <p><strong>月日:</strong> Updated 5 August 2022. First published September 2015.</p>
+  ~~<p><strong>月日:</strong> 2022年8月5日アップデート､初版は2015年9月</p>
   <p><strong>編集者:</strong> <a href="https://www.w3.org/People/kevin">Kevin White</a>, <a href="https://www.w3.org/People/shadi">Shadi Abou-Zahra</a>, and <a href="https://www.w3.org/People/Shawn">Shawn Lawton Henry</a>ACKNOWLEDGEMENTS</p>
   <p><a href="https://www.w3.org/WAI/EO/">教育と援助のためのWG (EOWG)</a>によって開発され. <a href="https://www.w3.org/WAI/DEV/">WAI-DEV プロジェクト</a>からのサポートを受けるとともに, ヨーロッパ委員会の <abbr title="Information Society Technologies">IST</abbr> プログラムの援助を受けた.</p>
 
@@ -68,9 +68,9 @@ footer: >
 {% include_cached toc.html type="end" %}
 {:/}
 
-## 分かりやすくユニークなページタイトルを
+## 情報量が多くてユニークなページタイトルを
 
-各ウェブページには､ページの内容を説明し､他のページと区別できる短いタイトルを付けます｡ページタイトルは､そのページの大見出しと同じであることが多い｡例えば､組織名の前にページ名を書くなどです｡複数ステップのプロセスの一部であるページでは､現在のステップをページタイトルに含める｡
+各ウェブページには､ページの内容を説明し､他のページと区別できる短いタイトルを付けます｡ページタイトルは､そのページの大見出しと同じであることが多い｡ユニークで最も関連性の高い情報を最初に持ってくる例えば､組織名の前にページ名を書くなどです｡複数ステップのプロセスの一部であるページでは､現在のステップをページタイトルに含める｡
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="例: ページのタイトル" class="example" %}
