@@ -6,7 +6,7 @@ title: "ウェブ・アクセシビリティを考慮した記述法 – 始め�
 title_html: "ウェブ・アクセシビリティを考慮した記述法"
 nav_title: 始めるためのヒント
 lang: ja  # Change "en" to the translated-language shortcode
-last_updated: 2024-03-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2024-04-16  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 resource:
   ref: /tips/  # Do not change this
@@ -268,7 +268,7 @@ footer: >
 {% include_cached box.html type="end" %}
 {:/}
 
-## 画像に代わる意味のあるテキスト
+## 画像の代わりになる説明文を記述
 
 すべての画像について､その画像の情報や機能を提供する代替テキストを書きましょう｡純粋に装飾的な画像については､代替テキストを書く必要はありません｡
 
