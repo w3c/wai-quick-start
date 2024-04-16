@@ -476,7 +476,7 @@ footer: >
 {:/}
 
 ~~~html
-<nav aria-label="Main Navigation" role="navigation">
+<nav aria-label="主たるナビゲーション" role="navigation">
   <ul>
     <li><a href="...">ホーム</a></li>
     <li><a href="...">ショップ</a></li>
