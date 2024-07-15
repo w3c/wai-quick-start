@@ -1,1 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9d78f377-2636-4771-b395-0e77c28401e5/deploy-status)](https://app.netlify.com/sites/wai-quick-start/deploys)
+> [!IMPORTANT]
+> This repository has been archived 15 July 2024.
+>
+> [Tips for Getting Started](https://www.w3.org/WAI/tips/) resource is now edited in the [wai-website](https://github.com/w3c/wai-website) repository.
